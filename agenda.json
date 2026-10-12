@@ -376,18 +376,6 @@
   "destaque": "Lições"
  },
  {
-  "id": "comeceaqui2026-10-18",
-  "tipo": "STORY",
-  "quando": "2026-10-18T22:30:00-03:00",
-  "midia": [
-   "midia/stories/story_comece_aqui.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Comece aqui (semanal)",
-  "miniatura": "midia/miniaturas/comeceaqui.jpg",
-  "destaque": "Comece aqui"
- },
- {
   "id": "mc-carrossel11",
   "tipo": "CARROSSEL",
   "quando": "2026-10-19T10:00:00-03:00",
@@ -686,18 +674,6 @@
   "miniatura": "midia/miniaturas/story2026-10-25.jpg",
   "titulo": "Versículo: Moisés e a sarça",
   "destaque": "Coragem"
- },
- {
-  "id": "comeceaqui2026-10-25",
-  "tipo": "STORY",
-  "quando": "2026-10-25T22:30:00-03:00",
-  "midia": [
-   "midia/stories/story_comece_aqui.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Comece aqui (semanal)",
-  "miniatura": "midia/miniaturas/comeceaqui.jpg",
-  "destaque": "Comece aqui"
  },
  {
   "id": "post18",
