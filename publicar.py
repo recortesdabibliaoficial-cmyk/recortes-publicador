@@ -74,6 +74,37 @@ class IG:
 
     def publicar(self, cid): return self._req('POST', f'{self.u}/media_publish', creation_id=cid)['id']
 
+    def link(self, mid):
+        try: return self._req('GET', mid, fields='permalink').get('permalink')
+        except Exception: return None
+
+    def recentes(self):
+        campos = 'id,timestamp,media_type,media_product_type,permalink'
+        itens = self._req('GET', f'{self.u}/media', fields=campos, limit=50).get('data', [])
+        try: itens += [dict(s, media_product_type='STORY') for s in self._req('GET', f'{self.u}/stories', fields=campos).get('data', [])]
+        except Exception: pass
+        return itens
+
+
+def conferir_externos(ig, agenda, estado):
+    """Itens agendados fora do publicador (Metricool): confere no Instagram se já saíram e marca como publicados."""
+    agora = datetime.now(timezone.utc)
+    faltam = [i for i in agenda if i.get('via') == 'metricool' and estado.get(i['id'], {}).get('status') != 'publicado'
+              and agora - timedelta(days=3) <= datetime.fromisoformat(i['quando']) <= agora]
+    if not faltam: return
+    try: midias = ig.recentes()
+    except Exception as e: log('AVISO: não consegui conferir as publicações do Metricool:', e); return
+    tipo_ig = {'CARROSSEL': lambda m: m.get('media_type') == 'CAROUSEL_ALBUM', 'REEL': lambda m: m.get('media_product_type') == 'REELS',
+               'STORY': lambda m: m.get('media_product_type') == 'STORY'}
+    usados = {v.get('media_id') for v in estado.values() if isinstance(v, dict)}
+    for item in faltam:
+        q = datetime.fromisoformat(item['quando'])
+        for m in midias:
+            ts = datetime.fromisoformat(m['timestamp'])
+            if m['id'] not in usados and tipo_ig[item['tipo']](m) and q - timedelta(minutes=10) <= ts <= q + timedelta(hours=2):
+                estado[item['id']] = {'status': 'publicado', 'media_id': m['id'], 'em': ts.isoformat(), 'link': m.get('permalink'), 'via': 'metricool'}
+                usados.add(m['id']); log('CONFERIDO (Metricool):', item['id'], m.get('permalink')); break
+
 
 def publicar_item(ig, item, base):
     url = lambda arq: f'{base}/{arq}'
@@ -133,6 +164,7 @@ def main():
     ig = IG(token, user)
     log('Conta:', ig.conta())
     agora = datetime.now(timezone.utc)
+    conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
     agenda = [i for i in agenda if i.get('via', 'api') == 'api']          # itens do Metricool só aparecem na página
     pendentes = [i for i in agenda if estado.get(i['id'], {}).get('status') != 'publicado']
     devidos = [i for i in pendentes if agora - JANELA <= datetime.fromisoformat(i['quando']) <= agora]
@@ -148,7 +180,7 @@ def main():
             log('PULADO (tentativas esgotadas):', item['id']); continue
         try:
             mid = publicar_item(ig, item, base_midia())
-            reg.update(status='publicado', media_id=mid, em=datetime.now(timezone.utc).isoformat())
+            reg.update(status='publicado', media_id=mid, em=datetime.now(timezone.utc).isoformat(), link=ig.link(mid))
             log('PUBLICADO:', item['id'], mid)
         except Exception as e:
             reg['tentativas'] = reg.get('tentativas', 0) + 1

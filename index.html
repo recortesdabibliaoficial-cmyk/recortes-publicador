@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Agenda · Recortes da Bíblia</title>
+<title>Agenda dos canais</title>
 <style>
   :root { --bg:#f6efe4; --card:#fffaf2; --tinta:#3a2418; --suave:#7a6a5c; --linha:#e6d9c6; --terra:#b8604a;
           --ok:#2f7d4f; --okbg:#e3f2e8; --agenda:#8a5a1f; --agbg:#fbefd9; --err:#b3261e; --errbg:#fbe4e1; --mc:#5a5aa0; --mcbg:#ecebf8; }
@@ -39,13 +39,18 @@
   details { margin-top:4px; } summary { cursor:pointer; color:var(--suave); font-size:13px; }
   pre { white-space:pre-wrap; font:13px/1.45 inherit; font-family:inherit; margin:6px 0 0; color:var(--tinta); }
   .erro { color:var(--err); font-size:13px; margin-top:4px; word-break:break-word; }
+  .abas { display:flex; gap:4px; margin:0 0 14px; border-bottom:1px solid var(--linha); }
+  .abas button { border:0; background:none; color:var(--suave); font:600 15px system-ui, sans-serif; padding:8px 12px; cursor:pointer; border-bottom:3px solid transparent; }
+  .abas button.ativo { color:var(--tinta); border-color:var(--terra); }
+  .link { font-size:13px; color:var(--terra); text-decoration:none; margin-left:2px; }
   footer { max-width:880px; margin:auto; padding:0 16px 30px; color:var(--suave); font-size:12px; }
 </style>
 </head>
 <body>
 <header>
+  <div class="abas" id="abas"></div>
   <h1>Agenda de publicações</h1>
-  <div class="sub">@recortesdabiblia.oficial · atualiza sozinha depois de cada publicação · <span id="atual"></span></div>
+  <div class="sub"><span id="handle"></span> · atualiza sozinha depois de cada publicação · <span id="atual"></span></div>
   <div class="resumo" id="resumo"></div>
   <div class="filtros" id="filtros">
     <button data-f="todos" class="ativo">Tudo</button>
@@ -56,17 +61,22 @@
   </div>
 </header>
 <main id="lista">Carregando…</main>
-<footer>Selos: <b>Publicado</b> (já saiu pelo publicador) · <b>Agendado</b> (vai sair no horário) · <b>Metricool</b> (agendado lá, antes da troca para a API) · <b>Erro</b> (o Claude precisa ver).</footer>
+<footer>Selos: <b>Publicado</b> (já saiu pelo publicador) · <b>Agendado</b> (vai sair no horário) · <b>Metricool</b> (agendado lá, antes da troca para a API; vira Publicado quando o publicador confere no Instagram) · <b>Erro</b> (o Claude precisa ver).</footer>
 <script>
 const TIPOS = { CARROSSEL:'Carrossel', REEL:'Reel', STORY:'Story' };
+const CANAIS = [
+  { id:'biblia', nome:'Recortes da Bíblia', handle:'@recortesdabiblia.oficial', base:'/recortes-publicador/' },
+  { id:'curiosidades', nome:'Curiosidades em Papel', handle:'@curiosidadesempapel', base:'/curiosidades-publicador/' },
+];
 let itens = [], filtro = 'todos';
+let canal = CANAIS.find(c => '#'+c.id === location.hash) || CANAIS.find(c => location.pathname.startsWith(c.base)) || CANAIS[0];
 function fmtDia(d){ return d.toLocaleDateString('pt-BR',{weekday:'long', day:'2-digit', month:'2-digit', timeZone:'America/Sao_Paulo'}); }
 function fmtHora(d){ return d.toLocaleTimeString('pt-BR',{hour:'2-digit', minute:'2-digit', timeZone:'America/Sao_Paulo'}); }
 function chaveDia(d){ return d.toLocaleDateString('sv-SE',{timeZone:'America/Sao_Paulo'}); }
 function status(i, est, agora){
-  if (i.via === 'metricool') return ['Metricool','mc'];
   const e = est[i.id] || {};
   if (e.status === 'publicado') return ['Publicado','ok'];
+  if (i.via === 'metricool') return new Date(i.quando) < agora - 3*3600e3 ? ['Não confirmado','err'] : ['Metricool','mc'];
   if (e.ultimo_erro) return ['Erro','err'];
   if (new Date(i.quando) < agora - 12*3600e3) return ['Não publicado','err'];
   return ['Agendado','ag'];
@@ -83,9 +93,9 @@ function desenhar(){
     return `<section class="dia ${k===hoje?'hoje':''}"><h2>${fmtDia(d)}</h2>` + dias[k].map(i => {
       const [rot, cls] = i._st, q = new Date(i.quando);
       return `<div class="item ${i.tipo.toLowerCase()}">
-        <img loading="lazy" src="${i.miniatura}" alt="">
+        <img loading="lazy" src="${canal.base}${i.miniatura}" alt="">
         <div class="meio">
-          <div class="linha1"><span class="hora">${fmtHora(q)}</span><span class="tipo">${TIPOS[i.tipo]||i.tipo}</span><span class="pill ${cls}">${rot}</span></div>
+          <div class="linha1"><span class="hora">${fmtHora(q)}</span><span class="tipo">${TIPOS[i.tipo]||i.tipo}</span><span class="pill ${cls}">${rot}</span>${i._link ? `<a class="link" href="${i._link}" target="_blank" rel="noopener">ver no Instagram ↗</a>` : ''}</div>
           <div class="titulo">${esc(i.titulo||'')}</div>
           ${i._erro ? `<div class="erro">${esc(i._erro)}</div>` : ''}
           ${i.legenda ? `<details><summary>Ver legenda</summary><pre>${esc(i.legenda)}</pre></details>` : ''}
@@ -95,20 +105,27 @@ function desenhar(){
 }
 async function carregar(){
   const nc = '?t=' + Date.now();
-  const [ag, est] = await Promise.all([fetch('agenda.json'+nc).then(r=>r.json()), fetch('estado.json'+nc).then(r=>r.json()).catch(()=>({}))]);
+  document.getElementById('handle').textContent = canal.handle;
+  document.getElementById('abas').innerHTML = CANAIS.map(c => `<button data-c="${c.id}" class="${c===canal?'ativo':''}">${c.nome}</button>`).join('');
+  document.getElementById('lista').textContent = 'Carregando…';
+  const [ag, est] = await Promise.all([fetch(canal.base+'agenda.json'+nc).then(r=>r.json()).catch(()=>[]), fetch(canal.base+'estado.json'+nc).then(r=>r.json()).catch(()=>({}))]);
   const agora = new Date();
-  itens = ag.sort((a,b)=>a.quando.localeCompare(b.quando)).map(i => ({...i, _st: status(i, est, agora), _erro: (est[i.id]||{}).ultimo_erro}));
+  itens = ag.sort((a,b)=>a.quando.localeCompare(b.quando)).map(i => ({...i, _st: status(i, est, agora), _erro: (est[i.id]||{}).ultimo_erro, _link: (est[i.id]||{}).link}));
   const c = k => itens.filter(i => i._st[1]===k).length;
   document.getElementById('resumo').innerHTML =
-    `<span class="pill ok">${c('ok')} publicados</span><span class="pill ag">${c('ag')} agendados</span><span class="pill mc">${c('mc')} no Metricool</span>` +
+    `<span class="pill ok">${c('ok')} publicados</span><span class="pill ag">${c('ag')} agendados</span>` + (c('mc') ? `<span class="pill mc">${c('mc')} no Metricool</span>` : '') +
     (c('err') ? `<span class="pill err">${c('err')} com erro</span>` : '');
   const fim = itens.length ? new Date(itens[itens.length-1].quando) : null;
-  document.getElementById('atual').textContent = fim ? 'agenda até ' + fim.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo'}) : '';
+  document.getElementById('atual').textContent = fim ? 'agenda até ' + fim.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo'}) : 'ainda sem posts agendados';
   desenhar();
 }
 document.getElementById('filtros').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   filtro = b.dataset.f; document.querySelectorAll('#filtros button').forEach(x => x.classList.toggle('ativo', x===b)); desenhar();
+});
+document.getElementById('abas').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  canal = CANAIS.find(c => c.id === b.dataset.c); history.replaceState(null, '', '#' + canal.id); carregar();
 });
 carregar();
 </script>
