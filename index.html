@@ -97,7 +97,7 @@ function status(i, est, agora){
 function esc(s){ return (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
 function desenhar(){
   const agora = new Date(), hoje = chaveDia(agora);
-  const lista = itens.filter(i => filtro==='todos' || (filtro==='futuro' ? new Date(i.quando) >= agora - 3600e3 : i.tipo===filtro));
+  const lista = itens.filter(i => filtro==='todos' || (filtro==='futuro' ? (i._st[1] !== 'ok' && new Date(i.quando) >= agora - 3600e3) : i.tipo===filtro));
   const dias = {};
   lista.forEach(i => { (dias[chaveDia(new Date(i.quando))] ||= []).push(i); });
   const el = document.getElementById('lista');
