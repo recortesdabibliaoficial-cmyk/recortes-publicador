@@ -30,7 +30,8 @@
   ],
   "fixo": true,
   "titulo": "Comece aqui (para o destaque)",
-  "miniatura": "midia/miniaturas/comeceaqui.jpg"
+  "miniatura": "midia/miniaturas/comeceaqui.jpg",
+  "destaque": "Comece aqui"
  },
  {
   "id": "mc-carrossel03",
@@ -73,7 +74,8 @@
    "midia/stories/story_2026-10-12_versiculo_post01.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-12.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Coragem"
  },
  {
   "id": "story2026-10-12-post02",
@@ -85,7 +87,8 @@
   "post": "02",
   "titulo_story": true,
   "miniatura": "midia/miniaturas/story2026-10-12-post02.jpg",
-  "titulo": "Versículo do post"
+  "titulo": "Versículo do post",
+  "destaque": "Parábolas"
  },
  {
   "id": "story2026-10-12-post03",
@@ -97,7 +100,8 @@
   "post": "03",
   "titulo_story": true,
   "miniatura": "midia/miniaturas/story2026-10-12-post03.jpg",
-  "titulo": "Versículo do post"
+  "titulo": "Versículo do post",
+  "destaque": "Esperança"
  },
  {
   "id": "story2026-10-12-post04",
@@ -109,7 +113,8 @@
   "post": "04",
   "titulo_story": true,
   "miniatura": "midia/miniaturas/story2026-10-12-post04.jpg",
-  "titulo": "Versículo do post"
+  "titulo": "Versículo do post",
+  "destaque": "Coragem"
  },
  {
   "id": "mc-carrossel05",
@@ -201,7 +206,8 @@
    "midia/stories/story_2026-10-14_versiculo_post06.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-14.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Esperança"
  },
  {
   "id": "mc-carrossel07",
@@ -247,7 +253,8 @@
    "midia/stories/story_2026-10-15_versiculo_post07.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-15.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Parábolas"
  },
  {
   "id": "mc-carrossel08",
@@ -279,7 +286,8 @@
    "midia/stories/story_2026-10-16_versiculo_post08.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-16.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Esperança"
  },
  {
   "id": "mc-carrossel09",
@@ -333,7 +341,8 @@
   "nota": "Pedido de oração",
   "post": null,
   "miniatura": "midia/miniaturas/mc-oracao2026-10-18.jpg",
-  "titulo": "Pedido de oração"
+  "titulo": "Pedido de oração",
+  "destaque": "Orações"
  },
  {
   "id": "mc-reel10",
@@ -386,7 +395,8 @@
    "midia/stories/story_2026-10-19_versiculo_post11.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-19.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Coragem"
  },
  {
   "id": "post12",
@@ -455,7 +465,8 @@
    "midia/stories/story_2026-10-21_versiculo_post13.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-21.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Esperança"
  },
  {
   "id": "post14",
@@ -496,7 +507,8 @@
    "midia/stories/story_2026-10-22_versiculo_post14.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-22.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Coragem"
  },
  {
   "id": "post15",
@@ -537,7 +549,8 @@
    "midia/stories/story_2026-10-23_versiculo_post15.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-23.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Esperança"
  },
  {
   "id": "post16",
@@ -578,7 +591,8 @@
    "midia/stories/story_2026-10-24_versiculo_post16.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-24.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Coragem"
  },
  {
   "id": "post17",
@@ -606,7 +620,8 @@
    "midia/stories/story_oracao.jpg"
   ],
   "miniatura": "midia/miniaturas/oracao2026-10-25.jpg",
-  "titulo": "Pedido de oração"
+  "titulo": "Pedido de oração",
+  "destaque": "Orações"
  },
  {
   "id": "reel16",
@@ -629,7 +644,8 @@
    "midia/stories/story_2026-10-25_versiculo_post17.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-25.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Coragem"
  },
  {
   "id": "post18",
@@ -670,7 +686,8 @@
    "midia/stories/story_2026-10-26_versiculo_post18.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-26.jpg",
-  "titulo": "Versículo do dia"
+  "titulo": "Versículo do dia",
+  "destaque": "Parábolas"
  },
  {
   "id": "post19",

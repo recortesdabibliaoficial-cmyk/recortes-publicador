@@ -43,6 +43,17 @@
   .abas button { border:0; background:none; color:var(--suave); font:600 15px system-ui, sans-serif; padding:8px 12px; cursor:pointer; border-bottom:3px solid transparent; }
   .abas button.ativo { color:var(--tinta); border-color:var(--terra); }
   .link { font-size:13px; color:var(--terra); text-decoration:none; margin-left:2px; }
+  #tarefas { max-width:880px; margin:16px auto 0; padding:0 16px; }
+  .caixa { background:var(--card); border:1px solid var(--linha); border-radius:12px; padding:12px 14px; }
+  .caixa h2 { font-size:16px; margin:0 0 6px; display:flex; justify-content:space-between; align-items:center; gap:8px; }
+  .caixa h2 button { border:0; background:none; color:var(--suave); font-size:12px; cursor:pointer; }
+  .tarefa { display:flex; gap:10px; align-items:flex-start; padding:8px 0; border-top:1px solid var(--linha); font-size:14px; }
+  .tarefa:first-of-type { border-top:0; }
+  .tarefa input { width:20px; height:20px; margin-top:1px; flex:none; accent-color:var(--terra); }
+  .tarefa.feita span { text-decoration:line-through; color:var(--suave); }
+  .tarefa small { display:block; color:var(--suave); font-size:12px; margin-top:2px; }
+  .nada { color:var(--suave); font-size:14px; }
+  .abas .n { background:var(--terra); color:#fff; border-radius:99px; font-size:11px; padding:1px 6px; margin-left:4px; }
   footer { max-width:880px; margin:auto; padding:0 16px 30px; color:var(--suave); font-size:12px; }
 </style>
 </head>
@@ -60,6 +71,7 @@
     <button data-f="STORY">Stories</button>
   </div>
 </header>
+<section id="tarefas"></section>
 <main id="lista">Carregando…</main>
 <footer>Selos: <b>Publicado</b> (já saiu pelo publicador) · <b>Agendado</b> (vai sair no horário) · <b>Metricool</b> (agendado lá, antes da troca para a API; vira Publicado quando o publicador confere no Instagram) · <b>Erro</b> (o Claude precisa ver).</footer>
 <script>
@@ -68,7 +80,8 @@ const CANAIS = [
   { id:'biblia', nome:'Recortes da Bíblia', handle:'@recortesdabiblia.oficial', base:'/recortes-publicador/' },
   { id:'curiosidades', nome:'Curiosidades em Papel', handle:'@curiosidadesempapel', base:'/curiosidades-publicador/' },
 ];
-let itens = [], filtro = 'todos';
+let itens = [], filtro = 'todos', manuais = [], verFeitas = false;
+const LS = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { v ? localStorage.setItem(k,'1') : localStorage.removeItem(k); } catch(e){} } };
 let canal = CANAIS.find(c => '#'+c.id === location.hash) || CANAIS.find(c => location.pathname.startsWith(c.base)) || CANAIS[0];
 function fmtDia(d){ return d.toLocaleDateString('pt-BR',{weekday:'long', day:'2-digit', month:'2-digit', timeZone:'America/Sao_Paulo'}); }
 function fmtHora(d){ return d.toLocaleTimeString('pt-BR',{hour:'2-digit', minute:'2-digit', timeZone:'America/Sao_Paulo'}); }
@@ -103,12 +116,47 @@ function desenhar(){
     }).join('') + '</section>';
   }).join('') || '<p>Nada para mostrar neste filtro.</p>';
 }
+function tarefas(){
+  // Tarefas que só o Felipe pode fazer no app: aparecem quando o Story já foi publicado.
+  const lista = manuais.map(m => ({ id:'m-'+m.id, txt:m.texto, det:m.detalhe||'' }));
+  const vistos = {};
+  itens.filter(i => i.destaque && i._st[1]==='ok').forEach(i => {
+    const q = new Date(i.quando), quando = q.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}) + ' ' + fmtHora(q);
+    const velho = Date.now() - q > 24*3600e3 ? ' Como já passou de 24 h, ele está em Perfil → ☰ → Arquivo → Stories.' : '';
+    const nome = i.titulo || 'Story';
+    if (!vistos[i.destaque]) {
+      vistos[i.destaque] = 1;
+      lista.push({ id:'d-'+i.id, txt:`Criar o destaque «${i.destaque}» com o Story «${nome}» (${quando})`,
+        det:`Perfil → Novo (+) → escolha esse Story → Editar capa → capa «destaque - ${i.destaque}» (pasta de destaques no Drive) → nome ${i.destaque}.` + velho });
+    } else {
+      lista.push({ id:'d-'+i.id, txt:`Adicionar o Story «${nome}» (${quando}) ao destaque «${i.destaque}»`,
+        det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho });
+    }
+  });
+  return lista;
+}
+function desenharTarefas(){
+  const ts = tarefas(), chave = id => 'feito:' + canal.id + ':' + id;
+  const pend = ts.filter(t => !LS.get(chave(t.id)));
+  const mostrar = verFeitas ? ts : pend;
+  document.getElementById('tarefas').innerHTML = `<div class="caixa"><h2><span>✅ Para você fazer (${pend.length})</span>` +
+    (ts.length > pend.length ? `<button id="verFeitas">${verFeitas ? 'esconder feitas' : 'ver feitas'}</button>` : '') + '</h2>' +
+    (mostrar.length ? mostrar.map(t => `<label class="tarefa ${LS.get(chave(t.id))?'feita':''}"><input type="checkbox" data-t="${t.id}" ${LS.get(chave(t.id))?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}</small></span></label>`).join('')
+      : '<div class="nada">Nada pendente agora. Novas tarefas aparecem aqui quando os Stories forem publicados.</div>') + '</div>';
+  const b = document.querySelector('.abas button.ativo'); if (b) b.innerHTML = canal.nome + (pend.length ? `<span class="n">${pend.length}</span>` : '');
+}
+document.addEventListener('change', e => {
+  if (e.target.dataset && e.target.dataset.t) { LS.set('feito:' + canal.id + ':' + e.target.dataset.t, e.target.checked); desenharTarefas(); }
+});
+document.addEventListener('click', e => { if (e.target.id === 'verFeitas') { verFeitas = !verFeitas; desenharTarefas(); } });
 async function carregar(){
   const nc = '?t=' + Date.now();
   document.getElementById('handle').textContent = canal.handle;
   document.getElementById('abas').innerHTML = CANAIS.map(c => `<button data-c="${c.id}" class="${c===canal?'ativo':''}">${c.nome}</button>`).join('');
   document.getElementById('lista').textContent = 'Carregando…';
-  const [ag, est] = await Promise.all([fetch(canal.base+'agenda.json'+nc).then(r=>r.json()).catch(()=>[]), fetch(canal.base+'estado.json'+nc).then(r=>r.json()).catch(()=>({}))]);
+  const [ag, est, man] = await Promise.all([fetch(canal.base+'agenda.json'+nc).then(r=>r.json()).catch(()=>[]), fetch(canal.base+'estado.json'+nc).then(r=>r.json()).catch(()=>({})),
+    fetch(canal.base+'tarefas.json'+nc).then(r=>r.json()).catch(()=>[])]);
+  manuais = man;
   const agora = new Date();
   itens = ag.sort((a,b)=>a.quando.localeCompare(b.quando)).map(i => ({...i, _st: status(i, est, agora), _erro: (est[i.id]||{}).ultimo_erro, _link: (est[i.id]||{}).link}));
   const c = k => itens.filter(i => i._st[1]===k).length;
@@ -117,7 +165,7 @@ async function carregar(){
     (c('err') ? `<span class="pill err">${c('err')} com erro</span>` : '');
   const fim = itens.length ? new Date(itens[itens.length-1].quando) : null;
   document.getElementById('atual').textContent = fim ? 'agenda até ' + fim.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo'}) : 'ainda sem posts agendados';
-  desenhar();
+  desenhar(); desenharTarefas();
 }
 document.getElementById('filtros').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
