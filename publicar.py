@@ -215,13 +215,15 @@ def coletar_comentarios(ig, estado, conta):
         if datetime.fromisoformat(reg.get('em', agora.isoformat())) < agora - timedelta(days=14): continue
         try:
             cs = ig._req('GET', f"{reg['media_id']}/comments", fields='id,text,username,timestamp,replies{username}', limit=50).get('data', [])
-        except Exception:
+        except Exception as e:
+            if not iid.startswith(('story', 'comeceaqui', 'oracao', 'mc-oracao')): estado['_comentarios_erro'] = str(e)[:300]
             continue                                                  # Story não tem comentário; outros erros: tenta na próxima
         for c in cs:
             if c.get('username') == eu: continue
             if any(r.get('username') == eu for r in (c.get('replies') or {}).get('data', [])): continue
             pend.append({'id': c['id'], 'item': iid, 'usuario': c.get('username'), 'texto': c.get('text', '')[:300],
                          'quando': c.get('timestamp'), 'link': reg.get('link')})
+    if pend or '_comentarios_erro' not in estado: pass
     salvar(COMENTARIOS, sorted(pend, key=lambda c: c.get('quando') or '')); log(f'Comentários sem resposta: {len(pend)}.')
 
 
