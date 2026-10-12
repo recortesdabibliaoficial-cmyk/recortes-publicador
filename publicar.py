@@ -21,6 +21,8 @@ API = 'https://graph.instagram.com/v25.0'
 AQUI = os.path.dirname(os.path.abspath(__file__))
 AGENDA = os.path.join(AQUI, 'agenda.json')
 ESTADO = os.path.join(AQUI, 'estado.json')
+METRICAS = os.path.join(AQUI, 'metricas.json')
+METRICAS_CADA = timedelta(hours=3)  # de quanto em quanto tempo lê as métricas no Instagram
 JANELA = timedelta(hours=12)        # item atrasado mais que isso não é publicado (evita publicar coisa velha de surpresa)
 MAX_TENTATIVAS = 3
 
@@ -154,6 +156,53 @@ def renovar_token(token, estado):
     return novo
 
 
+# métricas pedidas ao Instagram por tipo de publicação (as que não existirem para um item são ignoradas)
+CAMPOS = {'CARROSSEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions'],
+          'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time'],
+          'STORY': ['reach', 'views', 'replies', 'shares', 'total_interactions']}
+
+
+def _insights(ig, mid, campos):
+    try:
+        dados = ig._req('GET', f'{mid}/insights', metric=','.join(campos)).get('data', [])
+    except Exception:
+        if len(campos) == 1: return {}
+        out = {}                                                        # algum campo não existe para este item: tenta um a um
+        for c in campos: out.update(_insights(ig, mid, [c]))
+        return out
+    out = {}
+    for d in dados:
+        v = d.get('total_value', {}).get('value') if 'total_value' in d else (d.get('values') or [{}])[-1].get('value')
+        if isinstance(v, (int, float)): out[d['name']] = v
+    return out
+
+
+def coletar_metricas(ig, agenda, estado):
+    """Lê no Instagram as métricas dos itens publicados nos últimos 60 dias e o número de seguidores. Nunca derruba a execução."""
+    met = carregar(METRICAS, {})
+    agora = datetime.now(timezone.utc)
+    if met.get('_em') and datetime.fromisoformat(met['_em']) > agora - METRICAS_CADA: return
+    tipos = {i['id']: i['tipo'] for i in agenda}
+    try:
+        conta = ig._req('GET', 'me', fields='followers_count,media_count')
+        hist = met.setdefault('_seguidores', [])
+        dia = agora.date().isoformat()
+        if hist and hist[-1]['dia'] == dia: hist[-1]['n'] = conta.get('followers_count')
+        else: hist.append({'dia': dia, 'n': conta.get('followers_count')})
+    except Exception as e:
+        log('AVISO métricas (conta):', str(e)[:200])
+    lidos = 0
+    for iid, reg in estado.items():
+        if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id') or iid not in tipos: continue
+        quando = datetime.fromisoformat(reg.get('em', agora.isoformat()))
+        if quando < agora - timedelta(days=60): continue
+        if tipos[iid] == 'STORY' and quando < agora - timedelta(hours=24) and iid in met: continue   # Story some em 24 h: guarda a última leitura
+        m = _insights(ig, reg['media_id'], CAMPOS.get(tipos[iid], ['reach']))
+        if m: met[iid] = dict(m, lido_em=agora.isoformat()); lidos += 1
+    met['_em'] = agora.isoformat()
+    salvar(METRICAS, met); log(f'Métricas lidas: {lidos} itens.')
+
+
 def main():
     teste = '--teste' in sys.argv
     token, user = os.environ.get('IG_TOKEN'), os.environ.get('IG_USER_ID')
@@ -165,6 +214,8 @@ def main():
     log('Conta:', ig.conta())
     agora = datetime.now(timezone.utc)
     conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
+    try: coletar_metricas(ig, agenda, estado)
+    except Exception as e: log('AVISO: não consegui ler as métricas:', str(e)[:300])
     agenda = [i for i in agenda if i.get('via', 'api') == 'api']          # itens do Metricool só aparecem na página
     pendentes = [i for i in agenda if estado.get(i['id'], {}).get('status') != 'publicado']
     devidos = [i for i in pendentes if agora - JANELA <= datetime.fromisoformat(i['quando']) <= agora]
