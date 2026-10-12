@@ -118,7 +118,7 @@ function desenharPainel(){
     <div class="num"><b>${fmtN(soma(sete, 'saved'))}</b><span>salvamentos</span></div>
     <div class="num"><b>${fmtN(soma(sete, 'shares'))}</b><span>compartilhamentos</span></div></div>` +
     (melhor ? `<div class="top">🏆 Melhor da semana: <b>${esc(melhor.titulo||'')}</b> (${TIPOS[melhor.tipo]}) · ${fmtN(met[melhor.id].reach)} de alcance</div>` : '') +
-    `<div class="met">Atualiza a cada 3 horas, direto do Instagram${met._em ? ' · última leitura ' + new Date(met._em).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}) : ''}.</div></div>`;
+    `<div class="met">Atualiza a cada hora, direto do Instagram${met._em ? ' · última leitura ' + new Date(met._em).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}) : ''}.</div></div>`;
 }
 const LS = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { v ? localStorage.setItem(k,'1') : localStorage.removeItem(k); } catch(e){} } };
 let canal = CANAIS.find(c => '#'+c.id === location.hash) || CANAIS.find(c => location.pathname.startsWith(c.base)) || CANAIS[0];
