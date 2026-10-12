@@ -1,5 +1,305 @@
 [
  {
+  "id": "mc-carrossel01",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-12T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já sentiu medo do tamanho do seu problema?\n\n😟 A demissão que chegou sem aviso.\n📚 A apresentação na frente da turma inteira.\n⚽ A final do campeonato, com todo mundo olhando.\n🏥 O resultado de um exame que não sai da cabeça.\n💸 O dinheiro que acaba antes do mês.\n\nTodo mundo tem um gigante na frente em algum momento.\n\nDavi também teve. Era só um menino, e todos achavam que ele ia perder. Mas ele lembrou de tudo o que Deus já tinha feito por ele e não enfrentou o gigante sozinho.\n\nCom a gente é igual. Deus não some quando o problema aparece. Ele está do nosso lado na sala de espera, na entrevista, no campo e no fim do mês. O problema pode continuar grande. Mas você não está sozinho diante dele.\n\n📜 O versículo (1 Samuel 17:47)\nDavi disse essas palavras a Golias logo antes da luta, na frente dos dois exércitos. Ele quis dizer que a vitória não depende de espada, de lança nem de tamanho, porque a batalha pertence a Deus. A intenção era que todos ali soubessem de onde viria a vitória: não da força de um menino, mas de Deus. Para nós, fica o lembrete de que ninguém enfrenta os seus gigantes sozinho.\n\nQual gigante você está enfrentando hoje? Escreve aqui, e vamos orar uns pelos outros. 🙏\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #davi #coragem",
+  "post": "01",
+  "miniatura": "midia/miniaturas/mc-carrossel01.jpg",
+  "titulo": "Davi e Golias"
+ },
+ {
+  "id": "mc-carrossel02",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-12T12:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já se sentiu perdido e esquecido?\n\n😶 Aquele dia em que ninguém lembrou de você.\n🏠 A sensação de não pertencer a lugar nenhum.\n📱 Ver todo mundo bem enquanto você não está.\n💔 Achar que já se afastou demais.\n🌧️ Se sentir só no meio de muita gente.\n\nJesus contou a história de um pastor que tinha cem ovelhas. Quando uma se perdeu, ele deixou as outras noventa e nove e foi atrás da que se perdeu. E quando a encontrou, voltou para casa fazendo festa.\n\nVocê não é só mais um na multidão. Para Deus, você tem nome e tem valor. Ele não desiste de ir atrás de você, e Jesus conta que há festa no céu por cada pessoa que volta.\n\nSe a solidão estiver pesando, conversa com alguém de confiança ou procura ajuda profissional. Você não precisa passar por isso sozinho.\n\n📜 O versículo (Lucas 15:4)\nJesus fez essa pergunta para pessoas que o criticavam por andar com quem era considerado pecador. A resposta era óbvia: qualquer pastor iria atrás da ovelha perdida. A intenção de Jesus era mostrar que Deus faz o mesmo. Ele não espera a pessoa voltar sozinha, vai atrás dela, e faz festa quando a encontra.\n\nVocê conhece alguém que precisa ouvir isso hoje? Envia esse post para essa pessoa. 💛\n\n📖 Lucas 15:3-7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ovelhaperdida #amordedeus",
+  "post": "02",
+  "miniatura": "midia/miniaturas/mc-carrossel02.jpg",
+  "titulo": "A ovelha perdida"
+ },
+ {
+  "id": "mc-carrossel03",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-12T15:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já foi magoado por quem mais amava?\n\n👨‍👩‍👧 Uma briga de família que ainda dói.\n🤝 Um amigo que te deixou na mão.\n💬 Palavras que você não esquece.\n💼 Alguém que te passou para trás no trabalho.\n🔒 Uma mágoa guardada há anos.\n\nJosé foi traído pelos próprios irmãos. Eles o jogaram num poço e o venderam. Anos depois, quando José já era governador do Egito, os mesmos irmãos apareceram pedindo ajuda. E José escolheu perdoar.\n\nPerdoar não é dizer que não doeu. É deixar Deus cuidar daquilo que a gente não consegue resolver sozinho. Ele transforma até o que era para o mal.\n\nPerdoar não significa voltar a conviver com quem continua te ferindo. Em caso de abuso ou violência, procura ajuda.\n\n📜 O versículo (Gênesis 50:20)\nJosé disse isso aos irmãos depois que o pai deles morreu, quando eles tinham medo de que José se vingasse. Em palavras de hoje: \"Vocês planejaram o mal contra mim, mas Deus transformou isso em bem, para salvar muitas vidas.\" A intenção de José era tranquilizar os irmãos e confirmar o perdão. Ele não fingiu que não doeu, mas enxergou a mão de Deus até no sofrimento.\n\nTem alguém que você precisa perdoar? Escreve só \"eu escolho perdoar\" aqui embaixo. 🙏\n\n📖 Gênesis 37 a 50 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jose #perdao",
+  "post": "03",
+  "miniatura": "midia/miniaturas/mc-carrossel03.jpg",
+  "titulo": "José perdoa os irmãos"
+ },
+ {
+  "id": "mc-carrossel04",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-12T18:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você continua orando mesmo quando tudo parece contra você?\n\n🌙 Quando a resposta demora a chegar.\n😒 Quando debocham da sua fé.\n🏢 Quando ser honesto parece não compensar.\n🌀 Quando os problemas vêm todos de uma vez.\n🙇 Quando dá vontade de desistir de orar.\n\nDaniel orava três vezes por dia. Homens invejosos convenceram o rei a criar uma lei: por trinta dias, ninguém podia fazer pedidos a nenhum deus nem a ninguém, só ao rei. Mesmo assim, Daniel continuou orando. Foi jogado na cova dos leões. Na manhã seguinte, estava vivo.\n\nDeus nem sempre tira a gente da cova. Mas Ele está lá dentro com a gente. Continua orando.\n\n📜 O versículo (Daniel 6:22)\nFoi a resposta de Daniel ao rei, de manhã, ainda de dentro da cova. Ele contou que Deus fechou a boca dos leões porque ele era inocente e nunca tinha feito nada contra o rei. A intenção de Daniel era dar a Deus o crédito pela vida dele e mostrar que não desobedeceu por rebeldia: ele só não parou de orar.\n\nQue motivo de oração você tem hoje? Escreve aqui, e vamos orar uns pelos outros. 🙏\n\n📖 Daniel 6 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #daniel #oracao",
+  "post": "04",
+  "miniatura": "midia/miniaturas/mc-carrossel04.jpg",
+  "titulo": "Daniel na cova dos leões"
+ },
+ {
+  "id": "mc-reel01",
+  "tipo": "REEL",
+  "quando": "2026-10-12T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já sentiu medo do tamanho do seu problema?\n\n📜 O versículo (1 Samuel 17:47)\nDavi disse essas palavras a Golias logo antes da luta, na frente dos dois exércitos. Ele quis dizer que a vitória não depende de espada, de lança nem de tamanho, porque a batalha pertence a Deus. A intenção era que todos ali soubessem de onde viria a vitória: não da força de um menino, mas de Deus. Para nós, fica o lembrete de que ninguém enfrenta os seus gigantes sozinho.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #davi #coragem",
+  "post": "01",
+  "miniatura": "midia/miniaturas/mc-reel01.jpg",
+  "titulo": "Davi e Golias"
+ },
+ {
+  "id": "story2026-10-12",
+  "tipo": "STORY",
+  "quando": "2026-10-12T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-12_versiculo_post01.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-12.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
+  "id": "mc-carrossel05",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-13T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Quando foi a última vez que você agradeceu a Deus?\n\n☀️ Por acordar hoje.\n🍞 Pela comida na mesa.\n👪 Pelas pessoas que estão do seu lado.\n💪 Pela força que te trouxe até aqui.\n🩺 Por uma oração que já foi respondida.\n\nDez homens doentes pediram ajuda a Jesus, e todos foram curados no caminho. Nove seguiram a vida. Só um voltou para agradecer.\n\nÀs vezes a gente pede muito e agradece pouco. A gratidão muda o jeito como a gente enxerga a própria vida. Hoje, seja aquele que volta.\n\n📜 O versículo (Lucas 17:15)\nLucas destaca que só um dos dez, ao perceber que estava curado, voltou louvando a Deus em voz alta. E esse era um samaritano, um estrangeiro desprezado naquela época. A intenção do texto é mostrar que gratidão é uma atitude: voltar até quem nos ajudou. E quem parecia menos provável foi justamente quem agradeceu.\n\nDiz aqui nos comentários uma coisa pela qual você é grato hoje. 💛\n\n📖 Lucas 17:11-19 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gratidao #jesus",
+  "post": "05",
+  "miniatura": "midia/miniaturas/mc-carrossel05.jpg",
+  "titulo": "Os dez leprosos"
+ },
+ {
+  "id": "mc-reel05",
+  "tipo": "REEL",
+  "quando": "2026-10-13T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Quando foi a última vez que você agradeceu a Deus?\n\n📜 O versículo (Lucas 17:15)\nLucas destaca que só um dos dez, ao perceber que estava curado, voltou louvando a Deus em voz alta. E esse era um samaritano, um estrangeiro desprezado naquela época. A intenção do texto é mostrar que gratidão é uma atitude: voltar até quem nos ajudou. E quem parecia menos provável foi justamente quem agradeceu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 17:11-19 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gratidao #jesus",
+  "post": "05",
+  "miniatura": "midia/miniaturas/mc-reel05.jpg",
+  "titulo": "Os dez leprosos"
+ },
+ {
+  "id": "story2026-10-13",
+  "tipo": "STORY",
+  "quando": "2026-10-13T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-13_versiculo_post05.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-13.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
+  "id": "mc-carrossel06",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-14T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você acha que já errou demais para recomeçar?\n\n🏃 Fugiu de algo que sabia que devia fazer.\n😔 Decepcionou quem confiava em você.\n🔁 Repetiu o mesmo erro mais uma vez.\n🚪 Fechou portas que hoje fazem falta.\n🤐 Tem vergonha de voltar atrás.\n\nDeus pediu a Jonas que fosse a Nínive, e ele fugiu na direção contrária. Veio a tempestade, o mar, o grande peixe. Lá dentro, Jonas orou. E Deus falou com ele pela segunda vez.\n\nDessa vez Jonas foi. Nínive ouviu a mensagem, e Deus teve compaixão da cidade.\n\nO seu erro não é maior que o amor de Deus. Ele é o Deus da segunda chance, e da terceira, e da quarta.\n\n📜 O versículo (Jonas 3:1-2)\nDepois do peixe, Deus falou com Jonas pela segunda vez, com a mesma missão de antes: ir a Nínive. A intenção desse versículo é mostrar que Deus não cancelou o chamado de Jonas porque ele fugiu. Ele repetiu o convite. A segunda chance não é um plano B, é o mesmo amor insistindo.\n\nSe você precisava ler isso hoje, comenta \"recomeço\". 🌱\n\n📖 Jonas 1 a 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jonas #recomeco",
+  "post": "06",
+  "miniatura": "midia/miniaturas/mc-carrossel06.jpg",
+  "titulo": "Jonas"
+ },
+ {
+  "id": "mc-reel06",
+  "tipo": "REEL",
+  "quando": "2026-10-14T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você acha que já errou demais para recomeçar?\n\n📜 O versículo (Jonas 3:1-2)\nDepois do peixe, Deus falou com Jonas pela segunda vez, com a mesma missão de antes: ir a Nínive. A intenção desse versículo é mostrar que Deus não cancelou o chamado de Jonas porque ele fugiu. Ele repetiu o convite. A segunda chance não é um plano B, é o mesmo amor insistindo.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Jonas 1 a 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jonas #recomeco",
+  "post": "06",
+  "miniatura": "midia/miniaturas/mc-reel06.jpg",
+  "titulo": "Jonas"
+ },
+ {
+  "id": "story2026-10-14",
+  "tipo": "STORY",
+  "quando": "2026-10-14T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-14_versiculo_post06.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-14.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
+  "id": "mc-carrossel07",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-15T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já fingiu que não viu alguém precisando de ajuda?\n\n🚶 A pessoa sozinha que você viu e passou direto.\n📞 O amigo que sumiu e você não ligou.\n👵 O vizinho que precisa de uma mão.\n🧥 Alguém com frio na rua.\n💬 Aquela mensagem que você deixou para depois.\n\nUm professor da lei, um estudioso das leis de Deus, perguntou a Jesus: \"Quem é o meu próximo?\", ou seja, quem ele deveria amar e ajudar. Jesus respondeu com uma história. Um homem foi assaltado e deixado ferido na estrada. Dois religiosos viram e passaram pelo outro lado. Quem parou foi um samaritano, alguém de um povo vizinho, rival dos judeus. Ele cuidou do homem e pagou a pousada.\n\nAmar o próximo é parar. Ajudar quem está do nosso lado, mesmo quando não é conveniente. Deus usa as nossas mãos.\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\nMarca aqui alguém que já foi um \"bom samaritano\" na sua vida. 🤝\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
+  "post": "07",
+  "miniatura": "midia/miniaturas/mc-carrossel07.jpg",
+  "titulo": "O bom samaritano"
+ },
+ {
+  "id": "mc-reel07",
+  "tipo": "REEL",
+  "quando": "2026-10-15T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já fingiu que não viu alguém precisando de ajuda?\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
+  "post": "07",
+  "miniatura": "midia/miniaturas/mc-reel07.jpg",
+  "titulo": "O bom samaritano"
+ },
+ {
+  "id": "story2026-10-15",
+  "tipo": "STORY",
+  "quando": "2026-10-15T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-15_versiculo_post07.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-15.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
+  "id": "mc-carrossel08",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-16T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você está passando por uma tempestade que parece não ter fim?\n\n🌧️ Um problema que se arrasta há meses.\n🏥 Um tratamento longo.\n💸 Contas que não fecham.\n💔 Um luto que ainda dói.\n⏳ A espera por uma resposta que não chega.\n\nNoé construiu a arca exatamente como Deus mandou, quando ainda não havia nenhum sinal de chuva. Depois veio a chuva: quarenta dias e quarenta noites. Mas um dia a pomba voltou com uma folha de oliveira no bico, e Deus colocou um arco-íris no céu.\n\nA Bíblia conta que, no meio daquela água toda, Deus se lembrou de Noé (Gênesis 8:1). Ele não esquece quem está atravessando a tempestade.\n\nSe a dor estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📜 O versículo (Gênesis 9:13)\nDeus falou essas palavras a Noé e aos filhos dele depois do dilúvio. O arco-íris passou a ser o sinal de uma aliança, ou seja, de uma promessa: Deus nunca mais destruiria a terra com um dilúvio. A intenção era deixar um lembrete visível de que Deus cumpre o que promete. Toda vez que aparece um arco-íris depois da chuva, a gente lembra que Ele é fiel.\n\nQual tempestade você está atravessando? Conta aqui, e vamos orar por você. 🙏\n\n📖 Gênesis 6 a 9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #noe #esperanca",
+  "post": "08",
+  "miniatura": "midia/miniaturas/mc-carrossel08.jpg",
+  "titulo": "Noé"
+ },
+ {
+  "id": "mc-reel08",
+  "tipo": "REEL",
+  "quando": "2026-10-16T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você está passando por uma tempestade que parece não ter fim?\n\n📜 O versículo (Gênesis 9:13)\nDeus falou essas palavras a Noé e aos filhos dele depois do dilúvio. O arco-íris passou a ser o sinal de uma aliança, ou seja, de uma promessa: Deus nunca mais destruiria a terra com um dilúvio. A intenção era deixar um lembrete visível de que Deus cumpre o que promete. Toda vez que aparece um arco-íris depois da chuva, a gente lembra que Ele é fiel.\n\nSe a dor estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Gênesis 6 a 9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #noe #esperanca",
+  "post": "08",
+  "miniatura": "midia/miniaturas/mc-reel08.jpg",
+  "titulo": "Noé"
+ },
+ {
+  "id": "story2026-10-16",
+  "tipo": "STORY",
+  "quando": "2026-10-16T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-16_versiculo_post08.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-16.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
+  "id": "mc-carrossel09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-17T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você acha que o pouco que tem não vale nada?\n\n⏰ Pouco tempo livre na semana.\n💰 Pouco dinheiro para ajudar alguém.\n🎤 Um talento que você acha pequeno.\n🙏 Uma oração curtinha antes de dormir.\n🤗 Um abraço que parece simples.\n\nNo templo, muitos ricos davam grandes ofertas. Uma viúva pobre deu duas moedinhas. Jesus disse que ela deu mais que todos, porque deu tudo o que tinha.\n\nPara Deus, o valor não está no tamanho do que a gente dá, mas no coração com que a gente dá. O seu pouco, entregue com amor, é muito.\n\n📜 O versículo (Marcos 12:44)\nJesus explicou aos discípulos por que a viúva deu mais que todos: os outros deram o que sobrava, e ela deu tudo o que tinha para viver. A intenção de Jesus era ensinar que Deus olha o coração e o quanto custou dar, e não o tamanho da oferta.\n\nO que você pode oferecer hoje, mesmo que pareça pouco? Conta aqui. 💛\n\n📖 Marcos 12:41-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #generosidade #jesus",
+  "post": "09",
+  "miniatura": "midia/miniaturas/mc-carrossel09.jpg",
+  "titulo": "A oferta da viúva"
+ },
+ {
+  "id": "mc-reel09",
+  "tipo": "REEL",
+  "quando": "2026-10-17T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você acha que o pouco que tem não vale nada?\n\n📜 O versículo (Marcos 12:44)\nJesus explicou aos discípulos por que a viúva deu mais que todos: os outros deram o que sobrava, e ela deu tudo o que tinha para viver. A intenção de Jesus era ensinar que Deus olha o coração e o quanto custou dar, e não o tamanho da oferta.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Marcos 12:41-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #generosidade #jesus",
+  "post": "09",
+  "miniatura": "midia/miniaturas/mc-reel09.jpg",
+  "titulo": "A oferta da viúva"
+ },
+ {
+  "id": "story2026-10-17",
+  "tipo": "STORY",
+  "quando": "2026-10-17T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-17_versiculo_post09.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-17.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
+  "id": "mc-carrossel10",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-18T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Sua cabeça não para nem um minuto?\n\n📋 A lista de tarefas que nunca acaba.\n📱 O celular que não deixa você desligar.\n🏠 Casa, trabalho, filhos, tudo ao mesmo tempo.\n🌙 A noite em que a mente não descansa.\n😮‍💨 O cansaço de ter que dar conta de tudo.\n\nJesus foi visitar Marta e Maria. Maria se sentou para ouvir. Marta corria de um lado para o outro, cansada, e reclamou. Jesus respondeu com carinho: \"Só uma coisa é necessária.\"\n\nNem tudo depende de você. Às vezes, o mais importante é parar, respirar e ficar perto de Deus. Ele cuida do que você não consegue segurar.\n\nSe a ansiedade estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📜 O versículo (Lucas 10:41-42)\nJesus responde a Marta com carinho, chamando o nome dela duas vezes. Em palavras de hoje: \"Marta, você está preocupada e agitada com muitas coisas, mas só uma é necessária. Maria escolheu a melhor parte, e ninguém vai tirar isso dela.\" A intenção de Jesus não era criticar o trabalho de Marta, mas convidá-la a parar e a colocar em primeiro lugar o tempo com Ele.\n\nO que você precisa entregar nas mãos de Deus hoje? Escreve aqui. 🙏\n\n📖 Lucas 10:38-42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #martaemaria #ansiedade",
+  "post": "10",
+  "miniatura": "midia/miniaturas/mc-carrossel10.jpg",
+  "titulo": "Marta e Maria"
+ },
+ {
+  "id": "mc-oracao2026-10-18",
+  "tipo": "STORY",
+  "quando": "2026-10-18T18:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "nota": "Pedido de oração",
+  "post": null,
+  "miniatura": "midia/miniaturas/mc-oracao2026-10-18.jpg",
+  "titulo": "Pedido de oração"
+ },
+ {
+  "id": "mc-reel10",
+  "tipo": "REEL",
+  "quando": "2026-10-18T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Sua cabeça não para nem um minuto?\n\n📜 O versículo (Lucas 10:41-42)\nJesus responde a Marta com carinho, chamando o nome dela duas vezes. Em palavras de hoje: \"Marta, você está preocupada e agitada com muitas coisas, mas só uma é necessária. Maria escolheu a melhor parte, e ninguém vai tirar isso dela.\" A intenção de Jesus não era criticar o trabalho de Marta, mas convidá-la a parar e a colocar em primeiro lugar o tempo com Ele.\n\nSe a ansiedade estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:38-42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #martaemaria #ansiedade",
+  "post": "10",
+  "miniatura": "midia/miniaturas/mc-reel10.jpg",
+  "titulo": "Marta e Maria"
+ },
+ {
+  "id": "story2026-10-18",
+  "tipo": "STORY",
+  "quando": "2026-10-18T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-18_versiculo_post10.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-18.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
+  "id": "mc-carrossel11",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-19T10:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já se perguntou por que está onde está?\n\n🏢 O emprego que você não planejou.\n🏫 A escola ou a cidade onde você foi parar.\n👪 A família que Deus te deu.\n🤝 As pessoas que cruzam o seu caminho.\n🕰️ O momento difícil que você está vivendo agora.\n\nEster era uma moça simples que virou rainha. Quando um homem mau fez um plano contra o povo dela, ela teve medo, porque ir até o rei sem ser chamada podia custar a sua vida. Mesmo assim, Ester orou, criou coragem e falou com o rei. E o povo foi salvo.\n\nNada na sua vida está fora dos planos de Deus. Talvez você esteja exatamente onde precisa estar para fazer a diferença na vida de alguém.\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\nOnde Deus colocou você hoje? Conta aqui nos comentários. 👑\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
+  "post": "11",
+  "miniatura": "midia/miniaturas/mc-carrossel11.jpg",
+  "titulo": "Ester"
+ },
+ {
+  "id": "mc-reel11",
+  "tipo": "REEL",
+  "quando": "2026-10-19T19:00:00-03:00",
+  "via": "metricool",
+  "midia": [],
+  "legenda": "Você já se perguntou por que está onde está?\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
+  "post": "11",
+  "miniatura": "midia/miniaturas/mc-reel11.jpg",
+  "titulo": "Ester"
+ },
+ {
+  "id": "story2026-10-19",
+  "tipo": "STORY",
+  "quando": "2026-10-19T21:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-19_versiculo_post11.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-19.jpg",
+  "titulo": "Versículo do dia"
+ },
+ {
   "id": "post12",
   "tipo": "CARROSSEL",
   "quando": "2026-10-20T10:00:00-03:00",
@@ -13,7 +313,9 @@
    "midia/post12/slide_07.jpg",
    "midia/post12/slide_08.jpg"
   ],
-  "legenda": "Você acha que as pessoas nunca mudam?\n\n🔁 Aquele hábito que você já tentou largar.\n😔 Alguém de quem todo mundo já desistiu.\n🏷️ O rótulo que colaram em você.\n💬 Os erros que as pessoas não esquecem.\n🪞 A vontade de começar uma vida nova.\n\nZaqueu era rico, mas enganava as pessoas, e ninguém gostava dele. Quando Jesus passou pela cidade, Zaqueu, que era baixinho, subiu numa árvore para ver. Jesus parou, olhou para cima e disse: \"Hoje vou à sua casa.\" Depois desse encontro, Zaqueu mudou de vida e devolveu tudo, com sobra.\n\nJesus não espera a gente ficar perfeito para se aproximar. É o encontro com Ele que muda o coração.\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\nVocê acredita que alguém pode mudar? Escreve \"eu acredito\" aqui embaixo. 🌱\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca"
+  "legenda": "Você acha que as pessoas nunca mudam?\n\n🔁 Aquele hábito que você já tentou largar.\n😔 Alguém de quem todo mundo já desistiu.\n🏷️ O rótulo que colaram em você.\n💬 Os erros que as pessoas não esquecem.\n🪞 A vontade de começar uma vida nova.\n\nZaqueu era rico, mas enganava as pessoas, e ninguém gostava dele. Quando Jesus passou pela cidade, Zaqueu, que era baixinho, subiu numa árvore para ver. Jesus parou, olhou para cima e disse: \"Hoje vou à sua casa.\" Depois desse encontro, Zaqueu mudou de vida e devolveu tudo, com sobra.\n\nJesus não espera a gente ficar perfeito para se aproximar. É o encontro com Ele que muda o coração.\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\nVocê acredita que alguém pode mudar? Escreve \"eu acredito\" aqui embaixo. 🌱\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca",
+  "miniatura": "midia/miniaturas/post12.jpg",
+  "titulo": "Zaqueu"
  },
  {
   "id": "reel12",
@@ -24,7 +326,9 @@
   ],
   "legenda": "Você acha que as pessoas nunca mudam?\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel12.jpg",
+  "titulo": "Zaqueu"
  },
  {
   "id": "story2026-10-20",
@@ -32,7 +336,9 @@
   "quando": "2026-10-20T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-20_versiculo_post12.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-20.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post13",
@@ -48,7 +354,9 @@
    "midia/post13/slide_07.jpg",
    "midia/post13/slide_08.jpg"
   ],
-  "legenda": "Quem fica do seu lado quando tudo dá errado?\n\n🏥 Quem visitou você no hospital.\n📞 Quem ligou quando você sumiu.\n🍲 Quem levou comida num dia difícil.\n🫂 Quem ficou mesmo quando você estava de mau humor.\n🙏 Quem orou por você sem você pedir.\n\nNoemi perdeu o marido e os dois filhos e decidiu voltar para a terra dela. Pediu que as noras ficassem. Orfa voltou para casa, mas Rute não quis deixar a sogra sozinha. Ela foi junto, trabalhou colhendo trigo, e Deus cuidou das duas.\n\nLealdade é ficar quando seria mais fácil ir embora. E Deus usa pessoas leais para cuidar de quem está sofrendo.\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\nMarca aqui alguém que foi uma \"Rute\" na sua vida. 💛\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade"
+  "legenda": "Quem fica do seu lado quando tudo dá errado?\n\n🏥 Quem visitou você no hospital.\n📞 Quem ligou quando você sumiu.\n🍲 Quem levou comida num dia difícil.\n🫂 Quem ficou mesmo quando você estava de mau humor.\n🙏 Quem orou por você sem você pedir.\n\nNoemi perdeu o marido e os dois filhos e decidiu voltar para a terra dela. Pediu que as noras ficassem. Orfa voltou para casa, mas Rute não quis deixar a sogra sozinha. Ela foi junto, trabalhou colhendo trigo, e Deus cuidou das duas.\n\nLealdade é ficar quando seria mais fácil ir embora. E Deus usa pessoas leais para cuidar de quem está sofrendo.\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\nMarca aqui alguém que foi uma \"Rute\" na sua vida. 💛\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade",
+  "miniatura": "midia/miniaturas/post13.jpg",
+  "titulo": "Rute e Noemi"
  },
  {
   "id": "reel13",
@@ -59,7 +367,9 @@
   ],
   "legenda": "Quem fica do seu lado quando tudo dá errado?\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel13.jpg",
+  "titulo": "Rute e Noemi"
  },
  {
   "id": "story2026-10-21",
@@ -67,7 +377,9 @@
   "quando": "2026-10-21T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-21_versiculo_post13.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-21.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post14",
@@ -83,7 +395,9 @@
    "midia/post14/slide_07.jpg",
    "midia/post14/slide_08.jpg"
   ],
-  "legenda": "Você já afundou por olhar só para o problema?\n\n📉 As contas que não param de chegar.\n🩺 O resultado de um exame.\n💼 A pressão no trabalho.\n📰 As notícias ruins do dia.\n🌀 Os pensamentos que não te deixam dormir.\n\nNuma noite de muito vento, os discípulos estavam num barco quando viram Jesus andando sobre a água. Pedro pediu para ir até Ele, e Jesus disse: \"Venha!\" Pedro andou sobre a água, mas quando olhou para o vento, teve medo e começou a afundar. Na mesma hora, Jesus estendeu a mão para ele.\n\nO vento pode continuar forte. Mas quando o medo bater, olhe para Jesus. Ele não deixa afundar quem pede ajuda.\n\n📜 O versículo (Mateus 14:31)\nMateus conta o que Jesus fez quando Pedro começou a afundar e gritou \"Senhor, salva-me!\": imediatamente estendeu a mão e o segurou. A pergunta \"por que duvidaste?\" não foi para humilhar Pedro, mas para lembrar que ele podia confiar. A intenção do texto é mostrar que Jesus responde rápido a quem clama por Ele.\n\nO que está tirando a sua paz hoje? Escreve aqui, e vamos orar uns pelos outros. 🙏\n\n📖 Mateus 14:22-33 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #pedro #fe"
+  "legenda": "Você já afundou por olhar só para o problema?\n\n📉 As contas que não param de chegar.\n🩺 O resultado de um exame.\n💼 A pressão no trabalho.\n📰 As notícias ruins do dia.\n🌀 Os pensamentos que não te deixam dormir.\n\nNuma noite de muito vento, os discípulos estavam num barco quando viram Jesus andando sobre a água. Pedro pediu para ir até Ele, e Jesus disse: \"Venha!\" Pedro andou sobre a água, mas quando olhou para o vento, teve medo e começou a afundar. Na mesma hora, Jesus estendeu a mão para ele.\n\nO vento pode continuar forte. Mas quando o medo bater, olhe para Jesus. Ele não deixa afundar quem pede ajuda.\n\n📜 O versículo (Mateus 14:31)\nMateus conta o que Jesus fez quando Pedro começou a afundar e gritou \"Senhor, salva-me!\": imediatamente estendeu a mão e o segurou. A pergunta \"por que duvidaste?\" não foi para humilhar Pedro, mas para lembrar que ele podia confiar. A intenção do texto é mostrar que Jesus responde rápido a quem clama por Ele.\n\nO que está tirando a sua paz hoje? Escreve aqui, e vamos orar uns pelos outros. 🙏\n\n📖 Mateus 14:22-33 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #pedro #fe",
+  "miniatura": "midia/miniaturas/post14.jpg",
+  "titulo": "Pedro anda sobre as águas"
  },
  {
   "id": "reel14",
@@ -94,7 +408,9 @@
   ],
   "legenda": "Você já afundou por olhar só para o problema?\n\n📜 O versículo (Mateus 14:31)\nMateus conta o que Jesus fez quando Pedro começou a afundar e gritou \"Senhor, salva-me!\": imediatamente estendeu a mão e o segurou. A pergunta \"por que duvidaste?\" não foi para humilhar Pedro, mas para lembrar que ele podia confiar. A intenção do texto é mostrar que Jesus responde rápido a quem clama por Ele.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Mateus 14:22-33 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #pedro #fe",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel14.jpg",
+  "titulo": "Pedro anda sobre as águas"
  },
  {
   "id": "story2026-10-22",
@@ -102,7 +418,9 @@
   "quando": "2026-10-22T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-22_versiculo_post14.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-22.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post15",
@@ -118,7 +436,9 @@
    "midia/post15/slide_07.jpg",
    "midia/post15/slide_08.jpg"
   ],
-  "legenda": "Você está cansado de tudo?\n\n😮‍💨 O cansaço que o sono não resolve.\n📋 As tarefas que não acabam nunca.\n🧠 A cabeça cheia o tempo todo.\n😶 A vontade de sumir por um tempo.\n🌧️ Os dias em que tudo parece pesado.\n\nElias era um profeta corajoso, mas depois de enfrentar muitos problemas, fugiu com medo. Cansado, deitou debaixo de uma árvore e disse que não aguentava mais. Então dormiu. Quando acordou, havia pão e água ao lado dele. Ele comeu, descansou de novo e, com forças, seguiu o caminho.\n\nAntes de pedir qualquer coisa a Elias, Deus cuidou dele: deu comida e deixou ele descansar. Descansar também é cuidado de Deus.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nDo que você precisa descansar hoje? Conta aqui. 💛\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso"
+  "legenda": "Você está cansado de tudo?\n\n😮‍💨 O cansaço que o sono não resolve.\n📋 As tarefas que não acabam nunca.\n🧠 A cabeça cheia o tempo todo.\n😶 A vontade de sumir por um tempo.\n🌧️ Os dias em que tudo parece pesado.\n\nElias era um profeta corajoso, mas depois de enfrentar muitos problemas, fugiu com medo. Cansado, deitou debaixo de uma árvore e disse que não aguentava mais. Então dormiu. Quando acordou, havia pão e água ao lado dele. Ele comeu, descansou de novo e, com forças, seguiu o caminho.\n\nAntes de pedir qualquer coisa a Elias, Deus cuidou dele: deu comida e deixou ele descansar. Descansar também é cuidado de Deus.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nDo que você precisa descansar hoje? Conta aqui. 💛\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso",
+  "miniatura": "midia/miniaturas/post15.jpg",
+  "titulo": "Elias debaixo da árvore"
  },
  {
   "id": "reel15",
@@ -129,7 +449,9 @@
   ],
   "legenda": "Você está cansado de tudo?\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel15.jpg",
+  "titulo": "Elias debaixo da árvore"
  },
  {
   "id": "story2026-10-23",
@@ -137,7 +459,9 @@
   "quando": "2026-10-23T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-23_versiculo_post15.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-23.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post16",
@@ -153,7 +477,9 @@
    "midia/post16/slide_07.jpg",
    "midia/post16/slide_08.jpg"
   ],
-  "legenda": "Você se acha pequeno demais?\n\n🙋 Achar que não tem talento nenhum.\n👀 Se comparar com todo mundo.\n🎓 Pensar que não estudou o suficiente.\n🏠 Vir de uma família simples.\n🤐 Ter medo de falar o que pensa.\n\nO povo de Gideão vivia com medo dos inimigos, e ele trabalhava escondido atrás de um muro. Foi aí que Deus mandou um recado: \"O Senhor está com você, homem corajoso!\" Gideão não acreditou e disse que era o menor de todos. Mas Deus respondeu: \"Eu vou estar com você.\" E, com Deus, Gideão libertou o seu povo.\n\nDeus não olha só para o que você é hoje. Ele vê o que você pode fazer com Ele ao seu lado.\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\nSe você precisava ouvir que Deus está com você, comenta \"comigo\". 🌾\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade"
+  "legenda": "Você se acha pequeno demais?\n\n🙋 Achar que não tem talento nenhum.\n👀 Se comparar com todo mundo.\n🎓 Pensar que não estudou o suficiente.\n🏠 Vir de uma família simples.\n🤐 Ter medo de falar o que pensa.\n\nO povo de Gideão vivia com medo dos inimigos, e ele trabalhava escondido atrás de um muro. Foi aí que Deus mandou um recado: \"O Senhor está com você, homem corajoso!\" Gideão não acreditou e disse que era o menor de todos. Mas Deus respondeu: \"Eu vou estar com você.\" E, com Deus, Gideão libertou o seu povo.\n\nDeus não olha só para o que você é hoje. Ele vê o que você pode fazer com Ele ao seu lado.\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\nSe você precisava ouvir que Deus está com você, comenta \"comigo\". 🌾\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade",
+  "miniatura": "midia/miniaturas/post16.jpg",
+  "titulo": "Gideão"
  },
  {
   "id": "reel16",
@@ -164,7 +490,9 @@
   ],
   "legenda": "Você se acha pequeno demais?\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel16.jpg",
+  "titulo": "Gideão"
  },
  {
   "id": "story2026-10-24",
@@ -172,7 +500,9 @@
   "quando": "2026-10-24T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-24_versiculo_post16.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-24.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post17",
@@ -188,7 +518,9 @@
    "midia/post17/slide_07.jpg",
    "midia/post17/slide_08.jpg"
   ],
-  "legenda": "Você já deixou de tentar por achar que não é capaz?\n\n🎤 Uma apresentação que você recusou.\n💼 Uma vaga que você nem tentou.\n📖 Um curso que você achou difícil demais.\n🗣️ Uma conversa que você evitou.\n🙏 Um chamado que você deixou para depois.\n\nMoisés cuidava de ovelhas no deserto quando viu um arbusto pegando fogo que não se queimava. Do meio do fogo, Deus pediu que ele libertasse o seu povo do Egito. Moisés ficou com medo e disse: \"Mas eu não sei falar bem!\" Deus respondeu que estaria com ele e ensinaria o que falar.\n\nVocê não precisa ser perfeito para fazer o que Deus pede. A capacidade vem de Deus.\n\n📜 O versículo (Êxodo 4:12)\nDeus disse essas palavras a Moisés diante da sarça, logo depois que Moisés reclamou que não sabia falar. Em palavras de hoje: \"Agora vá. Eu vou estar com a sua boca e vou te ensinar o que dizer.\" A intenção era tirar o peso dos ombros de Moisés: o sucesso da missão não dependia da habilidade dele, mas da presença de Deus.\n\nO que você deixou de tentar por medo? Conta aqui, e vamos orar por você. 🔥\n\n📖 Êxodo 3 e 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #moises #capacidade"
+  "legenda": "Você já deixou de tentar por achar que não é capaz?\n\n🎤 Uma apresentação que você recusou.\n💼 Uma vaga que você nem tentou.\n📖 Um curso que você achou difícil demais.\n🗣️ Uma conversa que você evitou.\n🙏 Um chamado que você deixou para depois.\n\nMoisés cuidava de ovelhas no deserto quando viu um arbusto pegando fogo que não se queimava. Do meio do fogo, Deus pediu que ele libertasse o seu povo do Egito. Moisés ficou com medo e disse: \"Mas eu não sei falar bem!\" Deus respondeu que estaria com ele e ensinaria o que falar.\n\nVocê não precisa ser perfeito para fazer o que Deus pede. A capacidade vem de Deus.\n\n📜 O versículo (Êxodo 4:12)\nDeus disse essas palavras a Moisés diante da sarça, logo depois que Moisés reclamou que não sabia falar. Em palavras de hoje: \"Agora vá. Eu vou estar com a sua boca e vou te ensinar o que dizer.\" A intenção era tirar o peso dos ombros de Moisés: o sucesso da missão não dependia da habilidade dele, mas da presença de Deus.\n\nO que você deixou de tentar por medo? Conta aqui, e vamos orar por você. 🔥\n\n📖 Êxodo 3 e 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #moises #capacidade",
+  "miniatura": "midia/miniaturas/post17.jpg",
+  "titulo": "Moisés e a sarça"
  },
  {
   "id": "oracao2026-10-25",
@@ -196,7 +528,9 @@
   "quando": "2026-10-25T18:00:00-03:00",
   "midia": [
    "midia/stories/story_oracao.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/oracao2026-10-25.jpg",
+  "titulo": "Pedido de oração"
  },
  {
   "id": "reel17",
@@ -207,7 +541,9 @@
   ],
   "legenda": "Você já deixou de tentar por achar que não é capaz?\n\n📜 O versículo (Êxodo 4:12)\nDeus disse essas palavras a Moisés diante da sarça, logo depois que Moisés reclamou que não sabia falar. Em palavras de hoje: \"Agora vá. Eu vou estar com a sua boca e vou te ensinar o que dizer.\" A intenção era tirar o peso dos ombros de Moisés: o sucesso da missão não dependia da habilidade dele, mas da presença de Deus.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Um curso que você achou difícil demais.\n\n#historiasbiblicas #biblia #fe #moises #capacidade",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel17.jpg",
+  "titulo": "Moisés e a sarça"
  },
  {
   "id": "story2026-10-25",
@@ -215,7 +551,9 @@
   "quando": "2026-10-25T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-25_versiculo_post17.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-25.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post18",
@@ -231,7 +569,9 @@
    "midia/post18/slide_07.jpg",
    "midia/post18/slide_08.jpg"
   ],
-  "legenda": "Você acha que não tem mais volta?\n\n🚪 Saiu de casa brigado.\n💸 Gastou o que não podia.\n🙈 Fez escolhas de que se arrepende.\n📵 Parou de falar com quem ama.\n⛪ Se afastou de Deus.\n\nJesus contou a história de um filho que pediu a sua parte da herança, foi embora e gastou tudo em festas. Quando o dinheiro acabou, foi trabalhar cuidando de porcos e passou fome. Então lembrou da casa do pai e decidiu voltar para pedir perdão. Ainda de longe, o pai o viu, correu até ele e fez uma grande festa.\n\nNão importa o quanto você se afastou. O Pai está esperando você voltar.\n\n📜 O versículo (Lucas 15:20)\nEsse versículo faz parte da história que Jesus contou. Mostra que o pai viu o filho quando ele ainda estava longe, teve compaixão, correu, abraçou e beijou o filho, antes mesmo de ouvir o pedido de perdão. A intenção de Jesus era mostrar como Deus recebe quem volta para Ele: de braços abertos.\n\nVocê conhece alguém que precisa voltar para casa? Envia esse post para essa pessoa. 💛\n\n📖 Lucas 15:11-32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #filhoprodigo #perdao"
+  "legenda": "Você acha que não tem mais volta?\n\n🚪 Saiu de casa brigado.\n💸 Gastou o que não podia.\n🙈 Fez escolhas de que se arrepende.\n📵 Parou de falar com quem ama.\n⛪ Se afastou de Deus.\n\nJesus contou a história de um filho que pediu a sua parte da herança, foi embora e gastou tudo em festas. Quando o dinheiro acabou, foi trabalhar cuidando de porcos e passou fome. Então lembrou da casa do pai e decidiu voltar para pedir perdão. Ainda de longe, o pai o viu, correu até ele e fez uma grande festa.\n\nNão importa o quanto você se afastou. O Pai está esperando você voltar.\n\n📜 O versículo (Lucas 15:20)\nEsse versículo faz parte da história que Jesus contou. Mostra que o pai viu o filho quando ele ainda estava longe, teve compaixão, correu, abraçou e beijou o filho, antes mesmo de ouvir o pedido de perdão. A intenção de Jesus era mostrar como Deus recebe quem volta para Ele: de braços abertos.\n\nVocê conhece alguém que precisa voltar para casa? Envia esse post para essa pessoa. 💛\n\n📖 Lucas 15:11-32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #filhoprodigo #perdao",
+  "miniatura": "midia/miniaturas/post18.jpg",
+  "titulo": "O filho pródigo"
  },
  {
   "id": "reel18",
@@ -242,7 +582,9 @@
   ],
   "legenda": "Você acha que não tem mais volta?\n\n📜 O versículo (Lucas 15:20)\nEsse versículo faz parte da história que Jesus contou. Mostra que o pai viu o filho quando ele ainda estava longe, teve compaixão, correu, abraçou e beijou o filho, antes mesmo de ouvir o pedido de perdão. A intenção de Jesus era mostrar como Deus recebe quem volta para Ele: de braços abertos.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 15:11-32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #filhoprodigo #perdao",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel18.jpg",
+  "titulo": "O filho pródigo"
  },
  {
   "id": "story2026-10-26",
@@ -250,7 +592,9 @@
   "quando": "2026-10-26T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-26_versiculo_post18.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-26.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post19",
@@ -266,7 +610,9 @@
    "midia/post19/slide_07.jpg",
    "midia/post19/slide_08.jpg"
   ],
-  "legenda": "Se pudesse pedir uma coisa a Deus, o que seria?\n\n💰 Mais dinheiro?\n🏆 Mais sucesso?\n❤️ Mais saúde?\n🧭 Saber o caminho certo?\n🤲 Um coração bom para ajudar os outros?\n\nSalomão era muito jovem quando virou rei e não sabia como cuidar de um povo tão grande. Num sonho, Deus disse: \"Peça o que você quiser.\" Ele podia pedir riqueza ou poder, mas pediu sabedoria para cuidar bem do povo. Deus gostou do pedido e o abençoou, e Salomão ficou conhecido por ser muito sábio.\n\nPedir sabedoria é pedir a Deus que nos ensine a viver bem e a cuidar bem de quem está perto.\n\n📜 O versículo (1 Reis 3:9)\nSalomão fez esse pedido a Deus num sonho, no começo do seu reinado. Ele pediu um coração que entendesse, para saber o que era certo e o que era errado ao cuidar do povo. A intenção do pedido era servir aos outros, e não a si mesmo. A Bíblia conta logo depois que esse pedido agradou a Deus.\n\nE você, o que pediria a Deus? Escreve aqui embaixo. 👑\n\n📖 1 Reis 3:1-15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #salomao #sabedoria"
+  "legenda": "Se pudesse pedir uma coisa a Deus, o que seria?\n\n💰 Mais dinheiro?\n🏆 Mais sucesso?\n❤️ Mais saúde?\n🧭 Saber o caminho certo?\n🤲 Um coração bom para ajudar os outros?\n\nSalomão era muito jovem quando virou rei e não sabia como cuidar de um povo tão grande. Num sonho, Deus disse: \"Peça o que você quiser.\" Ele podia pedir riqueza ou poder, mas pediu sabedoria para cuidar bem do povo. Deus gostou do pedido e o abençoou, e Salomão ficou conhecido por ser muito sábio.\n\nPedir sabedoria é pedir a Deus que nos ensine a viver bem e a cuidar bem de quem está perto.\n\n📜 O versículo (1 Reis 3:9)\nSalomão fez esse pedido a Deus num sonho, no começo do seu reinado. Ele pediu um coração que entendesse, para saber o que era certo e o que era errado ao cuidar do povo. A intenção do pedido era servir aos outros, e não a si mesmo. A Bíblia conta logo depois que esse pedido agradou a Deus.\n\nE você, o que pediria a Deus? Escreve aqui embaixo. 👑\n\n📖 1 Reis 3:1-15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #salomao #sabedoria",
+  "miniatura": "midia/miniaturas/post19.jpg",
+  "titulo": "Salomão pede sabedoria"
  },
  {
   "id": "reel19",
@@ -277,7 +623,9 @@
   ],
   "legenda": "Se pudesse pedir uma coisa a Deus, o que seria?\n\n📜 O versículo (1 Reis 3:9)\nSalomão fez esse pedido a Deus num sonho, no começo do seu reinado. Ele pediu um coração que entendesse, para saber o que era certo e o que era errado ao cuidar do povo. A intenção do pedido era servir aos outros, e não a si mesmo. A Bíblia conta logo depois que esse pedido agradou a Deus.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 1 Reis 3:1-15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #salomao #sabedoria",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel19.jpg",
+  "titulo": "Salomão pede sabedoria"
  },
  {
   "id": "story2026-10-27",
@@ -285,7 +633,9 @@
   "quando": "2026-10-27T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-27_versiculo_post19.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-27.jpg",
+  "titulo": "Versículo do dia"
  },
  {
   "id": "post20",
@@ -301,7 +651,9 @@
    "midia/post20/slide_07.jpg",
    "midia/post20/slide_08.jpg"
   ],
-  "legenda": "Quem você ajudou hoje?\n\n🍽️ Lavar a louça sem ninguém pedir.\n🧓 Ajudar um idoso na fila.\n👶 Cuidar de uma criança com paciência.\n🚗 Dar uma carona.\n💬 Ouvir alguém que precisava desabafar.\n\nNum jantar com seus amigos, Jesus pegou uma bacia com água e começou a lavar os pés de cada um, um serviço que naquela época era feito pelos empregados. Pedro não quis deixar, mas Jesus explicou com carinho: \"Façam o mesmo uns pelos outros.\"\n\nJesus, o Mestre, escolheu servir. E nos convida a fazer o mesmo no dia a dia, nas coisas pequenas.\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\nComo você pode servir alguém hoje? Conta aqui. 🤝\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir"
+  "legenda": "Quem você ajudou hoje?\n\n🍽️ Lavar a louça sem ninguém pedir.\n🧓 Ajudar um idoso na fila.\n👶 Cuidar de uma criança com paciência.\n🚗 Dar uma carona.\n💬 Ouvir alguém que precisava desabafar.\n\nNum jantar com seus amigos, Jesus pegou uma bacia com água e começou a lavar os pés de cada um, um serviço que naquela época era feito pelos empregados. Pedro não quis deixar, mas Jesus explicou com carinho: \"Façam o mesmo uns pelos outros.\"\n\nJesus, o Mestre, escolheu servir. E nos convida a fazer o mesmo no dia a dia, nas coisas pequenas.\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\nComo você pode servir alguém hoje? Conta aqui. 🤝\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
+  "miniatura": "midia/miniaturas/post20.jpg",
+  "titulo": "Jesus lava os pés dos discípulos"
  },
  {
   "id": "reel20",
@@ -312,7 +664,9 @@
   ],
   "legenda": "Quem você ajudou hoje?\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
   "na_grade": false,
-  "capa_ms": 800
+  "capa_ms": 800,
+  "miniatura": "midia/miniaturas/reel20.jpg",
+  "titulo": "Jesus lava os pés dos discípulos"
  },
  {
   "id": "story2026-10-28",
@@ -320,6 +674,8 @@
   "quando": "2026-10-28T21:00:00-03:00",
   "midia": [
    "midia/stories/story_2026-10-28_versiculo_post20.jpg"
-  ]
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-28.jpg",
+  "titulo": "Versículo do dia"
  }
 ]

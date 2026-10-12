@@ -133,6 +133,7 @@ def main():
     ig = IG(token, user)
     log('Conta:', ig.conta())
     agora = datetime.now(timezone.utc)
+    agenda = [i for i in agenda if i.get('via', 'api') == 'api']          # itens do Metricool só aparecem na página
     pendentes = [i for i in agenda if estado.get(i['id'], {}).get('status') != 'publicado']
     devidos = [i for i in pendentes if agora - JANELA <= datetime.fromisoformat(i['quando']) <= agora]
     log(f'{len(pendentes)} pendentes, {len(devidos)} na hora de publicar.')
