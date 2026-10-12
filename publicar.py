@@ -22,7 +22,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 AGENDA = os.path.join(AQUI, 'agenda.json')
 ESTADO = os.path.join(AQUI, 'estado.json')
 METRICAS = os.path.join(AQUI, 'metricas.json')
-METRICAS_CADA = timedelta(hours=3)
+METRICAS_CADA = timedelta(hours=1)   # intervalo de leitura das métricas (folga no limite da API)
 COMENTARIOS = os.path.join(AQUI, 'comentarios.json')  # de quanto em quanto tempo lê as métricas no Instagram
 JANELA = timedelta(hours=12)        # item atrasado mais que isso não é publicado (evita publicar coisa velha de surpresa)
 MAX_TENTATIVAS = 3
