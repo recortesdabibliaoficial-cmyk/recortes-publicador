@@ -170,7 +170,8 @@ function tarefas(){
         det:`Perfil → Novo (+) → escolha esse Story → Editar capa → capa «destaque - ${i.destaque}» (pasta de destaques no Drive) → nome ${i.destaque}.` + velho });
     } else {
       lista.push({ id:'d-'+i.id, txt:`Adicionar o Story «${nome}» (${quando}) ao destaque «${i.destaque}»`,
-        det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho });
+        det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho +
+          (i.destaque === 'Comece aqui' ? ' Faça esta por último no dia: assim o Comece aqui volta para o primeiro lugar dos destaques.' : '') });
     }
   });
   return lista;
