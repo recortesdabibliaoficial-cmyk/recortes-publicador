@@ -207,7 +207,7 @@ async function carregar(){
   manuais = man; met = await fetch(canal.base+'metricas.json'+nc).then(r=>r.json()).catch(()=>({}));
   coms = await fetch(canal.base+'comentarios.json'+nc).then(r=>r.json()).catch(()=>[]);
   const agora = new Date();
-  itens = ag.sort((a,b)=>a.quando.localeCompare(b.quando)).map(i => ({...i, _st: status(i, est, agora), _erro: (est[i.id]||{}).ultimo_erro, _link: (est[i.id]||{}).link}));
+  itens = ag.sort((a,b)=>a.quando.localeCompare(b.quando)).map(i => ({...i, _st: status(i, est, agora), _erro: (est[i.id]||{}).status === 'publicado' ? null : (est[i.id]||{}).ultimo_erro, _link: (est[i.id]||{}).link}));
   const c = k => itens.filter(i => i._st[1]===k).length;
   document.getElementById('resumo').innerHTML =
     `<span class="pill ok">${c('ok')} publicados</span><span class="pill ag">${c('ag')} agendados</span>` + (c('mc') ? `<span class="pill mc">${c('mc')} no Metricool</span>` : '') +

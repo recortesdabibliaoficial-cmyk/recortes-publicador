@@ -75,7 +75,14 @@ class IG:
             time.sleep(15)
         raise RuntimeError(f'container {cid}: demorou demais para processar')
 
-    def publicar(self, cid): return self._req('POST', f'{self.u}/media_publish', creation_id=cid)['id']
+    def publicar(self, cid):
+        """Publica o container; se o Instagram disser que a mídia ainda não está pronta, espera e tenta de novo."""
+        for tentativa in range(5):
+            try:
+                return self._req('POST', f'{self.u}/media_publish', creation_id=cid)['id']
+            except RuntimeError as e:
+                if 'not ready' not in str(e) and '2207027' not in str(e) or tentativa == 4: raise
+                time.sleep(20)
 
     def link(self, mid):
         try: return self._req('GET', mid, fields='permalink').get('permalink')
@@ -258,6 +265,7 @@ def main():
         try:
             mid = publicar_item(ig, item, base_midia())
             reg.update(status='publicado', media_id=mid, em=datetime.now(timezone.utc).isoformat(), link=ig.link(mid))
+            reg.pop('ultimo_erro', None)
             log('PUBLICADO:', item['id'], mid)
         except Exception as e:
             reg['tentativas'] = reg.get('tentativas', 0) + 1
