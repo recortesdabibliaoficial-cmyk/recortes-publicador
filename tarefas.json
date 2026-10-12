@@ -7,7 +7,7 @@
  {
   "id": "comece-topo",
   "texto": "Puxar o «Comece aqui» para o primeiro lugar dos destaques",
-  "detalhe": "Toque e segure o destaque Comece aqui → Editar destaque → aba Stories → marque um Story antigo qualquer → Concluir. Não publica nada; só reordena. Volta a aparecer a cada 15 dias.",
+  "detalhe": "No destaque Comece aqui ficam as duas versões (\"Comece aqui\" e \"Como funciona\"). Para ele voltar ao primeiro lugar: segure o destaque → Editar destaque → aba Stories → desmarque uma versão e marque a outra de novo (alternando) → Concluir. Não publica nada. Volta a aparecer a cada 15 dias.",
   "cada_dias": 15,
   "desde": "2026-10-12T00:00:00-03:00"
  }
