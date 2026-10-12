@@ -158,7 +158,10 @@ function desenhar(){
 }
 function tarefas(){
   // Tarefas que só o Felipe pode fazer no app: aparecem quando o Story já foi publicado.
-  const lista = manuais.map(m => ({ id:'m-'+m.id, txt:m.texto, det:m.detalhe||'' }));
+  const lista = manuais.filter(m => !m.desde || Date.now() >= new Date(m.desde)).map(m => {
+    const per = m.cada_dias ? '-' + Math.floor((Date.now() - new Date(m.desde)) / (m.cada_dias * 864e5)) : '';
+    return { id:'m-' + m.id + per, txt:m.texto, det:m.detalhe||'' };
+  });
   const vistos = {};
   itens.filter(i => i.destaque && i._st[1]==='ok').forEach(i => {
     const q = new Date(i.quando), quando = q.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}) + ' ' + fmtHora(q);
@@ -170,8 +173,7 @@ function tarefas(){
         det:`Perfil → Novo (+) → escolha esse Story → Editar capa → capa «destaque - ${i.destaque}» (pasta de destaques no Drive) → nome ${i.destaque}.` + velho });
     } else {
       lista.push({ id:'d-'+i.id, txt:`Adicionar o Story «${nome}» (${quando}) ao destaque «${i.destaque}»`,
-        det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho +
-          (i.destaque === 'Comece aqui' ? ' Faça esta por último no dia: assim o Comece aqui volta para o primeiro lugar dos destaques.' : '') });
+        det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho });
     }
   });
   return lista;

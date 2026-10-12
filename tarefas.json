@@ -1,3 +1,14 @@
 [
- {"id": "capas", "texto": "Baixar as capas dos destaques para a galeria do celular", "detalhe": "App do Google Drive → Recortes da Biblia - Posts → Destaques → abra cada imagem → ⋮ → Fazer download."}
+ {
+  "id": "capas",
+  "texto": "Baixar as capas dos destaques para a galeria do celular",
+  "detalhe": "App do Google Drive → Recortes da Biblia - Posts → Destaques → abra cada imagem → ⋮ → Fazer download."
+ },
+ {
+  "id": "comece-topo",
+  "texto": "Puxar o «Comece aqui» para o primeiro lugar dos destaques",
+  "detalhe": "Toque e segure o destaque Comece aqui → Editar destaque → aba Stories → marque um Story antigo qualquer → Concluir. Não publica nada; só reordena. Volta a aparecer a cada 15 dias.",
+  "cada_dias": 15,
+  "desde": "2026-10-12T00:00:00-03:00"
+ }
 ]
