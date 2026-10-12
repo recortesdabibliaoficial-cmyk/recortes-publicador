@@ -56,17 +56,6 @@
   "titulo": "Daniel na cova dos leões"
  },
  {
-  "id": "mc-reel01",
-  "tipo": "REEL",
-  "quando": "2026-10-12T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Você já sentiu medo do tamanho do seu problema?\n\n📜 O versículo (1 Samuel 17:47)\nDavi disse essas palavras a Golias logo antes da luta, na frente dos dois exércitos. Ele quis dizer que a vitória não depende de espada, de lança nem de tamanho, porque a batalha pertence a Deus. A intenção era que todos ali soubessem de onde viria a vitória: não da força de um menino, mas de Deus. Para nós, fica o lembrete de que ninguém enfrenta os seus gigantes sozinho.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #davi #coragem",
-  "post": "01",
-  "miniatura": "midia/miniaturas/mc-reel01.jpg",
-  "titulo": "Davi e Golias"
- },
- {
   "id": "story2026-10-12",
   "tipo": "STORY",
   "quando": "2026-10-12T21:00:00-03:00",
@@ -142,15 +131,18 @@
   "titulo": "A ovelha perdida"
  },
  {
-  "id": "mc-reel05",
+  "id": "reel01",
   "tipo": "REEL",
   "quando": "2026-10-13T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Quando foi a última vez que você agradeceu a Deus?\n\n📜 O versículo (Lucas 17:15)\nLucas destaca que só um dos dez, ao perceber que estava curado, voltou louvando a Deus em voz alta. E esse era um samaritano, um estrangeiro desprezado naquela época. A intenção do texto é mostrar que gratidão é uma atitude: voltar até quem nos ajudou. E quem parecia menos provável foi justamente quem agradeceu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 17:11-19 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gratidao #jesus",
-  "post": "05",
-  "miniatura": "midia/miniaturas/mc-reel05.jpg",
-  "titulo": "Os dez leprosos"
+  "midia": [
+   "midia/post01/reel.mp4"
+  ],
+  "legenda": "Você já sentiu medo do tamanho do seu problema?\n\n📜 O versículo (1 Samuel 17:47)\nDavi disse essas palavras a Golias logo antes da luta, na frente dos dois exércitos. Ele quis dizer que a vitória não depende de espada, de lança nem de tamanho, porque a batalha pertence a Deus. A intenção era que todos ali soubessem de onde viria a vitória: não da força de um menino, mas de Deus. Para nós, fica o lembrete de que ninguém enfrenta os seus gigantes sozinho.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #davi #coragem",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "01",
+  "miniatura": "midia/miniaturas/reel01.jpg",
+  "titulo": "Davi e Golias"
  },
  {
   "id": "story2026-10-13",
@@ -189,15 +181,18 @@
   "titulo": "José perdoa os irmãos"
  },
  {
-  "id": "mc-reel06",
+  "id": "reel05",
   "tipo": "REEL",
   "quando": "2026-10-14T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Você acha que já errou demais para recomeçar?\n\n📜 O versículo (Jonas 3:1-2)\nDepois do peixe, Deus falou com Jonas pela segunda vez, com a mesma missão de antes: ir a Nínive. A intenção desse versículo é mostrar que Deus não cancelou o chamado de Jonas porque ele fugiu. Ele repetiu o convite. A segunda chance não é um plano B, é o mesmo amor insistindo.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Jonas 1 a 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jonas #recomeco",
-  "post": "06",
-  "miniatura": "midia/miniaturas/mc-reel06.jpg",
-  "titulo": "Jonas"
+  "midia": [
+   "midia/post05/reel.mp4"
+  ],
+  "legenda": "Quando foi a última vez que você agradeceu a Deus?\n\n📜 O versículo (Lucas 17:15)\nLucas destaca que só um dos dez, ao perceber que estava curado, voltou louvando a Deus em voz alta. E esse era um samaritano, um estrangeiro desprezado naquela época. A intenção do texto é mostrar que gratidão é uma atitude: voltar até quem nos ajudou. E quem parecia menos provável foi justamente quem agradeceu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 17:11-19 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gratidao #jesus",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "05",
+  "miniatura": "midia/miniaturas/reel05.jpg",
+  "titulo": "Os dez leprosos"
  },
  {
   "id": "story2026-10-14",
@@ -236,15 +231,18 @@
   "titulo": "Daniel na cova dos leões"
  },
  {
-  "id": "mc-reel07",
+  "id": "reel06",
   "tipo": "REEL",
   "quando": "2026-10-15T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Você já fingiu que não viu alguém precisando de ajuda?\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
-  "post": "07",
-  "miniatura": "midia/miniaturas/mc-reel07.jpg",
-  "titulo": "O bom samaritano"
+  "midia": [
+   "midia/post06/reel.mp4"
+  ],
+  "legenda": "Você acha que já errou demais para recomeçar?\n\n📜 O versículo (Jonas 3:1-2)\nDepois do peixe, Deus falou com Jonas pela segunda vez, com a mesma missão de antes: ir a Nínive. A intenção desse versículo é mostrar que Deus não cancelou o chamado de Jonas porque ele fugiu. Ele repetiu o convite. A segunda chance não é um plano B, é o mesmo amor insistindo.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Jonas 1 a 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jonas #recomeco",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "06",
+  "miniatura": "midia/miniaturas/reel06.jpg",
+  "titulo": "Jonas"
  },
  {
   "id": "story2026-10-15",
@@ -269,15 +267,18 @@
   "titulo": "Noé"
  },
  {
-  "id": "mc-reel08",
+  "id": "reel07",
   "tipo": "REEL",
   "quando": "2026-10-16T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Você está passando por uma tempestade que parece não ter fim?\n\n📜 O versículo (Gênesis 9:13)\nDeus falou essas palavras a Noé e aos filhos dele depois do dilúvio. O arco-íris passou a ser o sinal de uma aliança, ou seja, de uma promessa: Deus nunca mais destruiria a terra com um dilúvio. A intenção era deixar um lembrete visível de que Deus cumpre o que promete. Toda vez que aparece um arco-íris depois da chuva, a gente lembra que Ele é fiel.\n\nSe a dor estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Gênesis 6 a 9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #noe #esperanca",
-  "post": "08",
-  "miniatura": "midia/miniaturas/mc-reel08.jpg",
-  "titulo": "Noé"
+  "midia": [
+   "midia/post07/reel.mp4"
+  ],
+  "legenda": "Você já fingiu que não viu alguém precisando de ajuda?\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "07",
+  "miniatura": "midia/miniaturas/reel07.jpg",
+  "titulo": "O bom samaritano"
  },
  {
   "id": "story2026-10-16",
@@ -302,15 +303,18 @@
   "titulo": "A oferta da viúva"
  },
  {
-  "id": "mc-reel09",
+  "id": "reel08",
   "tipo": "REEL",
   "quando": "2026-10-17T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Você acha que o pouco que tem não vale nada?\n\n📜 O versículo (Marcos 12:44)\nJesus explicou aos discípulos por que a viúva deu mais que todos: os outros deram o que sobrava, e ela deu tudo o que tinha para viver. A intenção de Jesus era ensinar que Deus olha o coração e o quanto custou dar, e não o tamanho da oferta.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Marcos 12:41-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #generosidade #jesus",
-  "post": "09",
-  "miniatura": "midia/miniaturas/mc-reel09.jpg",
-  "titulo": "A oferta da viúva"
+  "midia": [
+   "midia/post08/reel.mp4"
+  ],
+  "legenda": "Você está passando por uma tempestade que parece não ter fim?\n\n📜 O versículo (Gênesis 9:13)\nDeus falou essas palavras a Noé e aos filhos dele depois do dilúvio. O arco-íris passou a ser o sinal de uma aliança, ou seja, de uma promessa: Deus nunca mais destruiria a terra com um dilúvio. A intenção era deixar um lembrete visível de que Deus cumpre o que promete. Toda vez que aparece um arco-íris depois da chuva, a gente lembra que Ele é fiel.\n\nSe a dor estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Gênesis 6 a 9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #noe #esperanca",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "08",
+  "miniatura": "midia/miniaturas/reel08.jpg",
+  "titulo": "Noé"
  },
  {
   "id": "story2026-10-17",
@@ -347,15 +351,18 @@
   "destaque": "Orações"
  },
  {
-  "id": "mc-reel10",
+  "id": "reel09",
   "tipo": "REEL",
   "quando": "2026-10-18T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Sua cabeça não para nem um minuto?\n\n📜 O versículo (Lucas 10:41-42)\nJesus responde a Marta com carinho, chamando o nome dela duas vezes. Em palavras de hoje: \"Marta, você está preocupada e agitada com muitas coisas, mas só uma é necessária. Maria escolheu a melhor parte, e ninguém vai tirar isso dela.\" A intenção de Jesus não era criticar o trabalho de Marta, mas convidá-la a parar e a colocar em primeiro lugar o tempo com Ele.\n\nSe a ansiedade estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:38-42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #martaemaria #ansiedade",
-  "post": "10",
-  "miniatura": "midia/miniaturas/mc-reel10.jpg",
-  "titulo": "Marta e Maria"
+  "midia": [
+   "midia/post09/reel.mp4"
+  ],
+  "legenda": "Você acha que o pouco que tem não vale nada?\n\n📜 O versículo (Marcos 12:44)\nJesus explicou aos discípulos por que a viúva deu mais que todos: os outros deram o que sobrava, e ela deu tudo o que tinha para viver. A intenção de Jesus era ensinar que Deus olha o coração e o quanto custou dar, e não o tamanho da oferta.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Marcos 12:41-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #generosidade #jesus",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "09",
+  "miniatura": "midia/miniaturas/reel09.jpg",
+  "titulo": "A oferta da viúva"
  },
  {
   "id": "story2026-10-18",
@@ -380,15 +387,18 @@
   "titulo": "Ester"
  },
  {
-  "id": "mc-reel11",
+  "id": "reel10",
   "tipo": "REEL",
   "quando": "2026-10-19T19:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "legenda": "Você já se perguntou por que está onde está?\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
-  "post": "11",
-  "miniatura": "midia/miniaturas/mc-reel11.jpg",
-  "titulo": "Ester"
+  "midia": [
+   "midia/post10/reel.mp4"
+  ],
+  "legenda": "Sua cabeça não para nem um minuto?\n\n📜 O versículo (Lucas 10:41-42)\nJesus responde a Marta com carinho, chamando o nome dela duas vezes. Em palavras de hoje: \"Marta, você está preocupada e agitada com muitas coisas, mas só uma é necessária. Maria escolheu a melhor parte, e ninguém vai tirar isso dela.\" A intenção de Jesus não era criticar o trabalho de Marta, mas convidá-la a parar e a colocar em primeiro lugar o tempo com Ele.\n\nSe a ansiedade estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:38-42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #martaemaria #ansiedade",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "10",
+  "miniatura": "midia/miniaturas/reel10.jpg",
+  "titulo": "Marta e Maria"
  },
  {
   "id": "story2026-10-19",
@@ -418,6 +428,20 @@
   "legenda": "Você acha que as pessoas nunca mudam?\n\n🔁 Aquele hábito que você já tentou largar.\n😔 Alguém de quem todo mundo já desistiu.\n🏷️ O rótulo que colaram em você.\n💬 Os erros que as pessoas não esquecem.\n🪞 A vontade de começar uma vida nova.\n\nZaqueu era rico, mas enganava as pessoas, e ninguém gostava dele. Quando Jesus passou pela cidade, Zaqueu, que era baixinho, subiu numa árvore para ver. Jesus parou, olhou para cima e disse: \"Hoje vou à sua casa.\" Depois desse encontro, Zaqueu mudou de vida e devolveu tudo, com sobra.\n\nJesus não espera a gente ficar perfeito para se aproximar. É o encontro com Ele que muda o coração.\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\nVocê acredita que alguém pode mudar? Escreve \"eu acredito\" aqui embaixo. 🌱\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca",
   "miniatura": "midia/miniaturas/post12.jpg",
   "titulo": "Zaqueu"
+ },
+ {
+  "id": "reel11",
+  "tipo": "REEL",
+  "quando": "2026-10-20T19:00:00-03:00",
+  "midia": [
+   "midia/post11/reel.mp4"
+  ],
+  "legenda": "Você já se perguntou por que está onde está?\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "11",
+  "miniatura": "midia/miniaturas/reel11.jpg",
+  "titulo": "Ester"
  },
  {
   "id": "story2026-10-20",
