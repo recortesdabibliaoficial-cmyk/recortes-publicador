@@ -88,7 +88,7 @@ const CANAIS = [
   { id:'biblia', nome:'Recortes da Bíblia', handle:'@recortesdabiblia.oficial', base:'/recortes-publicador/' },
   { id:'curiosidades', nome:'Curiosidades em Papel', handle:'@curiosidadesempapel', base:'/curiosidades-publicador/' },
 ];
-let itens = [], filtro = 'todos', manuais = [], verFeitas = false, met = {};
+let itens = [], filtro = 'todos', manuais = [], verFeitas = false, met = {}, coms = [];
 const fmtN = n => n == null ? '–' : n >= 10000 ? (n/1000).toFixed(1).replace('.', ',') + ' mil' : n.toLocaleString('pt-BR');
 function linhaMet(m, tipo){
   if (!m) return '';
@@ -176,6 +176,11 @@ function tarefas(){
         det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho });
     }
   });
+  coms.forEach(c => {
+    const it = itens.find(i => i.id === c.item), q = c.quando ? new Date(c.quando).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}) : '';
+    lista.push({ id:'c-'+c.id, txt:`Responder @${c.usuario}: «${c.texto}»`, link:c.link,
+      det:`No post «${it ? it.titulo : c.item}» · ${q}. Abra o post, toque em Responder embaixo do comentário. Some sozinho quando você responder.` });
+  });
   return lista;
 }
 function desenharTarefas(){
@@ -184,7 +189,7 @@ function desenharTarefas(){
   const mostrar = verFeitas ? ts : pend;
   document.getElementById('tarefas').innerHTML = `<div class="caixa"><h2><span>✅ Para você fazer (${pend.length})</span>` +
     (ts.length > pend.length ? `<button id="verFeitas">${verFeitas ? 'esconder feitas' : 'ver feitas'}</button>` : '') + '</h2>' +
-    (mostrar.length ? mostrar.map(t => `<label class="tarefa ${LS.get(chave(t.id))?'feita':''}"><input type="checkbox" data-t="${t.id}" ${LS.get(chave(t.id))?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}</small></span></label>`).join('')
+    (mostrar.length ? mostrar.map(t => `<label class="tarefa ${LS.get(chave(t.id))?'feita':''}"><input type="checkbox" data-t="${t.id}" ${LS.get(chave(t.id))?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}${t.link ? ` <a class="link" href="${t.link}" target="_blank" rel="noopener">abrir post ↗</a>` : ''}</small></span></label>`).join('')
       : '<div class="nada">Nada pendente agora. Novas tarefas aparecem aqui quando os Stories forem publicados.</div>') + '</div>';
   const b = document.querySelector('.abas button.ativo'); if (b) b.innerHTML = canal.nome + (pend.length ? `<span class="n">${pend.length}</span>` : '');
 }
@@ -200,6 +205,7 @@ async function carregar(){
   const [ag, est, man] = await Promise.all([fetch(canal.base+'agenda.json'+nc).then(r=>r.json()).catch(()=>[]), fetch(canal.base+'estado.json'+nc).then(r=>r.json()).catch(()=>({})),
     fetch(canal.base+'tarefas.json'+nc).then(r=>r.json()).catch(()=>[])]);
   manuais = man; met = await fetch(canal.base+'metricas.json'+nc).then(r=>r.json()).catch(()=>({}));
+  coms = await fetch(canal.base+'comentarios.json'+nc).then(r=>r.json()).catch(()=>[]);
   const agora = new Date();
   itens = ag.sort((a,b)=>a.quando.localeCompare(b.quando)).map(i => ({...i, _st: status(i, est, agora), _erro: (est[i.id]||{}).ultimo_erro, _link: (est[i.id]||{}).link}));
   const c = k => itens.filter(i => i._st[1]===k).length;

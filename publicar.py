@@ -22,7 +22,8 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 AGENDA = os.path.join(AQUI, 'agenda.json')
 ESTADO = os.path.join(AQUI, 'estado.json')
 METRICAS = os.path.join(AQUI, 'metricas.json')
-METRICAS_CADA = timedelta(hours=3)  # de quanto em quanto tempo lê as métricas no Instagram
+METRICAS_CADA = timedelta(hours=3)
+COMENTARIOS = os.path.join(AQUI, 'comentarios.json')  # de quanto em quanto tempo lê as métricas no Instagram
 JANELA = timedelta(hours=12)        # item atrasado mais que isso não é publicado (evita publicar coisa velha de surpresa)
 MAX_TENTATIVAS = 3
 
@@ -203,6 +204,27 @@ def coletar_metricas(ig, agenda, estado):
     salvar(METRICAS, met); log(f'Métricas lidas: {lidos} itens.')
 
 
+def coletar_comentarios(ig, estado, conta):
+    """Comentários dos últimos 14 dias que ainda não têm resposta da própria conta (para o checklist da página)."""
+    agora = datetime.now(timezone.utc); eu = (conta or {}).get('username', '')
+    if estado.get('_comentarios_em') and datetime.fromisoformat(estado['_comentarios_em']) > agora - timedelta(minutes=30): return
+    estado['_comentarios_em'] = agora.isoformat()
+    pend = []
+    for iid, reg in estado.items():
+        if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id'): continue
+        if datetime.fromisoformat(reg.get('em', agora.isoformat())) < agora - timedelta(days=14): continue
+        try:
+            cs = ig._req('GET', f"{reg['media_id']}/comments", fields='id,text,username,timestamp,replies{username}', limit=50).get('data', [])
+        except Exception:
+            continue                                                  # Story não tem comentário; outros erros: tenta na próxima
+        for c in cs:
+            if c.get('username') == eu: continue
+            if any(r.get('username') == eu for r in (c.get('replies') or {}).get('data', [])): continue
+            pend.append({'id': c['id'], 'item': iid, 'usuario': c.get('username'), 'texto': c.get('text', '')[:300],
+                         'quando': c.get('timestamp'), 'link': reg.get('link')})
+    salvar(COMENTARIOS, sorted(pend, key=lambda c: c.get('quando') or '')); log(f'Comentários sem resposta: {len(pend)}.')
+
+
 def main():
     teste = '--teste' in sys.argv
     token, user = os.environ.get('IG_TOKEN'), os.environ.get('IG_USER_ID')
@@ -211,11 +233,13 @@ def main():
     agenda = carregar(AGENDA, [])
     estado = carregar(ESTADO, {})
     ig = IG(token, user)
-    log('Conta:', ig.conta())
+    conta = ig.conta(); log('Conta:', conta)
     agora = datetime.now(timezone.utc)
     conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
     try: coletar_metricas(ig, agenda, estado)
     except Exception as e: log('AVISO: não consegui ler as métricas:', str(e)[:300])
+    try: coletar_comentarios(ig, estado, conta)
+    except Exception as e: log('AVISO: não consegui ler os comentários:', str(e)[:300])
     agenda = [i for i in agenda if i.get('via', 'api') == 'api']          # itens do Metricool só aparecem na página
     pendentes = [i for i in agenda if estado.get(i['id'], {}).get('status') != 'publicado']
     devidos = [i for i in pendentes if agora - JANELA <= datetime.fromisoformat(i['quando']) <= agora]
