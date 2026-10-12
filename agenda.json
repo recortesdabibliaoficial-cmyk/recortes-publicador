@@ -160,7 +160,8 @@
    "midia/stories/story_2026-10-13_versiculo_post05.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-13.jpg",
-  "titulo": "Versículo: Os dez leprosos"
+  "titulo": "Versículo: Os dez leprosos",
+  "destaque": "Lições"
  },
  {
   "id": "mc-carrossel06",
@@ -319,7 +320,8 @@
    "midia/stories/story_2026-10-17_versiculo_post09.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-17.jpg",
-  "titulo": "Versículo: A oferta da viúva"
+  "titulo": "Versículo: A oferta da viúva",
+  "destaque": "Lições"
  },
  {
   "id": "mc-carrossel10",
@@ -363,7 +365,8 @@
    "midia/stories/story_2026-10-18_versiculo_post10.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-18.jpg",
-  "titulo": "Versículo: Marta e Maria"
+  "titulo": "Versículo: Marta e Maria",
+  "destaque": "Lições"
  },
  {
   "id": "mc-carrossel11",
@@ -424,7 +427,8 @@
    "midia/stories/story_2026-10-20_versiculo_post12.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-20.jpg",
-  "titulo": "Versículo: Zaqueu"
+  "titulo": "Versículo: Zaqueu",
+  "destaque": "Lições"
  },
  {
   "id": "post13",
@@ -728,7 +732,8 @@
    "midia/stories/story_2026-10-27_versiculo_post19.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-27.jpg",
-  "titulo": "Versículo: Salomão pede sabedoria"
+  "titulo": "Versículo: Salomão pede sabedoria",
+  "destaque": "Lições"
  },
  {
   "id": "post20",
@@ -769,7 +774,8 @@
    "midia/stories/story_2026-10-28_versiculo_post20.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-28.jpg",
-  "titulo": "Versículo: Jesus lava os pés dos discípulos"
+  "titulo": "Versículo: Jesus lava os pés dos discípulos",
+  "destaque": "Lições"
  },
  {
   "id": "reel20",
