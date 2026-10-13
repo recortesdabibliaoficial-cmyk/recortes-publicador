@@ -189,7 +189,7 @@ function tarefas(){
     for (let k = 0; k < nC; k++) {
       const p = ps[(dia * nC + k) % ps.length], pr = prontos[p.h], mom = momentos[Math.min(2, Math.floor(k * 3 / nC))];
       engaj.push(pr ? { id:`e-${hojeSP}-${p.h}`, txt:`(${mom}) Comentar no post mais recente de @${p.h}`, link:pr.link, rotulo:'abrir post ↗',
-                        det:'Comentário pronto, baseado no post de hoje. Copie, abra o post e cole:', copiar:pr.comentario }
+                        det:`Comentário pronto, escrito a partir do post mais recente do perfil${pr.data_post ? ' (publicado em ' + pr.data_post + ')' : ''}. Copie, abra o post e cole:`, copiar:pr.comentario }
                     : { id:`e-${hojeSP}-${p.h}`, txt:`(${mom}) Comentar no post mais recente de @${p.h}`, link:`https://www.instagram.com/${p.h}/`, rotulo:'abrir perfil ↗',
                         det:`${p.sobre}. Dica: ${p.dica}. Leia o post e escreva algo seu; nada de só emoji.` });
     }
