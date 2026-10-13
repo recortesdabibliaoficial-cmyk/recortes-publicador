@@ -28,7 +28,7 @@
   "link": "https://www.instagram.com/p/DeZ1W6vFXHL/",
   "via": "metricool"
  },
- "_comentarios_em": "2026-10-13T21:25:39.688699+00:00",
+ "_comentarios_em": "2026-10-13T22:00:31.242950+00:00",
  "mc-carrossel04": {
   "status": "publicado",
   "media_id": "18117935720074552",
@@ -77,5 +77,12 @@
   "media_id": "18469641880137566",
   "em": "2026-10-13T16:01:28.285513+00:00",
   "link": "https://www.instagram.com/reel/DecMD9-DTd0/"
+ },
+ "reel01": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "17941427352364508",
+  "em": "2026-10-13T22:01:14.275838+00:00",
+  "link": "https://www.instagram.com/reel/Dec1QLxgD3f/"
  }
 }
