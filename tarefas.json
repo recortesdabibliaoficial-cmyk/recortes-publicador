@@ -45,11 +45,6 @@
     "h": "thomasnelsonbrasil",
     "sobre": "editora cristã Thomas Nelson Brasil (429 mil)",
     "dica": "comente a frase ou o livro do post com uma reflexão sua"
-   },
-   {
-    "h": "tiagobrunet",
-    "sobre": "pastor e escritor (8 milhões)",
-    "dica": "comente cedo, logo depois que ele posta, com uma ideia da mensagem"
    }
   ],
   "prontos": {
@@ -85,12 +80,6 @@
      "data_post": "13/10"
     },
     {
-     "h": "tiagobrunet",
-     "link": "https://www.instagram.com/p/DecGGi-EX20/",
-     "comentario": "Que testemunho sincero. Casamento forte não é o que nunca erra, é o que decide recomeçar com a ajuda de Deus. Que a misericórdia que sustentou vocês alcance muitos casais hoje. 🙏",
-     "data_post": "13/10"
-    },
-    {
      "h": "bibliadiaria",
      "link": "https://www.instagram.com/reel/DeT5s_ZkTZB/",
      "comentario": "Jesus disse essa frase a Jairo logo depois da notícia de que a filha dele tinha morrido: \"Não temas; crê somente.\" Quando tudo parece perdido, Ele ainda não terminou de agir. 🙏",
@@ -99,6 +88,9 @@
    ]
   },
   "comentarios_por_dia": 10,
-  "seguir_por_dia": 5
+  "seguir_por_dia": 5,
+  "evitar": [
+   "tiagobrunet: comentários limitados (13/10)"
+  ]
  }
 ]
