@@ -10,5 +10,48 @@
   "detalhe": "No destaque Comece aqui ficam as duas versões (\"Comece aqui\" e \"Como funciona\"). Para ele voltar ao primeiro lugar: segure o destaque → Editar destaque → aba Stories → desmarque uma versão e marque a outra de novo (alternando) → Concluir. Não publica nada. Volta a aparecer a cada 15 dias.",
   "cada_dias": 15,
   "desde": "2026-10-12T00:00:00-03:00"
+ },
+ {
+  "id": "engaj",
+  "tipo": "engajamento",
+  "por_dia": 4,
+  "desde": "2026-10-13T00:00:00-03:00",
+  "perfis": [
+   {
+    "h": "superbookbrasil",
+    "sobre": "histórias bíblicas animadas para crianças (60 mil)",
+    "dica": "comente qual lição da história você leva para casa"
+   },
+   {
+    "h": "biblia.ilustrada",
+    "sobre": "ilustrações bíblicas (pequeno, muito parecido com o nosso)",
+    "dica": "elogie um detalhe da ilustração e comente o versículo"
+   },
+   {
+    "h": "devocionaldiario",
+    "sobre": "devocional diário (12 mil)",
+    "dica": "conte como o texto do dia conversa com a sua semana"
+   },
+   {
+    "h": "palavradedeus",
+    "sobre": "versículos e mensagens (8,6 mil)",
+    "dica": "responda com uma frase sua sobre o versículo, sem só \"amém\""
+   },
+   {
+    "h": "paodiariooficial",
+    "sobre": "Ministérios Pão Diário (211 mil)",
+    "dica": "comente um ponto específico da meditação do dia"
+   },
+   {
+    "h": "youversionpt",
+    "sobre": "App da Bíblia YouVersion (294 mil)",
+    "dica": "responda à pergunta do post ou cite outro versículo sobre o tema"
+   },
+   {
+    "h": "hernandesdiaslopes",
+    "sobre": "pastor e escritor (3 milhões)",
+    "dica": "comente uma ideia da pregação; perfil grande, vale pelo público"
+   }
+  ]
  }
 ]

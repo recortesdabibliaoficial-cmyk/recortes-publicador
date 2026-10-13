@@ -156,9 +156,21 @@ function desenhar(){
     }).join('') + '</section>';
   }).join('') || '<p>Nada para mostrar neste filtro.</p>';
 }
+let engaj = [];
 function tarefas(){
+  engaj = [];
   // Tarefas que só o Felipe pode fazer no app: aparecem quando o Story já foi publicado.
-  const lista = manuais.filter(m => !m.desde || Date.now() >= new Date(m.desde)).map(m => {
+  const hojeSP = new Date().toLocaleDateString('sv-SE',{timeZone:'America/Sao_Paulo'});
+  manuais.filter(m => m.tipo === 'engajamento' && Date.now() >= new Date(m.desde)).forEach(m => {
+    // rodízio diário: cada dia, os próximos N perfis da lista (todos passam pela lista em poucos dias)
+    const dia = Math.floor((new Date(hojeSP) - new Date(m.desde.slice(0,10))) / 864e5), n = m.por_dia || 4, ps = m.perfis;
+    for (let k = 0; k < Math.min(n, ps.length); k++) {
+      const p = ps[(dia * n + k) % ps.length], primeira = dia * n + k < ps.length;
+      engaj.push({ id:`e-${hojeSP}-${p.h}`, txt:`Comentar no post mais recente de @${p.h}` + (primeira ? ' (e seguir o perfil)' : ''),
+        det:`${p.sobre}. Dica: ${p.dica}. Leia o post antes e escreva algo seu; nada de só emoji.`, link:`https://www.instagram.com/${p.h}/`, rotulo:'abrir perfil ↗' });
+    }
+  });
+  const lista = manuais.filter(m => m.tipo !== 'engajamento' && (!m.desde || Date.now() >= new Date(m.desde))).map(m => {
     const per = m.cada_dias ? '-' + Math.floor((Date.now() - new Date(m.desde)) / (m.cada_dias * 864e5)) : '';
     return { id:'m-' + m.id + per, txt:m.texto, det:m.detalhe||'' };
   });
@@ -176,6 +188,7 @@ function tarefas(){
         det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho });
     }
   });
+  engaj.forEach(e => lista.push(e));
   coms.forEach(c => {
     const it = itens.find(i => i.id === c.item), q = c.quando ? new Date(c.quando).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}) : '';
     lista.push({ id:'c-'+c.id, txt:`Responder @${c.usuario}: «${c.texto}»`, link:c.link,
@@ -189,7 +202,7 @@ function desenharTarefas(){
   const mostrar = verFeitas ? ts : pend;
   document.getElementById('tarefas').innerHTML = `<div class="caixa"><h2><span>✅ Para você fazer (${pend.length})</span>` +
     (ts.length > pend.length ? `<button id="verFeitas">${verFeitas ? 'esconder feitas' : 'ver feitas'}</button>` : '') + '</h2>' +
-    (mostrar.length ? mostrar.map(t => `<label class="tarefa ${LS.get(chave(t.id))?'feita':''}"><input type="checkbox" data-t="${t.id}" ${LS.get(chave(t.id))?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}${t.link ? ` <a class="link" href="${t.link}" target="_blank" rel="noopener">abrir post ↗</a>` : ''}</small></span></label>`).join('')
+    (mostrar.length ? mostrar.map(t => `<label class="tarefa ${LS.get(chave(t.id))?'feita':''}"><input type="checkbox" data-t="${t.id}" ${LS.get(chave(t.id))?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}${t.link ? ` <a class="link" href="${t.link}" target="_blank" rel="noopener">${t.rotulo || 'abrir post ↗'}</a>` : ''}</small></span></label>`).join('')
       : '<div class="nada">Nada pendente agora. Novas tarefas aparecem aqui quando os Stories forem publicados.</div>') + '</div>';
   const b = document.querySelector('.abas button.ativo'); if (b) b.innerHTML = canal.nome + (pend.length ? `<span class="n">${pend.length}</span>` : '');
 }
