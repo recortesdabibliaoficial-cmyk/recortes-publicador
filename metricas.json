@@ -10,14 +10,14 @@
   }
  ],
  "mc-carrossel01": {
-  "reach": 0,
+  "reach": 1,
   "views": 3,
   "likes": 0,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
  "mc-carrossel02": {
   "reach": 1,
@@ -27,7 +27,7 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
  "comeceaqui": {
   "reach": 0,
@@ -35,9 +35,9 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
- "_em": "2026-10-13T09:15:23.633885+00:00",
+ "_em": "2026-10-13T10:15:25.131842+00:00",
  "mc-carrossel03": {
   "reach": 1,
   "views": 2,
@@ -46,17 +46,17 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
  "mc-carrossel04": {
-  "reach": 0,
+  "reach": 1,
   "views": 1,
   "likes": 0,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
  "story2026-10-12": {
   "reach": 0,
@@ -64,7 +64,7 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
  "story2026-10-12-post02": {
   "reach": 0,
@@ -72,7 +72,7 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
  "story2026-10-12-post03": {
   "reach": 0,
@@ -80,7 +80,7 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  },
  "story2026-10-12-post04": {
   "reach": 0,
@@ -88,6 +88,6 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T09:15:23.633885+00:00"
+  "lido_em": "2026-10-13T10:15:25.131842+00:00"
  }
 }
