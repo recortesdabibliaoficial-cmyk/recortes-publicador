@@ -14,7 +14,6 @@
  {
   "id": "engaj",
   "tipo": "engajamento",
-  "por_dia": 4,
   "desde": "2026-10-13T00:00:00-03:00",
   "perfis": [
    {
@@ -41,6 +40,16 @@
     "h": "bibliadiaria",
     "sobre": "Bíblia Diária (728 mil)",
     "dica": "comente o versículo do post com uma aplicação prática"
+   },
+   {
+    "h": "thomasnelsonbrasil",
+    "sobre": "editora cristã Thomas Nelson Brasil (429 mil)",
+    "dica": "comente a frase ou o livro do post com uma reflexão sua"
+   },
+   {
+    "h": "tiagobrunet",
+    "sobre": "pastor e escritor (8 milhões)",
+    "dica": "comente cedo, logo depois que ele posta, com uma ideia da mensagem"
    }
   ],
   "prontos": {
@@ -66,6 +75,8 @@
      "comentario": "Que verdade, pastor. A gente elogia estranhos com facilidade e esquece de quem está dentro de casa. Que esta semana seja de mais palavras de carinho em família. 🙏"
     }
    ]
-  }
+  },
+  "comentarios_por_dia": 10,
+  "seguir_por_dia": 5
  }
 ]

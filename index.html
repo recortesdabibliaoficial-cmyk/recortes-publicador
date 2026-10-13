@@ -178,18 +178,20 @@ function tarefas(){
   // Tarefas que só o Felipe pode fazer no app: aparecem quando o Story já foi publicado.
   const hojeSP = new Date().toLocaleDateString('sv-SE',{timeZone:'America/Sao_Paulo'});
   manuais.filter(m => m.tipo === 'engajamento' && Date.now() >= new Date(m.desde)).forEach(m => {
-    // rodízio diário: cada dia, os próximos N perfis da lista (todos passam pela lista em poucos dias)
-    const prontos = (m.prontos || {})[hojeSP];
-    if (prontos) {           // comentários já escritos pelo Claude a partir do post mais recente de cada perfil
-      prontos.forEach(p => engaj.push({ id:`e-${hojeSP}-${p.h}`, txt:`Comentar no post mais recente de @${p.h}`, link:p.link, rotulo:'abrir post ↗',
-        det:'Comentário pronto (baseado no post de hoje). Copie, abra o post e cole:', copiar:p.comentario }));
-      return;
-    }
-    const dia = Math.floor((new Date(hojeSP) - new Date(m.desde.slice(0,10))) / 864e5), n = m.por_dia || 4, ps = m.perfis;
-    for (let k = 0; k < Math.min(n, ps.length); k++) {
-      const p = ps[(dia * n + k) % ps.length], primeira = dia * n + k < ps.length;
-      engaj.push({ id:`e-${hojeSP}-${p.h}`, txt:`Comentar no post mais recente de @${p.h}` + (primeira ? ' (e seguir o perfil)' : ''),
-        det:`${p.sobre}. Dica: ${p.dica}. Leia o post antes e escreva algo seu; nada de só emoji.`, link:`https://www.instagram.com/${p.h}/`, rotulo:'abrir perfil ↗' });
+    const dia = Math.max(0, Math.floor((new Date(hojeSP) - new Date(m.desde.slice(0,10))) / 864e5)), ps = m.perfis;
+    const nC = Math.min(m.comentarios_por_dia || 10, ps.length), nS = m.seguir_por_dia || 5;
+    const momentos = ['manhã', 'almoço', 'noite'], prontos = {};
+    ((m.prontos || {})[hojeSP] || []).forEach(p => prontos[p.h] = p);
+    // seguir: 5 perfis novos por dia, na ordem da lista, até seguir todos
+    for (let k = dia * nS; k < Math.min((dia + 1) * nS, ps.length); k++)
+      engaj.push({ id:`s-${ps[k].h}`, txt:`Seguir @${ps[k].h}`, det:ps[k].sobre + '.', link:`https://www.instagram.com/${ps[k].h}/`, rotulo:'abrir perfil ↗' });
+    // comentar: até 10 por dia, em rodízio, divididos em 3 momentos do dia (não comentar tudo de uma vez)
+    for (let k = 0; k < nC; k++) {
+      const p = ps[(dia * nC + k) % ps.length], pr = prontos[p.h], mom = momentos[Math.min(2, Math.floor(k * 3 / nC))];
+      engaj.push(pr ? { id:`e-${hojeSP}-${p.h}`, txt:`(${mom}) Comentar no post mais recente de @${p.h}`, link:pr.link, rotulo:'abrir post ↗',
+                        det:'Comentário pronto, baseado no post de hoje. Copie, abra o post e cole:', copiar:pr.comentario }
+                    : { id:`e-${hojeSP}-${p.h}`, txt:`(${mom}) Comentar no post mais recente de @${p.h}`, link:`https://www.instagram.com/${p.h}/`, rotulo:'abrir perfil ↗',
+                        det:`${p.sobre}. Dica: ${p.dica}. Leia o post e escreva algo seu; nada de só emoji.` });
     }
   });
   const lista = manuais.filter(m => m.tipo !== 'engajamento' && (!m.desde || Date.now() >= new Date(m.desde))).map(m => {
