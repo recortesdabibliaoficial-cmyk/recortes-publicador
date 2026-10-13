@@ -3,6 +3,10 @@
   {
    "dia": "2026-10-12",
    "n": 0
+  },
+  {
+   "dia": "2026-10-13",
+   "n": 0
   }
  ],
  "mc-carrossel01": {
@@ -13,7 +17,7 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-12T23:50:38.518121+00:00"
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
  },
  "mc-carrossel02": {
   "reach": 0,
@@ -23,7 +27,7 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-12T23:50:38.518121+00:00"
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
  },
  "comeceaqui": {
   "reach": 0,
@@ -31,9 +35,9 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-12T23:50:38.518121+00:00"
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
  },
- "_em": "2026-10-12T23:50:38.518121+00:00",
+ "_em": "2026-10-13T00:55:30.928649+00:00",
  "mc-carrossel03": {
   "reach": 0,
   "views": 0,
@@ -42,7 +46,7 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-12T23:50:38.518121+00:00"
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
  },
  "mc-carrossel04": {
   "reach": 0,
@@ -52,6 +56,38 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-12T23:50:38.518121+00:00"
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
+ },
+ "story2026-10-12": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
+ },
+ "story2026-10-12-post02": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
+ },
+ "story2026-10-12-post03": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
+ },
+ "story2026-10-12-post04": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "lido_em": "2026-10-13T00:55:30.928649+00:00"
  }
 }
