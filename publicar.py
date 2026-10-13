@@ -109,7 +109,7 @@ def conferir_externos(ig, agenda, estado):
                 usados.add(m['id']); log('CONFERIDO (Metricool):', item['id'], m.get('permalink')); break
 
 
-def ja_publicado(ig, item, desde):
+def ja_publicado(ig, item, desde, estado=None):
     """Procura no Instagram se este item já está no ar (evita post repetido quando uma resposta de erro chega mas o post sai)."""
     try:
         if item['tipo'] == 'STORY':
@@ -119,8 +119,10 @@ def ja_publicado(ig, item, desde):
             ms = ig._req('GET', f'{ig.u}/media', fields='id,timestamp,caption,media_product_type', limit=10).get('data', [])
             leg = (item.get('legenda') or '')[:80]
             ok = lambda m: (m.get('caption') or '')[:80] == leg and leg != ''
+        usados = {v.get('media_id') for v in (estado or {}).values() if isinstance(v, dict)}
+        if item['tipo'] == 'STORY': desde = max(desde, datetime.fromisoformat(item['quando']) - timedelta(minutes=2))
         for m in ms:
-            if datetime.fromisoformat(m['timestamp']) >= desde and ok(m): return m['id']
+            if m['id'] not in usados and datetime.fromisoformat(m['timestamp']) >= desde and ok(m): return m['id']
     except Exception as e:
         log('AVISO: não consegui conferir se já saiu:', str(e)[:200])
     return None
@@ -273,7 +275,7 @@ def main():
         if reg.get('tentativas', 0) >= MAX_TENTATIVAS:
             log('PULADO (tentativas esgotadas):', item['id']); continue
         desde = datetime.fromisoformat(item['quando']) - timedelta(minutes=30)
-        ja = ja_publicado(ig, item, desde)                 # já saiu numa execução anterior? então só registra
+        ja = ja_publicado(ig, item, desde, estado)                 # já saiu numa execução anterior? então só registra
         if ja:
             reg.update(status='publicado', media_id=ja, em=datetime.now(timezone.utc).isoformat(), link=ig.link(ja)); reg.pop('ultimo_erro', None)
             log('JÁ ESTAVA NO AR:', item['id'], ja); salvar(ESTADO, estado); continue
@@ -284,7 +286,7 @@ def main():
             log('PUBLICADO:', item['id'], mid)
         except Exception as e:
             time.sleep(30)
-            ja = ja_publicado(ig, item, desde)             # a resposta foi erro, mas às vezes o post sai mesmo assim
+            ja = ja_publicado(ig, item, desde, estado)             # a resposta foi erro, mas às vezes o post sai mesmo assim
             if ja:
                 reg.update(status='publicado', media_id=ja, em=datetime.now(timezone.utc).isoformat(), link=ig.link(ja)); reg.pop('ultimo_erro', None)
                 log('SAIU APESAR DO ERRO:', item['id'], ja)
