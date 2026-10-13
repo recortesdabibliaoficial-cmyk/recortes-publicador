@@ -23,21 +23,6 @@
     "dica": "comente qual lição da história você leva para casa"
    },
    {
-    "h": "biblia.ilustrada",
-    "sobre": "ilustrações bíblicas (pequeno, muito parecido com o nosso)",
-    "dica": "elogie um detalhe da ilustração e comente o versículo"
-   },
-   {
-    "h": "devocionaldiario",
-    "sobre": "devocional diário (12 mil)",
-    "dica": "conte como o texto do dia conversa com a sua semana"
-   },
-   {
-    "h": "palavradedeus",
-    "sobre": "versículos e mensagens (8,6 mil)",
-    "dica": "responda com uma frase sua sobre o versículo, sem só \"amém\""
-   },
-   {
     "h": "paodiariooficial",
     "sobre": "Ministérios Pão Diário (211 mil)",
     "dica": "comente um ponto específico da meditação do dia"
@@ -45,13 +30,42 @@
    {
     "h": "youversionpt",
     "sobre": "App da Bíblia YouVersion (294 mil)",
-    "dica": "responda à pergunta do post ou cite outro versículo sobre o tema"
+    "dica": "comente o versículo do dia ou cite o versículo seguinte"
    },
    {
     "h": "hernandesdiaslopes",
     "sobre": "pastor e escritor (3 milhões)",
-    "dica": "comente uma ideia da pregação; perfil grande, vale pelo público"
+    "dica": "comente uma ideia da mensagem; perfil grande, vale pelo público"
+   },
+   {
+    "h": "bibliadiaria",
+    "sobre": "Bíblia Diária (728 mil)",
+    "dica": "comente o versículo do post com uma aplicação prática"
    }
-  ]
+  ],
+  "prontos": {
+   "2026-10-13": [
+    {
+     "h": "paodiariooficial",
+     "link": "https://www.instagram.com/p/DebP8tjjYWa/",
+     "comentario": "Que leitura linda. Jônatas sabia que Davi seria rei no lugar dele e, mesmo assim, escolheu ficar do lado do amigo. Amizade que não disputa, só cuida. Que Deus nos dê amigos assim, e nos ajude a ser esse amigo para alguém. 🙏"
+    },
+    {
+     "h": "youversionpt",
+     "link": "https://www.instagram.com/reel/DebzQM-xojk/",
+     "comentario": "E o versículo seguinte completa: quem confia no Senhor é como árvore plantada junto às águas, que não teme quando chega o calor e continua com as folhas verdes. Confiar não tira o calor, mas mantém a gente de pé. Que palavra para começar a semana! 🌿"
+    },
+    {
+     "h": "superbookbrasil",
+     "link": "https://www.instagram.com/p/DeZgWdmDeIc/",
+     "comentario": "Feliz Dia das Crianças! Jesus disse \"deixem vir a mim as crianças\", e é lindo ver as histórias da Bíblia chegando até elas de um jeito que entendem e guardam no coração. Obrigado pelo trabalho de vocês! 💛"
+    },
+    {
+     "h": "hernandesdiaslopes",
+     "link": "https://www.instagram.com/p/DebejDvFhUl/",
+     "comentario": "Que verdade, pastor. A gente elogia estranhos com facilidade e esquece de quem está dentro de casa. Que esta semana seja de mais palavras de carinho em família. 🙏"
+    }
+   ]
+  }
  }
 ]

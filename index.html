@@ -57,6 +57,8 @@
   .pin input { width:120px; padding:6px 8px; border:1px solid var(--linha); border-radius:8px; background:var(--bg); color:var(--tinta); }
   .pin button { padding:6px 12px; border:0; border-radius:8px; background:var(--terra); color:#fff; cursor:pointer; }
   .pin small { width:100%; color:var(--err); }
+  .pronto { display:block; margin:6px 0; padding:8px 10px; background:var(--bg); border-radius:8px; color:var(--tinta); font-size:13.5px; user-select:all; }
+  .copiar { padding:5px 10px; border:1px solid var(--linha); border-radius:8px; background:var(--card); color:var(--tinta); cursor:pointer; font-size:12.5px; margin-right:8px; }
   .abas .n { background:var(--terra); color:#fff; border-radius:99px; font-size:11px; padding:1px 6px; margin-left:4px; }
   #painel { max-width:880px; margin:16px auto 0; padding:0 16px; }
   .nums { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:8px; margin-top:6px; }
@@ -177,6 +179,12 @@ function tarefas(){
   const hojeSP = new Date().toLocaleDateString('sv-SE',{timeZone:'America/Sao_Paulo'});
   manuais.filter(m => m.tipo === 'engajamento' && Date.now() >= new Date(m.desde)).forEach(m => {
     // rodízio diário: cada dia, os próximos N perfis da lista (todos passam pela lista em poucos dias)
+    const prontos = (m.prontos || {})[hojeSP];
+    if (prontos) {           // comentários já escritos pelo Claude a partir do post mais recente de cada perfil
+      prontos.forEach(p => engaj.push({ id:`e-${hojeSP}-${p.h}`, txt:`Comentar no post mais recente de @${p.h}`, link:p.link, rotulo:'abrir post ↗',
+        det:'Comentário pronto (baseado no post de hoje). Copie, abra o post e cole:', copiar:p.comentario }));
+      return;
+    }
     const dia = Math.floor((new Date(hojeSP) - new Date(m.desde.slice(0,10))) / 864e5), n = m.por_dia || 4, ps = m.perfis;
     for (let k = 0; k < Math.min(n, ps.length); k++) {
       const p = ps[(dia * n + k) % ps.length], primeira = dia * n + k < ps.length;
@@ -219,7 +227,7 @@ function desenharTarefas(){
       <input id="campoPin" type="password" inputmode="numeric" autocomplete="off" aria-label="PIN"><button type="submit">Salvar PIN</button>${msgPin ? `<small>${esc(msgPin)}</small>` : ''}</form>` : '';
   document.getElementById('tarefas').innerHTML = `<div class="caixa"><h2><span>✅ Para você fazer (${pend.length})</span>` +
     (ts.length > pend.length ? `<button id="verFeitas">${verFeitas ? 'esconder feitas' : 'ver feitas'}</button>` : '') + '</h2>' +
-    (mostrar.length ? mostrar.map(t => `<label class="tarefa ${feito(t.id)?'feita':''}"><input type="checkbox" data-t="${t.id}" ${feito(t.id)?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}${t.link ? ` <a class="link" href="${t.link}" target="_blank" rel="noopener">${t.rotulo || 'abrir post ↗'}</a>` : ''}</small></span></label>`).join('')
+    (mostrar.length ? mostrar.map(t => `<label class="tarefa ${feito(t.id)?'feita':''}"><input type="checkbox" data-t="${t.id}" ${feito(t.id)?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}${t.copiar ? `<span class="pronto">${esc(t.copiar)}</span><button type="button" class="copiar" data-c="${encodeURIComponent(t.copiar)}">Copiar comentário</button>` : ''}${t.link ? ` <a class="link" href="${t.link}" target="_blank" rel="noopener">${t.rotulo || 'abrir post ↗'}</a>` : ''}</small></span></label>`).join('')
       : '<div class="nada">Nada pendente agora. Novas tarefas aparecem aqui quando os Stories forem publicados.</div>') + caixaPin +
     (remoto === null ? '<div class="met">As marcações estão salvas só neste aparelho (não consegui falar com o Google Drive agora).</div>' : '') + '</div>';
   const b = document.querySelector('.abas button.ativo'); if (b) b.innerHTML = canal.nome + (pend.length ? `<span class="n">${pend.length}</span>` : '');
@@ -248,6 +256,13 @@ document.addEventListener('submit', async e => {
   const ids = tarefas().map(t => t.id).filter(id => LS.get('feito:' + canal.id + ':' + id) && !(remoto && remoto[canal.id] && remoto[canal.id][id]));
   for (const id of ids) { try { await gravarRemoto({ pin, canal: canal.id, id, feito: true }); } catch(_) {} }
   desenharTarefas();
+});
+document.addEventListener('click', async e => {
+  const b = e.target.closest && e.target.closest('.copiar'); if (!b) return;
+  e.preventDefault(); const txt = decodeURIComponent(b.dataset.c);
+  try { await navigator.clipboard.writeText(txt); b.textContent = 'Copiado ✓'; }
+  catch(_) { const s = b.previousElementSibling, r = document.createRange(); r.selectNodeContents(s); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); b.textContent = 'Texto selecionado: copie'; }
+  setTimeout(() => b.textContent = 'Copiar comentário', 2500);
 });
 document.addEventListener('click', e => { if (e.target.id === 'verFeitas') { verFeitas = !verFeitas; desenharTarefas(); } });
 async function carregar(){
