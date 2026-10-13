@@ -75,14 +75,7 @@ class IG:
             time.sleep(15)
         raise RuntimeError(f'container {cid}: demorou demais para processar')
 
-    def publicar(self, cid):
-        """Publica o container; se o Instagram disser que a mídia ainda não está pronta, espera e tenta de novo."""
-        for tentativa in range(5):
-            try:
-                return self._req('POST', f'{self.u}/media_publish', creation_id=cid)['id']
-            except RuntimeError as e:
-                if 'not ready' not in str(e) and '2207027' not in str(e) or tentativa == 4: raise
-                time.sleep(20)
+    def publicar(self, cid): return self._req('POST', f'{self.u}/media_publish', creation_id=cid)['id']
 
     def link(self, mid):
         try: return self._req('GET', mid, fields='permalink').get('permalink')
@@ -114,6 +107,23 @@ def conferir_externos(ig, agenda, estado):
             if m['id'] not in usados and tipo_ig[item['tipo']](m) and q - timedelta(minutes=10) <= ts <= q + timedelta(hours=2):
                 estado[item['id']] = {'status': 'publicado', 'media_id': m['id'], 'em': ts.isoformat(), 'link': m.get('permalink'), 'via': 'metricool'}
                 usados.add(m['id']); log('CONFERIDO (Metricool):', item['id'], m.get('permalink')); break
+
+
+def ja_publicado(ig, item, desde):
+    """Procura no Instagram se este item já está no ar (evita post repetido quando uma resposta de erro chega mas o post sai)."""
+    try:
+        if item['tipo'] == 'STORY':
+            ms = ig._req('GET', f'{ig.u}/stories', fields='id,timestamp').get('data', [])
+            ok = lambda m: True
+        else:
+            ms = ig._req('GET', f'{ig.u}/media', fields='id,timestamp,caption,media_product_type', limit=10).get('data', [])
+            leg = (item.get('legenda') or '')[:80]
+            ok = lambda m: (m.get('caption') or '')[:80] == leg and leg != ''
+        for m in ms:
+            if datetime.fromisoformat(m['timestamp']) >= desde and ok(m): return m['id']
+    except Exception as e:
+        log('AVISO: não consegui conferir se já saiu:', str(e)[:200])
+    return None
 
 
 def publicar_item(ig, item, base):
@@ -262,15 +272,28 @@ def main():
         reg = estado.setdefault(item['id'], {'tentativas': 0})
         if reg.get('tentativas', 0) >= MAX_TENTATIVAS:
             log('PULADO (tentativas esgotadas):', item['id']); continue
+        desde = datetime.fromisoformat(item['quando']) - timedelta(minutes=30)
+        ja = ja_publicado(ig, item, desde)                 # já saiu numa execução anterior? então só registra
+        if ja:
+            reg.update(status='publicado', media_id=ja, em=datetime.now(timezone.utc).isoformat(), link=ig.link(ja)); reg.pop('ultimo_erro', None)
+            log('JÁ ESTAVA NO AR:', item['id'], ja); salvar(ESTADO, estado); continue
         try:
             mid = publicar_item(ig, item, base_midia())
             reg.update(status='publicado', media_id=mid, em=datetime.now(timezone.utc).isoformat(), link=ig.link(mid))
             reg.pop('ultimo_erro', None)
             log('PUBLICADO:', item['id'], mid)
         except Exception as e:
-            reg['tentativas'] = reg.get('tentativas', 0) + 1
-            reg['ultimo_erro'] = str(e)[:500]
-            log('ERRO ao publicar', item['id'], '->', e); falhou = True
+            time.sleep(30)
+            ja = ja_publicado(ig, item, desde)             # a resposta foi erro, mas às vezes o post sai mesmo assim
+            if ja:
+                reg.update(status='publicado', media_id=ja, em=datetime.now(timezone.utc).isoformat(), link=ig.link(ja)); reg.pop('ultimo_erro', None)
+                log('SAIU APESAR DO ERRO:', item['id'], ja)
+            else:
+                reg['tentativas'] = reg.get('tentativas', 0) + 1
+                reg['ultimo_erro'] = str(e)[:500]
+                log('ERRO ao publicar', item['id'], '->', e); falhou = True
+            if 'action is blocked' in str(e) or "'code': 4," in str(e):
+                log('Instagram limitou as publicações: paro por aqui e tento na próxima execução.'); salvar(ESTADO, estado); break
         salvar(ESTADO, estado)
     salvar(ESTADO, estado)
     if falhou: sys.exit(1)       # deixa a execução vermelha no GitHub (e manda e-mail de aviso)
