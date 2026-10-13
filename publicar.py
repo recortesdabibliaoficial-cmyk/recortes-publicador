@@ -291,7 +291,8 @@ def main():
                 reg.update(status='publicado', media_id=ja, em=datetime.now(timezone.utc).isoformat(), link=ig.link(ja)); reg.pop('ultimo_erro', None)
                 log('SAIU APESAR DO ERRO:', item['id'], ja)
             else:
-                reg['tentativas'] = reg.get('tentativas', 0) + 1
+                bloqueio = 'action is blocked' in str(e) or "'code': 4," in str(e)
+                if not bloqueio: reg['tentativas'] = reg.get('tentativas', 0) + 1     # bloqueio do Instagram não gasta tentativa
                 reg['ultimo_erro'] = str(e)[:500]
                 log('ERRO ao publicar', item['id'], '->', e); falhou = True
             if 'action is blocked' in str(e) or "'code': 4," in str(e):
