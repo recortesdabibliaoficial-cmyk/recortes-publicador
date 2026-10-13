@@ -6,7 +6,7 @@
   },
   {
    "dia": "2026-10-13",
-   "n": 3
+   "n": 4
   }
  ],
  "mc-carrossel01": {
@@ -17,7 +17,7 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 1,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "mc-carrossel02": {
   "reach": 2,
@@ -27,7 +27,7 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 1,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "comeceaqui": {
   "reach": 0,
@@ -37,7 +37,7 @@
   "total_interactions": 0,
   "lido_em": "2026-10-13T16:35:25.132190+00:00"
  },
- "_em": "2026-10-13T19:50:24.854986+00:00",
+ "_em": "2026-10-13T20:55:21.336774+00:00",
  "mc-carrossel03": {
   "reach": 2,
   "views": 3,
@@ -46,17 +46,17 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 1,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "mc-carrossel04": {
-  "reach": 2,
-  "views": 2,
+  "reach": 3,
+  "views": 3,
   "likes": 1,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 1,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "story2026-10-12": {
   "reach": 0,
@@ -64,7 +64,7 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "story2026-10-12-post02": {
   "reach": 0,
@@ -72,7 +72,7 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "story2026-10-12-post03": {
   "reach": 0,
@@ -80,7 +80,7 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "story2026-10-12-post04": {
   "reach": 0,
@@ -88,27 +88,27 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "mc-carrossel05": {
-  "reach": 1,
-  "views": 2,
+  "reach": 3,
+  "views": 10,
   "likes": 1,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 1,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  },
  "reel02": {
-  "reach": 5,
-  "views": 10,
+  "reach": 8,
+  "views": 11,
   "likes": 0,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "ig_reels_avg_watch_time": 3456,
-  "lido_em": "2026-10-13T19:50:24.854986+00:00"
+  "ig_reels_avg_watch_time": 4632,
+  "lido_em": "2026-10-13T20:55:21.336774+00:00"
  }
 }
