@@ -22,7 +22,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 AGENDA = os.path.join(AQUI, 'agenda.json')
 ESTADO = os.path.join(AQUI, 'estado.json')
 METRICAS = os.path.join(AQUI, 'metricas.json')
-METRICAS_CADA = timedelta(hours=1)   # intervalo de leitura das métricas (folga no limite da API)
+METRICAS_CADA = timedelta(hours=6)   # o limite de consultas é do app da Meta e vale para os dois canais juntos
 COMENTARIOS = os.path.join(AQUI, 'comentarios.json')  # de quanto em quanto tempo lê as métricas no Instagram
 JANELA = timedelta(hours=12)        # item atrasado mais que isso não é publicado (evita publicar coisa velha de surpresa)
 MAX_TENTATIVAS = 3
@@ -93,7 +93,7 @@ def conferir_externos(ig, agenda, estado):
     """Itens agendados fora do publicador (Metricool): confere no Instagram se já saíram e marca como publicados."""
     agora = datetime.now(timezone.utc)
     faltam = [i for i in agenda if i.get('via') == 'metricool' and estado.get(i['id'], {}).get('status') != 'publicado'
-              and agora - timedelta(days=3) <= datetime.fromisoformat(i['quando']) <= agora]
+              and agora - timedelta(hours=6) <= datetime.fromisoformat(i['quando']) <= agora]
     if not faltam: return
     try: midias = ig.recentes()
     except Exception as e: log('AVISO: não consegui conferir as publicações do Metricool:', e); return
@@ -215,7 +215,7 @@ def coletar_metricas(ig, agenda, estado):
     for iid, reg in estado.items():
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id') or iid not in tipos: continue
         quando = datetime.fromisoformat(reg.get('em', agora.isoformat()))
-        if quando < agora - timedelta(days=60): continue
+        if quando < agora - timedelta(days=14): continue
         if tipos[iid] == 'STORY' and quando < agora - timedelta(hours=24) and iid in met: continue   # Story some em 24 h: guarda a última leitura
         m = _insights(ig, reg['media_id'], CAMPOS.get(tipos[iid], ['reach']))
         if m: met[iid] = dict(m, lido_em=agora.isoformat()); lidos += 1
@@ -226,12 +226,13 @@ def coletar_metricas(ig, agenda, estado):
 def coletar_comentarios(ig, estado, conta):
     """Comentários dos últimos 14 dias que ainda não têm resposta da própria conta (para o checklist da página)."""
     agora = datetime.now(timezone.utc); eu = (conta or {}).get('username', '')
-    if estado.get('_comentarios_em') and datetime.fromisoformat(estado['_comentarios_em']) > agora - timedelta(minutes=30): return
+    if estado.get('_comentarios_em') and datetime.fromisoformat(estado['_comentarios_em']) > agora - timedelta(hours=2): return
     estado['_comentarios_em'] = agora.isoformat()
     pend = []
     for iid, reg in estado.items():
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id'): continue
-        if datetime.fromisoformat(reg.get('em', agora.isoformat())) < agora - timedelta(days=14): continue
+        if datetime.fromisoformat(reg.get('em', agora.isoformat())) < agora - timedelta(days=7): continue
+        if iid.startswith(('story', 'comeceaqui', 'oracao', 'mc-oracao')): continue     # Story não tem comentário: não gasta consulta
         try:
             cs = ig._req('GET', f"{reg['media_id']}/comments", fields='id,text,username,timestamp,replies{username}', limit=50).get('data', [])
         except Exception as e:
@@ -254,7 +255,12 @@ def main():
     agenda = carregar(AGENDA, [])
     estado = carregar(ESTADO, {})
     ig = IG(token, user)
-    conta = ig.conta(); log('Conta:', conta)
+    try:
+        conta = ig.conta(); log('Conta:', conta)
+    except RuntimeError as e:
+        if "'code': 4," in str(e) or 'request limit' in str(e):
+            log('Instagram: limite de consultas do app atingido. Tento de novo na próxima execução.'); return
+        raise
     agora = datetime.now(timezone.utc)
     conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
     try: coletar_metricas(ig, agenda, estado)
