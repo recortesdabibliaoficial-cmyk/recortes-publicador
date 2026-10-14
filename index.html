@@ -172,7 +172,7 @@ function desenhar(){
     }).join('') + '</section>';
   }).join('') || '<p>Nada para mostrar neste filtro.</p>';
 }
-let engaj = [];
+let engaj = [], estAtual = null;
 function tarefas(){
   engaj = [];
   // Tarefas que só o Felipe pode fazer no app: aparecem quando o Story já foi publicado.
@@ -222,6 +222,8 @@ function tarefas(){
 }
 function desenharTarefas(){
   const ts = tarefas(), chave = id => 'feito:' + canal.id + ':' + id;
+  if (estAtual && estAtual._pausa_ate && new Date(estAtual._pausa_ate) > new Date())
+    ts.unshift({ id:'pausa-' + estAtual._pausa_ate.slice(0,13), txt:'⚠️ O Instagram bloqueou o publicador: nada está saindo agora', det:'Motivo informado pela Meta: ' + (estAtual._pausa_motivo || '') + '. O publicador tenta de novo sozinho a cada hora. Avise o Claude.' });
   const feito = id => !!((remoto && remoto[canal.id] && remoto[canal.id][id]) || LS.get(chave(id)));
   const pend = ts.filter(t => !feito(t.id));
   const mostrar = verFeitas ? ts : pend;
@@ -272,10 +274,10 @@ async function carregar(){
   document.getElementById('handle').textContent = canal.handle;
   document.getElementById('abas').innerHTML = CANAIS.map(c => `<button data-c="${c.id}" class="${c===canal?'ativo':''}">${c.nome}</button>`).join('');
   document.getElementById('lista').textContent = 'Carregando…';
-  const [ag, est, man] = await Promise.all([fetch(canal.base+'agenda.json'+nc).then(r=>r.json()).catch(()=>[]), fetch(canal.base+'estado.json'+nc).then(r=>r.json()).catch(()=>({})),
+  let est_; const [ag, est, man] = await Promise.all([fetch(canal.base+'agenda.json'+nc).then(r=>r.json()).catch(()=>[]), fetch(canal.base+'estado.json'+nc).then(r=>r.json()).catch(()=>({})),
     fetch(canal.base+'tarefas.json'+nc).then(r=>r.json()).catch(()=>[])]);
   await lerRemoto();
-  manuais = man; met = await fetch(canal.base+'metricas.json'+nc).then(r=>r.json()).catch(()=>({}));
+  estAtual = est; manuais = man; met = await fetch(canal.base+'metricas.json'+nc).then(r=>r.json()).catch(()=>({}));
   coms = await fetch(canal.base+'comentarios.json'+nc).then(r=>r.json()).catch(()=>[]);
   const agora = new Date();
   itens = ag.sort((a,b)=>a.quando.localeCompare(b.quando)).map(i => ({...i, _st: status(i, est, agora), _erro: (est[i.id]||{}).status === 'publicado' ? null : (est[i.id]||{}).ultimo_erro, _link: (est[i.id]||{}).link}));

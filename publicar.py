@@ -255,11 +255,18 @@ def main():
     agenda = carregar(AGENDA, [])
     estado = carregar(ESTADO, {})
     ig = IG(token, user)
+    agora0 = datetime.now(timezone.utc)
+    if estado.get('_pausa_ate') and datetime.fromisoformat(estado['_pausa_ate']) > agora0:
+        log('Pausado até', estado['_pausa_ate'], '(o Instagram bloqueou ou limitou o app). Nada a fazer agora.'); return
     try:
         conta = ig.conta(); log('Conta:', conta)
+        if estado.pop('_pausa_ate', None): estado.pop('_pausa_motivo', None); salvar(ESTADO, estado)
     except RuntimeError as e:
-        if "'code': 4," in str(e) or 'request limit' in str(e):
-            log('Instagram: limite de consultas do app atingido. Tento de novo na próxima execução.'); return
+        txt = str(e)
+        if "'code': 4," in txt or 'request limit' in txt or 'API access blocked' in txt or "'code': 200," in txt:
+            # bloqueio ou limite do lado da Meta: espera 1 hora antes de tentar de novo (insistir piora) e não marca falha
+            estado['_pausa_ate'] = (agora0 + timedelta(hours=1)).isoformat(); estado['_pausa_motivo'] = txt[:300]
+            salvar(ESTADO, estado); log('Instagram recusou o acesso:', txt[:200], '→ pausa de 1 hora.'); return
         raise
     agora = datetime.now(timezone.utc)
     conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
