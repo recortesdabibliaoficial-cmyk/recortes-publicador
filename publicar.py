@@ -138,11 +138,17 @@ def publicar_item(ig, item, base):
         for f in filhos: ig.esperar(f, 120)
         cid = ig.container(media_type='CAROUSEL', children=','.join(filhos), caption=item['legenda'])
     elif tipo == 'REEL':
-        extra = {}
+        base_p = dict(media_type='REELS', video_url=url(item['midia'][0]), caption=item['legenda'],
+                      share_to_feed='true' if item.get('na_grade') else 'false', thumb_offset=str(item.get('capa_ms', 800)))
+        cid = None
         if item.get('teste'):   # Reel de teste: vai só para quem não segue; o Instagram libera para todos se for bem (estratégia de 15/10/2026)
-            extra['trial_params'] = json.dumps({'graduation_strategy': 'SS_PERFORMANCE'})
-        cid = ig.container(media_type='REELS', video_url=url(item['midia'][0]), caption=item['legenda'],
-                           share_to_feed='true' if item.get('na_grade') else 'false', thumb_offset=str(item.get('capa_ms', 800)), **extra)
+            try:
+                cid = ig.container(**base_p, trial_params=json.dumps({'graduation_strategy': 'SS_PERFORMANCE'}))
+                log('Reel de teste (só para quem não segue):', item['id'])
+            except RuntimeError as e:
+                if '2207081' not in str(e): raise
+                log('Conta ainda sem seguidores para Reel de teste (Instagram pede cerca de 1.000): publico como Reel normal.')
+        if cid is None: cid = ig.container(**base_p)
     elif tipo == 'STORY':
         cid = ig.container(media_type='STORIES', image_url=url(item['midia'][0]))
     else:
@@ -347,7 +353,7 @@ def main():
             else:
                 bloqueio = 'action is blocked' in str(e) or "'code': 4," in str(e)
                 if not bloqueio: reg['tentativas'] = reg.get('tentativas', 0) + 1     # bloqueio do Instagram não gasta tentativa
-                if item.get('teste') and not bloqueio: reg['tentativas'] = MAX_TENTATIVAS   # Reel de teste pode não aparecer na lista: não repetir às cegas
+                if item.get('teste') and not bloqueio and '2207081' not in str(e): reg['tentativas'] = MAX_TENTATIVAS   # Reel de teste pode não aparecer na lista: não repetir às cegas
                 reg['ultimo_erro'] = str(e)[:500]
                 log('ERRO ao publicar', item['id'], '->', e); falhou = True
             if 'action is blocked' in str(e) or "'code': 4," in str(e):
