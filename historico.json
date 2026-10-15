@@ -158,8 +158,8 @@
   "em": "2026-10-14T20:04-03:00"
  },
  "2026-10-15": {
-  "seguidores": 8,
-  "publicacoes": 6,
+  "seguidores": 10,
+  "publicacoes": 8,
   "itens": {
    "mc-carrossel01": {
     "reach": 7,
@@ -187,8 +187,8 @@
     "total_interactions": 0
    },
    "mc-carrossel03": {
-    "reach": 6,
-    "views": 12,
+    "reach": 7,
+    "views": 13,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -196,8 +196,8 @@
     "total_interactions": 2
    },
    "mc-carrossel04": {
-    "reach": 9,
-    "views": 15,
+    "reach": 10,
+    "views": 16,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -233,8 +233,8 @@
     "total_interactions": 0
    },
    "mc-carrossel05": {
-    "reach": 13,
-    "views": 26,
+    "reach": 14,
+    "views": 27,
     "likes": 5,
     "comments": 0,
     "saved": 0,
@@ -276,8 +276,8 @@
     "total_interactions": 1
    },
    "mc-carrossel06": {
-    "reach": 5,
-    "views": 14,
+    "reach": 6,
+    "views": 15,
     "likes": 0,
     "comments": 0,
     "saved": 1,
@@ -285,33 +285,75 @@
     "total_interactions": 1
    },
    "reel03": {
-    "reach": 29,
-    "views": 37,
-    "likes": 2,
+    "reach": 30,
+    "views": 38,
+    "likes": 3,
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 2,
-    "ig_reels_avg_watch_time": 5068
+    "total_interactions": 3,
+    "ig_reels_avg_watch_time": 5189
    },
    "reel05": {
-    "reach": 6,
-    "views": 11,
+    "reach": 7,
+    "views": 12,
     "likes": 1,
     "comments": 1,
     "saved": 0,
     "shares": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 10005
+    "ig_reels_avg_watch_time": 9075
    },
    "story2026-10-14": {
-    "reach": 0,
+    "reach": 5,
+    "views": 6,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "ora-manha-2026-10-15": {
+    "reach": 2,
     "views": 4,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "ora-story-manha-2026-10-15": {
+    "reach": 0,
+    "views": 2,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "mc-carrossel07": {
+    "reach": 2,
+    "views": 7,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "reel04": {
+    "reach": 2,
+    "views": 5,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "ig_reels_avg_watch_time": 6170
+   },
+   "comeceaqui3": {
+    "reach": 0,
+    "views": 1,
     "replies": 0,
     "shares": 0,
     "total_interactions": 1
    }
   },
-  "em": "2026-10-15T08:10-03:00"
+  "em": "2026-10-15T14:15-03:00"
  }
 }
