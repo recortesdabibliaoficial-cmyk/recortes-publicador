@@ -162,8 +162,8 @@
   "publicacoes": 6,
   "itens": {
    "mc-carrossel01": {
-    "reach": 6,
-    "views": 18,
+    "reach": 7,
+    "views": 19,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -171,8 +171,8 @@
     "total_interactions": 2
    },
    "mc-carrossel02": {
-    "reach": 7,
-    "views": 13,
+    "reach": 9,
+    "views": 15,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -187,8 +187,8 @@
     "total_interactions": 0
    },
    "mc-carrossel03": {
-    "reach": 4,
-    "views": 8,
+    "reach": 6,
+    "views": 12,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -196,8 +196,8 @@
     "total_interactions": 2
    },
    "mc-carrossel04": {
-    "reach": 7,
-    "views": 12,
+    "reach": 9,
+    "views": 15,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -233,8 +233,8 @@
     "total_interactions": 0
    },
    "mc-carrossel05": {
-    "reach": 11,
-    "views": 20,
+    "reach": 13,
+    "views": 26,
     "likes": 5,
     "comments": 0,
     "saved": 0,
@@ -276,13 +276,13 @@
     "total_interactions": 1
    },
    "mc-carrossel06": {
-    "reach": 3,
-    "views": 9,
+    "reach": 5,
+    "views": 14,
     "likes": 0,
     "comments": 0,
-    "saved": 0,
+    "saved": 1,
     "shares": 0,
-    "total_interactions": 0
+    "total_interactions": 1
    },
    "reel03": {
     "reach": 29,
@@ -312,6 +312,6 @@
     "total_interactions": 1
    }
   },
-  "em": "2026-10-15T02:05-03:00"
+  "em": "2026-10-15T08:10-03:00"
  }
 }
