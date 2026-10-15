@@ -269,6 +269,17 @@
   "titulo": "Daniel na cova dos leões"
  },
  {
+  "id": "story2026-10-15",
+  "tipo": "STORY",
+  "quando": "2026-10-15T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-15_versiculo_post07.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-15.jpg",
+  "titulo": "Versículo: O bom samaritano",
+  "destaque": "Parábolas"
+ },
+ {
   "id": "reel06",
   "tipo": "REEL",
   "quando": "2026-10-15T19:00:00-03:00",
@@ -283,20 +294,9 @@
   "titulo": "Jonas"
  },
  {
-  "id": "story2026-10-15",
-  "tipo": "STORY",
-  "quando": "2026-10-15T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-15_versiculo_post07.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-15.jpg",
-  "titulo": "Versículo: O bom samaritano",
-  "destaque": "Parábolas"
- },
- {
   "id": "ora-noite-2026-10-15",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-15T22:00:00-03:00",
+  "quando": "2026-10-15T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-15-noite/slide_01.jpg",
    "midia/oracoes/2026-10-15-noite/slide_02.jpg",
@@ -310,7 +310,7 @@
  {
   "id": "ora-story-noite-2026-10-15",
   "tipo": "STORY",
-  "quando": "2026-10-15T22:00:00-03:00",
+  "quando": "2026-10-15T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-15-noite/story.jpg"
   ],
@@ -322,7 +322,7 @@
  {
   "id": "ora-reel-noite-2026-10-15",
   "tipo": "REEL",
-  "quando": "2026-10-15T22:15:00-03:00",
+  "quando": "2026-10-15T21:15:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-15-noite/reel.mp4"
   ],
@@ -336,7 +336,7 @@
  {
   "id": "ora-manha-2026-10-16",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-16T05:30:00-03:00",
+  "quando": "2026-10-16T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-16-manha/slide_01.jpg",
    "midia/oracoes/2026-10-16-manha/slide_02.jpg",
@@ -350,7 +350,7 @@
  {
   "id": "ora-story-manha-2026-10-16",
   "tipo": "STORY",
-  "quando": "2026-10-16T05:30:00-03:00",
+  "quando": "2026-10-16T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-16-manha/story.jpg"
   ],
@@ -382,6 +382,17 @@
   "destaque": "Comece aqui"
  },
  {
+  "id": "story2026-10-16",
+  "tipo": "STORY",
+  "quando": "2026-10-16T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-16_versiculo_post08.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-16.jpg",
+  "titulo": "Versículo: Noé",
+  "destaque": "Esperança"
+ },
+ {
   "id": "reel07",
   "tipo": "REEL",
   "quando": "2026-10-16T19:00:00-03:00",
@@ -396,20 +407,9 @@
   "titulo": "O bom samaritano"
  },
  {
-  "id": "story2026-10-16",
-  "tipo": "STORY",
-  "quando": "2026-10-16T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-16_versiculo_post08.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-16.jpg",
-  "titulo": "Versículo: Noé",
-  "destaque": "Esperança"
- },
- {
   "id": "ora-noite-2026-10-16",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-16T22:00:00-03:00",
+  "quando": "2026-10-16T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-16-noite/slide_01.jpg",
    "midia/oracoes/2026-10-16-noite/slide_02.jpg",
@@ -423,7 +423,7 @@
  {
   "id": "ora-story-noite-2026-10-16",
   "tipo": "STORY",
-  "quando": "2026-10-16T22:00:00-03:00",
+  "quando": "2026-10-16T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-16-noite/story.jpg"
   ],
@@ -434,7 +434,7 @@
  {
   "id": "ora-manha-2026-10-17",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-17T05:30:00-03:00",
+  "quando": "2026-10-17T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-17-manha/slide_01.jpg",
    "midia/oracoes/2026-10-17-manha/slide_02.jpg",
@@ -448,7 +448,7 @@
  {
   "id": "ora-story-manha-2026-10-17",
   "tipo": "STORY",
-  "quando": "2026-10-17T05:30:00-03:00",
+  "quando": "2026-10-17T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-17-manha/story.jpg"
   ],
@@ -468,6 +468,17 @@
   "titulo": "A oferta da viúva"
  },
  {
+  "id": "story2026-10-17",
+  "tipo": "STORY",
+  "quando": "2026-10-17T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-17_versiculo_post09.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-17.jpg",
+  "titulo": "Versículo: A oferta da viúva",
+  "destaque": "Lições"
+ },
+ {
   "id": "reel08",
   "tipo": "REEL",
   "quando": "2026-10-17T19:00:00-03:00",
@@ -482,20 +493,9 @@
   "titulo": "Noé"
  },
  {
-  "id": "story2026-10-17",
-  "tipo": "STORY",
-  "quando": "2026-10-17T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-17_versiculo_post09.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-17.jpg",
-  "titulo": "Versículo: A oferta da viúva",
-  "destaque": "Lições"
- },
- {
   "id": "ora-noite-2026-10-17",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-17T22:00:00-03:00",
+  "quando": "2026-10-17T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-17-noite/slide_01.jpg",
    "midia/oracoes/2026-10-17-noite/slide_02.jpg",
@@ -509,7 +509,7 @@
  {
   "id": "ora-story-noite-2026-10-17",
   "tipo": "STORY",
-  "quando": "2026-10-17T22:00:00-03:00",
+  "quando": "2026-10-17T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-17-noite/story.jpg"
   ],
@@ -520,7 +520,7 @@
  {
   "id": "ora-manha-2026-10-18",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-18T05:30:00-03:00",
+  "quando": "2026-10-18T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-18-manha/slide_01.jpg",
    "midia/oracoes/2026-10-18-manha/slide_02.jpg",
@@ -534,7 +534,7 @@
  {
   "id": "ora-story-manha-2026-10-18",
   "tipo": "STORY",
-  "quando": "2026-10-18T05:30:00-03:00",
+  "quando": "2026-10-18T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-18-manha/story.jpg"
   ],
@@ -552,6 +552,17 @@
   "post": "10",
   "miniatura": "midia/miniaturas/mc-carrossel10.jpg",
   "titulo": "Marta e Maria"
+ },
+ {
+  "id": "story2026-10-18",
+  "tipo": "STORY",
+  "quando": "2026-10-18T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-18_versiculo_post10.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-18.jpg",
+  "titulo": "Versículo: Marta e Maria",
+  "destaque": "Lições"
  },
  {
   "id": "mc-oracao2026-10-18",
@@ -580,20 +591,9 @@
   "titulo": "A oferta da viúva"
  },
  {
-  "id": "story2026-10-18",
-  "tipo": "STORY",
-  "quando": "2026-10-18T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-18_versiculo_post10.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-18.jpg",
-  "titulo": "Versículo: Marta e Maria",
-  "destaque": "Lições"
- },
- {
   "id": "ora-noite-2026-10-18",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-18T22:00:00-03:00",
+  "quando": "2026-10-18T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-18-noite/slide_01.jpg",
    "midia/oracoes/2026-10-18-noite/slide_02.jpg",
@@ -607,7 +607,7 @@
  {
   "id": "ora-story-noite-2026-10-18",
   "tipo": "STORY",
-  "quando": "2026-10-18T22:00:00-03:00",
+  "quando": "2026-10-18T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-18-noite/story.jpg"
   ],
@@ -618,7 +618,7 @@
  {
   "id": "ora-manha-2026-10-19",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-19T05:30:00-03:00",
+  "quando": "2026-10-19T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-19-manha/slide_01.jpg",
    "midia/oracoes/2026-10-19-manha/slide_02.jpg",
@@ -632,7 +632,7 @@
  {
   "id": "ora-story-manha-2026-10-19",
   "tipo": "STORY",
-  "quando": "2026-10-19T05:30:00-03:00",
+  "quando": "2026-10-19T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-19-manha/story.jpg"
   ],
@@ -643,7 +643,7 @@
  {
   "id": "ora-reel-manha-2026-10-19",
   "tipo": "REEL",
-  "quando": "2026-10-19T06:00:00-03:00",
+  "quando": "2026-10-19T06:15:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-19-manha/reel.mp4"
   ],
@@ -666,6 +666,17 @@
   "titulo": "Ester"
  },
  {
+  "id": "story2026-10-19",
+  "tipo": "STORY",
+  "quando": "2026-10-19T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-19_versiculo_post11.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-19.jpg",
+  "titulo": "Versículo: Ester",
+  "destaque": "Coragem"
+ },
+ {
   "id": "reel10",
   "tipo": "REEL",
   "quando": "2026-10-19T19:00:00-03:00",
@@ -680,20 +691,9 @@
   "titulo": "Marta e Maria"
  },
  {
-  "id": "story2026-10-19",
-  "tipo": "STORY",
-  "quando": "2026-10-19T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-19_versiculo_post11.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-19.jpg",
-  "titulo": "Versículo: Ester",
-  "destaque": "Coragem"
- },
- {
   "id": "ora-noite-2026-10-19",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-19T22:00:00-03:00",
+  "quando": "2026-10-19T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-19-noite/slide_01.jpg",
    "midia/oracoes/2026-10-19-noite/slide_02.jpg",
@@ -707,7 +707,7 @@
  {
   "id": "ora-story-noite-2026-10-19",
   "tipo": "STORY",
-  "quando": "2026-10-19T22:00:00-03:00",
+  "quando": "2026-10-19T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-19-noite/story.jpg"
   ],
@@ -718,7 +718,7 @@
  {
   "id": "ora-manha-2026-10-20",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-20T05:30:00-03:00",
+  "quando": "2026-10-20T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-20-manha/slide_01.jpg",
    "midia/oracoes/2026-10-20-manha/slide_02.jpg",
@@ -732,7 +732,7 @@
  {
   "id": "ora-story-manha-2026-10-20",
   "tipo": "STORY",
-  "quando": "2026-10-20T05:30:00-03:00",
+  "quando": "2026-10-20T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-20-manha/story.jpg"
   ],
@@ -759,6 +759,17 @@
   "titulo": "Zaqueu"
  },
  {
+  "id": "story2026-10-20",
+  "tipo": "STORY",
+  "quando": "2026-10-20T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-20_versiculo_post12.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-20.jpg",
+  "titulo": "Versículo: Zaqueu",
+  "destaque": "Lições"
+ },
+ {
   "id": "reel11",
   "tipo": "REEL",
   "quando": "2026-10-20T19:00:00-03:00",
@@ -773,20 +784,9 @@
   "titulo": "Ester"
  },
  {
-  "id": "story2026-10-20",
-  "tipo": "STORY",
-  "quando": "2026-10-20T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-20_versiculo_post12.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-20.jpg",
-  "titulo": "Versículo: Zaqueu",
-  "destaque": "Lições"
- },
- {
   "id": "ora-noite-2026-10-20",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-20T22:00:00-03:00",
+  "quando": "2026-10-20T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-20-noite/slide_01.jpg",
    "midia/oracoes/2026-10-20-noite/slide_02.jpg",
@@ -800,7 +800,7 @@
  {
   "id": "ora-story-noite-2026-10-20",
   "tipo": "STORY",
-  "quando": "2026-10-20T22:00:00-03:00",
+  "quando": "2026-10-20T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-20-noite/story.jpg"
   ],
@@ -811,7 +811,7 @@
  {
   "id": "ora-manha-2026-10-21",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-21T05:30:00-03:00",
+  "quando": "2026-10-21T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-21-manha/slide_01.jpg",
    "midia/oracoes/2026-10-21-manha/slide_02.jpg",
@@ -825,7 +825,7 @@
  {
   "id": "ora-story-manha-2026-10-21",
   "tipo": "STORY",
-  "quando": "2026-10-21T05:30:00-03:00",
+  "quando": "2026-10-21T06:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-21-manha/story.jpg"
   ],
@@ -852,6 +852,17 @@
   "titulo": "Rute e Noemi"
  },
  {
+  "id": "story2026-10-21",
+  "tipo": "STORY",
+  "quando": "2026-10-21T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-21_versiculo_post13.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-21.jpg",
+  "titulo": "Versículo: Rute e Noemi",
+  "destaque": "Esperança"
+ },
+ {
   "id": "reel12",
   "tipo": "REEL",
   "quando": "2026-10-21T19:00:00-03:00",
@@ -865,20 +876,9 @@
   "titulo": "Zaqueu"
  },
  {
-  "id": "story2026-10-21",
-  "tipo": "STORY",
-  "quando": "2026-10-21T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-21_versiculo_post13.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-21.jpg",
-  "titulo": "Versículo: Rute e Noemi",
-  "destaque": "Esperança"
- },
- {
   "id": "ora-noite-2026-10-21",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-21T22:00:00-03:00",
+  "quando": "2026-10-21T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-21-noite/slide_01.jpg",
    "midia/oracoes/2026-10-21-noite/slide_02.jpg",
@@ -892,7 +892,7 @@
  {
   "id": "ora-story-noite-2026-10-21",
   "tipo": "STORY",
-  "quando": "2026-10-21T22:00:00-03:00",
+  "quando": "2026-10-21T21:00:00-03:00",
   "midia": [
    "midia/oracoes/2026-10-21-noite/story.jpg"
   ],
@@ -919,6 +919,17 @@
   "titulo": "Pedro anda sobre as águas"
  },
  {
+  "id": "story2026-10-22",
+  "tipo": "STORY",
+  "quando": "2026-10-22T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-22_versiculo_post14.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-22.jpg",
+  "titulo": "Versículo: Pedro anda sobre as águas",
+  "destaque": "Coragem"
+ },
+ {
   "id": "reel13",
   "tipo": "REEL",
   "quando": "2026-10-22T19:00:00-03:00",
@@ -930,17 +941,6 @@
   "capa_ms": 800,
   "miniatura": "midia/miniaturas/reel13.jpg",
   "titulo": "Rute e Noemi"
- },
- {
-  "id": "story2026-10-22",
-  "tipo": "STORY",
-  "quando": "2026-10-22T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-22_versiculo_post14.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-22.jpg",
-  "titulo": "Versículo: Pedro anda sobre as águas",
-  "destaque": "Coragem"
  },
  {
   "id": "post15",
@@ -961,6 +961,17 @@
   "titulo": "Elias debaixo da árvore"
  },
  {
+  "id": "story2026-10-23",
+  "tipo": "STORY",
+  "quando": "2026-10-23T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-23_versiculo_post15.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-23.jpg",
+  "titulo": "Versículo: Elias debaixo da árvore",
+  "destaque": "Esperança"
+ },
+ {
   "id": "reel14",
   "tipo": "REEL",
   "quando": "2026-10-23T19:00:00-03:00",
@@ -972,17 +983,6 @@
   "capa_ms": 800,
   "miniatura": "midia/miniaturas/reel14.jpg",
   "titulo": "Pedro anda sobre as águas"
- },
- {
-  "id": "story2026-10-23",
-  "tipo": "STORY",
-  "quando": "2026-10-23T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-23_versiculo_post15.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-23.jpg",
-  "titulo": "Versículo: Elias debaixo da árvore",
-  "destaque": "Esperança"
  },
  {
   "id": "post16",
@@ -1003,6 +1003,17 @@
   "titulo": "Gideão"
  },
  {
+  "id": "story2026-10-24",
+  "tipo": "STORY",
+  "quando": "2026-10-24T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-24_versiculo_post16.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-24.jpg",
+  "titulo": "Versículo: Gideão",
+  "destaque": "Coragem"
+ },
+ {
   "id": "reel15",
   "tipo": "REEL",
   "quando": "2026-10-24T19:00:00-03:00",
@@ -1014,17 +1025,6 @@
   "capa_ms": 800,
   "miniatura": "midia/miniaturas/reel15.jpg",
   "titulo": "Elias debaixo da árvore"
- },
- {
-  "id": "story2026-10-24",
-  "tipo": "STORY",
-  "quando": "2026-10-24T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-24_versiculo_post16.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-24.jpg",
-  "titulo": "Versículo: Gideão",
-  "destaque": "Coragem"
  },
  {
   "id": "post17",
@@ -1045,6 +1045,17 @@
   "titulo": "Moisés e a sarça"
  },
  {
+  "id": "story2026-10-25",
+  "tipo": "STORY",
+  "quando": "2026-10-25T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-25_versiculo_post17.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-25.jpg",
+  "titulo": "Versículo: Moisés e a sarça",
+  "destaque": "Coragem"
+ },
+ {
   "id": "reel16",
   "tipo": "REEL",
   "quando": "2026-10-25T19:00:00-03:00",
@@ -1056,17 +1067,6 @@
   "capa_ms": 800,
   "miniatura": "midia/miniaturas/reel16.jpg",
   "titulo": "Gideão"
- },
- {
-  "id": "story2026-10-25",
-  "tipo": "STORY",
-  "quando": "2026-10-25T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-25_versiculo_post17.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-25.jpg",
-  "titulo": "Versículo: Moisés e a sarça",
-  "destaque": "Coragem"
  },
  {
   "id": "post18",
@@ -1087,6 +1087,17 @@
   "titulo": "O filho pródigo"
  },
  {
+  "id": "story2026-10-26",
+  "tipo": "STORY",
+  "quando": "2026-10-26T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-26_versiculo_post18.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-26.jpg",
+  "titulo": "Versículo: O filho pródigo",
+  "destaque": "Parábolas"
+ },
+ {
   "id": "reel17",
   "tipo": "REEL",
   "quando": "2026-10-26T19:00:00-03:00",
@@ -1098,17 +1109,6 @@
   "capa_ms": 800,
   "miniatura": "midia/miniaturas/reel17.jpg",
   "titulo": "Moisés e a sarça"
- },
- {
-  "id": "story2026-10-26",
-  "tipo": "STORY",
-  "quando": "2026-10-26T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-26_versiculo_post18.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-26.jpg",
-  "titulo": "Versículo: O filho pródigo",
-  "destaque": "Parábolas"
  },
  {
   "id": "post19",
@@ -1129,6 +1129,17 @@
   "titulo": "Salomão pede sabedoria"
  },
  {
+  "id": "story2026-10-27",
+  "tipo": "STORY",
+  "quando": "2026-10-27T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-27_versiculo_post19.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-27.jpg",
+  "titulo": "Versículo: Salomão pede sabedoria",
+  "destaque": "Lições"
+ },
+ {
   "id": "reel18",
   "tipo": "REEL",
   "quando": "2026-10-27T19:00:00-03:00",
@@ -1140,17 +1151,6 @@
   "capa_ms": 800,
   "miniatura": "midia/miniaturas/reel18.jpg",
   "titulo": "O filho pródigo"
- },
- {
-  "id": "story2026-10-27",
-  "tipo": "STORY",
-  "quando": "2026-10-27T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-27_versiculo_post19.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-27.jpg",
-  "titulo": "Versículo: Salomão pede sabedoria",
-  "destaque": "Lições"
  },
  {
   "id": "post20",
@@ -1171,6 +1171,17 @@
   "titulo": "Jesus lava os pés dos discípulos"
  },
  {
+  "id": "story2026-10-28",
+  "tipo": "STORY",
+  "quando": "2026-10-28T18:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-28_versiculo_post20.jpg"
+  ],
+  "miniatura": "midia/miniaturas/story2026-10-28.jpg",
+  "titulo": "Versículo: Jesus lava os pés dos discípulos",
+  "destaque": "Lições"
+ },
+ {
   "id": "reel19",
   "tipo": "REEL",
   "quando": "2026-10-28T19:00:00-03:00",
@@ -1182,17 +1193,6 @@
   "capa_ms": 800,
   "miniatura": "midia/miniaturas/reel19.jpg",
   "titulo": "Salomão pede sabedoria"
- },
- {
-  "id": "story2026-10-28",
-  "tipo": "STORY",
-  "quando": "2026-10-28T20:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-28_versiculo_post20.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-28.jpg",
-  "titulo": "Versículo: Jesus lava os pés dos discípulos",
-  "destaque": "Lições"
  },
  {
   "id": "reel20",
