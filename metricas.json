@@ -11,27 +11,31 @@
   {
    "dia": "2026-10-14",
    "n": 7
+  },
+  {
+   "dia": "2026-10-15",
+   "n": 8
   }
  ],
  "mc-carrossel01": {
   "reach": 6,
-  "views": 16,
+  "views": 18,
   "likes": 2,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 2,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "mc-carrossel02": {
   "reach": 7,
-  "views": 10,
+  "views": 13,
   "likes": 2,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 2,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "comeceaqui": {
   "reach": 0,
@@ -41,26 +45,26 @@
   "total_interactions": 0,
   "lido_em": "2026-10-13T16:35:25.132190+00:00"
  },
- "_em": "2026-10-14T23:04:42.090065+00:00",
+ "_em": "2026-10-15T05:05:31.741753+00:00",
  "mc-carrossel03": {
   "reach": 4,
-  "views": 5,
+  "views": 8,
   "likes": 2,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 2,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "mc-carrossel04": {
   "reach": 7,
-  "views": 10,
+  "views": 12,
   "likes": 2,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 2,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "story2026-10-12": {
   "reach": 0,
@@ -95,14 +99,14 @@
   "lido_em": "2026-10-13T23:00:29.452777+00:00"
  },
  "mc-carrossel05": {
-  "reach": 10,
-  "views": 19,
+  "reach": 11,
+  "views": 20,
   "likes": 5,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 6,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "reel02": {
   "reach": 19,
@@ -112,8 +116,8 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "ig_reels_avg_watch_time": 7538,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "ig_reels_avg_watch_time": 7323,
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "reel01": {
   "reach": 6,
@@ -123,8 +127,8 @@
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "ig_reels_avg_watch_time": 12040,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "ig_reels_avg_watch_time": 11222,
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "story2026-10-13": {
   "reach": 5,
@@ -143,35 +147,43 @@
   "lido_em": "2026-10-14T23:04:42.090065+00:00"
  },
  "mc-carrossel06": {
-  "reach": 2,
-  "views": 8,
+  "reach": 3,
+  "views": 9,
   "likes": 0,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "reel03": {
-  "reach": 27,
-  "views": 35,
+  "reach": 29,
+  "views": 37,
   "likes": 2,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 2,
-  "ig_reels_avg_watch_time": 4866,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "ig_reels_avg_watch_time": 5068,
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  },
  "reel05": {
-  "reach": 2,
-  "views": 6,
+  "reach": 6,
+  "views": 11,
   "likes": 1,
   "comments": 1,
   "saved": 0,
   "shares": 0,
   "total_interactions": 2,
-  "ig_reels_avg_watch_time": 9159,
-  "lido_em": "2026-10-14T23:04:42.090065+00:00"
+  "ig_reels_avg_watch_time": 10005,
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
+ },
+ "story2026-10-14": {
+  "reach": 0,
+  "views": 4,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 1,
+  "lido_em": "2026-10-15T05:05:31.741753+00:00"
  }
 }
