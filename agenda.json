@@ -269,21 +269,6 @@
   "titulo": "Daniel na cova dos leões"
  },
  {
-  "id": "reel07",
-  "tipo": "REEL",
-  "quando": "2026-10-15T17:30:00-03:00",
-  "midia": [
-   "midia/post07/reel.mp4"
-  ],
-  "legenda": "Você já fingiu que não viu alguém precisando de ajuda?\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
-  "na_grade": false,
-  "capa_ms": 800,
-  "post": "07",
-  "miniatura": "midia/miniaturas/reel07.jpg",
-  "titulo": "O bom samaritano (REEL DE TESTE)",
-  "teste": true
- },
- {
   "id": "story2026-10-15",
   "tipo": "STORY",
   "quando": "2026-10-15T18:00:00-03:00",
@@ -406,6 +391,20 @@
   "miniatura": "midia/miniaturas/story2026-10-16.jpg",
   "titulo": "Versículo: Noé",
   "destaque": "Esperança"
+ },
+ {
+  "id": "reel07",
+  "tipo": "REEL",
+  "quando": "2026-10-16T19:00:00-03:00",
+  "midia": [
+   "midia/post07/reel.mp4"
+  ],
+  "legenda": "Você já fingiu que não viu alguém precisando de ajuda?\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\nEnvie este vídeo para alguém que precisa ouvir isso hoje. 💛\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
+  "na_grade": false,
+  "capa_ms": 800,
+  "post": "07",
+  "miniatura": "midia/miniaturas/reel07.jpg",
+  "titulo": "O bom samaritano"
  },
  {
   "id": "ora-noite-2026-10-16",
