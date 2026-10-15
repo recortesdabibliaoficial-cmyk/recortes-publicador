@@ -224,12 +224,23 @@ def enviar(assunto, html):
     usuario, senha = os.environ.get('EMAIL_USUARIO'), os.environ.get('EMAIL_SENHA')
     if not usuario or not senha:
         print('AVISO: faltam os segredos EMAIL_USUARIO e/ou EMAIL_SENHA; o e-mail não foi enviado.'); return False
-    para = os.environ.get('EMAIL_PARA') or usuario
+    usuario, senha = usuario.strip(), ''.join(senha.split())        # a senha de app vem em grupos com espaço
+    para = (os.environ.get('EMAIL_PARA') or usuario).strip()
     msg = MIMEText(html, 'html', 'utf-8')
     msg['Subject'], msg['From'], msg['To'] = assunto, f'Relatórios dos canais <{usuario}>', para
-    with smtplib.SMTP_SSL('smtp.gmail.com', 465, timeout=60) as s:
-        s.login(usuario, senha.replace(' ', '')); s.send_message(msg)
-    print('Enviado:', assunto); return True
+    erros = []
+    for porta in (587, 465):                                        # 587 (STARTTLS) e, se falhar, 465 (SSL)
+        try:
+            s = smtplib.SMTP('smtp.gmail.com', porta, timeout=60) if porta == 587 else smtplib.SMTP_SSL('smtp.gmail.com', porta, timeout=60)
+            with s:
+                if porta == 587: s.ehlo(); s.starttls(); s.ehlo()
+                s.login(usuario, senha); s.send_message(msg)
+            print('Enviado:', assunto, f'(porta {porta})'); return True
+        except smtplib.SMTPAuthenticationError as e:
+            raise RuntimeError(f'o Gmail recusou o usuário/senha de app ({e.smtp_code}): confira os segredos EMAIL_USUARIO e EMAIL_SENHA')
+        except Exception as e:
+            erros.append(f'porta {porta}: {type(e).__name__}: {str(e)[:150]}')
+    raise RuntimeError(' | '.join(erros))
 
 
 def main():
