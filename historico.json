@@ -1,0 +1,160 @@
+{
+ "2026-10-12": {
+  "seguidores": 0,
+  "aproximado": true
+ },
+ "2026-10-13": {
+  "seguidores": 4,
+  "aproximado": true
+ },
+ "2026-10-14": {
+  "seguidores": 7,
+  "aproximado": true,
+  "itens": {
+   "mc-carrossel01": {
+    "reach": 6,
+    "views": 16,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2
+   },
+   "mc-carrossel02": {
+    "reach": 7,
+    "views": 10,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2
+   },
+   "comeceaqui": {
+    "reach": 0,
+    "views": 2,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "mc-carrossel03": {
+    "reach": 4,
+    "views": 5,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2
+   },
+   "mc-carrossel04": {
+    "reach": 7,
+    "views": 10,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2
+   },
+   "story2026-10-12": {
+    "reach": 0,
+    "views": 5,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "story2026-10-12-post02": {
+    "reach": 0,
+    "views": 5,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "story2026-10-12-post03": {
+    "reach": 0,
+    "views": 5,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "story2026-10-12-post04": {
+    "reach": 0,
+    "views": 5,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "mc-carrossel05": {
+    "reach": 10,
+    "views": 19,
+    "likes": 5,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 6
+   },
+   "reel02": {
+    "reach": 19,
+    "views": 22,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "ig_reels_avg_watch_time": 7538
+   },
+   "reel01": {
+    "reach": 6,
+    "views": 11,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "ig_reels_avg_watch_time": 12040
+   },
+   "story2026-10-13": {
+    "reach": 5,
+    "views": 6,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "comeceaqui2": {
+    "reach": 5,
+    "views": 5,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "mc-carrossel06": {
+    "reach": 2,
+    "views": 8,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "reel03": {
+    "reach": 27,
+    "views": 35,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "ig_reels_avg_watch_time": 4866
+   },
+   "reel05": {
+    "reach": 2,
+    "views": 6,
+    "likes": 1,
+    "comments": 1,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "ig_reels_avg_watch_time": 9159
+   }
+  },
+  "em": "2026-10-14T20:04-03:00"
+ }
+}

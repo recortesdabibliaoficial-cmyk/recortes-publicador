@@ -24,6 +24,8 @@ ESTADO = os.path.join(AQUI, 'estado.json')
 METRICAS = os.path.join(AQUI, 'metricas.json')
 METRICAS_CADA = timedelta(hours=6)   # o limite de consultas é do app da Meta e vale para os dois canais juntos
 COMENTARIOS = os.path.join(AQUI, 'comentarios.json')  # de quanto em quanto tempo lê as métricas no Instagram
+HISTORICO = os.path.join(AQUI, 'historico.json')    # um retrato dos números por dia (base dos relatórios)
+BRT = timezone(timedelta(hours=-3))                 # horário de Brasília (sem horário de verão)
 JANELA = timedelta(hours=12)        # item atrasado mais que isso não é publicado (evita publicar coisa velha de surpresa)
 MAX_TENTATIVAS = 3
 
@@ -201,8 +203,11 @@ def coletar_metricas(ig, agenda, estado):
     """Lê no Instagram as métricas dos itens publicados nos últimos 60 dias e o número de seguidores. Nunca derruba a execução."""
     met = carregar(METRICAS, {})
     agora = datetime.now(timezone.utc)
-    if met.get('_em') and datetime.fromisoformat(met['_em']) > agora - METRICAS_CADA: return
+    local = agora.astimezone(BRT); dia_local = local.date().isoformat()
+    fechamento = local.hour == 23 and local.minute >= 30 and met.get('_fechado') != dia_local   # leitura final do dia (relatório)
+    if not fechamento and met.get('_em') and datetime.fromisoformat(met['_em']) > agora - METRICAS_CADA: return
     tipos = {i['id']: i['tipo'] for i in agenda}
+    conta = {}
     try:
         conta = ig._req('GET', 'me', fields='followers_count,media_count')
         hist = met.setdefault('_seguidores', [])
@@ -221,6 +226,39 @@ def coletar_metricas(ig, agenda, estado):
         if m: met[iid] = dict(m, lido_em=agora.isoformat()); lidos += 1
     met['_em'] = agora.isoformat()
     salvar(METRICAS, met); log(f'Métricas lidas: {lidos} itens.')
+    guardar_historico(ig, met, conta, local, fechamento)
+    if fechamento: met['_fechado'] = dia_local; salvar(METRICAS, met)
+
+
+CONTA_DIA = ['reach', 'views', 'accounts_engaged', 'total_interactions', 'profile_views']
+
+
+def guardar_historico(ig, met, conta, local, fechamento):
+    """Guarda (ou atualiza) o retrato do dia em historico.json; na leitura final do dia lê também os números da conta."""
+    try:
+        hist = carregar(HISTORICO, {})
+        dia = local.date().isoformat()
+        reg = hist.setdefault(dia, {})
+        reg['seguidores'] = conta.get('followers_count', reg.get('seguidores'))
+        reg['publicacoes'] = conta.get('media_count', reg.get('publicacoes'))
+        reg['itens'] = {k: {c: v for c, v in m.items() if c != 'lido_em'} for k, m in met.items()
+                        if not k.startswith('_') and isinstance(m, dict)}
+        reg['em'] = local.isoformat(timespec='minutes')
+        if fechamento:
+            ini = int(local.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
+            dados = {}
+            for c in CONTA_DIA:                     # um a um: se algum não existir para a conta, os outros continuam
+                try:
+                    d = ig._req('GET', f'{ig.u}/insights', metric=c, period='day', metric_type='total_value',
+                                since=ini, until=int(local.timestamp())).get('data', [])
+                    v = (d[0].get('total_value') or {}).get('value') if d else None
+                    if isinstance(v, (int, float)): dados[c] = v
+                except Exception as e:
+                    log('AVISO conta/insights', c, str(e)[:150])
+            reg['conta'] = dados
+        salvar(HISTORICO, hist)
+    except Exception as e:
+        log('AVISO histórico:', str(e)[:200])
 
 
 def coletar_comentarios(ig, estado, conta):
