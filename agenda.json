@@ -269,18 +269,6 @@
   "titulo": "Daniel na cova dos leões"
  },
  {
-  "id": "comeceaqui3",
-  "tipo": "STORY",
-  "quando": "2026-10-15T14:00:00-03:00",
-  "midia": [
-   "midia/stories/story_comece_aqui_3.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Como funciona com as orações (substitui a 2ª versão no destaque)",
-  "miniatura": "midia/miniaturas/comeceaqui3.jpg",
-  "destaque": "Comece aqui"
- },
- {
   "id": "reel06",
   "tipo": "REEL",
   "quando": "2026-10-15T19:00:00-03:00",
@@ -380,6 +368,18 @@
   "post": "08",
   "miniatura": "midia/miniaturas/mc-carrossel08.jpg",
   "titulo": "Noé"
+ },
+ {
+  "id": "comeceaqui3",
+  "tipo": "STORY",
+  "quando": "2026-10-16T14:00:00-03:00",
+  "midia": [
+   "midia/stories/story_comece_aqui_3.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Como funciona com as orações (substitui a 2ª versão no destaque)",
+  "miniatura": "midia/miniaturas/comeceaqui3.jpg",
+  "destaque": "Comece aqui"
  },
  {
   "id": "reel07",
