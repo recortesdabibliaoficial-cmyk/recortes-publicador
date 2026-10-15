@@ -234,7 +234,10 @@ def enviar(assunto, html):
             s = smtplib.SMTP('smtp.gmail.com', porta, timeout=60) if porta == 587 else smtplib.SMTP_SSL('smtp.gmail.com', porta, timeout=60)
             with s:
                 if porta == 587: s.ehlo(); s.starttls(); s.ehlo()
-                s.login(usuario, senha); s.send_message(msg)
+                s.ehlo_or_helo_if_needed(); s.user, s.password = usuario, senha
+                cod, resp = s.auth('PLAIN', s.auth_plain)     # só PLAIN: se o Gmail recusar, o erro real aparece (o login() esconde)
+                if cod != 235: raise smtplib.SMTPAuthenticationError(cod, resp)
+                s.send_message(msg)
             print('Enviado:', assunto, f'(porta {porta})'); return True
         except smtplib.SMTPAuthenticationError as e:
             raise RuntimeError(f'o Gmail recusou o usuário/senha de app ({e.smtp_code}): confira os segredos EMAIL_USUARIO e EMAIL_SENHA')
