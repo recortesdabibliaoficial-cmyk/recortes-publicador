@@ -407,12 +407,12 @@
   }
  },
  "2026-10-16": {
-  "seguidores": 14,
+  "seguidores": 16,
   "publicacoes": 11,
   "itens": {
    "mc-carrossel01": {
-    "reach": 12,
-    "views": 25,
+    "reach": 14,
+    "views": 28,
     "likes": 4,
     "comments": 0,
     "saved": 0,
@@ -420,8 +420,8 @@
     "total_interactions": 4
    },
    "mc-carrossel02": {
-    "reach": 16,
-    "views": 24,
+    "reach": 18,
+    "views": 26,
     "likes": 4,
     "comments": 0,
     "saved": 0,
@@ -436,8 +436,8 @@
     "total_interactions": 0
    },
    "mc-carrossel03": {
-    "reach": 9,
-    "views": 16,
+    "reach": 10,
+    "views": 17,
     "likes": 3,
     "comments": 0,
     "saved": 0,
@@ -445,8 +445,8 @@
     "total_interactions": 3
    },
    "mc-carrossel04": {
-    "reach": 15,
-    "views": 22,
+    "reach": 16,
+    "views": 23,
     "likes": 3,
     "comments": 0,
     "saved": 0,
@@ -482,8 +482,8 @@
     "total_interactions": 0
    },
    "mc-carrossel05": {
-    "reach": 20,
-    "views": 34,
+    "reach": 22,
+    "views": 36,
     "likes": 7,
     "comments": 0,
     "saved": 0,
@@ -525,8 +525,8 @@
     "total_interactions": 1
    },
    "mc-carrossel06": {
-    "reach": 10,
-    "views": 21,
+    "reach": 11,
+    "views": 22,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -541,7 +541,7 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 4,
-    "ig_reels_avg_watch_time": 7163
+    "ig_reels_avg_watch_time": 7031
    },
    "reel05": {
     "reach": 12,
@@ -561,8 +561,8 @@
     "total_interactions": 1
    },
    "ora-manha-2026-10-15": {
-    "reach": 8,
-    "views": 14,
+    "reach": 9,
+    "views": 15,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -577,8 +577,8 @@
     "total_interactions": 0
    },
    "mc-carrossel07": {
-    "reach": 7,
-    "views": 17,
+    "reach": 8,
+    "views": 18,
     "likes": 3,
     "comments": 1,
     "saved": 0,
@@ -586,14 +586,14 @@
     "total_interactions": 4
    },
    "reel04": {
-    "reach": 30,
-    "views": 45,
+    "reach": 32,
+    "views": 47,
     "likes": 2,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 7267
+    "ig_reels_avg_watch_time": 7078
    },
    "comeceaqui3": {
     "reach": 9,
@@ -603,25 +603,25 @@
     "total_interactions": 1
    },
    "story2026-10-15": {
-    "reach": 5,
-    "views": 12,
+    "reach": 9,
+    "views": 17,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0
    },
    "reel06": {
-    "reach": 3,
+    "reach": 4,
     "views": 9,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 5598
+    "ig_reels_avg_watch_time": 5072
    },
    "ora-noite-2026-10-15": {
-    "reach": 2,
-    "views": 3,
+    "reach": 3,
+    "views": 4,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -629,25 +629,25 @@
     "total_interactions": 0
    },
    "ora-story-noite-2026-10-15": {
-    "reach": 0,
-    "views": 8,
+    "reach": 6,
+    "views": 15,
     "replies": 0,
     "shares": 0,
     "total_interactions": 1
    },
    "ora-reel-noite-2026-10-15": {
-    "reach": 41,
-    "views": 51,
+    "reach": 42,
+    "views": 52,
     "likes": 3,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 7955
+    "ig_reels_avg_watch_time": 7607
    },
    "ora-manha-2026-10-16": {
-    "reach": 2,
-    "views": 2,
+    "reach": 5,
+    "views": 8,
     "likes": 1,
     "comments": 0,
     "saved": 0,
@@ -656,24 +656,24 @@
    },
    "ora-story-manha-2026-10-16": {
     "reach": 0,
-    "views": 6,
+    "views": 10,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0
    },
    "ora-reel-manha-2026-10-16": {
-    "reach": 3,
-    "views": 5,
+    "reach": 4,
+    "views": 6,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 6126
+    "ig_reels_avg_watch_time": 4846
    },
    "mc-carrossel08": {
-    "reach": 1,
-    "views": 1,
+    "reach": 5,
+    "views": 12,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -682,12 +682,12 @@
    },
    "comeceaqui4": {
     "reach": 0,
-    "views": 1,
+    "views": 3,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0
    }
   },
-  "em": "2026-10-16T11:35-03:00"
+  "em": "2026-10-16T17:39-03:00"
  }
 }
