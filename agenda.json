@@ -385,6 +385,18 @@
   "titulo": "Noé"
  },
  {
+  "id": "comeceaqui4",
+  "tipo": "STORY",
+  "quando": "2026-10-16T11:00:00-03:00",
+  "midia": [
+   "midia/stories/story_comece_aqui_4.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Como funciona (versão com 7h30, substitui a de 15/10)",
+  "miniatura": "midia/miniaturas/comeceaqui4.jpg",
+  "destaque": "Comece aqui"
+ },
+ {
   "id": "comeceaqui3",
   "tipo": "STORY",
   "quando": "2026-10-16T14:00:00-03:00",
