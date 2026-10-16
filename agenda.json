@@ -359,6 +359,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-16-manha.jpg"
  },
  {
+  "id": "ora-reel-manha-2026-10-16",
+  "tipo": "REEL",
+  "quando": "2026-10-16T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-16-manha/reel.mp4"
+  ],
+  "legenda": "Hoje você vai precisar de paz. Ore comigo.\n\n🙏☀️ Oração da manhã por paz.\n\n📖 e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus. (Filipenses 4:7)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 16/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-16-manha.jpg"
+ },
+ {
   "id": "mc-carrossel08",
   "tipo": "CARROSSEL",
   "quando": "2026-10-16T10:00:00-03:00",
@@ -429,6 +444,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da noite · 16/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-16-noite.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-16",
+  "tipo": "REEL",
+  "quando": "2026-10-16T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-16-noite/reel.mp4"
+  ],
+  "legenda": "Se o seu dia foi pesado, ore comigo agora.\n\n🙏🌙 Oração da noite por paz.\n\n📖 Eu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro. (Salmo 4:8)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 16/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-16-noite.jpg"
  },
  {
