@@ -487,6 +487,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-17-manha.jpg"
  },
  {
+  "id": "ora-reel-manha-2026-10-17",
+  "tipo": "REEL",
+  "quando": "2026-10-17T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-17-manha/reel.mp4"
+  ],
+  "legenda": "Não sabe qual caminho seguir hoje? Ore comigo.\n\n🙏☀️ Oração da manhã por direção.\n\n📖 Confia no SENHOR com todo o teu coração; e não te apoies em teu próprio entendimento. (Provérbios 3:5)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 17/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-17-manha.jpg"
+ },
+ {
   "id": "mc-carrossel09",
   "tipo": "CARROSSEL",
   "quando": "2026-10-17T10:00:00-03:00",
@@ -548,6 +563,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-17-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-17",
+  "tipo": "REEL",
+  "quando": "2026-10-17T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-17-noite/reel.mp4"
+  ],
+  "legenda": "Antes de dormir, agradeça pelo caminho de hoje.\n\n🙏🌙 Oração da noite por direção.\n\n📖 Tua palavra é lâmpada para meus pés e luz para meu caminho. (Salmo 119:105)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 17/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-17-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-18",
   "tipo": "CARROSSEL",
   "quando": "2026-10-18T06:00:00-03:00",
@@ -570,6 +600,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 18/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-18-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-18",
+  "tipo": "REEL",
+  "quando": "2026-10-18T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-18-manha/reel.mp4"
+  ],
+  "legenda": "Antes de começar o domingo, agradeça comigo.\n\n🙏☀️ Oração da manhã por gratidão.\n\n📖 Este é o dia em que o SENHOR agiu; alegremos e enchamos de alegria nele. (Salmo 118:24)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 18/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-18-manha.jpg"
  },
  {
@@ -646,6 +691,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-18-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-18",
+  "tipo": "REEL",
+  "quando": "2026-10-18T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-18-noite/reel.mp4"
+  ],
+  "legenda": "Terminou mais uma semana. Agradeça comigo.\n\n🙏🌙 Oração da noite por gratidão.\n\n📖 Agradecei ao SENHOR, porque ele é bom; porque sua bondade dura para sempre. (Salmo 107:1)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 18/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-18-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-19",
   "tipo": "CARROSSEL",
   "quando": "2026-10-19T06:00:00-03:00",
@@ -668,6 +728,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 19/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-19-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-19",
+  "tipo": "REEL",
+  "quando": "2026-10-19T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-19-manha/reel.mp4"
+  ],
+  "legenda": "A semana começou pesada? Ore comigo.\n\n🙏☀️ Oração da manhã por força.\n\n📖 Mas os que confiam no SENHOR renovarão as forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão. (Isaías 40:31)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 19/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-19-manha.jpg"
  },
  {
@@ -732,6 +807,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-19-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-19",
+  "tipo": "REEL",
+  "quando": "2026-10-19T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-19-noite/reel.mp4"
+  ],
+  "legenda": "O dia foi cansativo? Ore comigo.\n\n🙏🌙 Oração da noite por força.\n\n📖 Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar. (Mateus 11:28)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 19/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-19-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-20",
   "tipo": "CARROSSEL",
   "quando": "2026-10-20T06:00:00-03:00",
@@ -754,6 +844,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 20/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-20-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-20",
+  "tipo": "REEL",
+  "quando": "2026-10-20T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-20-manha/reel.mp4"
+  ],
+  "legenda": "Tem uma decisão difícil hoje? Ore comigo.\n\n🙏☀️ Oração da manhã por sabedoria.\n\n📖 Se algum de vós tem falta de sabedoria, peça a Deus, que concede generosamente a todos sem repreender, e lhe será dada. (Tiago 1:5)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 20/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-20-manha.jpg"
  },
  {
@@ -825,6 +930,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-20-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-20",
+  "tipo": "REEL",
+  "quando": "2026-10-20T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-20-noite/reel.mp4"
+  ],
+  "legenda": "Antes de dormir, agradeça pela sabedoria de hoje.\n\n🙏🌙 Oração da noite por sabedoria.\n\n📖 Porque o SENHOR dá sabedoria; de sua boca vem o conhecimento e o entendimento. (Provérbios 2:6)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 20/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-20-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-21",
   "tipo": "CARROSSEL",
   "quando": "2026-10-21T06:00:00-03:00",
@@ -847,6 +967,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 21/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-21-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-21",
+  "tipo": "REEL",
+  "quando": "2026-10-21T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-21-manha/reel.mp4"
+  ],
+  "legenda": "O dia vai testar a sua paciência. Ore comigo.\n\n🙏☀️ Oração da manhã por paciência.\n\n📖 O amor é paciente, é bondoso; o amor não é invejoso; o amor não é orgulhoso, não é arrogante. (1 Coríntios 13:4)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 21/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-21-manha.jpg"
  },
  {
@@ -917,6 +1052,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-21-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-21",
+  "tipo": "REEL",
+  "quando": "2026-10-21T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-21-noite/reel.mp4"
+  ],
+  "legenda": "O dia testou a sua paciência? Ore comigo.\n\n🙏🌙 Oração da noite por paciência.\n\n📖 Melhor é o que demora para se irritar do que o valente; e melhor é aquele que domina seu espírito do que aquele que toma uma cidade. (Provérbios 16:32)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 21/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-21-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-22",
   "tipo": "CARROSSEL",
   "quando": "2026-10-22T06:00:00-03:00",
@@ -939,6 +1089,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 22/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-22-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-22",
+  "tipo": "REEL",
+  "quando": "2026-10-22T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-22-manha/reel.mp4"
+  ],
+  "legenda": "Antes de sair de casa, ore comigo.\n\n🙏☀️ Oração da manhã por proteção.\n\n📖 O SENHOR te guardará de todo mal; ele guardará a tua alma. O SENHOR guardará tua saída e tua entrada, desde agora e para sempre. (Salmo 121:7-8)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 22/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-22-manha.jpg"
  },
  {
@@ -1009,6 +1174,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-22-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-22",
+  "tipo": "REEL",
+  "quando": "2026-10-22T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-22-noite/reel.mp4"
+  ],
+  "legenda": "Antes de dormir, agradeça pela proteção de hoje.\n\n🙏🌙 Oração da noite por proteção.\n\n📖 Ele não deixará o teu pé se abalar, nem cochilará o teu guardião. Eis que não cochilará nem dormirá o Guardião de Israel. (Salmo 121:3-4)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 22/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-22-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-23",
   "tipo": "CARROSSEL",
   "quando": "2026-10-23T06:00:00-03:00",
@@ -1031,6 +1211,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 23/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-23-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-23",
+  "tipo": "REEL",
+  "quando": "2026-10-23T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-23-manha/reel.mp4"
+  ],
+  "legenda": "O que está pesando em você hoje? Entregue a Deus comigo.\n\n🙏☀️ Oração da manhã por entrega.\n\n📖 Humilhai-vos, pois, debaixo da poderosa mão de Deus, para que ele vos exalte no tempo adequado, lançando sobre ele toda a vossa ansiedade; porque ele tem cuidado de vós. (1 Pedro 5:6-7)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 23/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-23-manha.jpg"
  },
  {
@@ -1101,6 +1296,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-23-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-23",
+  "tipo": "REEL",
+  "quando": "2026-10-23T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-23-noite/reel.mp4"
+  ],
+  "legenda": "Ainda carrega preocupações? Entregue a Deus comigo.\n\n🙏🌙 Oração da noite por entrega.\n\n📖 Entrega tuas preocupações ao SENHOR, e ele te sustentará; ele não permitirá que o justo fique caído para sempre. (Salmo 55:22)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 23/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-23-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-24",
   "tipo": "CARROSSEL",
   "quando": "2026-10-24T06:00:00-03:00",
@@ -1123,6 +1333,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 24/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-24-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-24",
+  "tipo": "REEL",
+  "quando": "2026-10-24T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-24-manha/reel.mp4"
+  ],
+  "legenda": "Sente que hoje não vai dar conta? Ore comigo.\n\n🙏☀️ Oração da manhã por graça.\n\n📖 Mas ele me disse: “Minha graça te basta, porque meu poder se aperfeiçoa na fraqueza”. (2 Coríntios 12:9)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 24/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-24-manha.jpg"
  },
  {
@@ -1193,6 +1418,21 @@
   "miniatura": "midia/miniaturas/ora-2026-10-24-noite.jpg"
  },
  {
+  "id": "ora-reel-noite-2026-10-24",
+  "tipo": "REEL",
+  "quando": "2026-10-24T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-24-noite/reel.mp4"
+  ],
+  "legenda": "Se hoje as suas forças acabaram, ore comigo.\n\n🙏🌙 Oração da noite por graça.\n\n📖 Minha carne e meu coração desfalecem; porém Deus será a rocha do meu coração e minha porção para sempre. (Salmo 73:26)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 24/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-2026-10-24-noite.jpg"
+ },
+ {
   "id": "ora-manha-2026-10-25",
   "tipo": "CARROSSEL",
   "quando": "2026-10-25T06:00:00-03:00",
@@ -1215,6 +1455,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 25/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-25-manha.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-25",
+  "tipo": "REEL",
+  "quando": "2026-10-25T06:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-25-manha/reel.mp4"
+  ],
+  "legenda": "Com medo da semana que vem? Ore comigo.\n\n🙏☀️ Oração da manhã por confiança.\n\n📖 Não temas, porque eu estou contigo; não te assombres, porque eu sou teu Deus. (Isaías 41:10)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 25/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-25-manha.jpg"
  },
  {
@@ -1282,6 +1537,21 @@
   ],
   "fixo": true,
   "titulo": "Oração da noite · 25/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-2026-10-25-noite.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-25",
+  "tipo": "REEL",
+  "quando": "2026-10-25T21:05:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-25-noite/reel.mp4"
+  ],
+  "legenda": "Antes de a semana começar, agradeça comigo.\n\n🙏🌙 Oração da noite por confiança.\n\n📖 É pelas bondades do SENHOR que não somos consumidos, porque suas misericórdias não têm fim. Elas são novas a cada manhã; grande é a tua fidelidade. (Lamentações 3:22-23)\n\nBíblia Livre (BLIVRE), CC BY 4.0\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 25/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-25-noite.jpg"
  },
  {
