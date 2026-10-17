@@ -189,7 +189,7 @@ def renovar_token(token, estado):
 
 # métricas pedidas ao Instagram por tipo de publicação (as que não existirem para um item são ignoradas)
 CAMPOS = {'CARROSSEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions'],
-          'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time'],
+          'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time', 'reels_skip_rate'],
           'STORY': ['reach', 'views', 'replies', 'shares', 'total_interactions']}
 
 
@@ -265,6 +265,17 @@ def guardar_historico(ig, met, conta, local, fechamento):
                 except Exception as e:
                     log('AVISO conta/insights', c, str(e)[:150])
             reg['conta'] = dados
+            quebras = {}                    # sonda de 17/10/2026: a conta aceita quebra por seguidor, tipo de conteúdo, idade, gênero e cidade
+            for metrica, quebra in [('reach', 'follow_type'), ('views', 'follow_type'), ('views', 'media_product_type'),
+                                    ('reach', 'age'), ('reach', 'gender'), ('reach', 'city')]:
+                try:
+                    d = ig._req('GET', f'{ig.u}/insights', metric=metrica, period='day', metric_type='total_value', breakdown=quebra,
+                                since=ini, until=int(local.timestamp())).get('data', [])
+                    bks = ((d[0].get('total_value') or {}).get('breakdowns') or []) if d else []
+                    quebras[f'{metrica}:{quebra}'] = {'/'.join(x['dimension_values']): x['value'] for b in bks for x in b.get('results', [])}
+                except Exception as e:
+                    log('AVISO conta/quebra', metrica, quebra, str(e)[:120])
+            reg['quebras'] = quebras
         salvar(HISTORICO, hist)
     except Exception as e:
         log('AVISO histórico:', str(e)[:200])

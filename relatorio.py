@@ -87,6 +87,11 @@ def periodo(hist, agenda, estado, d0, d1):
         r['media_alcance_' + t] = round(sum(rs) / len(rs), 1) if rs else None
     ws = [p['ig_reels_avg_watch_time'] / 1000 for p in pubs if p.get('ig_reels_avg_watch_time')]
     r['reel_tempo_medio'] = round(sum(ws) / len(ws), 1) if ws else None
+    nf = sum(hist[d.isoformat()].get('quebras', {}).get('reach:follow_type', {}).get('NON_FOLLOWER', 0) for d in dias(d0, d1) if d.isoformat() in hist)
+    sg = sum(hist[d.isoformat()].get('quebras', {}).get('reach:follow_type', {}).get('FOLLOWER', 0) for d in dias(d0, d1) if d.isoformat() in hist)
+    r['alcance_nao_seg_pct'] = round(nf / (nf + sg) * 100) if (nf + sg) else None
+    sk = [p['reels_skip_rate'] for p in pubs if p['tipo'] == 'REEL' and p.get('reels_skip_rate') is not None]
+    r['pulos_medio_reel'] = round(sum(sk) / len(sk)) if sk else None
     return r
 
 
@@ -125,8 +130,11 @@ LINHAS = [  # (chave, nome, é número "quanto maior melhor")
     ('media_alcance_CARROSSEL', 'Alcance médio por carrossel'),
     ('media_alcance_STORY', 'Alcance médio por Story'),
     ('reel_tempo_medio', 'Tempo médio assistindo os Reels (s)'),
+    ('pulos_medio_reel', 'Taxa de pulos dos Reels (% que sai em 3 s; menor é melhor)'),
+    ('alcance_nao_seg_pct', 'Alcance que veio de quem NÃO segue (%)'),
 ]
 VERDE, VERMELHO, CINZA = '#1a7f37', '#c62828', '#8a8a8a'
+MENOR_MELHOR = {'pulos_medio_reel'}      # nesses, subir é ruim (cores invertidas)
 
 
 def fmt(v):
@@ -135,11 +143,12 @@ def fmt(v):
     return f'{int(v):,}'.replace(',', '.')
 
 
-def comparar(v, ant):
+def comparar(v, ant, inverter=False):
     if v is None or ant is None: return f'<span style="color:{CINZA}">sem comparação</span>'
     dif = v - ant
     if abs(dif) < 1e-9: return f'<span style="color:{CINZA}">= igual</span>'
     cor, seta = (VERDE, '▲') if dif > 0 else (VERMELHO, '▼')
+    if inverter: cor = VERMELHO if dif > 0 else VERDE
     pct = f' ({dif / ant * 100:+.0f}%)'.replace('.', ',') if ant else ''
     return f'<span style="color:{cor}">{seta} {fmt(abs(dif))}{pct}</span>'
 
@@ -192,8 +201,8 @@ def bloco_canal(nome, arroba, tipo, atual, ant, media7, alarme=None):
         v = atual.get(k)
         if v is None and (ant or {}).get(k) is None: continue
         lin = f'<tr><td style="{td}">{rot}</td><td style="{td};text-align:right"><b>{fmt(v)}</b></td>'
-        lin += f'<td style="{td};text-align:right">{comparar(v, (ant or {}).get(k))}</td>'
-        if media7 is not None: lin += f'<td style="{td};text-align:right">{comparar(v, media7.get(k)) if k != "seguidores" else ""}</td>'
+        lin += f'<td style="{td};text-align:right">{comparar(v, (ant or {}).get(k), k in MENOR_MELHOR)}</td>'
+        if media7 is not None: lin += f'<td style="{td};text-align:right">{comparar(v, media7.get(k), k in MENOR_MELHOR) if k != "seguidores" else ""}</td>'
         h.append(lin + '</tr>')
     h.append('</table>')
     pubs = atual['publicados']
@@ -201,13 +210,14 @@ def bloco_canal(nome, arroba, tipo, atual, ant, media7, alarme=None):
         lim = 10 if tipo != 'diario' else 20
         h.append(f'<p style="margin:14px 0 4px;font-size:14px"><b>{"Publicado no dia" if tipo == "diario" else f"Melhores publicações ({min(lim, len(pubs))} de {len(pubs)})"}</b> — ordenado por alcance</p>')
         h.append('<table style="border-collapse:collapse;width:100%">')
-        h.append(f'<tr><th style="{td};text-align:left">Post</th><th style="{td}">Pessoas</th><th style="{td}">Curt.</th><th style="{td}">Coment.</th><th style="{td}">Salv.</th><th style="{td}">Compart.</th></tr>')
+        h.append(f'<tr><th style="{td};text-align:left">Post</th><th style="{td}">Pessoas</th><th style="{td}">Curt.</th><th style="{td}">Coment.</th><th style="{td}">Salv.</th><th style="{td}">Compart.</th><th style="{td}">Pulos</th></tr>')
         for p in pubs[:lim]:
             t = escape(p['titulo'][:60]); t = f'<a href="{p["link"]}" style="color:#1a4fa0">{t}</a>' if p.get('link') else t
             extra = f' · assistido {p["ig_reels_avg_watch_time"] / 1000:.0f}s'.replace('.', ',') if p.get('ig_reels_avg_watch_time') else ''
             dia = '' if tipo == 'diario' else f' · {p["dia"]:%d/%m}'
             h.append(f'<tr><td style="{td}">{t}<br><span style="color:{CINZA};font-size:12px">{TIPO_NOME[p["tipo"]]}{dia}{extra}</span></td>'
-                     + ''.join(f'<td style="{td};text-align:center">{fmt(p.get(c))}</td>' for c in ('reach', 'likes', 'comments', 'saved', 'shares')) + '</tr>')
+                     + ''.join(f'<td style="{td};text-align:center">{fmt(p.get(c))}</td>' for c in ('reach', 'likes', 'comments', 'saved', 'shares'))
+                     + f'<td style="{td};text-align:center">{(str(round(p["reels_skip_rate"])) + "%") if p.get("reels_skip_rate") is not None else "—"}</td>' + '</tr>')
         h.append('</table>')
     else:
         h.append(f'<p style="color:{CINZA};font-size:14px">Nenhuma publicação neste período.</p>')
