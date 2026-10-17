@@ -1,0 +1,27 @@
+name: Sondar métricas do Instagram (teste, roda uma vez)
+
+on:
+  workflow_dispatch: {}          # só roda quando alguém aciona; só lê dados, não grava nada
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sondar
+  cancel-in-progress: false
+
+jobs:
+  sondar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Perguntar ao Instagram quais métricas ele entrega
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python sondar_metricas.py
