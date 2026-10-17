@@ -267,5 +267,19 @@
   "em": "2026-10-17T00:06:21.237413+00:00",
   "link": "https://www.instagram.com/reel/Dekx9TYDe9B/"
  },
- "_comentarios_erro": "18092653496665721/comments: {'message': \"Unsupported get request. Object with ID '18092653496665721' does not exist, cannot be loaded due to missing permissions, or does not support this operation\", 'type': 'IGApiException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AHJn7kb0yRli5aVN4UvDyGb'}"
+ "_comentarios_erro": "18092653496665721/comments: {'message': \"Unsupported get request. Object with ID '18092653496665721' does not exist, cannot be loaded due to missing permissions, or does not support this operation\", 'type': 'IGApiException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AHJn7kb0yRli5aVN4UvDyGb'}",
+ "ora-manha-2026-10-17": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "17986802547086746",
+  "em": "2026-10-17T10:31:03.481556+00:00",
+  "link": "https://www.instagram.com/p/Del5goBm5Jw/"
+ },
+ "ora-story-manha-2026-10-17": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18119009959897338",
+  "em": "2026-10-17T10:31:24.104503+00:00",
+  "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4009864035399591590"
+ }
 }
