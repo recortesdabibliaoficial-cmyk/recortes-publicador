@@ -155,9 +155,33 @@ def titulo_periodo(tipo, p):
 NOME_ANT = {'diario': 'o dia anterior', 'semanal': 'a semana anterior', 'mensal': 'o mês anterior', 'anual': 'o ano anterior'}
 
 
-def bloco_canal(nome, arroba, tipo, atual, ant, media7):
+def conferir_dia(agenda, estado, d):
+    """Alarme (Felipe, 17/10/2026): do que estava agendado para o dia d e cuja hora já passou, o que saiu e o que NÃO saiu."""
+    agora = datetime.now(BRT); esperados, faltam = [], []
+    for i in agenda:
+        q = datetime.fromisoformat(i['quando']).astimezone(BRT)
+        if q.date() != d or q > agora: continue
+        esperados.append(i)
+        if estado.get(i['id'], {}).get('status') != 'publicado': faltam.append((q, i))
+    return esperados, faltam
+
+
+def banner_alarme(esperados, faltam):
+    if not esperados:
+        return f'<p style="color:{CINZA};font-size:13px;margin:4px 0">Nada estava agendado para este dia.</p>'
+    if not faltam:
+        return (f'<div style="background:#e8f5e9;border-left:4px solid {VERDE};padding:8px 12px;margin:6px 0;font-size:14px">'
+                f'✅ Tudo que estava agendado saiu: {len(esperados)} de {len(esperados)}.</div>')
+    itens = ''.join(f'<li>{q:%H:%M} · {TIPO_NOME.get(i["tipo"], i["tipo"])} · {escape(i.get("titulo") or i["id"])}</li>'
+                    for q, i in sorted(faltam, key=lambda x: x[0]))
+    return (f'<div style="background:#fdecea;border-left:4px solid {VERMELHO};padding:8px 12px;margin:6px 0;font-size:14px">'
+            f'⚠️ <b>NÃO SAIU: {len(faltam)} de {len(esperados)} agendados.</b><ul style="margin:6px 0 0 18px">{itens}</ul></div>')
+
+
+def bloco_canal(nome, arroba, tipo, atual, ant, media7, alarme=None):
     td = 'padding:6px 8px;border-bottom:1px solid #eee;font-size:14px'
     h = [f'<h2 style="font-size:18px;margin:24px 0 6px">{escape(nome)} <span style="color:{CINZA};font-weight:normal;font-size:14px">{arroba}</span></h2>']
+    if alarme is not None: h.append(banner_alarme(*alarme))
     if not atual:
         return ''.join(h) + f'<p style="color:{CINZA}">Ainda não há números guardados para este período.</p>'
     h.append('<table style="border-collapse:collapse;width:100%">')
@@ -208,16 +232,20 @@ def montar(tipo, d):
     corpo = [f'<div style="font-family:Arial,Helvetica,sans-serif;max-width:680px;margin:auto;color:#222">',
              f'<h1 style="font-size:22px;margin:0 0 4px">📊 Relatório {nome} — {titulo_periodo(tipo, p)}</h1>',
              f'<p style="color:{CINZA};margin:0 0 8px;font-size:13px">Comparando com {NOME_ANT[tipo]} ({titulo_periodo(tipo, pa)}).</p>']
+    faltaram = 0
     for canal in CANAIS:
         hist, agenda, estado = ler(canal, 'historico.json', {}), ler(canal, 'agenda.json', []), ler(canal, 'estado.json', {})
         atual, ant = periodo(hist, agenda, estado, *p), periodo(hist, agenda, estado, *pa)
         m7 = media_7_dias(hist, agenda, estado, d) if tipo == 'diario' else None
-        corpo.append(bloco_canal(canal[0], canal[1], tipo, atual, ant, m7))
+        alarme = conferir_dia(agenda, estado, p[0]) if tipo == 'diario' else None
+        if alarme: faltaram += len(alarme[1])
+        corpo.append(bloco_canal(canal[0], canal[1], tipo, atual, ant, m7, alarme))
     corpo.append(f'<p style="color:{CINZA};font-size:12px;margin-top:24px">"Seguidores ganhos" já desconta quem deixou de seguir. '
                  'O alcance da conta é somado dia a dia (a mesma pessoa em dois dias conta duas vezes). '
                  'Números dos posts dos últimos 14 dias; Stories só nas primeiras 24 horas.<br>'
                  f'<a href="{PAGINA}" style="color:#1a4fa0">Abrir a página da agenda</a></p></div>')
-    return f'📊 Relatório {nome} dos canais — {titulo_periodo(tipo, p)}', ''.join(corpo)
+    aviso = f'⚠️ FALTOU POST ({faltaram}) · ' if faltaram else ''
+    return aviso + f'📊 Relatório {nome} dos canais — {titulo_periodo(tipo, p)}', ''.join(corpo)
 
 
 def enviar(assunto, html):
