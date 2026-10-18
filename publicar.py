@@ -134,12 +134,22 @@ def publicar_item(ig, item, base):
     url = lambda arq: f'{base}/{arq}'
     tipo = item['tipo']
     if tipo == 'CARROSSEL':
-        filhos = [ig.container(image_url=url(a), is_carousel_item='true') for a in item['midia']]
+        alts = item.get('alt') or []
+
+        def filho(i, a):
+            pars = dict(image_url=url(a), is_carousel_item='true')
+            if i < len(alts) and alts[i]:                     # texto alternativo (acessibilidade e busca); se o Instagram recusar, segue sem
+                try: return ig.container(**pars, alt_text=alts[i][:900])
+                except RuntimeError as e: log('AVISO: texto alternativo recusado, publico sem ele:', str(e)[:150])
+            return ig.container(**pars)
+        filhos = [filho(i, a) for i, a in enumerate(item['midia'])]
         for f in filhos: ig.esperar(f, 120)
         cid = ig.container(media_type='CAROUSEL', children=','.join(filhos), caption=item['legenda'])
     elif tipo == 'REEL':
         base_p = dict(media_type='REELS', video_url=url(item['midia'][0]), caption=item['legenda'],
                       share_to_feed='true' if item.get('na_grade') else 'false', thumb_offset=str(item.get('capa_ms', 800)))
+        if item.get('capa'):                  # capa própria (imagem 9:16) em vez de um quadro do vídeo
+            base_p.pop('thumb_offset', None); base_p['cover_url'] = url(item['capa'])
         cid = None
         if item.get('teste'):   # Reel de teste: vai só para quem não segue; o Instagram libera para todos se for bem (estratégia de 15/10/2026)
             try:

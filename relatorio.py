@@ -74,11 +74,11 @@ def periodo(hist, agenda, estado, d0, d1):
     pubs = []
     for iid, reg in estado.items():
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or iid not in tit: continue
-        try: dia = datetime.fromisoformat(reg['em']).astimezone(BRT).date()
+        try: dt = datetime.fromisoformat(reg['em']).astimezone(BRT); dia = dt.date()
         except Exception: continue
         if d0 <= dia <= d1:
             m = b.get(iid, {})
-            pubs.append({'id': iid, 'titulo': tit[iid][0], 'tipo': tit[iid][1], 'dia': dia, 'link': reg.get('link'), **m})
+            pubs.append({'id': iid, 'titulo': tit[iid][0], 'tipo': tit[iid][1], 'dia': dia, 'hora': dt.hour, 'link': reg.get('link'), **m})
     pubs.sort(key=lambda p: (-(p.get('reach') or 0), p['dia']))
     r['publicados'] = pubs
     r['n_publicados'] = len(pubs)
@@ -92,6 +92,8 @@ def periodo(hist, agenda, estado, d0, d1):
     r['alcance_nao_seg_pct'] = round(nf / (nf + sg) * 100) if (nf + sg) else None
     sk = [p['reels_skip_rate'] for p in pubs if p['tipo'] == 'REEL' and p.get('reels_skip_rate') is not None]
     r['pulos_medio_reel'] = round(sum(sk) / len(sk)) if sk else None
+    if r.get('novos_seguidores') is not None and r.get('conta_profile_views'):
+        r['conv_visita_seg'] = round(max(0, r['novos_seguidores']) / r['conta_profile_views'] * 100)
     return r
 
 
@@ -132,6 +134,7 @@ LINHAS = [  # (chave, nome, é número "quanto maior melhor")
     ('reel_tempo_medio', 'Tempo médio assistindo os Reels (s)'),
     ('pulos_medio_reel', 'Taxa de pulos dos Reels (% que sai em 3 s; menor é melhor)'),
     ('alcance_nao_seg_pct', 'Alcance que veio de quem NÃO segue (%)'),
+    ('conv_visita_seg', 'Conversão: novos seguidores a cada 100 visitas ao perfil'),
 ]
 VERDE, VERMELHO, CINZA = '#1a7f37', '#c62828', '#8a8a8a'
 MENOR_MELHOR = {'pulos_medio_reel'}      # nesses, subir é ruim (cores invertidas)
@@ -187,6 +190,30 @@ def banner_alarme(esperados, faltam):
             f'⚠️ <b>NÃO SAIU: {len(faltam)} de {len(esperados)} agendados.</b><ul style="margin:6px 0 0 18px">{itens}</ul></div>')
 
 
+FAMILIAS = ['por que', 'dá pra', 'e se', 'como seria', 'quem ganha', 'oração da manhã', 'oração da noite']
+
+
+def analise_padroes(pubs):
+    """Alcance médio por horário e por família de título (só grupos com 2 ou mais posts do mesmo formato). Só para semanal/mensal/anual."""
+    out = []
+    for tipo in ('REEL', 'CARROSSEL'):
+        gh, gf = {}, {}
+        for p in pubs:
+            if p['tipo'] != tipo or p.get('reach') is None: continue
+            gh.setdefault(p.get('hora'), []).append(p['reach'])
+            tl = p['titulo'].lower()
+            fam = next((f for f in FAMILIAS if tl.startswith(f) or f in tl), None)
+            if fam: gf.setdefault(fam, []).append(p['reach'])
+        for rotulo, g, fmt_k in (('horário', gh, lambda k: f'{k:02d}h'), ('tipo de título', gf, lambda k: k)):
+            itens = sorted(((sum(v) / len(v), k, len(v)) for k, v in g.items() if len(v) >= 2 and k is not None), reverse=True)
+            if len(itens) >= 2:
+                out.append(f'<li><b>{TIPO_NOME[tipo]}s por {rotulo}</b> (alcance médio, nº de posts): ' +
+                           ' · '.join(f'{fmt_k(k)}: {m:.0f} ({n})' for m, k, n in itens) + '</li>')
+    if not out: return ''
+    return ('<p style="margin:14px 0 4px;font-size:14px"><b>Padrões do período</b> <span style="color:#8a8a8a;font-size:12px">(poucos posts: pista, não prova)</span></p>'
+            '<ul style="margin:0 0 0 18px;font-size:13px">' + ''.join(out) + '</ul>')
+
+
 def bloco_canal(nome, arroba, tipo, atual, ant, media7, alarme=None):
     td = 'padding:6px 8px;border-bottom:1px solid #eee;font-size:14px'
     h = [f'<h2 style="font-size:18px;margin:24px 0 6px">{escape(nome)} <span style="color:{CINZA};font-weight:normal;font-size:14px">{arroba}</span></h2>']
@@ -219,6 +246,7 @@ def bloco_canal(nome, arroba, tipo, atual, ant, media7, alarme=None):
                      + ''.join(f'<td style="{td};text-align:center">{fmt(p.get(c))}</td>' for c in ('reach', 'likes', 'comments', 'saved', 'shares'))
                      + f'<td style="{td};text-align:center">{(str(round(p["reels_skip_rate"])) + "%") if p.get("reels_skip_rate") is not None else "—"}</td>' + '</tr>')
         h.append('</table>')
+        if tipo != 'diario': h.append(analise_padroes(pubs))
     else:
         h.append(f'<p style="color:{CINZA};font-size:14px">Nenhuma publicação neste período.</p>')
     return ''.join(h)
