@@ -657,18 +657,6 @@
   "destaque": "Lições"
  },
  {
-  "id": "mc-oracao2026-10-18",
-  "tipo": "STORY",
-  "quando": "2026-10-18T18:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
-  "nota": "Pedido de oração",
-  "post": null,
-  "miniatura": "midia/miniaturas/mc-oracao2026-10-18.jpg",
-  "titulo": "Pedido de oração",
-  "destaque": "Orações"
- },
- {
   "id": "reel09",
   "tipo": "REEL",
   "quando": "2026-10-18T19:00:00-03:00",
@@ -773,14 +761,31 @@
   "miniatura": "midia/miniaturas/ora-2026-10-19-manha.jpg"
  },
  {
-  "id": "mc-carrossel11",
+  "id": "post11",
   "tipo": "CARROSSEL",
   "quando": "2026-10-19T10:00:00-03:00",
-  "via": "metricool",
-  "midia": [],
+  "midia": [
+   "midia/post11/slide_01.jpg",
+   "midia/post11/slide_02.jpg",
+   "midia/post11/slide_03.jpg",
+   "midia/post11/slide_04.jpg",
+   "midia/post11/slide_05.jpg",
+   "midia/post11/slide_06.jpg",
+   "midia/post11/slide_07.jpg",
+   "midia/post11/slide_08.jpg"
+  ],
   "legenda": "Você já se perguntou por que está onde está?\n\n🏢 O emprego que você não planejou.\n🏫 A escola ou a cidade onde você foi parar.\n👪 A família que Deus te deu.\n🤝 As pessoas que cruzam o seu caminho.\n🕰️ O momento difícil que você está vivendo agora.\n\nEster era uma moça simples que virou rainha. Quando um homem mau fez um plano contra o povo dela, ela teve medo, porque ir até o rei sem ser chamada podia custar a sua vida. Mesmo assim, Ester pediu que o povo jejuasse por ela, criou coragem e falou com o rei. E o povo foi salvo.\n\nNada na sua vida está fora dos planos de Deus. Talvez você esteja exatamente onde precisa estar para fazer a diferença na vida de alguém.\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\nOnde Deus colocou você hoje? 👑\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
-  "post": "11",
-  "miniatura": "midia/miniaturas/mc-carrossel11.jpg",
+  "alt": [
+   "Slide 1 de 8 da história: Ester. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: Ester. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: Ester. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: Ester. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: Ester. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: Ester. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: Ester. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: Ester. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/post11.jpg",
   "titulo": "Ester"
  },
  {
@@ -947,7 +952,6 @@
   "legenda": "Você já se perguntou por que está onde está?\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
   "na_grade": false,
   "capa_ms": 800,
-  "post": "11",
   "miniatura": "midia/miniaturas/reel11.jpg",
   "titulo": "Ester"
  },
