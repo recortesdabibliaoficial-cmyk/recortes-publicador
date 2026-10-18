@@ -741,12 +741,12 @@
   }
  },
  "2026-10-17": {
-  "seguidores": 20,
-  "publicacoes": 14,
+  "seguidores": 23,
+  "publicacoes": 15,
   "itens": {
    "mc-carrossel01": {
-    "reach": 16,
-    "views": 30,
+    "reach": 19,
+    "views": 35,
     "likes": 4,
     "comments": 0,
     "saved": 0,
@@ -754,8 +754,8 @@
     "total_interactions": 4
    },
    "mc-carrossel02": {
-    "reach": 19,
-    "views": 27,
+    "reach": 20,
+    "views": 28,
     "likes": 5,
     "comments": 0,
     "saved": 0,
@@ -816,8 +816,8 @@
     "total_interactions": 0
    },
    "mc-carrossel05": {
-    "reach": 24,
-    "views": 38,
+    "reach": 27,
+    "views": 41,
     "likes": 8,
     "comments": 0,
     "saved": 0,
@@ -832,7 +832,8 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 1,
-    "ig_reels_avg_watch_time": 9570
+    "ig_reels_avg_watch_time": 9570,
+    "reels_skip_rate": 69.6
    },
    "reel01": {
     "reach": 7,
@@ -842,7 +843,8 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 1,
-    "ig_reels_avg_watch_time": 13415
+    "ig_reels_avg_watch_time": 13415,
+    "reels_skip_rate": 44.4
    },
    "story2026-10-13": {
     "reach": 5,
@@ -875,7 +877,8 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 4,
-    "ig_reels_avg_watch_time": 6827
+    "ig_reels_avg_watch_time": 6827,
+    "reels_skip_rate": 68.6
    },
    "reel05": {
     "reach": 12,
@@ -885,7 +888,8 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 11963
+    "ig_reels_avg_watch_time": 11963,
+    "reels_skip_rate": 53.8
    },
    "story2026-10-14": {
     "reach": 8,
@@ -927,7 +931,8 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 6790
+    "ig_reels_avg_watch_time": 6790,
+    "reels_skip_rate": 68.6
    },
    "comeceaqui3": {
     "reach": 9,
@@ -951,11 +956,12 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 4470
+    "ig_reels_avg_watch_time": 4470,
+    "reels_skip_rate": 80
    },
    "ora-noite-2026-10-15": {
-    "reach": 3,
-    "views": 4,
+    "reach": 4,
+    "views": 5,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -977,11 +983,12 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 6977
+    "ig_reels_avg_watch_time": 6977,
+    "reels_skip_rate": 79.2
    },
    "ora-manha-2026-10-16": {
-    "reach": 6,
-    "views": 9,
+    "reach": 7,
+    "views": 10,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -1003,7 +1010,8 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 3585
+    "ig_reels_avg_watch_time": 3585,
+    "reels_skip_rate": 87.5
    },
    "mc-carrossel08": {
     "reach": 6,
@@ -1029,14 +1037,15 @@
     "total_interactions": 0
    },
    "reel07": {
-    "reach": 74,
-    "views": 86,
+    "reach": 80,
+    "views": 91,
     "likes": 2,
     "comments": 0,
     "saved": 2,
     "shares": 0,
     "total_interactions": 4,
-    "ig_reels_avg_watch_time": 7895
+    "ig_reels_avg_watch_time": 8198,
+    "reels_skip_rate": 71.8
    },
    "ora-noite-2026-10-16": {
     "reach": 2,
@@ -1055,18 +1064,19 @@
     "total_interactions": 0
    },
    "ora-reel-noite-2026-10-16": {
-    "reach": 11,
-    "views": 12,
+    "reach": 13,
+    "views": 14,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 5830
+    "ig_reels_avg_watch_time": 5119,
+    "reels_skip_rate": 84.6
    },
    "ora-manha-2026-10-17": {
-    "reach": 1,
-    "views": 1,
+    "reach": 3,
+    "views": 5,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -1074,23 +1084,51 @@
     "total_interactions": 0
    },
    "ora-story-manha-2026-10-17": {
-    "reach": 0,
-    "views": 5,
+    "reach": 9,
+    "views": 10,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0
    },
    "ora-reel-manha-2026-10-17": {
-    "reach": 4,
-    "views": 4,
+    "reach": 10,
+    "views": 12,
+    "likes": 1,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 1,
+    "ig_reels_avg_watch_time": 4877,
+    "reels_skip_rate": 66.7
+   },
+   "mc-carrossel09": {
+    "reach": 5,
+    "views": 7,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 0,
-    "ig_reels_avg_watch_time": 6394
+    "total_interactions": 0
    },
-   "mc-carrossel09": {
+   "story2026-10-17": {
+    "reach": 9,
+    "views": 10,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "reel08": {
+    "reach": 49,
+    "views": 56,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 3,
+    "ig_reels_avg_watch_time": 2864,
+    "reels_skip_rate": 81.1
+   },
+   "ora-noite-2026-10-17": {
     "reach": 3,
     "views": 4,
     "likes": 0,
@@ -1098,8 +1136,48 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 0
+   },
+   "ora-story-noite-2026-10-17": {
+    "reach": 5,
+    "views": 6,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "ora-reel-noite-2026-10-17": {
+    "reach": 144,
+    "views": 172,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "ig_reels_avg_watch_time": 6757,
+    "reels_skip_rate": 75
    }
   },
-  "em": "2026-10-17T17:35-03:00"
+  "em": "2026-10-17T23:30-03:00",
+  "conta": {
+   "reach": 247,
+   "views": 350,
+   "accounts_engaged": 6,
+   "total_interactions": 10,
+   "profile_views": 9
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "NON_FOLLOWER": 237,
+    "FOLLOWER": 11
+   },
+   "views:follow_type": {
+    "NON_FOLLOWER": 299,
+    "FOLLOWER": 51
+   },
+   "views:media_product_type": {
+    "STORY": 46,
+    "REEL": 275,
+    "CAROUSEL_CONTAINER": 29
+   }
+  }
  }
 }
