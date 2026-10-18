@@ -71,6 +71,7 @@ def periodo(hist, agenda, estado, d0, d1):
         r['ganho_' + c] = sum(max(0, (m.get(c) or 0) - (a.get(k, {}).get(c) or 0)) for k, m in b.items()) if a is not None else None
     # o que foi publicado no período
     tit = {i['id']: (i.get('titulo') or i['id'], i['tipo']) for i in agenda}
+    cta_de = {i['id']: i.get('cta') for i in agenda}                 # experimento G: com ou sem pedido de comentário
     pubs = []
     for iid, reg in estado.items():
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or iid not in tit: continue
@@ -78,7 +79,7 @@ def periodo(hist, agenda, estado, d0, d1):
         except Exception: continue
         if d0 <= dia <= d1:
             m = b.get(iid, {})
-            pubs.append({'id': iid, 'titulo': tit[iid][0], 'tipo': tit[iid][1], 'dia': dia, 'hora': dt.hour, 'link': reg.get('link'), **m})
+            pubs.append({'id': iid, 'titulo': tit[iid][0], 'tipo': tit[iid][1], 'dia': dia, 'hora': dt.hour, 'link': reg.get('link'), 'cta': cta_de.get(iid), **m})
     pubs.sort(key=lambda p: (-(p.get('reach') or 0), p['dia']))
     r['publicados'] = pubs
     r['n_publicados'] = len(pubs)
@@ -209,6 +210,12 @@ def analise_padroes(pubs):
             if len(itens) >= 2:
                 out.append(f'<li><b>{TIPO_NOME[tipo]}s por {rotulo}</b> (alcance médio, nº de posts): ' +
                            ' · '.join(f'{fmt_k(k)}: {m:.0f} ({n})' for m, k, n in itens) + '</li>')
+    # experimento G (pedido de comentário na arte, dias ímpares): alcance médio com pedido x sem pedido
+    for tipo in ('REEL', 'CARROSSEL'):
+        com = [p['reach'] for p in pubs if p['tipo'] == tipo and p.get('cta') is True and p.get('reach') is not None]
+        sem = [p['reach'] for p in pubs if p['tipo'] == tipo and p.get('cta') is False and p.get('reach') is not None]
+        if com and sem:
+            out.append(f'<li><b>Experimento G, {TIPO_NOME[tipo]}s</b> (alcance médio, nº de posts): COM pedido de comentário: {sum(com) / len(com):.0f} ({len(com)}) · SEM pedido: {sum(sem) / len(sem):.0f} ({len(sem)})</li>')
     if not out: return ''
     return ('<p style="margin:14px 0 4px;font-size:14px"><b>Padrões do período</b> <span style="color:#8a8a8a;font-size:12px">(poucos posts: pista, não prova)</span></p>'
             '<ul style="margin:0 0 0 18px;font-size:13px">' + ''.join(out) + '</ul>')
