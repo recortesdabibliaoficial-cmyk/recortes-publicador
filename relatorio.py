@@ -210,12 +210,13 @@ def analise_padroes(pubs):
             if len(itens) >= 2:
                 out.append(f'<li><b>{TIPO_NOME[tipo]}s por {rotulo}</b> (alcance médio, nº de posts): ' +
                            ' · '.join(f'{fmt_k(k)}: {m:.0f} ({n})' for m, k, n in itens) + '</li>')
-    # experimento G (pedido de comentário na arte, dias ímpares): alcance médio com pedido x sem pedido
+    # experimento G (pedido na arte, rodízio de 4 dias): alcance médio por tipo de pedido (comentar, encaminhar, salvar, nenhum)
     for tipo in ('REEL', 'CARROSSEL'):
-        com = [p['reach'] for p in pubs if p['tipo'] == tipo and p.get('cta') is True and p.get('reach') is not None]
-        sem = [p['reach'] for p in pubs if p['tipo'] == tipo and p.get('cta') is False and p.get('reach') is not None]
-        if com and sem:
-            out.append(f'<li><b>Experimento G, {TIPO_NOME[tipo]}s</b> (alcance médio, nº de posts): COM pedido de comentário: {sum(com) / len(com):.0f} ({len(com)}) · SEM pedido: {sum(sem) / len(sem):.0f} ({len(sem)})</li>')
+        grupos = {k: [p['reach'] for p in pubs if p['tipo'] == tipo and p.get('cta') == k and p.get('reach') is not None]
+                  for k in ('comentar', 'encaminhar', 'salvar', 'nenhum')}
+        if sum(1 for v in grupos.values() if v) >= 2:
+            partes = ' · '.join(f'{k}: {sum(v) / len(v):.0f} ({len(v)})' for k, v in grupos.items() if v)
+            out.append(f'<li><b>Experimento G, {TIPO_NOME[tipo]}s</b> (alcance médio, nº de posts), por tipo de pedido: {partes}</li>')
     if not out: return ''
     return ('<p style="margin:14px 0 4px;font-size:14px"><b>Padrões do período</b> <span style="color:#8a8a8a;font-size:12px">(poucos posts: pista, não prova)</span></p>'
             '<ul style="margin:0 0 0 18px;font-size:13px">' + ''.join(out) + '</ul>')

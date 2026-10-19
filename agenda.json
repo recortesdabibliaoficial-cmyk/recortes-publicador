@@ -667,7 +667,7 @@
   "na_grade": false,
   "capa_ms": 800,
   "post": "09",
-  "cta": false,
+  "cta": null,
   "miniatura": "midia/miniaturas/reel09.jpg",
   "titulo": "A oferta da viúva"
  },
@@ -689,7 +689,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 18/10",
   "miniatura": "midia/miniaturas/ora-2026-10-18-noite.jpg",
-  "cta": false
+  "cta": null
  },
  {
   "id": "ora-story-noite-2026-10-18",
@@ -709,7 +709,7 @@
   "midia": [
    "midia/oracoes/2026-10-18-noite/reel.mp4"
   ],
-  "cta": false,
+  "cta": null,
   "legenda": "Terminou mais uma semana. Agradeça comigo.\n\n🙏🌙 Oração da noite por gratidão.\n\nA semana terminou, e você chegou até aqui. 🌙 Pense em três coisas boas desta semana, mesmo pequenas, e deixe o coração agradecer. Durma com alívio.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -725,7 +725,7 @@
   "midia": [
    "midia/oracoes/2026-10-19-manha/slide_01.jpg",
    "midia/oracoes/2026-10-19-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-19-manha/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-19-manha/slide_03_comentar.jpg"
   ],
   "legenda": "🙏☀️ Oração da manhã por força · segunda-feira, 19 de outubro\n\nAgora vai. 💪 A semana começou, e você tem mais força do que imagina. Um passo de cada vez, hoje você pode dar conta do que está na sua frente.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "alt": [
@@ -736,7 +736,7 @@
   "fixo": true,
   "titulo": "Oração da manhã · 19/10",
   "miniatura": "midia/miniaturas/ora-2026-10-19-manha.jpg",
-  "cta": true
+  "cta": "comentar"
  },
  {
   "id": "ora-story-manha-2026-10-19",
@@ -754,9 +754,9 @@
   "tipo": "REEL",
   "quando": "2026-10-19T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-19-manha/reel_cta.mp4"
+   "midia/oracoes/2026-10-19-manha/reel_comentar.mp4"
   ],
-  "cta": true,
+  "cta": "comentar",
   "legenda": "A semana começou pesada? Ore comigo.\n\n🙏☀️ Oração da manhã por força.\n\nAgora vai. 💪 A semana começou, e você tem mais força do que imagina. Um passo de cada vez, hoje você pode dar conta do que está na sua frente.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -777,10 +777,10 @@
    "midia/post11/slide_05.jpg",
    "midia/post11/slide_06.jpg",
    "midia/post11/slide_07.jpg",
-   "midia/post11/slide_08_cta.jpg"
+   "midia/post11/slide_08_comentar.jpg"
   ],
   "legenda": "Você já se perguntou por que está onde está?\n\n🏢 O emprego que você não planejou.\n🏫 A escola ou a cidade onde você foi parar.\n👪 A família que Deus te deu.\n🤝 As pessoas que cruzam o seu caminho.\n🕰️ O momento difícil que você está vivendo agora.\n\nEster era uma moça simples que virou rainha. Quando um homem mau fez um plano contra o povo dela, ela teve medo, porque ir até o rei sem ser chamada podia custar a sua vida. Mesmo assim, Ester pediu que o povo jejuasse por ela, criou coragem e falou com o rei. E o povo foi salvo.\n\nNada na sua vida está fora dos planos de Deus. Talvez você esteja exatamente onde precisa estar para fazer a diferença na vida de alguém.\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\nOnde Deus colocou você hoje? 👑\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
-  "cta": true,
+  "cta": "comentar",
   "alt": [
    "Slide 1 de 8 da história: Ester. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Ester. Ilustração em papel recortado.",
@@ -810,13 +810,13 @@
   "tipo": "REEL",
   "quando": "2026-10-19T19:00:00-03:00",
   "midia": [
-   "midia/post10/reel_cta.mp4"
+   "midia/post10/reel_comentar.mp4"
   ],
   "legenda": "Sua cabeça não para nem um minuto?\n\n📜 O versículo (Lucas 10:41-42)\nJesus responde a Marta com carinho, chamando o nome dela duas vezes. Em palavras de hoje: \"Marta, você está preocupada e agitada com muitas coisas, mas só uma é necessária. Maria escolheu a melhor parte, e ninguém vai tirar isso dela.\" A intenção de Jesus não era criticar o trabalho de Marta, mas convidá-la a parar e a colocar em primeiro lugar o tempo com Ele.\n\nSe a ansiedade estiver pesada demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Lucas 10:38-42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #martaemaria #ansiedade",
   "na_grade": false,
   "capa_ms": 800,
   "post": "10",
-  "cta": true,
+  "cta": "comentar",
   "miniatura": "midia/miniaturas/reel10.jpg",
   "titulo": "Marta e Maria"
  },
@@ -827,7 +827,7 @@
   "midia": [
    "midia/oracoes/2026-10-19-noite/slide_01.jpg",
    "midia/oracoes/2026-10-19-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-19-noite/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-19-noite/slide_03_comentar.jpg"
   ],
   "legenda": "🙏🌙 Oração da noite por força · segunda-feira, 19 de outubro\n\nVocê chegou até aqui, e isso já é uma vitória. 🌙 Descanse: o corpo e a alma precisam. Amanhã é um novo dia para recomeçar, sem pressa.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "alt": [
@@ -838,7 +838,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 19/10",
   "miniatura": "midia/miniaturas/ora-2026-10-19-noite.jpg",
-  "cta": true
+  "cta": "comentar"
  },
  {
   "id": "ora-story-noite-2026-10-19",
@@ -856,9 +856,9 @@
   "tipo": "REEL",
   "quando": "2026-10-19T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-19-noite/reel_cta.mp4"
+   "midia/oracoes/2026-10-19-noite/reel_comentar.mp4"
   ],
-  "cta": true,
+  "cta": "comentar",
   "legenda": "O dia foi cansativo? Ore comigo.\n\n🙏🌙 Oração da noite por força.\n\nVocê chegou até aqui, e isso já é uma vitória. 🌙 Descanse: o corpo e a alma precisam. Amanhã é um novo dia para recomeçar, sem pressa.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -874,7 +874,7 @@
   "midia": [
    "midia/oracoes/2026-10-20-manha/slide_01.jpg",
    "midia/oracoes/2026-10-20-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-20-manha/slide_03.jpg"
+   "midia/oracoes/2026-10-20-manha/slide_03_encaminhar.jpg"
   ],
   "legenda": "🙏☀️ Oração da manhã por sabedoria · terça-feira, 20 de outubro\n\nDecida com sabedoria. 🌿 Hoje você pode escolher bem, falar na hora certa e calar quando for melhor. Cada boa escolha te leva mais longe.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "alt": [
@@ -885,7 +885,7 @@
   "fixo": true,
   "titulo": "Oração da manhã · 20/10",
   "miniatura": "midia/miniaturas/ora-2026-10-20-manha.jpg",
-  "cta": false
+  "cta": "encaminhar"
  },
  {
   "id": "ora-story-manha-2026-10-20",
@@ -903,9 +903,9 @@
   "tipo": "REEL",
   "quando": "2026-10-20T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-20-manha/reel.mp4"
+   "midia/oracoes/2026-10-20-manha/reel_encaminhar.mp4"
   ],
-  "cta": false,
+  "cta": "encaminhar",
   "legenda": "Tem uma decisão difícil hoje? Ore comigo.\n\n🙏☀️ Oração da manhã por sabedoria.\n\nDecida com sabedoria. 🌿 Hoje você pode escolher bem, falar na hora certa e calar quando for melhor. Cada boa escolha te leva mais longe.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -926,10 +926,10 @@
    "midia/post12/slide_05.jpg",
    "midia/post12/slide_06.jpg",
    "midia/post12/slide_07.jpg",
-   "midia/post12/slide_08.jpg"
+   "midia/post12/slide_08_encaminhar.jpg"
   ],
   "legenda": "Você acha que as pessoas nunca mudam?\n\n🔁 Aquele hábito que você já tentou largar.\n😔 Alguém de quem todo mundo já desistiu.\n🏷️ O rótulo que colaram em você.\n💬 Os erros que as pessoas não esquecem.\n🪞 A vontade de começar uma vida nova.\n\nZaqueu era rico, mas enganava as pessoas, e ninguém gostava dele. Quando Jesus passou pela cidade, Zaqueu, que era baixinho, subiu numa árvore para ver. Jesus parou, olhou para cima e disse: \"Hoje vou à sua casa.\" Depois desse encontro, Zaqueu mudou de vida e devolveu tudo, com sobra.\n\nJesus não espera a gente ficar perfeito para se aproximar. É o encontro com Ele que muda o coração.\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\nVocê acredita que alguém pode mudar? 🌱\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca",
-  "cta": false,
+  "cta": "encaminhar",
   "alt": [
    "Slide 1 de 8 da história: Zaqueu. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Zaqueu. Ilustração em papel recortado.",
@@ -959,12 +959,12 @@
   "tipo": "REEL",
   "quando": "2026-10-20T19:00:00-03:00",
   "midia": [
-   "midia/post11/reel.mp4"
+   "midia/post11/reel_encaminhar.mp4"
   ],
   "legenda": "Você já se perguntou por que está onde está?\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": false,
+  "cta": "encaminhar",
   "miniatura": "midia/miniaturas/reel11.jpg",
   "titulo": "Ester"
  },
@@ -975,7 +975,7 @@
   "midia": [
    "midia/oracoes/2026-10-20-noite/slide_01.jpg",
    "midia/oracoes/2026-10-20-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-20-noite/slide_03.jpg"
+   "midia/oracoes/2026-10-20-noite/slide_03_encaminhar.jpg"
   ],
   "legenda": "🙏🌙 Oração da noite por sabedoria · terça-feira, 20 de outubro\n\nVocê fez o que pôde hoje, e isso é suficiente. 🌙 Cada escolha, certa ou errada, ensinou algo. Durma em paz com o que aprendeu.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "alt": [
@@ -986,7 +986,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 20/10",
   "miniatura": "midia/miniaturas/ora-2026-10-20-noite.jpg",
-  "cta": false
+  "cta": "encaminhar"
  },
  {
   "id": "ora-story-noite-2026-10-20",
@@ -1004,9 +1004,9 @@
   "tipo": "REEL",
   "quando": "2026-10-20T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-20-noite/reel.mp4"
+   "midia/oracoes/2026-10-20-noite/reel_encaminhar.mp4"
   ],
-  "cta": false,
+  "cta": "encaminhar",
   "legenda": "Antes de dormir, agradeça pela sabedoria de hoje.\n\n🙏🌙 Oração da noite por sabedoria.\n\nVocê fez o que pôde hoje, e isso é suficiente. 🌙 Cada escolha, certa ou errada, ensinou algo. Durma em paz com o que aprendeu.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1022,7 +1022,7 @@
   "midia": [
    "midia/oracoes/2026-10-21-manha/slide_01.jpg",
    "midia/oracoes/2026-10-21-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-21-manha/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-21-manha/slide_03_salvar.jpg"
   ],
   "legenda": "🙏☀️ Oração da manhã por paciência · quarta-feira, 21 de outubro\n\nHoje, mostre a sua força na calma. ☀️ O dia pode testar a sua paciência, e você pode escolher a resposta tranquila. Uma palavra suave pode mudar o clima do dia.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "alt": [
@@ -1033,7 +1033,7 @@
   "fixo": true,
   "titulo": "Oração da manhã · 21/10",
   "miniatura": "midia/miniaturas/ora-2026-10-21-manha.jpg",
-  "cta": true
+  "cta": "salvar"
  },
  {
   "id": "ora-story-manha-2026-10-21",
@@ -1051,9 +1051,9 @@
   "tipo": "REEL",
   "quando": "2026-10-21T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-21-manha/reel_cta.mp4"
+   "midia/oracoes/2026-10-21-manha/reel_salvar.mp4"
   ],
-  "cta": true,
+  "cta": "salvar",
   "legenda": "O dia vai testar a sua paciência. Ore comigo.\n\n🙏☀️ Oração da manhã por paciência.\n\nHoje, mostre a sua força na calma. ☀️ O dia pode testar a sua paciência, e você pode escolher a resposta tranquila. Uma palavra suave pode mudar o clima do dia.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1074,10 +1074,10 @@
    "midia/post13/slide_05.jpg",
    "midia/post13/slide_06.jpg",
    "midia/post13/slide_07.jpg",
-   "midia/post13/slide_08_cta.jpg"
+   "midia/post13/slide_08_salvar.jpg"
   ],
   "legenda": "Quem fica do seu lado quando tudo dá errado?\n\n🏥 Quem visitou você no hospital.\n📞 Quem ligou quando você sumiu.\n🍲 Quem levou comida num dia difícil.\n🫂 Quem ficou mesmo quando você estava de mau humor.\n🙏 Quem orou por você sem você pedir.\n\nNoemi perdeu o marido e os dois filhos e decidiu voltar para a terra dela. Pediu que as noras ficassem. Orfa voltou para casa, mas Rute não quis deixar a sogra sozinha. Ela foi junto, trabalhou colhendo trigo, e Deus cuidou das duas.\n\nLealdade é ficar quando seria mais fácil ir embora. E Deus usa pessoas leais para cuidar de quem está sofrendo.\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\nQuem foi uma \"Rute\" na sua vida? 💛\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade",
-  "cta": true,
+  "cta": "salvar",
   "alt": [
    "Slide 1 de 8 da história: Rute e Noemi. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Rute e Noemi. Ilustração em papel recortado.",
@@ -1107,12 +1107,12 @@
   "tipo": "REEL",
   "quando": "2026-10-21T19:00:00-03:00",
   "midia": [
-   "midia/post12/reel_cta.mp4"
+   "midia/post12/reel_salvar.mp4"
   ],
   "legenda": "Você acha que as pessoas nunca mudam?\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": true,
+  "cta": "salvar",
   "miniatura": "midia/miniaturas/reel12.jpg",
   "titulo": "Zaqueu"
  },
@@ -1123,7 +1123,7 @@
   "midia": [
    "midia/oracoes/2026-10-21-noite/slide_01.jpg",
    "midia/oracoes/2026-10-21-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-21-noite/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-21-noite/slide_03_salvar.jpg"
   ],
   "legenda": "🙏🌙 Oração da noite por paciência · quarta-feira, 21 de outubro\n\nHoje a paciência foi testada, e tudo bem. 🌙 Se ela falhou em algum momento, perdoe-se: amanhã é um novo recomeço. Durma em paz.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "alt": [
@@ -1134,7 +1134,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 21/10",
   "miniatura": "midia/miniaturas/ora-2026-10-21-noite.jpg",
-  "cta": true
+  "cta": "salvar"
  },
  {
   "id": "ora-story-noite-2026-10-21",
@@ -1152,9 +1152,9 @@
   "tipo": "REEL",
   "quando": "2026-10-21T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-21-noite/reel_cta.mp4"
+   "midia/oracoes/2026-10-21-noite/reel_salvar.mp4"
   ],
-  "cta": true,
+  "cta": "salvar",
   "legenda": "O dia testou a sua paciência? Ore comigo.\n\n🙏🌙 Oração da noite por paciência.\n\nHoje a paciência foi testada, e tudo bem. 🌙 Se ela falhou em algum momento, perdoe-se: amanhã é um novo recomeço. Durma em paz.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1181,7 +1181,7 @@
   "fixo": true,
   "titulo": "Oração da manhã · 22/10",
   "miniatura": "midia/miniaturas/ora-2026-10-22-manha.jpg",
-  "cta": false
+  "cta": "nenhum"
  },
  {
   "id": "ora-story-manha-2026-10-22",
@@ -1201,7 +1201,7 @@
   "midia": [
    "midia/oracoes/2026-10-22-manha/reel.mp4"
   ],
-  "cta": false,
+  "cta": "nenhum",
   "legenda": "Antes de sair de casa, ore comigo.\n\n🙏☀️ Oração da manhã por proteção.\n\nComece o dia com coragem. 🛡️ Você e quem você ama estão sob o cuidado de Deus. Siga firme, e que o dia seja de paz para todos.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1225,7 +1225,7 @@
    "midia/post14/slide_08.jpg"
   ],
   "legenda": "Você já afundou por olhar só para o problema?\n\n📉 As contas que não param de chegar.\n🩺 O resultado de um exame.\n💼 A pressão no trabalho.\n📰 As notícias ruins do dia.\n🌀 Os pensamentos que não te deixam dormir.\n\nNuma noite de muito vento, os discípulos estavam num barco quando viram Jesus andando sobre a água. Pedro pediu para ir até Ele, e Jesus disse: \"Venha!\" Pedro andou sobre a água, mas quando olhou para o vento, teve medo e começou a afundar. Na mesma hora, Jesus estendeu a mão para ele.\n\nO vento pode continuar forte. Mas quando o medo bater, olhe para Jesus. Ele não deixa afundar quem pede ajuda.\n\n📜 O versículo (Mateus 14:31)\nMateus conta o que Jesus fez quando Pedro começou a afundar e gritou \"Senhor, salva-me!\": imediatamente estendeu a mão e o segurou. A pergunta \"por que duvidaste?\" não foi para humilhar Pedro, mas para lembrar que ele podia confiar. A intenção do texto é mostrar que Jesus responde rápido a quem clama por Ele.\n\nO que está tirando a sua paz hoje? 🙏\n\n📖 Mateus 14:22-33 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #pedro #fe",
-  "cta": false,
+  "cta": "nenhum",
   "alt": [
    "Slide 1 de 8 da história: Pedro anda sobre as águas. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Pedro anda sobre as águas. Ilustração em papel recortado.",
@@ -1260,7 +1260,7 @@
   "legenda": "Quem fica do seu lado quando tudo dá errado?\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": false,
+  "cta": "nenhum",
   "miniatura": "midia/miniaturas/reel13.jpg",
   "titulo": "Rute e Noemi"
  },
@@ -1282,7 +1282,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 22/10",
   "miniatura": "midia/miniaturas/ora-2026-10-22-noite.jpg",
-  "cta": false
+  "cta": "nenhum"
  },
  {
   "id": "ora-story-noite-2026-10-22",
@@ -1302,7 +1302,7 @@
   "midia": [
    "midia/oracoes/2026-10-22-noite/reel.mp4"
   ],
-  "cta": false,
+  "cta": "nenhum",
   "legenda": "Antes de dormir, agradeça pela proteção de hoje.\n\n🙏🌙 Oração da noite por proteção.\n\nQuem você ama está nas mãos de Deus. 🌙 Agradeça pelo cuidado de hoje, solte o dia e descanse em paz.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1318,7 +1318,7 @@
   "midia": [
    "midia/oracoes/2026-10-23-manha/slide_01.jpg",
    "midia/oracoes/2026-10-23-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-23-manha/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-23-manha/slide_03_comentar.jpg"
   ],
   "legenda": "🙏☀️ Oração da manhã por entrega · sexta-feira, 23 de outubro\n\nSolta. 🙏 Aquela preocupação que você carrega há dias: hoje, deixe nas mãos de Deus. Entregar não é desistir, é ganhar força para seguir.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "alt": [
@@ -1329,7 +1329,7 @@
   "fixo": true,
   "titulo": "Oração da manhã · 23/10",
   "miniatura": "midia/miniaturas/ora-2026-10-23-manha.jpg",
-  "cta": true
+  "cta": "comentar"
  },
  {
   "id": "ora-story-manha-2026-10-23",
@@ -1347,9 +1347,9 @@
   "tipo": "REEL",
   "quando": "2026-10-23T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-23-manha/reel_cta.mp4"
+   "midia/oracoes/2026-10-23-manha/reel_comentar.mp4"
   ],
-  "cta": true,
+  "cta": "comentar",
   "legenda": "O que está pesando em você hoje? Entregue a Deus comigo.\n\n🙏☀️ Oração da manhã por entrega.\n\nSolta. 🙏 Aquela preocupação que você carrega há dias: hoje, deixe nas mãos de Deus. Entregar não é desistir, é ganhar força para seguir.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1370,10 +1370,10 @@
    "midia/post15/slide_05.jpg",
    "midia/post15/slide_06.jpg",
    "midia/post15/slide_07.jpg",
-   "midia/post15/slide_08_cta.jpg"
+   "midia/post15/slide_08_comentar.jpg"
   ],
   "legenda": "Você está cansado de tudo?\n\n😮‍💨 O cansaço que o sono não resolve.\n📋 As tarefas que não acabam nunca.\n🧠 A cabeça cheia o tempo todo.\n😶 A vontade de sumir por um tempo.\n🌧️ Os dias em que tudo parece pesado.\n\nElias era um profeta corajoso, mas depois de enfrentar muitos problemas, fugiu com medo. Cansado, deitou debaixo de uma árvore e disse que não aguentava mais. Então dormiu. Quando acordou, havia pão e água ao lado dele. Ele comeu, descansou de novo e, com forças, seguiu o caminho.\n\nAntes de pedir qualquer coisa a Elias, Deus cuidou dele: deu comida e deixou ele descansar. Descansar também é cuidado de Deus.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nDo que você precisa descansar hoje? 💛\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso",
-  "cta": true,
+  "cta": "comentar",
   "alt": [
    "Slide 1 de 8 da história: Elias debaixo da árvore. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Elias debaixo da árvore. Ilustração em papel recortado.",
@@ -1403,12 +1403,12 @@
   "tipo": "REEL",
   "quando": "2026-10-23T19:00:00-03:00",
   "midia": [
-   "midia/post14/reel_cta.mp4"
+   "midia/post14/reel_comentar.mp4"
   ],
   "legenda": "Você já afundou por olhar só para o problema?\n\n📜 O versículo (Mateus 14:31)\nMateus conta o que Jesus fez quando Pedro começou a afundar e gritou \"Senhor, salva-me!\": imediatamente estendeu a mão e o segurou. A pergunta \"por que duvidaste?\" não foi para humilhar Pedro, mas para lembrar que ele podia confiar. A intenção do texto é mostrar que Jesus responde rápido a quem clama por Ele.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Mateus 14:22-33 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #pedro #fe",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": true,
+  "cta": "comentar",
   "miniatura": "midia/miniaturas/reel14.jpg",
   "titulo": "Pedro anda sobre as águas"
  },
@@ -1419,7 +1419,7 @@
   "midia": [
    "midia/oracoes/2026-10-23-noite/slide_01.jpg",
    "midia/oracoes/2026-10-23-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-23-noite/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-23-noite/slide_03_comentar.jpg"
   ],
   "legenda": "🙏🌙 Oração da noite por entrega · sexta-feira, 23 de outubro\n\nDeixe as preocupações do lado de fora do quarto. 🌙 O que ficou sem resposta hoje não precisa dormir com você. Entregue a Deus e descanse.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "alt": [
@@ -1430,7 +1430,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 23/10",
   "miniatura": "midia/miniaturas/ora-2026-10-23-noite.jpg",
-  "cta": true
+  "cta": "comentar"
  },
  {
   "id": "ora-story-noite-2026-10-23",
@@ -1448,9 +1448,9 @@
   "tipo": "REEL",
   "quando": "2026-10-23T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-23-noite/reel_cta.mp4"
+   "midia/oracoes/2026-10-23-noite/reel_comentar.mp4"
   ],
-  "cta": true,
+  "cta": "comentar",
   "legenda": "Ainda carrega preocupações? Entregue a Deus comigo.\n\n🙏🌙 Oração da noite por entrega.\n\nDeixe as preocupações do lado de fora do quarto. 🌙 O que ficou sem resposta hoje não precisa dormir com você. Entregue a Deus e descanse.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1466,7 +1466,7 @@
   "midia": [
    "midia/oracoes/2026-10-24-manha/slide_01.jpg",
    "midia/oracoes/2026-10-24-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-24-manha/slide_03.jpg"
+   "midia/oracoes/2026-10-24-manha/slide_03_encaminhar.jpg"
   ],
   "legenda": "🙏☀️ Oração da manhã por graça · sábado, 24 de outubro\n\nTudo bem não dar conta. 🌄 Você não precisa ser forte o tempo todo, mas pode recomeçar a qualquer hora. O cuidado de Deus não depende do seu desempenho.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "alt": [
@@ -1477,7 +1477,7 @@
   "fixo": true,
   "titulo": "Oração da manhã · 24/10",
   "miniatura": "midia/miniaturas/ora-2026-10-24-manha.jpg",
-  "cta": false
+  "cta": "encaminhar"
  },
  {
   "id": "ora-story-manha-2026-10-24",
@@ -1495,9 +1495,9 @@
   "tipo": "REEL",
   "quando": "2026-10-24T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-24-manha/reel.mp4"
+   "midia/oracoes/2026-10-24-manha/reel_encaminhar.mp4"
   ],
-  "cta": false,
+  "cta": "encaminhar",
   "legenda": "Sente que hoje não vai dar conta? Ore comigo.\n\n🙏☀️ Oração da manhã por graça.\n\nTudo bem não dar conta. 🌄 Você não precisa ser forte o tempo todo, mas pode recomeçar a qualquer hora. O cuidado de Deus não depende do seu desempenho.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1518,10 +1518,10 @@
    "midia/post16/slide_05.jpg",
    "midia/post16/slide_06.jpg",
    "midia/post16/slide_07.jpg",
-   "midia/post16/slide_08.jpg"
+   "midia/post16/slide_08_encaminhar.jpg"
   ],
   "legenda": "Você se acha pequeno demais?\n\n🙋 Achar que não tem talento nenhum.\n👀 Se comparar com todo mundo.\n🎓 Pensar que não estudou o suficiente.\n🏠 Vir de uma família simples.\n🤐 Ter medo de falar o que pensa.\n\nO povo de Gideão vivia com medo dos inimigos, e ele trabalhava escondido atrás de um muro. Foi aí que Deus mandou um recado: \"O Senhor está com você, homem corajoso!\" Gideão não acreditou e disse que era o menor de todos. Mas Deus respondeu: \"Eu vou estar com você.\" E, com Deus, Gideão libertou o seu povo.\n\nDeus não olha só para o que você é hoje. Ele vê o que você pode fazer com Ele ao seu lado.\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\nVocê precisava ouvir hoje que Deus está com você? 🌾\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade",
-  "cta": false,
+  "cta": "encaminhar",
   "alt": [
    "Slide 1 de 8 da história: Gideão. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Gideão. Ilustração em papel recortado.",
@@ -1551,12 +1551,12 @@
   "tipo": "REEL",
   "quando": "2026-10-24T19:00:00-03:00",
   "midia": [
-   "midia/post15/reel.mp4"
+   "midia/post15/reel_encaminhar.mp4"
   ],
   "legenda": "Você está cansado de tudo?\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": false,
+  "cta": "encaminhar",
   "miniatura": "midia/miniaturas/reel15.jpg",
   "titulo": "Elias debaixo da árvore"
  },
@@ -1567,7 +1567,7 @@
   "midia": [
    "midia/oracoes/2026-10-24-noite/slide_01.jpg",
    "midia/oracoes/2026-10-24-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-24-noite/slide_03.jpg"
+   "midia/oracoes/2026-10-24-noite/slide_03_encaminhar.jpg"
   ],
   "legenda": "🙏🌙 Oração da noite por graça · sábado, 24 de outubro\n\nVocê não precisa dar conta de tudo todo dia. 🌙 Se hoje faltou força, descanse: o cuidado de Deus continua, e amanhã você recomeça.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "alt": [
@@ -1578,7 +1578,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 24/10",
   "miniatura": "midia/miniaturas/ora-2026-10-24-noite.jpg",
-  "cta": false
+  "cta": "encaminhar"
  },
  {
   "id": "ora-story-noite-2026-10-24",
@@ -1596,9 +1596,9 @@
   "tipo": "REEL",
   "quando": "2026-10-24T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-24-noite/reel.mp4"
+   "midia/oracoes/2026-10-24-noite/reel_encaminhar.mp4"
   ],
-  "cta": false,
+  "cta": "encaminhar",
   "legenda": "Se hoje as suas forças acabaram, ore comigo.\n\n🙏🌙 Oração da noite por graça.\n\nVocê não precisa dar conta de tudo todo dia. 🌙 Se hoje faltou força, descanse: o cuidado de Deus continua, e amanhã você recomeça.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1614,7 +1614,7 @@
   "midia": [
    "midia/oracoes/2026-10-25-manha/slide_01.jpg",
    "midia/oracoes/2026-10-25-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-25-manha/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-25-manha/slide_03_salvar.jpg"
   ],
   "legenda": "🙏☀️ Oração da manhã por confiança · domingo, 25 de outubro\n\nDomingo sem medo. 🌅 Não gaste o dia de hoje com o medo da semana que vem. Você já atravessou semanas difíceis: siga um dia de cada vez, de cabeça erguida.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "alt": [
@@ -1625,7 +1625,7 @@
   "fixo": true,
   "titulo": "Oração da manhã · 25/10",
   "miniatura": "midia/miniaturas/ora-2026-10-25-manha.jpg",
-  "cta": true
+  "cta": "salvar"
  },
  {
   "id": "ora-story-manha-2026-10-25",
@@ -1643,9 +1643,9 @@
   "tipo": "REEL",
   "quando": "2026-10-25T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-25-manha/reel_cta.mp4"
+   "midia/oracoes/2026-10-25-manha/reel_salvar.mp4"
   ],
-  "cta": true,
+  "cta": "salvar",
   "legenda": "Com medo da semana que vem? Ore comigo.\n\n🙏☀️ Oração da manhã por confiança.\n\nDomingo sem medo. 🌅 Não gaste o dia de hoje com o medo da semana que vem. Você já atravessou semanas difíceis: siga um dia de cada vez, de cabeça erguida.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1666,10 +1666,10 @@
    "midia/post17/slide_05.jpg",
    "midia/post17/slide_06.jpg",
    "midia/post17/slide_07.jpg",
-   "midia/post17/slide_08_cta.jpg"
+   "midia/post17/slide_08_salvar.jpg"
   ],
   "legenda": "Você já deixou de tentar por achar que não é capaz?\n\n🎤 Uma apresentação que você recusou.\n💼 Uma vaga que você nem tentou.\n📖 Um curso que você achou difícil demais.\n🗣️ Uma conversa que você evitou.\n🙏 Um chamado que você deixou para depois.\n\nMoisés cuidava de ovelhas no deserto quando viu um arbusto pegando fogo que não se queimava. Do meio do fogo, Deus pediu que ele libertasse o seu povo do Egito. Moisés ficou com medo e disse: \"Mas eu não sei falar bem!\" Deus respondeu que estaria com ele e ensinaria o que falar.\n\nVocê não precisa ser perfeito para fazer o que Deus pede. A capacidade vem de Deus.\n\n📜 O versículo (Êxodo 4:12)\nDeus disse essas palavras a Moisés diante da sarça, logo depois que Moisés reclamou que não sabia falar. Em palavras de hoje: \"Agora vá. Eu vou estar com a sua boca e vou te ensinar o que dizer.\" A intenção era tirar o peso dos ombros de Moisés: o sucesso da missão não dependia da habilidade dele, mas da presença de Deus.\n\nO que você deixou de tentar por medo? 🔥\n\n📖 Êxodo 3 e 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #moises #capacidade",
-  "cta": true,
+  "cta": "salvar",
   "alt": [
    "Slide 1 de 8 da história: Moisés e a sarça. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Moisés e a sarça. Ilustração em papel recortado.",
@@ -1699,12 +1699,12 @@
   "tipo": "REEL",
   "quando": "2026-10-25T19:00:00-03:00",
   "midia": [
-   "midia/post16/reel_cta.mp4"
+   "midia/post16/reel_salvar.mp4"
   ],
   "legenda": "Você se acha pequeno demais?\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": true,
+  "cta": "salvar",
   "miniatura": "midia/miniaturas/reel16.jpg",
   "titulo": "Gideão"
  },
@@ -1715,7 +1715,7 @@
   "midia": [
    "midia/oracoes/2026-10-25-noite/slide_01.jpg",
    "midia/oracoes/2026-10-25-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-25-noite/slide_03_cta.jpg"
+   "midia/oracoes/2026-10-25-noite/slide_03_salvar.jpg"
   ],
   "legenda": "🙏🌙 Oração da noite por confiança · domingo, 25 de outubro\n\nA semana começa amanhã, e você não precisa começá-la só. 🌙 Durma com o coração tranquilo: um dia de cada vez, e Deus junto.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "alt": [
@@ -1726,7 +1726,7 @@
   "fixo": true,
   "titulo": "Oração da noite · 25/10",
   "miniatura": "midia/miniaturas/ora-2026-10-25-noite.jpg",
-  "cta": true
+  "cta": "salvar"
  },
  {
   "id": "ora-story-noite-2026-10-25",
@@ -1744,9 +1744,9 @@
   "tipo": "REEL",
   "quando": "2026-10-25T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-25-noite/reel_cta.mp4"
+   "midia/oracoes/2026-10-25-noite/reel_salvar.mp4"
   ],
-  "cta": true,
+  "cta": "salvar",
   "legenda": "Antes de a semana começar, agradeça comigo.\n\n🙏🌙 Oração da noite por confiança.\n\nA semana começa amanhã, e você não precisa começá-la só. 🌙 Durma com o coração tranquilo: um dia de cada vez, e Deus junto.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
@@ -1770,7 +1770,7 @@
    "midia/post18/slide_08.jpg"
   ],
   "legenda": "Você acha que não tem mais volta?\n\n🚪 Saiu de casa brigado.\n💸 Gastou o que não podia.\n🙈 Fez escolhas de que se arrepende.\n📵 Parou de falar com quem ama.\n⛪ Se afastou de Deus.\n\nJesus contou a história de um filho que pediu a sua parte da herança, foi embora e gastou tudo em festas. Quando o dinheiro acabou, foi trabalhar cuidando de porcos e passou fome. Então lembrou da casa do pai e decidiu voltar para pedir perdão. Ainda de longe, o pai o viu, correu até ele e fez uma grande festa.\n\nNão importa o quanto você se afastou. O Pai está esperando você voltar.\n\n📜 O versículo (Lucas 15:20)\nEsse versículo faz parte da história que Jesus contou. Mostra que o pai viu o filho quando ele ainda estava longe, teve compaixão, correu, abraçou e beijou o filho, antes mesmo de ouvir o pedido de perdão. A intenção de Jesus era mostrar como Deus recebe quem volta para Ele: de braços abertos.\n\nVocê conhece alguém que precisa voltar para casa? 💛\n\n📖 Lucas 15:11-32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #filhoprodigo #perdao",
-  "cta": false,
+  "cta": "nenhum",
   "alt": [
    "Slide 1 de 8 da história: O filho pródigo. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: O filho pródigo. Ilustração em papel recortado.",
@@ -1805,7 +1805,7 @@
   "legenda": "Você já deixou de tentar por achar que não é capaz?\n\n📜 O versículo (Êxodo 4:12)\nDeus disse essas palavras a Moisés diante da sarça, logo depois que Moisés reclamou que não sabia falar. Em palavras de hoje: \"Agora vá. Eu vou estar com a sua boca e vou te ensinar o que dizer.\" A intenção era tirar o peso dos ombros de Moisés: o sucesso da missão não dependia da habilidade dele, mas da presença de Deus.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Um curso que você achou difícil demais.\n\n#historiasbiblicas #biblia #fe #moises #capacidade",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": false,
+  "cta": "nenhum",
   "miniatura": "midia/miniaturas/reel17.jpg",
   "titulo": "Moisés e a sarça"
  },
@@ -1821,10 +1821,10 @@
    "midia/post19/slide_05.jpg",
    "midia/post19/slide_06.jpg",
    "midia/post19/slide_07.jpg",
-   "midia/post19/slide_08_cta.jpg"
+   "midia/post19/slide_08_comentar.jpg"
   ],
   "legenda": "Se pudesse pedir uma coisa a Deus, o que seria?\n\n💰 Mais dinheiro?\n🏆 Mais sucesso?\n❤️ Mais saúde?\n🧭 Saber o caminho certo?\n🤲 Um coração bom para ajudar os outros?\n\nSalomão era muito jovem quando virou rei e não sabia como cuidar de um povo tão grande. Num sonho, Deus disse: \"Peça o que você quiser.\" Ele podia pedir riqueza ou poder, mas pediu sabedoria para cuidar bem do povo. Deus gostou do pedido e o abençoou, e Salomão ficou conhecido por ser muito sábio.\n\nPedir sabedoria é pedir a Deus que nos ensine a viver bem e a cuidar bem de quem está perto.\n\n📜 O versículo (1 Reis 3:9)\nSalomão fez esse pedido a Deus num sonho, no começo do seu reinado. Ele pediu um coração que entendesse, para saber o que era certo e o que era errado ao cuidar do povo. A intenção do pedido era servir aos outros, e não a si mesmo. A Bíblia conta logo depois que esse pedido agradou a Deus.\n\nE você, o que pediria a Deus? 👑\n\n📖 1 Reis 3:1-15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #salomao #sabedoria",
-  "cta": true,
+  "cta": "comentar",
   "alt": [
    "Slide 1 de 8 da história: Salomão pede sabedoria. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Salomão pede sabedoria. Ilustração em papel recortado.",
@@ -1854,12 +1854,12 @@
   "tipo": "REEL",
   "quando": "2026-10-27T19:00:00-03:00",
   "midia": [
-   "midia/post18/reel_cta.mp4"
+   "midia/post18/reel_comentar.mp4"
   ],
   "legenda": "Você acha que não tem mais volta?\n\n📜 O versículo (Lucas 15:20)\nEsse versículo faz parte da história que Jesus contou. Mostra que o pai viu o filho quando ele ainda estava longe, teve compaixão, correu, abraçou e beijou o filho, antes mesmo de ouvir o pedido de perdão. A intenção de Jesus era mostrar como Deus recebe quem volta para Ele: de braços abertos.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Lucas 15:11-32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #filhoprodigo #perdao",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": true,
+  "cta": "comentar",
   "miniatura": "midia/miniaturas/reel18.jpg",
   "titulo": "O filho pródigo"
  },
@@ -1875,10 +1875,10 @@
    "midia/post20/slide_05.jpg",
    "midia/post20/slide_06.jpg",
    "midia/post20/slide_07.jpg",
-   "midia/post20/slide_08.jpg"
+   "midia/post20/slide_08_encaminhar.jpg"
   ],
   "legenda": "Quem você ajudou hoje?\n\n🍽️ Lavar a louça sem ninguém pedir.\n🧓 Ajudar um idoso na fila.\n👶 Cuidar de uma criança com paciência.\n🚗 Dar uma carona.\n💬 Ouvir alguém que precisava desabafar.\n\nNum jantar com seus amigos, Jesus pegou uma bacia com água e começou a lavar os pés de cada um, um serviço que naquela época era feito pelos empregados. Pedro não quis deixar, mas Jesus explicou com carinho: \"Façam o mesmo uns pelos outros.\"\n\nJesus, o Mestre, escolheu servir. E nos convida a fazer o mesmo no dia a dia, nas coisas pequenas.\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\nComo você pode servir alguém hoje? 🤝\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
-  "cta": false,
+  "cta": "encaminhar",
   "alt": [
    "Slide 1 de 8 da história: Jesus lava os pés dos discípulos. Ilustração em papel recortado.",
    "Slide 2 de 8 da história: Jesus lava os pés dos discípulos. Ilustração em papel recortado.",
@@ -1908,12 +1908,12 @@
   "tipo": "REEL",
   "quando": "2026-10-28T19:00:00-03:00",
   "midia": [
-   "midia/post19/reel.mp4"
+   "midia/post19/reel_encaminhar.mp4"
   ],
   "legenda": "Se pudesse pedir uma coisa a Deus, o que seria?\n\n📜 O versículo (1 Reis 3:9)\nSalomão fez esse pedido a Deus num sonho, no começo do seu reinado. Ele pediu um coração que entendesse, para saber o que era certo e o que era errado ao cuidar do povo. A intenção do pedido era servir aos outros, e não a si mesmo. A Bíblia conta logo depois que esse pedido agradou a Deus.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 1 Reis 3:1-15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #salomao #sabedoria",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": false,
+  "cta": "encaminhar",
   "miniatura": "midia/miniaturas/reel19.jpg",
   "titulo": "Salomão pede sabedoria"
  },
@@ -1922,12 +1922,12 @@
   "tipo": "REEL",
   "quando": "2026-10-29T19:00:00-03:00",
   "midia": [
-   "midia/post20/reel_cta.mp4"
+   "midia/post20/reel_salvar.mp4"
   ],
   "legenda": "Quem você ajudou hoje?\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
   "na_grade": false,
   "capa_ms": 800,
-  "cta": true,
+  "cta": "salvar",
   "miniatura": "midia/miniaturas/reel20.jpg",
   "titulo": "Jesus lava os pés dos discípulos"
  }
