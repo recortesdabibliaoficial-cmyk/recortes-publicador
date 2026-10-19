@@ -821,26 +821,6 @@
   "titulo": "Marta e Maria"
  },
  {
-  "id": "ora-noite-2026-10-19",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-19T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-19-noite/slide_01.jpg",
-   "midia/oracoes/2026-10-19-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-19-noite/slide_03_comentar.jpg"
-  ],
-  "legenda": "🙏🌙 Oração da noite por força · segunda-feira, 19 de outubro\n\nVocê chegou até aqui, e isso já é uma vitória. 🌙 Descanse: o corpo e a alma precisam. Amanhã é um novo dia para recomeçar, sem pressa.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da noite: força, Segunda-feira, 19 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da noite: Senhor, eu Te agradeço pela força que me sustentou hoje. Eu cheguei até aqui por causa de Ti. Eu Te agradeço pelas tarefas que consegui cumprir e também por aquelas em que precisei de ajuda. Perdoa as minhas falhas: a impaciência e o bem que deixei de fazer. Abençoa as pessoas que eu amo e dá a elas uma boa noite. Renova as minhas forças enquanto eu descanso. Em nome de Jesus, amém.",
-   "Fecho da oração da noite: Amém. Que esta oração chegue também a quem você ama."
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 19/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-19-noite.jpg",
-  "cta": "comentar"
- },
- {
   "id": "ora-story-noite-2026-10-19",
   "tipo": "STORY",
   "quando": "2026-10-19T21:00:00-03:00",
@@ -866,26 +846,6 @@
   "teste": true,
   "titulo": "Oração da noite · 19/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-19-noite.jpg"
- },
- {
-  "id": "ora-manha-2026-10-20",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-20T07:30:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-20-manha/slide_01.jpg",
-   "midia/oracoes/2026-10-20-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-20-manha/slide_03_encaminhar.jpg"
-  ],
-  "legenda": "🙏☀️ Oração da manhã por sabedoria · terça-feira, 20 de outubro\n\nDecida com sabedoria. 🌿 Hoje você pode escolher bem, falar na hora certa e calar quando for melhor. Cada boa escolha te leva mais longe.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da manhã: sabedoria, Terça-feira, 20 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da manhã: Senhor, antes de o dia começar, eu venho a Ti. Hoje eu preciso de sabedoria: para escolher bem, para falar na hora certa e para calar quando for melhor. Quando eu estiver diante de uma decisão difícil, acalma o meu coração e clareia os meus pensamentos. Que eu ouça mais, julgue menos e aja com justiça e bondade. Dá-me essa sabedoria, Senhor. Em nome de Jesus, amém.",
-   "Fecho da oração da manhã: Amém. Por quem você vai orar hoje?"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 20/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-20-manha.jpg",
-  "cta": "encaminhar"
  },
  {
   "id": "ora-story-manha-2026-10-20",
@@ -969,26 +929,6 @@
   "titulo": "Ester"
  },
  {
-  "id": "ora-noite-2026-10-20",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-20T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-20-noite/slide_01.jpg",
-   "midia/oracoes/2026-10-20-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-20-noite/slide_03_encaminhar.jpg"
-  ],
-  "legenda": "🙏🌙 Oração da noite por sabedoria · terça-feira, 20 de outubro\n\nVocê fez o que pôde hoje, e isso é suficiente. 🌙 Cada escolha, certa ou errada, ensinou algo. Durma em paz com o que aprendeu.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da noite: sabedoria, Terça-feira, 20 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da noite: Senhor, eu Te agradeço pela sabedoria que me deste hoje. Sem Ti, eu teria errado mais. Eu Te agradeço pelas conversas em que consegui ouvir e pelas escolhas que fiz com calma. Perdoa as decisões que tomei sem Te consultar e as palavras ditas sem pensar. Cuida da minha família e dos meus amigos, e me ajuda a aprender com tudo o que vivi hoje. Em nome de Jesus, amém.",
-   "Fecho da oração da noite: Amém. Que esta oração chegue também a quem você ama."
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 20/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-20-noite.jpg",
-  "cta": "encaminhar"
- },
- {
   "id": "ora-story-noite-2026-10-20",
   "tipo": "STORY",
   "quando": "2026-10-20T21:00:00-03:00",
@@ -1014,26 +954,6 @@
   "teste": true,
   "titulo": "Oração da noite · 20/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-20-noite.jpg"
- },
- {
-  "id": "ora-manha-2026-10-21",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-21T07:30:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-21-manha/slide_01.jpg",
-   "midia/oracoes/2026-10-21-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-21-manha/slide_03_salvar.jpg"
-  ],
-  "legenda": "🙏☀️ Oração da manhã por paciência · quarta-feira, 21 de outubro\n\nHoje, mostre a sua força na calma. ☀️ O dia pode testar a sua paciência, e você pode escolher a resposta tranquila. Uma palavra suave pode mudar o clima do dia.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da manhã: paciência, Quarta-feira, 21 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da manhã: Senhor, antes de o dia começar, eu venho a Ti. Hoje eu preciso de paciência: com quem demora, com quem me irrita e comigo também. Quando a pressa apertar e a voz quiser subir, lembra-me de que Tu foste paciente comigo muitas vezes. Ensina-me a respirar antes de responder, a ouvir até o fim e a escolher palavras que ajudem. Em nome de Jesus, amém.",
-   "Fecho da oração da manhã: Amém. Por quem você vai orar hoje?"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 21/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-21-manha.jpg",
-  "cta": "salvar"
  },
  {
   "id": "ora-story-manha-2026-10-21",
@@ -1117,26 +1037,6 @@
   "titulo": "Zaqueu"
  },
  {
-  "id": "ora-noite-2026-10-21",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-21T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-21-noite/slide_01.jpg",
-   "midia/oracoes/2026-10-21-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-21-noite/slide_03_salvar.jpg"
-  ],
-  "legenda": "🙏🌙 Oração da noite por paciência · quarta-feira, 21 de outubro\n\nHoje a paciência foi testada, e tudo bem. 🌙 Se ela falhou em algum momento, perdoe-se: amanhã é um novo recomeço. Durma em paz.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da noite: paciência, Quarta-feira, 21 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da noite: Senhor, eu Te agradeço pela paciência que me deste hoje, nas horas em que eu quase perdi a calma. Eu Te agradeço pelas vezes em que consegui esperar, ouvir e responder com mansidão. Perdoa as vezes em que magoei alguém com a minha pressa. Cuida de todos que eu amo, perto ou longe de mim, e me dá uma noite tranquila. Em nome de Jesus, amém.",
-   "Fecho da oração da noite: Amém. Que esta oração chegue também a quem você ama."
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 21/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-21-noite.jpg",
-  "cta": "salvar"
- },
- {
   "id": "ora-story-noite-2026-10-21",
   "tipo": "STORY",
   "quando": "2026-10-21T21:00:00-03:00",
@@ -1162,26 +1062,6 @@
   "teste": true,
   "titulo": "Oração da noite · 21/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-21-noite.jpg"
- },
- {
-  "id": "ora-manha-2026-10-22",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-22T07:30:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-22-manha/slide_01.jpg",
-   "midia/oracoes/2026-10-22-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-22-manha/slide_03.jpg"
-  ],
-  "legenda": "🙏☀️ Oração da manhã por proteção · quinta-feira, 22 de outubro\n\nComece o dia com coragem. 🛡️ Você e quem você ama estão sob o cuidado de Deus. Siga firme, e que o dia seja de paz para todos.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da manhã: proteção, Quinta-feira, 22 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da manhã: Senhor, antes de o dia começar, eu venho a Ti. Hoje eu peço proteção para mim, para a minha família e para todos que hoje saem para a estrada, o trabalho ou a escola. Guarda quem está doente, quem está só e quem enfrenta o dia com medo. Que o Teu cuidado nos acompanhe em cada passo e traga cada um de volta em paz. Em nome de Jesus, amém.",
-   "Fecho da oração da manhã: Amém. Por quem você vai orar hoje?"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 22/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-22-manha.jpg",
-  "cta": "nenhum"
  },
  {
   "id": "ora-story-manha-2026-10-22",
@@ -1265,26 +1145,6 @@
   "titulo": "Rute e Noemi"
  },
  {
-  "id": "ora-noite-2026-10-22",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-22T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-22-noite/slide_01.jpg",
-   "midia/oracoes/2026-10-22-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-22-noite/slide_03.jpg"
-  ],
-  "legenda": "🙏🌙 Oração da noite por proteção · quinta-feira, 22 de outubro\n\nQuem você ama está nas mãos de Deus. 🌙 Agradeça pelo cuidado de hoje, solte o dia e descanse em paz.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da noite: proteção, Quinta-feira, 22 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da noite: Senhor, eu Te agradeço por me guardar hoje, a mim e a todos que eu amo. Eu Te agradeço pelos caminhos que percorri em segurança e pelos perigos que eu nem percebi. Perdoa os meus erros e a pressa com que vivi. Cuida de quem ainda está na estrada, no plantão e no hospital, e dá paz a cada casa esta noite. Em nome de Jesus, amém.",
-   "Fecho da oração da noite: Amém. Que esta oração chegue também a quem você ama."
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 22/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-22-noite.jpg",
-  "cta": "nenhum"
- },
- {
   "id": "ora-story-noite-2026-10-22",
   "tipo": "STORY",
   "quando": "2026-10-22T21:00:00-03:00",
@@ -1310,26 +1170,6 @@
   "teste": true,
   "titulo": "Oração da noite · 22/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-22-noite.jpg"
- },
- {
-  "id": "ora-manha-2026-10-23",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-23T07:30:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-23-manha/slide_01.jpg",
-   "midia/oracoes/2026-10-23-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-23-manha/slide_03_comentar.jpg"
-  ],
-  "legenda": "🙏☀️ Oração da manhã por entrega · sexta-feira, 23 de outubro\n\nSolta. 🙏 Aquela preocupação que você carrega há dias: hoje, deixe nas mãos de Deus. Entregar não é desistir, é ganhar força para seguir.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da manhã: entrega, Sexta-feira, 23 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da manhã: Senhor, antes de o dia começar, eu venho a Ti. Hoje eu quero entregar a Ti as minhas preocupações, uma por uma, em vez de carregá-las com as minhas próprias forças. Aquilo que tira o meu sono, o que eu não sei resolver e o que eu temo perder: eu coloco nas Tuas mãos. Dá-me confiança para fazer a minha parte e deixar o resto contigo. Em nome de Jesus, amém.",
-   "Fecho da oração da manhã: Amém. Por quem você vai orar hoje?"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 23/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-23-manha.jpg",
-  "cta": "comentar"
  },
  {
   "id": "ora-story-manha-2026-10-23",
@@ -1413,26 +1253,6 @@
   "titulo": "Pedro anda sobre as águas"
  },
  {
-  "id": "ora-noite-2026-10-23",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-23T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-23-noite/slide_01.jpg",
-   "midia/oracoes/2026-10-23-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-23-noite/slide_03_comentar.jpg"
-  ],
-  "legenda": "🙏🌙 Oração da noite por entrega · sexta-feira, 23 de outubro\n\nDeixe as preocupações do lado de fora do quarto. 🌙 O que ficou sem resposta hoje não precisa dormir com você. Entregue a Deus e descanse.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da noite: entrega, Sexta-feira, 23 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da noite: Senhor, eu Te agradeço por ter cuidado de mim hoje, também nas coisas que eu não vi. Eu Te agradeço pelos problemas que se resolveram e por aqueles que eu consegui deixar nas Tuas mãos. Perdoa quando eu tentei controlar tudo por conta própria. Cuida das pessoas que eu amo e das que precisam de Ti, e me ajuda a dormir em paz. Em nome de Jesus, amém.",
-   "Fecho da oração da noite: Amém. Que esta oração chegue também a quem você ama."
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 23/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-23-noite.jpg",
-  "cta": "comentar"
- },
- {
   "id": "ora-story-noite-2026-10-23",
   "tipo": "STORY",
   "quando": "2026-10-23T21:00:00-03:00",
@@ -1458,26 +1278,6 @@
   "teste": true,
   "titulo": "Oração da noite · 23/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-23-noite.jpg"
- },
- {
-  "id": "ora-manha-2026-10-24",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-24T07:30:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-24-manha/slide_01.jpg",
-   "midia/oracoes/2026-10-24-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-24-manha/slide_03_encaminhar.jpg"
-  ],
-  "legenda": "🙏☀️ Oração da manhã por graça · sábado, 24 de outubro\n\nTudo bem não dar conta. 🌄 Você não precisa ser forte o tempo todo, mas pode recomeçar a qualquer hora. O cuidado de Deus não depende do seu desempenho.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da manhã: graça, Sábado, 24 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da manhã: Senhor, antes de o dia começar, eu venho a Ti. Hoje eu admito: sem Ti, eu não dou conta. Peço a Tua graça para os momentos em que as minhas forças acabarem. Lembra-me de que o Teu amor não depende do meu desempenho, nem o Teu cuidado depende da minha força. Sustenta-me quando eu falhar e me levanta para recomeçar. Em nome de Jesus, amém.",
-   "Fecho da oração da manhã: Amém. Por quem você vai orar hoje?"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 24/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-24-manha.jpg",
-  "cta": "encaminhar"
  },
  {
   "id": "ora-story-manha-2026-10-24",
@@ -1561,26 +1361,6 @@
   "titulo": "Elias debaixo da árvore"
  },
  {
-  "id": "ora-noite-2026-10-24",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-24T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-24-noite/slide_01.jpg",
-   "midia/oracoes/2026-10-24-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-24-noite/slide_03_encaminhar.jpg"
-  ],
-  "legenda": "🙏🌙 Oração da noite por graça · sábado, 24 de outubro\n\nVocê não precisa dar conta de tudo todo dia. 🌙 Se hoje faltou força, descanse: o cuidado de Deus continua, e amanhã você recomeça.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da noite: graça, Sábado, 24 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da noite: Senhor, eu Te agradeço por me sustentar nas minhas fraquezas hoje. A Tua graça foi suficiente. Eu Te agradeço pelas vezes em que o Teu cuidado chegou sem eu merecer. Perdoa os meus erros e me levanta de novo. Cuida de quem eu amo e de quem está chorando esta noite, e dá descanso a quem está sem forças. Em nome de Jesus, amém.",
-   "Fecho da oração da noite: Amém. Que esta oração chegue também a quem você ama."
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 24/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-24-noite.jpg",
-  "cta": "encaminhar"
- },
- {
   "id": "ora-story-noite-2026-10-24",
   "tipo": "STORY",
   "quando": "2026-10-24T21:00:00-03:00",
@@ -1606,26 +1386,6 @@
   "teste": true,
   "titulo": "Oração da noite · 24/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-24-noite.jpg"
- },
- {
-  "id": "ora-manha-2026-10-25",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-25T07:30:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-25-manha/slide_01.jpg",
-   "midia/oracoes/2026-10-25-manha/slide_02.jpg",
-   "midia/oracoes/2026-10-25-manha/slide_03_salvar.jpg"
-  ],
-  "legenda": "🙏☀️ Oração da manhã por confiança · domingo, 25 de outubro\n\nDomingo sem medo. 🌅 Não gaste o dia de hoje com o medo da semana que vem. Você já atravessou semanas difíceis: siga um dia de cada vez, de cabeça erguida.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da manhã: confiança, Domingo, 25 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da manhã: Senhor, eu Te agradeço por este domingo e por cada manhã nova. Hoje eu peço confiança para a semana que vem: sem medo do que ainda não aconteceu. Tira de mim a ansiedade de querer controlar o amanhã e me ensina a viver um dia de cada vez, sabendo que Tu vais comigo. Dá-me coragem para recomeçar na segunda-feira com o coração em paz. Em nome de Jesus, amém.",
-   "Fecho da oração da manhã: Amém. Por quem você vai orar hoje?"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 25/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-25-manha.jpg",
-  "cta": "salvar"
  },
  {
   "id": "ora-story-manha-2026-10-25",
@@ -1707,26 +1467,6 @@
   "cta": "salvar",
   "miniatura": "midia/miniaturas/reel16.jpg",
   "titulo": "Gideão"
- },
- {
-  "id": "ora-noite-2026-10-25",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-25T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-25-noite/slide_01.jpg",
-   "midia/oracoes/2026-10-25-noite/slide_02.jpg",
-   "midia/oracoes/2026-10-25-noite/slide_03_salvar.jpg"
-  ],
-  "legenda": "🙏🌙 Oração da noite por confiança · domingo, 25 de outubro\n\nA semana começa amanhã, e você não precisa começá-la só. 🌙 Durma com o coração tranquilo: um dia de cada vez, e Deus junto.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial: uma oração toda manhã e toda noite, e uma história da Bíblia por dia.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "alt": [
-   "Capa da oração da noite: confiança, Domingo, 25 de outubro. Ilustração em papel recortado.",
-   "Texto da oração da noite: Senhor, eu Te agradeço pela confiança que me deste hoje e por esta semana inteira. Eu Te agradeço pelo que aprendi, pelas pessoas que me ajudaram e por cada cuidado Teu nesta semana. Perdoa os meus erros e me dá um recomeço. Cuida da minha família e de todos que eu amo, e me concede uma noite de descanso. Em nome de Jesus, amém.",
-   "Fecho da oração da noite: Amém. Que esta oração chegue também a quem você ama."
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 25/10",
-  "miniatura": "midia/miniaturas/ora-2026-10-25-noite.jpg",
-  "cta": "salvar"
  },
  {
   "id": "ora-story-noite-2026-10-25",
