@@ -812,6 +812,22 @@
   "titulo": "Ester"
  },
  {
+  "id": "htexto01",
+  "tipo": "REEL",
+  "quando": "2026-10-19T12:00:00-03:00",
+  "midia": [
+   "midia/post01/historia_texto.mp4"
+  ],
+  "legenda": "Você já sentiu medo do tamanho do seu problema?\n\n📜 O versículo (1 Samuel 17:47)\nDavi disse essas palavras a Golias logo antes da luta, na frente dos dois exércitos. Ele quis dizer que a vitória não depende de espada, de lança nem de tamanho, porque a batalha pertence a Deus. A intenção era que todos ali soubessem de onde viria a vitória: não da força de um menino, mas de Deus. Para nós, fica o lembrete de que ninguém enfrenta os seus gigantes sozinho.\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #davi #coragem",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "01",
+  "cta": "comentar",
+  "miniatura": "midia/miniaturas/htexto01.jpg",
+  "titulo": "Davi e Golias",
+  "dur": 12.0
+ },
+ {
   "id": "story2026-10-19",
   "tipo": "STORY",
   "quando": "2026-10-19T18:00:00-03:00",
@@ -854,7 +870,7 @@
   "tipo": "REEL",
   "quando": "2026-10-19T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-19-noite/reel_comentar.mp4"
+   "midia/oracoes/2026-10-19-noite/reel_loop_comentar.mp4"
   ],
   "cta": "comentar",
   "legenda": "O dia foi cansativo? Ore comigo.\n\n🙏🌙 Oração da noite por força.\n\nVocê chegou até aqui, e isso já é uma vitória. 🌙 Descanse: o corpo e a alma precisam. Amanhã é um novo dia para recomeçar, sem pressa.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
@@ -864,7 +880,7 @@
   "teste": true,
   "titulo": "Oração da noite · 19/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-19-noite.jpg",
-  "dur": 31.0
+  "dur": 12.0
  },
  {
   "id": "ora-story-manha-2026-10-20",
@@ -1104,7 +1120,7 @@
   "tipo": "REEL",
   "quando": "2026-10-22T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-22-manha/reel.mp4"
+   "midia/oracoes/2026-10-22-manha/reel_loop_nenhum.mp4"
   ],
   "cta": "nenhum",
   "legenda": "Antes de sair de casa, ore comigo.\n\n🙏☀️ Oração da manhã por proteção.\n\nComece o dia com coragem. 🛡️ Você e quem você ama estão sob o cuidado de Deus. Siga firme, e que o dia seja de paz para todos.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
@@ -1114,7 +1130,7 @@
   "teste": true,
   "titulo": "Oração da manhã · 22/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-22-manha.jpg",
-  "dur": 29.0
+  "dur": 12.0
  },
  {
   "id": "post14",
@@ -1187,7 +1203,7 @@
   "tipo": "REEL",
   "quando": "2026-10-22T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-22-noite/reel.mp4"
+   "midia/oracoes/2026-10-22-noite/reel_loop_nenhum.mp4"
   ],
   "cta": "nenhum",
   "legenda": "Antes de dormir, agradeça pela proteção de hoje.\n\n🙏🌙 Oração da noite por proteção.\n\nQuem você ama está nas mãos de Deus. 🌙 Agradeça pelo cuidado de hoje, solte o dia e descanse em paz.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
@@ -1197,7 +1213,7 @@
   "teste": true,
   "titulo": "Oração da noite · 22/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-22-noite.jpg",
-  "dur": 29.0
+  "dur": 12.0
  },
  {
   "id": "ora-story-manha-2026-10-23",
@@ -1437,7 +1453,7 @@
   "tipo": "REEL",
   "quando": "2026-10-25T07:35:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-25-manha/reel_salvar.mp4"
+   "midia/oracoes/2026-10-25-manha/reel_loop_salvar.mp4"
   ],
   "cta": "salvar",
   "legenda": "Com medo da semana que vem? Ore comigo.\n\n🙏☀️ Oração da manhã por confiança.\n\nDomingo sem medo. 🌅 Não gaste o dia de hoje com o medo da semana que vem. Você já atravessou semanas difíceis: siga um dia de cada vez, de cabeça erguida.\n\n✍️ Por quem você vai orar hoje?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodamanha #oracao #fe #deus #biblia",
@@ -1447,7 +1463,7 @@
   "teste": true,
   "titulo": "Oração da manhã · 25/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-25-manha.jpg",
-  "dur": 29.0
+  "dur": 12.0
  },
  {
   "id": "post17",
@@ -1520,7 +1536,7 @@
   "tipo": "REEL",
   "quando": "2026-10-25T21:05:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-25-noite/reel_salvar.mp4"
+   "midia/oracoes/2026-10-25-noite/reel_loop_salvar.mp4"
   ],
   "cta": "salvar",
   "legenda": "Antes de a semana começar, agradeça comigo.\n\n🙏🌙 Oração da noite por confiança.\n\nA semana começa amanhã, e você não precisa começá-la só. 🌙 Durma com o coração tranquilo: um dia de cada vez, e Deus junto.\n\n✍️ Por quem você está orando esta noite?\n\n✨ Siga @recortesdabiblia.oficial para orar com a gente toda manhã e toda noite.\n\n#oracaodanoite #oracao #fe #deus #biblia",
@@ -1530,7 +1546,7 @@
   "teste": true,
   "titulo": "Oração da noite · 25/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-2026-10-25-noite.jpg",
-  "dur": 27.0
+  "dur": 12.0
  },
  {
   "id": "post18",
