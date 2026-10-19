@@ -1181,12 +1181,12 @@
   }
  },
  "2026-10-18": {
-  "seguidores": 25,
-  "publicacoes": 17,
+  "seguidores": 26,
+  "publicacoes": 18,
   "itens": {
    "mc-carrossel01": {
-    "reach": 22,
-    "views": 42,
+    "reach": 23,
+    "views": 44,
     "likes": 4,
     "comments": 0,
     "saved": 0,
@@ -1194,8 +1194,8 @@
     "total_interactions": 4
    },
    "mc-carrossel02": {
-    "reach": 23,
-    "views": 33,
+    "reach": 24,
+    "views": 34,
     "likes": 6,
     "comments": 0,
     "saved": 0,
@@ -1256,13 +1256,13 @@
     "total_interactions": 0
    },
    "mc-carrossel05": {
-    "reach": 30,
-    "views": 45,
-    "likes": 8,
+    "reach": 31,
+    "views": 46,
+    "likes": 9,
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 9
+    "total_interactions": 11
    },
    "reel02": {
     "reach": 21,
@@ -1400,8 +1400,8 @@
     "reels_skip_rate": 80
    },
    "ora-noite-2026-10-15": {
-    "reach": 4,
-    "views": 5,
+    "reach": 5,
+    "views": 6,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -1427,8 +1427,8 @@
     "reels_skip_rate": 79.2
    },
    "ora-manha-2026-10-16": {
-    "reach": 7,
-    "views": 10,
+    "reach": 8,
+    "views": 11,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -1558,15 +1558,15 @@
     "total_interactions": 0
    },
    "reel08": {
-    "reach": 86,
-    "views": 92,
+    "reach": 96,
+    "views": 103,
     "likes": 2,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 2719,
-    "reels_skip_rate": 84.1
+    "ig_reels_avg_watch_time": 3025,
+    "reels_skip_rate": 83.8
    },
    "ora-noite-2026-10-17": {
     "reach": 4,
@@ -1592,7 +1592,7 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 6757,
+    "ig_reels_avg_watch_time": 6733,
     "reels_skip_rate": 75
    },
    "ora-manha-2026-10-18": {
@@ -1605,33 +1605,100 @@
     "total_interactions": 0
    },
    "ora-story-manha-2026-10-18": {
-    "reach": 9,
-    "views": 11,
+    "reach": 11,
+    "views": 13,
     "replies": 0,
     "shares": 0,
-    "total_interactions": 0
+    "total_interactions": 1
    },
    "ora-reel-manha-2026-10-18": {
-    "reach": 137,
-    "views": 163,
+    "reach": 138,
+    "views": 164,
     "likes": 3,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 4,
-    "ig_reels_avg_watch_time": 6552,
-    "reels_skip_rate": 77.2
+    "ig_reels_avg_watch_time": 6508,
+    "reels_skip_rate": 77.4
    },
    "mc-carrossel10": {
-    "reach": 3,
-    "views": 6,
+    "reach": 4,
+    "views": 7,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 0
+   },
+   "story2026-10-18": {
+    "reach": 7,
+    "views": 8,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "reel09": {
+    "reach": 4,
+    "views": 5,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "ig_reels_avg_watch_time": 2520,
+    "reels_skip_rate": 75
+   },
+   "ora-noite-2026-10-18": {
+    "reach": 1,
+    "views": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "ora-story-noite-2026-10-18": {
+    "reach": 0,
+    "views": 4,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "ora-reel-noite-2026-10-18": {
+    "reach": 160,
+    "views": 188,
+    "likes": 6,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 6,
+    "ig_reels_avg_watch_time": 6284,
+    "reels_skip_rate": 80.4
    }
   },
-  "em": "2026-10-18T17:40-03:00"
+  "em": "2026-10-18T23:30-03:00",
+  "conta": {
+   "reach": 366,
+   "views": 497,
+   "accounts_engaged": 11,
+   "total_interactions": 29,
+   "profile_views": 8
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "FOLLOWER": 15,
+    "NON_FOLLOWER": 353
+   },
+   "views:follow_type": {
+    "FOLLOWER": 84,
+    "NON_FOLLOWER": 413
+   },
+   "views:media_product_type": {
+    "REEL": 400,
+    "STORY": 46,
+    "CAROUSEL_CONTAINER": 51
+   }
+  }
  }
 }
