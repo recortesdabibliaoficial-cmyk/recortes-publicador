@@ -428,5 +428,9 @@
   "media_id": "17934757134403724",
   "em": "2026-10-19T15:01:44.816015+00:00",
   "link": "https://www.instagram.com/reel/DeriBoKCh44/"
+ },
+ "htexto07": {
+  "tentativas": 1,
+  "ultimo_erro": "container 18107115971249877: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '18107115971249877'}"
  }
 }
