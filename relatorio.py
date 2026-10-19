@@ -71,6 +71,7 @@ def periodo(hist, agenda, estado, d0, d1):
         r['ganho_' + c] = sum(max(0, (m.get(c) or 0) - (a.get(k, {}).get(c) or 0)) for k, m in b.items()) if a is not None else None
     # o que foi publicado no período
     tit = {i['id']: (i.get('titulo') or i['id'], i['tipo']) for i in agenda}
+    dur_de = {i['id']: i.get('dur') for i in agenda}                  # duração do Reel (s), para a % do vídeo assistido
     cta_de = {i['id']: i.get('cta') for i in agenda}                 # experimento G: com ou sem pedido de comentário
     pubs = []
     for iid, reg in estado.items():
@@ -79,7 +80,7 @@ def periodo(hist, agenda, estado, d0, d1):
         except Exception: continue
         if d0 <= dia <= d1:
             m = b.get(iid, {})
-            pubs.append({'id': iid, 'titulo': tit[iid][0], 'tipo': tit[iid][1], 'dia': dia, 'hora': dt.hour, 'link': reg.get('link'), 'cta': cta_de.get(iid), **m})
+            pubs.append({'id': iid, 'titulo': tit[iid][0], 'tipo': tit[iid][1], 'dia': dia, 'hora': dt.hour, 'link': reg.get('link'), 'cta': cta_de.get(iid), 'dur': dur_de.get(iid), **m})
     pubs.sort(key=lambda p: (-(p.get('reach') or 0), p['dia']))
     r['publicados'] = pubs
     r['n_publicados'] = len(pubs)
@@ -210,6 +211,12 @@ def analise_padroes(pubs):
             if len(itens) >= 2:
                 out.append(f'<li><b>{TIPO_NOME[tipo]}s por {rotulo}</b> (alcance médio, nº de posts): ' +
                            ' · '.join(f'{fmt_k(k)}: {m:.0f} ({n})' for m, k, n in itens) + '</li>')
+    # % do vídeo assistido nos Reels (tempo médio ÷ duração; passa de 100% quando as pessoas assistem em loop)
+    pct = [(p['ig_reels_avg_watch_time'] / 1000.0 / p['dur'] * 100, p) for p in pubs
+           if p['tipo'] == 'REEL' and p.get('dur') and p.get('ig_reels_avg_watch_time')]
+    if len(pct) >= 2:
+        out.append(f'<li><b>Reels: % do vídeo assistido</b> (tempo médio ÷ duração; acima de 100% = assistido em loop): média {sum(x for x, _ in pct) / len(pct):.0f}% em {len(pct)} Reels · ' +
+                   ' · '.join(f'{x:.0f}% ({p["titulo"][:22]}, {p["dur"]:.0f} s)' for x, p in sorted(pct, key=lambda t: -t[0])[:5]) + '</li>')
     # experimento G (pedido na arte, rodízio de 4 dias): alcance médio por tipo de pedido (comentar, encaminhar, salvar, nenhum)
     for tipo in ('REEL', 'CARROSSEL'):
         grupos = {k: [p['reach'] for p in pubs if p['tipo'] == tipo and p.get('cta') == k and p.get('reach') is not None]
