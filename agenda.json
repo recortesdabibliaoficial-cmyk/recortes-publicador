@@ -828,6 +828,22 @@
   "dur": 12.0
  },
  {
+  "id": "htexto07",
+  "tipo": "REEL",
+  "quando": "2026-10-19T13:30:00-03:00",
+  "midia": [
+   "midia/post07/historia_texto.mp4"
+  ],
+  "legenda": "Você já fingiu que não viu alguém precisando de ajuda?\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n✨ Siga @recortesdabiblia.oficial para receber uma história da Bíblia por dia.\n💛 Se essa história falou com você, ela pode falar com alguém que você conhece.\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "07",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto07.jpg",
+  "titulo": "O bom samaritano",
+  "dur": 12.0
+ },
+ {
   "id": "story2026-10-19",
   "tipo": "STORY",
   "quando": "2026-10-19T18:00:00-03:00",
