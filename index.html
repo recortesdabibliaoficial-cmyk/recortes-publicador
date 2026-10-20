@@ -68,6 +68,14 @@
   .met { font-size:12.5px; color:var(--suave); margin-top:4px; font-variant-numeric:tabular-nums; }
   .top { font-size:13px; margin-top:8px; }
   footer { max-width:880px; margin:auto; padding:0 16px 30px; color:var(--suave); font-size:12px; }
+  .item img { cursor:zoom-in; }
+  #ver { position:fixed; inset:0; background:rgba(0,0,0,.92); display:none; flex-direction:column; z-index:50; }
+  #ver.aberto { display:flex; }
+  #ver .topo { display:flex; justify-content:space-between; align-items:center; padding:10px 16px; color:#fff; font-size:14px; }
+  #ver .topo button { border:0; background:rgba(255,255,255,.15); color:#fff; font-size:22px; width:40px; height:40px; border-radius:99px; cursor:pointer; }
+  #ver .fita { flex:1; display:flex; overflow-x:auto; scroll-snap-type:x mandatory; min-height:0; }
+  #ver .fita > * { flex:0 0 100%; width:100%; height:100%; object-fit:contain; scroll-snap-align:center; }
+  #ver .dica { color:#bbb; text-align:center; font-size:12px; padding:6px 16px 14px; }
 </style>
 </head>
 <body>
@@ -87,6 +95,7 @@
 <section id="painel"></section>
 <section id="tarefas"></section>
 <main id="lista">Carregando…</main>
+<div id="ver" role="dialog" aria-label="Ver post"><div class="topo"><span id="ver-tit"></span><button id="ver-fechar" aria-label="Fechar">×</button></div><div class="fita" id="ver-fita"></div><div class="dica" id="ver-dica"></div></div>
 <footer>Selos: <b>Publicado</b> (já saiu pelo publicador) · <b>Agendado</b> (vai sair no horário) · <b>Metricool</b> (agendado lá, antes da troca para a API; vira Publicado quando o publicador confere no Instagram) · <b>Erro</b> (o Claude precisa ver).</footer>
 <script>
 const TIPOS = { CARROSSEL:'Carrossel', REEL:'Reel', STORY:'Story' };
@@ -161,7 +170,7 @@ function desenhar(){
     return `<section class="dia ${k===hoje?'hoje':''}"><h2>${fmtDia(d)}</h2>` + dias[k].map(i => {
       const [rot, cls] = i._st, q = new Date(i.quando);
       return `<div class="item ${i.tipo.toLowerCase()}">
-        <img loading="lazy" src="${canal.base}${i.miniatura}" alt="">
+        <img loading="lazy" src="${canal.base}${i.miniatura}" alt="" data-ver="${i.id}" title="Toque para ver grande">
         <div class="meio">
           <div class="linha1"><span class="hora">${fmtHora(q)}</span><span class="tipo">${TIPOS[i.tipo]||i.tipo}</span><span class="pill ${cls}">${rot}</span>${i._link ? `<a class="link" href="${i._link}" target="_blank" rel="noopener">ver no Instagram ↗</a>` : ''}</div>
           <div class="titulo">${esc(i.titulo||'')}</div>
@@ -172,6 +181,23 @@ function desenhar(){
     }).join('') + '</section>';
   }).join('') || '<p>Nada para mostrar neste filtro.</p>';
 }
+// Visualizador: toque na miniatura abre o post grande (todos os slides do carrossel; Reel toca o vídeo)
+function abrirVer(id){
+  const i = itens.find(x => x.id === id); if (!i) return;
+  const midia = (i.midia && i.midia.length) ? i.midia : [i.miniatura];
+  document.getElementById('ver-tit').textContent = `${TIPOS[i.tipo]||i.tipo} · ${i.titulo||''}`;
+  document.getElementById('ver-fita').innerHTML = midia.map(m => /\.(mp4|mov)$/i.test(m)
+    ? `<video src="${canal.base}${m}" controls autoplay loop playsinline></video>`
+    : `<img src="${canal.base}${m}" alt="">`).join('');
+  document.getElementById('ver-dica').textContent = midia.length > 1 ? `${midia.length} slides · arraste para o lado` : '';
+  document.getElementById('ver').classList.add('aberto');
+}
+function fecharVer(){ const v = document.getElementById('ver'); v.classList.remove('aberto'); document.getElementById('ver-fita').innerHTML = ''; }
+document.addEventListener('click', e => {
+  const alvo = e.target.closest('[data-ver]'); if (alvo) { abrirVer(alvo.dataset.ver); return; }
+  if (e.target.id === 'ver-fechar' || e.target.id === 'ver') fecharVer();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharVer(); });
 let engaj = [], estAtual = null;
 function tarefas(){
   engaj = [];
