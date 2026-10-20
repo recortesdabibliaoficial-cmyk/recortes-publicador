@@ -1702,12 +1702,12 @@
   }
  },
  "2026-10-19": {
-  "seguidores": 29,
+  "seguidores": 28,
   "publicacoes": 11,
   "itens": {
    "mc-carrossel01": {
     "reach": 24,
-    "views": 47,
+    "views": 49,
     "likes": 5,
     "comments": 0,
     "saved": 0,
@@ -1716,7 +1716,7 @@
    },
    "mc-carrossel02": {
     "reach": 25,
-    "views": 36,
+    "views": 37,
     "likes": 7,
     "comments": 0,
     "saved": 0,
@@ -1778,7 +1778,7 @@
    },
    "mc-carrossel05": {
     "reach": 32,
-    "views": 52,
+    "views": 53,
     "likes": 10,
     "comments": 0,
     "saved": 0,
@@ -1822,8 +1822,8 @@
     "total_interactions": 1
    },
    "mc-carrossel06": {
-    "reach": 12,
-    "views": 26,
+    "reach": 13,
+    "views": 27,
     "likes": 3,
     "comments": 0,
     "saved": 1,
@@ -1876,8 +1876,8 @@
     "total_interactions": 0
    },
    "mc-carrossel07": {
-    "reach": 12,
-    "views": 23,
+    "reach": 13,
+    "views": 24,
     "likes": 4,
     "comments": 1,
     "saved": 0,
@@ -1975,8 +1975,8 @@
     "reels_skip_rate": 87.5
    },
    "mc-carrossel08": {
-    "reach": 8,
-    "views": 17,
+    "reach": 9,
+    "views": 18,
     "likes": 1,
     "comments": 0,
     "saved": 0,
@@ -2063,8 +2063,8 @@
     "reels_skip_rate": 89.6
    },
    "mc-carrossel09": {
-    "reach": 7,
-    "views": 15,
+    "reach": 9,
+    "views": 17,
     "likes": 1,
     "comments": 0,
     "saved": 0,
@@ -2086,7 +2086,7 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 2995,
+    "ig_reels_avg_watch_time": 3079,
     "reels_skip_rate": 84
    },
    "ora-noite-2026-10-17": {
@@ -2144,8 +2144,8 @@
     "reels_skip_rate": 77.4
    },
    "mc-carrossel10": {
-    "reach": 5,
-    "views": 13,
+    "reach": 7,
+    "views": 17,
     "likes": 1,
     "comments": 0,
     "saved": 0,
@@ -2167,7 +2167,7 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 3077,
+    "ig_reels_avg_watch_time": 3090,
     "reels_skip_rate": 50
    },
    "ora-noite-2026-10-18": {
@@ -2198,26 +2198,26 @@
     "reels_skip_rate": 80.4
    },
    "ora-story-manha-2026-10-19": {
-    "reach": 9,
-    "views": 14,
+    "reach": 11,
+    "views": 18,
     "replies": 0,
     "shares": 0,
-    "total_interactions": 0
+    "total_interactions": 1
    },
    "ora-reel-manha-2026-10-19": {
-    "reach": 19,
-    "views": 26,
+    "reach": 40,
+    "views": 51,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 9493,
-    "reels_skip_rate": 68.2
+    "ig_reels_avg_watch_time": 6993,
+    "reels_skip_rate": 77.8
    },
    "post11": {
-    "reach": 1,
-    "views": 11,
+    "reach": 4,
+    "views": 13,
     "likes": 1,
     "comments": 0,
     "saved": 0,
@@ -2225,17 +2225,75 @@
     "total_interactions": 1
    },
    "htexto07": {
-    "reach": 25,
-    "views": 50,
+    "reach": 141,
+    "views": 236,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 1,
+    "total_interactions": 1,
+    "ig_reels_avg_watch_time": 9856,
+    "reels_skip_rate": 58
+   },
+   "story2026-10-19": {
+    "reach": 7,
+    "views": 8,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "reel10": {
+    "reach": 4,
+    "views": 7,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 12672,
-    "reels_skip_rate": 46.4
+    "ig_reels_avg_watch_time": 2117,
+    "reels_skip_rate": 80
+   },
+   "ora-story-noite-2026-10-19": {
+    "reach": 5,
+    "views": 6,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "ora-reel-noite-2026-10-19": {
+    "reach": 160,
+    "views": 251,
+    "likes": 11,
+    "comments": 4,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 16,
+    "ig_reels_avg_watch_time": 9153,
+    "reels_skip_rate": 71.3
    }
   },
-  "em": "2026-10-19T17:30-03:00"
+  "em": "2026-10-19T23:30-03:00",
+  "conta": {
+   "reach": 353,
+   "views": 596,
+   "accounts_engaged": 17,
+   "total_interactions": 34,
+   "profile_views": 8
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "NON_FOLLOWER": 337,
+    "FOLLOWER": 15
+   },
+   "views:follow_type": {
+    "NON_FOLLOWER": 490,
+    "FOLLOWER": 106
+   },
+   "views:media_product_type": {
+    "REEL": 485,
+    "STORY": 46,
+    "CAROUSEL_CONTAINER": 65
+   }
+  }
  }
 }
