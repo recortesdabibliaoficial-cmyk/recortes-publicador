@@ -976,10 +976,10 @@
   "tipo": "STORY",
   "quando": "2026-10-20T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-20_versiculo_post12.jpg"
+   "midia/stories/story_2026-10-20_capa_post12.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-20.jpg",
-  "titulo": "Versículo: Zaqueu",
+  "titulo": "Post no perfil: Zaqueu",
   "destaque": "Lições"
  },
  {
@@ -1003,7 +1003,7 @@
   "tipo": "STORY",
   "quando": "2026-10-20T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-20-noite/story.jpg"
+   "midia/oracoes/2026-10-20-noite/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da noite · 20/10 (Story)",
@@ -1031,7 +1031,7 @@
   "tipo": "STORY",
   "quando": "2026-10-21T08:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-21-manha/story.jpg"
+   "midia/oracoes/2026-10-21-manha/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 21/10 (Story)",
@@ -1104,10 +1104,10 @@
   "tipo": "STORY",
   "quando": "2026-10-21T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-21_versiculo_post13.jpg"
+   "midia/stories/story_2026-10-21_capa_post13.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-21.jpg",
-  "titulo": "Versículo: Rute e Noemi",
+  "titulo": "Post no perfil: Rute e Noemi",
   "destaque": "Esperança"
  },
  {
@@ -1131,7 +1131,7 @@
   "tipo": "STORY",
   "quando": "2026-10-21T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-21-noite/story.jpg"
+   "midia/oracoes/2026-10-21-noite/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da noite · 21/10 (Story)",
@@ -1159,7 +1159,7 @@
   "tipo": "STORY",
   "quando": "2026-10-22T08:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-22-manha/story.jpg"
+   "midia/oracoes/2026-10-22-manha/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 22/10 (Story)",
@@ -1230,10 +1230,10 @@
   "tipo": "STORY",
   "quando": "2026-10-22T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-22_versiculo_post14.jpg"
+   "midia/stories/story_2026-10-22_capa_post14.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-22.jpg",
-  "titulo": "Versículo: Pedro anda sobre as águas",
+  "titulo": "Post no perfil: Pedro anda sobre as águas",
   "destaque": "Coragem"
  },
  {
@@ -1257,7 +1257,7 @@
   "tipo": "STORY",
   "quando": "2026-10-22T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-22-noite/story.jpg"
+   "midia/oracoes/2026-10-22-noite/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da noite · 22/10 (Story)",
@@ -1285,7 +1285,7 @@
   "tipo": "STORY",
   "quando": "2026-10-23T08:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-23-manha/story.jpg"
+   "midia/oracoes/2026-10-23-manha/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 23/10 (Story)",
@@ -1356,10 +1356,10 @@
   "tipo": "STORY",
   "quando": "2026-10-23T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-23_versiculo_post15.jpg"
+   "midia/stories/story_2026-10-23_capa_post15.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-23.jpg",
-  "titulo": "Versículo: Elias debaixo da árvore",
+  "titulo": "Post no perfil: Elias debaixo da árvore",
   "destaque": "Esperança"
  },
  {
@@ -1383,7 +1383,7 @@
   "tipo": "STORY",
   "quando": "2026-10-23T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-23-noite/story.jpg"
+   "midia/oracoes/2026-10-23-noite/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da noite · 23/10 (Story)",
@@ -1411,7 +1411,7 @@
   "tipo": "STORY",
   "quando": "2026-10-24T08:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-24-manha/story.jpg"
+   "midia/oracoes/2026-10-24-manha/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 24/10 (Story)",
@@ -1482,10 +1482,10 @@
   "tipo": "STORY",
   "quando": "2026-10-24T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-24_versiculo_post16.jpg"
+   "midia/stories/story_2026-10-24_capa_post16.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-24.jpg",
-  "titulo": "Versículo: Gideão",
+  "titulo": "Post no perfil: Gideão",
   "destaque": "Coragem"
  },
  {
@@ -1509,7 +1509,7 @@
   "tipo": "STORY",
   "quando": "2026-10-24T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-24-noite/story.jpg"
+   "midia/oracoes/2026-10-24-noite/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da noite · 24/10 (Story)",
@@ -1537,7 +1537,7 @@
   "tipo": "STORY",
   "quando": "2026-10-25T08:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-25-manha/story.jpg"
+   "midia/oracoes/2026-10-25-manha/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 25/10 (Story)",
@@ -1608,10 +1608,10 @@
   "tipo": "STORY",
   "quando": "2026-10-25T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-25_versiculo_post17.jpg"
+   "midia/stories/story_2026-10-25_capa_post17.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-25.jpg",
-  "titulo": "Versículo: Moisés e a sarça",
+  "titulo": "Post no perfil: Moisés e a sarça",
   "destaque": "Coragem"
  },
  {
@@ -1635,7 +1635,7 @@
   "tipo": "STORY",
   "quando": "2026-10-25T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-25-noite/story.jpg"
+   "midia/oracoes/2026-10-25-noite/story_novo.jpg"
   ],
   "fixo": true,
   "titulo": "Oração da noite · 25/10 (Story)",
@@ -1692,10 +1692,10 @@
   "tipo": "STORY",
   "quando": "2026-10-26T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-26_versiculo_post18.jpg"
+   "midia/stories/story_2026-10-26_capa_post18.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-26.jpg",
-  "titulo": "Versículo: O filho pródigo",
+  "titulo": "Post no perfil: O filho pródigo",
   "destaque": "Parábolas"
  },
  {
@@ -1746,10 +1746,10 @@
   "tipo": "STORY",
   "quando": "2026-10-27T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-27_versiculo_post19.jpg"
+   "midia/stories/story_2026-10-27_capa_post19.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-27.jpg",
-  "titulo": "Versículo: Salomão pede sabedoria",
+  "titulo": "Post no perfil: Salomão pede sabedoria",
   "destaque": "Lições"
  },
  {
@@ -1800,10 +1800,10 @@
   "tipo": "STORY",
   "quando": "2026-10-28T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-28_versiculo_post20.jpg"
+   "midia/stories/story_2026-10-28_capa_post20.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-28.jpg",
-  "titulo": "Versículo: Jesus lava os pés dos discípulos",
+  "titulo": "Post no perfil: Jesus lava os pés dos discípulos",
   "destaque": "Lições"
  },
  {
