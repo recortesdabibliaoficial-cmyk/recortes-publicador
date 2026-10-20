@@ -972,21 +972,6 @@
   "dur": 12.0
  },
  {
-  "id": "reel11",
-  "tipo": "REEL",
-  "quando": "2026-10-20T17:00:00-03:00",
-  "midia": [
-   "midia/post11/reel.mp4"
-  ],
-  "legenda": "Você já se perguntou por que está onde está?\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel11.jpg",
-  "titulo": "Ester",
-  "dur": 27.0
- },
- {
   "id": "story2026-10-20",
   "tipo": "STORY",
   "quando": "2026-10-20T17:00:00-03:00",
@@ -996,6 +981,22 @@
   "miniatura": "midia/miniaturas/story2026-10-20.jpg",
   "titulo": "Versículo: Zaqueu",
   "destaque": "Lições"
+ },
+ {
+  "id": "htexto11-2026-10-20",
+  "tipo": "REEL",
+  "quando": "2026-10-20T17:00:00-03:00",
+  "midia": [
+   "midia/post11/historia_texto_d56e8015.mp4"
+  ],
+  "legenda": "Talvez você esteja onde está por um motivo.\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "11",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto11-2026-10-20.jpg",
+  "titulo": "Ester",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-20",
@@ -1099,21 +1100,6 @@
   "dur": 12.0
  },
  {
-  "id": "reel12",
-  "tipo": "REEL",
-  "quando": "2026-10-21T17:00:00-03:00",
-  "midia": [
-   "midia/post12/reel.mp4"
-  ],
-  "legenda": "Você acha que as pessoas nunca mudam?\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel12.jpg",
-  "titulo": "Zaqueu",
-  "dur": 24.6
- },
- {
   "id": "story2026-10-21",
   "tipo": "STORY",
   "quando": "2026-10-21T17:00:00-03:00",
@@ -1123,6 +1109,22 @@
   "miniatura": "midia/miniaturas/story2026-10-21.jpg",
   "titulo": "Versículo: Rute e Noemi",
   "destaque": "Esperança"
+ },
+ {
+  "id": "htexto12-2026-10-21",
+  "tipo": "REEL",
+  "quando": "2026-10-21T17:00:00-03:00",
+  "midia": [
+   "midia/post12/historia_texto_c34b72a9.mp4"
+  ],
+  "legenda": "Sempre é tempo de mudar.\n\n📜 O versículo (Lucas 19:10)\nJesus disse essas palavras na casa de Zaqueu, logo depois de ele prometer dar metade do que tinha aos pobres e devolver quatro vezes o que tinha tirado de alguém. As pessoas reclamavam porque Jesus foi à casa de alguém tão mal visto. A intenção de Jesus foi mostrar que Ele veio justamente procurar e salvar quem estava perdido.\n\n📖 Lucas 19:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #zaqueu #mudanca",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "12",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto12-2026-10-21.jpg",
+  "titulo": "Zaqueu",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-21",
@@ -1226,21 +1228,6 @@
   "dur": 12.0
  },
  {
-  "id": "reel13",
-  "tipo": "REEL",
-  "quando": "2026-10-22T17:00:00-03:00",
-  "midia": [
-   "midia/post13/reel.mp4"
-  ],
-  "legenda": "Quem fica do seu lado quando tudo dá errado?\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel13.jpg",
-  "titulo": "Rute e Noemi",
-  "dur": 27.4
- },
- {
   "id": "story2026-10-22",
   "tipo": "STORY",
   "quando": "2026-10-22T17:00:00-03:00",
@@ -1250,6 +1237,22 @@
   "miniatura": "midia/miniaturas/story2026-10-22.jpg",
   "titulo": "Versículo: Pedro anda sobre as águas",
   "destaque": "Coragem"
+ },
+ {
+  "id": "htexto13-2026-10-22",
+  "tipo": "REEL",
+  "quando": "2026-10-22T17:00:00-03:00",
+  "midia": [
+   "midia/post13/historia_texto_aa6f7bc1.mp4"
+  ],
+  "legenda": "Quem fica ao seu lado nos dias difíceis vale ouro.\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "13",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto13-2026-10-22.jpg",
+  "titulo": "Rute e Noemi",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-22",
@@ -1353,21 +1356,6 @@
   "dur": 12.0
  },
  {
-  "id": "reel14",
-  "tipo": "REEL",
-  "quando": "2026-10-23T17:00:00-03:00",
-  "midia": [
-   "midia/post14/reel.mp4"
-  ],
-  "legenda": "Você já afundou por olhar só para o problema?\n\n📜 O versículo (Mateus 14:31)\nMateus conta o que Jesus fez quando Pedro começou a afundar e gritou \"Senhor, salva-me!\": imediatamente estendeu a mão e o segurou. A pergunta \"por que duvidaste?\" não foi para humilhar Pedro, mas para lembrar que ele podia confiar. A intenção do texto é mostrar que Jesus responde rápido a quem clama por Ele.\n\n📖 Mateus 14:22-33 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #pedro #fe",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel14.jpg",
-  "titulo": "Pedro anda sobre as águas",
-  "dur": 22.2
- },
- {
   "id": "story2026-10-23",
   "tipo": "STORY",
   "quando": "2026-10-23T17:00:00-03:00",
@@ -1377,6 +1365,22 @@
   "miniatura": "midia/miniaturas/story2026-10-23.jpg",
   "titulo": "Versículo: Elias debaixo da árvore",
   "destaque": "Esperança"
+ },
+ {
+  "id": "htexto14-2026-10-23",
+  "tipo": "REEL",
+  "quando": "2026-10-23T17:00:00-03:00",
+  "midia": [
+   "midia/post14/historia_texto_728851e0.mp4"
+  ],
+  "legenda": "Quando o medo vier, olhe para Jesus.\n\n📜 O versículo (Mateus 14:31)\nMateus conta o que Jesus fez quando Pedro começou a afundar e gritou \"Senhor, salva-me!\": imediatamente estendeu a mão e o segurou. A pergunta \"por que duvidaste?\" não foi para humilhar Pedro, mas para lembrar que ele podia confiar. A intenção do texto é mostrar que Jesus responde rápido a quem clama por Ele.\n\n📖 Mateus 14:22-33 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #pedro #fe",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "14",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto14-2026-10-23.jpg",
+  "titulo": "Pedro anda sobre as águas",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-23",
@@ -1480,21 +1484,6 @@
   "dur": 12.0
  },
  {
-  "id": "reel15",
-  "tipo": "REEL",
-  "quando": "2026-10-24T17:00:00-03:00",
-  "midia": [
-   "midia/post15/reel.mp4"
-  ],
-  "legenda": "Você está cansado de tudo?\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel15.jpg",
-  "titulo": "Elias debaixo da árvore",
-  "dur": 26.4
- },
- {
   "id": "story2026-10-24",
   "tipo": "STORY",
   "quando": "2026-10-24T17:00:00-03:00",
@@ -1504,6 +1493,22 @@
   "miniatura": "midia/miniaturas/story2026-10-24.jpg",
   "titulo": "Versículo: Gideão",
   "destaque": "Coragem"
+ },
+ {
+  "id": "htexto15-2026-10-24",
+  "tipo": "REEL",
+  "quando": "2026-10-24T17:00:00-03:00",
+  "midia": [
+   "midia/post15/historia_texto_ea87aa1c.mp4"
+  ],
+  "legenda": "Sem forças? Deus cuida de você.\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carrega isso sozinho: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "15",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto15-2026-10-24.jpg",
+  "titulo": "Elias debaixo da árvore",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-24",
@@ -1607,21 +1612,6 @@
   "dur": 12.0
  },
  {
-  "id": "reel16",
-  "tipo": "REEL",
-  "quando": "2026-10-25T17:00:00-03:00",
-  "midia": [
-   "midia/post16/reel.mp4"
-  ],
-  "legenda": "Você se acha pequeno demais?\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel16.jpg",
-  "titulo": "Gideão",
-  "dur": 26.3
- },
- {
   "id": "story2026-10-25",
   "tipo": "STORY",
   "quando": "2026-10-25T17:00:00-03:00",
@@ -1631,6 +1621,22 @@
   "miniatura": "midia/miniaturas/story2026-10-25.jpg",
   "titulo": "Versículo: Moisés e a sarça",
   "destaque": "Coragem"
+ },
+ {
+  "id": "htexto16-2026-10-25",
+  "tipo": "REEL",
+  "quando": "2026-10-25T17:00:00-03:00",
+  "midia": [
+   "midia/post16/historia_texto_48f45017.mp4"
+  ],
+  "legenda": "Deus vê em você uma força que você ainda não vê.\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "16",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto16-2026-10-25.jpg",
+  "titulo": "Gideão",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-25",
@@ -1690,21 +1696,6 @@
   "titulo": "O filho pródigo"
  },
  {
-  "id": "reel17",
-  "tipo": "REEL",
-  "quando": "2026-10-26T17:00:00-03:00",
-  "midia": [
-   "midia/post17/reel.mp4"
-  ],
-  "legenda": "Você já deixou de tentar por achar que não é capaz?\n\n📜 O versículo (Êxodo 4:12)\nDeus disse essas palavras a Moisés diante da sarça, logo depois que Moisés reclamou que não sabia falar. Em palavras de hoje: \"Agora vá. Eu vou estar com a sua boca e vou te ensinar o que dizer.\" A intenção era tirar o peso dos ombros de Moisés: o sucesso da missão não dependia da habilidade dele, mas da presença de Deus.\n\n📖 Um curso que você achou difícil demais.\n\n#historiasbiblicas #biblia #fe #moises #capacidade",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel17.jpg",
-  "titulo": "Moisés e a sarça",
-  "dur": 25.2
- },
- {
   "id": "story2026-10-26",
   "tipo": "STORY",
   "quando": "2026-10-26T17:00:00-03:00",
@@ -1714,6 +1705,22 @@
   "miniatura": "midia/miniaturas/story2026-10-26.jpg",
   "titulo": "Versículo: O filho pródigo",
   "destaque": "Parábolas"
+ },
+ {
+  "id": "htexto17-2026-10-26",
+  "tipo": "REEL",
+  "quando": "2026-10-26T17:00:00-03:00",
+  "midia": [
+   "midia/post17/historia_texto_1adb33a5.mp4"
+  ],
+  "legenda": "Deus capacita quem Ele chama.\n\n📜 O versículo (Êxodo 4:12)\nDeus disse essas palavras a Moisés diante da sarça, logo depois que Moisés reclamou que não sabia falar. Em palavras de hoje: \"Agora vá. Eu vou estar com a sua boca e vou te ensinar o que dizer.\" A intenção era tirar o peso dos ombros de Moisés: o sucesso da missão não dependia da habilidade dele, mas da presença de Deus.\n\n📖 Um curso que você achou difícil demais.\n\n#historiasbiblicas #biblia #fe #moises #capacidade",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "17",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto17-2026-10-26.jpg",
+  "titulo": "Moisés e a sarça",
+  "dur": 12.0
  },
  {
   "id": "post19",
@@ -1745,21 +1752,6 @@
   "titulo": "Salomão pede sabedoria"
  },
  {
-  "id": "reel18",
-  "tipo": "REEL",
-  "quando": "2026-10-27T17:00:00-03:00",
-  "midia": [
-   "midia/post18/reel.mp4"
-  ],
-  "legenda": "Você acha que não tem mais volta?\n\n📜 O versículo (Lucas 15:20)\nEsse versículo faz parte da história que Jesus contou. Mostra que o pai viu o filho quando ele ainda estava longe, teve compaixão, correu, abraçou e beijou o filho, antes mesmo de ouvir o pedido de perdão. A intenção de Jesus era mostrar como Deus recebe quem volta para Ele: de braços abertos.\n\n📖 Lucas 15:11-32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #filhoprodigo #perdao",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel18.jpg",
-  "titulo": "O filho pródigo",
-  "dur": 27.6
- },
- {
   "id": "story2026-10-27",
   "tipo": "STORY",
   "quando": "2026-10-27T17:00:00-03:00",
@@ -1769,6 +1761,22 @@
   "miniatura": "midia/miniaturas/story2026-10-27.jpg",
   "titulo": "Versículo: Salomão pede sabedoria",
   "destaque": "Lições"
+ },
+ {
+  "id": "htexto18-2026-10-27",
+  "tipo": "REEL",
+  "quando": "2026-10-27T17:00:00-03:00",
+  "midia": [
+   "midia/post18/historia_texto_1500b287.mp4"
+  ],
+  "legenda": "Sempre há caminho de volta.\n\n📜 O versículo (Lucas 15:20)\nEsse versículo faz parte da história que Jesus contou. Mostra que o pai viu o filho quando ele ainda estava longe, teve compaixão, correu, abraçou e beijou o filho, antes mesmo de ouvir o pedido de perdão. A intenção de Jesus era mostrar como Deus recebe quem volta para Ele: de braços abertos.\n\n📖 Lucas 15:11-32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #filhoprodigo #perdao",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "18",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto18-2026-10-27.jpg",
+  "titulo": "O filho pródigo",
+  "dur": 12.0
  },
  {
   "id": "post20",
@@ -1800,21 +1808,6 @@
   "titulo": "Jesus lava os pés dos discípulos"
  },
  {
-  "id": "reel19",
-  "tipo": "REEL",
-  "quando": "2026-10-28T17:00:00-03:00",
-  "midia": [
-   "midia/post19/reel.mp4"
-  ],
-  "legenda": "Se pudesse pedir uma coisa a Deus, o que seria?\n\n📜 O versículo (1 Reis 3:9)\nSalomão fez esse pedido a Deus num sonho, no começo do seu reinado. Ele pediu um coração que entendesse, para saber o que era certo e o que era errado ao cuidar do povo. A intenção do pedido era servir aos outros, e não a si mesmo. A Bíblia conta logo depois que esse pedido agradou a Deus.\n\n📖 1 Reis 3:1-15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #salomao #sabedoria",
-  "na_grade": false,
-  "capa_ms": 800,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel19.jpg",
-  "titulo": "Salomão pede sabedoria",
-  "dur": 27.5
- },
- {
   "id": "story2026-10-28",
   "tipo": "STORY",
   "quando": "2026-10-28T17:00:00-03:00",
@@ -1826,18 +1819,35 @@
   "destaque": "Lições"
  },
  {
-  "id": "reel20",
+  "id": "htexto19-2026-10-28",
+  "tipo": "REEL",
+  "quando": "2026-10-28T17:00:00-03:00",
+  "midia": [
+   "midia/post19/historia_texto_3775f212.mp4"
+  ],
+  "legenda": "Pedir sabedoria é um ótimo começo.\n\n📜 O versículo (1 Reis 3:9)\nSalomão fez esse pedido a Deus num sonho, no começo do seu reinado. Ele pediu um coração que entendesse, para saber o que era certo e o que era errado ao cuidar do povo. A intenção do pedido era servir aos outros, e não a si mesmo. A Bíblia conta logo depois que esse pedido agradou a Deus.\n\n📖 1 Reis 3:1-15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #salomao #sabedoria",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "19",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/htexto19-2026-10-28.jpg",
+  "titulo": "Salomão pede sabedoria",
+  "dur": 12.0
+ },
+ {
+  "id": "htexto20-2026-10-29",
   "tipo": "REEL",
   "quando": "2026-10-29T17:00:00-03:00",
   "midia": [
-   "midia/post20/reel.mp4"
+   "midia/post20/historia_texto_bcd7779c.mp4"
   ],
-  "legenda": "Quem você ajudou hoje?\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
+  "legenda": "Servir é um jeito de amar.\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
   "na_grade": false,
-  "capa_ms": 800,
+  "capa_ms": 500,
+  "post": "20",
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/reel20.jpg",
+  "miniatura": "midia/miniaturas/htexto20-2026-10-29.jpg",
   "titulo": "Jesus lava os pés dos discípulos",
-  "dur": 25.8
+  "dur": 12.0
  }
 ]
