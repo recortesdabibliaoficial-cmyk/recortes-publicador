@@ -198,9 +198,9 @@ def renovar_token(token, estado):
 
 
 # métricas pedidas ao Instagram por tipo de publicação (as que não existirem para um item são ignoradas)
-CAMPOS = {'CARROSSEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions'],
-          'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time', 'reels_skip_rate'],
-          'STORY': ['reach', 'views', 'replies', 'shares', 'total_interactions']}
+CAMPOS = {'CARROSSEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'follows', 'profile_visits', 'reposts'],
+          'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time', 'reels_skip_rate', 'reposts', 'ig_reels_video_view_total_time'],
+          'STORY': ['reach', 'views', 'replies', 'shares', 'total_interactions', 'follows', 'profile_visits', 'reposts']}
 
 
 def _insights(ig, mid, campos):
@@ -216,6 +216,37 @@ def _insights(ig, mid, campos):
         v = d.get('total_value', {}).get('value') if 'total_value' in d else (d.get('values') or [{}])[-1].get('value')
         if isinstance(v, (int, float)): out[d['name']] = v
     return out
+
+
+def _nav(ig, mid):
+    """Navegação do Story (toque p/ avançar, voltar, sair, deslizar). Uma consulta; nunca falha."""
+    try:
+        d = ig._req('GET', f'{mid}/insights', metric='navigation', metric_type='total_value',
+                    breakdown='story_navigation_action_type').get('data', [])
+        bks = ((d[0].get('total_value') or {}).get('breakdowns') or []) if d else []
+        return {'/'.join(x['dimension_values']): x['value'] for b in bks for x in b.get('results', [])}
+    except Exception as e:
+        log('AVISO nav Story', str(e)[:120]); return {}
+
+
+def coletar_stories(ig, agenda, estado):
+    """Stories somem em 24 h: relê as métricas (e a navegação) dos Stories das últimas 24 h, no máximo a cada 2 h por item."""
+    tipos = {i['id']: i['tipo'] for i in agenda}
+    agora = datetime.now(timezone.utc)
+    met = carregar(METRICAS, {}); lidos = 0
+    for iid, reg in estado.items():
+        if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id') or tipos.get(iid) != 'STORY': continue
+        quando = datetime.fromisoformat(reg.get('em', agora.isoformat()))
+        if quando.tzinfo is None: quando = quando.replace(tzinfo=timezone.utc)
+        if quando < agora - timedelta(hours=24): continue
+        ult = (met.get(iid) or {}).get('lido_em')
+        if ult and datetime.fromisoformat(ult) > agora - timedelta(hours=2): continue
+        m = _insights(ig, reg['media_id'], CAMPOS['STORY'])
+        if m:
+            n = _nav(ig, reg['media_id'])
+            if n: m['nav'] = n
+            met[iid] = dict(m, lido_em=agora.isoformat()); lidos += 1
+    if lidos: salvar(METRICAS, met); log(f'Stories relidos: {lidos}.')
 
 
 def coletar_metricas(ig, agenda, estado):
@@ -242,7 +273,11 @@ def coletar_metricas(ig, agenda, estado):
         if quando < agora - timedelta(days=14): continue
         if tipos[iid] == 'STORY' and quando < agora - timedelta(hours=24) and iid in met: continue   # Story some em 24 h: guarda a última leitura
         m = _insights(ig, reg['media_id'], CAMPOS.get(tipos[iid], ['reach']))
-        if m: met[iid] = dict(m, lido_em=agora.isoformat()); lidos += 1
+        if m:
+            if tipos[iid] == 'STORY':
+                n = _nav(ig, reg['media_id'])
+                if n: m['nav'] = n
+            met[iid] = dict(m, lido_em=agora.isoformat()); lidos += 1
     met['_em'] = agora.isoformat()
     salvar(METRICAS, met); log(f'Métricas lidas: {lidos} itens.')
     guardar_historico(ig, met, conta, local, fechamento)
@@ -272,7 +307,8 @@ def coletar_curvas(ig, agenda, estado):
     if lidos: salvar(CURVAS, cur); log(f'Curvas: {lidos} Reels lidos (hora em hora).')
 
 
-CONTA_DIA = ['reach', 'views', 'accounts_engaged', 'total_interactions', 'profile_views']
+CONTA_DIA = ['reach', 'views', 'accounts_engaged', 'total_interactions', 'profile_views',
+             'likes', 'comments', 'saves', 'shares', 'replies', 'reposts', 'profile_links_taps']
 
 
 def guardar_historico(ig, met, conta, local, fechamento):
@@ -299,8 +335,12 @@ def guardar_historico(ig, met, conta, local, fechamento):
                     log('AVISO conta/insights', c, str(e)[:150])
             reg['conta'] = dados
             quebras = {}                    # sonda de 17/10/2026: a conta aceita quebra por seguidor, tipo de conteúdo, idade, gênero e cidade
-            for metrica, quebra in [('reach', 'follow_type'), ('views', 'follow_type'), ('views', 'media_product_type'),
-                                    ('reach', 'age'), ('reach', 'gender'), ('reach', 'city')]:
+            seg100 = (conta or {}).get('followers_count', 0) >= 100      # idade/gênero/cidade só existem com 100+ seguidores
+            lista = [('reach', 'follow_type'), ('views', 'follow_type'), ('views', 'follower_type'), ('views', 'media_product_type'),
+                     ('total_interactions', 'media_product_type'), ('likes', 'media_product_type'), ('saves', 'media_product_type'),
+                     ('shares', 'media_product_type'), ('comments', 'media_product_type'), ('reach', 'media_product_type')]
+            if seg100: lista += [('reach', 'age'), ('reach', 'gender'), ('reach', 'city'), ('follows_and_unfollows', 'follow_type')]
+            for metrica, quebra in lista:
                 try:
                     d = ig._req('GET', f'{ig.u}/insights', metric=metrica, period='day', metric_type='total_value', breakdown=quebra,
                                 since=ini, until=int(local.timestamp())).get('data', [])
@@ -309,6 +349,23 @@ def guardar_historico(ig, met, conta, local, fechamento):
                 except Exception as e:
                     log('AVISO conta/quebra', metrica, quebra, str(e)[:120])
             reg['quebras'] = quebras
+            if seg100:                      # públicos (período do mês) e horários dos seguidores: poucas consultas, só no fechamento
+                demo = {}
+                for metrica in ('follower_demographics', 'engaged_audience_demographics'):
+                    for quebra in ('age', 'gender', 'city'):
+                        try:
+                            d = ig._req('GET', f'{ig.u}/insights', metric=metrica, period='lifetime', metric_type='total_value',
+                                        timeframe='this_month', breakdown=quebra).get('data', [])
+                            bks = ((d[0].get('total_value') or {}).get('breakdowns') or []) if d else []
+                            demo[f'{metrica}:{quebra}'] = {'/'.join(x['dimension_values']): x['value'] for b in bks for x in b.get('results', [])}
+                        except Exception as e:
+                            log('AVISO conta/demografia', metrica, quebra, str(e)[:120])
+                reg['demografia'] = demo
+                try:
+                    d = ig._req('GET', f'{ig.u}/insights', metric='online_followers', period='lifetime').get('data', [])
+                    reg['online'] = (d[0].get('values') or [{}])[-1].get('value') if d else None
+                except Exception as e:
+                    log('AVISO conta/online_followers', str(e)[:120])
         salvar(HISTORICO, hist)
     except Exception as e:
         log('AVISO histórico:', str(e)[:200])
@@ -363,6 +420,8 @@ def main():
     conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
     try: coletar_metricas(ig, agenda, estado)
     except Exception as e: log('AVISO: não consegui ler as métricas:', str(e)[:300])
+    try: coletar_stories(ig, agenda, estado)
+    except Exception as e: log('AVISO: não consegui reler os Stories:', str(e)[:300])
     try: coletar_curvas(ig, agenda, estado)
     except Exception as e: log('AVISO: não consegui ler as curvas:', str(e)[:300])
     try: coletar_comentarios(ig, estado, conta)
