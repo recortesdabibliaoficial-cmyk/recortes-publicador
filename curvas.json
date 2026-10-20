@@ -72,6 +72,17 @@
     "ig_reels_avg_watch_time": 6184,
     "t": "2026-10-20T20:45+00:00",
     "h": 23.23
+   },
+   {
+    "reach": 40,
+    "views": 47,
+    "likes": 3,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 53.5,
+    "ig_reels_avg_watch_time": 5996,
+    "t": "2026-10-20T21:40+00:00",
+    "h": 24.15
    }
   ]
  },
@@ -132,6 +143,17 @@
     "ig_reels_avg_watch_time": 9216,
     "t": "2026-10-20T20:45+00:00",
     "h": 20.73
+   },
+   {
+    "reach": 160,
+    "views": 252,
+    "likes": 11,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 71.4,
+    "ig_reels_avg_watch_time": 9216,
+    "t": "2026-10-20T21:40+00:00",
+    "h": 21.65
    }
   ]
  },
@@ -192,6 +214,17 @@
     "ig_reels_avg_watch_time": 13251,
     "t": "2026-10-20T20:45+00:00",
     "h": 9.72
+   },
+   {
+    "reach": 150,
+    "views": 272,
+    "likes": 12,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 60.8,
+    "ig_reels_avg_watch_time": 13251,
+    "t": "2026-10-20T21:40+00:00",
+    "h": 10.64
    }
   ]
  },
@@ -252,6 +285,17 @@
     "ig_reels_avg_watch_time": 9671,
     "t": "2026-10-20T20:45+00:00",
     "h": 5.71
+   },
+   {
+    "reach": 67,
+    "views": 122,
+    "likes": 1,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 50,
+    "ig_reels_avg_watch_time": 7433,
+    "t": "2026-10-20T21:40+00:00",
+    "h": 6.63
    }
   ]
  },
