@@ -327,10 +327,35 @@ def enviar(assunto, html):
     raise RuntimeError(' | '.join(erros))
 
 
+# Felipe, 20/10: relatório completo agora fica no Painel do site
+ENVIAR_RELATORIO_COMPLETO = False
+
+
+def main_alarme(d, args):
+    """Só envia e-mail se algo agendado para o dia d NÃO saiu; caso contrário, não envia nada."""
+    corpo, faltaram = [f'<div style="font-family:Arial,Helvetica,sans-serif;max-width:680px;margin:auto;color:#222">',
+                       f'<h1 style="font-size:20px;margin:0 0 8px">⚠️ Publicação não saiu — {d:%d/%m/%Y}</h1>'], 0
+    for canal in CANAIS:
+        agenda, estado = ler(canal, 'agenda.json', []), ler(canal, 'estado.json', {})
+        esperados, faltam = conferir_dia(agenda, estado, d)
+        if not faltam: continue
+        faltaram += len(faltam)
+        corpo.append(f'<h2 style="font-size:16px;margin:12px 0 0">{escape(canal[0])} ({escape(canal[1])})</h2>' + banner_alarme(esperados, faltam))
+    if not faltaram:
+        print('Tudo que estava agendado saiu: nenhum e-mail enviado.'); return
+    corpo.append(f'<p style="color:{CINZA};font-size:12px;margin-top:20px"><a href="{PAGINA}" style="color:#1a4fa0">Abrir a página da agenda</a> · métricas completas no Painel do site.</p></div>')
+    html = ''.join(corpo)
+    if '--sem-email' in args: print('Alarme gerado (sem e-mail):', faltaram, 'item(ns) não saíram'); return
+    try: enviar('⚠️ Publicação não saiu', html)
+    except Exception as e: print('ERRO ao enviar alarme ->', str(e)[:300]); sys.exit(1)
+
+
 def main():
     args = sys.argv[1:]
     agora = datetime.now(BRT)
     d = date.fromisoformat(args[args.index('--dia') + 1]) if '--dia' in args else (agora - timedelta(hours=3)).date()
+    if not ENVIAR_RELATORIO_COMPLETO:
+        main_alarme(d, args); return
     if '--tipo' in args: tipos = [args[args.index('--tipo') + 1]]
     else:
         tipos = ['diario']
