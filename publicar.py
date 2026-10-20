@@ -22,7 +22,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 AGENDA = os.path.join(AQUI, 'agenda.json')
 ESTADO = os.path.join(AQUI, 'estado.json')
 METRICAS = os.path.join(AQUI, 'metricas.json')
-METRICAS_CADA = timedelta(hours=6)   # o limite de consultas é do app da Meta e vale para os dois canais juntos
+METRICAS_CADA = timedelta(hours=12)   # Felipe, 20/10: leitura geral a cada 12 h; Stories a cada 2 h e curvas dos Reels de hora em hora continuam
 COMENTARIOS = os.path.join(AQUI, 'comentarios.json')  # de quanto em quanto tempo lê as métricas no Instagram
 HISTORICO = os.path.join(AQUI, 'historico.json')    # um retrato dos números por dia (base dos relatórios)
 BRT = timezone(timedelta(hours=-3))                 # horário de Brasília (sem horário de verão)
