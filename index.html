@@ -76,15 +76,43 @@
   #ver .fita { flex:1; display:flex; overflow-x:auto; scroll-snap-type:x mandatory; min-height:0; }
   #ver .fita > * { flex:0 0 100%; width:100%; height:100%; object-fit:contain; scroll-snap-align:center; }
   #ver .dica { color:#bbb; text-align:center; font-size:12px; padding:6px 16px 14px; }
+  /* ----- Painel de métricas ----- */
+  body.modo-painel .so-agenda { display:none !important; }
+  #modo { margin-top:-4px; }
+  #dash { max-width:880px; margin:0 auto; padding:0 16px 40px; }
+  #dash[hidden] { display:none; }
+  #dash .caixa { margin-bottom:12px; }
+  #dash .sec h2 { margin-bottom:2px; }
+  #dash h3 { font-size:13px; margin:12px 0 4px; color:var(--terra); }
+  .expl { color:var(--suave); font-size:12.5px; margin:0 0 8px; }
+  .suave { color:var(--suave); font-size:12px; }
+  .num .x { display:block; font-size:11px; opacity:.85; }
+  .grafico { position:relative; height:230px; width:100%; }
+  .rolagem { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .tb { border-collapse:collapse; width:100%; font-size:12.5px; font-variant-numeric:tabular-nums; }
+  .tb th { text-align:right; color:var(--suave); font-weight:600; padding:5px 6px; border-bottom:1px solid var(--linha); white-space:nowrap; }
+  .tb td { text-align:right; padding:5px 6px; border-bottom:1px solid var(--linha); }
+  .tb th:first-child, .tb td.r { text-align:left; }
+  .tb td.r { min-width:120px; }
+  .tb td.melhor { background:var(--okbg); color:var(--ok); font-weight:700; border-radius:4px; }
+  .d { font-weight:600; color:var(--suave); } .d.bom { color:var(--ok); } .d.ruim { color:var(--err); }
+  .alerta { font-size:13.5px; padding:7px 10px; border-radius:8px; margin-top:6px; background:var(--agbg); color:var(--agenda); }
+  .alerta.err { background:var(--errbg); color:var(--err); } .alerta.okk { background:var(--okbg); color:var(--ok); }
+  .funil { display:flex; flex-wrap:wrap; gap:6px; align-items:center; justify-content:center; margin:6px 0 10px; }
+  .funil .etapa { background:var(--bg); border-radius:10px; padding:8px 12px; text-align:center; min-width:110px; }
+  .funil .etapa b { display:block; font-size:20px; } .funil .etapa span { font-size:12px; color:var(--suave); }
+  .funil .seta { text-align:center; font-weight:700; color:var(--terra); font-size:14px; } .funil .seta small { display:block; font-size:11px; color:var(--suave); font-weight:400; }
+  #dash .filtros { margin:0 0 6px; }
 </style>
 </head>
 <body>
 <header>
   <div class="abas" id="abas"></div>
-  <h1>Agenda de publicações</h1>
-  <div class="sub"><span id="handle"></span> · atualiza sozinha depois de cada publicação · <span id="atual"></span></div>
-  <div class="resumo" id="resumo"></div>
-  <div class="filtros" id="filtros">
+  <div class="abas" id="modo"><button data-m="agenda" class="ativo">Agenda</button><button data-m="painel">Painel</button></div>
+  <h1 class="so-agenda">Agenda de publicações</h1>
+  <div class="sub so-agenda"><span id="handle"></span> · atualiza sozinha depois de cada publicação · <span id="atual"></span></div>
+  <div class="resumo so-agenda" id="resumo"></div>
+  <div class="filtros so-agenda" id="filtros">
     <button data-f="todos" class="ativo">Tudo</button>
     <button data-f="futuro">Próximos</button>
     <button data-f="CARROSSEL">Carrosséis</button>
@@ -92,11 +120,12 @@
     <button data-f="STORY">Stories</button>
   </div>
 </header>
-<section id="painel"></section>
-<section id="tarefas"></section>
-<main id="lista">Carregando…</main>
+<section id="painel" class="so-agenda"></section>
+<section id="dash" hidden></section>
+<section id="tarefas" class="so-agenda"></section>
+<main id="lista" class="so-agenda">Carregando…</main>
 <div id="ver" role="dialog" aria-label="Ver post"><div class="topo"><span id="ver-tit"></span><button id="ver-fechar" aria-label="Fechar">×</button></div><div class="fita" id="ver-fita"></div><div class="dica" id="ver-dica"></div></div>
-<footer>Selos: <b>Publicado</b> (já saiu pelo publicador) · <b>Agendado</b> (vai sair no horário) · <b>Metricool</b> (agendado lá, antes da troca para a API; vira Publicado quando o publicador confere no Instagram) · <b>Erro</b> (o Claude precisa ver).</footer>
+<footer class="so-agenda">Selos: <b>Publicado</b> (já saiu pelo publicador) · <b>Agendado</b> (vai sair no horário) · <b>Metricool</b> (agendado lá, antes da troca para a API; vira Publicado quando o publicador confere no Instagram) · <b>Erro</b> (o Claude precisa ver).</footer>
 <script>
 const TIPOS = { CARROSSEL:'Carrossel', REEL:'Reel', STORY:'Story' };
 const CANAIS = [
@@ -308,6 +337,7 @@ async function carregar(){
   const fim = itens.length ? new Date(itens[itens.length-1].quando) : null;
   document.getElementById('atual').textContent = fim ? 'agenda até ' + fim.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo'}) : 'ainda sem posts agendados';
   desenhar(); desenharPainel(); desenharTarefas();
+  dadosDash = null; mostrarModo();
 }
 document.getElementById('filtros').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
@@ -317,6 +347,312 @@ document.getElementById('abas').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   canal = CANAIS.find(c => c.id === b.dataset.c); history.replaceState(null, '', '#' + canal.id); carregar();
 });
+// ===== PAINEL DE MÉTRICAS (aba "Painel") =====
+const MODO = { get(){ try { return localStorage.getItem('modo-site') || 'agenda'; } catch(e){ return 'agenda'; } },
+               set(v){ try { localStorage.setItem('modo-site', v); } catch(e){} } };
+let modo = MODO.get(), periodo = 7, dadosDash = null, graficos = [], chartLib = null, curvaMetrica = 'views', cargaDash = 0;
+const RIO = 'America/Sao_Paulo';
+const num = v => typeof v === 'number' && isFinite(v);
+const nn = a => a.filter(num);
+const soma = a => nn(a).reduce((s, x) => s + x, 0);
+const media = a => { a = nn(a); return a.length ? soma(a) / a.length : null; };
+const mediana = a => { a = nn(a).sort((x, y) => x - y); if (!a.length) return null; const m = a.length >> 1; return a.length % 2 ? a[m] : (a[m-1] + a[m]) / 2; };
+const f1 = (v, d = 0) => num(v) ? v.toLocaleString('pt-BR', { minimumFractionDigits: d, maximumFractionDigits: d }) : '—';
+const fp = (v, d = 1) => num(v) ? f1(v, d) + '%' : '—';
+const razao = (a, b) => num(a) && num(b) && b > 0 ? a / b : null;
+const slotDe = q => (new Date(q).getUTCHours() + 21) % 24;
+const hh = h => h + 'h';
+function formato(i){
+  const id = i.id || '', mid = (i.midia || []).join('|'), cur = canal.id === 'curiosidades';
+  if (i.tipo === 'REEL') {
+    if (/^ora-reel-/.test(id)) return 'Reel oração';
+    if (/^htexto/.test(id)) return 'Reel história texto';
+    if (mid.includes('reel_texto')) return 'Reel texto';
+    if (/^reel\d+$/.test(id)) return cur ? 'Reel slides' : 'Reel história slides';
+    return cur ? 'Reel slides' : 'Outros';
+  }
+  if (i.tipo === 'STORY') {
+    if (/^ora-story-/.test(id)) return 'Story oração';
+    if (/^story\d{4}-/.test(id)) return mid.includes('_capa_') ? 'Story capa do post' : 'Story versículo';
+    return 'Outros';
+  }
+  if (i.tipo === 'CARROSSEL') {
+    if (/^ora-[^-]+-/.test(id)) return 'Carrossel oração';
+    return mid.includes('/t_slide') ? 'Carrossel texto' : 'Carrossel arte';
+  }
+  return 'Outros';
+}
+function carregarChart(){
+  if (window.Chart) return Promise.resolve();
+  if (chartLib) return chartLib;
+  chartLib = new Promise((ok, ko) => { const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js'; s.onload = ok; s.onerror = () => { chartLib = null; ko(); };
+    document.head.appendChild(s); });
+  return chartLib;
+}
+const cssVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+function paleta(){ return [cssVar('--terra'), cssVar('--ok'), cssVar('--mc'), cssVar('--agenda'), '#2a9d8f', '#c9a227', '#8d6bb8', '#4a90c2', '#d1495b', '#6c8e3e']; }
+function dayKeys(n, desloc){ const r = []; for (let k = desloc + n - 1; k >= desloc; k--) r.push(chaveDia(new Date(Date.now() - k*864e5))); return r; }
+const dd = k => k.slice(8) + '/' + k.slice(5, 7);
+async function dadosPainel(){
+  if (dadosDash && dadosDash.canal === canal.id) return dadosDash;
+  const nc = '?t=' + Date.now(), g = n => fetch(canal.base + n + nc).then(r => r.ok ? r.json() : null).catch(() => null);
+  const [hist, curv] = await Promise.all([g('historico.json'), g('curvas.json')]);
+  return dadosDash = { canal: canal.id, hist: hist || {}, curv };
+}
+function enriquecer(i){
+  const m = met[i.id] || {}, w = m.ig_reels_avg_watch_time, reel = i.tipo === 'REEL';
+  return { i, id: i.id, tit: i.titulo || i.id, fmt: formato(i), slot: slotDe(i.quando), reel, story: i.tipo === 'STORY', m,
+    reach: m.reach, views: m.views, skip: reel ? m.reels_skip_rate : null,
+    pw: reel && num(w) && i.dur ? w / 1000 / i.dur * 100 : null };
+}
+function porMil(l, k){ const x = l.filter(p => num(p.m[k]) && p.reach > 0); return x.length ? soma(x.map(p => p.m[k])) / soma(x.map(p => p.reach)) * 1000 : null; }
+function porPost(l, k){ const x = l.filter(p => num(p.m[k])); return x.length ? soma(x.map(p => p.m[k])) / x.length : null; }
+function serieSeg(hist){
+  const mp = {};
+  (met._seguidores || []).forEach(s => { mp[s.dia] = s.n; });
+  Object.keys(hist).forEach(d => { if (num(hist[d].seguidores)) mp[d] = hist[d].seguidores; });
+  return Object.keys(mp).sort().map(d => ({ dia: d, n: mp[d] }));
+}
+function ganhoSeg(serie, chaves){
+  if (!serie.length) return null;
+  const ini = chaves[0], dentro = serie.filter(s => chaves.includes(s.dia));
+  if (!dentro.length) return null;
+  const antes = serie.filter(s => s.dia < ini).pop(), fim = dentro[dentro.length-1].n;
+  return fim - (antes ? antes.n : dentro[0].n);
+}
+const somaConta = (hist, chaves, k) => { const v = chaves.map(d => hist[d] && hist[d].conta ? hist[d].conta[k] : null).filter(num); return v.length ? soma(v) : null; };
+function somaQuebra(hist, chaves, q, sub){ const v = chaves.map(d => hist[d] && hist[d].quebras && hist[d].quebras[q] ? hist[d].quebras[q][sub] : null).filter(num); return v.length ? soma(v) : null; }
+function delta(a, b, ruimSobe){
+  if (!num(a) || !num(b) || b === 0) return '<span class="d">—</span>';
+  const p = (a - b) / Math.abs(b) * 100;
+  if (Math.abs(p) < 0.5) return '<span class="d">= igual</span>';
+  const sobe = p > 0, bom = ruimSobe ? !sobe : sobe;
+  return `<span class="d ${bom ? 'bom' : 'ruim'}">${sobe ? '▲' : '▼'} ${f1(Math.abs(p))}%</span>`;
+}
+function tabela(cab, linhas, regras){
+  // linhas: [rotulo, {v,s}...]; regras[col] = 'max' | 'min' para destacar o melhor valor da coluna
+  const melhor = cab.map((_, c) => {
+    const r = regras && regras[c]; if (!r) return null;
+    const vs = linhas.map(l => l[c] && l[c].v).filter(num); if (vs.length < 2) return null;
+    return r === 'min' ? Math.min(...vs) : Math.max(...vs);
+  });
+  return `<div class="rolagem"><table class="tb"><thead><tr>${cab.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>` +
+    linhas.map(l => '<tr>' + l.map((c, ci) => ci === 0 ? `<td class="r">${c}</td>` :
+      `<td class="${melhor[ci] != null && c.v === melhor[ci] ? 'melhor' : ''}">${c.s}</td>`).join('') + '</tr>').join('') + '</tbody></table></div>';
+}
+const C = (v, s) => ({ v: num(v) ? v : null, s: s != null ? s : f1(v) });
+const caixa = (tit, expl, corpo) => `<div class="caixa sec"><h2><span>${tit}</span></h2><div class="expl">${expl}</div>${corpo}</div>`;
+const grafico = id => `<div class="grafico"><canvas id="${id}"></canvas></div>`;
+function mkChart(id, cfg){
+  const el = document.getElementById(id); if (!el || !window.Chart) return;
+  const suave = cssVar('--suave'), linha = cssVar('--linha');
+  cfg.options = Object.assign({ responsive: true, maintainAspectRatio: false, animation: false }, cfg.options || {});
+  cfg.options.plugins = Object.assign({ legend: { labels: { color: suave, boxWidth: 12, font: { size: 11 } } } }, cfg.options.plugins || {});
+  const sc = cfg.options.scales = cfg.options.scales || {};
+  if (!Object.keys(sc).length) { sc.x = {}; sc.y = {}; }
+  Object.keys(sc).forEach(k => { sc[k].ticks = Object.assign({ color: suave, font: { size: 11 } }, sc[k].ticks || {}); sc[k].grid = Object.assign({ color: linha }, sc[k].grid || {}); });
+  graficos.push(new Chart(el, cfg));
+}
+function linhaDS(rotulo, dados, cor, extra){ return Object.assign({ label: rotulo, data: dados, borderColor: cor, backgroundColor: cor, tension: .25, pointRadius: 2, borderWidth: 2, spanGaps: true }, extra || {}); }
+
+function interpolar(pts, h){ // pts ordenados por h, começando em (0,0)
+  if (!pts.length || h > pts[pts.length-1].x + 1e-9) return null;
+  for (let k = 1; k < pts.length; k++) if (h <= pts[k].x) { const a = pts[k-1], b = pts[k]; return b.x === a.x ? b.y : a.y + (b.y - a.y) * (h - a.x) / (b.x - a.x); }
+  return pts[pts.length-1].y;
+}
+function pontosCurva(c, k){
+  const p = (c.pontos || []).filter(q => num(q.h) && num(q[k])).sort((a, b) => a.h - b.h).map(q => ({ x: q.h, y: q[k] }));
+  return [{ x: 0, y: 0 }].concat(p);
+}
+function horaMetade(pts){
+  const fim = pts[pts.length-1]; if (pts.length < 2 || !fim.y) return null;
+  const alvo = fim.y * .5;
+  for (let k = 1; k < pts.length; k++) if (pts[k].y >= alvo) { const a = pts[k-1], b = pts[k]; return b.y === a.y ? b.x : a.x + (b.x - a.x) * (alvo - a.y) / (b.y - a.y); }
+  return null;
+}
+
+async function desenharDash(){
+  const el = document.getElementById('dash'), tok = ++cargaDash;
+  el.innerHTML = '<div class="caixa"><div class="nada">Carregando o painel…</div></div>';
+  const D = await dadosPainel(); if (tok !== cargaDash) return;
+  graficos.forEach(g => { try { g.destroy(); } catch(e){} }); graficos = [];
+  const hist = D.hist, agora = Date.now();
+  const cur = dayKeys(periodo, 0), ant = dayKeys(periodo, periodo);
+  const pubTodos = itens.filter(i => i._st[1] === 'ok' && new Date(i.quando) <= agora);
+  const noPer = ks => pubTodos.filter(i => ks.includes(chaveDia(new Date(i.quando))));
+  const pubP = noPer(cur), pubA = noPer(ant);
+  const L = pubP.filter(i => met[i.id]).map(enriquecer), LA = pubA.filter(i => met[i.id]).map(enriquecer);
+  const posts = L.filter(p => !p.story), reels = L.filter(p => p.reel), reelsA = LA.filter(p => p.reel);
+  const serie = serieSeg(hist), ganho = ganhoSeg(serie, cur), ganhoA = ganhoSeg(serie, ant);
+  const segAtual = serie.length ? serie[serie.length-1].n : null;
+  const reachC = somaConta(hist, cur, 'reach'), reachA = somaConta(hist, ant, 'reach');
+  const visC = somaConta(hist, cur, 'profile_views'), visA = somaConta(hist, ant, 'profile_views');
+  const conv = razao(ganho, visC) != null ? razao(ganho, visC) * 100 : null, convA = razao(ganhoA, visA) != null ? razao(ganhoA, visA) * 100 : null;
+  const nf = somaQuebra(hist, cur, 'reach:follow_type', 'NON_FOLLOWER'), sf = somaQuebra(hist, cur, 'reach:follow_type', 'FOLLOWER');
+  const pNaoSeg = num(nf) && num(sf) && nf + sf > 0 ? nf / (nf + sf) * 100 : null;
+  const emTxt = met._em ? new Date(met._em).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: RIO }) : '—';
+  const horasVelho = met._em ? (agora - new Date(met._em)) / 36e5 : null;
+
+  // ---------- alertas ----------
+  const al = [];
+  if (horasVelho != null && horasVelho > 8) al.push(['err', `Nenhum dado novo há mais de 8 h (última leitura ${emTxt}). Avise o Claude se isso continuar.`]);
+  if (horasVelho == null) al.push(['err', 'Não encontrei a hora da última leitura de métricas.']);
+  const textoFmts = ['Reel história texto', 'Reel texto', 'Reel oração'], reelsTxt = reels.filter(p => textoFmts.includes(p.fmt)), mTxt = media(reelsTxt.map(p => p.reach));
+  if (mTxt && reelsTxt.length >= 3) {
+    const slots = [...new Set(reelsTxt.map(p => p.slot))];
+    slots.map(s => { const x = reelsTxt.filter(p => p.slot === s); return { s, n: x.length, m: media(x.map(p => p.reach)) }; })
+      .filter(o => o.n >= 2 && o.m < mTxt * .75).sort((a, b) => a.m / mTxt - b.m / mTxt).slice(0, 1)
+      .forEach(o => al.push(['aviso', `Reel das ${hh(o.s)} está ${f1((1 - o.m / mTxt) * 100)}% abaixo da média dos Reels de texto (${f1(o.m)} contra ${f1(mTxt)} de alcance).`]));
+  }
+  if (num(conv) && num(convA) && convA > 0 && conv < convA * .8) al.push(['aviso', `A conversão visita→seguidor caiu: ${fp(conv)} agora contra ${fp(convA)} no período anterior.`]);
+  const mSkip = media(reels.map(p => p.skip));
+  const fmtsR = [...new Set(reels.map(p => p.fmt))].map(f => { const x = reels.filter(p => p.fmt === f); return { f, n: x.length, s: media(x.map(p => p.skip)) }; }).filter(o => o.n >= 2 && num(o.s));
+  if (fmtsR.length > 1 && num(mSkip)) { const w = fmtsR.sort((a, b) => b.s - a.s)[0]; if (w.s > mSkip + 8) al.push(['aviso', `O formato com mais pulos é «${w.f}»: ${fp(w.s)} de pulos (média geral ${fp(mSkip)}).`]); }
+  const semEnvio = posts.filter(p => p.m.shares === 0 && p.reach > 200);
+  if (semEnvio.length) al.push(['aviso', `${semEnvio.length} post(s) com 0 envios e mais de 200 de alcance, por exemplo «${semEnvio.sort((a, b) => b.reach - a.reach)[0].tit}».`]);
+  const alertasHtml = al.length ? al.slice(0, 5).map(a => `<div class="alerta ${a[0]}">${a[0] === 'err' ? '⛔' : '⚠️'} ${esc(a[1])}</div>`).join('')
+    : '<div class="alerta okk">✅ Nenhum alerta agora: dados em dia e nada fora do normal.</div>';
+
+  // ---------- resumo ----------
+  const cartao = (v, t, extra) => `<div class="num"><b>${v}</b><span>${t}</span>${extra ? `<span class="x">${extra}</span>` : ''}</div>`;
+  const secResumo = caixa('📊 Resumo', 'Números da conta inteira no período escolhido. Os dados do Instagram chegam com cerca de um dia de atraso.',
+    `<div class="nums">` +
+    cartao(f1(segAtual), 'seguidores', num(ganho) ? `${ganho > 0 ? '+' : ''}${ganho} no período` : '') +
+    cartao(f1(reachC), 'alcance da conta', 'pessoas que viram algo') +
+    cartao(f1(visC), 'visitas ao perfil') +
+    cartao(fp(conv), 'visita → seguidor', 'de cada 100 visitas, quantas seguiram') +
+    cartao(fp(pNaoSeg), 'alcance de não seguidores', 'gente nova chegando') +
+    cartao(f1(pubP.length), 'publicações no período') + '</div>');
+
+  // ---------- funil ----------
+  const pas = (a, b) => num(a) && num(b) && a > 0 ? fp(b / a * 100, 2) : '—';
+  const secFunil = caixa('🔻 Funil: alcance → visitas → seguidores', 'Das pessoas que viram os posts, quantas foram ao perfil e quantas passaram a seguir. A porcentagem entre as etapas mostra onde se perde mais gente.',
+    `<div class="funil"><div class="etapa"><b>${f1(reachC)}</b><span>alcance</span></div><div class="seta">${pas(reachC, visC)}<small>foram ao perfil</small></div>
+      <div class="etapa"><b>${f1(visC)}</b><span>visitas ao perfil</span></div><div class="seta">${pas(visC, ganho)}<small>seguiram</small></div>
+      <div class="etapa"><b>${num(ganho) ? f1(ganho) : '—'}</b><span>novos seguidores</span></div></div>` + grafico('g-funil'));
+
+  const secSeg = caixa('👥 Seguidores ao longo do tempo', 'Total de seguidores no fim de cada dia.', grafico('g-seg'));
+  const secConta = caixa('👁 Alcance e visualizações da conta', 'Alcance = pessoas diferentes; visualizações = vezes que o conteúdo foi visto (a mesma pessoa pode ver várias vezes). As barras mostram de que formato vieram as visualizações.',
+    grafico('g-conta') + '<div style="height:12px"></div>' + grafico('g-views'));
+
+  // ---------- por formato ----------
+  const fmts = [...new Set(L.map(p => p.fmt))].sort();
+  const linhasF = fmts.map(f => { const x = L.filter(p => p.fmt === f), rs = x.map(p => p.reach), eReel = x.some(p => p.reel);
+    return [esc(f), C(x.length), C(media(rs)), C(mediana(rs)), C(media(x.map(p => p.views))),
+      C(eReel ? media(x.map(p => p.skip)) : null, eReel ? fp(media(x.map(p => p.skip))) : '—'),
+      C(media(x.map(p => p.pw)), fp(media(x.map(p => p.pw)), 0)),
+      C(porMil(x, 'likes'), f1(porMil(x, 'likes'), 1)), C(porMil(x, 'saved'), f1(porMil(x, 'saved'), 1)), C(porMil(x, 'shares'), f1(porMil(x, 'shares'), 1)),
+      C(porPost(x, 'follows'), f1(porPost(x, 'follows'), 1)), C(porPost(x, 'profile_visits'), f1(porPost(x, 'profile_visits'), 1))]; });
+  const secFmt = caixa('🎬 Por formato', 'Média de cada tipo de post no período. O verde destaca o melhor de cada coluna. «Por 1.000» = para cada mil pessoas alcançadas. Pulos: quanto menor, melhor. % assistido acima de 100 = o pessoal reviu o Reel.',
+    linhasF.length ? tabela(['Formato', 'Posts', 'Alcance médio', 'Mediana', 'Views médias', 'Pulos', '% assistido', 'Curtidas /1.000', 'Salvos /1.000', 'Envios /1.000', 'Seguidores /post', 'Visitas /post'], linhasF,
+      [0, 'max', 'max', 'max', 'max', 'min', 'max', 'max', 'max', 'max', 'max', 'max']) : '<div class="nada">Sem posts com métricas neste período.</div>');
+
+  // ---------- por horário ----------
+  const slotsR = [...new Set(reels.map(p => p.slot))].sort((a, b) => a - b);
+  const linhasH = slotsR.map(s => { const x = reels.filter(p => p.slot === s); return [hh(s), C(x.length), C(media(x.map(p => p.reach))), C(media(x.map(p => p.skip)), fp(media(x.map(p => p.skip)))), C(porMil(x, 'likes'), f1(porMil(x, 'likes'), 1))]; });
+  const secHor = caixa('🕒 Por horário (Reels)', 'Em qual horário os Reels rendem mais. Poucos Reels por horário = cuidado ao tirar conclusões.',
+    slotsR.length ? tabela(['Horário', 'Reels', 'Alcance médio', 'Pulos', 'Curtidas /1.000'], linhasH, [0, 0, 'max', 'min', 'max']) + grafico('g-hor') : '<div class="nada">Sem Reels com métricas neste período.</div>');
+
+  // ---------- curvas ----------
+  let secCur;
+  const comCurva = D.curv ? reels.filter(p => D.curv[p.id] && (D.curv[p.id].pontos || []).length) : [];
+  if (!D.curv) secCur = caixa('📈 Curvas dos Reels', 'Como as visualizações crescem nas primeiras 24 horas.', '<div class="nada">Ainda não há curvas para este canal. Elas aparecem quando o publicador começar a medir os Reels hora a hora.</div>');
+  else if (!comCurva.length) secCur = caixa('📈 Curvas dos Reels', 'Como as visualizações crescem nas primeiras 24 horas.', '<div class="nada">Nenhum Reel deste período tem curva medida ainda.</div>');
+  else {
+    const alvos = [1, 3, 6, 12, 24];
+    const linhasC = comCurva.map(p => { const pts = pontosCurva(D.curv[p.id], 'views'), ult = pts[pts.length-1], meta = pts.length > 1 && ult.x >= 23 ? ult.y : null;
+      const h50 = meta != null ? horaMetade(pts.map(q => ({ x: q.x, y: q.y }))) : null;
+      return [esc(p.tit) + ` <span class="suave">${hh(p.slot)}</span>`].concat(alvos.map(h => { const v = interpolar(pts, h); return C(v, v == null ? '—' : f1(v)); }), [C(h50, h50 == null ? '—' : f1(h50, 1) + ' h')]); });
+    secCur = caixa('📈 Curvas dos Reels', 'Quantas visualizações cada Reel tinha com 1, 3, 6, 12 e 24 horas. Curva que sobe rápido e achata = o Instagram mostrou logo e parou; curva que continua subindo = ainda está sendo entregue. «50%» = hora em que chegou à metade do total de 24 h (só calculado quando já passou de 23 h).',
+      `<div class="filtros" id="fcurva"><button data-k="views" class="${curvaMetrica === 'views' ? 'ativo' : ''}">Visualizações</button><button data-k="reach" class="${curvaMetrica === 'reach' ? 'ativo' : ''}">Alcance</button></div>` + grafico('g-curva') +
+      tabela(['Reel', '1 h', '3 h', '6 h', '12 h', '24 h', 'Bateu 50%'], linhasC, null));
+  }
+
+  // ---------- ranking ----------
+  const rk = posts.filter(p => num(p.reach)).sort((a, b) => b.reach - a.reach);
+  const tag = p => { const t = [];
+    if (p.reel && num(p.skip) && num(mSkip) && p.skip > mSkip + 10) t.push(['err', 'muito pulado']);
+    if (p.m.shares === 0 && p.reach > 100) t.push(['err', 'não gera envio']);
+    if (num(p.pw) && p.pw > 100) t.push(['ok', 'relido']);
+    if (p.reel && num(p.skip) && num(mSkip) && p.skip < mSkip - 10) t.push(['ok', 'poucos pulos']);
+    if (num(p.m.shares) && p.reach > 0 && p.m.shares / p.reach > .02) t.push(['ok', 'muito enviado']);
+    return t.map(x => `<span class="pill ${x[0]}">${x[1]}</span>`).join(' ') || '<span class="suave">—</span>'; };
+  const linhaRk = p => `<tr><td class="r">${esc(p.tit)}</td><td>${esc(p.fmt)}</td><td>${hh(p.slot)}</td><td>${f1(p.reach)}</td><td>${fp(p.skip)}</td><td>${fp(p.pw, 0)}</td><td>${f1(p.m.likes)}</td><td>${f1(p.m.shares)}</td><td>${f1(p.m.saved)}</td><td>${tag(p)}</td></tr>`;
+  const cabRk = '<div class="rolagem"><table class="tb"><thead><tr><th>Post</th><th>Formato</th><th>Hora</th><th>Alcance</th><th>Pulos</th><th>% assist.</th><th>Curtidas</th><th>Envios</th><th>Salvos</th><th>Observação</th></tr></thead><tbody>';
+  const top = rk.slice(0, 5), base = rk.length > 5 ? rk.slice(Math.max(5, rk.length - 5)).reverse() : [];
+  const secRank = caixa('🏆 Ranking de posts', 'Os 5 posts que mais alcançaram e os 5 que menos alcançaram (Reels e carrosséis). A coluna «Observação» aponta sozinha o que chamou atenção.',
+    rk.length ? '<h3>Melhores</h3>' + cabRk + top.map(linhaRk).join('') + '</tbody></table></div>' + (base.length ? '<h3>Piores</h3>' + cabRk + base.map(linhaRk).join('') + '</tbody></table></div>' : '') : '<div class="nada">Sem posts com métricas neste período.</div>');
+
+  // ---------- stories ----------
+  const sts = L.filter(p => p.story).sort((a, b) => b.i.quando.localeCompare(a.i.quando));
+  const linhaSt = p => { const n = p.m.nav, r = p.reach, sai = n && r > 0 ? n.TAP_EXIT / r * 100 : null, av = n && r > 0 ? ((n.TAP_FORWARD || 0) + (n.SWIPE_FORWARD || 0)) / r * 100 : null;
+    return `<tr><td class="r">${new Date(p.i.quando).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', timeZone: RIO })} ${hh(p.slot)}</td><td>${esc(p.tit)}</td><td>${f1(p.reach)}</td><td>${f1(p.m.replies)}</td><td>${fp(sai, 0)}</td><td>${fp(av, 0)}</td></tr>`; };
+  const secSt = caixa('📱 Stories', '«Saiu» = quem fechou o Story no meio; «avançou» = quem passou para o próximo. Os dois só aparecem quando o Instagram informa.',
+    sts.length ? '<div class="rolagem"><table class="tb"><thead><tr><th>Data</th><th>Story</th><th>Alcance</th><th>Respostas</th><th>% que saiu</th><th>% avançou</th></tr></thead><tbody>' + sts.map(linhaSt).join('') + '</tbody></table></div>' : '<div class="nada">Sem Stories com métricas neste período.</div>');
+
+  // ---------- tendência ----------
+  const mRA = media(reelsA.map(p => p.reach)), mRC = media(reels.map(p => p.reach)), mSA = media(reelsA.map(p => p.skip));
+  const tl = (nome, a, b, fmt, ruim) => `<tr><td class="r">${nome}</td><td>${fmt(a)}</td><td>${fmt(b)}</td><td>${delta(a, b, ruim)}</td></tr>`;
+  const secTend = caixa('📉 Tendência', `Este período (${periodo} dias) contra os ${periodo} dias anteriores. Verde = melhorou, vermelho = piorou (para pulos, subir é ruim).`,
+    '<div class="rolagem"><table class="tb"><thead><tr><th>Medida</th><th>Agora</th><th>Antes</th><th>Variação</th></tr></thead><tbody>' +
+    tl('Alcance da conta', reachC, reachA, v => f1(v)) + tl('Visitas ao perfil', visC, visA, v => f1(v)) + tl('Novos seguidores', ganho, ganhoA, v => f1(v)) +
+    tl('Alcance médio por Reel', mRC, mRA, v => f1(v)) + tl('Pulos médios dos Reels', mSkip, mSA, v => fp(v), true) + '</tbody></table></div>');
+
+  el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
+      <div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
+    <div class="caixa sec"><h2><span>🚨 Alertas</span></h2>${alertasHtml}</div>` +
+    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secTend;
+
+  // ---------- gráficos ----------
+  try { await carregarChart(); } catch(e) {
+    el.querySelectorAll('.grafico').forEach(g => { g.outerHTML = '<div class="nada">Não consegui carregar a biblioteca dos gráficos (sem internet?). As tabelas continuam valendo.</div>'; });
+    return;
+  }
+  if (tok !== cargaDash) return;
+  Chart.defaults.color = cssVar('--suave');
+  const pal = paleta(), lab = cur.map(dd);
+  const mapaSeg = {}; serie.forEach(s => { mapaSeg[s.dia] = s.n; });
+  const ganhoDia = cur.map((d, k) => { const ontem = chaveDia(new Date(new Date(d + 'T12:00:00-03:00') - 864e5)); return num(mapaSeg[d]) && num(mapaSeg[ontem]) ? mapaSeg[d] - mapaSeg[ontem] : null; });
+  const contaDia = k => cur.map(d => hist[d] && hist[d].conta && num(hist[d].conta[k]) ? hist[d].conta[k] : null);
+  mkChart('g-funil', { type: 'bar', data: { labels: lab, datasets: [
+      { label: 'Alcance (esq.)', data: contaDia('reach'), backgroundColor: pal[2], yAxisID: 'y' },
+      { type: 'line', label: 'Visitas ao perfil (dir.)', data: contaDia('profile_views'), borderColor: pal[0], backgroundColor: pal[0], yAxisID: 'y2', tension: .25, spanGaps: true },
+      { type: 'line', label: 'Novos seguidores (dir.)', data: ganhoDia, borderColor: pal[1], backgroundColor: pal[1], yAxisID: 'y2', tension: .25, spanGaps: true }] },
+    options: { scales: { x: {}, y: { position: 'left', beginAtZero: true }, y2: { position: 'right', beginAtZero: true, grid: { drawOnChartArea: false } } } } });
+  const segP = serie.filter(s => cur.includes(s.dia));
+  mkChart('g-seg', { type: 'line', data: { labels: segP.map(s => dd(s.dia)), datasets: [linhaDS('Seguidores', segP.map(s => s.n), pal[0], { fill: false })] }, options: { plugins: { legend: { display: false } }, scales: { x: {}, y: { beginAtZero: false } } } });
+  mkChart('g-conta', { type: 'line', data: { labels: lab, datasets: [linhaDS('Alcance', contaDia('reach'), pal[2]), linhaDS('Visualizações', contaDia('views'), pal[0])] } });
+  const qb = k => cur.map(d => hist[d] && hist[d].quebras && hist[d].quebras['views:media_product_type'] ? (hist[d].quebras['views:media_product_type'][k] ?? null) : null);
+  mkChart('g-views', { type: 'bar', data: { labels: lab, datasets: [
+      { label: 'Reels', data: qb('REEL'), backgroundColor: pal[0] }, { label: 'Carrosséis', data: qb('CAROUSEL_CONTAINER'), backgroundColor: pal[2] },
+      { label: 'Stories', data: qb('STORY'), backgroundColor: pal[3] }] }, options: { plugins: { title: { display: true, text: 'Visualizações por formato', color: cssVar('--suave'), font: { size: 12 } } }, scales: { x: { stacked: true }, y: { stacked: true } } } });
+  if (slotsR.length) mkChart('g-hor', { type: 'bar', data: { labels: slotsR.map(hh), datasets: [
+      { label: 'Alcance médio (esq.)', data: linhasH.map(l => l[2].v), backgroundColor: pal[2], yAxisID: 'y' },
+      { type: 'line', label: 'Pulos % (dir.)', data: linhasH.map(l => l[3].v), borderColor: pal[0], backgroundColor: pal[0], yAxisID: 'y2' }] },
+    options: { scales: { x: {}, y: { beginAtZero: true }, y2: { position: 'right', beginAtZero: true, grid: { drawOnChartArea: false } } } } });
+  if (comCurva.length) {
+    mkChart('g-curva', { type: 'line', data: { datasets: comCurva.map((p, k) => linhaDS(`${p.tit} · ${hh(p.slot)}`, pontosCurva(D.curv[p.id], curvaMetrica), pal[k % pal.length], { pointRadius: 2 })) },
+      options: { parsing: false, plugins: { legend: { position: 'bottom', labels: { color: cssVar('--suave'), boxWidth: 10, font: { size: 10 } } } },
+        scales: { x: { type: 'linear', min: 0, max: 24, title: { display: true, text: 'horas desde a publicação', color: cssVar('--suave') } }, y: { beginAtZero: true } } } });
+  }
+}
+function mostrarModo(){
+  document.body.classList.toggle('modo-painel', modo === 'painel');
+  document.querySelectorAll('#modo button').forEach(b => b.classList.toggle('ativo', b.dataset.m === modo));
+  document.getElementById('dash').hidden = modo !== 'painel';
+  if (modo === 'painel') desenharDash();
+}
+document.getElementById('modo').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  modo = b.dataset.m; MODO.set(modo); mostrarModo();
+});
+document.getElementById('dash').addEventListener('click', e => {
+  const p = e.target.closest('#fper button'); if (p) { periodo = +p.dataset.p; desenharDash(); return; }
+  const k = e.target.closest('#fcurva button'); if (k) { curvaMetrica = k.dataset.k; desenharDash(); }
+});
+if (window.matchMedia) { const mq = matchMedia('(prefers-color-scheme: dark)'); const rr = () => { if (modo === 'painel') desenharDash(); };
+  mq.addEventListener ? mq.addEventListener('change', rr) : (mq.addListener && mq.addListener(rr)); }
 carregar();
 </script>
 </body>
