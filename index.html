@@ -84,6 +84,13 @@
   #dash .caixa { margin-bottom:12px; }
   #dash .sec h2 { margin-bottom:2px; }
   #dash h3 { font-size:13px; margin:12px 0 4px; color:var(--terra); }
+  .tg { cursor:pointer; user-select:none; }
+  .tg .tgb { font-size:14px; padding:2px 6px; }
+  .caixa.fechada .corpo { display:none; }
+  .abrfec { font-size:12.5px; margin-top:6px; } .abrfec a { color:var(--terra); cursor:pointer; text-decoration:underline; margin-right:10px; }
+  .obs p { margin:6px 0; font-size:14px; } .obs ul { margin:6px 0; padding-left:20px; font-size:14px; } .obs h4 { margin:10px 0 2px; font-size:14px; color:var(--terra); }
+  .obs .quando { font-size:12px; color:var(--suave); }
+  .obs details { margin-top:10px; } .obs summary { cursor:pointer; font-size:13px; color:var(--suave); } .obs details .ant { border-top:1px solid var(--linha); margin-top:8px; padding-top:6px; }
   .expl { color:var(--suave); font-size:12.5px; margin:0 0 8px; }
   .suave { color:var(--suave); font-size:12px; }
   .num .x { display:block; font-size:11px; opacity:.85; }
@@ -442,7 +449,37 @@ function tabela(cab, linhas, regras){
       `<td class="${melhor[ci] != null && c.v === melhor[ci] ? 'melhor' : ''}">${c.s}</td>`).join('') + '</tr>').join('') + '</tbody></table></div>';
 }
 const C = (v, s) => ({ v: num(v) ? v : null, s: s != null ? s : f1(v) });
-const caixa = (tit, expl, corpo) => `<div class="caixa sec"><h2><span>${tit}</span></h2><div class="expl">${expl}</div>${corpo}</div>`;
+const caixa = (tit, expl, corpo) => caixaGen(tit, `<div class="expl">${expl}</div>${corpo}`);
+const fechadas = (() => { try { return JSON.parse(localStorage.getItem('painelFechadas') || '{}') || {}; } catch(e){ return {}; } })();
+function salvarFechadas(){ try { localStorage.setItem('painelFechadas', JSON.stringify(fechadas)); } catch(e){} }
+function caixaGen(tit, corpo){ const k = String(tit).replace(/<[^>]*>/g, '').trim(), f = !!fechadas[k];
+  return `<div class="caixa sec${f ? ' fechada' : ''}" data-k="${esc(k)}"><h2 class="tg"><span>${tit}</span><button class="tgb" type="button" aria-label="Abrir ou fechar">${f ? '▸' : '▾'}</button></h2><div class="corpo">${corpo}</div></div>`; }
+function alternar(cx, abrir){
+  const f = abrir === undefined ? !cx.classList.contains('fechada') : !abrir;
+  cx.classList.toggle('fechada', f); const b = cx.querySelector('.tgb'); if (b) b.textContent = f ? '▸' : '▾';
+  fechadas[cx.dataset.k] = f; if (!f) delete fechadas[cx.dataset.k]; salvarFechadas();
+  if (!f) cx.querySelectorAll('canvas').forEach(c => { const g = window.Chart && Chart.getChart(c); if (g) try { g.resize(); } catch(e){} });
+}
+function mdSimples(txt){
+  const e = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  return String(txt || '').replace(/\r/g, '').split(/\n\s*\n/).map(bl => {
+    const ls = bl.split('\n').filter(l => l.trim()), out = []; let ul = [];
+    const fl = () => { if (ul.length) { out.push('<ul>' + ul.map(x => `<li>${e(x)}</li>`).join('') + '</ul>'); ul = []; } };
+    ls.forEach(l => { if (/^\s*- /.test(l)) ul.push(l.replace(/^\s*- /, '')); else { fl(); out.push(/^### /.test(l) ? `<h4>${e(l.slice(4))}</h4>` : `<p>${e(l)}</p>`); } });
+    fl(); return out.join('');
+  }).join('');
+}
+const quandoObs = s => { const d = new Date(s); return isNaN(d) ? '' : d.toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: RIO }) + ' (horário do Rio)'; };
+function secObservacoes(o){
+  let corpo;
+  if (!o || !o.atual || !o.atual.texto) corpo = '<div class="nada">Ainda não há observações. Peça ao Claude para resumir o painel.</div>';
+  else {
+    const ant = (o.anteriores || []).filter(x => x && x.texto).sort((a, b) => String(b.em).localeCompare(String(a.em)));
+    corpo = `<div class="obs"><div class="quando">${esc(quandoObs(o.atual.em))}</div>${mdSimples(o.atual.texto)}` +
+      (ant.length ? `<details><summary>Observações anteriores (${ant.length})</summary>${ant.map(x => `<div class="ant"><div class="quando">${esc(quandoObs(x.em))}</div>${mdSimples(x.texto)}</div>`).join('')}</details>` : '') + '</div>';
+  }
+  return caixaGen('🤖 Observações do Claude', corpo);
+}
 const grafico = id => `<div class="grafico"><canvas id="${id}"></canvas></div>`;
 function mkChart(id, cfg){
   const el = document.getElementById(id); if (!el || !window.Chart) return;
@@ -477,6 +514,8 @@ async function desenharDash(){
   el.innerHTML = '<div class="caixa"><div class="nada">Carregando o painel…</div></div>';
   const D = await dadosPainel(); if (tok !== cargaDash) return;
   graficos.forEach(g => { try { g.destroy(); } catch(e){} }); graficos = [];
+  const obsJ = await fetch(canal.base + 'observacoes.json?t=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null); if (tok !== cargaDash) return;
+  const secObs = secObservacoes(obsJ);
   const hist = D.hist, agora = Date.now();
   const cur = dayKeys(periodo, 0), ant = dayKeys(periodo, periodo);
   const pubTodos = itens.filter(i => i._st[1] === 'ok' && new Date(i.quando) <= agora);
@@ -600,9 +639,9 @@ async function desenharDash(){
     tl('Alcance médio por Reel', mRC, mRA, v => f1(v)) + tl('Pulos médios dos Reels', mSkip, mSA, v => fp(v), true) + '</tbody></table></div>');
 
   el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
-      <div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
-    <div class="caixa sec"><h2><span>🚨 Alertas</span></h2>${alertasHtml}</div>` +
-    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secTend;
+      <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div><div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
+    ${caixaGen('🚨 Alertas', alertasHtml)}` +
+    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secTend + secObs;
 
   // ---------- gráficos ----------
   try { await carregarChart(); } catch(e) {
@@ -648,6 +687,8 @@ document.getElementById('modo').addEventListener('click', e => {
   modo = b.dataset.m; MODO.set(modo); mostrarModo();
 });
 document.getElementById('dash').addEventListener('click', e => {
+  const ab = e.target.closest('.abrfec a'); if (ab) { document.querySelectorAll('#dash .caixa[data-k]').forEach(c => alternar(c, ab.dataset.ab === '1')); return; }
+  const tg = e.target.closest('.tg'); if (tg) { alternar(tg.closest('.caixa')); return; }
   const p = e.target.closest('#fper button'); if (p) { periodo = +p.dataset.p; desenharDash(); return; }
   const k = e.target.closest('#fcurva button'); if (k) { curvaMetrica = k.dataset.k; desenharDash(); }
 });
