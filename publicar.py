@@ -249,6 +249,29 @@ def coletar_metricas(ig, agenda, estado):
     if fechamento: met['_fechado'] = dia_local; salvar(METRICAS, met)
 
 
+CURVAS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'curvas.json')
+CAMPOS_CURVA = ['reach', 'views', 'likes', 'shares', 'saved', 'reels_skip_rate', 'ig_reels_avg_watch_time']
+
+
+def coletar_curvas(ig, agenda, estado):
+    """Felipe, 20/10/2026: curva de cada Reel nas primeiras 24 h, lida de HORA EM HORA (para achar o horário de pico).
+    Só Reels, só nas primeiras 24 h, no máximo 1 leitura por Reel por hora (~25 consultas por Reel). Grava em curvas.json."""
+    tipos = {i['id']: i['tipo'] for i in agenda}
+    agora = datetime.now(timezone.utc)
+    cur = carregar(CURVAS, {}); lidos = 0
+    for iid, reg in estado.items():
+        if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id') or tipos.get(iid) != 'REEL': continue
+        quando = datetime.fromisoformat(reg.get('em', agora.isoformat()))
+        if quando.tzinfo is None: quando = quando.replace(tzinfo=timezone.utc)
+        if not (timedelta(0) <= agora - quando <= timedelta(hours=24, minutes=30)): continue
+        pts = cur.setdefault(iid, {'publicado': quando.isoformat(), 'pontos': []})['pontos']
+        if pts and datetime.fromisoformat(pts[-1]['t']) > agora - timedelta(minutes=55): continue
+        m = _insights(ig, reg['media_id'], CAMPOS_CURVA)
+        if m:
+            pts.append(dict(m, t=agora.isoformat(timespec='minutes'), h=round((agora - quando).total_seconds() / 3600, 2))); lidos += 1
+    if lidos: salvar(CURVAS, cur); log(f'Curvas: {lidos} Reels lidos (hora em hora).')
+
+
 CONTA_DIA = ['reach', 'views', 'accounts_engaged', 'total_interactions', 'profile_views']
 
 
@@ -340,6 +363,8 @@ def main():
     conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
     try: coletar_metricas(ig, agenda, estado)
     except Exception as e: log('AVISO: não consegui ler as métricas:', str(e)[:300])
+    try: coletar_curvas(ig, agenda, estado)
+    except Exception as e: log('AVISO: não consegui ler as curvas:', str(e)[:300])
     try: coletar_comentarios(ig, estado, conta)
     except Exception as e: log('AVISO: não consegui ler os comentários:', str(e)[:300])
     agenda = [i for i in agenda if i.get('via', 'api') == 'api']          # itens do Metricool só aparecem na página
