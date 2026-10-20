@@ -113,6 +113,8 @@
   .atu { margin:6px 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
   .atu button { border:0; border-radius:99px; background:var(--terra); color:#fff; font:600 13px system-ui, sans-serif; padding:7px 14px; cursor:pointer; }
   .atu button:disabled { opacity:.6; }
+  .barra { display:inline-block; vertical-align:middle; width:140px; height:8px; border-radius:99px; background:var(--linha); overflow:hidden; }
+  .barra > span { display:block; height:100%; width:0; background:var(--terra); transition:width .6s; }
 </style>
 </head>
 <body>
@@ -704,13 +706,28 @@ async function atualizarAgora(){
     if (r && r.erro === 'PIN') { try { localStorage.removeItem('atualizar-pin'); } catch(_) {} }
     return;
   }
-  msg.textContent = ' pedido enviado. Os números novos chegam em 2 a 4 minutos…';
+  // barra de progresso: acompanha o robô pela API pública do GitHub (sem chave) e depois espera o site publicar os números
+  const repo = canal.base.replace(/\//g, ''), t0 = Date.now() - 90000;
+  msg.innerHTML = '<span class="barra"><span id="atuBar"></span></span> <span id="atuEt"></span>';
+  const etapa = (p, t) => { const b = document.getElementById('atuBar'), e = document.getElementById('atuEt'); if (b) b.style.width = p + '%'; if (e) e.textContent = t; };
+  etapa(10, '1/5 pedido aceito');
   const antes = (met && met._em) || '';
-  for (let k = 0; k < 16; k++) {
-    await new Promise(z => setTimeout(z, 30000));
-    try { const m = await fetch(canal.base + 'metricas.json?t=' + Date.now()).then(x => x.json()); if ((m._em || '') !== antes) { msg.innerHTML = ' números novos chegaram. <a href="#" onclick="location.reload();return false">Toque para ver</a>'; btn.disabled = false; return; } } catch(_) {}
+  let fase = 1;
+  for (let k = 0; k < 48; k++) {                                   // até ~10 min
+    await new Promise(z => setTimeout(z, 12000));
+    if (fase < 4) {
+      try {
+        const j = await fetch(`https://api.github.com/repos/recortesdabibliaoficial-cmyk/${repo}/actions/workflows/publicar.yml/runs?event=workflow_dispatch&per_page=3`).then(x => x.json());
+        const run = (j.workflow_runs || []).find(w => new Date(w.created_at) >= t0);
+        if (run && run.status === 'queued') { fase = 2; etapa(25, '2/5 robô na fila'); }
+        else if (run && run.status === 'in_progress') { fase = 3; etapa(50, '3/5 robô lendo o Instagram'); }
+        else if (run && run.status === 'completed') { fase = 4; etapa(75, run.conclusion === 'success' ? '4/5 números gravados; o site está atualizando…' : '4/5 o robô terminou com aviso; conferindo…'); }
+      } catch(_) {}
+    }
+    try { const m = await fetch(canal.base + 'metricas.json?t=' + Date.now()).then(x => x.json());
+      if ((m._em || '') !== antes) { etapa(100, '5/5 pronto!'); msg.insertAdjacentHTML('beforeend', ' <a href="#" onclick="location.reload();return false">Toque para ver</a>'); btn.disabled = false; return; } } catch(_) {}
   }
-  msg.textContent = ' ainda não chegou; recarregue a página daqui a pouco.'; btn.disabled = false;
+  etapa(90, 'demorando mais que o normal; recarregue a página daqui a pouco'); btn.disabled = false;
 }
 document.getElementById('dash').addEventListener('click', e => {
   if (e.target.id === 'btnAtu') { atualizarAgora(); return; }
