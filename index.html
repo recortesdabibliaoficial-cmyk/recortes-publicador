@@ -224,19 +224,13 @@ function tarefas(){
     const per = m.cada_dias ? '-' + Math.floor((Date.now() - new Date(m.desde)) / (m.cada_dias * 864e5)) : '';
     return { id:'m-' + m.id + per, txt:m.texto, det:m.detalhe||'' };
   });
-  const vistos = {};
-  itens.filter(i => i.destaque && i._st[1]==='ok').forEach(i => {
+  // Stories publicados pela API NÃO vão para o Arquivo: só dá para destacar enquanto estão no ar (24 h).
+  // Por isso a tarefa só aparece nas 24 h do Story, com o prazo; depois some (não há mais como fazer).
+  itens.filter(i => i.destaque && i._st[1]==='ok' && Date.now() - new Date(i.quando) < 24*3600e3).forEach(i => {
     const q = new Date(i.quando), quando = q.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}) + ' ' + fmtHora(q);
-    const velho = Date.now() - q > 24*3600e3 ? ' Como já passou de 24 h, ele está em Perfil → ☰ → Arquivo → Stories.' : '';
-    const nome = i.titulo || 'Story';
-    if (!vistos[i.destaque]) {
-      vistos[i.destaque] = 1;
-      lista.push({ id:'d-'+i.id, txt:`Criar o destaque «${i.destaque}» com o Story «${nome}» (${quando})`,
-        det:`Perfil → Novo (+) → escolha esse Story → Editar capa → capa «destaque - ${i.destaque}» (pasta de destaques no Drive) → nome ${i.destaque}.` + velho });
-    } else {
-      lista.push({ id:'d-'+i.id, txt:`Adicionar o Story «${nome}» (${quando}) ao destaque «${i.destaque}»`,
-        det:'Abra o Story no perfil → Destacar (coração embaixo) → ' + i.destaque + '.' + velho });
-    }
+    const prazo = new Date(+q + 24*3600e3), ate = prazo.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}) + ' ' + fmtHora(prazo);
+    lista.push({ id:'d-'+i.id, txt:`⏳ Até ${ate}: destacar o Story «${i.titulo || 'Story'}» (${quando}) em «${i.destaque}»`,
+      det:`Abra o seu Story (toque na sua foto no perfil) → Destacar (coração embaixo) → ${i.destaque}. Se o destaque ainda não existir, crie ali mesmo com a capa «destaque - ${i.destaque}» (pasta de destaques no Drive). Depois de 24 h o Story some de vez: Story publicado pelo publicador não vai para o Arquivo.` });
   });
   engaj.forEach(e => lista.push(e));
   coms.forEach(c => {
