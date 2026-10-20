@@ -635,7 +635,14 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 1,
-  "lido_em": "2026-10-20T14:31:08.802401+00:00"
+  "follows": 0,
+  "profile_visits": 0,
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 8,
+   "swipe_forward": 2
+  },
+  "lido_em": "2026-10-20T17:39:45.900675+00:00"
  },
  "reel10": {
   "reach": 15,
@@ -655,7 +662,13 @@
   "replies": 0,
   "shares": 0,
   "total_interactions": 1,
-  "lido_em": "2026-10-20T14:31:08.802401+00:00"
+  "follows": 0,
+  "profile_visits": 0,
+  "nav": {
+   "tap_exit": 2,
+   "tap_forward": 6
+  },
+  "lido_em": "2026-10-20T17:39:45.900675+00:00"
  },
  "ora-reel-noite-2026-10-19": {
   "reach": 160,
@@ -671,11 +684,13 @@
  },
  "ora-story-manha-2026-10-20": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
-  "lido_em": "2026-10-20T14:31:08.802401+00:00"
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-10-20T17:39:45.900675+00:00"
  },
  "ora-reel-manha-2026-10-20": {
   "reach": 149,
