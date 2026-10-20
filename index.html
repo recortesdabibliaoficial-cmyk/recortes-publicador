@@ -694,13 +694,14 @@ document.getElementById('modo').addEventListener('click', e => {
 const ATUALIZAR = '';
 async function atualizarAgora(){
   const msg = document.getElementById('atuMsg'), btn = document.getElementById('btnAtu');
-  let pin = pinLocal(); if (!pin) { pin = (prompt('Digite o PIN do checklist:') || '').trim(); if (!pin) return; try { localStorage.setItem('checklist-pin', pin); } catch(_) {} }
+  let pin = ''; try { pin = localStorage.getItem('atualizar-pin') || ''; } catch(_) {}
+  if (!pin) { pin = (prompt('Digite o PIN do botão Atualizar:') || '').trim(); if (!pin) return; try { localStorage.setItem('atualizar-pin', pin); } catch(_) {} }
   btn.disabled = true; msg.textContent = ' enviando…';
   let r = null; try { r = await fetch(ATUALIZAR, { method:'POST', headers:{'Content-Type':'text/plain'}, body: JSON.stringify({ pin, canal: canal.id }) }).then(x => x.json()); } catch(_) {}
   if (!r || !r.ok) {
     btn.disabled = false;
     msg.textContent = !r ? ' não consegui falar com o robô agora.' : r.erro === 'PIN' ? ' PIN incorreto.' : r.erro === 'espera' ? ` já foi atualizado há pouco; tente de novo em ${r.faltam} min.` : ' o robô não aceitou o pedido (' + (r.cod || r.erro) + ').';
-    if (r && r.erro === 'PIN') { try { localStorage.removeItem('checklist-pin'); } catch(_) {} }
+    if (r && r.erro === 'PIN') { try { localStorage.removeItem('atualizar-pin'); } catch(_) {} }
     return;
   }
   msg.textContent = ' pedido enviado. Os números novos chegam em 2 a 4 minutos…';
