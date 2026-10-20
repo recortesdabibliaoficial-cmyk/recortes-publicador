@@ -691,7 +691,7 @@ document.getElementById('modo').addEventListener('click', e => {
 });
 // Botão "Atualizar agora" (Felipe, 20/10): pede ao Apps Script "Atualizar Canais" (com o PIN) que mande o robô ler as métricas na hora.
 // A chave do GitHub fica só no Apps Script; o robô aceita no máximo 1 leitura forçada a cada 30 min.
-const ATUALIZAR = '';
+const ATUALIZAR = 'https://script.google.com/macros/s/AKfycbzMcIBcoHw6RaaWn_KZdtrfaKahKhWfxblwJcWwseMKxfs7U58tgbQflbLeBS9BehOxdw/exec';
 async function atualizarAgora(){
   const msg = document.getElementById('atuMsg'), btn = document.getElementById('btnAtu');
   let pin = ''; try { pin = localStorage.getItem('atualizar-pin') || ''; } catch(_) {}
