@@ -82,14 +82,15 @@
   #coment[hidden] { display:none; }
   #coment .caixa { margin-bottom:12px; }
   #coment .dica { color:var(--suave); font-size:13px; margin:0 0 6px; }
-  .cm { background:var(--card); border:1px solid var(--linha); border-radius:12px; padding:12px; margin-bottom:8px; }
+  .cm { background:var(--card); border:1px solid var(--linha); border-radius:12px; padding:10px 12px; margin-bottom:8px; display:flex; align-items:center; gap:12px; }
+  .cm .cm-t { flex:1; min-width:0; }
   .cm.usado { border-color:var(--ok); }
-  .cm p { margin:0 0 10px; font-size:16px; line-height:1.45; }
+  .cm p { margin:0; font-size:16px; line-height:1.45; }
   .cm .tm { font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--suave); margin-bottom:4px; }
   #coment h3.mom { font-size:14px; margin:14px 0 8px; color:var(--tinta); }
   .cm .marca { display:none; font-size:12px; font-weight:600; color:var(--ok); background:var(--okbg); padding:2px 8px; border-radius:99px; margin-bottom:8px; width:max-content; }
   .cm.usado .marca { display:block; }
-  .cpy { width:100%; min-height:48px; border:0; border-radius:10px; background:var(--terra); color:#fff; font:700 16px system-ui, sans-serif; cursor:pointer; }
+  .cpy { flex:none; padding:7px 14px; min-height:36px; border:0; border-radius:99px; background:var(--terra); color:#fff; font:600 13px system-ui, sans-serif; cursor:pointer; }
   .cm.usado .cpy { background:var(--okbg); color:var(--ok); }
   #coment details.tema { background:var(--card); border:1px solid var(--linha); border-radius:12px; margin-bottom:8px; padding:0 12px; }
   #coment details.tema > summary { min-height:48px; display:flex; align-items:center; justify-content:space-between; gap:8px; font-size:15px; font-weight:600; color:var(--tinta); }
@@ -717,13 +718,17 @@ function sugestoesDoDia(base, dia){
   return out;
 }function cartaoCom(t, dia, tema){
   const u = !!LS.get(usadoKey(dia, t));
-  return `<div class="cm${u ? ' usado' : ''}" data-u="${esc(usadoKey(dia, t))}"><div class="marca">usado hoje</div>${tema ? `<div class="tm">${esc(tema)}</div>` : ''}<p>${esc(t)}</p><button type="button" class="cpy" data-t="${encodeURIComponent(t)}">Copiar</button></div>`;
+  return `<div class="cm${u ? ' usado' : ''}" data-u="${esc(usadoKey(dia, t))}"><div class="cm-t"><div class="marca">usado hoje</div>${tema ? `<div class="tm">${esc(tema)}</div>` : ''}<p>${esc(t)}</p></div><button type="button" class="cpy" data-t="${encodeURIComponent(t)}">Copiar</button></div>`;
 }
 function blocosHoje(base, dia){
   const lista = sugestoesDoDia(base, dia), mom = Array.isArray(base.momentos) && base.momentos.length ? base.momentos : ['Manhã', 'Almoço', 'Tarde', 'Noite'];
-  const por = Math.ceil(lista.length / mom.length);
+  // comentários de noite vão para o último momento e os de manhã para o primeiro; o resto completa os blocos por igual
+  const ehNoite = t => /\b(noite|dormir|durmo|sono|deitar|descanso desta noite)\b/i.test(t), ehManha = t => /\b(bom dia|manhã|começ\w* (o|do|mais um) dia|acordar|acordei)\b/i.test(t);
+  const blocos = mom.map(() => []), resto = [];
+  lista.forEach(c => { if (ehNoite(c.txt)) blocos[mom.length - 1].push(c); else if (ehManha(c.txt)) blocos[0].push(c); else resto.push(c); });
+  resto.forEach(c => { let k = 0; blocos.forEach((b, j) => { if (b.length < blocos[k].length) k = j; }); blocos[k].push(c); });
   return `<div class="caixa"><h2><span>Sugestões de hoje</span><span class="suave">${lista.length}</span></h2>` + mom.map((m, i) => {
-    const fatia = lista.slice(i * por, (i + 1) * por); if (!fatia.length) return '';
+    const fatia = blocos[i]; if (!fatia.length) return '';
     return `<h3 class="mom">${esc(m)}</h3>` + fatia.map(c => cartaoCom(c.txt, dia, c.tema)).join('');
   }).join('') + '</div>';
 }async function desenharComent(){
