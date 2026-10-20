@@ -1,0 +1,82 @@
+{
+ "htexto07": {
+  "publicado": "2026-10-19T16:51:34.824551+00:00",
+  "pontos": [
+   {
+    "reach": 153,
+    "views": 255,
+    "likes": 0,
+    "shares": 1,
+    "saved": 0,
+    "reels_skip_rate": 57.1,
+    "ig_reels_avg_watch_time": 10105,
+    "t": "2026-10-20T16:56+00:00",
+    "h": 24.07
+   }
+  ]
+ },
+ "reel10": {
+  "publicado": "2026-10-19T21:31:37.214840+00:00",
+  "pontos": [
+   {
+    "reach": 26,
+    "views": 35,
+    "likes": 3,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 43.8,
+    "ig_reels_avg_watch_time": 6917,
+    "t": "2026-10-20T16:56+00:00",
+    "h": 19.41
+   }
+  ]
+ },
+ "ora-reel-noite-2026-10-19": {
+  "publicado": "2026-10-20T00:02:00.247888+00:00",
+  "pontos": [
+   {
+    "reach": 160,
+    "views": 252,
+    "likes": 11,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 71.4,
+    "ig_reels_avg_watch_time": 9216,
+    "t": "2026-10-20T16:56+00:00",
+    "h": 16.9
+   }
+  ]
+ },
+ "ora-reel-manha-2026-10-20": {
+  "publicado": "2026-10-20T11:02:14.465146+00:00",
+  "pontos": [
+   {
+    "reach": 150,
+    "views": 272,
+    "likes": 12,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 60.8,
+    "ig_reels_avg_watch_time": 13251,
+    "t": "2026-10-20T16:56+00:00",
+    "h": 5.9
+   }
+  ]
+ },
+ "htexto08-2026-10-20": {
+  "publicado": "2026-10-20T15:02:55.422396+00:00",
+  "pontos": [
+   {
+    "reach": 2,
+    "views": 8,
+    "likes": 0,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 25,
+    "ig_reels_avg_watch_time": 3582,
+    "t": "2026-10-20T16:56+00:00",
+    "h": 1.89
+   }
+  ]
+ }
+}
