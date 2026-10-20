@@ -110,6 +110,9 @@
   .funil .etapa b { display:block; font-size:20px; } .funil .etapa span { font-size:12px; color:var(--suave); }
   .funil .seta { text-align:center; font-weight:700; color:var(--terra); font-size:14px; } .funil .seta small { display:block; font-size:11px; color:var(--suave); font-weight:400; }
   #dash .filtros { margin:0 0 6px; }
+  .atu { margin:6px 0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .atu button { border:0; border-radius:99px; background:var(--terra); color:#fff; font:600 13px system-ui, sans-serif; padding:7px 14px; cursor:pointer; }
+  .atu button:disabled { opacity:.6; }
 </style>
 </head>
 <body>
@@ -639,7 +642,7 @@ async function desenharDash(){
     tl('Alcance médio por Reel', mRC, mRA, v => f1(v)) + tl('Pulos médios dos Reels', mSkip, mSA, v => fp(v), true) + '</tbody></table></div>');
 
   el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
-      <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div><div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
+      <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR && canal.id === 'biblia' ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
     ${caixaGen('🚨 Alertas', alertasHtml)}` +
     secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secTend + secObs;
 
@@ -686,8 +689,31 @@ document.getElementById('modo').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   modo = b.dataset.m; MODO.set(modo); mostrarModo();
 });
+// Botão "Atualizar agora" (Felipe, 20/10): pede ao Apps Script "Atualizar Canais" (com o PIN) que mande o robô ler as métricas na hora.
+// A chave do GitHub fica só no Apps Script; o robô aceita no máximo 1 leitura forçada a cada 30 min.
+const ATUALIZAR = '';
+async function atualizarAgora(){
+  const msg = document.getElementById('atuMsg'), btn = document.getElementById('btnAtu');
+  let pin = pinLocal(); if (!pin) { pin = (prompt('Digite o PIN do checklist:') || '').trim(); if (!pin) return; try { localStorage.setItem('checklist-pin', pin); } catch(_) {} }
+  btn.disabled = true; msg.textContent = ' enviando…';
+  let r = null; try { r = await fetch(ATUALIZAR, { method:'POST', headers:{'Content-Type':'text/plain'}, body: JSON.stringify({ pin, canal: canal.id }) }).then(x => x.json()); } catch(_) {}
+  if (!r || !r.ok) {
+    btn.disabled = false;
+    msg.textContent = !r ? ' não consegui falar com o robô agora.' : r.erro === 'PIN' ? ' PIN incorreto.' : r.erro === 'espera' ? ` já foi atualizado há pouco; tente de novo em ${r.faltam} min.` : ' o robô não aceitou o pedido (' + (r.cod || r.erro) + ').';
+    if (r && r.erro === 'PIN') { try { localStorage.removeItem('checklist-pin'); } catch(_) {} }
+    return;
+  }
+  msg.textContent = ' pedido enviado. Os números novos chegam em 2 a 4 minutos…';
+  const antes = (met && met._em) || '';
+  for (let k = 0; k < 16; k++) {
+    await new Promise(z => setTimeout(z, 30000));
+    try { const m = await fetch(canal.base + 'metricas.json?t=' + Date.now()).then(x => x.json()); if ((m._em || '') !== antes) { msg.innerHTML = ' números novos chegaram. <a href="#" onclick="location.reload();return false">Toque para ver</a>'; btn.disabled = false; return; } } catch(_) {}
+  }
+  msg.textContent = ' ainda não chegou; recarregue a página daqui a pouco.'; btn.disabled = false;
+}
 document.getElementById('dash').addEventListener('click', e => {
-  const ab = e.target.closest('.abrfec a'); if (ab) { document.querySelectorAll('#dash .caixa[data-k]').forEach(c => alternar(c, ab.dataset.ab === '1')); return; }
+  if (e.target.id === 'btnAtu') { atualizarAgora(); return; }
+  const ab =e.target.closest('.abrfec a'); if (ab) { document.querySelectorAll('#dash .caixa[data-k]').forEach(c => alternar(c, ab.dataset.ab === '1')); return; }
   const tg = e.target.closest('.tg'); if (tg) { alternar(tg.closest('.caixa')); return; }
   const p = e.target.closest('#fper button'); if (p) { periodo = +p.dataset.p; desenharDash(); return; }
   const k = e.target.closest('#fcurva button'); if (k) { curvaMetrica = k.dataset.k; desenharDash(); }

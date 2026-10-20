@@ -255,7 +255,10 @@ def coletar_metricas(ig, agenda, estado):
     agora = datetime.now(timezone.utc)
     local = agora.astimezone(BRT); dia_local = local.date().isoformat()
     fechamento = local.hour == 23 and local.minute >= 30 and met.get('_fechado') != dia_local   # leitura final do dia (relatório)
-    if not fechamento and met.get('_em') and datetime.fromisoformat(met['_em']) > agora - METRICAS_CADA: return
+    forcado = os.environ.get('FORCAR_METRICAS') == 'sim' and not (            # botão "Atualizar agora" do painel (Felipe, 20/10)
+        met.get('_forcado_em') and datetime.fromisoformat(met['_forcado_em']) > agora - timedelta(minutes=30))   # no máximo 1 vez a cada 30 min
+    if forcado: met['_forcado_em'] = agora.isoformat(); log('Leitura forçada pelo botão Atualizar.')
+    if not forcado and not fechamento and met.get('_em') and datetime.fromisoformat(met['_em']) > agora - METRICAS_CADA: return
     tipos = {i['id']: i['tipo'] for i in agenda}
     conta = {}
     try:

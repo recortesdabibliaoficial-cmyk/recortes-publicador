@@ -3,7 +3,12 @@ name: Publicar no Instagram
 on:
   schedule:
     - cron: '*/15 * * * *'      # a cada 15 minutos (o GitHub pode atrasar alguns minutos)
-  workflow_dispatch: {}          # botão "Run workflow" para rodar na hora
+  workflow_dispatch:             # botão "Run workflow" para rodar na hora
+    inputs:
+      forcar:
+        description: 'sim = ler as métricas agora (botão Atualizar do painel; no máximo 1 vez a cada 30 min)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -27,6 +32,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           GH_PAT: ${{ secrets.GH_PAT }}
+          FORCAR_METRICAS: ${{ github.event.inputs.forcar || '' }}
         run: python publicar.py
       - name: Guardar o que foi publicado
         if: always()
