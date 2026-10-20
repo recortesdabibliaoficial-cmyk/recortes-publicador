@@ -647,6 +647,7 @@ async function desenharDash(){
       <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR && canal.id === 'biblia' ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
     ${caixaGen('🚨 Alertas', alertasHtml)}` +
     secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secTend + secObs;
+  if (ATUALIZAR && canal.id === 'biblia') acompanharAtualizacao();          // retoma a barra se havia um pedido em andamento
 
   // ---------- gráficos ----------
   try { await carregarChart(); } catch(e) {
@@ -693,6 +694,7 @@ document.getElementById('modo').addEventListener('click', e => {
 });
 // Botão "Atualizar agora" (Felipe, 20/10): pede ao Apps Script "Atualizar Canais" (com o PIN) que mande o robô ler as métricas na hora.
 // A chave do GitHub fica só no Apps Script; o robô aceita no máximo 1 leitura forçada a cada 30 min.
+let acompanhando = false;
 const ATUALIZAR = 'https://script.google.com/macros/s/AKfycbzMcIBcoHw6RaaWn_KZdtrfaKahKhWfxblwJcWwseMKxfs7U58tgbQflbLeBS9BehOxdw/exec';
 async function atualizarAgora(){
   const msg = document.getElementById('atuMsg'), btn = document.getElementById('btnAtu');
@@ -706,28 +708,39 @@ async function atualizarAgora(){
     if (r && r.erro === 'PIN') { try { localStorage.removeItem('atualizar-pin'); } catch(_) {} }
     return;
   }
-  // barra de progresso: acompanha o robô pela API pública do GitHub (sem chave) e depois espera o site publicar os números
-  const repo = canal.base.replace(/\//g, ''), t0 = Date.now() - 90000;
+  try { localStorage.setItem('atu-pedido', JSON.stringify({ t: Date.now(), antes: (met && met._em) || '' })); } catch(_) {}
+  acompanharAtualizacao();
+}
+// Barra de progresso até o SITE mostrar os números novos. Etapas: pedido → robô na fila → robô lendo → números gravados → site publicando → pronto.
+// Se a página for recarregada, continua sozinha (o pedido fica guardado por 15 min no aparelho).
+async function acompanharAtualizacao(){
+  let ped = null; try { ped = JSON.parse(localStorage.getItem('atu-pedido') || 'null'); } catch(_) {}
+  const msg = document.getElementById('atuMsg'), btn = document.getElementById('btnAtu');
+  if (!ped || !msg || Date.now() - ped.t > 15 * 60000 || acompanhando) return;
+  acompanhando = true; if (btn) btn.disabled = true;
+  const repo = canal.base.replace(/\//g, ''), t0 = ped.t - 15000, api = `https://api.github.com/repos/recortesdabibliaoficial-cmyk/${repo}/actions/runs?per_page=10`;
   msg.innerHTML = '<span class="barra"><span id="atuBar"></span></span> <span id="atuEt"></span>';
-  const etapa = (p, t) => { const b = document.getElementById('atuBar'), e = document.getElementById('atuEt'); if (b) b.style.width = p + '%'; if (e) e.textContent = t; };
-  etapa(10, '1/5 pedido aceito');
-  const antes = (met && met._em) || '';
-  let fase = 1;
-  for (let k = 0; k < 48; k++) {                                   // até ~10 min
+  const etapa = (p, t) => { const b = document.getElementById('atuBar'), e = document.getElementById('atuEt'); if (b) b.style.width = p + '%'; if (e) e.textContent = ' ' + t; };
+  etapa(10, '1/6 pedido aceito');
+  let fimRobo = null;
+  for (let k = 0; k < 60 && Date.now() - ped.t < 15 * 60000; k++) {
+    try {
+      const m = await fetch(canal.base + 'metricas.json?t=' + Date.now()).then(x => x.json());
+      if ((m._em || '') !== ped.antes) { etapa(100, '6/6 pronto! O site já tem os números novos.'); msg.insertAdjacentHTML('beforeend', ' <a href="#" onclick="location.reload();return false">Toque para ver</a>');
+        try { localStorage.removeItem('atu-pedido'); } catch(_) {} if (btn) btn.disabled = false; acompanhando = false; return; }
+    } catch(_) {}
+    try {
+      const runs = ((await fetch(api).then(x => x.json())).workflow_runs || []).filter(w => new Date(w.created_at) >= t0);
+      const robo = runs.filter(w => w.name === 'Publicar no Instagram' && w.event === 'workflow_dispatch').pop();   // o mais antigo depois do pedido
+      const site = fimRobo ? runs.find(w => /pages/i.test(w.name) && new Date(w.created_at) >= fimRobo - 60000) : null;
+      if (site) etapa(site.status === 'completed' ? 95 : 85, site.status === 'completed' ? '5/6 site publicado; carregando…' : '5/6 site publicando os números (1 a 3 min)…');
+      else if (robo && robo.status === 'completed') { fimRobo = fimRobo || new Date(robo.updated_at).getTime(); etapa(70, '4/6 números gravados; o site vai publicar em seguida…'); }
+      else if (robo && robo.status === 'in_progress') etapa(50, '3/6 robô lendo o Instagram…');
+      else if (robo) etapa(25, '2/6 robô na fila…');
+    } catch(_) {}
     await new Promise(z => setTimeout(z, 12000));
-    if (fase < 4) {
-      try {
-        const j = await fetch(`https://api.github.com/repos/recortesdabibliaoficial-cmyk/${repo}/actions/workflows/publicar.yml/runs?event=workflow_dispatch&per_page=3`).then(x => x.json());
-        const run = (j.workflow_runs || []).find(w => new Date(w.created_at) >= t0);
-        if (run && run.status === 'queued') { fase = 2; etapa(25, '2/5 robô na fila'); }
-        else if (run && run.status === 'in_progress') { fase = 3; etapa(50, '3/5 robô lendo o Instagram'); }
-        else if (run && run.status === 'completed') { fase = 4; etapa(75, run.conclusion === 'success' ? '4/5 números gravados; o site está atualizando…' : '4/5 o robô terminou com aviso; conferindo…'); }
-      } catch(_) {}
-    }
-    try { const m = await fetch(canal.base + 'metricas.json?t=' + Date.now()).then(x => x.json());
-      if ((m._em || '') !== antes) { etapa(100, '5/5 pronto!'); msg.insertAdjacentHTML('beforeend', ' <a href="#" onclick="location.reload();return false">Toque para ver</a>'); btn.disabled = false; return; } } catch(_) {}
   }
-  etapa(90, 'demorando mais que o normal; recarregue a página daqui a pouco'); btn.disabled = false;
+  etapa(90, 'demorando mais que o normal; recarregue a página daqui a pouco'); if (btn) btn.disabled = false; acompanhando = false;
 }
 document.getElementById('dash').addEventListener('click', e => {
   if (e.target.id === 'btnAtu') { atualizarAgora(); return; }
