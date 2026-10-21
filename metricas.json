@@ -782,19 +782,19 @@
   "lido_em": "2026-10-21T15:48:35.817023+00:00"
  },
  "story2026-10-20": {
-  "reach": 7,
-  "views": 7,
+  "reach": 10,
+  "views": 12,
   "replies": 0,
   "shares": 0,
   "total_interactions": 1,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "swipe_forward": 1,
+   "tap_forward": 7,
    "tap_exit": 1,
-   "tap_forward": 4
+   "swipe_forward": 1
   },
-  "lido_em": "2026-10-21T15:48:35.817023+00:00"
+  "lido_em": "2026-10-21T17:51:37.804561+00:00"
  },
  "htexto11-2026-10-20": {
   "reach": 192,
@@ -810,14 +810,17 @@
   "lido_em": "2026-10-21T15:48:35.817023+00:00"
  },
  "ora-story-noite-2026-10-20": {
-  "reach": 0,
-  "views": 3,
+  "reach": 6,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-21T15:48:35.817023+00:00"
+  "nav": {
+   "tap_forward": 6
+  },
+  "lido_em": "2026-10-21T17:51:37.804561+00:00"
  },
  "ora-reel-noite-2026-10-20": {
   "reach": 156,
@@ -833,14 +836,18 @@
   "lido_em": "2026-10-21T15:48:35.817023+00:00"
  },
  "ora-story-manha-2026-10-21": {
-  "reach": 0,
-  "views": 2,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-21T15:48:35.817023+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 4
+  },
+  "lido_em": "2026-10-21T17:51:37.804561+00:00"
  },
  "repost01": {
   "reach": 2,
