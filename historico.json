@@ -3064,7 +3064,7 @@
   }
  },
  "2026-10-21": {
-  "seguidores": 36,
+  "seguidores": 39,
   "publicacoes": 13,
   "itens": {
    "mc-carrossel01": {
@@ -3626,16 +3626,16 @@
     "profile_visits": 0
    },
    "htexto07": {
-    "reach": 162,
+    "reach": 163,
     "views": 265,
     "likes": 0,
     "comments": 0,
     "saved": 0,
     "shares": 1,
     "total_interactions": 1,
-    "ig_reels_avg_watch_time": 9592,
-    "reels_skip_rate": 59.1,
-    "ig_reels_video_view_total_time": 1707445
+    "ig_reels_avg_watch_time": 9505,
+    "reels_skip_rate": 59.6,
+    "ig_reels_video_view_total_time": 1711071
    },
    "story2026-10-19": {
     "reach": 11,
@@ -3709,9 +3709,9 @@
     "saved": 1,
     "shares": 0,
     "total_interactions": 13,
-    "ig_reels_avg_watch_time": 13292,
+    "ig_reels_avg_watch_time": 13214,
     "reels_skip_rate": 60.4,
-    "ig_reels_video_view_total_time": 2073661
+    "ig_reels_video_view_total_time": 2074714
    },
    "post12": {
     "reach": 4,
@@ -3725,51 +3725,54 @@
     "profile_visits": 1
    },
    "htexto08-2026-10-20": {
-    "reach": 1423,
-    "views": 2650,
-    "likes": 91,
-    "comments": 10,
+    "reach": 1549,
+    "views": 2879,
+    "likes": 102,
+    "comments": 12,
     "saved": 7,
-    "shares": 6,
-    "total_interactions": 119,
-    "ig_reels_avg_watch_time": 13845,
-    "reels_skip_rate": 49.2,
-    "ig_reels_video_view_total_time": 20228586
+    "shares": 8,
+    "total_interactions": 134,
+    "ig_reels_avg_watch_time": 14651,
+    "reels_skip_rate": 49.4,
+    "ig_reels_video_view_total_time": 23368803
    },
    "story2026-10-20": {
-    "reach": 7,
-    "views": 7,
+    "reach": 10,
+    "views": 12,
     "replies": 0,
     "shares": 0,
     "total_interactions": 1,
     "follows": 0,
     "profile_visits": 0,
     "nav": {
-     "swipe_forward": 1,
+     "tap_forward": 7,
      "tap_exit": 1,
-     "tap_forward": 4
+     "swipe_forward": 1
     }
    },
    "htexto11-2026-10-20": {
-    "reach": 192,
-    "views": 331,
-    "likes": 5,
+    "reach": 213,
+    "views": 378,
+    "likes": 6,
     "comments": 0,
     "saved": 0,
     "shares": 2,
-    "total_interactions": 7,
-    "ig_reels_avg_watch_time": 11574,
-    "reels_skip_rate": 46.2,
-    "ig_reels_video_view_total_time": 2326571
+    "total_interactions": 8,
+    "ig_reels_avg_watch_time": 12289,
+    "reels_skip_rate": 46,
+    "ig_reels_video_view_total_time": 2752912
    },
    "ora-story-noite-2026-10-20": {
-    "reach": 0,
-    "views": 3,
+    "reach": 6,
+    "views": 6,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
-    "profile_visits": 0
+    "profile_visits": 0,
+    "nav": {
+     "tap_forward": 6
+    }
    },
    "ora-reel-noite-2026-10-20": {
     "reach": 156,
@@ -3784,17 +3787,21 @@
     "ig_reels_video_view_total_time": 1542462
    },
    "ora-story-manha-2026-10-21": {
-    "reach": 0,
-    "views": 2,
+    "reach": 5,
+    "views": 5,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
-    "profile_visits": 0
+    "profile_visits": 0,
+    "nav": {
+     "tap_exit": 1,
+     "tap_forward": 4
+    }
    },
    "repost01": {
-    "reach": 2,
-    "views": 4,
+    "reach": 3,
+    "views": 5,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -3804,16 +3811,16 @@
     "profile_visits": 0
    },
    "ora-reel-manha-2026-10-21": {
-    "reach": 124,
-    "views": 185,
+    "reach": 125,
+    "views": 189,
     "likes": 11,
     "comments": 2,
     "saved": 0,
     "shares": 0,
     "total_interactions": 13,
-    "ig_reels_avg_watch_time": 9256,
-    "reels_skip_rate": 65,
-    "ig_reels_video_view_total_time": 1157099
+    "ig_reels_avg_watch_time": 9491,
+    "reels_skip_rate": 64.5,
+    "ig_reels_video_view_total_time": 1205476
    },
    "post13": {
     "reach": 1,
@@ -3827,18 +3834,18 @@
     "profile_visits": 1
    },
    "htexto04-2026-10-21": {
-    "reach": 0,
-    "views": 0,
-    "likes": 0,
+    "reach": 123,
+    "views": 231,
+    "likes": 6,
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 0,
-    "ig_reels_avg_watch_time": 0,
-    "reels_skip_rate": 0,
-    "ig_reels_video_view_total_time": 0
+    "total_interactions": 7,
+    "ig_reels_avg_watch_time": 12451,
+    "reels_skip_rate": 55.4,
+    "ig_reels_video_view_total_time": 1631115
    }
   },
-  "em": "2026-10-21T12:48-03:00"
+  "em": "2026-10-21T16:32-03:00"
  }
 }
