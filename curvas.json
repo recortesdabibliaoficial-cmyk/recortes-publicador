@@ -966,6 +966,33 @@
     "ig_reels_avg_watch_time": 9527,
     "t": "2026-10-21T10:10+00:00",
     "h": 10.13
+   },
+   {
+    "reach": 153,
+    "views": 260,
+    "likes": 11,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 63.3,
+    "ig_reels_avg_watch_time": 9527,
+    "t": "2026-10-21T11:05+00:00",
+    "h": 11.05
+   }
+  ]
+ },
+ "ora-reel-manha-2026-10-21": {
+  "publicado": "2026-10-21T11:03:12.803195+00:00",
+  "pontos": [
+   {
+    "reach": 0,
+    "views": 0,
+    "likes": 0,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 0,
+    "ig_reels_avg_watch_time": 0,
+    "t": "2026-10-21T11:05+00:00",
+    "h": 0.04
    }
   ]
  }
