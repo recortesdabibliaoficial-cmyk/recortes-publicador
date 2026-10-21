@@ -1027,6 +1027,36 @@
   "dur": 12.0
  },
  {
+  "id": "repost01",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-21T08:00:00-03:00",
+  "midia": [
+   "midia/post01/t_slide_01.jpg",
+   "midia/post01/t_slide_02.jpg",
+   "midia/post01/t_slide_03.jpg",
+   "midia/post01/t_slide_04.jpg",
+   "midia/post01/t_slide_05.jpg",
+   "midia/post01/t_slide_06.jpg",
+   "midia/post01/t_slide_07.jpg",
+   "midia/post01/t_slide_08.jpg"
+  ],
+  "legenda": "Você já sentiu medo do tamanho do seu problema?\n\n😟 A demissão que chegou sem aviso.\n📚 A apresentação na frente da turma inteira.\n⚽ A final do campeonato, com todo mundo olhando.\n🏥 O resultado de um exame que não sai da cabeça.\n💸 O dinheiro que acaba antes do mês.\n\nTodo mundo tem um gigante na frente em algum momento.\n\nDavi também teve. Era só um menino, e todos achavam que ele ia perder. Mas ele lembrou de tudo o que Deus já tinha feito por ele e não enfrentou o gigante sozinho.\n\nCom a gente é igual. Deus não some quando o problema aparece. Ele está do nosso lado na sala de espera, na entrevista, no campo e no fim do mês. O problema pode continuar grande. Mas você não está só diante dele.\n\n📜 O versículo (1 Samuel 17:47)\nDavi disse essas palavras a Golias logo antes da luta, na frente dos dois exércitos. Ele quis dizer que a vitória não depende de espada, de lança nem de tamanho, porque a batalha pertence a Deus. A intenção era que todos ali soubessem de onde viria a vitória: não da força de um menino, mas de Deus. Para nós, fica o lembrete de que ninguém enfrenta os seus gigantes sozinho.\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #davi #coragem",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: Davi e Golias. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: Davi e Golias. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: Davi e Golias. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: Davi e Golias. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: Davi e Golias. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: Davi e Golias. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: Davi e Golias. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: Davi e Golias. Ilustração em papel recortado."
+  ],
+  "titulo": "Davi e Golias",
+  "post": "01",
+  "miniatura": "midia/miniaturas/repost01.jpg"
+ },
+ {
   "id": "ora-story-manha-2026-10-21",
   "tipo": "STORY",
   "quando": "2026-10-21T08:00:00-03:00",
@@ -1155,6 +1185,36 @@
   "dur": 12.0
  },
  {
+  "id": "repost02",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-22T08:00:00-03:00",
+  "midia": [
+   "midia/post02/t_slide_01.jpg",
+   "midia/post02/t_slide_02.jpg",
+   "midia/post02/t_slide_03.jpg",
+   "midia/post02/t_slide_04.jpg",
+   "midia/post02/t_slide_05.jpg",
+   "midia/post02/t_slide_06.jpg",
+   "midia/post02/t_slide_07.jpg",
+   "midia/post02/t_slide_08.jpg"
+  ],
+  "legenda": "Você já se sentiu perdido e esquecido?\n\n😶 Aquele dia em que ninguém lembrou de você.\n🏠 A sensação de não pertencer a lugar nenhum.\n📱 Ver todo mundo bem enquanto você não está.\n💔 Achar que já se afastou demais.\n🌧️ Se sentir só no meio de muita gente.\n\nJesus contou a história de um pastor que tinha cem ovelhas. Quando uma se perdeu, ele deixou as outras noventa e nove e foi atrás da que se perdeu. E quando a encontrou, voltou para casa fazendo festa.\n\nVocê não é só mais um na multidão. Para Deus, você tem nome e tem valor. Ele não desiste de ir atrás de você, e Jesus conta que há festa no céu por cada pessoa que volta.\n\nSe a solidão estiver pesando, conversa com alguém de confiança ou procura ajuda profissional. Ninguém precisa passar por isso por conta própria.\n\n📜 O versículo (Lucas 15:4)\nJesus fez essa pergunta para pessoas que o criticavam por andar com quem era considerado pecador. A resposta era óbvia: qualquer pastor iria atrás da ovelha perdida. A intenção de Jesus era mostrar que Deus faz o mesmo. Ele não espera a pessoa voltar sozinha, vai atrás dela, e faz festa quando a encontra.\n\n📖 Lucas 15:3-7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ovelhaperdida #amordedeus",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: A ovelha perdida. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: A ovelha perdida. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: A ovelha perdida. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: A ovelha perdida. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: A ovelha perdida. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: A ovelha perdida. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: A ovelha perdida. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: A ovelha perdida. Ilustração em papel recortado."
+  ],
+  "titulo": "A ovelha perdida",
+  "post": "02",
+  "miniatura": "midia/miniaturas/repost02.jpg"
+ },
+ {
   "id": "ora-story-manha-2026-10-22",
   "tipo": "STORY",
   "quando": "2026-10-22T08:00:00-03:00",
@@ -1279,6 +1339,36 @@
   "titulo": "Oração da noite · 22/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-22.jpg",
   "dur": 12.0
+ },
+ {
+  "id": "repost03",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-23T08:00:00-03:00",
+  "midia": [
+   "midia/post03/t_slide_01.jpg",
+   "midia/post03/t_slide_02.jpg",
+   "midia/post03/t_slide_03.jpg",
+   "midia/post03/t_slide_04.jpg",
+   "midia/post03/t_slide_05.jpg",
+   "midia/post03/t_slide_06.jpg",
+   "midia/post03/t_slide_07.jpg",
+   "midia/post03/t_slide_08.jpg"
+  ],
+  "legenda": "Você já foi magoado por quem mais amava?\n\n👨‍👩‍👧 Uma briga de família que ainda dói.\n🤝 Um amigo que te deixou na mão.\n💬 Palavras que você não esquece.\n💼 Alguém que te passou para trás no trabalho.\n🔒 Uma mágoa guardada há anos.\n\nJosé foi traído pelos próprios irmãos. Eles o jogaram num poço e o venderam. Anos depois, quando José já era governador do Egito, os mesmos irmãos apareceram pedindo ajuda. E José escolheu perdoar.\n\nPerdoar não é dizer que não doeu. É deixar Deus cuidar daquilo que a gente não consegue resolver sem Ele. Ele transforma até o que era para o mal.\n\nPerdoar não significa voltar a conviver com quem continua te ferindo. Em caso de abuso ou violência, procura ajuda.\n\n📜 O versículo (Gênesis 50:20)\nJosé disse isso aos irmãos depois que o pai deles morreu, quando eles tinham medo de que José se vingasse. Em palavras de hoje: \"Vocês planejaram o mal contra mim, mas Deus transformou isso em bem, para salvar muitas vidas.\" A intenção de José era tranquilizar os irmãos e confirmar o perdão. Ele não fingiu que não doeu, mas enxergou a mão de Deus até no sofrimento.\n\n📖 Gênesis 37 a 50 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jose #perdao",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: José perdoa os irmãos. Ilustração em papel recortado."
+  ],
+  "titulo": "José perdoa os irmãos",
+  "post": "03",
+  "miniatura": "midia/miniaturas/repost03.jpg"
  },
  {
   "id": "ora-story-manha-2026-10-23",
@@ -1407,6 +1497,34 @@
   "dur": 12.0
  },
  {
+  "id": "repost04",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-24T08:00:00-03:00",
+  "midia": [
+   "midia/post04/t_slide_01.jpg",
+   "midia/post04/t_slide_02.jpg",
+   "midia/post04/t_slide_03.jpg",
+   "midia/post04/t_slide_04.jpg",
+   "midia/post04/t_slide_05.jpg",
+   "midia/post04/t_slide_06.jpg",
+   "midia/post04/t_slide_07.jpg"
+  ],
+  "legenda": "Você continua orando mesmo quando tudo parece contra você?\n\n🌙 Quando a resposta demora a chegar.\n😒 Quando debocham da sua fé.\n🏢 Quando ser honesto parece não compensar.\n🌀 Quando os problemas vêm todos de uma vez.\n🙇 Quando dá vontade de desistir de orar.\n\nDaniel orava três vezes por dia. Homens invejosos convenceram o rei a criar uma lei: por trinta dias, ninguém podia fazer pedidos a nenhum deus nem a ninguém, só ao rei. Mesmo assim, Daniel continuou orando. Foi jogado na cova dos leões. Na manhã seguinte, estava vivo.\n\nDeus nem sempre tira a gente da cova. Mas Ele está lá dentro com a gente. Continua orando.\n\n📜 O versículo (Daniel 6:22)\nFoi a resposta de Daniel ao rei, de manhã, ainda de dentro da cova. Ele contou que Deus fechou a boca dos leões porque ele era inocente e nunca tinha feito nada contra o rei. A intenção de Daniel era dar a Deus o crédito pela vida dele e mostrar que não desobedeceu por rebeldia: ele só não parou de orar.\n\n📖 Daniel 6 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #daniel #oracao",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 7 da história: Daniel na cova dos leões. Ilustração em papel recortado.",
+   "Slide 2 de 7 da história: Daniel na cova dos leões. Ilustração em papel recortado.",
+   "Slide 3 de 7 da história: Daniel na cova dos leões. Ilustração em papel recortado.",
+   "Slide 4 de 7 da história: Daniel na cova dos leões. Ilustração em papel recortado.",
+   "Slide 5 de 7 da história: Daniel na cova dos leões. Ilustração em papel recortado.",
+   "Slide 6 de 7 da história: Daniel na cova dos leões. Ilustração em papel recortado.",
+   "Slide 7 de 7 da história: Daniel na cova dos leões. Ilustração em papel recortado."
+  ],
+  "titulo": "Daniel na cova dos leões",
+  "post": "04",
+  "miniatura": "midia/miniaturas/repost04.jpg"
+ },
+ {
   "id": "ora-story-manha-2026-10-24",
   "tipo": "STORY",
   "quando": "2026-10-24T08:00:00-03:00",
@@ -1531,6 +1649,32 @@
   "titulo": "Oração da noite · 24/10 (Reel)",
   "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-24.jpg",
   "dur": 12.0
+ },
+ {
+  "id": "repost05",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-25T08:00:00-03:00",
+  "midia": [
+   "midia/post05/t_slide_01.jpg",
+   "midia/post05/t_slide_02.jpg",
+   "midia/post05/t_slide_03.jpg",
+   "midia/post05/t_slide_04.jpg",
+   "midia/post05/t_slide_05.jpg",
+   "midia/post05/t_slide_06.jpg"
+  ],
+  "legenda": "Quando foi a última vez que você agradeceu a Deus?\n\n☀️ Por acordar hoje.\n🍞 Pela comida na mesa.\n👪 Pelas pessoas que estão do seu lado.\n💪 Pela força que te trouxe até aqui.\n🩺 Por uma oração que já foi respondida.\n\nDez homens doentes pediram ajuda a Jesus, e todos foram curados no caminho. Nove seguiram a vida. Só um voltou para agradecer.\n\nÀs vezes a gente pede muito e agradece pouco. A gratidão muda o jeito como a gente enxerga a própria vida. Hoje, seja aquele que volta.\n\n📜 O versículo (Lucas 17:15)\nLucas destaca que só um dos dez, ao perceber que estava curado, voltou louvando a Deus em voz alta. E esse era um samaritano, um estrangeiro desprezado naquela época. A intenção do texto é mostrar que gratidão é uma atitude: voltar até quem nos ajudou. E quem parecia menos provável foi justamente quem agradeceu.\n\n📖 Lucas 17:11-19 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gratidao #jesus",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6 da história: Os dez leprosos. Ilustração em papel recortado.",
+   "Slide 2 de 6 da história: Os dez leprosos. Ilustração em papel recortado.",
+   "Slide 3 de 6 da história: Os dez leprosos. Ilustração em papel recortado.",
+   "Slide 4 de 6 da história: Os dez leprosos. Ilustração em papel recortado.",
+   "Slide 5 de 6 da história: Os dez leprosos. Ilustração em papel recortado.",
+   "Slide 6 de 6 da história: Os dez leprosos. Ilustração em papel recortado."
+  ],
+  "titulo": "Os dez leprosos",
+  "post": "05",
+  "miniatura": "midia/miniaturas/repost05.jpg"
  },
  {
   "id": "ora-story-manha-2026-10-25",
@@ -1659,6 +1803,34 @@
   "dur": 12.0
  },
  {
+  "id": "repost06",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-26T08:00:00-03:00",
+  "midia": [
+   "midia/post06/t_slide_01.jpg",
+   "midia/post06/t_slide_02.jpg",
+   "midia/post06/t_slide_03.jpg",
+   "midia/post06/t_slide_04.jpg",
+   "midia/post06/t_slide_05.jpg",
+   "midia/post06/t_slide_06.jpg",
+   "midia/post06/t_slide_07.jpg"
+  ],
+  "legenda": "Você acha que já errou demais para recomeçar?\n\n🏃 Fugiu de algo que sabia que devia fazer.\n😔 Decepcionou quem confiava em você.\n🔁 Repetiu o mesmo erro mais uma vez.\n🚪 Fechou portas que hoje fazem falta.\n🤐 Tem vergonha de voltar atrás.\n\nDeus pediu a Jonas que fosse a Nínive, e ele fugiu na direção contrária. Veio a tempestade, o mar, o grande peixe. Lá dentro, Jonas orou. E Deus falou com ele pela segunda vez.\n\nDessa vez Jonas foi. Nínive ouviu a mensagem, e Deus teve compaixão da cidade.\n\nO seu erro não é maior que o amor de Deus. Ele é o Deus da segunda chance, e da terceira, e da quarta.\n\n📜 O versículo (Jonas 3:1-2)\nDepois do peixe, Deus falou com Jonas pela segunda vez, com a mesma missão de antes: ir a Nínive. A intenção desse versículo é mostrar que Deus não cancelou o chamado de Jonas porque ele fugiu. Ele repetiu o convite. A segunda chance não é um plano B, é o mesmo amor insistindo.\n\n📖 Jonas 1 a 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jonas #recomeco",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 7 da história: Jonas. Ilustração em papel recortado.",
+   "Slide 2 de 7 da história: Jonas. Ilustração em papel recortado.",
+   "Slide 3 de 7 da história: Jonas. Ilustração em papel recortado.",
+   "Slide 4 de 7 da história: Jonas. Ilustração em papel recortado.",
+   "Slide 5 de 7 da história: Jonas. Ilustração em papel recortado.",
+   "Slide 6 de 7 da história: Jonas. Ilustração em papel recortado.",
+   "Slide 7 de 7 da história: Jonas. Ilustração em papel recortado."
+  ],
+  "titulo": "Jonas",
+  "post": "06",
+  "miniatura": "midia/miniaturas/repost06.jpg"
+ },
+ {
   "id": "post18",
   "tipo": "CARROSSEL",
   "quando": "2026-10-26T12:00:00-03:00",
@@ -1715,6 +1887,36 @@
   "dur": 12.0
  },
  {
+  "id": "repost07",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-27T08:00:00-03:00",
+  "midia": [
+   "midia/post07/t_slide_01.jpg",
+   "midia/post07/t_slide_02.jpg",
+   "midia/post07/t_slide_03.jpg",
+   "midia/post07/t_slide_04.jpg",
+   "midia/post07/t_slide_05.jpg",
+   "midia/post07/t_slide_06.jpg",
+   "midia/post07/t_slide_07.jpg",
+   "midia/post07/t_slide_08.jpg"
+  ],
+  "legenda": "Você já recebeu ajuda de quem menos esperava?\n\n🚶 A pessoa sozinha que você viu e passou direto.\n📞 O amigo que sumiu e você não ligou.\n👵 O vizinho que precisa de uma mão.\n🧥 Alguém com frio na rua.\n💬 Aquela mensagem que você deixou para depois.\n\nUm professor da lei, um estudioso das leis de Deus, perguntou a Jesus: \"Quem é o meu próximo?\", ou seja, quem ele deveria amar e ajudar. Jesus respondeu com uma história. Um homem foi assaltado e deixado ferido na estrada. Dois religiosos viram e passaram pelo outro lado. Quem parou foi um samaritano, alguém de um povo vizinho, rival dos judeus. Ele cuidou do homem e pagou a pousada.\n\nAmar o próximo é parar. Ajudar quem está do nosso lado, mesmo quando não é conveniente. Deus usa as nossas mãos.\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: O bom samaritano. Ilustração em papel recortado."
+  ],
+  "titulo": "O bom samaritano",
+  "post": "07",
+  "miniatura": "midia/miniaturas/repost07.jpg"
+ },
+ {
   "id": "post19",
   "tipo": "CARROSSEL",
   "quando": "2026-10-27T12:00:00-03:00",
@@ -1767,6 +1969,34 @@
   "miniatura": "midia/miniaturas/htexto18-2026-10-27.jpg",
   "titulo": "O filho pródigo",
   "dur": 12.0
+ },
+ {
+  "id": "repost08",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-28T08:00:00-03:00",
+  "midia": [
+   "midia/post08/t_slide_01.jpg",
+   "midia/post08/t_slide_02.jpg",
+   "midia/post08/t_slide_03.jpg",
+   "midia/post08/t_slide_04.jpg",
+   "midia/post08/t_slide_05.jpg",
+   "midia/post08/t_slide_06.jpg",
+   "midia/post08/t_slide_07.jpg"
+  ],
+  "legenda": "Você está passando por uma tempestade que parece não ter fim?\n\n🌧️ Um problema que se arrasta há meses.\n🏥 Um tratamento longo.\n💸 Contas que não fecham.\n💔 Um luto que ainda dói.\n⏳ A espera por uma resposta que não chega.\n\nNoé construiu a arca exatamente como Deus mandou, quando ainda não havia nenhum sinal de chuva. Depois veio a chuva: quarenta dias e quarenta noites. Mas um dia a pomba voltou com uma folha de oliveira no bico, e Deus colocou um arco-íris no céu.\n\nA Bíblia conta que, no meio daquela água toda, Deus se lembrou de Noé (Gênesis 8:1). Ele não esquece quem está atravessando a tempestade.\n\nSe a dor estiver pesada demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📜 O versículo (Gênesis 9:13)\nDeus falou essas palavras a Noé e aos filhos dele depois do dilúvio. O arco-íris passou a ser o sinal de uma aliança, ou seja, de uma promessa: Deus nunca mais destruiria a terra com um dilúvio. A intenção era deixar um lembrete visível de que Deus cumpre o que promete. Toda vez que aparece um arco-íris depois da chuva, a gente lembra que Ele é fiel.\n\n📖 Gênesis 6 a 9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #noe #esperanca",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 7 da história: Noé. Ilustração em papel recortado.",
+   "Slide 2 de 7 da história: Noé. Ilustração em papel recortado.",
+   "Slide 3 de 7 da história: Noé. Ilustração em papel recortado.",
+   "Slide 4 de 7 da história: Noé. Ilustração em papel recortado.",
+   "Slide 5 de 7 da história: Noé. Ilustração em papel recortado.",
+   "Slide 6 de 7 da história: Noé. Ilustração em papel recortado.",
+   "Slide 7 de 7 da história: Noé. Ilustração em papel recortado."
+  ],
+  "titulo": "Noé",
+  "post": "08",
+  "miniatura": "midia/miniaturas/repost08.jpg"
  },
  {
   "id": "post20",
@@ -1823,6 +2053,32 @@
   "dur": 12.0
  },
  {
+  "id": "repost09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-29T08:00:00-03:00",
+  "midia": [
+   "midia/post09/t_slide_01.jpg",
+   "midia/post09/t_slide_02.jpg",
+   "midia/post09/t_slide_03.jpg",
+   "midia/post09/t_slide_04.jpg",
+   "midia/post09/t_slide_05.jpg",
+   "midia/post09/t_slide_06.jpg"
+  ],
+  "legenda": "Você acha que o pouco que tem não vale nada?\n\n⏰ Pouco tempo livre na semana.\n💰 Pouco dinheiro para ajudar alguém.\n🎤 Um talento que você acha pequeno.\n🙏 Uma oração curtinha antes de dormir.\n🤗 Um abraço que parece simples.\n\nNo templo, muitos ricos davam grandes ofertas. Uma viúva pobre deu duas moedinhas. Jesus disse que ela deu mais que todos, porque deu tudo o que tinha.\n\nPara Deus, o valor não está no tamanho do que a gente dá, mas no coração com que a gente dá. O seu pouco, entregue com amor, é muito.\n\n📜 O versículo (Marcos 12:44)\nJesus explicou aos discípulos por que a viúva deu mais que todos: os outros deram o que sobrava, e ela deu tudo o que tinha para viver. A intenção de Jesus era ensinar que Deus olha o coração e o quanto custou dar, e não o tamanho da oferta.\n\n📖 Marcos 12:41-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #generosidade #jesus",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
+   "Slide 2 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
+   "Slide 3 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
+   "Slide 4 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
+   "Slide 5 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
+   "Slide 6 de 6 da história: A oferta da viúva. Ilustração em papel recortado."
+  ],
+  "titulo": "A oferta da viúva",
+  "post": "09",
+  "miniatura": "midia/miniaturas/repost09.jpg"
+ },
+ {
   "id": "htexto20-2026-10-29",
   "tipo": "REEL",
   "quando": "2026-10-29T17:00:00-03:00",
@@ -1837,5 +2093,59 @@
   "miniatura": "midia/miniaturas/htexto20-2026-10-29.jpg",
   "titulo": "Jesus lava os pés dos discípulos",
   "dur": 12.0
+ },
+ {
+  "id": "repost10",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-30T08:00:00-03:00",
+  "midia": [
+   "midia/post10/t_slide_01.jpg",
+   "midia/post10/t_slide_02.jpg",
+   "midia/post10/t_slide_03.jpg",
+   "midia/post10/t_slide_04.jpg",
+   "midia/post10/t_slide_05.jpg",
+   "midia/post10/t_slide_06.jpg"
+  ],
+  "legenda": "Sua cabeça não para nem um minuto?\n\n📋 A lista de tarefas que nunca acaba.\n📱 O celular que não deixa você desligar.\n🏠 Casa, trabalho, filhos, tudo ao mesmo tempo.\n🌙 A noite em que a mente não descansa.\n😮‍💨 O cansaço de ter que dar conta de tudo.\n\nJesus foi visitar Marta e Maria. Maria se sentou para ouvir. Marta corria de um lado para o outro, cansada, e reclamou. Jesus respondeu com carinho: \"Só uma coisa é necessária.\"\n\nNem tudo depende de você. Às vezes, o mais importante é parar, respirar e ficar perto de Deus. Ele cuida do que você não consegue segurar.\n\nSe a ansiedade estiver pesada demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📜 O versículo (Lucas 10:41-42)\nJesus responde a Marta com carinho, chamando o nome dela duas vezes. Em palavras de hoje: \"Marta, você está preocupada e agitada com muitas coisas, mas só uma é necessária. Maria escolheu a melhor parte, e ninguém vai tirar isso dela.\" A intenção de Jesus não era criticar o trabalho de Marta, mas convidá-la a parar e a colocar em primeiro lugar o tempo com Ele.\n\n📖 Lucas 10:38-42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #martaemaria #ansiedade",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
+   "Slide 2 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
+   "Slide 3 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
+   "Slide 4 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
+   "Slide 5 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
+   "Slide 6 de 6 da história: Marta e Maria. Ilustração em papel recortado."
+  ],
+  "titulo": "Marta e Maria",
+  "post": "10",
+  "miniatura": "midia/miniaturas/repost10.jpg"
+ },
+ {
+  "id": "repost11",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-31T08:00:00-03:00",
+  "midia": [
+   "midia/post11/t_slide_01.jpg",
+   "midia/post11/t_slide_02.jpg",
+   "midia/post11/t_slide_03.jpg",
+   "midia/post11/t_slide_04.jpg",
+   "midia/post11/t_slide_05.jpg",
+   "midia/post11/t_slide_06.jpg",
+   "midia/post11/t_slide_07.jpg"
+  ],
+  "legenda": "Você já se perguntou por que está onde está?\n\n🏢 O emprego que você não planejou.\n🏫 A escola ou a cidade onde você foi parar.\n👪 A família que Deus te deu.\n🤝 As pessoas que cruzam o seu caminho.\n🕰️ O momento difícil que você está vivendo agora.\n\nEster era uma moça simples que virou rainha. Quando um homem mau fez um plano contra o povo dela, ela teve medo, porque ir até o rei sem ser chamada podia custar a sua vida. Mesmo assim, Ester pediu que o povo jejuasse por ela, criou coragem e falou com o rei. E o povo foi salvo.\n\nNada na sua vida está fora dos planos de Deus. Talvez você esteja exatamente onde precisa estar para fazer a diferença na vida de alguém.\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\nOnde Deus colocou você hoje? 👑\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 7 da história: Ester. Ilustração em papel recortado.",
+   "Slide 2 de 7 da história: Ester. Ilustração em papel recortado.",
+   "Slide 3 de 7 da história: Ester. Ilustração em papel recortado.",
+   "Slide 4 de 7 da história: Ester. Ilustração em papel recortado.",
+   "Slide 5 de 7 da história: Ester. Ilustração em papel recortado.",
+   "Slide 6 de 7 da história: Ester. Ilustração em papel recortado.",
+   "Slide 7 de 7 da história: Ester. Ilustração em papel recortado."
+  ],
+  "titulo": "Ester",
+  "post": "11",
+  "miniatura": "midia/miniaturas/repost11.jpg"
  }
 ]
