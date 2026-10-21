@@ -301,9 +301,11 @@ def coletar_curvas(ig, agenda, estado):
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id') or tipos.get(iid) != 'REEL': continue
         quando = datetime.fromisoformat(reg.get('em', agora.isoformat()))
         if quando.tzinfo is None: quando = quando.replace(tzinfo=timezone.utc)
-        if not (timedelta(0) <= agora - quando <= timedelta(hours=24, minutes=30)): continue
+        idade = agora - quando                                     # Felipe, 21/10: curva por 3 dias (Reel segue sendo entregue)
+        if not (timedelta(0) <= idade <= timedelta(hours=72, minutes=30)): continue
         pts = cur.setdefault(iid, {'publicado': quando.isoformat(), 'pontos': []})['pontos']
-        if pts and datetime.fromisoformat(pts[-1]['t']) > agora - timedelta(minutes=55): continue
+        passo = timedelta(minutes=55) if idade <= timedelta(hours=24, minutes=30) else timedelta(minutes=175)   # 1º dia de hora em hora; depois a cada 3 h
+        if pts and datetime.fromisoformat(pts[-1]['t']) > agora - passo: continue
         m = _insights(ig, reg['media_id'], CAMPOS_CURVA)
         if m:
             pts.append(dict(m, t=agora.isoformat(timespec='minutes'), h=round((agora - quando).total_seconds() / 3600, 2))); lidos += 1
