@@ -44,8 +44,16 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "estado: publicações"
           # se outra gravação chegou antes, traz a versão nova e tenta de novo (evita perder o registro do que foi publicado)
+          mkdir -p /tmp/nossa; cp estado.json metricas.json comentarios.json historico.json curvas.json /tmp/nossa/ 2>/dev/null || true
           for i in 1 2 3 4 5; do
             git pull --rebase -q && git push -q && exit 0
+            # conflito: em vez de desistir, pega a versão do GitHub e junta os nossos dados com os dela (juntar_dados.py)
+            git rebase --abort 2>/dev/null || true
+            git fetch -q origin main && git reset -q --hard origin/main
+            python juntar_dados.py /tmp/nossa
+            git add estado.json; git add metricas.json comentarios.json historico.json curvas.json 2>/dev/null || true
+            git diff --cached --quiet || git commit -q -m "estado: publicações (dados juntados)"
+            git push -q && exit 0
             sleep $((i * 5))
           done
           echo "ERRO: não consegui salvar o estado depois de 5 tentativas"; exit 1
