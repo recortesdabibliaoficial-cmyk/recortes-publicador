@@ -905,14 +905,18 @@
   "lido_em": "2026-10-22T02:30:56.634917+00:00"
  },
  "story2026-10-21": {
-  "reach": 0,
-  "views": 6,
+  "reach": 8,
+  "views": 9,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-22T10:36:02.331761+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 7
+  },
+  "lido_em": "2026-10-22T12:36:03.475215+00:00"
  },
  "htexto01-2026-10-21": {
   "reach": 170,
@@ -928,14 +932,17 @@
   "lido_em": "2026-10-22T02:30:56.634917+00:00"
  },
  "ora-story-noite-2026-10-21": {
-  "reach": 0,
-  "views": 4,
+  "reach": 7,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-22T10:36:02.331761+00:00"
+  "nav": {
+   "tap_forward": 7
+  },
+  "lido_em": "2026-10-22T12:36:03.475215+00:00"
  },
  "ora-reel-noite-2026-10-21": {
   "reach": 136,
