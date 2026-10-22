@@ -671,7 +671,7 @@ async function desenharDash(){
 
   // ---------- stories ----------
   const sts = L.filter(p => p.story).sort((a, b) => b.i.quando.localeCompare(a.i.quando));
-  const linhaSt = p => { const n = p.m.nav, r = p.reach, sai = n && r > 0 ? n.TAP_EXIT / r * 100 : null, av = n && r > 0 ? ((n.TAP_FORWARD || 0) + (n.SWIPE_FORWARD || 0)) / r * 100 : null;
+  const linhaSt = p => { const n = p.m.nav, r = p.reach, sai = n && r > 0 ? navV(n, 'tap_exit') / r * 100 : null, av = n && r > 0 ? (navV(n, 'tap_forward') + navV(n, 'swipe_forward')) / r * 100 : null;
     return `<tr><td class="r">${new Date(p.i.quando).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', timeZone: RIO })} ${hh(p.slot)}</td><td>${esc(p.tit)}</td><td>${f1(p.reach)}</td><td>${f1(p.m.replies)}</td><td>${fp(sai, 0)}</td><td>${fp(av, 0)}</td></tr>`; };
   const secSt = caixa('📱 Stories', '«Saiu» = quem fechou o Story no meio; «avançou» = quem passou para o próximo. Os dois só aparecem quando o Instagram informa.',
     sts.length ? '<div class="rolagem"><table class="tb"><thead><tr><th>Data</th><th>Story</th><th>Alcance</th><th>Respostas</th><th>% que saiu</th><th>% avançou</th></tr></thead><tbody>' + sts.map(linhaSt).join('') + '</tbody></table></div>' : '<div class="nada">Sem Stories com métricas neste período.</div>');
