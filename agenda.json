@@ -1308,17 +1308,32 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-22.jpg"
  },
  {
+  "id": "salmo91-2026-10-22",
+  "tipo": "REEL",
+  "quando": "2026-10-22T14:00:00-03:00",
+  "midia": [
+   "midia/versiculos/salmo91_2026-10-22_259d3846.mp4"
+  ],
+  "legenda": "Salmo 91\n\nAquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará.\n\n📖 Salmo 91:1-7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#salmo91 #biblia #oracao #fe #palavradedeus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "titulo": "Salmo 91 (1-7)",
+  "dur": 12.0,
+  "miniatura": "midia/miniaturas/salmo91-2026-10-22.jpg"
+ },
+ {
   "id": "vmsg2026-10-22",
   "tipo": "REEL",
   "quando": "2026-10-22T15:00:00-03:00",
   "midia": [
-   "midia/versiculos/vmsg_2026-10-22_bec0a948.mp4"
+   "midia/versiculos/vmsg_2026-10-22_ad9592cc.mp4"
   ],
-  "legenda": "SALMO 91:1-2: Deus é o seu refúgio sempre.\n\nTem dias em que tudo assusta: as notícias, a saúde, a família. Deus não promete que nada vai acontecer. Ele promete estar junto, e debaixo da sombra dele você pode descansar.\n\n📖 Salmo 91:1-2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #versiculododia #fe #deus #palavradedeus",
+  "legenda": "ISAÍAS 40:31: Deus renova as suas forças.\n\nEsperar cansa. A resposta demora, a porta não abre, o corpo pede uma pausa. Mas quem espera em Deus não espera parado: recebe força nova para dar mais um passo.\n\n📖 Isaías 40:31 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #versiculododia #fe #deus #palavradedeus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
-  "titulo": "Versículo: Salmo 91:1-2",
+  "titulo": "Versículo: Isaías 40:31",
   "dur": 12.0,
   "miniatura": "midia/miniaturas/vmsg2026-10-22.jpg"
  },
