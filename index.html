@@ -115,6 +115,15 @@
   .atu button:disabled { opacity:.6; }
   .barra { display:inline-block; vertical-align:middle; width:140px; height:8px; border-radius:99px; background:var(--linha); overflow:hidden; }
   .barra > span { display:block; height:100%; width:0; background:var(--terra); transition:width .6s; }
+  /* Stories: quem já segue (tabela por dia; tocar no dia abre os Stories dele) */
+  .tb.st th { white-space:normal; vertical-align:bottom; line-height:1.2; }
+  .tb.st tr.tem { cursor:pointer; }
+  .tb.st tr.tem:hover td { background:var(--bg); }
+  .tb.st .stbtn { border:0; background:none; color:inherit; font:inherit; padding:0; cursor:pointer; text-align:left; }
+  .tb.st .stseta { color:var(--terra); display:inline-block; width:1em; }
+  .tb.st .stdet[hidden] { display:none; }
+  .tb.st .stdet > td { text-align:left; background:var(--bg); padding:6px 8px 10px; }
+  .tb.st .stdet .tb { font-size:12px; }
 </style>
 </head>
 <body>
@@ -514,6 +523,38 @@ function horaMetade(pts){
   return null;
 }
 
+// ----- Stories: quem já segue (últimos 7 dias, um dia por linha, hora do Rio) -----
+const navV = (n, k) => n ? (num(n[k]) ? n[k] : num(n[k.toUpperCase()]) ? n[k.toUpperCase()] : 0) : null;   // chaves vêm em minúsculas; ausente = 0
+function somaStories(l, k){            // soma de k nos Stories do dia; parcial = algum Story ficou sem esse dado
+  const v = l.map(i => (met[i.id] || {})[k]).filter(num);
+  return { v: v.length ? soma(v) : null, parcial: v.length > 0 && v.length < l.length };
+}
+function secStoriesSeguem(hist, serie, pubTodos){
+  const hojeK = chaveDia(new Date()), segDia = d => { let r = null; serie.forEach(s => { if (s.dia <= d && num(s.n)) r = s.n; }); return r; };   // o do dia ou o mais próximo antes
+  const nomeDia = d => new Date(d + 'T12:00:00-03:00').toLocaleDateString('pt-BR', { weekday: 'short', timeZone: RIO }).replace('.', '') + ' ' + dd(d);
+  const pct = (a, b) => { const r = razao(a, b); return r == null ? '—' : fp(r * 100, 0); };
+  let parcial = false;
+  const celSoma = (l, k) => { if (!l.length) return '—'; const s = somaStories(l, k); if (s.v == null) return '—'; if (s.parcial) parcial = true; return f1(s.v) + (s.parcial ? '*' : ''); };
+  const linhas = dayKeys(7, 0).reverse().map(d => {
+    const sts = pubTodos.filter(i => i.tipo === 'STORY' && chaveDia(new Date(i.quando)) === d).sort((a, b) => new Date(a.quando) - new Date(b.quando));
+    const seg = segDia(d), r1 = sts.length ? (met[sts[0].id] || {}).reach : null, rU = sts.length > 1 ? (met[sts[sts.length-1].id] || {}).reach : null;
+    const seguidoresVistos = somaQuebra(hist, [d], 'reach:follow_type', 'FOLLOWER');
+    const tem = sts.length > 0;
+    const topo = `<tr class="stdia${tem ? ' tem' : ''}"><td class="r">${tem ? '<button type="button" class="stbtn" aria-label="Ver os Stories do dia"><span class="stseta">▸</span>' + nomeDia(d) + '</button>' : nomeDia(d)}${d === hojeK ? ' <span class="suave">hoje</span>' : ''}</td>` +
+      `<td>${f1(seg)}</td><td>${sts.length}</td><td>${tem ? pct(r1, seg) : '—'}</td><td>${sts.length > 1 ? pct(rU, r1) : '—'}</td>` +
+      `<td>${celSoma(sts, 'replies')}</td><td>${celSoma(sts, 'profile_visits')}</td><td>${tem ? pct(seguidoresVistos, seg) : '—'}</td></tr>`;
+    if (!tem) return topo;
+    const lista = sts.map(i => { const m = met[i.id] || {};
+      return `<tr><td class="r">${esc(i.titulo || i.id)}</td><td>${fmtHora(new Date(i.quando))}</td><td>${f1(m.reach)}</td><td>${m.nav ? f1(navV(m.nav, 'tap_forward')) : '—'}</td><td>${m.nav ? f1(navV(m.nav, 'tap_exit')) : '—'}</td><td>${f1(m.replies)}</td><td>${f1(m.profile_visits)}</td></tr>`; }).join('');
+    return topo + `<tr class="stdet" hidden><td colspan="8"><table class="tb st"><thead><tr><th>Story</th><th>Hora</th><th>Alcance</th><th>Avançou</th><th>Saiu</th><th>Mensagens</th><th>Visitas ao perfil</th></tr></thead><tbody>${lista}</tbody></table></td></tr>`;
+  });
+  const tabelaHtml = '<div class="rolagem"><table class="tb st"><thead><tr><th>Dia</th><th>Seguidores</th><th>Stories</th><th>1º Story ÷ seguidores</th><th>Chegaram ao último</th><th>Mensagens</th><th>Visitas ao perfil</th><th>Seguidores vistos no dia</th></tr></thead><tbody>' + linhas.join('') + '</tbody></table></div>';
+  return caixaGen('📲 Stories: quem já segue', tabelaHtml +
+    '<div class="expl" style="margin:8px 0 0">1º Story ÷ seguidores = quantos de quem segue viram o primeiro Story do dia. Chegaram ao último = de quem viu o primeiro, quantos foram até o último.</div>' +
+    '<div class="suave" style="margin-top:4px">Mensagens = respostas aos Stories (chegam no direct). Seguidores vistos no dia = parte dos seguidores que viu algo da conta nesse dia. Últimos 7 dias, hora do Rio. As contas são aproximadas: o alcance de um Story pode incluir quem não segue, e «chegaram ao último» passa de 100% se o último Story chegou a mais gente. Toque no dia para ver os Stories dele (avançou = tocou para ver o próximo; saiu = fechou o Story).' +
+    (parcial ? ' * = falta o dado de algum Story do dia.' : '') + '</div>');
+}
+
 async function desenharDash(){
   const el = document.getElementById('dash'), tok = ++cargaDash;
   el.innerHTML = '<div class="caixa"><div class="nada">Carregando o painel…</div></div>';
@@ -646,7 +687,7 @@ async function desenharDash(){
   el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
       <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR && canal.id === 'biblia' ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
     ${caixaGen('🚨 Alertas', alertasHtml)}` +
-    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secTend + secObs;
+    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secStoriesSeguem(hist, serie, pubTodos) + secTend + secObs;
   if (ATUALIZAR && canal.id === 'biblia') acompanharAtualizacao();          // retoma a barra se havia um pedido em andamento
 
   // ---------- gráficos ----------
@@ -745,6 +786,8 @@ async function acompanharAtualizacao(){
 document.getElementById('dash').addEventListener('click', e => {
   if (e.target.id === 'btnAtu') { atualizarAgora(); return; }
   const ab =e.target.closest('.abrfec a'); if (ab) { document.querySelectorAll('#dash .caixa[data-k]').forEach(c => alternar(c, ab.dataset.ab === '1')); return; }
+  const sd = e.target.closest('tr.stdia.tem'); if (sd) { const det = sd.nextElementSibling, seta = sd.querySelector('.stseta');   // abre/fecha a lista de Stories do dia
+    if (det && det.classList.contains('stdet')) { det.hidden = !det.hidden; if (seta) seta.textContent = det.hidden ? '▸' : '▾'; } return; }
   const tg = e.target.closest('.tg'); if (tg) { alternar(tg.closest('.caixa')); return; }
   const p = e.target.closest('#fper button'); if (p) { periodo = +p.dataset.p; desenharDash(); return; }
   const k = e.target.closest('#fcurva button'); if (k) { curvaMetrica = k.dataset.k; desenharDash(); }
