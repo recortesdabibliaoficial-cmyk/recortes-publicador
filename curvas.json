@@ -1710,5 +1710,21 @@
  "htexto01": {
   "publicado": "2026-10-19T15:01:44.816015+00:00",
   "pontos": []
+ },
+ "ora-reel-noite-2026-10-21": {
+  "publicado": "2026-10-22T00:02:34.904277+00:00",
+  "pontos": [
+   {
+    "reach": 0,
+    "views": 0,
+    "likes": 0,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 0,
+    "ig_reels_avg_watch_time": 0,
+    "t": "2026-10-22T00:03+00:00",
+    "h": 0.02
+   }
+  ]
  }
 }

@@ -570,8 +570,8 @@
   "link": "https://www.instagram.com/reel/DexODi2DkRT/"
  },
  "ora-story-noite-2026-10-21": {
-  "tentativas": 1,
-  "ultimo_erro": "17841437496307089/media_publish: {'message': 'The requested resource does not exist', 'type': 'OAuthException', 'code': 24, 'error_subcode': 2207006, 'is_transient': False, 'error_user_title': 'Media Not Found', 'error_user_msg': 'The media with 18,107,418,032,249,877 cannot be found.', 'fbtrace_id': 'ASxD6dgrN_dxwDM9cY46FMw'}"
+  "tentativas": 2,
+  "ultimo_erro": "17841437496307089/media_publish: {'message': 'Media ID is not available', 'type': 'OAuthException', 'code': 9007, 'error_subcode': 2207027, 'is_transient': False, 'error_user_title': 'Cannot Publish', 'error_user_msg': 'The media is not ready for publishing, please wait for a moment', 'fbtrace_id': 'AlJtGiYJnGcmps2L39ld8Dz'}"
  },
  "ora-reel-noite-2026-10-21": {
   "tentativas": 0,
