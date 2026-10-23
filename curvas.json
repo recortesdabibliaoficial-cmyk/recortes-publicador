@@ -4477,6 +4477,17 @@
     "ig_reels_avg_watch_time": 14854,
     "t": "2026-10-23T10:10+00:00",
     "h": 14.15
+   },
+   {
+    "reach": 1520,
+    "views": 2975,
+    "likes": 80,
+    "shares": 4,
+    "saved": 1,
+    "reels_skip_rate": 49.2,
+    "ig_reels_avg_watch_time": 14991,
+    "t": "2026-10-23T11:05+00:00",
+    "h": 15.06
    }
   ]
  },
@@ -4614,6 +4625,22 @@
     "ig_reels_avg_watch_time": 8625,
     "t": "2026-10-23T10:35+00:00",
     "h": 10.55
+   }
+  ]
+ },
+ "ora-reel-manha-2026-10-23": {
+  "publicado": "2026-10-23T11:04:06.327573+00:00",
+  "pontos": [
+   {
+    "reach": 0,
+    "views": 0,
+    "likes": 0,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 0,
+    "ig_reels_avg_watch_time": 0,
+    "t": "2026-10-23T11:05+00:00",
+    "h": 0.02
    }
   ]
  }
