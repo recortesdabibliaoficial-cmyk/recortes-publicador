@@ -529,6 +529,27 @@ function somaStories(l, k){            // soma de k nos Stories do dia; parcial 
   const v = l.map(i => (met[i.id] || {})[k]).filter(num);
   return { v: v.length ? soma(v) : null, parcial: v.length > 0 && v.length < l.length };
 }
+// Seguidores por hora (23/10): ganho entre leituras horárias seguidas (metricas.json › _seg_hora), pela hora do Rio.
+function ganhosHora(){
+  const L = (met._seg_hora || []).filter(x => x && num(x.n) && x.t), out = [];   // {dia, h, g}
+  for (let k = 1; k < L.length; k++) {
+    const a = L[k-1], b = L[k], gap = (new Date(b.t) - new Date(a.t)) / 6e4;
+    if (gap < 30 || gap > 180) continue;                 // leitura faltando: não inventa ganho
+    out.push({ dia: a.t.slice(0, 10), h: +a.t.slice(11, 13), g: b.n - a.n });
+  }
+  return { n: L.length, g: out };
+}
+function secSegHora(){
+  const { n, g } = ganhosHora();
+  if (n < 2 || !g.length) return caixa('🕐 Seguidores por hora', 'Quantos seguidores a conta ganha em cada hora do dia (horário do Rio).', '<div class="nada">Coletando dados (começou hoje). O robô lê o número de seguidores a cada hora; o gráfico aparece com as primeiras horas de dados.</div>');
+  const hoje = chaveDia(new Date()), ontem = chaveDia(new Date(Date.now() - 864e5)), sete = new Set(dayKeys(7, 0));
+  const linha = d => Array.from({ length: 24 }, (_, h) => { const x = g.filter(y => y.dia === d && y.h === h); return x.length ? soma(x.map(y => y.g)) : null; });
+  const fmtG = v => v == null ? '<span class="suave">·</span>' : (v > 0 ? '+' : '') + v;
+  const tb = '<div class="rolagem"><table class="tb"><thead><tr><th></th>' + Array.from({ length: 24 }, (_, h) => `<th>${h}h</th>`).join('') + '</tr></thead><tbody>' +
+    [['Hoje', hoje], ['Ontem', ontem]].map(([r, d]) => `<tr><td class="r">${r}</td>${linha(d).map(v => `<td>${fmtG(v)}</td>`).join('')}</tr>`).join('') + '</tbody></table></div>';
+  return caixa('🕐 Seguidores por hora', 'Ganho médio de seguidores em cada hora do dia, nos últimos 7 dias (horário do Rio). Barra alta = hora em que mais gente passa a seguir. Abaixo, o ganho hora a hora de hoje e de ontem.',
+    grafico('g-seghora') + tb);
+}
 function secStoriesSeguem(hist, serie, pubTodos){
   const hojeK = chaveDia(new Date()), segDia = d => { let r = null; serie.forEach(s => { if (s.dia <= d && num(s.n)) r = s.n; }); return r; };   // o do dia ou o mais próximo antes
   const nomeDia = d => new Date(d + 'T12:00:00-03:00').toLocaleDateString('pt-BR', { weekday: 'short', timeZone: RIO }).replace('.', '') + ' ' + dd(d);
@@ -685,10 +706,10 @@ async function desenharDash(){
     tl('Alcance médio por Reel', mRC, mRA, v => f1(v)) + tl('Pulos médios dos Reels', mSkip, mSA, v => fp(v), true) + '</tbody></table></div>');
 
   el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
-      <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR && canal.id === 'biblia' ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
+      <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
     ${caixaGen('🚨 Alertas', alertasHtml)}` +
-    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secStoriesSeguem(hist, serie, pubTodos) + secTend + secObs;
-  if (ATUALIZAR && canal.id === 'biblia') acompanharAtualizacao();          // retoma a barra se havia um pedido em andamento
+    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secStoriesSeguem(hist, serie, pubTodos) + secSegHora() + secTend + secObs;
+  if (ATUALIZAR) acompanharAtualizacao();          // retoma a barra se havia um pedido em andamento
 
   // ---------- gráficos ----------
   try { await carregarChart(); } catch(e) {
@@ -717,6 +738,10 @@ async function desenharDash(){
       { label: 'Alcance médio (esq.)', data: linhasH.map(l => l[2].v), backgroundColor: pal[2], yAxisID: 'y' },
       { type: 'line', label: 'Pulos % (dir.)', data: linhasH.map(l => l[3].v), borderColor: pal[0], backgroundColor: pal[0], yAxisID: 'y2' }] },
     options: { scales: { x: {}, y: { beginAtZero: true }, y2: { position: 'right', beginAtZero: true, grid: { drawOnChartArea: false } } } } });
+  { const sH = new Set(dayKeys(7, 0)), gH = ganhosHora().g.filter(y => sH.has(y.dia));
+    if (gH.length) mkChart('g-seghora', { type: 'bar', data: { labels: Array.from({ length: 24 }, (_, h) => h + 'h'), datasets: [{ label: 'Ganho médio de seguidores', backgroundColor: pal[1],
+        data: Array.from({ length: 24 }, (_, h) => { const x = gH.filter(y => y.h === h); return x.length ? Math.round(soma(x.map(y => y.g)) / x.length * 100) / 100 : null; }) }] },
+      options: { plugins: { legend: { display: false } }, scales: { x: {}, y: { beginAtZero: true } } } }); }
   if (comCurva.length) {
     mkChart('g-curva', { type: 'line', data: { datasets: comCurva.map((p, k) => linhaDS(`${p.tit} · ${hh(p.slot)}`, pontosCurva(D.curv[p.id], curvaMetrica), pal[k % pal.length], { pointRadius: 2 })) },
       options: { parsing: false, plugins: { legend: { position: 'bottom', labels: { color: cssVar('--suave'), boxWidth: 10, font: { size: 10 } } } },
@@ -734,6 +759,7 @@ document.getElementById('modo').addEventListener('click', e => {
   modo = b.dataset.m; MODO.set(modo); mostrarModo();
 });
 // Botão "Atualizar agora" (Felipe, 20/10): pede ao Apps Script "Atualizar Canais" (com o PIN) que mande o robô ler as métricas na hora.
+// Em qualquer aba o pedido vai com canal 'todos' (atualiza os dois canais); a barra acompanha o canal da aba atual.
 // A chave do GitHub fica só no Apps Script; o robô aceita no máximo 1 leitura forçada a cada 30 min.
 let acompanhando = false;
 const ATUALIZAR = 'https://script.google.com/macros/s/AKfycbzMcIBcoHw6RaaWn_KZdtrfaKahKhWfxblwJcWwseMKxfs7U58tgbQflbLeBS9BehOxdw/exec';
@@ -742,7 +768,7 @@ async function atualizarAgora(){
   let pin = ''; try { pin = localStorage.getItem('atualizar-pin') || ''; } catch(_) {}
   if (!pin) { pin = (prompt('Digite o PIN do botão Atualizar:') || '').trim(); if (!pin) return; try { localStorage.setItem('atualizar-pin', pin); } catch(_) {} }
   btn.disabled = true; msg.textContent = ' enviando…';
-  let r = null; try { r = await fetch(ATUALIZAR, { method:'POST', headers:{'Content-Type':'text/plain'}, body: JSON.stringify({ pin, canal: canal.id }) }).then(x => x.json()); } catch(_) {}
+  let r = null; try { r = await fetch(ATUALIZAR, { method:'POST', headers:{'Content-Type':'text/plain'}, body: JSON.stringify({ pin, canal: 'todos' }) }).then(x => x.json()); } catch(_) {}
   if (!r || !r.ok) {
     btn.disabled = false;
     msg.textContent = !r ? ' não consegui falar com o robô agora.' : r.erro === 'PIN' ? ' PIN incorreto.' : r.erro === 'espera' ? ` já foi atualizado há pouco; tente de novo em ${r.faltam} min.` : ' o robô não aceitou o pedido (' + (r.cod || r.erro) + ').';

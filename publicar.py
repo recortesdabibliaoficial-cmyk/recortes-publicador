@@ -249,6 +249,22 @@ def coletar_stories(ig, agenda, estado):
     if lidos: salvar(METRICAS, met); log(f'Stories relidos: {lidos}.')
 
 
+def registrar_seg_hora(ig, met, agora, n=None):
+    """Seguidores por hora (Felipe, 23/10): se a última leitura horária tem mais de 55 min, grava {t (hora do Rio), n} em met['_seg_hora']
+    (últimos 14 dias). Usa n já lido, se houver; senão faz UMA chamada me?fields=followers_count. Nunca derruba a execução. Devolve True se gravou."""
+    try:
+        lista = met.setdefault('_seg_hora', [])
+        if lista and datetime.fromisoformat(lista[-1]['t']) > agora - timedelta(minutes=55): return False
+        if n is None: n = ig._req('GET', 'me', fields='followers_count').get('followers_count')
+        if not isinstance(n, int): return False
+        lista.append({'t': agora.astimezone(BRT).isoformat(timespec='minutes'), 'n': n})
+        corte = agora - timedelta(days=14)
+        met['_seg_hora'] = [x for x in lista if datetime.fromisoformat(x['t']) > corte]
+        return True
+    except Exception as e:
+        log('AVISO seguidores por hora:', str(e)[:200]); return False
+
+
 def coletar_metricas(ig, agenda, estado):
     """Lê no Instagram as métricas dos itens publicados nos últimos 60 dias e o número de seguidores. Nunca derruba a execução."""
     met = carregar(METRICAS, {})
@@ -258,7 +274,9 @@ def coletar_metricas(ig, agenda, estado):
     forcado = os.environ.get('FORCAR_METRICAS') == 'sim' and not (            # botão "Atualizar agora" do painel (Felipe, 20/10)
         met.get('_forcado_em') and datetime.fromisoformat(met['_forcado_em']) > agora - timedelta(minutes=30))   # no máximo 1 vez a cada 30 min
     if forcado: met['_forcado_em'] = agora.isoformat(); log('Leitura forçada pelo botão Atualizar.')
-    if not forcado and not fechamento and met.get('_em') and datetime.fromisoformat(met['_em']) > agora - METRICAS_CADA: return
+    if not forcado and not fechamento and met.get('_em') and datetime.fromisoformat(met['_em']) > agora - METRICAS_CADA:
+        if registrar_seg_hora(ig, met, agora): salvar(METRICAS, met)
+        return
     tipos = {i['id']: i['tipo'] for i in agenda}
     conta = {}
     try:
@@ -269,6 +287,7 @@ def coletar_metricas(ig, agenda, estado):
         else: hist.append({'dia': dia, 'n': conta.get('followers_count')})
     except Exception as e:
         log('AVISO métricas (conta):', str(e)[:200])
+    registrar_seg_hora(ig, met, agora, conta.get('followers_count'))
     lidos = 0
     for iid, reg in estado.items():
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id') or iid not in tipos: continue
