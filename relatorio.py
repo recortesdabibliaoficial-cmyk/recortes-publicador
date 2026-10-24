@@ -23,8 +23,8 @@ BRT = timezone(timedelta(hours=-3))
 PAGINA = 'https://recortesdabibliaoficial-cmyk.github.io/recortes-publicador/'
 CANAIS = [  # (nome, arroba, pasta local ou None, endereço dos arquivos no GitHub)
     ('Recortes da Bíblia', '@recortesdabiblia.oficial', AQUI, None),
-    ('Curiosidades em Papel', '@curiosidadesempapel', None,
-     'https://raw.githubusercontent.com/recortesdabibliaoficial-cmyk/curiosidades-publicador/main/'),
+    ('Contos Recortados', '@contosrecortados', None,     # Curiosidades encerrado em 23/10/2026
+     'https://raw.githubusercontent.com/recortesdabibliaoficial-cmyk/contos-publicador/main/'),
 ]
 TIPO_NOME = {'CARROSSEL': 'Carrossel', 'REEL': 'Reel', 'STORY': 'Story'}
 MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro',
