@@ -1166,31 +1166,32 @@
   "lido_em": "2026-10-24T10:51:02.173520+00:00"
  },
  "story2026-10-23": {
-  "reach": 5,
-  "views": 6,
+  "reach": 7,
+  "views": 9,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 5
+   "swipe_forward": 1,
+   "tap_forward": 6
   },
-  "lido_em": "2026-10-24T12:55:26.105850+00:00"
+  "lido_em": "2026-10-24T14:55:33.304414+00:00"
  },
  "vsabia2026-10-23": {
-  "reach": 5,
-  "views": 6,
+  "reach": 6,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 1,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 3,
-   "tap_exit": 1
+   "tap_exit": 1,
+   "tap_forward": 4
   },
-  "lido_em": "2026-10-24T12:55:26.105850+00:00"
+  "lido_em": "2026-10-24T14:55:33.304414+00:00"
  },
  "post15": {
   "reach": 2,
@@ -1314,27 +1315,39 @@
   {
    "t": "2026-10-24T11:00-03:00",
    "n": 65
+  },
+  {
+   "t": "2026-10-24T11:55-03:00",
+   "n": 65
   }
  ],
  "pensar2026-10-23": {
-  "reach": 0,
-  "views": 5,
+  "reach": 5,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-24T12:55:26.105850+00:00"
+  "nav": {
+   "tap_forward": 4
+  },
+  "lido_em": "2026-10-24T14:55:33.304414+00:00"
  },
  "ora-story-noite-2026-10-23": {
-  "reach": 0,
-  "views": 5,
+  "reach": 5,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-24T12:55:26.105850+00:00"
+  "nav": {
+   "swipe_forward": 1,
+   "tap_exit": 2,
+   "tap_forward": 2
+  },
+  "lido_em": "2026-10-24T14:55:33.304414+00:00"
  },
  "htexto03-2026-10-23": {
   "reach": 1432,
