@@ -4610,6 +4610,17 @@
     "ig_reels_avg_watch_time": 26675,
     "t": "2026-10-24T10:45+00:00",
     "h": 41.73
+   },
+   {
+    "reach": 137,
+    "views": 265,
+    "likes": 14,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 64.2,
+    "ig_reels_avg_watch_time": 26675,
+    "t": "2026-10-24T13:40+00:00",
+    "h": 44.64
    }
   ]
  },
@@ -6636,6 +6647,17 @@
     "ig_reels_avg_watch_time": 16241,
     "t": "2026-10-24T12:45+00:00",
     "h": 16.74
+   },
+   {
+    "reach": 1711,
+    "views": 3403,
+    "likes": 106,
+    "shares": 10,
+    "saved": 8,
+    "reels_skip_rate": 47.3,
+    "ig_reels_avg_watch_time": 16124,
+    "t": "2026-10-24T13:40+00:00",
+    "h": 17.66
    }
   ]
  },
