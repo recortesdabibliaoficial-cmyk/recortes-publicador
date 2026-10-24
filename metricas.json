@@ -1377,13 +1377,13 @@
  },
  "ora-story-manha-2026-10-24": {
   "reach": 0,
-  "views": 3,
+  "views": 4,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-24T13:10:40.471154+00:00"
+  "lido_em": "2026-10-24T15:10:43.230158+00:00"
  },
  "story2026-10-24": {
   "reach": 0,
@@ -1394,5 +1394,15 @@
   "follows": 0,
   "profile_visits": 0,
   "lido_em": "2026-10-24T15:05:26.630519+00:00"
+ },
+ "vsabia2026-10-24": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-10-24T15:10:43.230158+00:00"
  }
 }
