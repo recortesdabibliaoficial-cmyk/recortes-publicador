@@ -1996,6 +1996,34 @@
   "miniatura": "midia/miniaturas/repost06.jpg"
  },
  {
+  "id": "ora-story-manha-2026-10-26",
+  "tipo": "STORY",
+  "quando": "2026-10-26T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-26-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 26/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-26.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-26",
+  "tipo": "REEL",
+  "quando": "2026-10-26T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-26-manha/reel_loop_nenhum_76dba8ca.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nHoje, lembre-se de quem está doente. 🙏 Deus conhece cada dor e cada medo. Ore com confiança por quem precisa de alívio e por quem cuida.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 26/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-26.jpg",
+  "dur": 12.0
+ },
+ {
   "id": "post18",
   "tipo": "CARROSSEL",
   "quando": "2026-10-26T12:00:00-03:00",
@@ -2036,6 +2064,17 @@
   "destaque": "Parábolas"
  },
  {
+  "id": "vsabia2026-10-26",
+  "tipo": "STORY",
+  "quando": "2026-10-26T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-26_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? O maior capítulo",
+  "miniatura": "midia/miniaturas/vsabia2026-10-26.jpg"
+ },
+ {
   "id": "vmsg2026-10-26",
   "tipo": "REEL",
   "quando": "2026-10-26T15:00:00-03:00",
@@ -2064,6 +2103,45 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/htexto12-2026-10-26.jpg",
   "titulo": "Zaqueu",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-10-26",
+  "tipo": "STORY",
+  "quando": "2026-10-26T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-26_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: Zaqueu",
+  "miniatura": "midia/miniaturas/pensar2026-10-26.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-10-26",
+  "tipo": "STORY",
+  "quando": "2026-10-26T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-26-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 26/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-26.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-26",
+  "tipo": "REEL",
+  "quando": "2026-10-26T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-26-noite/reel_loop_nenhum_462da629.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nO dia terminou, e você pode descansar. 🌙 Entregue o que não depende de você e durma em paz: Deus guarda o seu sono.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 26/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-26.jpg",
   "dur": 12.0
  },
  {
@@ -2163,6 +2241,50 @@
   "miniatura": "midia/miniaturas/repost07.jpg"
  },
  {
+  "id": "ora-story-manha-2026-10-27",
+  "tipo": "STORY",
+  "quando": "2026-10-27T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-27-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 27/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-27.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-27",
+  "tipo": "REEL",
+  "quando": "2026-10-27T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-27-manha/reel_loop_nenhum_941d5038.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nMuita gente sai cedo hoje para trabalhar. 💼 Ore por elas e pelo seu próprio dia: cada esforço conta, e Deus cuida de cada passo.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 27/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-27.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "lh-2026-10-27-1000",
+  "tipo": "REEL",
+  "quando": "2026-10-27T10:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-27_1000_mulher-samaritana_81c6056f.mp4"
+  ],
+  "legenda": "Acha que a sua história afasta Deus de você? Num poço, uma mulher descobriu que não.\n\nJesus conversou com uma mulher junto a um poço e mostrou que conhecia a vida dela.\n\n📖 João 4:29 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mulhersamaritana",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-27-1000.jpg",
+  "titulo": "Mulher samaritana",
+  "dur": 12.0
+ },
+ {
   "id": "post19",
   "tipo": "CARROSSEL",
   "quando": "2026-10-27T12:00:00-03:00",
@@ -2201,34 +2323,116 @@
   "destaque": "Lições"
  },
  {
-  "id": "vmsg2026-10-27",
+  "id": "lh-2026-10-27-1200",
   "tipo": "REEL",
-  "quando": "2026-10-27T15:00:00-03:00",
+  "quando": "2026-10-27T12:00:00-03:00",
   "midia": [
-   "midia/versiculos/vmsg_2026-10-27_9162f192.mp4"
+   "midia/lote27/2026-10-27_1200_moises-e-o-mar-vermelho_97087186.mp4"
   ],
-  "legenda": "JOSUÉ 1:9: Deus vai com você.\n\nCoragem não é deixar de ter medo. É seguir em frente sabendo que Deus vai junto. Ele disse isso a Josué antes da maior missão da vida dele, e diz a você hoje.\n\n📖 Josué 1:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #versiculododia #fe #deus #palavradedeus",
+  "legenda": "Mar na frente e inimigo atrás? Deus abre caminho onde não há.\n\nO povo ficou entre o mar e o exército do Egito, e Deus abriu o mar.\n\n📖 Êxodo 14:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #moiseseomarvermelho",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
-  "titulo": "Versículo: Josué 1:9",
-  "dur": 12.0,
-  "miniatura": "midia/miniaturas/vmsg2026-10-27.jpg"
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-27-1200.jpg",
+  "titulo": "Moisés e o mar Vermelho",
+  "dur": 12.0
  },
  {
-  "id": "htexto13-2026-10-27",
+  "id": "vsabia2026-10-27",
+  "tipo": "STORY",
+  "quando": "2026-10-27T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-27_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Moisés",
+  "miniatura": "midia/miniaturas/vsabia2026-10-27.jpg"
+ },
+ {
+  "id": "lp-2026-10-27",
+  "tipo": "REEL",
+  "quando": "2026-10-27T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/palavra_2026-10-27_2cc3b0e2.mp4"
+  ],
+  "legenda": "Bênção de Números\n\nO SENHOR te abençoe, e te guarde: Faça resplandecer o SENHOR seu rosto sobre ti, e tenha de ti misericórdia: O SENHOR levante a ti seu rosto, e ponha em ti paz.\n\n📖 Números 6:24-26 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #bencao #biblia #fe #deus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Palavra para orar: Bênção de Números",
+  "miniatura": "midia/miniaturas/lp-2026-10-27.jpg"
+ },
+ {
+  "id": "lh-2026-10-27-1700",
   "tipo": "REEL",
   "quando": "2026-10-27T17:00:00-03:00",
   "midia": [
-   "midia/post13/historia_texto_554e45b6.mp4"
+   "midia/lote27/2026-10-27_1700_bartimeu_bd63d25a.mp4"
   ],
-  "legenda": "Depois de tanta perda, Deus ainda escreve recomeços.\n\n📜 O versículo (Rute 1:16)\nRute disse essas palavras a Noemi no caminho, quando a sogra insistiu para que ela voltasse para o próprio povo. Em palavras de hoje: \"Não me peça para deixar você. Aonde você for, eu vou. O seu povo será o meu povo, e o seu Deus será o meu Deus.\" Era uma promessa de ficar junto e também uma decisão de seguir o Deus de Noemi.\n\n📖 Rute 1 a 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #rute #lealdade",
+  "legenda": "Mandaram você se calar? Um cego gritou ainda mais alto, e Jesus parou.\n\nBartimeu, que era cego, gritou por Jesus perto de Jericó, e Jesus o chamou.\n\n📖 Marcos 10:49 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #bartimeu",
   "na_grade": false,
   "capa_ms": 500,
-  "post": "13",
+  "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/htexto13-2026-10-27.jpg",
-  "titulo": "Rute e Noemi",
+  "miniatura": "midia/miniaturas/lh-2026-10-27-1700.jpg",
+  "titulo": "Bartimeu",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-10-27",
+  "tipo": "STORY",
+  "quando": "2026-10-27T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-27_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: Bartimeu",
+  "miniatura": "midia/miniaturas/pensar2026-10-27.jpg"
+ },
+ {
+  "id": "lh-2026-10-27-1900",
+  "tipo": "REEL",
+  "quando": "2026-10-27T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-27_1900_abigail_069c67ad.mp4"
+  ],
+  "legenda": "Sofre com o erro de alguém da sua casa? Abigail levou 200 pães e evitou uma tragédia.\n\nAbigail foi ao encontro de Davi com pães, vinho, carne e frutas para evitar uma vingança.\n\n📖 1 Samuel 25:32 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #abigail",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-27-1900.jpg",
+  "titulo": "Abigail",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-noite-2026-10-27",
+  "tipo": "STORY",
+  "quando": "2026-10-27T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-27-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 27/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-27.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-27",
+  "tipo": "REEL",
+  "quando": "2026-10-27T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-27-noite/reel_loop_nenhum_e9d33f8f.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nUm café quente, uma conversa boa, um sorriso. 🌙 As coisas pequenas também são presente. Agradeça e descanse com o coração leve.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 27/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-27.jpg",
   "dur": 12.0
  },
  {
@@ -2258,6 +2462,50 @@
   "titulo": "Noé",
   "post": "08",
   "miniatura": "midia/miniaturas/repost08.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-10-28",
+  "tipo": "STORY",
+  "quando": "2026-10-28T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-28-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 28/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-28.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-28",
+  "tipo": "REEL",
+  "quando": "2026-10-28T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-28-manha/reel_loop_nenhum_1651a1f8.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nCoragem não é não sentir medo: é dar o passo mesmo assim. 🌅 Hoje, comece. Um passo de cada vez, e Deus vai com você.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 28/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-28.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "lh-2026-10-28-1000",
+  "tipo": "REEL",
+  "quando": "2026-10-28T10:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-28_1000_jesus-e-as-criancas_35597d8a.mp4"
+  ],
+  "legenda": "Já te trataram como se você não importasse? Jesus pegou crianças nos braços.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
+  "titulo": "Jesus e as crianças",
+  "dur": 12.0
  },
  {
   "id": "post20",
@@ -2298,34 +2546,116 @@
   "destaque": "Lições"
  },
  {
-  "id": "vmsg2026-10-28",
+  "id": "lh-2026-10-28-1200",
   "tipo": "REEL",
-  "quando": "2026-10-28T15:00:00-03:00",
+  "quando": "2026-10-28T12:00:00-03:00",
   "midia": [
-   "midia/versiculos/vmsg_2026-10-28_5a7a1df7.mp4"
+   "midia/lote27/2026-10-28_1200_paes-e-peixes_47aebe02.mp4"
   ],
-  "legenda": "FILIPENSES 4:13: A sua força vem dEle.\n\nEsse versículo não promete que tudo vai dar certo. Paulo escreveu isso preso, depois de passar fome e necessidade. A força vem de Cristo, nos dias bons e nos difíceis.\n\n📖 Filipenses 4:13 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #versiculododia #fe #deus #palavradedeus",
+  "legenda": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas.\n\nUm menino tinha cinco pães e dois peixes, e Jesus alimentou a multidão.\n\n📖 Mateus 14:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #paesepeixes",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
-  "titulo": "Versículo: Filipenses 4:13",
-  "dur": 12.0,
-  "miniatura": "midia/miniaturas/vmsg2026-10-28.jpg"
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1200.jpg",
+  "titulo": "Pães e peixes",
+  "dur": 12.0
  },
  {
-  "id": "htexto15-2026-10-28",
+  "id": "vsabia2026-10-28",
+  "tipo": "STORY",
+  "quando": "2026-10-28T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-28_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Jericó",
+  "miniatura": "midia/miniaturas/vsabia2026-10-28.jpg"
+ },
+ {
+  "id": "lp-2026-10-28",
+  "tipo": "REEL",
+  "quando": "2026-10-28T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/palavra_2026-10-28_52c35700.mp4"
+  ],
+  "legenda": "Salmo 121\n\nLevanto meus olhos aos montes. De onde virá meu socorro? Meu socorro vem do SENHOR, que fez os céus e a terra. Ele não deixará o teu pé se abalar, nem cochilará o teu guardião. Eis que não cochilará nem dormirá o Guardião de Israel.\n\n📖 Salmo 121:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Palavra para orar: Salmo 121",
+  "miniatura": "midia/miniaturas/lp-2026-10-28.jpg"
+ },
+ {
+  "id": "lh-2026-10-28-1700",
   "tipo": "REEL",
   "quando": "2026-10-28T17:00:00-03:00",
   "midia": [
-   "midia/post15/historia_texto_95122dd4.mp4"
+   "midia/lote27/2026-10-28_1700_josue-e-jerico_f5b435ec.mp4"
   ],
-  "legenda": "Quando o cansaço pesa, Deus chega com pão e descanso.\n\n📜 O versículo (1 Reis 19:7)\nEsse versículo conta que o anjo do Senhor, enviado por Deus, voltou uma segunda vez, tocou em Elias e disse: \"Levante-se e coma, porque o caminho ainda é longo.\" A intenção era mostrar que Deus conhecia o cansaço de Elias e cuidou do corpo dele com paciência, antes de qualquer nova missão.\n\nSe o cansaço ou a tristeza estiverem pesados demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #descanso",
+  "legenda": "Tem um muro na sua vida que não cai? Em Jericó, um caiu ao som de trombetas e de um grito.\n\nOs muros de Jericó caíram depois de seis dias de voltas em silêncio e de um grito no sétimo dia.\n\n📖 Josué 6:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #josueejerico",
   "na_grade": false,
   "capa_ms": 500,
-  "post": "15",
+  "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/htexto15-2026-10-28.jpg",
-  "titulo": "Elias debaixo da árvore",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1700.jpg",
+  "titulo": "Josué e Jericó",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-10-28",
+  "tipo": "STORY",
+  "quando": "2026-10-28T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-28_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: Jesus e as crianças",
+  "miniatura": "midia/miniaturas/pensar2026-10-28.jpg"
+ },
+ {
+  "id": "lh-2026-10-28-1900",
+  "tipo": "REEL",
+  "quando": "2026-10-28T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-28_1900_naama-curado_6b2a90d0.mp4"
+  ],
+  "legenda": "Esperava uma resposta grande e veio uma bem simples? Naamã quase perdeu a cura por isso.\n\nNaamã, chefe do exército da Síria, foi curado depois de se lavar sete vezes no rio Jordão.\n\n📖 2 Reis 5:13 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #naamacurado",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1900.jpg",
+  "titulo": "Naamã curado",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-noite-2026-10-28",
+  "tipo": "STORY",
+  "quando": "2026-10-28T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-28-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 28/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-28.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-28",
+  "tipo": "REEL",
+  "quando": "2026-10-28T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-28-noite/reel_loop_nenhum_1ba57014.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nEsta noite, lembre-se de quem está doente e de quem espera um resultado. 🌙 Ore por alívio, por calma e por quem cuida deles. Deus está perto.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 28/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-28.jpg",
   "dur": 12.0
  },
  {
@@ -2355,19 +2685,201 @@
   "miniatura": "midia/miniaturas/repost09.jpg"
  },
  {
-  "id": "htexto16-2026-10-29",
+  "id": "ora-story-manha-2026-10-29",
+  "tipo": "STORY",
+  "quando": "2026-10-29T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-29-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 29/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-29.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-29",
+  "tipo": "REEL",
+  "quando": "2026-10-29T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-29-manha/reel_loop_nenhum_4c87db16.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nQuem está longe também está no cuidado de Deus. 🌍 Ore hoje por quem sente saudade e por quem espera um reencontro.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 29/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-29.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "lh-2026-10-29-1000",
+  "tipo": "REEL",
+  "quando": "2026-10-29T10:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-29_1000_jo_81edaf5f.mp4"
+  ],
+  "legenda": "Perdeu tanto que nem sabe por onde recomeçar? Jó perdeu quase tudo num só dia.\n\nJó perdeu os bens e os filhos e, no fim, Deus falou com ele.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Jó 42:5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jo",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-29-1000.jpg",
+  "titulo": "Jó",
+  "dur": 12.0
+ },
+ {
+  "id": "lc-2026-10-29",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-29T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lc-2026-10-29_01.jpg",
+   "midia/lote27/lc-2026-10-29_02.jpg",
+   "midia/lote27/lc-2026-10-29_03.jpg",
+   "midia/lote27/lc-2026-10-29_04.jpg",
+   "midia/lote27/lc-2026-10-29_05.jpg",
+   "midia/lote27/lc-2026-10-29_06.jpg",
+   "midia/lote27/lc-2026-10-29_07.jpg",
+   "midia/lote27/lc-2026-10-29_08.jpg"
+  ],
+  "legenda": "Sua vida virou uma tempestade?\n\n🌊 Uma notícia que ninguém esperava.\n💸 As contas que não fecham.\n🩺 Um problema de saúde na família.\n🌀 A cabeça que não para de pensar.\n💼 Uma fase difícil no trabalho.\n\nNo fim de um dia, Jesus e os discípulos atravessavam o mar de barco quando veio uma ventania muito forte, e as ondas começaram a encher o barco. Jesus dormia, e os discípulos, assustados, o acordaram. Ele se levantou, deu uma ordem ao vento e ao mar, e tudo ficou em calma.\n\nJesus não prometeu que a travessia seria sem ventania. Mas Ele estava no barco com os seus amigos, e continua perto de quem pede ajuda.\n\n📜 O versículo (Marcos 4:39)\nMarcos conta o que Jesus fez ao acordar no meio da tempestade: falou com o vento e com o mar, e eles obedeceram. Em palavras de hoje: \"Cale-se, acalme-se!\" A intenção do texto é mostrar que Jesus tem autoridade até sobre aquilo que nos dá mais medo, e por isso os discípulos ficaram tão impressionados.\n\nSe a ansiedade ou o medo estiverem pesados demais, não carregue esse peso por conta própria: procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Marcos 4:35-41 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #tempestade",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc-2026-10-29.jpg",
+  "titulo": "Jesus acalma a tempestade",
+  "fixo": true
+ },
+ {
+  "id": "lcs-2026-10-29",
+  "tipo": "STORY",
+  "quando": "2026-10-29T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lcs-2026-10-29_capa_post21.jpg"
+  ],
+  "miniatura": "midia/miniaturas/lcs-2026-10-29.jpg",
+  "titulo": "Post no perfil: Jesus acalma a tempestade",
+  "fixo": true
+ },
+ {
+  "id": "lh-2026-10-29-1200",
+  "tipo": "REEL",
+  "quando": "2026-10-29T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-29_1200_jesus-acalma-a-tempestade_5426b738.mp4"
+  ],
+  "legenda": "Sua vida virou uma tempestade? Jesus estava no mesmo barco.\n\nUma ventania encheu o barco de água enquanto Jesus dormia, e Jesus acalmou o mar.\n\n📖 A história completa está no perfil\n\n📖 Marcos 4:39 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesusacalmaatempestade",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-29-1200.jpg",
+  "titulo": "Jesus acalma a tempestade",
+  "dur": 12.0
+ },
+ {
+  "id": "vsabia2026-10-29",
+  "tipo": "STORY",
+  "quando": "2026-10-29T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-29_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Jó",
+  "miniatura": "midia/miniaturas/vsabia2026-10-29.jpg"
+ },
+ {
+  "id": "lp-2026-10-29",
+  "tipo": "REEL",
+  "quando": "2026-10-29T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/palavra_2026-10-29_5148327d.mp4"
+  ],
+  "legenda": "Filipenses 4\n\nNão estejais ansiosos por coisa alguma; mas em tudo, por meio de orações e súplicas com ações de gratidão, sejam os vossos pedidos conhecidos por Deus; e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus.\n\n📖 Filipenses 4:6-7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #palavradedeus #biblia #fe #deus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Palavra para orar: Filipenses 4",
+  "miniatura": "midia/miniaturas/lp-2026-10-29.jpg"
+ },
+ {
+  "id": "lh-2026-10-29-1700",
   "tipo": "REEL",
   "quando": "2026-10-29T17:00:00-03:00",
   "midia": [
-   "midia/post16/historia_texto_5ae91d7a.mp4"
+   "midia/lote27/2026-10-29_1700_pesca-maravilhosa_fd193eac.mp4"
   ],
-  "legenda": "Você vê o seu medo. Deus vê a sua coragem.\n\n📜 O versículo (Juízes 6:12)\nO anjo do Senhor disse essas palavras a Gideão quando ele estava escondido, com medo. Chamar de \"homem esforçado\" (corajoso) alguém que se escondia parece estranho, mas era exatamente essa a intenção: mostrar que Deus enxergava em Gideão algo que ele mesmo ainda não via.\n\n📖 Juízes 6 a 7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #gideao #identidade",
+  "legenda": "Trabalhou a noite toda e voltou de mãos vazias? Pedro também.\n\nPedro e os companheiros jogaram a rede de novo, por ordem de Jesus, depois de uma noite sem pegar nada.\n\n📖 Lucas 5:5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #pescamaravilhosa",
   "na_grade": false,
   "capa_ms": 500,
-  "post": "16",
+  "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/htexto16-2026-10-29.jpg",
-  "titulo": "Gideão",
+  "miniatura": "midia/miniaturas/lh-2026-10-29-1700.jpg",
+  "titulo": "Pesca maravilhosa",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-10-29",
+  "tipo": "STORY",
+  "quando": "2026-10-29T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-29_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: A viúva e o azeite",
+  "miniatura": "midia/miniaturas/pensar2026-10-29.jpg"
+ },
+ {
+  "id": "lh-2026-10-29-1900",
+  "tipo": "REEL",
+  "quando": "2026-10-29T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-29_1900_a-viuva-e-o-azeite_ff5e6c72.mp4"
+  ],
+  "legenda": "Dívida apertando e quase nada em casa? Uma viúva só tinha um pote de azeite.\n\nUma viúva endividada tinha só um pote de azeite, e Eliseu a orientou a pedir vasilhas aos vizinhos.\n\n📖 2 Reis 4:7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #aviuvaeoazeite",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
+  "titulo": "A viúva e o azeite",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-noite-2026-10-29",
+  "tipo": "STORY",
+  "quando": "2026-10-29T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-29-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 29/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-29.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-29",
+  "tipo": "REEL",
+  "quando": "2026-10-29T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-29-noite/reel_loop_nenhum_95d6118d.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nOs pensamentos não param? 🌙 Entregue a Deus o que não dá para resolver agora. A noite é tempo de descanso.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 29/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-29.jpg",
   "dur": 12.0
  },
  {
@@ -2397,6 +2909,204 @@
   "miniatura": "midia/miniaturas/repost10.jpg"
  },
  {
+  "id": "ora-story-manha-2026-10-30",
+  "tipo": "STORY",
+  "quando": "2026-10-30T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-30-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 30/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-30.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-30",
+  "tipo": "REEL",
+  "quando": "2026-10-30T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-30-manha/reel_loop_nenhum_a20d317a.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nSe ontem foi difícil, hoje é outra página. 🌤️ Respire, levante a cabeça e dê o primeiro passo: ainda há bem pela frente.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 30/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-30.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "lh-2026-10-30-1000",
+  "tipo": "REEL",
+  "quando": "2026-10-30T10:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-30_1000_jaco-e-a-escada_499e358b.mp4"
+  ],
+  "legenda": "Longe de casa e sem ninguém por perto? Jacó dormiu no chão, com uma pedra por travesseiro.\n\nJacó fugia do irmão, dormiu ao ar livre e sonhou com uma escada que ia da terra ao céu.\n\n📖 Gênesis 28:16 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jacoeaescada",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-30-1000.jpg",
+  "titulo": "Jacó e a escada",
+  "dur": 12.0
+ },
+ {
+  "id": "lc-2026-10-30",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-30T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lc-2026-10-30_01.jpg",
+   "midia/lote27/lc-2026-10-30_02.jpg",
+   "midia/lote27/lc-2026-10-30_03.jpg",
+   "midia/lote27/lc-2026-10-30_04.jpg",
+   "midia/lote27/lc-2026-10-30_05.jpg",
+   "midia/lote27/lc-2026-10-30_06.jpg",
+   "midia/lote27/lc-2026-10-30_07.jpg",
+   "midia/lote27/lc-2026-10-30_08.jpg"
+  ],
+  "legenda": "Está passando pelo fogo?\n\n🔥 Uma pressão grande para fazer o que você sabe que é errado.\n🏢 Um trabalho em que é difícil manter os seus valores.\n😔 Uma fase em que parece que tudo está contra você.\n🕯️ Uma decisão difícil que ninguém entende.\n\nO rei da Babilônia mandou todos se ajoelharem diante de uma estátua de ouro. Três jovens, Sadraque, Mesaque e Abednego, não se ajoelharam. Foram jogados numa fornalha muito quente, mas o rei viu quatro homens soltos andando no meio do fogo. Os três saíram sem queimadura.\n\nDeus não prometeu que o fogo nunca viria. Mas, no meio dele, os três não estavam sozinhos.\n\n📜 O versículo (Daniel 3:18)\nOs três jovens disseram essas palavras ao rei, antes de serem jogados na fornalha. Em palavras de hoje: \"Mesmo que Deus não nos livre, saiba, rei, que não vamos adorar a sua estátua.\" A intenção do texto é mostrar uma fé que não depende do resultado: eles confiaram em Deus com ou sem livramento.\n\nSe a pressão estiver pesada demais, não carregue esse peso por conta própria: procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Daniel 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #daniel #coragem",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc-2026-10-30.jpg",
+  "titulo": "Três jovens na fornalha",
+  "fixo": true
+ },
+ {
+  "id": "lcs-2026-10-30",
+  "tipo": "STORY",
+  "quando": "2026-10-30T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lcs-2026-10-30_capa_post22.jpg"
+  ],
+  "miniatura": "midia/miniaturas/lcs-2026-10-30.jpg",
+  "titulo": "Post no perfil: Três jovens na fornalha",
+  "fixo": true
+ },
+ {
+  "id": "lh-2026-10-30-1200",
+  "tipo": "REEL",
+  "quando": "2026-10-30T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-30_1200_os-tres-jovens-na-fornalha_b5db2b42.mp4"
+  ],
+  "legenda": "Está passando pelo fogo? Três jovens também passaram. E não estavam sozinhos.\n\nTrês jovens recusaram adorar uma estátua e foram jogados na fornalha, onde apareceu um quarto homem.\n\n📖 A história completa está no perfil\n\n📖 Daniel 3:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #ostresjovensnafornalha",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
+  "titulo": "Os três jovens na fornalha",
+  "dur": 12.0
+ },
+ {
+  "id": "vsabia2026-10-30",
+  "tipo": "STORY",
+  "quando": "2026-10-30T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-30_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Elias",
+  "miniatura": "midia/miniaturas/vsabia2026-10-30.jpg"
+ },
+ {
+  "id": "lp-2026-10-30",
+  "tipo": "REEL",
+  "quando": "2026-10-30T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/palavra_2026-10-30_fc1a9985.mp4"
+  ],
+  "legenda": "Salmo 91\n\nAquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará. Direi ao SENHOR: Tu és meu refúgio e minha fortaleza; Deus meu, em quem confio.\n\n📖 Salmo 91:1-2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Palavra para orar: Salmo 91",
+  "miniatura": "midia/miniaturas/lp-2026-10-30.jpg"
+ },
+ {
+  "id": "lh-2026-10-30-1700",
+  "tipo": "REEL",
+  "quando": "2026-10-30T17:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-30_1700_elias-no-monte-carmelo_55b5d8a1.mp4"
+  ],
+  "legenda": "Se sente uma pessoa só contra todo mundo? Elias estava sozinho contra 450.\n\nElias enfrentou sozinho 450 profetas de Baal no monte Carmelo, e caiu fogo de Deus.\n\n📖 1 Reis 18:39 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #eliasnomontecarmelo",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-30-1700.jpg",
+  "titulo": "Elias no monte Carmelo",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-10-30",
+  "tipo": "STORY",
+  "quando": "2026-10-30T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-30_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: Raabe",
+  "miniatura": "midia/miniaturas/pensar2026-10-30.jpg"
+ },
+ {
+  "id": "lh-2026-10-30-1900",
+  "tipo": "REEL",
+  "quando": "2026-10-30T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-30_1900_raabe-e-os-espias_b4f17495.mp4"
+  ],
+  "legenda": "Sua família depende de você? Uma mulher de Jericó arriscou tudo pela dela.\n\nRaabe escondeu dois espiões em Jericó e pediu proteção para a família, que foi salva.\n\n📖 Josué 2:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #raabeeosespias",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-30-1900.jpg",
+  "titulo": "Raabe e os espias",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-noite-2026-10-30",
+  "tipo": "STORY",
+  "quando": "2026-10-30T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-30-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 30/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-30.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-30",
+  "tipo": "REEL",
+  "quando": "2026-10-30T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-30-noite/reel_loop_nenhum_d5d92fb9.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nSem sono esta noite? 🌙 Respire fundo e entregue a Deus o que está pesando. Ore também por quem está acordado e preocupado.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 30/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-30.jpg",
+  "dur": 12.0
+ },
+ {
   "id": "repost11",
   "tipo": "CARROSSEL",
   "quando": "2026-10-31T08:00:00-03:00",
@@ -2423,5 +3133,643 @@
   "titulo": "Ester",
   "post": "11",
   "miniatura": "midia/miniaturas/repost11.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-10-31",
+  "tipo": "STORY",
+  "quando": "2026-10-31T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-31-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 31/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-31.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-10-31",
+  "tipo": "REEL",
+  "quando": "2026-10-31T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-31-manha/reel_loop_nenhum_80a00538.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nFamília nem sempre é fácil, mas é presente. 🏡 Hoje, ore pela sua e escolha uma palavra de carinho. Um gesto calmo muda o clima da casa.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 31/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-31.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "lh-2026-10-31-1000",
+  "tipo": "REEL",
+  "quando": "2026-10-31T10:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-31_1000_caim-e-abel_68581e26.mp4"
+  ],
+  "legenda": "Acha que errou demais para Deus olhar por você? Caim também achou.\n\nAbel e Caim levaram ofertas a Deus; Caim ficou com raiva e matou o irmão, mas Deus pôs nele um sinal de proteção.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Gênesis 4:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #caimeabel",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
+  "titulo": "Caim e Abel",
+  "dur": 12.0
+ },
+ {
+  "id": "lc-2026-10-31",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-31T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lc-2026-10-31_01.jpg",
+   "midia/lote27/lc-2026-10-31_02.jpg",
+   "midia/lote27/lc-2026-10-31_03.jpg",
+   "midia/lote27/lc-2026-10-31_04.jpg",
+   "midia/lote27/lc-2026-10-31_05.jpg",
+   "midia/lote27/lc-2026-10-31_06.jpg",
+   "midia/lote27/lc-2026-10-31_07.jpg",
+   "midia/lote27/lc-2026-10-31_08.jpg"
+  ],
+  "legenda": "Pai, onde está o cordeiro?\n\n🚪 Dar um passo sem saber como vai terminar.\n💼 Mudar de emprego ou de cidade.\n🩺 Esperar um resultado que demora.\n🧭 Tomar uma decisão sem ver a saída.\n\nDeus pôs Abraão à prova e pediu que ele fosse a um monte com Isaque, o filho que tanto amava. No caminho, Isaque perguntou onde estava o cordeiro, e Abraão respondeu que Deus providenciaria. No alto do monte, um anjo de Deus o impediu de fazer qualquer mal ao menino. Abraão viu um carneiro preso num arbusto e o ofereceu no lugar de Isaque.\n\nNem sempre a gente vê a saída antes de andar. Abraão confiou, e Deus providenciou.\n\n📜 O versículo (Gênesis 22:14)\nDepois do carneiro, Abraão deu um nome ao lugar: \"O Senhor proverá\". Em palavras de hoje: Deus enxerga a necessidade e cuida dela. A intenção do texto é lembrar que Deus foi fiel nesse monte, e que essa fidelidade ficou marcada no nome do lugar.\n\n📖 Gênesis 22:1-14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #abraao #confianca",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: Abraão e Isaque. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc-2026-10-31.jpg",
+  "titulo": "Abraão e Isaque",
+  "fixo": true
+ },
+ {
+  "id": "lcs-2026-10-31",
+  "tipo": "STORY",
+  "quando": "2026-10-31T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lcs-2026-10-31_capa_post23.jpg"
+  ],
+  "miniatura": "midia/miniaturas/lcs-2026-10-31.jpg",
+  "titulo": "Post no perfil: Abraão e Isaque",
+  "fixo": true
+ },
+ {
+  "id": "lh-2026-10-31-1200",
+  "tipo": "REEL",
+  "quando": "2026-10-31T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-31_1200_abraao-e-isaque_2e3b8457.mp4"
+  ],
+  "legenda": "Não sabe de onde virá a ajuda? Abraão subiu o monte sem saber. E Deus providenciou.\n\nDeus pôs Abraão à prova, e um anjo mandou parar; um carneiro foi oferecido no lugar de Isaque.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 Gênesis 22:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #abraaoeisaque",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1200.jpg",
+  "titulo": "Abraão e Isaque",
+  "dur": 12.0
+ },
+ {
+  "id": "vsabia2026-10-31",
+  "tipo": "STORY",
+  "quando": "2026-10-31T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-31_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Ana, mãe de Samuel",
+  "miniatura": "midia/miniaturas/vsabia2026-10-31.jpg"
+ },
+ {
+  "id": "lp-2026-10-31",
+  "tipo": "REEL",
+  "quando": "2026-10-31T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/palavra_2026-10-31_e365b151.mp4"
+  ],
+  "legenda": "Salmo 4\n\nEu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro.\n\n📖 Salmo 4:8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Palavra para orar: Salmo 4",
+  "miniatura": "midia/miniaturas/lp-2026-10-31.jpg"
+ },
+ {
+  "id": "lh-2026-10-31-1700",
+  "tipo": "REEL",
+  "quando": "2026-10-31T17:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-31_1700_sansao_f79b4115.mp4"
+  ],
+  "legenda": "Perdeu as forças e acha que acabou? O cabelo de Sansão começou a crescer de novo.\n\nSansão perdeu a força quando lhe cortaram o cabelo, e, preso pelos inimigos, orou a Deus.\n\n📖 Juízes 16:28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #sansao",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1700.jpg",
+  "titulo": "Sansão",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-10-31",
+  "tipo": "STORY",
+  "quando": "2026-10-31T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-31_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: Ana e Samuel",
+  "miniatura": "midia/miniaturas/pensar2026-10-31.jpg"
+ },
+ {
+  "id": "lh-2026-10-31-1900",
+  "tipo": "REEL",
+  "quando": "2026-10-31T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-31_1900_ana-e-samuel_f8fab08e.mp4"
+  ],
+  "legenda": "Já chorou tanto que nem conseguia comer? Ana também.\n\nAna orou chorando no templo, pedindo um filho, e depois teve Samuel.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 1 Samuel 1:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #anaesamuel",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1900.jpg",
+  "titulo": "Ana e Samuel",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-noite-2026-10-31",
+  "tipo": "STORY",
+  "quando": "2026-10-31T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-31-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 31/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-31.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-10-31",
+  "tipo": "REEL",
+  "quando": "2026-10-31T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-31-noite/reel_loop_nenhum_561caa17.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nMágoa pesa, e perdão alivia. 🌙 Entregue a Deus o que ficou do dia e durma com o coração mais leve.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 31/10 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-31.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-manha-2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-01-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 01/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-01.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-11-01",
+  "tipo": "REEL",
+  "quando": "2026-11-01T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-01-manha/reel_loop_nenhum_8d13f523.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nO bem começa nas coisas pequenas. 🤲 Hoje, preste atenção em quem precisa de uma palavra, de uma visita ou de um prato de comida.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 01/11 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-11-01.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "lh-2026-11-01-1000",
+  "tipo": "REEL",
+  "quando": "2026-11-01T10:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-01_1000_jose-e-o-manto-colorido_540c8e7d.mp4"
+  ],
+  "legenda": "Alguém da própria família já te feriu? Os irmãos de José o venderam por 20 peças de prata.\n\nOs irmãos de José o jogaram num poço e o venderam por 20 peças de prata.\n\n📖 Gênesis 39:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #joseeomantocolorido",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-01-1000.jpg",
+  "titulo": "José e o manto colorido",
+  "dur": 12.0
+ },
+ {
+  "id": "lc-2026-11-01",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-01T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lc-2026-11-01_01.jpg",
+   "midia/lote27/lc-2026-11-01_02.jpg",
+   "midia/lote27/lc-2026-11-01_03.jpg",
+   "midia/lote27/lc-2026-11-01_04.jpg",
+   "midia/lote27/lc-2026-11-01_05.jpg",
+   "midia/lote27/lc-2026-11-01_06.jpg",
+   "midia/lote27/lc-2026-11-01_07.jpg",
+   "midia/lote27/lc-2026-11-01_08.jpg"
+  ],
+  "legenda": "O que Deus fez quando eles se esconderam?\n\n🙈 Esconder um erro de quem a gente ama.\n😞 Sentir vergonha de algo que fez.\n📵 Evitar uma conversa difícil.\n🌑 Se afastar de Deus depois de errar.\n\nDeus plantou um jardim lindo e pôs ali Adão e Eva. Eles comeram do fruto que Deus tinha proibido, tiveram medo e se esconderam entre as árvores. Então ouviram a voz de Deus andando no jardim: \"Onde você está?\" Antes de eles saírem de lá, Deus mesmo fez roupas de pele e os vestiu.\n\nDeus não fingiu que o erro não existiu. Mas foi atrás deles e cuidou deles. Quando a gente se esconde, Deus continua chamando.\n\n📜 O versículo (Gênesis 3:9)\nDeus fez essa pergunta logo depois de Adão e Eva se esconderem. Em palavras de hoje: \"Onde você está?\" Deus sabia onde eles estavam; a intenção da pergunta era ir ao encontro deles e abrir uma conversa, em vez de deixá-los escondidos com o medo e a vergonha.\n\n📖 Gênesis 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #adaoeeva #graca",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: Adão e Eva. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc-2026-11-01.jpg",
+  "titulo": "Adão e Eva",
+  "fixo": true
+ },
+ {
+  "id": "lcs-2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lcs-2026-11-01_capa_post24.jpg"
+  ],
+  "miniatura": "midia/miniaturas/lcs-2026-11-01.jpg",
+  "titulo": "Post no perfil: Adão e Eva",
+  "fixo": true
+ },
+ {
+  "id": "lh-2026-11-01-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-01T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-01_1200_adao-e-eva-no-jardim_295fabc5.mp4"
+  ],
+  "legenda": "Já quis se esconder de vergonha? Adão e Eva também. E Deus foi procurar.\n\nAdão e Eva se esconderam depois de comer o fruto proibido, e Deus foi chamá-los.\n\n📖 A história completa está no perfil\n\n📖 Gênesis 3:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #adaoeevanojardim",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-01-1200.jpg",
+  "titulo": "Adão e Eva no jardim",
+  "dur": 12.0
+ },
+ {
+  "id": "vsabia2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-01_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Adão",
+  "miniatura": "midia/miniaturas/vsabia2026-11-01.jpg"
+ },
+ {
+  "id": "lp-2026-11-01",
+  "tipo": "REEL",
+  "quando": "2026-11-01T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/palavra_2026-11-01_52b5b6b8.mp4"
+  ],
+  "legenda": "Pai Nosso\n\nPai nosso, que estás nos céus, santificado seja o teu nome. Venha o teu Reino. Seja feita a tua vontade, tanto na terra, assim como no céu. O pão nosso de cada dia nos dá hoje. E perdoa-nos nossas dívidas, assim como nós também perdoamos aos nossos devedores. E não nos conduzas à tentação, mas livra-nos do mal; porque teu é o Reino, o poder, e a glória, para sempre, Amém.\n\n📖 Mateus 6:9-13 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #painosso #biblia #fe #deus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Palavra para orar: Pai Nosso",
+  "miniatura": "midia/miniaturas/lp-2026-11-01.jpg"
+ },
+ {
+  "id": "lh-2026-11-01-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-01T17:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-01_1700_torre-de-babel_4e4ad5d9.mp4"
+  ],
+  "legenda": "Sente que precisa provar seu valor? Em Babel, quiseram uma torre até o céu para isso.\n\nEm Babel, o povo quis fazer uma torre até o céu; Deus misturou as línguas e eles se espalharam. Logo depois, Deus prometeu a Abrão: vou tornar o seu nome grande.\n\n📖 Gênesis 12:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #torredebabel",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-01-1700.jpg",
+  "titulo": "Torre de Babel",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-01_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: Mefibosete",
+  "miniatura": "midia/miniaturas/pensar2026-11-01.jpg"
+ },
+ {
+  "id": "lh-2026-11-01-1900",
+  "tipo": "REEL",
+  "quando": "2026-11-01T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-01_1900_mefibosete_3fe1016e.mp4"
+  ],
+  "legenda": "Se sente sem valor? Um homem que se via como um cão morto ganhou lugar à mesa do rei.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
+  "titulo": "Mefibosete",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-noite-2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-01-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 01/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-01.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-11-01",
+  "tipo": "REEL",
+  "quando": "2026-11-01T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-01-noite/reel_loop_nenhum_03516824.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nQuem cuida também precisa de cuidado. 🌙 Ore por quem dá o melhor de si todos os dias, quase sem descanso. Deus vê esse esforço.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 01/11 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-11-01.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "semana2026-11-01-1",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:05:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-01_semana_1_jesus acalma a tempestade.jpg"
+  ],
+  "fixo": true,
+  "titulo": "A semana 1/4: Jesus acalma a tempestade",
+  "miniatura": "midia/miniaturas/semana2026-11-01-1.jpg"
+ },
+ {
+  "id": "semana2026-11-01-2",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:06:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-01_semana_2_os tres jovens na fornalha.jpg"
+  ],
+  "fixo": true,
+  "titulo": "A semana 2/4: Os três jovens na fornalha",
+  "miniatura": "midia/miniaturas/semana2026-11-01-2.jpg"
+ },
+ {
+  "id": "semana2026-11-01-3",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:07:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-01_semana_3_abraao e isaque.jpg"
+  ],
+  "fixo": true,
+  "titulo": "A semana 3/4: Abraão e Isaque",
+  "miniatura": "midia/miniaturas/semana2026-11-01-3.jpg"
+ },
+ {
+  "id": "semana2026-11-01-4",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:08:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-01_semana_4_adao e eva.jpg"
+  ],
+  "fixo": true,
+  "titulo": "A semana 4/4: Adão e Eva",
+  "miniatura": "midia/miniaturas/semana2026-11-01-4.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-02",
+  "tipo": "STORY",
+  "quando": "2026-11-02T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-02-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 02/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-02.jpg"
+ },
+ {
+  "id": "ora-reel-manha-2026-11-02",
+  "tipo": "REEL",
+  "quando": "2026-11-02T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-02-manha/reel_loop_nenhum_ae0b4118.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nA saudade também é amor. 🕊️ Hoje, ore por quem está de luto e valorize as pessoas que estão perto de você.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da manhã · 02/11 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-manha-2026-11-02.jpg",
+  "dur": 12.0
+ },
+ {
+  "id": "lh-2026-11-02-1000",
+  "tipo": "REEL",
+  "quando": "2026-11-02T10:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-02_1000_o-semeador_13a482a6.mp4"
+  ],
+  "legenda": "Nada brota na sua vida? Jesus contou de uma semente que deu cem vezes mais.\n\nJesus contou a história de um homem que plantou sementes em quatro tipos de chão.\n\n📖 Mateus 13:23 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #osemeador",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1000.jpg",
+  "titulo": "O semeador",
+  "dur": 12.0
+ },
+ {
+  "id": "lc-2026-11-02",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-02T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lc-2026-11-02_01.jpg",
+   "midia/lote27/lc-2026-11-02_02.jpg",
+   "midia/lote27/lc-2026-11-02_03.jpg",
+   "midia/lote27/lc-2026-11-02_04.jpg",
+   "midia/lote27/lc-2026-11-02_05.jpg",
+   "midia/lote27/lc-2026-11-02_06.jpg",
+   "midia/lote27/lc-2026-11-02_07.jpg",
+   "midia/lote27/lc-2026-11-02_08.jpg"
+  ],
+  "legenda": "Você já perdeu alguém que amava?\n\n🕯️ A saudade que aperta de repente.\n🏠 A casa que ficou silenciosa.\n📱 A vontade de ligar para quem não está mais aqui.\n🌧️ O dia em que tudo parece sem cor.\n\nLázaro, amigo de Jesus, ficou doente e morreu. Quando Jesus chegou, ele já estava havia quatro dias no túmulo. Marta disse que, se Jesus estivesse lá, o irmão não teria morrido. Jesus respondeu que Ele é a ressurreição e a vida. Ao ver Maria e o povo chorando, Jesus chorou também. Depois mandou tirar a pedra e chamou: \"Lázaro, saia!\" E Lázaro saiu vivo.\n\nJesus não despreza a sua dor. Ele chorou junto, e continua perto de quem sofre.\n\n📜 O versículo (João 11:25)\nJesus disse essas palavras a Marta, enquanto ela chorava a morte do irmão. Em palavras de hoje: \"Eu sou a ressurreição e a vida; quem acredita em mim vai viver, mesmo que morra.\" A intenção do texto é oferecer esperança a quem sofre uma perda: a morte não é a última palavra para quem confia em Jesus.\n\nSe o luto estiver pesado demais, não carregue esse peso por conta própria: procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 João 11:1-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #lazaro",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8 da história: Lázaro. Ilustração em papel recortado.",
+   "Slide 2 de 8 da história: Lázaro. Ilustração em papel recortado.",
+   "Slide 3 de 8 da história: Lázaro. Ilustração em papel recortado.",
+   "Slide 4 de 8 da história: Lázaro. Ilustração em papel recortado.",
+   "Slide 5 de 8 da história: Lázaro. Ilustração em papel recortado.",
+   "Slide 6 de 8 da história: Lázaro. Ilustração em papel recortado.",
+   "Slide 7 de 8 da história: Lázaro. Ilustração em papel recortado.",
+   "Slide 8 de 8 da história: Lázaro. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc-2026-11-02.jpg",
+  "titulo": "Lázaro",
+  "fixo": true
+ },
+ {
+  "id": "lcs-2026-11-02",
+  "tipo": "STORY",
+  "quando": "2026-11-02T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/lcs-2026-11-02_capa_post25.jpg"
+  ],
+  "miniatura": "midia/miniaturas/lcs-2026-11-02.jpg",
+  "titulo": "Post no perfil: Lázaro",
+  "fixo": true
+ },
+ {
+  "id": "lh-2026-11-02-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-02T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-02_1200_lazaro_234501e6.mp4"
+  ],
+  "legenda": "Perdeu alguém que você amava? Jesus também chorou por um amigo.\n\nLázaro morreu e Jesus, depois de chorar com o povo, o chamou para fora do túmulo.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 João 11:25 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #lazaro",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
+  "titulo": "Lázaro",
+  "dur": 12.0
+ },
+ {
+  "id": "vsabia2026-11-02",
+  "tipo": "STORY",
+  "quando": "2026-11-02T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-02_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Jesus chorou",
+  "miniatura": "midia/miniaturas/vsabia2026-11-02.jpg"
+ },
+ {
+  "id": "lp-2026-11-02",
+  "tipo": "REEL",
+  "quando": "2026-11-02T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/palavra_2026-11-02_d99bf35f.mp4"
+  ],
+  "legenda": "Salmo 23\n\nO SENHOR é meu pastor, nada me faltará. Ele me faz deitar em pastos verdes, e me leva a águas quietas. Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome. Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam.\n\n📖 Salmo 23:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Palavra para orar: Salmo 23",
+  "miniatura": "midia/miniaturas/lp-2026-11-02.jpg"
+ },
+ {
+  "id": "lh-2026-11-02-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-02T17:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-02_1700_davi-e-jonatas_d08dad63.mp4"
+  ],
+  "legenda": "Precisando ouvir \"não tenha medo\"? Davi ouviu isso de um amigo, escondido no deserto.\n\nJônatas avisou Davi do perigo e, no deserto, o fortaleceu em Deus.\n\n📖 1 Samuel 23:17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #daviejonatas",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1700.jpg",
+  "titulo": "Davi e Jônatas",
+  "dur": 12.0
+ },
+ {
+  "id": "pensar2026-11-02",
+  "tipo": "STORY",
+  "quando": "2026-11-02T17:00:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-02_para_pensar.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Para pensar: Lázaro",
+  "miniatura": "midia/miniaturas/pensar2026-11-02.jpg"
+ },
+ {
+  "id": "lh-2026-11-02-1900",
+  "tipo": "REEL",
+  "quando": "2026-11-02T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-11-02_1900_neemias-reconstroi-o-muro_1a0ff5d1.mp4"
+  ],
+  "legenda": "Riram do seu recomeço? Também riram de Neemias, enquanto ele reerguia um muro.\n\nNeemias e o povo reergueram o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
+  "titulo": "Neemias reconstrói o muro",
+  "dur": 12.0
+ },
+ {
+  "id": "ora-story-noite-2026-11-02",
+  "tipo": "STORY",
+  "quando": "2026-11-02T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-02-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 02/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-02.jpg"
+ },
+ {
+  "id": "ora-reel-noite-2026-11-02",
+  "tipo": "REEL",
+  "quando": "2026-11-02T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-02-noite/reel_loop_nenhum_639fd65d.mp4"
+  ],
+  "cta": "nenhum",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nPense no amor que você recebeu na vida. 🌙 Agradeça por quem cuidou de você, perto ou longe, e descanse com o coração grato.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "teste": true,
+  "titulo": "Oração da noite · 02/11 (Reel)",
+  "miniatura": "midia/miniaturas/ora-reel-noite-2026-11-02.jpg",
+  "dur": 12.0
  }
 ]
