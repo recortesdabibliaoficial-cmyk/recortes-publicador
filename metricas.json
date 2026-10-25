@@ -1423,6 +1423,10 @@
   {
    "t": "2026-10-25T11:11-03:00",
    "n": 82
+  },
+  {
+   "t": "2026-10-25T12:06-03:00",
+   "n": 83
   }
  ],
  "pensar2026-10-23": {
@@ -1661,5 +1665,25 @@
   "reels_skip_rate": 65.4,
   "ig_reels_video_view_total_time": 1247441,
   "lido_em": "2026-10-25T13:58:48.841896+00:00"
+ },
+ "story2026-10-25": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-10-25T15:06:12.390690+00:00"
+ },
+ "vsabia2026-10-25": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-10-25T15:06:12.390690+00:00"
  }
 }
