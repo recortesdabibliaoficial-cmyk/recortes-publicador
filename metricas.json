@@ -1636,7 +1636,7 @@
    "tap_exit": 2,
    "tap_forward": 4
   },
-  "lido_em": "2026-10-25T19:26:01.230593+00:00"
+  "lido_em": "2026-10-25T21:26:06.809315+00:00"
  },
  "htexto17-2026-10-24": {
   "reach": 132,
@@ -1665,14 +1665,18 @@
   "lido_em": "2026-10-25T19:26:01.230593+00:00"
  },
  "ora-story-manha-2026-10-25": {
-  "reach": 0,
-  "views": 5,
+  "reach": 5,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 1,
-  "lido_em": "2026-10-25T19:26:01.230593+00:00"
+  "nav": {
+   "tap_exit": 2,
+   "tap_forward": 4
+  },
+  "lido_em": "2026-10-25T21:26:06.809315+00:00"
  },
  "repost05": {
   "reach": 0,
@@ -1701,23 +1705,23 @@
  },
  "story2026-10-25": {
   "reach": 0,
-  "views": 3,
+  "views": 4,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-25T19:26:01.230593+00:00"
+  "lido_em": "2026-10-25T21:26:06.809315+00:00"
  },
  "vsabia2026-10-25": {
   "reach": 0,
-  "views": 3,
+  "views": 4,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-25T19:26:01.230593+00:00"
+  "lido_em": "2026-10-25T21:26:06.809315+00:00"
  },
  "post17": {
   "reach": 0,
