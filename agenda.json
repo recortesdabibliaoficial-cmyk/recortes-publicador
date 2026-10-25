@@ -1917,6 +1917,21 @@
   "miniatura": "midia/miniaturas/pensar2026-10-25.jpg"
  },
  {
+  "id": "expr-2026-10-25",
+  "tipo": "REEL",
+  "quando": "2026-10-25T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/expressoes_b15542cb.mp4"
+  ],
+  "legenda": "Expressões populares que vêm da Bíblia: lavar as mãos, beijo de Judas e pérolas aos porcos.\n\nQuem lava as mãos foge da culpa, como Pilatos no julgamento de Jesus. Beijo de Judas é traição disfarçada de carinho, como a de Judas ao entregar Jesus. E jogar pérolas aos porcos é desperdiçar o que é bom, um conselho do próprio Jesus.\n\n📖 Mateus 27:24, Mateus 26:48-49 e Mateus 7:6 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #fe #deus #jesus #expressoes",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Expressões da Bíblia: lavar as mãos, beijo de Judas, pérolas aos porcos",
+  "miniatura": "midia/miniaturas/expressoes-2026-10-25.jpg"
+ },
+ {
   "id": "ora-story-noite-2026-10-25",
   "tipo": "STORY",
   "quando": "2026-10-25T21:00:00-03:00",
