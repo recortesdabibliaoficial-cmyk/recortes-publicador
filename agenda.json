@@ -2014,7 +2014,7 @@
    "midia/oracoes/2026-10-26-manha/reel_loop_nenhum_76dba8ca.mp4"
   ],
   "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nHoje, lembre-se de quem está doente. 🙏 Deus conhece cada dor e cada medo. Ore com confiança por quem precisa de alívio e por quem cuida.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nHoje, lembre de quem está doente. 🙏 Deus conhece cada dor e cada medo. Ore com confiança por quem precisa de alívio e por quem cuida.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -2259,7 +2259,7 @@
    "midia/oracoes/2026-10-27-manha/reel_loop_nenhum_941d5038.mp4"
   ],
   "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nMuita gente sai cedo hoje para trabalhar. 💼 Ore por elas e pelo seu próprio dia: cada esforço conta, e Deus cuida de cada passo.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nMuita gente sai cedo hoje para trabalhar. 💼 Ore por elas e pelo seu próprio dia: cada esforço conta, e Deus cuida de cada passo.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -2283,6 +2283,18 @@
   "miniatura": "midia/miniaturas/lh-2026-10-27-1000.jpg",
   "titulo": "Mulher samaritana",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-10-27-1000",
+  "tipo": "STORY",
+  "quando": "2026-10-27T10:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-27_1000_mulher-samaritana.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Mulher samaritana",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-27-1000.jpg"
  },
  {
   "id": "post19",
@@ -2350,13 +2362,25 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-27.jpg"
  },
  {
+  "id": "ls-2026-10-27-1200",
+  "tipo": "STORY",
+  "quando": "2026-10-27T12:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-27_1200_moises-e-o-mar-vermelho.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Moisés e o mar Vermelho",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-27-1200.jpg"
+ },
+ {
   "id": "lp-2026-10-27",
   "tipo": "REEL",
   "quando": "2026-10-27T15:00:00-03:00",
   "midia": [
    "midia/lote27/palavra_2026-10-27_2cc3b0e2.mp4"
   ],
-  "legenda": "Bênção de Números\n\nO SENHOR te abençoe, e te guarde: Faça resplandecer o SENHOR seu rosto sobre ti, e tenha de ti misericórdia: O SENHOR levante a ti seu rosto, e ponha em ti paz.\n\n📖 Números 6:24-26 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #bencao #biblia #fe #deus",
+  "legenda": "Bênção de Números\n\nO SENHOR te abençoe, e te guarde: Faça resplandecer o SENHOR seu rosto sobre ti, e tenha de ti misericórdia: O SENHOR levante a ti seu rosto, e ponha em ti paz.\n\n📖 Números 6:24-26 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -2392,6 +2416,18 @@
   "miniatura": "midia/miniaturas/pensar2026-10-27.jpg"
  },
  {
+  "id": "ls-2026-10-27-1700",
+  "tipo": "STORY",
+  "quando": "2026-10-27T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-27_1700_bartimeu.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Bartimeu",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-27-1700.jpg"
+ },
+ {
   "id": "lh-2026-10-27-1900",
   "tipo": "REEL",
   "quando": "2026-10-27T19:00:00-03:00",
@@ -2406,6 +2442,18 @@
   "miniatura": "midia/miniaturas/lh-2026-10-27-1900.jpg",
   "titulo": "Abigail",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-10-27-1900",
+  "tipo": "STORY",
+  "quando": "2026-10-27T19:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-27_1900_abigail.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Abigail",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-27-1900.jpg"
  },
  {
   "id": "ora-story-noite-2026-10-27",
@@ -2508,6 +2556,18 @@
   "dur": 12.0
  },
  {
+  "id": "ls-2026-10-28-1000",
+  "tipo": "STORY",
+  "quando": "2026-10-28T10:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-28_1000_jesus-e-as-criancas.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Jesus e as crianças",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-28-1000.jpg"
+ },
+ {
   "id": "post20",
   "tipo": "CARROSSEL",
   "quando": "2026-10-28T12:00:00-03:00",
@@ -2573,13 +2633,25 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-28.jpg"
  },
  {
+  "id": "ls-2026-10-28-1200",
+  "tipo": "STORY",
+  "quando": "2026-10-28T12:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-28_1200_paes-e-peixes.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Pães e peixes",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-28-1200.jpg"
+ },
+ {
   "id": "lp-2026-10-28",
   "tipo": "REEL",
   "quando": "2026-10-28T15:00:00-03:00",
   "midia": [
    "midia/lote27/palavra_2026-10-28_52c35700.mp4"
   ],
-  "legenda": "Salmo 121\n\nLevanto meus olhos aos montes. De onde virá meu socorro? Meu socorro vem do SENHOR, que fez os céus e a terra. Ele não deixará o teu pé se abalar, nem cochilará o teu guardião. Eis que não cochilará nem dormirá o Guardião de Israel.\n\n📖 Salmo 121:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
+  "legenda": "Salmo 121\n\nLevanto meus olhos aos montes.\n\n📖 Salmo 121:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -2615,6 +2687,18 @@
   "miniatura": "midia/miniaturas/pensar2026-10-28.jpg"
  },
  {
+  "id": "ls-2026-10-28-1700",
+  "tipo": "STORY",
+  "quando": "2026-10-28T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-28_1700_josue-e-jerico.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Josué e Jericó",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-28-1700.jpg"
+ },
+ {
   "id": "lh-2026-10-28-1900",
   "tipo": "REEL",
   "quando": "2026-10-28T19:00:00-03:00",
@@ -2629,6 +2713,18 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1900.jpg",
   "titulo": "Naamã curado",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-10-28-1900",
+  "tipo": "STORY",
+  "quando": "2026-10-28T19:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-28_1900_naama-curado.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Naamã curado",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-28-1900.jpg"
  },
  {
   "id": "ora-story-noite-2026-10-28",
@@ -2649,7 +2745,7 @@
    "midia/oracoes/2026-10-28-noite/reel_loop_nenhum_1ba57014.mp4"
   ],
   "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nEsta noite, lembre-se de quem está doente e de quem espera um resultado. 🌙 Ore por alívio, por calma e por quem cuida deles. Deus está perto.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
+  "legenda": "Antes de dormir, ore assim 🙏\n\nEsta noite, lembre de quem está doente e de quem espera um resultado. 🌙 Ore por alívio, por calma e por quem cuida deles. Deus está perto.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -2729,6 +2825,18 @@
   "dur": 12.0
  },
  {
+  "id": "ls-2026-10-29-1000",
+  "tipo": "STORY",
+  "quando": "2026-10-29T10:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-29_1000_jo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Jó",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-29-1000.jpg"
+ },
+ {
   "id": "lc-2026-10-29",
   "tipo": "CARROSSEL",
   "quando": "2026-10-29T12:00:00-03:00",
@@ -2742,7 +2850,7 @@
    "midia/lote27/lc-2026-10-29_07.jpg",
    "midia/lote27/lc-2026-10-29_08.jpg"
   ],
-  "legenda": "Sua vida virou uma tempestade?\n\n🌊 Uma notícia que ninguém esperava.\n💸 As contas que não fecham.\n🩺 Um problema de saúde na família.\n🌀 A cabeça que não para de pensar.\n💼 Uma fase difícil no trabalho.\n\nNo fim de um dia, Jesus e os discípulos atravessavam o mar de barco quando veio uma ventania muito forte, e as ondas começaram a encher o barco. Jesus dormia, e os discípulos, assustados, o acordaram. Ele se levantou, deu uma ordem ao vento e ao mar, e tudo ficou em calma.\n\nJesus não prometeu que a travessia seria sem ventania. Mas Ele estava no barco com os seus amigos, e continua perto de quem pede ajuda.\n\n📜 O versículo (Marcos 4:39)\nMarcos conta o que Jesus fez ao acordar no meio da tempestade: falou com o vento e com o mar, e eles obedeceram. Em palavras de hoje: \"Cale-se, acalme-se!\" A intenção do texto é mostrar que Jesus tem autoridade até sobre aquilo que nos dá mais medo, e por isso os discípulos ficaram tão impressionados.\n\nSe a ansiedade ou o medo estiverem pesados demais, não carregue esse peso por conta própria: procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Marcos 4:35-41 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #tempestade",
+  "legenda": "Sua vida virou uma tempestade?\n\n🌊 Uma notícia que ninguém esperava.\n💸 As contas que não fecham.\n🩺 Um problema de saúde na família.\n🌀 A cabeça que não para de pensar.\n💼 Uma fase difícil no trabalho.\n\nNo fim de um dia, Jesus e os discípulos atravessavam o mar de barco quando veio uma ventania muito forte, e as ondas começaram a encher o barco. Jesus dormia, e os discípulos, assustados, o acordaram. Ele se levantou, deu uma ordem ao vento e ao mar, e tudo ficou em calma.\n\nJesus não prometeu que a travessia seria sem ventania. Mas Ele estava no barco com os seus amigos, e continua perto de quem pede ajuda.\n\n📜 O versículo (Marcos 4:39)\nMarcos conta o que Jesus fez ao acordar no meio da tempestade: falou com o vento e com o mar, e eles obedeceram. Em palavras de hoje: \"Calem-se, fiquem em paz!\" A intenção do texto é mostrar que Jesus tem autoridade até sobre aquilo que nos dá mais medo, e por isso os discípulos ficaram tão impressionados.\n\nSe a ansiedade ou o medo estiverem pesados demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Marcos 4:35-41 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #tempestade",
   "cta": null,
   "alt": [
    "Slide 1 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
@@ -2803,7 +2911,7 @@
   "midia": [
    "midia/lote27/palavra_2026-10-29_5148327d.mp4"
   ],
-  "legenda": "Filipenses 4\n\nNão estejais ansiosos por coisa alguma; mas em tudo, por meio de orações e súplicas com ações de gratidão, sejam os vossos pedidos conhecidos por Deus; e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus.\n\n📖 Filipenses 4:6-7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #palavradedeus #biblia #fe #deus",
+  "legenda": "Filipenses 4\n\nNão estejais ansiosos por coisa alguma; mas em tudo, por meio de orações e súplicas com ações de gratidão, sejam os vossos pedidos conhecidos por Deus; e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus.\n\n📖 Filipenses 4:6-7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -2839,6 +2947,18 @@
   "miniatura": "midia/miniaturas/pensar2026-10-29.jpg"
  },
  {
+  "id": "ls-2026-10-29-1700",
+  "tipo": "STORY",
+  "quando": "2026-10-29T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-29_1700_pesca-maravilhosa.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Pesca maravilhosa",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-29-1700.jpg"
+ },
+ {
   "id": "lh-2026-10-29-1900",
   "tipo": "REEL",
   "quando": "2026-10-29T19:00:00-03:00",
@@ -2853,6 +2973,18 @@
   "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
   "titulo": "A viúva e o azeite",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-10-29-1900",
+  "tipo": "STORY",
+  "quando": "2026-10-29T19:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-29_1900_a-viuva-e-o-azeite.jpg"
+  ],
+  "fixo": true,
+  "titulo": "A viúva e o azeite",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-29-1900.jpg"
  },
  {
   "id": "ora-story-noite-2026-10-29",
@@ -2943,7 +3075,7 @@
   "midia": [
    "midia/lote27/2026-10-30_1000_jaco-e-a-escada_499e358b.mp4"
   ],
-  "legenda": "Longe de casa e sem ninguém por perto? Jacó dormiu no chão, com uma pedra por travesseiro.\n\nJacó fugia do irmão, dormiu ao ar livre e sonhou com uma escada que ia da terra ao céu.\n\n📖 Gênesis 28:16 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jacoeaescada",
+  "legenda": "Longe de casa e sem ninguém por perto? Jacó dormiu no chão, com uma pedra por travesseiro.\n\nJacó fugia do irmão, dormiu ao relento e sonhou com uma escada que ia da terra ao céu.\n\n📖 Gênesis 28:16 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jacoeaescada",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -2951,6 +3083,18 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1000.jpg",
   "titulo": "Jacó e a escada",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-10-30-1000",
+  "tipo": "STORY",
+  "quando": "2026-10-30T10:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-30_1000_jaco-e-a-escada.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Jacó e a escada",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-30-1000.jpg"
  },
  {
   "id": "lc-2026-10-30",
@@ -2966,7 +3110,7 @@
    "midia/lote27/lc-2026-10-30_07.jpg",
    "midia/lote27/lc-2026-10-30_08.jpg"
   ],
-  "legenda": "Está passando pelo fogo?\n\n🔥 Uma pressão grande para fazer o que você sabe que é errado.\n🏢 Um trabalho em que é difícil manter os seus valores.\n😔 Uma fase em que parece que tudo está contra você.\n🕯️ Uma decisão difícil que ninguém entende.\n\nO rei da Babilônia mandou todos se ajoelharem diante de uma estátua de ouro. Três jovens, Sadraque, Mesaque e Abednego, não se ajoelharam. Foram jogados numa fornalha muito quente, mas o rei viu quatro homens soltos andando no meio do fogo. Os três saíram sem queimadura.\n\nDeus não prometeu que o fogo nunca viria. Mas, no meio dele, os três não estavam sozinhos.\n\n📜 O versículo (Daniel 3:18)\nOs três jovens disseram essas palavras ao rei, antes de serem jogados na fornalha. Em palavras de hoje: \"Mesmo que Deus não nos livre, saiba, rei, que não vamos adorar a sua estátua.\" A intenção do texto é mostrar uma fé que não depende do resultado: eles confiaram em Deus com ou sem livramento.\n\nSe a pressão estiver pesada demais, não carregue esse peso por conta própria: procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Daniel 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #daniel #coragem",
+  "legenda": "Está passando pelo fogo?\n\n🔥 Uma pressão grande para fazer o que você sabe que é errado.\n🏢 Um trabalho em que é difícil manter os seus valores.\n😔 Uma fase em que parece que tudo está contra você.\n🕯️ Uma decisão difícil que ninguém entende.\n\nO rei da Babilônia mandou todos se ajoelharem diante de uma estátua de ouro. Três jovens, Sadraque, Mesaque e Abednego, não se ajoelharam. Foram jogados numa fornalha muito quente, mas o rei viu quatro homens soltos andando no meio do fogo. Os três saíram sem queimadura.\n\nDeus não prometeu que o fogo nunca viria. Mas, no meio dele, os três não estavam sozinhos.\n\n📜 O versículo (Daniel 3:18)\nOs três jovens disseram essas palavras ao rei, antes de serem jogados na fornalha. Em palavras de hoje: \"Mesmo que Deus não nos livre, saiba, rei, que não vamos adorar a sua estátua.\" A intenção do texto é mostrar uma fé que não depende do resultado: eles confiaram em Deus com ou sem livramento.\n\nSe a pressão estiver pesada demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Daniel 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #daniel #coragem",
   "cta": null,
   "alt": [
    "Slide 1 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
@@ -3027,7 +3171,7 @@
   "midia": [
    "midia/lote27/palavra_2026-10-30_fc1a9985.mp4"
   ],
-  "legenda": "Salmo 91\n\nAquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará. Direi ao SENHOR: Tu és meu refúgio e minha fortaleza; Deus meu, em quem confio.\n\n📖 Salmo 91:1-2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
+  "legenda": "Salmo 91\n\nAquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará.\n\n📖 Salmo 91:1-2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3063,13 +3207,25 @@
   "miniatura": "midia/miniaturas/pensar2026-10-30.jpg"
  },
  {
+  "id": "ls-2026-10-30-1700",
+  "tipo": "STORY",
+  "quando": "2026-10-30T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-30_1700_elias-no-monte-carmelo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Elias no monte Carmelo",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-30-1700.jpg"
+ },
+ {
   "id": "lh-2026-10-30-1900",
   "tipo": "REEL",
   "quando": "2026-10-30T19:00:00-03:00",
   "midia": [
    "midia/lote27/2026-10-30_1900_raabe-e-os-espias_b4f17495.mp4"
   ],
-  "legenda": "Sua família depende de você? Uma mulher de Jericó arriscou tudo pela dela.\n\nRaabe escondeu dois espiões em Jericó e pediu proteção para a família, que foi salva.\n\n📖 Josué 2:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #raabeeosespias",
+  "legenda": "Sua família depende de você? Uma mulher de Jericó arriscou tudo pela dela.\n\nRaabe escondeu dois espias em Jericó e pediu proteção para a família, que foi salva.\n\n📖 Josué 2:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #raabeeosespias",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3077,6 +3233,18 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1900.jpg",
   "titulo": "Raabe e os espias",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-10-30-1900",
+  "tipo": "STORY",
+  "quando": "2026-10-30T19:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-30_1900_raabe-e-os-espias.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Raabe e os espias",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-30-1900.jpg"
  },
  {
   "id": "ora-story-noite-2026-10-30",
@@ -3179,6 +3347,18 @@
   "dur": 12.0
  },
  {
+  "id": "ls-2026-10-31-1000",
+  "tipo": "STORY",
+  "quando": "2026-10-31T10:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-31_1000_caim-e-abel.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Caim e Abel",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-31-1000.jpg"
+ },
+ {
   "id": "lc-2026-10-31",
   "tipo": "CARROSSEL",
   "quando": "2026-10-31T12:00:00-03:00",
@@ -3268,7 +3448,7 @@
   "midia": [
    "midia/lote27/2026-10-31_1700_sansao_f79b4115.mp4"
   ],
-  "legenda": "Perdeu as forças e acha que acabou? O cabelo de Sansão começou a crescer de novo.\n\nSansão perdeu a força quando lhe cortaram o cabelo, e, preso pelos inimigos, orou a Deus.\n\n📖 Juízes 16:28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #sansao",
+  "legenda": "Perdeu as forças e acha que acabou? O cabelo de Sansão começou a crescer de novo.\n\nSansão perdeu a força quando lhe cortaram o cabelo, e orou a Deus na prisão.\n\n📖 Juízes 16:28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #sansao",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3289,6 +3469,18 @@
   "miniatura": "midia/miniaturas/pensar2026-10-31.jpg"
  },
  {
+  "id": "ls-2026-10-31-1700",
+  "tipo": "STORY",
+  "quando": "2026-10-31T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-31_1700_sansao.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Sansão",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-31-1700.jpg"
+ },
+ {
   "id": "lh-2026-10-31-1900",
   "tipo": "REEL",
   "quando": "2026-10-31T19:00:00-03:00",
@@ -3303,6 +3495,18 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1900.jpg",
   "titulo": "Ana e Samuel",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-10-31-1900",
+  "tipo": "STORY",
+  "quando": "2026-10-31T19:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-31_1900_ana-e-samuel.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Ana e Samuel",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-10-31-1900.jpg"
  },
  {
   "id": "ora-story-noite-2026-10-31",
@@ -3351,7 +3555,7 @@
    "midia/oracoes/2026-11-01-manha/reel_loop_nenhum_8d13f523.mp4"
   ],
   "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nO bem começa nas coisas pequenas. 🤲 Hoje, preste atenção em quem precisa de uma palavra, de uma visita ou de um prato de comida.\n\n#oracaodamanha #oracao #fe #deus #biblia",
+  "legenda": "Para começar o dia, ore assim 🙏\n\nO bem começa nas coisas pequenas. 🤲 Hoje, fique atento a quem precisa de uma palavra, de uma visita ou de um prato de comida.\n\n#oracaodamanha #oracao #fe #deus #biblia",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3375,6 +3579,18 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1000.jpg",
   "titulo": "José e o manto colorido",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-11-01-1000",
+  "tipo": "STORY",
+  "quando": "2026-11-01T10:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-11-01_1000_jose-e-o-manto-colorido.jpg"
+  ],
+  "fixo": true,
+  "titulo": "José e o manto colorido",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-11-01-1000.jpg"
  },
  {
   "id": "lc-2026-11-01",
@@ -3451,7 +3667,7 @@
   "midia": [
    "midia/lote27/palavra_2026-11-01_52b5b6b8.mp4"
   ],
-  "legenda": "Pai Nosso\n\nPai nosso, que estás nos céus, santificado seja o teu nome. Venha o teu Reino. Seja feita a tua vontade, tanto na terra, assim como no céu. O pão nosso de cada dia nos dá hoje. E perdoa-nos nossas dívidas, assim como nós também perdoamos aos nossos devedores. E não nos conduzas à tentação, mas livra-nos do mal; porque teu é o Reino, o poder, e a glória, para sempre, Amém.\n\n📖 Mateus 6:9-13 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #painosso #biblia #fe #deus",
+  "legenda": "Pai Nosso\n\nPai nosso, que estás nos céus, santificado seja o teu nome.\n\n📖 Mateus 6:9-13 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3466,7 +3682,7 @@
   "midia": [
    "midia/lote27/2026-11-01_1700_torre-de-babel_4e4ad5d9.mp4"
   ],
-  "legenda": "Sente que precisa provar seu valor? Em Babel, quiseram uma torre até o céu para isso.\n\nEm Babel, o povo quis fazer uma torre até o céu; Deus misturou as línguas e eles se espalharam. Logo depois, Deus prometeu a Abrão: vou tornar o seu nome grande.\n\n📖 Gênesis 12:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #torredebabel",
+  "legenda": "Sente que precisa provar seu valor? Em Babel, quiseram uma torre até o céu para isso.\n\nEm Babel, o povo quis fazer uma torre até o céu; Deus misturou as línguas e eles se espalharam.\n\n📖 Gênesis 12:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #torredebabel",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3487,6 +3703,18 @@
   "miniatura": "midia/miniaturas/pensar2026-11-01.jpg"
  },
  {
+  "id": "ls-2026-11-01-1700",
+  "tipo": "STORY",
+  "quando": "2026-11-01T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-11-01_1700_torre-de-babel.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Torre de Babel",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-11-01-1700.jpg"
+ },
+ {
   "id": "lh-2026-11-01-1900",
   "tipo": "REEL",
   "quando": "2026-11-01T19:00:00-03:00",
@@ -3501,6 +3729,18 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
   "titulo": "Mefibosete",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-11-01-1900",
+  "tipo": "STORY",
+  "quando": "2026-11-01T19:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-11-01_1900_mefibosete.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Mefibosete",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-11-01-1900.jpg"
  },
  {
   "id": "ora-story-noite-2026-11-01",
@@ -3619,6 +3859,18 @@
   "dur": 12.0
  },
  {
+  "id": "ls-2026-11-02-1000",
+  "tipo": "STORY",
+  "quando": "2026-11-02T10:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-11-02_1000_o-semeador.jpg"
+  ],
+  "fixo": true,
+  "titulo": "O semeador",
+  "destaque": "Parábolas",
+  "miniatura": "midia/miniaturas/ls-2026-11-02-1000.jpg"
+ },
+ {
   "id": "lc-2026-11-02",
   "tipo": "CARROSSEL",
   "quando": "2026-11-02T12:00:00-03:00",
@@ -3632,7 +3884,7 @@
    "midia/lote27/lc-2026-11-02_07.jpg",
    "midia/lote27/lc-2026-11-02_08.jpg"
   ],
-  "legenda": "Você já perdeu alguém que amava?\n\n🕯️ A saudade que aperta de repente.\n🏠 A casa que ficou silenciosa.\n📱 A vontade de ligar para quem não está mais aqui.\n🌧️ O dia em que tudo parece sem cor.\n\nLázaro, amigo de Jesus, ficou doente e morreu. Quando Jesus chegou, ele já estava havia quatro dias no túmulo. Marta disse que, se Jesus estivesse lá, o irmão não teria morrido. Jesus respondeu que Ele é a ressurreição e a vida. Ao ver Maria e o povo chorando, Jesus chorou também. Depois mandou tirar a pedra e chamou: \"Lázaro, saia!\" E Lázaro saiu vivo.\n\nJesus não despreza a sua dor. Ele chorou junto, e continua perto de quem sofre.\n\n📜 O versículo (João 11:25)\nJesus disse essas palavras a Marta, enquanto ela chorava a morte do irmão. Em palavras de hoje: \"Eu sou a ressurreição e a vida; quem acredita em mim vai viver, mesmo que morra.\" A intenção do texto é oferecer esperança a quem sofre uma perda: a morte não é a última palavra para quem confia em Jesus.\n\nSe o luto estiver pesado demais, não carregue esse peso por conta própria: procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 João 11:1-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #lazaro",
+  "legenda": "Você já perdeu alguém que amava?\n\n🕯️ A saudade que aperta de repente.\n🏠 A casa que ficou silenciosa.\n📱 A vontade de ligar para quem não está mais aqui.\n🌧️ O dia em que tudo parece sem cor.\n\nLázaro, amigo de Jesus, ficou doente e morreu. Quando Jesus chegou, ele já estava havia quatro dias no túmulo. Marta disse que, se Jesus estivesse lá, o irmão não teria morrido. Jesus respondeu que Ele é a ressurreição e a vida. Ao ver Maria e o povo chorando, Jesus chorou também. Depois mandou tirar a pedra e chamou: \"Lázaro, saia!\" E Lázaro saiu vivo.\n\nJesus não despreza a sua dor. Ele chorou junto, e continua perto de quem sofre.\n\n📜 O versículo (João 11:25)\nJesus disse essas palavras a Marta, enquanto ela chorava a morte do irmão. Em palavras de hoje: \"Eu sou a ressurreição e a vida; quem acredita em mim vai viver, mesmo que morra.\" A intenção do texto é oferecer esperança a quem sofre uma perda: a morte não é a última palavra para quem confia em Jesus.\n\nSe o luto estiver pesado demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 João 11:1-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #lazaro",
   "cta": null,
   "alt": [
    "Slide 1 de 8 da história: Lázaro. Ilustração em papel recortado.",
@@ -3693,7 +3945,7 @@
   "midia": [
    "midia/lote27/palavra_2026-11-02_d99bf35f.mp4"
   ],
-  "legenda": "Salmo 23\n\nO SENHOR é meu pastor, nada me faltará. Ele me faz deitar em pastos verdes, e me leva a águas quietas. Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome. Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam.\n\n📖 Salmo 23:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
+  "legenda": "Salmo 23\n\nO SENHOR é meu pastor, nada me faltará.\n\n📖 Salmo 23:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3729,13 +3981,25 @@
   "miniatura": "midia/miniaturas/pensar2026-11-02.jpg"
  },
  {
+  "id": "ls-2026-11-02-1700",
+  "tipo": "STORY",
+  "quando": "2026-11-02T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-11-02_1700_davi-e-jonatas.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Davi e Jônatas",
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls-2026-11-02-1700.jpg"
+ },
+ {
   "id": "lh-2026-11-02-1900",
   "tipo": "REEL",
   "quando": "2026-11-02T19:00:00-03:00",
   "midia": [
    "midia/lote27/2026-11-02_1900_neemias-reconstroi-o-muro_1a0ff5d1.mp4"
   ],
-  "legenda": "Riram do seu recomeço? Também riram de Neemias, enquanto ele reerguia um muro.\n\nNeemias e o povo reergueram o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
+  "legenda": "Riram do seu recomeço? Também riram de Neemias, enquanto ele reerguia um muro.\n\nNeemias reergueu o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
@@ -3743,6 +4007,18 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
   "titulo": "Neemias reconstrói o muro",
   "dur": 12.0
+ },
+ {
+  "id": "ls-2026-11-02-1900",
+  "tipo": "STORY",
+  "quando": "2026-11-02T19:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-11-02_1900_neemias-reconstroi-o-muro.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Neemias reconstrói o muro",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-11-02-1900.jpg"
  },
  {
   "id": "ora-story-noite-2026-11-02",
