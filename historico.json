@@ -7245,14 +7245,14 @@
    },
    "htexto03-2026-10-23": {
     "reach": 2216,
-    "views": 4477,
+    "views": 4480,
     "likes": 135,
     "comments": 6,
     "saved": 10,
     "shares": 30,
     "total_interactions": 191,
     "ig_reels_avg_watch_time": 16690,
-    "reels_skip_rate": 48.1,
+    "reels_skip_rate": 48,
     "ig_reels_video_view_total_time": 39039643
    },
    "ora-reel-noite-2026-10-23": {
@@ -7329,16 +7329,16 @@
     "profile_visits": 0
    },
    "htexto14-2026-10-24": {
-    "reach": 1882,
-    "views": 4594,
+    "reach": 1907,
+    "views": 4603,
     "likes": 149,
     "comments": 27,
     "saved": 7,
     "shares": 1,
     "total_interactions": 187,
-    "ig_reels_avg_watch_time": 22304,
-    "reels_skip_rate": 40.7,
-    "ig_reels_video_view_total_time": 44519521
+    "ig_reels_avg_watch_time": 22288,
+    "reels_skip_rate": 41.1,
+    "ig_reels_video_view_total_time": 44977508
    },
    "vmsg2026-10-24": {
     "reach": 130,
@@ -7395,11 +7395,11 @@
     "ig_reels_video_view_total_time": 1171261
    }
   },
-  "em": "2026-10-24T23:30-03:00",
+  "em": "2026-10-24T23:36-03:00",
   "conta": {
-   "reach": 3329,
+   "reach": 3350,
    "views": 5771,
-   "accounts_engaged": 241,
+   "accounts_engaged": 247,
    "total_interactions": 345,
    "profile_views": 4,
    "likes": 234,
@@ -7413,7 +7413,7 @@
   "quebras": {
    "reach:follow_type": {
     "FOLLOWER": 20,
-    "NON_FOLLOWER": 3289
+    "NON_FOLLOWER": 3309
    },
    "views:follow_type": {
     "FOLLOWER": 151,
@@ -7441,9 +7441,9 @@
     "REEL": 31
    },
    "reach:media_product_type": {
-    "STORY": 4,
-    "REEL": 3309,
-    "CAROUSEL_CONTAINER": 5
+    "CAROUSEL_CONTAINER": 5,
+    "REEL": 3329,
+    "STORY": 4
    }
   }
  }
