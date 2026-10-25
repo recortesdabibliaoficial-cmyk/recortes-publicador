@@ -30,8 +30,7 @@
   ],
   "fixo": true,
   "titulo": "Comece aqui (para o destaque)",
-  "miniatura": "midia/miniaturas/comeceaqui.jpg",
-  "destaque": "Comece aqui"
+  "miniatura": "midia/miniaturas/comeceaqui.jpg"
  },
  {
   "id": "mc-carrossel03",
@@ -63,8 +62,7 @@
    "midia/stories/story_2026-10-12_versiculo_post01.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-12.jpg",
-  "titulo": "Versículo: Davi e Golias",
-  "destaque": "Coragem"
+  "titulo": "Versículo: Davi e Golias"
  },
  {
   "id": "story2026-10-12-post02",
@@ -76,8 +74,7 @@
   "post": "02",
   "titulo_story": true,
   "miniatura": "midia/miniaturas/story2026-10-12-post02.jpg",
-  "titulo": "Versículo: A ovelha perdida",
-  "destaque": "Parábolas"
+  "titulo": "Versículo: A ovelha perdida"
  },
  {
   "id": "story2026-10-12-post03",
@@ -89,8 +86,7 @@
   "post": "03",
   "titulo_story": true,
   "miniatura": "midia/miniaturas/story2026-10-12-post03.jpg",
-  "titulo": "Versículo: José perdoa os irmãos",
-  "destaque": "Esperança"
+  "titulo": "Versículo: José perdoa os irmãos"
  },
  {
   "id": "story2026-10-12-post04",
@@ -102,8 +98,7 @@
   "post": "04",
   "titulo_story": true,
   "miniatura": "midia/miniaturas/story2026-10-12-post04.jpg",
-  "titulo": "Versículo: Daniel na cova dos leões",
-  "destaque": "Coragem"
+  "titulo": "Versículo: Daniel na cova dos leões"
  },
  {
   "id": "mc-carrossel05",
@@ -154,8 +149,7 @@
    "midia/stories/story_2026-10-13_versiculo_post05.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-13.jpg",
-  "titulo": "Versículo: Os dez leprosos",
-  "destaque": "Lições"
+  "titulo": "Versículo: Os dez leprosos"
  },
  {
   "id": "comeceaqui2",
@@ -166,8 +160,7 @@
   ],
   "fixo": true,
   "titulo": "Como funciona (2ª versão do Comece aqui)",
-  "miniatura": "midia/miniaturas/comeceaqui2.jpg",
-  "destaque": "Comece aqui"
+  "miniatura": "midia/miniaturas/comeceaqui2.jpg"
  },
  {
   "id": "mc-carrossel06",
@@ -218,8 +211,7 @@
    "midia/stories/story_2026-10-14_versiculo_post06.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-14.jpg",
-  "titulo": "Versículo: Jonas",
-  "destaque": "Esperança"
+  "titulo": "Versículo: Jonas"
  },
  {
   "id": "ora-manha-2026-10-15",
@@ -244,8 +236,7 @@
   ],
   "fixo": true,
   "titulo": "Oração da manhã · 15/10 (Story)",
-  "miniatura": "midia/miniaturas/ora-2026-10-15-manha.jpg",
-  "destaque": "Orações"
+  "miniatura": "midia/miniaturas/ora-2026-10-15-manha.jpg"
  },
  {
   "id": "mc-carrossel07",
@@ -281,8 +272,7 @@
    "midia/stories/story_2026-10-15_versiculo_post07.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-15.jpg",
-  "titulo": "Versículo: O bom samaritano",
-  "destaque": "Parábolas"
+  "titulo": "Versículo: O bom samaritano"
  },
  {
   "id": "reel06",
@@ -322,8 +312,7 @@
   ],
   "fixo": true,
   "titulo": "Oração da noite · 15/10 (Story)",
-  "miniatura": "midia/miniaturas/ora-2026-10-15-noite.jpg",
-  "destaque": "Orações"
+  "miniatura": "midia/miniaturas/ora-2026-10-15-noite.jpg"
  },
  {
   "id": "ora-reel-noite-2026-10-15",
@@ -401,8 +390,7 @@
   ],
   "fixo": true,
   "titulo": "Como funciona (versão com 7h30, substitui a de 15/10)",
-  "miniatura": "midia/miniaturas/comeceaqui4.jpg",
-  "destaque": "Comece aqui"
+  "miniatura": "midia/miniaturas/comeceaqui4.jpg"
  },
  {
   "id": "comeceaqui3",
@@ -413,8 +401,7 @@
   ],
   "fixo": true,
   "titulo": "Como funciona com as orações (substitui a 2ª versão no destaque)",
-  "miniatura": "midia/miniaturas/comeceaqui3.jpg",
-  "destaque": "Comece aqui"
+  "miniatura": "midia/miniaturas/comeceaqui3.jpg"
  },
  {
   "id": "story2026-10-16",
@@ -424,8 +411,7 @@
    "midia/stories/story_2026-10-16_versiculo_post08.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-16.jpg",
-  "titulo": "Versículo: Noé",
-  "destaque": "Esperança"
+  "titulo": "Versículo: Noé"
  },
  {
   "id": "reel07",
@@ -543,8 +529,7 @@
    "midia/stories/story_2026-10-17_versiculo_post09.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-17.jpg",
-  "titulo": "Versículo: A oferta da viúva",
-  "destaque": "Lições"
+  "titulo": "Versículo: A oferta da viúva"
  },
  {
   "id": "reel08",
@@ -667,8 +652,7 @@
    "midia/stories/story_2026-10-18_versiculo_post10.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-18.jpg",
-  "titulo": "Versículo: Marta e Maria",
-  "destaque": "Lições"
+  "titulo": "Versículo: Marta e Maria"
  },
  {
   "id": "reel09",
@@ -867,8 +851,7 @@
    "midia/stories/story_2026-10-19_versiculo_post11.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-19.jpg",
-  "titulo": "Versículo: Ester",
-  "destaque": "Coragem"
+  "titulo": "Versículo: Ester"
  },
  {
   "id": "ora-story-noite-2026-10-19",
@@ -979,8 +962,7 @@
    "midia/stories/story_2026-10-20_capa_post12.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-20.jpg",
-  "titulo": "Post no perfil: Zaqueu",
-  "destaque": "Lições"
+  "titulo": "Post no perfil: Zaqueu"
  },
  {
   "id": "htexto11-2026-10-20",
@@ -1137,8 +1119,7 @@
    "midia/stories/story_2026-10-21_capa_post13.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-21.jpg",
-  "titulo": "Post no perfil: Rute e Noemi",
-  "destaque": "Esperança"
+  "titulo": "Post no perfil: Rute e Noemi"
  },
  {
   "id": "htexto01-2026-10-21",
@@ -1277,8 +1258,7 @@
    "midia/stories/story_2026-10-22_capa_post14.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-22.jpg",
-  "titulo": "Post no perfil: Pedro anda sobre as águas",
-  "destaque": "Coragem"
+  "titulo": "Post no perfil: Pedro anda sobre as águas"
  },
  {
   "id": "htexto06-2026-10-22",
@@ -1485,8 +1465,7 @@
    "midia/stories/story_2026-10-23_capa_post15.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-23.jpg",
-  "titulo": "Post no perfil: Elias debaixo da árvore",
-  "destaque": "Esperança"
+  "titulo": "Post no perfil: Elias debaixo da árvore"
  },
  {
   "id": "htexto02-2026-10-23",
@@ -1678,8 +1657,7 @@
    "midia/stories/story_2026-10-24_capa_post16.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-24.jpg",
-  "titulo": "Post no perfil: Gideão",
-  "destaque": "Coragem"
+  "titulo": "Post no perfil: Gideão"
  },
  {
   "id": "htexto14-2026-10-24",
@@ -1867,8 +1845,7 @@
    "midia/stories/story_2026-10-25_capa_post17.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-25.jpg",
-  "titulo": "Post no perfil: Moisés e a sarça",
-  "destaque": "Coragem"
+  "titulo": "Post no perfil: Moisés e a sarça"
  },
  {
   "id": "htexto20-2026-10-25",
@@ -2060,8 +2037,7 @@
    "midia/stories/story_2026-10-26_capa_post18.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-26.jpg",
-  "titulo": "Post no perfil: O filho pródigo",
-  "destaque": "Parábolas"
+  "titulo": "Post no perfil: O filho pródigo"
  },
  {
   "id": "vsabia2026-10-26",
@@ -2331,8 +2307,7 @@
    "midia/stories/story_2026-10-27_capa_post19.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-27.jpg",
-  "titulo": "Post no perfil: Salomão pede sabedoria",
-  "destaque": "Lições"
+  "titulo": "Post no perfil: Salomão pede sabedoria"
  },
  {
   "id": "lh-2026-10-27-1200",
@@ -2602,8 +2577,7 @@
    "midia/stories/story_2026-10-28_capa_post20.jpg"
   ],
   "miniatura": "midia/miniaturas/story2026-10-28.jpg",
-  "titulo": "Post no perfil: Jesus lava os pés dos discípulos",
-  "destaque": "Lições"
+  "titulo": "Post no perfil: Jesus lava os pés dos discípulos"
  },
  {
   "id": "lh-2026-10-28-1200",
