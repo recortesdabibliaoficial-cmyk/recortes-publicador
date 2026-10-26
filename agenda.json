@@ -2218,36 +2218,6 @@
   "miniatura": "midia/miniaturas/semana2026-10-26-6.jpg"
  },
  {
-  "id": "repost07",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-27T08:00:00-03:00",
-  "midia": [
-   "midia/post07/t_slide_01.jpg",
-   "midia/post07/t_slide_02.jpg",
-   "midia/post07/t_slide_03.jpg",
-   "midia/post07/t_slide_04.jpg",
-   "midia/post07/t_slide_05.jpg",
-   "midia/post07/t_slide_06.jpg",
-   "midia/post07/t_slide_07.jpg",
-   "midia/post07/t_slide_08.jpg"
-  ],
-  "legenda": "Você já recebeu ajuda de quem menos esperava?\n\n🚶 A pessoa sozinha que você viu e passou direto.\n📞 O amigo que sumiu e você não ligou.\n👵 O vizinho que precisa de uma mão.\n🧥 Alguém com frio na rua.\n💬 Aquela mensagem que você deixou para depois.\n\nUm professor da lei, um estudioso das leis de Deus, perguntou a Jesus: \"Quem é o meu próximo?\", ou seja, quem ele deveria amar e ajudar. Jesus respondeu com uma história. Um homem foi assaltado e deixado ferido na estrada. Dois religiosos viram e passaram pelo outro lado. Quem parou foi um samaritano, alguém de um povo vizinho, rival dos judeus. Ele cuidou do homem e pagou a pousada.\n\nAmar o próximo é parar. Ajudar quem está do nosso lado, mesmo quando não é conveniente. Deus usa as nossas mãos.\n\n📜 O versículo (Lucas 10:37)\nÉ o fim da conversa entre Jesus e um professor da lei que perguntou \"quem é o meu próximo?\". Depois da história, o professor da lei respondeu: \"aquele que teve misericórdia\". E Jesus disse: \"Vá e faça o mesmo.\" A intenção de Jesus foi mudar a pergunta: em vez de \"quem merece a minha ajuda?\", passar a perguntar \"de quem eu posso ser o próximo hoje?\".\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #bomsamaritano #amoraoproximo",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
-   "Slide 2 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
-   "Slide 3 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
-   "Slide 4 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
-   "Slide 5 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
-   "Slide 6 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
-   "Slide 7 de 8 da história: O bom samaritano. Ilustração em papel recortado.",
-   "Slide 8 de 8 da história: O bom samaritano. Ilustração em papel recortado."
-  ],
-  "titulo": "O bom samaritano",
-  "post": "07",
-  "miniatura": "midia/miniaturas/repost07.jpg"
- },
- {
   "id": "ora-story-manha-2026-10-27",
   "tipo": "STORY",
   "quando": "2026-10-27T08:00:00-03:00",
@@ -2292,18 +2262,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-27-1000",
-  "tipo": "STORY",
-  "quando": "2026-10-27T10:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-27_1000_mulher-samaritana.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Mulher samaritana",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-27-1000.jpg"
- },
- {
   "id": "post19",
   "tipo": "CARROSSEL",
   "quando": "2026-10-27T12:00:00-03:00",
@@ -2331,16 +2289,6 @@
   "titulo": "Salomão pede sabedoria"
  },
  {
-  "id": "story2026-10-27",
-  "tipo": "STORY",
-  "quando": "2026-10-27T12:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-27_capa_post19.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-27.jpg",
-  "titulo": "Post no perfil: Salomão pede sabedoria"
- },
- {
   "id": "lh-2026-10-27-1200",
   "tipo": "REEL",
   "quando": "2026-10-27T12:00:00-03:00",
@@ -2366,18 +2314,6 @@
   "fixo": true,
   "titulo": "Você sabia? Moisés",
   "miniatura": "midia/miniaturas/vsabia2026-10-27.jpg"
- },
- {
-  "id": "ls-2026-10-27-1200",
-  "tipo": "STORY",
-  "quando": "2026-10-27T12:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-27_1200_moises-e-o-mar-vermelho.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Moisés e o mar Vermelho",
-  "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-10-27-1200.jpg"
  },
  {
   "id": "lp-2026-10-27",
@@ -2411,17 +2347,6 @@
   "dur": 12.0
  },
  {
-  "id": "pensar2026-10-27",
-  "tipo": "STORY",
-  "quando": "2026-10-27T17:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-27_para_pensar.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Para pensar: Bartimeu",
-  "miniatura": "midia/miniaturas/pensar2026-10-27.jpg"
- },
- {
   "id": "ls-2026-10-27-1700",
   "tipo": "STORY",
   "quando": "2026-10-27T17:02:00-03:00",
@@ -2450,18 +2375,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-27-1900",
-  "tipo": "STORY",
-  "quando": "2026-10-27T19:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-27_1900_abigail.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Abigail",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-27-1900.jpg"
- },
- {
   "id": "ora-story-noite-2026-10-27",
   "tipo": "STORY",
   "quando": "2026-10-27T21:00:00-03:00",
@@ -2471,51 +2384,6 @@
   "fixo": true,
   "titulo": "Oração da noite · 27/10 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-10-27.jpg"
- },
- {
-  "id": "ora-reel-noite-2026-10-27",
-  "tipo": "REEL",
-  "quando": "2026-10-27T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-27-noite/reel_loop_nenhum_e9d33f8f.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nUm café quente, uma conversa boa, um sorriso. 🌙 As coisas pequenas também são presente. Agradeça e descanse com o coração leve.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 27/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-27.jpg",
-  "dur": 12.0
- },
- {
-  "id": "repost08",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-28T08:00:00-03:00",
-  "midia": [
-   "midia/post08/t_slide_01.jpg",
-   "midia/post08/t_slide_02.jpg",
-   "midia/post08/t_slide_03.jpg",
-   "midia/post08/t_slide_04.jpg",
-   "midia/post08/t_slide_05.jpg",
-   "midia/post08/t_slide_06.jpg",
-   "midia/post08/t_slide_07.jpg"
-  ],
-  "legenda": "Você está passando por uma tempestade que parece não ter fim?\n\n🌧️ Um problema que se arrasta há meses.\n🏥 Um tratamento longo.\n💸 Contas que não fecham.\n💔 Um luto que ainda dói.\n⏳ A espera por uma resposta que não chega.\n\nNoé construiu a arca exatamente como Deus mandou, quando ainda não havia nenhum sinal de chuva. Depois veio a chuva: quarenta dias e quarenta noites. Mas um dia a pomba voltou com uma folha de oliveira no bico, e Deus colocou um arco-íris no céu.\n\nA Bíblia conta que, no meio daquela água toda, Deus se lembrou de Noé (Gênesis 8:1). Ele não esquece quem está atravessando a tempestade.\n\nSe a dor estiver pesada demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📜 O versículo (Gênesis 9:13)\nDeus falou essas palavras a Noé e aos filhos dele depois do dilúvio. O arco-íris passou a ser o sinal de uma aliança, ou seja, de uma promessa: Deus nunca mais destruiria a terra com um dilúvio. A intenção era deixar um lembrete visível de que Deus cumpre o que promete. Toda vez que aparece um arco-íris depois da chuva, a gente lembra que Ele é fiel.\n\n📖 Gênesis 6 a 9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #noe #esperanca",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 7 da história: Noé. Ilustração em papel recortado.",
-   "Slide 2 de 7 da história: Noé. Ilustração em papel recortado.",
-   "Slide 3 de 7 da história: Noé. Ilustração em papel recortado.",
-   "Slide 4 de 7 da história: Noé. Ilustração em papel recortado.",
-   "Slide 5 de 7 da história: Noé. Ilustração em papel recortado.",
-   "Slide 6 de 7 da história: Noé. Ilustração em papel recortado.",
-   "Slide 7 de 7 da história: Noé. Ilustração em papel recortado."
-  ],
-  "titulo": "Noé",
-  "post": "08",
-  "miniatura": "midia/miniaturas/repost08.jpg"
  },
  {
   "id": "ora-story-manha-2026-10-28",
@@ -2562,18 +2430,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-28-1000",
-  "tipo": "STORY",
-  "quando": "2026-10-28T10:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-28_1000_jesus-e-as-criancas.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Jesus e as crianças",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-28-1000.jpg"
- },
- {
   "id": "post20",
   "tipo": "CARROSSEL",
   "quando": "2026-10-28T12:00:00-03:00",
@@ -2601,16 +2457,6 @@
   "titulo": "Jesus lava os pés dos discípulos"
  },
  {
-  "id": "story2026-10-28",
-  "tipo": "STORY",
-  "quando": "2026-10-28T12:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-28_capa_post20.jpg"
-  ],
-  "miniatura": "midia/miniaturas/story2026-10-28.jpg",
-  "titulo": "Post no perfil: Jesus lava os pés dos discípulos"
- },
- {
   "id": "lh-2026-10-28-1200b",
   "tipo": "REEL",
   "quando": "2026-10-28T12:00:00-03:00",
@@ -2625,29 +2471,6 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1200b.jpg",
   "titulo": "A mulher que tocou no manto de Jesus",
   "dur": 12.0
- },
- {
-  "id": "vsabia2026-10-28",
-  "tipo": "STORY",
-  "quando": "2026-10-28T12:01:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-28_voce_sabia.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Você sabia? Jericó",
-  "miniatura": "midia/miniaturas/vsabia2026-10-28.jpg"
- },
- {
-  "id": "ls-2026-10-28-1200",
-  "tipo": "STORY",
-  "quando": "2026-10-28T12:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-28_1200_paes-e-peixes.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Pães e peixes",
-  "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-10-28-1200.jpg"
  },
  {
   "id": "lp-2026-10-28",
@@ -2720,18 +2543,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-28-1900",
-  "tipo": "STORY",
-  "quando": "2026-10-28T19:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-28_1900_naama-curado.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Naamã curado",
-  "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-10-28-1900.jpg"
- },
- {
   "id": "ora-story-noite-2026-10-28",
   "tipo": "STORY",
   "quando": "2026-10-28T21:00:00-03:00",
@@ -2741,49 +2552,6 @@
   "fixo": true,
   "titulo": "Oração da noite · 28/10 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-10-28.jpg"
- },
- {
-  "id": "ora-reel-noite-2026-10-28",
-  "tipo": "REEL",
-  "quando": "2026-10-28T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-28-noite/reel_loop_nenhum_1ba57014.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nEsta noite, lembre de quem está doente e de quem espera um resultado. 🌙 Ore por alívio, por calma e por quem cuida deles. Deus está perto.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 28/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-28.jpg",
-  "dur": 12.0
- },
- {
-  "id": "repost09",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-29T08:00:00-03:00",
-  "midia": [
-   "midia/post09/t_slide_01.jpg",
-   "midia/post09/t_slide_02.jpg",
-   "midia/post09/t_slide_03.jpg",
-   "midia/post09/t_slide_04.jpg",
-   "midia/post09/t_slide_05.jpg",
-   "midia/post09/t_slide_06.jpg"
-  ],
-  "legenda": "Você acha que o pouco que tem não vale nada?\n\n⏰ Pouco tempo livre na semana.\n💰 Pouco dinheiro para ajudar alguém.\n🎤 Um talento que você acha pequeno.\n🙏 Uma oração curtinha antes de dormir.\n🤗 Um abraço que parece simples.\n\nNo templo, muitos ricos davam grandes ofertas. Uma viúva pobre deu duas moedinhas. Jesus disse que ela deu mais que todos, porque deu tudo o que tinha.\n\nPara Deus, o valor não está no tamanho do que a gente dá, mas no coração com que a gente dá. O seu pouco, entregue com amor, é muito.\n\n📜 O versículo (Marcos 12:44)\nJesus explicou aos discípulos por que a viúva deu mais que todos: os outros deram o que sobrava, e ela deu tudo o que tinha para viver. A intenção de Jesus era ensinar que Deus olha o coração e o quanto custou dar, e não o tamanho da oferta.\n\n📖 Marcos 12:41-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #generosidade #jesus",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
-   "Slide 2 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
-   "Slide 3 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
-   "Slide 4 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
-   "Slide 5 de 6 da história: A oferta da viúva. Ilustração em papel recortado.",
-   "Slide 6 de 6 da história: A oferta da viúva. Ilustração em papel recortado."
-  ],
-  "titulo": "A oferta da viúva",
-  "post": "09",
-  "miniatura": "midia/miniaturas/repost09.jpg"
  },
  {
   "id": "ora-story-manha-2026-10-29",
@@ -2830,18 +2598,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-29-1000",
-  "tipo": "STORY",
-  "quando": "2026-10-29T10:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-29_1000_jo.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Jó",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-29-1000.jpg"
- },
- {
   "id": "lc-2026-10-29",
   "tipo": "CARROSSEL",
   "quando": "2026-10-29T12:00:00-03:00",
@@ -2869,17 +2625,6 @@
   ],
   "miniatura": "midia/miniaturas/lc-2026-10-29.jpg",
   "titulo": "Jesus acalma a tempestade",
-  "fixo": true
- },
- {
-  "id": "lcs-2026-10-29",
-  "tipo": "STORY",
-  "quando": "2026-10-29T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lcs-2026-10-29_capa_post21.jpg"
-  ],
-  "miniatura": "midia/miniaturas/lcs-2026-10-29.jpg",
-  "titulo": "Post no perfil: Jesus acalma a tempestade",
   "fixo": true
  },
  {
@@ -2941,17 +2686,6 @@
   "dur": 12.0
  },
  {
-  "id": "pensar2026-10-29",
-  "tipo": "STORY",
-  "quando": "2026-10-29T17:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-29_para_pensar.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Para pensar: A viúva e o azeite",
-  "miniatura": "midia/miniaturas/pensar2026-10-29.jpg"
- },
- {
   "id": "ls-2026-10-29-1700",
   "tipo": "STORY",
   "quando": "2026-10-29T17:02:00-03:00",
@@ -2980,18 +2714,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-29-1900",
-  "tipo": "STORY",
-  "quando": "2026-10-29T19:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-29_1900_a-viuva-e-o-azeite.jpg"
-  ],
-  "fixo": true,
-  "titulo": "A viúva e o azeite",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-29-1900.jpg"
- },
- {
   "id": "ora-story-noite-2026-10-29",
   "tipo": "STORY",
   "quando": "2026-10-29T21:00:00-03:00",
@@ -3001,49 +2723,6 @@
   "fixo": true,
   "titulo": "Oração da noite · 29/10 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-10-29.jpg"
- },
- {
-  "id": "ora-reel-noite-2026-10-29",
-  "tipo": "REEL",
-  "quando": "2026-10-29T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-29-noite/reel_loop_nenhum_95d6118d.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nOs pensamentos não param? 🌙 Entregue a Deus o que não dá para resolver agora. A noite é tempo de descanso.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 29/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-29.jpg",
-  "dur": 12.0
- },
- {
-  "id": "repost10",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-30T08:00:00-03:00",
-  "midia": [
-   "midia/post10/t_slide_01.jpg",
-   "midia/post10/t_slide_02.jpg",
-   "midia/post10/t_slide_03.jpg",
-   "midia/post10/t_slide_04.jpg",
-   "midia/post10/t_slide_05.jpg",
-   "midia/post10/t_slide_06.jpg"
-  ],
-  "legenda": "Sua cabeça não para nem um minuto?\n\n📋 A lista de tarefas que nunca acaba.\n📱 O celular que não deixa você desligar.\n🏠 Casa, trabalho, filhos, tudo ao mesmo tempo.\n🌙 A noite em que a mente não descansa.\n😮‍💨 O cansaço de ter que dar conta de tudo.\n\nJesus foi visitar Marta e Maria. Maria se sentou para ouvir. Marta corria de um lado para o outro, cansada, e reclamou. Jesus respondeu com carinho: \"Só uma coisa é necessária.\"\n\nNem tudo depende de você. Às vezes, o mais importante é parar, respirar e ficar perto de Deus. Ele cuida do que você não consegue segurar.\n\nSe a ansiedade estiver pesada demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde. Cuidar da mente também é cuidar da vida que Deus te deu.\n\n📜 O versículo (Lucas 10:41-42)\nJesus responde a Marta com carinho, chamando o nome dela duas vezes. Em palavras de hoje: \"Marta, você está preocupada e agitada com muitas coisas, mas só uma é necessária. Maria escolheu a melhor parte, e ninguém vai tirar isso dela.\" A intenção de Jesus não era criticar o trabalho de Marta, mas convidá-la a parar e a colocar em primeiro lugar o tempo com Ele.\n\n📖 Lucas 10:38-42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #martaemaria #ansiedade",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
-   "Slide 2 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
-   "Slide 3 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
-   "Slide 4 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
-   "Slide 5 de 6 da história: Marta e Maria. Ilustração em papel recortado.",
-   "Slide 6 de 6 da história: Marta e Maria. Ilustração em papel recortado."
-  ],
-  "titulo": "Marta e Maria",
-  "post": "10",
-  "miniatura": "midia/miniaturas/repost10.jpg"
  },
  {
   "id": "ora-story-manha-2026-10-30",
@@ -3090,18 +2769,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-30-1000",
-  "tipo": "STORY",
-  "quando": "2026-10-30T10:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-30_1000_jaco-e-a-escada.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Jacó e a escada",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-30-1000.jpg"
- },
- {
   "id": "lc-2026-10-30",
   "tipo": "CARROSSEL",
   "quando": "2026-10-30T12:00:00-03:00",
@@ -3132,17 +2799,6 @@
   "fixo": true
  },
  {
-  "id": "lcs-2026-10-30",
-  "tipo": "STORY",
-  "quando": "2026-10-30T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lcs-2026-10-30_capa_post22.jpg"
-  ],
-  "miniatura": "midia/miniaturas/lcs-2026-10-30.jpg",
-  "titulo": "Post no perfil: Três jovens na fornalha",
-  "fixo": true
- },
- {
   "id": "lh-2026-10-30-1200",
   "tipo": "REEL",
   "quando": "2026-10-30T12:00:00-03:00",
@@ -3157,17 +2813,6 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
   "titulo": "Os três jovens na fornalha",
   "dur": 12.0
- },
- {
-  "id": "vsabia2026-10-30",
-  "tipo": "STORY",
-  "quando": "2026-10-30T12:01:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-30_voce_sabia.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Você sabia? Elias",
-  "miniatura": "midia/miniaturas/vsabia2026-10-30.jpg"
  },
  {
   "id": "lp-2026-10-30",
@@ -3240,18 +2885,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-30-1900",
-  "tipo": "STORY",
-  "quando": "2026-10-30T19:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-30_1900_raabe-e-os-espias.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Raabe e os espias",
-  "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-10-30-1900.jpg"
- },
- {
   "id": "ora-story-noite-2026-10-30",
   "tipo": "STORY",
   "quando": "2026-10-30T21:00:00-03:00",
@@ -3261,51 +2894,6 @@
   "fixo": true,
   "titulo": "Oração da noite · 30/10 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-10-30.jpg"
- },
- {
-  "id": "ora-reel-noite-2026-10-30",
-  "tipo": "REEL",
-  "quando": "2026-10-30T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-30-noite/reel_loop_nenhum_d5d92fb9.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nSem sono esta noite? 🌙 Respire fundo e entregue a Deus o que está pesando. Ore também por quem está acordado e preocupado.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 30/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-30.jpg",
-  "dur": 12.0
- },
- {
-  "id": "repost11",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-31T08:00:00-03:00",
-  "midia": [
-   "midia/post11/t_slide_01.jpg",
-   "midia/post11/t_slide_02.jpg",
-   "midia/post11/t_slide_03.jpg",
-   "midia/post11/t_slide_04.jpg",
-   "midia/post11/t_slide_05.jpg",
-   "midia/post11/t_slide_06.jpg",
-   "midia/post11/t_slide_07.jpg"
-  ],
-  "legenda": "Você já se perguntou por que está onde está?\n\n🏢 O emprego que você não planejou.\n🏫 A escola ou a cidade onde você foi parar.\n👪 A família que Deus te deu.\n🤝 As pessoas que cruzam o seu caminho.\n🕰️ O momento difícil que você está vivendo agora.\n\nEster era uma moça simples que virou rainha. Quando um homem mau fez um plano contra o povo dela, ela teve medo, porque ir até o rei sem ser chamada podia custar a sua vida. Mesmo assim, Ester pediu que o povo jejuasse por ela, criou coragem e falou com o rei. E o povo foi salvo.\n\nNada na sua vida está fora dos planos de Deus. Talvez você esteja exatamente onde precisa estar para fazer a diferença na vida de alguém.\n\n📜 O versículo (Ester 4:14)\nMordecai, primo de Ester, disse essas palavras quando ela ficou com medo de falar com o rei. Em palavras de hoje: \"Se você ficar calada, a ajuda pode vir de outro lugar, mas você perde a sua parte. E quem sabe você virou rainha justamente para um momento como este?\" A intenção era mostrar a Ester que a posição dela não era por acaso.\n\nOnde Deus colocou você hoje? 👑\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #proposito",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 7 da história: Ester. Ilustração em papel recortado.",
-   "Slide 2 de 7 da história: Ester. Ilustração em papel recortado.",
-   "Slide 3 de 7 da história: Ester. Ilustração em papel recortado.",
-   "Slide 4 de 7 da história: Ester. Ilustração em papel recortado.",
-   "Slide 5 de 7 da história: Ester. Ilustração em papel recortado.",
-   "Slide 6 de 7 da história: Ester. Ilustração em papel recortado.",
-   "Slide 7 de 7 da história: Ester. Ilustração em papel recortado."
-  ],
-  "titulo": "Ester",
-  "post": "11",
-  "miniatura": "midia/miniaturas/repost11.jpg"
  },
  {
   "id": "ora-story-manha-2026-10-31",
@@ -3352,18 +2940,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-31-1000",
-  "tipo": "STORY",
-  "quando": "2026-10-31T10:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-31_1000_caim-e-abel.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Caim e Abel",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-31-1000.jpg"
- },
- {
   "id": "lc-2026-10-31",
   "tipo": "CARROSSEL",
   "quando": "2026-10-31T12:00:00-03:00",
@@ -3391,17 +2967,6 @@
   ],
   "miniatura": "midia/miniaturas/lc-2026-10-31.jpg",
   "titulo": "Abraão e Isaque",
-  "fixo": true
- },
- {
-  "id": "lcs-2026-10-31",
-  "tipo": "STORY",
-  "quando": "2026-10-31T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lcs-2026-10-31_capa_post23.jpg"
-  ],
-  "miniatura": "midia/miniaturas/lcs-2026-10-31.jpg",
-  "titulo": "Post no perfil: Abraão e Isaque",
   "fixo": true
  },
  {
@@ -3463,17 +3028,6 @@
   "dur": 12.0
  },
  {
-  "id": "pensar2026-10-31",
-  "tipo": "STORY",
-  "quando": "2026-10-31T17:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-31_para_pensar.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Para pensar: Ana e Samuel",
-  "miniatura": "midia/miniaturas/pensar2026-10-31.jpg"
- },
- {
   "id": "ls-2026-10-31-1700",
   "tipo": "STORY",
   "quando": "2026-10-31T17:02:00-03:00",
@@ -3502,18 +3056,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-10-31-1900",
-  "tipo": "STORY",
-  "quando": "2026-10-31T19:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-10-31_1900_ana-e-samuel.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Ana e Samuel",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-10-31-1900.jpg"
- },
- {
   "id": "ora-story-noite-2026-10-31",
   "tipo": "STORY",
   "quando": "2026-10-31T21:00:00-03:00",
@@ -3523,23 +3065,6 @@
   "fixo": true,
   "titulo": "Oração da noite · 31/10 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-10-31.jpg"
- },
- {
-  "id": "ora-reel-noite-2026-10-31",
-  "tipo": "REEL",
-  "quando": "2026-10-31T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-31-noite/reel_loop_nenhum_561caa17.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nMágoa pesa, e perdão alivia. 🌙 Entregue a Deus o que ficou do dia e durma com o coração mais leve.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 31/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-31.jpg",
-  "dur": 12.0
  },
  {
   "id": "ora-story-manha-2026-11-01",
@@ -3586,18 +3111,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-11-01-1000",
-  "tipo": "STORY",
-  "quando": "2026-11-01T10:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-11-01_1000_jose-e-o-manto-colorido.jpg"
-  ],
-  "fixo": true,
-  "titulo": "José e o manto colorido",
-  "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-11-01-1000.jpg"
- },
- {
   "id": "lc-2026-11-01",
   "tipo": "CARROSSEL",
   "quando": "2026-11-01T12:00:00-03:00",
@@ -3625,17 +3138,6 @@
   ],
   "miniatura": "midia/miniaturas/lc-2026-11-01.jpg",
   "titulo": "Adão e Eva",
-  "fixo": true
- },
- {
-  "id": "lcs-2026-11-01",
-  "tipo": "STORY",
-  "quando": "2026-11-01T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lcs-2026-11-01_capa_post24.jpg"
-  ],
-  "miniatura": "midia/miniaturas/lcs-2026-11-01.jpg",
-  "titulo": "Post no perfil: Adão e Eva",
   "fixo": true
  },
  {
@@ -3697,17 +3199,6 @@
   "dur": 12.0
  },
  {
-  "id": "pensar2026-11-01",
-  "tipo": "STORY",
-  "quando": "2026-11-01T17:00:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-11-01_para_pensar.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Para pensar: Mefibosete",
-  "miniatura": "midia/miniaturas/pensar2026-11-01.jpg"
- },
- {
   "id": "ls-2026-11-01-1700",
   "tipo": "STORY",
   "quando": "2026-11-01T17:02:00-03:00",
@@ -3736,18 +3227,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-11-01-1900",
-  "tipo": "STORY",
-  "quando": "2026-11-01T19:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-11-01_1900_mefibosete.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Mefibosete",
-  "destaque": "Esperança",
-  "miniatura": "midia/miniaturas/ls-2026-11-01-1900.jpg"
- },
- {
   "id": "ora-story-noite-2026-11-01",
   "tipo": "STORY",
   "quando": "2026-11-01T21:00:00-03:00",
@@ -3757,23 +3236,6 @@
   "fixo": true,
   "titulo": "Oração da noite · 01/11 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-11-01.jpg"
- },
- {
-  "id": "ora-reel-noite-2026-11-01",
-  "tipo": "REEL",
-  "quando": "2026-11-01T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-11-01-noite/reel_loop_nenhum_03516824.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nQuem cuida também precisa de cuidado. 🌙 Ore por quem dá o melhor de si todos os dias, quase sem descanso. Deus vê esse esforço.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 01/11 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-11-01.jpg",
-  "dur": 12.0
  },
  {
   "id": "semana2026-11-01-1",
@@ -3864,18 +3326,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-11-02-1000",
-  "tipo": "STORY",
-  "quando": "2026-11-02T10:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-11-02_1000_o-semeador.jpg"
-  ],
-  "fixo": true,
-  "titulo": "O semeador",
-  "destaque": "Parábolas",
-  "miniatura": "midia/miniaturas/ls-2026-11-02-1000.jpg"
- },
- {
   "id": "lc-2026-11-02",
   "tipo": "CARROSSEL",
   "quando": "2026-11-02T12:00:00-03:00",
@@ -3906,17 +3356,6 @@
   "fixo": true
  },
  {
-  "id": "lcs-2026-11-02",
-  "tipo": "STORY",
-  "quando": "2026-11-02T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lcs-2026-11-02_capa_post25.jpg"
-  ],
-  "miniatura": "midia/miniaturas/lcs-2026-11-02.jpg",
-  "titulo": "Post no perfil: Lázaro",
-  "fixo": true
- },
- {
   "id": "lh-2026-11-02-1200",
   "tipo": "REEL",
   "quando": "2026-11-02T12:00:00-03:00",
@@ -3931,17 +3370,6 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
   "titulo": "Lázaro",
   "dur": 12.0
- },
- {
-  "id": "vsabia2026-11-02",
-  "tipo": "STORY",
-  "quando": "2026-11-02T12:01:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-11-02_voce_sabia.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Você sabia? Jesus chorou",
-  "miniatura": "midia/miniaturas/vsabia2026-11-02.jpg"
  },
  {
   "id": "lp-2026-11-02",
@@ -4014,18 +3442,6 @@
   "dur": 12.0
  },
  {
-  "id": "ls-2026-11-02-1900",
-  "tipo": "STORY",
-  "quando": "2026-11-02T19:02:00-03:00",
-  "midia": [
-   "midia/lote27/stories/story_2026-11-02_1900_neemias-reconstroi-o-muro.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Neemias reconstrói o muro",
-  "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-11-02-1900.jpg"
- },
- {
   "id": "ora-story-noite-2026-11-02",
   "tipo": "STORY",
   "quando": "2026-11-02T21:00:00-03:00",
@@ -4035,22 +3451,5 @@
   "fixo": true,
   "titulo": "Oração da noite · 02/11 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-11-02.jpg"
- },
- {
-  "id": "ora-reel-noite-2026-11-02",
-  "tipo": "REEL",
-  "quando": "2026-11-02T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-11-02-noite/reel_loop_nenhum_639fd65d.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nPense no amor que você recebeu na vida. 🌙 Agradeça por quem cuidou de você, perto ou longe, e descanse com o coração grato.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 02/11 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-11-02.jpg",
-  "dur": 12.0
  }
 ]
