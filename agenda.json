@@ -2611,6 +2611,22 @@
   "titulo": "Post no perfil: Jesus lava os pés dos discípulos"
  },
  {
+  "id": "lh-2026-10-28-1200b",
+  "tipo": "REEL",
+  "quando": "2026-10-28T12:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-28_1200_mulher-do-manto_81995bce.mp4"
+  ],
+  "legenda": "Ninguém passa despercebido por Jesus.\n\nA mulher que tocou no manto de Jesus sofreu doze anos, e ele a chamou de filha.\n\n📖 Marcos 5:25-34 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1200b.jpg",
+  "titulo": "A mulher que tocou no manto de Jesus",
+  "dur": 12.0
+ },
+ {
   "id": "vsabia2026-10-28",
   "tipo": "STORY",
   "quando": "2026-10-28T12:01:00-03:00",
