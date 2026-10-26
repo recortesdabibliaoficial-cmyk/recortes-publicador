@@ -2066,6 +2066,22 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-26.jpg"
  },
  {
+  "id": "lh-2026-10-28-1200",
+  "tipo": "REEL",
+  "quando": "2026-10-26T13:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-28_1200_paes-e-peixes_47aebe02.mp4"
+  ],
+  "legenda": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas.\n\nUm menino tinha cinco pães e dois peixes, e Jesus alimentou a multidão.\n\n📖 Mateus 14:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #paesepeixes",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1200.jpg",
+  "titulo": "Pães e peixes",
+  "dur": 12.0
+ },
+ {
   "id": "vmsg2026-10-26",
   "tipo": "REEL",
   "quando": "2026-10-26T15:00:00-03:00",
@@ -2593,22 +2609,6 @@
   ],
   "miniatura": "midia/miniaturas/story2026-10-28.jpg",
   "titulo": "Post no perfil: Jesus lava os pés dos discípulos"
- },
- {
-  "id": "lh-2026-10-28-1200",
-  "tipo": "REEL",
-  "quando": "2026-10-28T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/2026-10-28_1200_paes-e-peixes_47aebe02.mp4"
-  ],
-  "legenda": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas.\n\nUm menino tinha cinco pães e dois peixes, e Jesus alimentou a multidão.\n\n📖 Mateus 14:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #paesepeixes",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-28-1200.jpg",
-  "titulo": "Pães e peixes",
-  "dur": 12.0
  },
  {
   "id": "vsabia2026-10-28",
