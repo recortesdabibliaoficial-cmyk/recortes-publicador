@@ -2124,6 +2124,21 @@
   "miniatura": "midia/miniaturas/pensar2026-10-26.jpg"
  },
  {
+  "id": "lista-2026-10-26",
+  "tipo": "REEL",
+  "quando": "2026-10-26T19:00:00-03:00",
+  "midia": [
+   "midia/lote27/promessas_898ecf3f.mp4"
+  ],
+  "legenda": "Três promessas de Deus para os dias pesados: descanso para quem está cansado, presença para quem tem medo e força nova para quem não aguenta mais.\n\nVocê não está sozinho.\n\n📖 Mateus 11:28, Isaías 41:10 e Isaías 40:31 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #fe #deus #jesus #promessasdedeus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Promessas da Bíblia: cansado, com medo, sem forças",
+  "miniatura": "midia/miniaturas/promessas-2026-10-26.jpg"
+ },
+ {
   "id": "ora-story-noite-2026-10-26",
   "tipo": "STORY",
   "quando": "2026-10-26T21:00:00-03:00",
