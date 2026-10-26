@@ -6989,6 +6989,17 @@
     "ig_reels_avg_watch_time": 7807,
     "t": "2026-10-26T08:11+00:00",
     "h": 65.14
+   },
+   {
+    "reach": 132,
+    "views": 196,
+    "likes": 4,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 70.7,
+    "ig_reels_avg_watch_time": 7807,
+    "t": "2026-10-26T11:06+00:00",
+    "h": 68.06
    }
   ]
  },
@@ -7434,6 +7445,17 @@
     "ig_reels_avg_watch_time": 6755,
     "t": "2026-10-26T08:11+00:00",
     "h": 62.16
+   },
+   {
+    "reach": 133,
+    "views": 189,
+    "likes": 16,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 61.5,
+    "ig_reels_avg_watch_time": 6755,
+    "t": "2026-10-26T11:06+00:00",
+    "h": 65.08
    }
   ]
  },
@@ -8313,6 +8335,17 @@
     "ig_reels_avg_watch_time": 8860,
     "t": "2026-10-26T08:11+00:00",
     "h": 56.16
+   },
+   {
+    "reach": 141,
+    "views": 226,
+    "likes": 8,
+    "shares": 1,
+    "saved": 0,
+    "reels_skip_rate": 67.1,
+    "ig_reels_avg_watch_time": 8860,
+    "t": "2026-10-26T11:06+00:00",
+    "h": 59.07
    }
   ]
  },
@@ -9862,6 +9895,17 @@
     "ig_reels_avg_watch_time": 9438,
     "t": "2026-10-26T08:11+00:00",
     "h": 36.17
+   },
+   {
+    "reach": 132,
+    "views": 208,
+    "likes": 7,
+    "shares": 0,
+    "saved": 2,
+    "reels_skip_rate": 58.6,
+    "ig_reels_avg_watch_time": 9438,
+    "t": "2026-10-26T11:06+00:00",
+    "h": 39.08
    }
   ]
  },
@@ -10982,6 +11026,17 @@
     "ig_reels_avg_watch_time": 8263,
     "t": "2026-10-26T10:11+00:00",
     "h": 16.15
+   },
+   {
+    "reach": 138,
+    "views": 210,
+    "likes": 15,
+    "shares": 0,
+    "saved": 2,
+    "reels_skip_rate": 59,
+    "ig_reels_avg_watch_time": 8263,
+    "t": "2026-10-26T11:06+00:00",
+    "h": 17.07
    }
   ]
  },
@@ -11163,6 +11218,17 @@
     "ig_reels_avg_watch_time": 10105,
     "t": "2026-10-26T10:11+00:00",
     "h": 14.14
+   },
+   {
+    "reach": 127,
+    "views": 212,
+    "likes": 6,
+    "shares": 0,
+    "saved": 2,
+    "reels_skip_rate": 55,
+    "ig_reels_avg_watch_time": 10105,
+    "t": "2026-10-26T11:06+00:00",
+    "h": 15.06
    }
   ]
  },
@@ -11459,6 +11525,22 @@
     "ig_reels_avg_watch_time": 5178,
     "t": "2026-10-26T10:16+00:00",
     "h": 10.23
+   }
+  ]
+ },
+ "ora-reel-manha-2026-10-26": {
+  "publicado": "2026-10-26T11:03:13.653592+00:00",
+  "pontos": [
+   {
+    "reach": 0,
+    "views": 0,
+    "likes": 0,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 0,
+    "ig_reels_avg_watch_time": 0,
+    "t": "2026-10-26T11:06+00:00",
+    "h": 0.05
    }
   ]
  }
