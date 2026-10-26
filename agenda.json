@@ -2135,23 +2135,6 @@
   "miniatura": "midia/miniaturas/ora-story-noite-2026-10-26.jpg"
  },
  {
-  "id": "ora-reel-noite-2026-10-26",
-  "tipo": "REEL",
-  "quando": "2026-10-26T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-26-noite/reel_loop_nenhum_462da629.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Antes de dormir, ore assim 🙏\n\nO dia terminou, e você pode descansar. 🌙 Entregue o que não depende de você e durma em paz: Deus guarda o seu sono.\n\n#oracaodanoite #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da noite · 26/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-noite-2026-10-26.jpg",
-  "dur": 12.0
- },
- {
   "id": "semana2026-10-26-1",
   "tipo": "STORY",
   "quando": "2026-10-26T21:05:00-03:00",
@@ -2229,23 +2212,6 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-27.jpg"
  },
  {
-  "id": "ora-reel-manha-2026-10-27",
-  "tipo": "REEL",
-  "quando": "2026-10-27T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-27-manha/reel_loop_nenhum_941d5038.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nMuita gente sai cedo hoje para trabalhar. 💼 Ore por elas e pelo seu próprio dia: cada esforço conta, e Deus cuida de cada passo.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da manhã · 27/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-27.jpg",
-  "dur": 12.0
- },
- {
   "id": "lh-2026-10-27-1000",
   "tipo": "REEL",
   "quando": "2026-10-27T10:00:00-03:00",
@@ -2316,21 +2282,6 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-27.jpg"
  },
  {
-  "id": "lp-2026-10-27",
-  "tipo": "REEL",
-  "quando": "2026-10-27T15:00:00-03:00",
-  "midia": [
-   "midia/lote27/palavra_2026-10-27_2cc3b0e2.mp4"
-  ],
-  "legenda": "Bênção de Números\n\nO SENHOR te abençoe, e te guarde: Faça resplandecer o SENHOR seu rosto sobre ti, e tenha de ti misericórdia: O SENHOR levante a ti seu rosto, e ponha em ti paz.\n\n📖 Números 6:24-26 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "titulo": "Palavra para orar: Bênção de Números",
-  "miniatura": "midia/miniaturas/lp-2026-10-27.jpg"
- },
- {
   "id": "lh-2026-10-27-1700",
   "tipo": "REEL",
   "quando": "2026-10-27T17:00:00-03:00",
@@ -2397,23 +2348,6 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-28.jpg"
  },
  {
-  "id": "ora-reel-manha-2026-10-28",
-  "tipo": "REEL",
-  "quando": "2026-10-28T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-28-manha/reel_loop_nenhum_1651a1f8.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nCoragem não é não sentir medo: é dar o passo mesmo assim. 🌅 Hoje, comece. Um passo de cada vez, e Deus vai com você.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da manhã · 28/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-28.jpg",
-  "dur": 12.0
- },
- {
   "id": "lh-2026-10-28-1000",
   "tipo": "REEL",
   "quando": "2026-10-28T10:00:00-03:00",
@@ -2471,21 +2405,6 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1200b.jpg",
   "titulo": "A mulher que tocou no manto de Jesus",
   "dur": 12.0
- },
- {
-  "id": "lp-2026-10-28",
-  "tipo": "REEL",
-  "quando": "2026-10-28T15:00:00-03:00",
-  "midia": [
-   "midia/lote27/palavra_2026-10-28_52c35700.mp4"
-  ],
-  "legenda": "Salmo 121\n\nLevanto meus olhos aos montes.\n\n📖 Salmo 121:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "titulo": "Palavra para orar: Salmo 121",
-  "miniatura": "midia/miniaturas/lp-2026-10-28.jpg"
  },
  {
   "id": "lh-2026-10-28-1700",
@@ -2565,23 +2484,6 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-29.jpg"
  },
  {
-  "id": "ora-reel-manha-2026-10-29",
-  "tipo": "REEL",
-  "quando": "2026-10-29T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-29-manha/reel_loop_nenhum_4c87db16.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nQuem está longe também está no cuidado de Deus. 🌍 Ore hoje por quem sente saudade e por quem espera um reencontro.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da manhã · 29/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-29.jpg",
-  "dur": 12.0
- },
- {
   "id": "lh-2026-10-29-1000",
   "tipo": "REEL",
   "quando": "2026-10-29T10:00:00-03:00",
@@ -2655,21 +2557,6 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-29.jpg"
  },
  {
-  "id": "lp-2026-10-29",
-  "tipo": "REEL",
-  "quando": "2026-10-29T15:00:00-03:00",
-  "midia": [
-   "midia/lote27/palavra_2026-10-29_5148327d.mp4"
-  ],
-  "legenda": "Filipenses 4\n\nNão estejais ansiosos por coisa alguma; mas em tudo, por meio de orações e súplicas com ações de gratidão, sejam os vossos pedidos conhecidos por Deus; e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus.\n\n📖 Filipenses 4:6-7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "titulo": "Palavra para orar: Filipenses 4",
-  "miniatura": "midia/miniaturas/lp-2026-10-29.jpg"
- },
- {
   "id": "lh-2026-10-29-1700",
   "tipo": "REEL",
   "quando": "2026-10-29T17:00:00-03:00",
@@ -2736,23 +2623,6 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-30.jpg"
  },
  {
-  "id": "ora-reel-manha-2026-10-30",
-  "tipo": "REEL",
-  "quando": "2026-10-30T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-30-manha/reel_loop_nenhum_a20d317a.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nSe ontem foi difícil, hoje é outra página. 🌤️ Respire, levante a cabeça e dê o primeiro passo: ainda há bem pela frente.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da manhã · 30/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-30.jpg",
-  "dur": 12.0
- },
- {
   "id": "lh-2026-10-30-1000",
   "tipo": "REEL",
   "quando": "2026-10-30T10:00:00-03:00",
@@ -2813,21 +2683,6 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
   "titulo": "Os três jovens na fornalha",
   "dur": 12.0
- },
- {
-  "id": "lp-2026-10-30",
-  "tipo": "REEL",
-  "quando": "2026-10-30T15:00:00-03:00",
-  "midia": [
-   "midia/lote27/palavra_2026-10-30_fc1a9985.mp4"
-  ],
-  "legenda": "Salmo 91\n\nAquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará.\n\n📖 Salmo 91:1-2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "titulo": "Palavra para orar: Salmo 91",
-  "miniatura": "midia/miniaturas/lp-2026-10-30.jpg"
  },
  {
   "id": "lh-2026-10-30-1700",
@@ -2907,23 +2762,6 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-31.jpg"
  },
  {
-  "id": "ora-reel-manha-2026-10-31",
-  "tipo": "REEL",
-  "quando": "2026-10-31T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-31-manha/reel_loop_nenhum_80a00538.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nFamília nem sempre é fácil, mas é presente. 🏡 Hoje, ore pela sua e escolha uma palavra de carinho. Um gesto calmo muda o clima da casa.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da manhã · 31/10 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-manha-2026-10-31.jpg",
-  "dur": 12.0
- },
- {
   "id": "lh-2026-10-31-1000",
   "tipo": "REEL",
   "quando": "2026-10-31T10:00:00-03:00",
@@ -2997,21 +2835,6 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-31.jpg"
  },
  {
-  "id": "lp-2026-10-31",
-  "tipo": "REEL",
-  "quando": "2026-10-31T15:00:00-03:00",
-  "midia": [
-   "midia/lote27/palavra_2026-10-31_e365b151.mp4"
-  ],
-  "legenda": "Salmo 4\n\nEu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro.\n\n📖 Salmo 4:8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "titulo": "Palavra para orar: Salmo 4",
-  "miniatura": "midia/miniaturas/lp-2026-10-31.jpg"
- },
- {
   "id": "lh-2026-10-31-1700",
   "tipo": "REEL",
   "quando": "2026-10-31T17:00:00-03:00",
@@ -3076,23 +2899,6 @@
   "fixo": true,
   "titulo": "Oração da manhã · 01/11 (Story)",
   "miniatura": "midia/miniaturas/ora-story-manha-2026-11-01.jpg"
- },
- {
-  "id": "ora-reel-manha-2026-11-01",
-  "tipo": "REEL",
-  "quando": "2026-11-01T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-11-01-manha/reel_loop_nenhum_8d13f523.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nO bem começa nas coisas pequenas. 🤲 Hoje, fique atento a quem precisa de uma palavra, de uma visita ou de um prato de comida.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da manhã · 01/11 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-manha-2026-11-01.jpg",
-  "dur": 12.0
  },
  {
   "id": "lh-2026-11-01-1000",
@@ -3166,21 +2972,6 @@
   "fixo": true,
   "titulo": "Você sabia? Adão",
   "miniatura": "midia/miniaturas/vsabia2026-11-01.jpg"
- },
- {
-  "id": "lp-2026-11-01",
-  "tipo": "REEL",
-  "quando": "2026-11-01T15:00:00-03:00",
-  "midia": [
-   "midia/lote27/palavra_2026-11-01_52b5b6b8.mp4"
-  ],
-  "legenda": "Pai Nosso\n\nPai nosso, que estás nos céus, santificado seja o teu nome.\n\n📖 Mateus 6:9-13 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "titulo": "Palavra para orar: Pai Nosso",
-  "miniatura": "midia/miniaturas/lp-2026-11-01.jpg"
  },
  {
   "id": "lh-2026-11-01-1700",
@@ -3293,23 +3084,6 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-11-02.jpg"
  },
  {
-  "id": "ora-reel-manha-2026-11-02",
-  "tipo": "REEL",
-  "quando": "2026-11-02T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-11-02-manha/reel_loop_nenhum_ae0b4118.mp4"
-  ],
-  "cta": "nenhum",
-  "legenda": "Para começar o dia, ore assim 🙏\n\nA saudade também é amor. 🕊️ Hoje, ore por quem está de luto e valorize as pessoas que estão perto de você.\n\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n#oracaodamanha #oracao #fe #deus #biblia",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "teste": true,
-  "titulo": "Oração da manhã · 02/11 (Reel)",
-  "miniatura": "midia/miniaturas/ora-reel-manha-2026-11-02.jpg",
-  "dur": 12.0
- },
- {
   "id": "lh-2026-11-02-1000",
   "tipo": "REEL",
   "quando": "2026-11-02T10:00:00-03:00",
@@ -3370,21 +3144,6 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
   "titulo": "Lázaro",
   "dur": 12.0
- },
- {
-  "id": "lp-2026-11-02",
-  "tipo": "REEL",
-  "quando": "2026-11-02T15:00:00-03:00",
-  "midia": [
-   "midia/lote27/palavra_2026-11-02_d99bf35f.mp4"
-  ],
-  "legenda": "Salmo 23\n\nO SENHOR é meu pastor, nada me faltará.\n\n📖 Salmo 23:1-4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#oracao #salmos #biblia #fe #deus",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "titulo": "Palavra para orar: Salmo 23",
-  "miniatura": "midia/miniaturas/lp-2026-11-02.jpg"
  },
  {
   "id": "lh-2026-11-02-1700",
