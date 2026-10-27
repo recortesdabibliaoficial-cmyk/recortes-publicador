@@ -10118,12 +10118,12 @@
    },
    "htexto14-2026-10-24": {
     "reach": 3289,
-    "views": 7842,
-    "likes": 222,
+    "views": 7845,
+    "likes": 223,
     "comments": 42,
     "saved": 14,
     "shares": 3,
-    "total_interactions": 286,
+    "total_interactions": 287,
     "ig_reels_avg_watch_time": 23195,
     "reels_skip_rate": 38.7,
     "ig_reels_video_view_total_time": 79397252
@@ -10452,27 +10452,27 @@
    },
    "htexto12-2026-10-26": {
     "reach": 396,
-    "views": 928,
+    "views": 939,
     "likes": 31,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 32,
     "ig_reels_avg_watch_time": 19756,
-    "reels_skip_rate": 43.2,
+    "reels_skip_rate": 42.2,
     "ig_reels_video_view_total_time": 8100202
    },
    "lista-2026-10-26": {
-    "reach": 121,
-    "views": 169,
+    "reach": 122,
+    "views": 170,
     "likes": 6,
     "comments": 0,
     "saved": 1,
     "shares": 0,
     "total_interactions": 7,
-    "ig_reels_avg_watch_time": 5632,
-    "reels_skip_rate": 75.4,
-    "ig_reels_video_view_total_time": 715339
+    "ig_reels_avg_watch_time": 5594,
+    "reels_skip_rate": 75.6,
+    "ig_reels_video_view_total_time": 716111
    },
    "ora-story-noite-2026-10-26": {
     "reach": 0,
@@ -10538,6 +10538,55 @@
     "profile_visits": 0
    }
   },
-  "em": "2026-10-26T23:27-03:00"
+  "em": "2026-10-26T23:31-03:00",
+  "conta": {
+   "reach": 1054,
+   "views": 1767,
+   "accounts_engaged": 73,
+   "total_interactions": 89,
+   "profile_views": 8,
+   "likes": 74,
+   "comments": 5,
+   "saves": 5,
+   "shares": 1,
+   "replies": 0,
+   "reposts": 3,
+   "profile_links_taps": 0
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "NON_FOLLOWER": 1034,
+    "FOLLOWER": 23
+   },
+   "views:follow_type": {
+    "FOLLOWER": 91,
+    "NON_FOLLOWER": 1676
+   },
+   "views:media_product_type": {
+    "CAROUSEL_CONTAINER": 5,
+    "REEL": 1716,
+    "STORY": 46
+   },
+   "total_interactions:media_product_type": {
+    "REEL": 89
+   },
+   "likes:media_product_type": {
+    "REEL": 74
+   },
+   "saves:media_product_type": {
+    "REEL": 5
+   },
+   "shares:media_product_type": {
+    "REEL": 1
+   },
+   "comments:media_product_type": {
+    "REEL": 5
+   },
+   "reach:media_product_type": {
+    "STORY": 10,
+    "REEL": 1046,
+    "CAROUSEL_CONTAINER": 3
+   }
+  }
  }
 }
