@@ -658,7 +658,7 @@ const COLS_BASE = [        // [chave, título, valor, formato na tela]
 ];
 function gancho(i){ if (i.gancho) return i.gancho; const l = String(i.legenda || '').split('\n').map(x => x.trim()).filter(Boolean)[0]; return l ? l.slice(0, 120) : null; }
 function em24(p, k){       // valor com 24 h (curvas.json): comparação justa entre Reels de idades diferentes
-  const c = curvG[p.id]; if (!c || !p.reel) return null; const pts = pontosCurva(c, k); if (pts.length < 2 || pts[pts.length-1].x < 23.5) return null;
+  const c = curvG[p.id]; if (!c || !p.reel) return null; const pts = pontosCurva(c, k); if (!pts.some(q => q.x >= 20 && q.x <= 28)) return null;   // sem leitura perto de 24 h: não inventa
   if (k === 'reach') return interpolar(pts, 24);
   const q = pts.slice(1).filter(q => q.x <= 24.5).pop(); return q ? q.y : null; }
 function baseFiltrada(){
