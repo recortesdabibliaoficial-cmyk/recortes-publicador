@@ -219,9 +219,9 @@ def _ler(ig, reg, campos, agora):
     """Lê as métricas de um post; se ele saiu do ar, marca no estado (fora_do_ar_em) e devolve {}."""
     try:
         m = _insights(ig, reg['media_id'], campos)
-    except ForaDoAr:
-        reg['fora_do_ar_em'] = agora.isoformat(); log('Post fora do ar (arquivado ou apagado):', reg.get('link')); return {}
-    reg.pop('fora_do_ar_em', None); return m
+    except ForaDoAr as e:
+        reg['fora_do_ar_em'] = agora.isoformat(); reg['fora_motivo'] = str(e)[:150]; log('Post fora do ar (arquivado ou apagado):', reg.get('link')); return {}
+    reg.pop('fora_do_ar_em', None); reg.pop('fora_motivo', None); return m
 
 
 def _insights(ig, mid, campos):
@@ -236,6 +236,8 @@ def _insights(ig, mid, campos):
             return {}
         out = {}                                                        # algum campo não existe para este item: tenta um a um
         for c in campos: out.update(_insights(ig, mid, [c]))
+        if not out and not any(x in str(e).lower() for x in ('limit', 'temporar', 'try again', 'timed out')):
+            raise ForaDoAr(str(e)[:200])                                  # 27/10: nenhum campo respondeu e não é limite: post não lê mais (arquivado com outro aviso)
         return out
     out = {}
     for d in dados:
