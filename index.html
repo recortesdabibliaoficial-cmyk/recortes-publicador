@@ -114,6 +114,8 @@
   .tb th:first-child, .tb td.r { text-align:left; }
   .tb td.r { min-width:120px; }
   .tb td.melhor { background:var(--okbg); color:var(--ok); font-weight:700; border-radius:4px; }
+  .tb td.pior { background:var(--errbg); color:var(--err); font-weight:700; border-radius:4px; }
+  .tb.rec td.r { min-width:170px; } .tb.rec td.r .suave { display:block; }
   .d { font-weight:600; color:var(--suave); } .d.bom { color:var(--ok); } .d.ruim { color:var(--err); }
   .alerta { font-size:13.5px; padding:7px 10px; border-radius:8px; margin-top:6px; background:var(--agbg); color:var(--agenda); }
   .alerta.err { background:var(--errbg); color:var(--err); } .alerta.okk { background:var(--okbg); color:var(--ok); }
@@ -418,21 +420,33 @@ const razao = (a, b) => num(a) && num(b) && b > 0 ? a / b : null;
 const slotDe = q => (new Date(q).getUTCHours() + 21) % 24;
 const hh = h => h + 'h';
 function formato(i){
-  const id = i.id || '', mid = (i.midia || []).join('|'), cur = canal.id === 'curiosidades';
+  const id = i.id || '', mid = (i.midia || []).join('|');
+  if (canal.id === 'contos') {        // Contos: conto novo × repost (mesmo título já saiu antes em Reel)
+    if (i.tipo === 'REEL') return itens.some(x => x.tipo === 'REEL' && x.titulo === i.titulo && x.quando < i.quando) ? 'Reel conto (repost)' : 'Reel conto';
+    return i.tipo === 'STORY' ? 'Story resumo do conto' : 'Carrossel conto';
+  }
   if (i.tipo === 'REEL') {
     if (/^ora-reel-/.test(id)) return 'Reel oração';
-    if (/^htexto/.test(id)) return 'Reel história texto';
+    if (/^(htexto|lh-)/.test(id)) return 'Reel história texto';
+    if (/^(vmsg|salmo)/.test(id)) return 'Reel versículo';
+    if (/^(expr|lista)-/.test(id)) return 'Reel lista';
     if (mid.includes('reel_texto')) return 'Reel texto';
-    if (/^reel\d+$/.test(id)) return cur ? 'Reel slides' : 'Reel história slides';
-    return cur ? 'Reel slides' : 'Outros';
+    if (/^reel\d+$/.test(id)) return 'Reel história slides';
+    return 'Outros';
   }
   if (i.tipo === 'STORY') {
     if (/^ora-story-/.test(id)) return 'Story oração';
+    if (/^ls-/.test(id)) return 'Story resumo';
+    if (/^vsabia/.test(id)) return 'Story «Você sabia?»';
+    if (/^pensar/.test(id)) return 'Story «Para pensar»';
+    if (/^semana/.test(id)) return 'Story «A semana»';
     if (/^story\d{4}-/.test(id)) return mid.includes('_capa_') ? 'Story capa do post' : 'Story versículo';
     return 'Outros';
   }
   if (i.tipo === 'CARROSSEL') {
     if (/^ora-[^-]+-/.test(id)) return 'Carrossel oração';
+    if (/^repost/.test(id)) return 'Carrossel repost';
+    if (/^lc-/.test(id)) return 'Carrossel do lote 27/10';
     return mid.includes('/t_slide') ? 'Carrossel texto' : 'Carrossel arte';
   }
   return 'Outros';
@@ -500,12 +514,13 @@ const C = (v, s) => ({ v: num(v) ? v : null, s: s != null ? s : f1(v) });
 const caixa = (tit, expl, corpo) => caixaGen(tit, `<div class="expl">${expl}</div>${corpo}`);
 const fechadas = (() => { try { return JSON.parse(localStorage.getItem('painelFechadas') || '{}') || {}; } catch(e){ return {}; } })();
 function salvarFechadas(){ try { localStorage.setItem('painelFechadas', JSON.stringify(fechadas)); } catch(e){} }
-function caixaGen(tit, corpo){ const k = String(tit).replace(/<[^>]*>/g, '').trim(), f = !!fechadas[k];
+const ABERTAS = ['🚨 Alertas', '🎯 Reels das últimas 48 h', '📊 Resumo', '🎬 Por formato', '🏆 Ranking de posts', '🤖 Observações do Claude'];   // as outras começam fechadas
+function caixaGen(tit, corpo){ const k = String(tit).replace(/<[^>]*>/g, '').trim(), f = k in fechadas ? !!fechadas[k] : !ABERTAS.includes(k);
   return `<div class="caixa sec${f ? ' fechada' : ''}" data-k="${esc(k)}"><h2 class="tg"><span>${tit}</span><button class="tgb" type="button" aria-label="Abrir ou fechar">${f ? '▸' : '▾'}</button></h2><div class="corpo">${corpo}</div></div>`; }
 function alternar(cx, abrir){
   const f = abrir === undefined ? !cx.classList.contains('fechada') : !abrir;
   cx.classList.toggle('fechada', f); const b = cx.querySelector('.tgb'); if (b) b.textContent = f ? '▸' : '▾';
-  fechadas[cx.dataset.k] = f; if (!f) delete fechadas[cx.dataset.k]; salvarFechadas();
+  fechadas[cx.dataset.k] = f; salvarFechadas();
   if (!f) cx.querySelectorAll('canvas').forEach(c => { const g = window.Chart && Chart.getChart(c); if (g) try { g.resize(); } catch(e){} });
 }
 function mdSimples(txt){
@@ -638,7 +653,7 @@ async function desenharDash(){
   const al = [];
   if (horasVelho != null && horasVelho > 8) al.push(['err', `Nenhum dado novo há mais de 8 h (última leitura ${emTxt}). Avise o Claude se isso continuar.`]);
   if (horasVelho == null) al.push(['err', 'Não encontrei a hora da última leitura de métricas.']);
-  const textoFmts = ['Reel história texto', 'Reel texto', 'Reel oração'], reelsTxt = reels.filter(p => textoFmts.includes(p.fmt)), mTxt = media(reelsTxt.map(p => p.reach));
+  const textoFmts = ['Reel história texto', 'Reel texto', 'Reel oração', 'Reel versículo', 'Reel lista', 'Reel conto', 'Reel conto (repost)'], reelsTxt = reels.filter(p => textoFmts.includes(p.fmt)), mTxt = media(reelsTxt.map(p => p.reach));
   if (mTxt && reelsTxt.length >= 3) {
     const slots = [...new Set(reelsTxt.map(p => p.slot))];
     slots.map(s => { const x = reelsTxt.filter(p => p.slot === s); return { s, n: x.length, m: media(x.map(p => p.reach)) }; })
@@ -664,6 +679,20 @@ async function desenharDash(){
     cartao(fp(conv), 'visita → seguidor', 'de cada 100 visitas, quantas seguiram') +
     cartao(fp(pNaoSeg), 'alcance de não seguidores', 'gente nova chegando') +
     cartao(f1(pubP.length), 'publicações no período') + '</div>');
+
+  // ---------- Reels das últimas 48 h (comparados com a mediana dos Reels de 30 dias com 24 h ou mais) ----------
+  const idade = p => (agora - new Date(p.i.quando)) / 36e5;
+  const reels30 = pubTodos.filter(i => i.tipo === 'REEL' && met[i.id] && agora - new Date(i.quando) < 30*864e5).map(enriquecer);
+  const ref = reels30.filter(p => idade(p) >= 24), seg = p => num(p.m.ig_reels_avg_watch_time) ? p.m.ig_reels_avg_watch_time / 1000 : null;
+  const mdR = mediana(ref.map(p => p.reach)), mdS = mediana(ref.map(p => p.skip)), mdW = mediana(ref.map(seg));
+  const cor = (v, md, menorMelhor, cedo) => { if (!num(v) || !num(md) || md <= 0 || cedo) return '';
+    const r = v / md; return (menorMelhor ? r <= .85 : r >= 1.2) ? 'melhor' : (menorMelhor ? r >= 1.15 : r <= .8) ? 'pior' : ''; };
+  const rec = reels30.filter(p => idade(p) < 48).sort((a, b) => b.i.quando.localeCompare(a.i.quando));
+  const linhaRec = p => { const h = idade(p), cedo = h < 24, zero = !p.reach;   // alcance 0 = arquivado ou sem dado: sem cor
+    return `<tr><td class="r">${esc(p.tit)} <span class="suave">${esc(p.fmt)}</span></td><td>${new Date(p.i.quando).toLocaleDateString('pt-BR', { weekday: 'short', timeZone: RIO })} ${fmtHora(new Date(p.i.quando))}</td><td>${f1(h)} h</td>` +
+      `<td class="${cor(p.reach, mdR, false, cedo)}">${f1(p.reach)}${cedo ? ' <span class="suave">(cedo)</span>' : ''}</td><td class="${zero ? '' : cor(p.skip, mdS, true)}">${fp(p.skip, 0)}</td><td class="${zero ? '' : cor(seg(p), mdW, false)}">${num(seg(p)) ? f1(seg(p), 1) + ' s' : '—'}</td><td>${f1(p.m.shares)}</td><td>${f1(p.m.saved)}</td></tr>`; };
+  const secRec = caixa('🎯 Reels das últimas 48 h', `Cada Reel novo comparado com o normal do canal (mediana dos Reels dos últimos 30 dias que já têm 24 h): alcance ${f1(mdR)}, pulos ${fp(mdS, 0)}, ${num(mdW) ? f1(mdW, 1) + ' s' : '—'} assistidos. Verde = bem acima do normal; vermelho = bem abaixo. Alcance com menos de 24 h ainda está crescendo, por isso não ganha cor; pulos e tempo assistido já dizem muito nas primeiras horas.`,
+    rec.length ? '<div class="rolagem"><table class="tb rec"><thead><tr><th>Reel</th><th>Saiu</th><th>Idade</th><th>Alcance</th><th>Pulos</th><th>Assistido</th><th>Envios</th><th>Salvos</th></tr></thead><tbody>' + rec.map(linhaRec).join('') + '</tbody></table></div>' : '<div class="nada">Nenhum Reel com métricas nas últimas 48 h.</div>');
 
   // ---------- funil ----------
   const pas = (a, b) => num(a) && num(b) && a > 0 ? fp(b / a * 100, 2) : '—';
@@ -742,7 +771,7 @@ async function desenharDash(){
   el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
       <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
     ${caixaGen('🚨 Alertas', alertasHtml)}` +
-    secResumo + secFunil + secSeg + secConta + secFmt + secHor + secCur + secRank + secSt + secStoriesSeguem(hist, serie, pubTodos) + secSegHora() + secTend + secObs;
+    secRec + secResumo + secFmt + secRank + secFunil + secSeg + secConta + secHor + secCur + secSt + secStoriesSeguem(hist, serie, pubTodos) + secSegHora() + secTend + secObs;
   if (ATUALIZAR) acompanharAtualizacao();          // retoma a barra se havia um pedido em andamento
 
   // ---------- gráficos ----------
