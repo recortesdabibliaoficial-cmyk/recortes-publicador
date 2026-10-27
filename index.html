@@ -758,7 +758,11 @@ async function desenharDash(){
   const segAtual = serie.length ? serie[serie.length-1].n : null;
   const reachC = somaConta(hist, cur, 'reach'), reachA = somaConta(hist, ant, 'reach');
   const visC = somaConta(hist, cur, 'profile_views'), visA = somaConta(hist, ant, 'profile_views');
-  const conv = razao(ganho, visC) != null ? razao(ganho, visC) * 100 : null, convA = razao(ganhoA, visA) != null ? razao(ganhoA, visA) * 100 : null;
+  // 27/10: «visita → seguidor» dava 151% (muita gente segue direto do Reel, sem visitar o perfil). Agora: novos seguidores por 1.000 alcançados,
+  // só nos dias já fechados (o alcance do dia só é gravado às 23h30; os seguidores de hoje entravam sem o alcance de hoje).
+  const fech = ks => ks.filter(d => hist[d] && hist[d].conta && num(hist[d].conta.reach));
+  const porMilSeg = ks => { const f = fech(ks), g = f.length ? ganhoSeg(serie, f) : null, r = somaConta(hist, f, 'reach'); return num(g) && num(r) && r > 0 ? g / r * 1000 : null; };
+  const conv = porMilSeg(cur), convA = porMilSeg(ant);
   const nf = somaQuebra(hist, cur, 'reach:follow_type', 'NON_FOLLOWER'), sf = somaQuebra(hist, cur, 'reach:follow_type', 'FOLLOWER');
   const pNaoSeg = num(nf) && num(sf) && nf + sf > 0 ? nf / (nf + sf) * 100 : null;
   curvG = D.curv || {}; baseLista = pubTodos.filter(i => met[i.id]).map(enriquecer); contaLinhas = linhasConta(hist, serie, pubTodos);
@@ -777,7 +781,7 @@ async function desenharDash(){
       .filter(o => o.n >= 2 && o.m < mTxt * .75).sort((a, b) => a.m / mTxt - b.m / mTxt).slice(0, 1)
       .forEach(o => al.push(['aviso', `Reel das ${hh(o.s)} está ${f1((1 - o.m / mTxt) * 100)}% abaixo da média dos Reels de texto (${f1(o.m)} contra ${f1(mTxt)} de alcance).`]));
   }
-  if (num(conv) && num(convA) && convA > 0 && conv < convA * .8) al.push(['aviso', `A conversão visita→seguidor caiu: ${fp(conv)} agora contra ${fp(convA)} no período anterior.`]);
+  if (num(conv) && num(convA) && convA > 0 && conv < convA * .8) al.push(['aviso', `Os novos seguidores por 1.000 alcançados caíram: ${f1(conv, 1)} agora contra ${f1(convA, 1)} no período anterior.`]);
   const mSkip = media(reels.map(p => p.skip));
   const fmtsR = [...new Set(reels.map(p => p.fmt))].map(f => { const x = reels.filter(p => p.fmt === f); return { f, n: x.length, s: media(x.map(p => p.skip)) }; }).filter(o => o.n >= 2 && num(o.s));
   if (fmtsR.length > 1 && num(mSkip)) { const w = fmtsR.sort((a, b) => b.s - a.s)[0]; if (w.s > mSkip + 8) al.push(['aviso', `O formato com mais pulos é «${w.f}»: ${fp(w.s)} de pulos (média geral ${fp(mSkip)}).`]); }
@@ -791,9 +795,9 @@ async function desenharDash(){
   const secResumo = caixa('📊 Resumo', 'Números da conta inteira no período escolhido. Os dados do Instagram chegam com cerca de um dia de atraso.',
     `<div class="nums">` +
     cartao(f1(segAtual), 'seguidores', num(ganho) ? `${ganho > 0 ? '+' : ''}${ganho} no período` : '') +
-    cartao(f1(reachC), 'alcance da conta', 'pessoas que viram algo') +
+    cartao(f1(reachC), 'alcance da conta', 'soma do alcance de cada dia (a mesma pessoa conta em cada dia)') +
     cartao(f1(visC), 'visitas ao perfil') +
-    cartao(fp(conv), 'visita → seguidor', 'de cada 100 visitas, quantas seguiram') +
+    cartao(f1(conv, 1), 'seguidores por 1.000 alcançados', 'quantos seguiram a cada mil pessoas que viram algo (dias já fechados)') +
     cartao(fp(pNaoSeg), 'alcance de não seguidores', 'gente nova chegando') +
     cartao(f1(pubP.length), 'publicações no período') + '</div>');
 
@@ -813,7 +817,7 @@ async function desenharDash(){
 
   // ---------- funil ----------
   const pas = (a, b) => num(a) && num(b) && a > 0 ? fp(b / a * 100, 2) : '—';
-  const secFunil = caixa('🔻 Funil: alcance → visitas → seguidores', 'Das pessoas que viram os posts, quantas foram ao perfil e quantas passaram a seguir. A porcentagem entre as etapas mostra onde se perde mais gente.',
+  const secFunil = caixa('🔻 Funil: alcance → visitas → seguidores', 'Das pessoas que viram os posts, quantas foram ao perfil e quantas passaram a seguir. Atenção: muita gente segue direto do Reel, sem visitar o perfil; por isso «seguiram» pode passar de 100% das visitas. A medida confiável é a de seguidores por 1.000 alcançados (no Resumo).',
     `<div class="funil"><div class="etapa"><b>${f1(reachC)}</b><span>alcance</span></div><div class="seta">${pas(reachC, visC)}<small>foram ao perfil</small></div>
       <div class="etapa"><b>${f1(visC)}</b><span>visitas ao perfil</span></div><div class="seta">${pas(visC, ganho)}<small>seguiram</small></div>
       <div class="etapa"><b>${num(ganho) ? f1(ganho) : '—'}</b><span>novos seguidores</span></div></div>` + grafico('g-funil'));
