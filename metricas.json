@@ -1980,17 +1980,17 @@
   "lido_em": "2026-10-27T02:31:50.741541+00:00"
  },
  "ora-story-manha-2026-10-26": {
-  "reach": 6,
-  "views": 6,
+  "reach": 7,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 3
+   "tap_forward": 4
   },
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "repost06": {
   "reach": 1,
@@ -2018,24 +2018,30 @@
   "lido_em": "2026-10-27T02:31:50.741541+00:00"
  },
  "story2026-10-26": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "nav": {
+   "tap_forward": 4
+  },
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "vsabia2026-10-26": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "nav": {
+   "tap_forward": 4
+  },
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "post18": {
   "reach": 2,
@@ -2076,14 +2082,19 @@
   "lido_em": "2026-10-27T02:31:50.741541+00:00"
  },
  "pensar2026-10-26": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 3,
+   "swipe_forward": 1
+  },
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "htexto12-2026-10-26": {
   "reach": 396,
@@ -2113,72 +2124,72 @@
  },
  "ora-story-noite-2026-10-26": {
   "reach": 0,
-  "views": 1,
+  "views": 3,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "semana2026-10-26-1": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "semana2026-10-26-2": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "semana2026-10-26-3": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "semana2026-10-26-4": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "semana2026-10-26-5": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  },
  "semana2026-10-26-6": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-10-27T02:31:50.741541+00:00"
+  "lido_em": "2026-10-27T04:36:31.830832+00:00"
  }
 }
