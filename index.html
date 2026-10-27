@@ -514,7 +514,7 @@ const C = (v, s) => ({ v: num(v) ? v : null, s: s != null ? s : f1(v) });
 const caixa = (tit, expl, corpo) => caixaGen(tit, `<div class="expl">${expl}</div>${corpo}`);
 const fechadas = (() => { try { return JSON.parse(localStorage.getItem('painelFechadas') || '{}') || {}; } catch(e){ return {}; } })();
 function salvarFechadas(){ try { localStorage.setItem('painelFechadas', JSON.stringify(fechadas)); } catch(e){} }
-const ABERTAS = ['🚨 Alertas', '🎯 Reels das últimas 48 h', '📊 Resumo', '🎬 Por formato', '🏆 Ranking de posts', '🤖 Observações do Claude'];   // as outras começam fechadas
+const ABERTAS = ['🚨 Alertas', '🎯 Reels das últimas 48 h', '📊 Resumo', '🎬 Por formato', '🏆 Ranking de posts', '♻️ Candidatos a repost', '🤖 Observações do Claude'];   // as outras começam fechadas
 function caixaGen(tit, corpo){ const k = String(tit).replace(/<[^>]*>/g, '').trim(), f = k in fechadas ? !!fechadas[k] : !ABERTAS.includes(k);
   return `<div class="caixa sec${f ? ' fechada' : ''}" data-k="${esc(k)}"><h2 class="tg"><span>${tit}</span><button class="tgb" type="button" aria-label="Abrir ou fechar">${f ? '▸' : '▾'}</button></h2><div class="corpo">${corpo}</div></div>`; }
 function alternar(cx, abrir){
@@ -738,6 +738,17 @@ async function desenharDash(){
       tabela(['Reel', '1 h', '3 h', '6 h', '12 h', '24 h', 'Bateu 50%'], linhasC, null));
   }
 
+  // ---------- candidatos a repost (régua aprovada pelo Felipe em 26/10) ----------
+  // 48 h no ar, alcance 100 a 999, pulos até 50%, assistido 90% ou mais; fila por envios+salvos a cada 100 pessoas; já repostado = fora.
+  const repostado = p => itens.some(x => x.tipo === 'REEL' && x.titulo === p.i.titulo && x.quando > p.i.quando);   // já tem uma 2ª vez (agendada ou publicada)
+  const cand = p => p.reel && idade(p) >= 48 && num(p.reach) && p.reach >= 100 && p.reach < 1000 && num(p.skip) && p.skip <= 50 && num(p.pw) && p.pw >= 90;
+  const envSal = p => ((p.m.shares || 0) + (p.m.saved || 0)) / p.reach * 100;
+  const fila = reels30.filter(p => cand(p) && !repostado(p)).sort((a, b) => envSal(b) - envSal(a));
+  const secRepost = caixa('♻️ Candidatos a repost', 'Reels que seguraram as pessoas como os que decolaram, mas não decolaram. Régua: 48 h no ar, alcance de 100 a 999, pulos até 50% e assistido de 90% ou mais. A fila segue os envios+salvos a cada 100 pessoas. Máximo de 1 repost por semana, pelo menos 7 dias depois da 1ª vez, com mesmo texto e cenário ou horário novo; só 1 segunda chance. Reels com menos de 100 pessoas não foram testados e podem voltar direto; os que passaram de 1.000 voltam em versão nova depois de 30 dias.',
+    fila.length ? '<div class="rolagem"><table class="tb"><thead><tr><th>Fila</th><th>Reel</th><th>Saiu</th><th>Alcance</th><th>Pulos</th><th>Assistido</th><th>Envios+salvos /100</th></tr></thead><tbody>' +
+      fila.map((p, n) => `<tr><td>${n + 1}º</td><td class="r">${esc(p.tit)}</td><td>${new Date(p.i.quando).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', timeZone: RIO })}</td><td>${f1(p.reach)}</td><td>${fp(p.skip, 0)}</td><td>${fp(p.pw, 0)}</td><td>${f1(envSal(p), 1)}</td></tr>`).join('') + '</tbody></table></div>'
+      : '<div class="nada">Nenhum Reel dos últimos 30 dias cumpre a régua agora.</div>');
+
   // ---------- ranking ----------
   const rk = posts.filter(p => num(p.reach)).sort((a, b) => b.reach - a.reach);
   const tag = p => { const t = [];
@@ -746,6 +757,7 @@ async function desenharDash(){
     if (num(p.pw) && p.pw > 100) t.push(['ok', 'relido']);
     if (p.reel && num(p.skip) && num(mSkip) && p.skip < mSkip - 10) t.push(['ok', 'poucos pulos']);
     if (num(p.m.shares) && p.reach > 0 && p.m.shares / p.reach > .02) t.push(['ok', 'muito enviado']);
+    if (cand(p) && !repostado(p)) t.push(['ag', 'candidato a repost']);
     return t.map(x => `<span class="pill ${x[0]}">${x[1]}</span>`).join(' ') || '<span class="suave">—</span>'; };
   const linhaRk = p => `<tr><td class="r">${esc(p.tit)}</td><td>${esc(p.fmt)}</td><td>${hh(p.slot)}</td><td>${f1(p.reach)}</td><td>${fp(p.skip)}</td><td>${fp(p.pw, 0)}</td><td>${f1(p.m.likes)}</td><td>${f1(p.m.shares)}</td><td>${f1(p.m.saved)}</td><td>${tag(p)}</td></tr>`;
   const cabRk = '<div class="rolagem"><table class="tb"><thead><tr><th>Post</th><th>Formato</th><th>Hora</th><th>Alcance</th><th>Pulos</th><th>% assist.</th><th>Curtidas</th><th>Envios</th><th>Salvos</th><th>Observação</th></tr></thead><tbody>';
@@ -771,7 +783,7 @@ async function desenharDash(){
   el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
       <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
     ${caixaGen('🚨 Alertas', alertasHtml)}` +
-    secRec + secResumo + secFmt + secRank + secFunil + secSeg + secConta + secHor + secCur + secSt + secStoriesSeguem(hist, serie, pubTodos) + secSegHora() + secTend + secObs;
+    secRec + secResumo + secFmt + secRank + secRepost + secFunil + secSeg + secConta + secHor + secCur + secSt + secStoriesSeguem(hist, serie, pubTodos) + secSegHora() + secTend + secObs;
   if (ATUALIZAR) acompanharAtualizacao();          // retoma a barra se havia um pedido em andamento
 
   // ---------- gráficos ----------
