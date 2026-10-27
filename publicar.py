@@ -198,16 +198,22 @@ def renovar_token(token, estado):
 
 
 # métricas pedidas ao Instagram por tipo de publicação (as que não existirem para um item são ignoradas)
-CAMPOS = {'CARROSSEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'follows', 'profile_visits', 'reposts'],
-          'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time', 'reels_skip_rate', 'reposts', 'ig_reels_video_view_total_time'],
-          'STORY': ['reach', 'views', 'replies', 'shares', 'total_interactions', 'follows', 'profile_visits', 'reposts']}
+# 27/10: 'reposts' saiu (nunca veio em 150 itens e derrubava a consulta inteira, que virava 10 consultas, uma por campo)
+CAMPOS = {'CARROSSEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'follows', 'profile_visits'],
+          'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time', 'reels_skip_rate', 'ig_reels_video_view_total_time'],
+          'STORY': ['reach', 'views', 'replies', 'shares', 'total_interactions', 'follows', 'profile_visits']}
+_RECUSADOS = set()      # campos que o Instagram disse que não existem (nesta execução): não pergunta de novo
 
 
 def _insights(ig, mid, campos):
+    campos = [c for c in campos if c not in _RECUSADOS]
+    if not campos: return {}
     try:
         dados = ig._req('GET', f'{mid}/insights', metric=','.join(campos)).get('data', [])
-    except Exception:
-        if len(campos) == 1: return {}
+    except Exception as e:
+        if len(campos) == 1:
+            if 'must be one of' in str(e) or 'not supported' in str(e).lower(): log('AVISO campo recusado:', campos[0])
+            return {}
         out = {}                                                        # algum campo não existe para este item: tenta um a um
         for c in campos: out.update(_insights(ig, mid, [c]))
         return out
@@ -292,7 +298,8 @@ def coletar_metricas(ig, agenda, estado):
     for iid, reg in estado.items():
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id') or iid not in tipos: continue
         quando = datetime.fromisoformat(reg.get('em', agora.isoformat()))
-        if quando < agora - timedelta(days=14): continue
+        if quando < agora - timedelta(days=14):     # 27/10: de 14 a 60 dias, relê Reels e carrosséis 1 vez por dia (no fechamento)
+            if not fechamento or tipos[iid] == 'STORY' or quando < agora - timedelta(days=60): continue
         if tipos[iid] == 'STORY' and quando < agora - timedelta(hours=24) and iid in met: continue   # Story some em 24 h: guarda a última leitura
         m = _insights(ig, reg['media_id'], CAMPOS.get(tipos[iid], ['reach']))
         if m:
@@ -300,7 +307,7 @@ def coletar_metricas(ig, agenda, estado):
                 n = _nav(ig, reg['media_id'])
                 if n: m['nav'] = n
             met[iid] = dict(m, lido_em=agora.isoformat()); lidos += 1
-    met['_em'] = agora.isoformat()
+    met['_em'] = agora.isoformat(); met.pop('_erro_leitura', None)
     salvar(METRICAS, met); log(f'Métricas lidas: {lidos} itens.')
     guardar_historico(ig, met, conta, local, fechamento)
     if fechamento: met['_fechado'] = dia_local; salvar(METRICAS, met)
@@ -362,7 +369,8 @@ def guardar_historico(ig, met, conta, local, fechamento):
             seg100 = (conta or {}).get('followers_count', 0) >= 100      # idade/gênero/cidade só existem com 100+ seguidores
             lista = [('reach', 'follow_type'), ('views', 'follow_type'), ('views', 'follower_type'), ('views', 'media_product_type'),
                      ('total_interactions', 'media_product_type'), ('likes', 'media_product_type'), ('saves', 'media_product_type'),
-                     ('shares', 'media_product_type'), ('comments', 'media_product_type'), ('reach', 'media_product_type')]
+                     ('shares', 'media_product_type'), ('comments', 'media_product_type'), ('reach', 'media_product_type'),
+                     ('views', 'surface_type'), ('reach', 'surface_type')]          # surface_type = de onde veio (aba Reels, Explorar, feed...)
             if seg100: lista += [('reach', 'age'), ('reach', 'gender'), ('reach', 'city'), ('follows_and_unfollows', 'follow_type')]
             for metrica, quebra in lista:
                 try:
@@ -419,6 +427,22 @@ def coletar_comentarios(ig, estado, conta):
     salvar(COMENTARIOS, sorted(pend, key=lambda c: c.get('quando') or '')); log(f'Comentários sem resposta: {len(pend)}.')
 
 
+def coletar_tudo(ig, agenda, estado, conta):
+    """Métricas, Stories, curvas e comentários. Cada parte falha sozinha, sem derrubar as outras."""
+    try: coletar_metricas(ig, agenda, estado)
+    except Exception as e:
+        log('AVISO: não consegui ler as métricas:', str(e)[:300])
+        try: m_ = carregar(METRICAS, {}); m_['_erro_leitura'] = {'em': datetime.now(timezone.utc).isoformat(), 'erro': str(e)[:300]}; salvar(METRICAS, m_)
+        except Exception: pass
+    try: coletar_stories(ig, agenda, estado)
+    except Exception as e: log('AVISO: não consegui reler os Stories:', str(e)[:300])
+    try: coletar_curvas(ig, agenda, estado)
+    except Exception as e: log('AVISO: não consegui ler as curvas:', str(e)[:300])
+    try: coletar_comentarios(ig, estado, conta)
+    except Exception as e: log('AVISO: não consegui ler os comentários:', str(e)[:300])
+    salvar(ESTADO, estado)
+
+
 def main():
     teste = '--teste' in sys.argv
     token, user = os.environ.get('IG_TOKEN'), os.environ.get('IG_USER_ID')
@@ -442,23 +466,17 @@ def main():
         raise
     agora = datetime.now(timezone.utc)
     conferir_externos(ig, agenda, estado); salvar(ESTADO, estado)
-    try: coletar_metricas(ig, agenda, estado)
-    except Exception as e: log('AVISO: não consegui ler as métricas:', str(e)[:300])
-    try: coletar_stories(ig, agenda, estado)
-    except Exception as e: log('AVISO: não consegui reler os Stories:', str(e)[:300])
-    try: coletar_curvas(ig, agenda, estado)
-    except Exception as e: log('AVISO: não consegui ler as curvas:', str(e)[:300])
-    try: coletar_comentarios(ig, estado, conta)
-    except Exception as e: log('AVISO: não consegui ler os comentários:', str(e)[:300])
+    agenda_toda = agenda
     agenda = [i for i in agenda if i.get('via', 'api') == 'api']          # itens do Metricool só aparecem na página
     pendentes = [i for i in agenda if estado.get(i['id'], {}).get('status') != 'publicado']
     devidos = [i for i in pendentes if agora - JANELA <= datetime.fromisoformat(i['quando']) <= agora]
     log(f'{len(pendentes)} pendentes, {len(devidos)} na hora de publicar.')
     if teste:
         for i in sorted(pendentes, key=lambda i: i['quando'])[:10]: log(' ', i['quando'], i['tipo'], i['id'])
+        coletar_tudo(ig, agenda_toda, estado, conta)
         return
     ig.t = renovar_token(token, estado)
-    falhou = False
+    falhou = limitado = False
     for item in sorted(devidos, key=lambda i: i['quando']):
         reg = estado.setdefault(item['id'], {'tentativas': 0})
         if reg.get('tentativas', 0) >= MAX_TENTATIVAS:
@@ -486,9 +504,10 @@ def main():
                 reg['ultimo_erro'] = str(e)[:500]
                 log('ERRO ao publicar', item['id'], '->', e); falhou = True
             if 'action is blocked' in str(e) or "'code': 4," in str(e):
-                log('Instagram limitou as publicações: paro por aqui e tento na próxima execução.'); salvar(ESTADO, estado); break
+                log('Instagram limitou as publicações: paro por aqui e tento na próxima execução.'); salvar(ESTADO, estado); limitado = True; break
         salvar(ESTADO, estado)
     salvar(ESTADO, estado)
+    if not limitado: coletar_tudo(ig, agenda_toda, estado, conta)      # 27/10: métricas DEPOIS de publicar (publicar tem hora marcada)
     if falhou: sys.exit(1)       # deixa a execução vermelha no GitHub (e manda e-mail de aviso)
 
 

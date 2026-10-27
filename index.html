@@ -115,6 +115,13 @@
   .tb td.r { min-width:120px; }
   .tb td.melhor { background:var(--okbg); color:var(--ok); font-weight:700; border-radius:4px; }
   .tb td.pior { background:var(--errbg); color:var(--err); font-weight:700; border-radius:4px; }
+  .tb.base td.tx, .tb.base th { white-space:nowrap; } .tb.base td.r { min-width:180px; }
+  .tb.base td.gch { min-width:220px; white-space:normal; font-size:12px; }
+  .tb th.ord { cursor:pointer; user-select:none; } .tb th.ord.on { color:var(--terra); }
+  .rolagem.base { max-height:520px; overflow:auto; } .rolagem.base thead th { position:sticky; top:0; background:var(--card); z-index:1; }
+  .buscab { display:flex; gap:8px; margin:10px 0 6px; flex-wrap:wrap; }
+  .buscab input { flex:1; min-width:160px; padding:6px 10px; border:1px solid var(--linha); border-radius:8px; background:var(--card); color:var(--tinta); font-size:14px; }
+  .buscab button { border:1px solid var(--linha); background:var(--card); color:var(--tinta); border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; }
   .tb.rec td.r { min-width:170px; } .tb.rec td.r .suave { display:block; }
   .d { font-weight:600; color:var(--suave); } .d.bom { color:var(--ok); } .d.ruim { color:var(--err); }
   .alerta { font-size:13.5px; padding:7px 10px; border-radius:8px; margin-top:6px; background:var(--agbg); color:var(--agenda); }
@@ -625,6 +632,114 @@ function secStoriesSeguem(hist, serie, pubTodos){
     (parcial ? ' * = falta o dado de algum Story do dia.' : '') + '</div>');
 }
 
+// ----- Base de dados (Felipe, 27/10): todos os posts desde o início, com tudo o que o Instagram informa; ordena, filtra e baixa planilha -----
+let curvG = {}, baseLista = [], baseTipo = 'todos', baseOrd = ['quando', -1], baseBusca = '', contaLinhas = [];
+const dataHora = q => new Date(q).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: RIO });
+const COLS_BASE = [        // [chave, título, valor, formato na tela]
+  ['quando', 'Saiu', p => p.i.quando, v => dataHora(v)],
+  ['fmt', 'Formato', p => p.fmt, v => esc(v)],
+  ['tit', 'Post', p => p.tit, (v, p) => esc(v) + (p.i._link ? ` <a class="link" href="${p.i._link}" target="_blank" rel="noopener">↗</a>` : '')],
+  ['gancho', 'Gancho (1ª linha da legenda)', p => gancho(p.i), v => esc(v || '—')],
+  ['pal', 'Palavras do gancho', p => { const g = gancho(p.i); return g ? g.split(/\s+/).filter(Boolean).length : null; }],
+  ['reach', 'Alcance', p => p.reach], ['r24', 'Alcance com 24 h', p => em24(p, 'reach')], ['s24', 'Pulos com 24 h', p => em24(p, 'reels_skip_rate'), v => fp(v, 0)], ['views', 'Views', p => p.views],
+  ['likes', 'Curtidas', p => p.m.likes], ['comments', 'Coment.', p => p.m.comments], ['saved', 'Salvos', p => p.m.saved], ['shares', 'Envios', p => p.m.shares],
+  ['es100', 'Envios+salvos /100', p => num(p.reach) && p.reach > 0 && (num(p.m.shares) || num(p.m.saved)) ? ((p.m.shares || 0) + (p.m.saved || 0)) / p.reach * 100 : null, v => f1(v, 1)],
+  ['int', 'Interações', p => p.m.total_interactions],
+  ['follows', 'Seguiram', p => p.m.follows], ['profile_visits', 'Visitas ao perfil', p => p.m.profile_visits], ['replies', 'Respostas', p => p.m.replies],
+  ['skip', 'Pulos', p => p.skip, v => fp(v, 0)],
+  ['ws', 'Assistido (s)', p => num(p.m.ig_reels_avg_watch_time) ? p.m.ig_reels_avg_watch_time / 1000 : null, v => f1(v, 1)],
+  ['pw', '% assistido', p => p.pw, v => fp(v, 0)],
+  ['tt', 'Tempo total (min)', p => num(p.m.ig_reels_video_view_total_time) ? p.m.ig_reels_video_view_total_time / 6e4 : null, v => f1(v, 0)],
+  ['dur', 'Duração (s)', p => p.reel && num(p.i.dur) ? p.i.dur : null, v => f1(v, 0)],
+  ['sexit', 'Story: saiu', p => p.m.nav ? navV(p.m.nav, 'tap_exit') : null],
+  ['sfw', 'Story: avançou', p => p.m.nav ? navV(p.m.nav, 'tap_forward') + navV(p.m.nav, 'swipe_forward') : null],
+  ['sback', 'Story: voltou', p => p.m.nav ? navV(p.m.nav, 'tap_back') : null],
+  ['lido', 'Lido em', p => p.m.lido_em || null, v => v ? dataHora(v) : '—']
+];
+function gancho(i){ if (i.gancho) return i.gancho; const l = String(i.legenda || '').split('\n').map(x => x.trim()).filter(Boolean)[0]; return l ? l.slice(0, 120) : null; }
+function em24(p, k){       // valor com 24 h (curvas.json): comparação justa entre Reels de idades diferentes
+  const c = curvG[p.id]; if (!c || !p.reel) return null; const pts = pontosCurva(c, k); if (pts.length < 2 || pts[pts.length-1].x < 23.5) return null;
+  if (k === 'reach') return interpolar(pts, 24);
+  const q = pts.slice(1).filter(q => q.x <= 24.5).pop(); return q ? q.y : null; }
+function baseFiltrada(){
+  const b = baseBusca.trim().toLowerCase(), col = COLS_BASE.find(c => c[0] === baseOrd[0]) || COLS_BASE[0], sn = baseOrd[1];
+  return baseLista.filter(p => (baseTipo === 'todos' || p.i.tipo === baseTipo) && (!b || (p.tit + ' ' + p.fmt + ' ' + p.id).toLowerCase().includes(b)))
+    .sort((x, y) => { const a = col[2](x), c = col[2](y); if (a == null && c == null) return 0; if (a == null) return 1; if (c == null) return -1;
+      return (typeof a === 'string' ? a.localeCompare(c) : a - c) * sn; });
+}
+const colsVisiveis = L => COLS_BASE.filter(c => ['quando', 'fmt', 'tit', 'lido'].includes(c[0]) || (c[0] === 'gancho' && L.some(p => p.reel)) || L.some(p => num(c[2](p))));
+function desenharBase(){
+  const el = document.getElementById('baseTab'); if (!el) return;
+  const L = baseFiltrada(), vis = colsVisiveis(L);
+  el.innerHTML = `<div class="met">${L.length} posts. Toque no nome da coluna para ordenar.</div><div class="rolagem base"><table class="tb base"><thead><tr>${vis.map(c => `<th data-o="${c[0]}" class="ord${c[0] === baseOrd[0] ? ' on' : ''}">${c[1]}${c[0] === baseOrd[0] ? (baseOrd[1] > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr></thead><tbody>` +
+    L.map(p => '<tr>' + vis.map(c => { const v = c[2](p); return `<td${c[0] === 'tit' ? ' class="r"' : ['fmt', 'quando', 'lido'].includes(c[0]) ? ' class="tx"' : c[0] === 'gancho' ? ' class="r gch"' : ''}>${c[3] ? c[3](v, p) : f1(v)}</td>`; }).join('') + '</tr>').join('') + '</tbody></table></div>';
+}
+function baixarCSV(nome, cab, linhas){       // ; e vírgula decimal: abre direto no Excel em português
+  const q = v => { if (typeof v === 'number') return String(Math.round(v * 100) / 100).replace('.', ','); const s = v == null ? '' : String(v); return /[";\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+  const txt = '﻿' + [cab].concat(linhas).map(l => l.map(q).join(';')).join('\r\n');
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([txt], { type: 'text/csv;charset=utf-8' }));
+  a.download = nome; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+}
+function csvBase(){
+  const L = baseFiltrada(), cols = COLS_BASE.filter(c => !['quando', 'lido'].includes(c[0]));
+  baixarCSV(`${canal.id}-posts-${chaveDia(new Date())}.csv`, ['Saiu', 'Tipo', 'Id'].concat(cols.map(c => c[1]), ['Link']),
+    L.map(p => [dataHora(p.i.quando), p.i.tipo, p.id].concat(cols.map(c => c[2](p)), [p.i._link || ''])));
+}
+// ----- Conta dia a dia: todos os dias do historico.json -----
+const COLS_CONTA = [['seguidores', 'Seguidores'], ['ganho', 'Ganho'], ['reach', 'Alcance'], ['nf', 'Alcance de não seguidores'], ['views', 'Views'],
+  ['accounts_engaged', 'Contas que interagiram'], ['total_interactions', 'Interações'], ['likes', 'Curtidas'], ['comments', 'Coment.'], ['saves', 'Salvos'],
+  ['shares', 'Envios'], ['reposts', 'Reposts'], ['replies', 'Respostas'], ['profile_views', 'Visitas ao perfil'], ['profile_links_taps', 'Toques no link'],
+  ['vReel', 'Views de Reels'], ['vCar', 'Views de carrosséis'], ['vSt', 'Views de Stories'], ['posts', 'Posts no dia'], ['publicacoes', 'Posts no perfil']];
+function linhasConta(hist, serie, pubTodos){
+  const mp = {}; serie.forEach(s => { mp[s.dia] = s.n; });
+  const dias = [...new Set(Object.keys(hist).concat(serie.map(s => s.dia)))].sort();
+  return dias.map(d => { const h = hist[d] || {}, c = h.conta || {}, q = h.quebras || {}, ant = serie.filter(s => s.dia < d).pop(), vm = q['views:media_product_type'] || {};
+    const r = { dia: d, seguidores: num(mp[d]) ? mp[d] : null, ganho: num(mp[d]) && ant ? mp[d] - ant.n : null,
+      nf: q['reach:follow_type'] && num(q['reach:follow_type'].NON_FOLLOWER) ? q['reach:follow_type'].NON_FOLLOWER : null,
+      vReel: num(vm.REEL) ? vm.REEL : null, vCar: num(vm.CAROUSEL_CONTAINER) ? vm.CAROUSEL_CONTAINER : null, vSt: num(vm.STORY) ? vm.STORY : null,
+      posts: pubTodos.filter(i => chaveDia(new Date(i.quando)) === d).length, publicacoes: num(h.publicacoes) ? h.publicacoes : null };
+    COLS_CONTA.forEach(([k]) => { if (!(k in r)) r[k] = num(c[k]) ? c[k] : null; });
+    return r; });
+}
+function secContaDia(linhas){
+  const vis = COLS_CONTA.filter(([k]) => linhas.some(l => num(l[k])));
+  const tb = '<div class="rolagem base"><table class="tb base"><thead><tr><th>Dia</th>' + vis.map(c => `<th>${c[1]}</th>`).join('') + '</tr></thead><tbody>' +
+    linhas.slice().reverse().map(l => `<tr><td class="tx">${dd(l.dia)}</td>` + vis.map(([k]) => `<td>${k === 'ganho' && num(l[k]) && l[k] > 0 ? '+' : ''}${f1(l[k])}</td>`).join('') + '</tr>').join('') + '</tbody></table></div>';
+  return caixa('📅 Conta dia a dia', 'Todos os dias desde o início, com todos os números da conta. Os números do dia (alcance, interações...) são gravados às 23h30; o dia de hoje fica vazio até lá. Os gráficos mostram as interações e os seguidores, e de onde veio o alcance.',
+    grafico('g-inter') + '<div style="height:12px"></div>' + grafico('g-nf') + '<div class="buscab"><button id="ccsv" type="button">⬇ Baixar planilha (dias)</button></div>' + tb);
+}
+// ----- Público (o Instagram só libera com 100+ seguidores; o robô já pede no fechamento) -----
+function secPublico(hist, segAtual){
+  const dias = Object.keys(hist).sort().reverse(), d = dias.find(x => hist[x].demografia && Object.values(hist[x].demografia).some(o => o && Object.keys(o).length));
+  const expl = 'Idade, gênero e cidade de quem segue e de quem interage (mês atual), e quantos seguidores ficam online em cada hora.';
+  if (!d) return caixa('🧑‍🤝‍🧑 Público', expl, `<div class="nada">O Instagram só libera esses dados para contas com 100 seguidores ou mais (hoje: ${f1(segAtual)}). O robô já está pronto: tudo aparece aqui no fechamento do dia (23h30) em que a conta passar de 100.</div>`);
+  const dm = hist[d].demografia, gen = { F: 'Mulheres', M: 'Homens', U: 'Não informado' };
+  const bloco = (tit, o, nomes) => { if (!o || !Object.keys(o).length) return ''; const tot = soma(Object.values(o));
+    const ls = Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, 10);
+    return `<h3>${tit}</h3>` + tabela(['', 'Pessoas', '%'], ls.map(([k, v]) => [esc((nomes && nomes[k]) || k), C(v), C(v / tot * 100, fp(v / tot * 100, 0))]), null); };
+  let h = '';
+  [['follower_demographics', 'Quem segue'], ['engaged_audience_demographics', 'Quem interage']].forEach(([m, t]) => {
+    h += bloco(`${t}: idade`, dm[m + ':age']) + bloco(`${t}: gênero`, dm[m + ':gender'], gen) + bloco(`${t}: cidades`, dm[m + ':city']); });
+  const on = hist[d].online;
+  return caixa('🧑‍🤝‍🧑 Público', expl + ` Leitura de ${dd(d)}.`, h + (on && Object.keys(on).length ? '<h3>Seguidores online por hora</h3>' + grafico('g-online') + '<div class="suave">Hora como o Instagram informa (pode estar no fuso dos EUA; o Claude confere quando os dados chegarem).</div>' : ''));
+}
+// ----- De onde vêm as visualizações (quebra surface_type da conta, se o Instagram aceitar) -----
+function secOrigem(hist, cur){
+  const q = k => { const o = {}; cur.forEach(d => { const x = hist[d] && hist[d].quebras && hist[d].quebras[k]; if (x) Object.entries(x).forEach(([a, v]) => { if (num(v)) o[a] = (o[a] || 0) + v; }); }); return o; };
+  const v = q('views:surface_type'), r = q('reach:surface_type');
+  if (!Object.keys(v).length && !Object.keys(r).length) return '';
+  const nome = { CLIPS_TAB: 'Aba Reels', EXPLORE: 'Explorar', FEED: 'Feed', PROFILE: 'Perfil', STORY: 'Stories', HOME: 'Início', SEARCH: 'Busca', OTHER: 'Outros' };
+  const ks = [...new Set(Object.keys(v).concat(Object.keys(r)))].sort((a, b) => (v[b] || 0) - (v[a] || 0)), tv = soma(Object.values(v));
+  return caixa('🧭 De onde vêm as visualizações', 'Em que parte do Instagram as pessoas viram o conteúdo, somando o período escolhido. Aba Reels e Explorar = gente nova chegando pelo algoritmo.',
+    tabela(['Origem', 'Views', '% das views', 'Alcance'], ks.map(k => [esc(nome[k] || k), C(v[k]), C(tv ? (v[k] || 0) / tv * 100 : null, tv ? fp((v[k] || 0) / tv * 100, 0) : '—'), C(r[k])]), [0, 'max', 'max', 'max']));
+}
+// ----- Evolução dia a dia dos maiores Reels (retratos diários do historico.json) -----
+function secEvolucao(hist){
+  const dias = Object.keys(hist), top = baseLista.filter(p => p.reel && num(p.reach));
+  if (dias.length < 2 || !top.length) return '';
+  return caixa('🌱 Alcance dos maiores Reels, dia a dia', 'Como o alcance dos 8 maiores Reels cresceu desde que saíram. Linha que continua subindo depois do 3º dia = o Instagram ainda está entregando.', grafico('g-evol'));
+}
+
 async function desenharDash(){
   const el = document.getElementById('dash'), tok = ++cargaDash;
   el.innerHTML = '<div class="caixa"><div class="nada">Carregando o painel…</div></div>';
@@ -646,6 +761,7 @@ async function desenharDash(){
   const conv = razao(ganho, visC) != null ? razao(ganho, visC) * 100 : null, convA = razao(ganhoA, visA) != null ? razao(ganhoA, visA) * 100 : null;
   const nf = somaQuebra(hist, cur, 'reach:follow_type', 'NON_FOLLOWER'), sf = somaQuebra(hist, cur, 'reach:follow_type', 'FOLLOWER');
   const pNaoSeg = num(nf) && num(sf) && nf + sf > 0 ? nf / (nf + sf) * 100 : null;
+  curvG = D.curv || {}; baseLista = pubTodos.filter(i => met[i.id]).map(enriquecer); contaLinhas = linhasConta(hist, serie, pubTodos);
   const emTxt = met._em ? new Date(met._em).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: RIO }) : '—';
   const horasVelho = met._em ? (agora - new Date(met._em)) / 36e5 : null;
 
@@ -653,6 +769,7 @@ async function desenharDash(){
   const al = [];
   if (horasVelho != null && horasVelho > 8) al.push(['err', `Nenhum dado novo há mais de 8 h (última leitura ${emTxt}). Avise o Claude se isso continuar.`]);
   if (horasVelho == null) al.push(['err', 'Não encontrei a hora da última leitura de métricas.']);
+  if (met._erro_leitura) al.push(['err', `A última leitura de métricas falhou (${quandoObs(met._erro_leitura.em)}). Avise o Claude se continuar.`]);
   const textoFmts = ['Reel história texto', 'Reel texto', 'Reel oração', 'Reel versículo', 'Reel lista', 'Reel conto', 'Reel conto (repost)'], reelsTxt = reels.filter(p => textoFmts.includes(p.fmt)), mTxt = media(reelsTxt.map(p => p.reach));
   if (mTxt && reelsTxt.length >= 3) {
     const slots = [...new Set(reelsTxt.map(p => p.slot))];
@@ -775,6 +892,9 @@ async function desenharDash(){
   // ---------- tendência ----------
   const mRA = media(reelsA.map(p => p.reach)), mRC = media(reels.map(p => p.reach)), mSA = media(reelsA.map(p => p.skip));
   const tl = (nome, a, b, fmt, ruim) => `<tr><td class="r">${nome}</td><td>${fmt(a)}</td><td>${fmt(b)}</td><td>${delta(a, b, ruim)}</td></tr>`;
+  const secBase = caixa('🗃️ Base de dados: todos os posts', 'Todos os posts publicados desde o início (não depende do período escolhido), com tudo o que o Instagram informa. Filtre pelo tipo ou pela busca e toque no nome da coluna para ordenar. Colunas sem nenhum dado ficam escondidas. Posts de até 14 dias são relidos várias vezes por dia; de 14 a 60 dias, uma vez por dia. «Baixar planilha» gera um arquivo que abre no Excel.',
+    `<div class="filtros" id="fbase">${[['todos', 'Todos'], ['REEL', 'Reels'], ['CARROSSEL', 'Carrosséis'], ['STORY', 'Stories']].map(([k, t]) => `<button data-b="${k}" class="${baseTipo === k ? 'ativo' : ''}">${t} <span class="n2">${k === 'todos' ? baseLista.length : baseLista.filter(p => p.i.tipo === k).length}</span></button>`).join('')}</div>` +
+    `<div class="buscab"><input id="bbusca" type="search" placeholder="Buscar post ou formato" value="${esc(baseBusca)}"><button id="bcsv" type="button">⬇ Baixar planilha</button></div><div id="baseTab"></div>`);
   const secTend = caixa('📉 Tendência', `Este período (${periodo} dias) contra os ${periodo} dias anteriores. Verde = melhorou, vermelho = piorou (para pulos, subir é ruim).`,
     '<div class="rolagem"><table class="tb"><thead><tr><th>Medida</th><th>Agora</th><th>Antes</th><th>Variação</th></tr></thead><tbody>' +
     tl('Alcance da conta', reachC, reachA, v => f1(v)) + tl('Visitas ao perfil', visC, visA, v => f1(v)) + tl('Novos seguidores', ganho, ganhoA, v => f1(v)) +
@@ -783,7 +903,8 @@ async function desenharDash(){
   el.innerHTML = `<div class="caixa topodash"><div class="filtros" id="fper">${[7, 14, 30].map(n => `<button data-p="${n}" class="${n === periodo ? 'ativo' : ''}">${n} dias</button>`).join('')}</div>
       <div class="abrfec"><a data-ab="1">abrir todas</a><a data-ab="0">fechar todas</a></div>${ATUALIZAR ? `<div class="atu"><button id="btnAtu" type="button">🔄 Atualizar agora</button><span id="atuMsg" class="met"></span></div>` : ''}<div class="met">${esc(canal.nome)} · atualizado em ${emTxt} (horário do Rio). Só entram posts já publicados e com métricas.</div></div>
     ${caixaGen('🚨 Alertas', alertasHtml)}` +
-    secRec + secResumo + secFmt + secRank + secRepost + secFunil + secSeg + secConta + secHor + secCur + secSt + secStoriesSeguem(hist, serie, pubTodos) + secSegHora() + secTend + secObs;
+    secRec + secResumo + secFmt + secRank + secRepost + secFunil + secSeg + secConta + secHor + secCur + secOrigem(hist, cur) + secEvolucao(hist) + secSt + secStoriesSeguem(hist, serie, pubTodos) + secSegHora() + secTend + secContaDia(contaLinhas) + secPublico(hist, segAtual) + secBase + secObs;
+  desenharBase();
   if (ATUALIZAR) acompanharAtualizacao();          // retoma a barra se havia um pedido em andamento
 
   // ---------- gráficos ----------
@@ -817,6 +938,21 @@ async function desenharDash(){
     if (gH.length) mkChart('g-seghora', { type: 'bar', data: { labels: Array.from({ length: 24 }, (_, h) => h + 'h'), datasets: [{ label: 'Ganho médio de seguidores', backgroundColor: pal[1],
         data: Array.from({ length: 24 }, (_, h) => { const x = gH.filter(y => y.h === h); return x.length ? Math.round(soma(x.map(y => y.g)) / x.length * 100) / 100 : null; }) }] },
       options: { plugins: { legend: { display: false } }, scales: { x: {}, y: { beginAtZero: true } } } }); }
+  { const L = contaLinhas.filter(l => ['likes', 'comments', 'saves', 'shares', 'reposts'].some(k => num(l[k])) || num(l.seguidores)), lb = L.map(l => dd(l.dia));
+    const ds = (k, t, c) => ({ label: t, data: L.map(l => l[k]), backgroundColor: c, stack: 'i', yAxisID: 'y' });
+    if (L.length) mkChart('g-inter', { type: 'bar', data: { labels: lb, datasets: [ds('likes', 'Curtidas', pal[2]), ds('comments', 'Comentários', pal[3]), ds('saves', 'Salvos', pal[1]), ds('shares', 'Envios', pal[0]), ds('reposts', 'Reposts', pal[6]),
+        { type: 'line', label: 'Seguidores (dir.)', data: L.map(l => l.seguidores), borderColor: pal[7], backgroundColor: pal[7], yAxisID: 'y2', tension: .25, spanGaps: true, pointRadius: 2 }] },
+      options: { scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true }, y2: { position: 'right', grid: { drawOnChartArea: false } } } } });
+    const N = contaLinhas.filter(l => num(l.reach));
+    if (N.length) mkChart('g-nf', { type: 'line', data: { labels: N.map(l => dd(l.dia)), datasets: [linhaDS('Alcance total', N.map(l => l.reach), pal[2]), linhaDS('Alcance de não seguidores', N.map(l => l.nf), pal[0]), linhaDS('Contas que interagiram', N.map(l => l.accounts_engaged), pal[1])] },
+      options: { plugins: { title: { display: true, text: 'Alcance por dia (desde o início)', color: cssVar('--suave'), font: { size: 12 } } } } }); }
+  { const ds = Object.keys(hist).sort(), top = baseLista.filter(p => p.reel && num(p.reach)).sort((a, b) => b.reach - a.reach).slice(0, 8);
+    if (ds.length > 1 && top.length) mkChart('g-evol', { type: 'line', data: { datasets: top.map((p, k) => linhaDS(p.tit, ds.map(d => { const x = hist[d].itens && hist[d].itens[p.id], dia = (new Date(d + 'T23:59:00-03:00') - new Date(p.i.quando)) / 864e5;
+        return x && num(x.reach) && dia >= 0 ? { x: Math.round(dia * 10) / 10, y: x.reach } : null; }).filter(Boolean), pal[k % pal.length])) },
+      options: { parsing: false, plugins: { legend: { position: 'bottom', labels: { color: cssVar('--suave'), boxWidth: 10, font: { size: 10 } } } },
+        scales: { x: { type: 'linear', min: 0, title: { display: true, text: 'dias desde que saiu', color: cssVar('--suave') } }, y: { beginAtZero: true } } } }); }
+  { const dx = Object.keys(hist).sort().reverse().find(x => hist[x].online && Object.keys(hist[x].online).length);
+    if (dx) { const o = hist[dx].online; mkChart('g-online', { type: 'bar', data: { labels: Array.from({ length: 24 }, (_, h) => h + 'h'), datasets: [{ label: 'Seguidores online', data: Array.from({ length: 24 }, (_, h) => num(o[h]) ? o[h] : null), backgroundColor: pal[3] }] }, options: { plugins: { legend: { display: false } } } }); } }
   if (comCurva.length) {
     mkChart('g-curva', { type: 'line', data: { datasets: comCurva.map((p, k) => linhaDS(`${p.tit} · ${hh(p.slot)}`, pontosCurva(D.curv[p.id], curvaMetrica), pal[k % pal.length], { pointRadius: 2 })) },
       options: { parsing: false, plugins: { legend: { position: 'bottom', labels: { color: cssVar('--suave'), boxWidth: 10, font: { size: 10 } } } },
@@ -891,8 +1027,13 @@ document.getElementById('dash').addEventListener('click', e => {
     if (det && det.classList.contains('stdet')) { det.hidden = !det.hidden; if (seta) seta.textContent = det.hidden ? '▸' : '▾'; } return; }
   const tg = e.target.closest('.tg'); if (tg) { alternar(tg.closest('.caixa')); return; }
   const p = e.target.closest('#fper button'); if (p) { periodo = +p.dataset.p; desenharDash(); return; }
-  const k = e.target.closest('#fcurva button'); if (k) { curvaMetrica = k.dataset.k; desenharDash(); }
+  const k = e.target.closest('#fcurva button'); if (k) { curvaMetrica = k.dataset.k; desenharDash(); return; }
+  const fb = e.target.closest('#fbase button'); if (fb) { baseTipo = fb.dataset.b; document.querySelectorAll('#fbase button').forEach(b => b.classList.toggle('ativo', b === fb)); desenharBase(); return; }
+  const th = e.target.closest('th.ord'); if (th) { const o = th.dataset.o; baseOrd = baseOrd[0] === o ? [o, -baseOrd[1]] : [o, ['tit', 'fmt'].includes(o) ? 1 : -1]; desenharBase(); return; }
+  if (e.target.id === 'bcsv') { csvBase(); return; }
+  if (e.target.id === 'ccsv') baixarCSV(`${canal.id}-dias-${chaveDia(new Date())}.csv`, ['Dia'].concat(COLS_CONTA.map(c => c[1])), contaLinhas.map(l => [l.dia].concat(COLS_CONTA.map(([k]) => l[k]))));
 });
+document.getElementById('dash').addEventListener('input', e => { if (e.target.id === 'bbusca') { baseBusca = e.target.value; desenharBase(); } });
 if (window.matchMedia) { const mq = matchMedia('(prefers-color-scheme: dark)'); const rr = () => { if (modo === 'painel') desenharDash(); };
   mq.addEventListener ? mq.addEventListener('change', rr) : (mq.addListener && mq.addListener(rr)); }
 carregar();
