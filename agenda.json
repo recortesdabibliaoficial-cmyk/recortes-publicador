@@ -2299,6 +2299,23 @@
   "miniatura": "midia/miniaturas/vsabia2026-10-27.jpg"
  },
  {
+  "id": "lista-2026-10-27",
+  "tipo": "REEL",
+  "quando": "2026-10-27T15:00:00-03:00",
+  "midia": [
+   "midia/lote27/2026-10-27_1500_lista-largar_4f7aed2d.mp4"
+  ],
+  "legenda": "10 coisas que Deus pede para a gente largar, e o que colocar no lugar:\n\n1. Mágoa: \"perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo.\" (Efésios 4:32)\n2. Raiva: \"toda pessoa seja pronta para ouvir, tardia para falar, tardia para se irar\" (Tiago 1:19)\n3. Vingança: \"Não vos vingueis por vós mesmos, amados. (...) A mim pertence a vingança, eu retribuirei, diz o Senhor.\" (Romanos 12:19)\n4. Preocupação: \"lançando sobre ele toda a vossa ansiedade; porque ele tem cuidado de vós.\" (1 Pedro 5:7)\n5. Inveja: \"Alegrai-vos com os que se alegram\" (Romanos 12:15)\n6. Mentira: \"abandonai a mentira, e falai a verdade cada um ao seu próximo\" (Efésios 4:25)\n7. Palavra que fere: \"a boa para a edificação conforme a necessidade; para que comunique graça aos que a ouvem.\" (Efésios 4:29)\n8. Querer ter sempre razão: \"Aquele que ama a correção ama o conhecimento\" (Provérbios 12:1)\n9. Querer aparecer: \"Para que a tua esmola seja em segredo, e teu Pai, que vê em segredo, ele te recompensará em público.\" (Mateus 6:4)\n10. Orgulho: \"Humilhai-vos diante do Senhor, e ele vos exaltará.\" (Tiago 4:10)\n\nNinguém larga tudo de uma vez. Uma por dia já muda muita coisa.\n\n📖 Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #fe #deus #jesus #vidacrista",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "titulo": "Lista: 10 coisas que Deus pede para largar",
+  "miniatura": "midia/miniaturas/lista-2026-10-27.jpg",
+  "dur": 12.0,
+  "gancho": "10 coisas que Deus pede para largar"
+ },
+ {
   "id": "lh-2026-10-27-1700",
   "tipo": "REEL",
   "quando": "2026-10-27T17:00:00-03:00",
@@ -2365,19 +2382,19 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-28.jpg"
  },
  {
-  "id": "lh-2026-10-28-1000",
+  "id": "lh-2026-10-30-1000",
   "tipo": "REEL",
-  "quando": "2026-10-30T10:00:00-03:00",
+  "quando": "2026-10-28T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-28_1000_jesus-e-as-criancas_55efa546.mp4"
+   "midia/lote27/2026-10-30_1000_jaco-e-a-escada_f9bef8c2.mp4"
   ],
-  "legenda": "Te deixaram de lado? Jesus abriu os braços.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
+  "legenda": "Longe de casa e sem ninguém? Deus estava ali.\n\nJacó fugia do irmão, dormiu ao relento e sonhou com uma escada que ia da terra ao céu.\n\n📖 Gênesis 28:16 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jacoeaescada",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
-  "titulo": "Jesus e as crianças",
+  "miniatura": "midia/miniaturas/lh-2026-10-30-1000.jpg",
+  "titulo": "Jacó e a escada",
   "dur": 12.0
  },
  {
@@ -2602,19 +2619,19 @@
   "miniatura": "midia/miniaturas/ls-2026-10-29-1700.jpg"
  },
  {
-  "id": "lh-2026-10-29-1900",
+  "id": "lh-2026-10-31-1000",
   "tipo": "REEL",
-  "quando": "2026-11-02T10:00:00-03:00",
+  "quando": "2026-10-29T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-29_1900_a-viuva-e-o-azeite_b689e16d.mp4"
+   "midia/lote27/2026-10-31_1000_caim-e-abel_5ba84d1b.mp4"
   ],
-  "legenda": "Contas apertando? Deus abriu um caminho.\n\nUma viúva endividada tinha só um pote de azeite, e Eliseu a orientou a pedir vasilhas aos vizinhos.\n\n📖 2 Reis 4:7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #aviuvaeoazeite",
+  "legenda": "Erro grande demais? Deus não te abandona.\n\nAbel e Caim levaram ofertas a Deus; Caim ficou com raiva e matou o irmão, mas Deus pôs nele um sinal de proteção.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Gênesis 4:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #caimeabel",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
-  "titulo": "A viúva e o azeite",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
+  "titulo": "Caim e Abel",
   "dur": 12.0
  },
  {
@@ -2640,19 +2657,19 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-30.jpg"
  },
  {
-  "id": "lh-2026-10-30-1000",
+  "id": "lh-2026-10-28-1000",
   "tipo": "REEL",
-  "quando": "2026-10-28T10:00:00-03:00",
+  "quando": "2026-10-30T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-30_1000_jaco-e-a-escada_f9bef8c2.mp4"
+   "midia/lote27/2026-10-28_1000_jesus-e-as-criancas_55efa546.mp4"
   ],
-  "legenda": "Longe de casa e sem ninguém? Deus estava ali.\n\nJacó fugia do irmão, dormiu ao relento e sonhou com uma escada que ia da terra ao céu.\n\n📖 Gênesis 28:16 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jacoeaescada",
+  "legenda": "Te deixaram de lado? Jesus abriu os braços.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-30-1000.jpg",
-  "titulo": "Jacó e a escada",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
+  "titulo": "Jesus e as crianças",
   "dur": 12.0
  },
  {
@@ -2779,19 +2796,19 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-31.jpg"
  },
  {
-  "id": "lh-2026-10-31-1000",
+  "id": "lh-2026-11-02-1000",
   "tipo": "REEL",
-  "quando": "2026-10-29T19:00:00-03:00",
+  "quando": "2026-10-31T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-31_1000_caim-e-abel_5ba84d1b.mp4"
+   "midia/lote27/2026-11-02_1000_o-semeador_ad239afe.mp4"
   ],
-  "legenda": "Erro grande demais? Deus não te abandona.\n\nAbel e Caim levaram ofertas a Deus; Caim ficou com raiva e matou o irmão, mas Deus pôs nele um sinal de proteção.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Gênesis 4:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #caimeabel",
+  "legenda": "Plantou e nada nasceu? Deus ainda faz brotar.\n\nJesus contou a história de um homem que plantou sementes em quatro tipos de chão.\n\n📖 Mateus 13:23 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #osemeador",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
-  "titulo": "Caim e Abel",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1000.jpg",
+  "titulo": "O semeador",
   "dur": 12.0
  },
  {
@@ -3019,19 +3036,19 @@
   "miniatura": "midia/miniaturas/ls-2026-11-01-1700.jpg"
  },
  {
-  "id": "lh-2026-11-01-1900",
+  "id": "lh-2026-11-02-1900",
   "tipo": "REEL",
-  "quando": "2026-11-02T19:00:00-03:00",
+  "quando": "2026-11-01T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-01_1900_mefibosete_977ae1cc.mp4"
+   "midia/lote27/2026-11-02_1900_neemias-reconstroi-o-muro_a0137c7f.mp4"
   ],
-  "legenda": "Se sente sem valor? O rei o chamou à mesa.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
+  "legenda": "Riram do seu recomeço? Também riram de Neemias.\n\nNeemias reergueu o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
-  "titulo": "Mefibosete",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
+  "titulo": "Neemias reconstrói o muro",
   "dur": 12.0
  },
  {
@@ -3101,19 +3118,19 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-11-02.jpg"
  },
  {
-  "id": "lh-2026-11-02-1000",
+  "id": "lh-2026-10-29-1900",
   "tipo": "REEL",
-  "quando": "2026-10-31T10:00:00-03:00",
+  "quando": "2026-11-02T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-02_1000_o-semeador_ad239afe.mp4"
+   "midia/lote27/2026-10-29_1900_a-viuva-e-o-azeite_b689e16d.mp4"
   ],
-  "legenda": "Plantou e nada nasceu? Deus ainda faz brotar.\n\nJesus contou a história de um homem que plantou sementes em quatro tipos de chão.\n\n📖 Mateus 13:23 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #osemeador",
+  "legenda": "Contas apertando? Deus abriu um caminho.\n\nUma viúva endividada tinha só um pote de azeite, e Eliseu a orientou a pedir vasilhas aos vizinhos.\n\n📖 2 Reis 4:7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #aviuvaeoazeite",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-11-02-1000.jpg",
-  "titulo": "O semeador",
+  "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
+  "titulo": "A viúva e o azeite",
   "dur": 12.0
  },
  {
@@ -3202,19 +3219,19 @@
   "miniatura": "midia/miniaturas/ls-2026-11-02-1700.jpg"
  },
  {
-  "id": "lh-2026-11-02-1900",
+  "id": "lh-2026-11-01-1900",
   "tipo": "REEL",
-  "quando": "2026-11-01T19:00:00-03:00",
+  "quando": "2026-11-02T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-02_1900_neemias-reconstroi-o-muro_a0137c7f.mp4"
+   "midia/lote27/2026-11-01_1900_mefibosete_977ae1cc.mp4"
   ],
-  "legenda": "Riram do seu recomeço? Também riram de Neemias.\n\nNeemias reergueu o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
+  "legenda": "Se sente sem valor? O rei o chamou à mesa.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
-  "titulo": "Neemias reconstrói o muro",
+  "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
+  "titulo": "Mefibosete",
   "dur": 12.0
  },
  {
