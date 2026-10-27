@@ -203,6 +203,25 @@ CAMPOS = {'CARROSSEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares'
           'REEL': ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time', 'reels_skip_rate', 'ig_reels_video_view_total_time'],
           'STORY': ['reach', 'views', 'replies', 'shares', 'total_interactions', 'follows', 'profile_visits']}
 _RECUSADOS = set()      # campos que o Instagram disse que não existem (nesta execução): não pergunta de novo
+FORA = ('does not exist', 'Unsupported get request', 'cannot be loaded')   # resposta do Instagram para post arquivado ou apagado
+
+
+class ForaDoAr(Exception): pass
+
+
+def fora_do_ar(reg, agora):
+    """27/10: post arquivado/apagado não é consultado de novo por 7 dias (cada tentativa gastava ~11 consultas). Depois de 7 dias, confere de novo."""
+    f = reg.get('fora_do_ar_em')
+    return bool(f) and datetime.fromisoformat(f) > agora - timedelta(days=7)
+
+
+def _ler(ig, reg, campos, agora):
+    """Lê as métricas de um post; se ele saiu do ar, marca no estado (fora_do_ar_em) e devolve {}."""
+    try:
+        m = _insights(ig, reg['media_id'], campos)
+    except ForaDoAr:
+        reg['fora_do_ar_em'] = agora.isoformat(); log('Post fora do ar (arquivado ou apagado):', reg.get('link')); return {}
+    reg.pop('fora_do_ar_em', None); return m
 
 
 def _insights(ig, mid, campos):
@@ -211,6 +230,7 @@ def _insights(ig, mid, campos):
     try:
         dados = ig._req('GET', f'{mid}/insights', metric=','.join(campos)).get('data', [])
     except Exception as e:
+        if any(x in str(e) for x in FORA): raise ForaDoAr(str(e)[:200])
         if len(campos) == 1:
             if 'must be one of' in str(e) or 'not supported' in str(e).lower(): log('AVISO campo recusado:', campos[0])
             return {}
@@ -247,7 +267,8 @@ def coletar_stories(ig, agenda, estado):
         if quando < agora - timedelta(hours=24): continue
         ult = (met.get(iid) or {}).get('lido_em')
         if ult and datetime.fromisoformat(ult) > agora - timedelta(hours=2): continue
-        m = _insights(ig, reg['media_id'], CAMPOS['STORY'])
+        if fora_do_ar(reg, agora): continue
+        m = _ler(ig, reg, CAMPOS['STORY'], agora)
         if m:
             n = _nav(ig, reg['media_id'])
             if n: m['nav'] = n
@@ -301,7 +322,8 @@ def coletar_metricas(ig, agenda, estado):
         if quando < agora - timedelta(days=14):     # 27/10: de 14 a 60 dias, relê Reels e carrosséis 1 vez por dia (no fechamento)
             if not fechamento or tipos[iid] == 'STORY' or quando < agora - timedelta(days=60): continue
         if tipos[iid] == 'STORY' and quando < agora - timedelta(hours=24) and iid in met: continue   # Story some em 24 h: guarda a última leitura
-        m = _insights(ig, reg['media_id'], CAMPOS.get(tipos[iid], ['reach']))
+        if fora_do_ar(reg, agora): continue
+        m = _ler(ig, reg, CAMPOS.get(tipos[iid], ['reach']), agora)
         if m:
             if tipos[iid] == 'STORY':
                 n = _nav(ig, reg['media_id'])
@@ -332,7 +354,8 @@ def coletar_curvas(ig, agenda, estado):
         pts = cur.setdefault(iid, {'publicado': quando.isoformat(), 'pontos': []})['pontos']
         passo = timedelta(minutes=55) if idade <= timedelta(hours=24, minutes=30) else timedelta(minutes=175)   # 1º dia de hora em hora; depois a cada 3 h
         if pts and datetime.fromisoformat(pts[-1]['t']) > agora - passo: continue
-        m = _insights(ig, reg['media_id'], CAMPOS_CURVA)
+        if fora_do_ar(reg, agora): continue
+        m = _ler(ig, reg, CAMPOS_CURVA, agora)
         if m:
             pts.append(dict(m, t=agora.isoformat(timespec='minutes'), h=round((agora - quando).total_seconds() / 3600, 2))); lidos += 1
     if lidos: salvar(CURVAS, cur); log(f'Curvas: {lidos} Reels lidos (hora em hora).')
@@ -403,27 +426,30 @@ def guardar_historico(ig, met, conta, local, fechamento):
         log('AVISO histórico:', str(e)[:200])
 
 
-def coletar_comentarios(ig, estado, conta):
+def coletar_comentarios(ig, estado, conta, agenda=()):
     """Comentários dos últimos 14 dias que ainda não têm resposta da própria conta (para o checklist da página)."""
     agora = datetime.now(timezone.utc); eu = (conta or {}).get('username', '')
     if estado.get('_comentarios_em') and datetime.fromisoformat(estado['_comentarios_em']) > agora - timedelta(hours=2): return
     estado['_comentarios_em'] = agora.isoformat()
-    pend = []
+    pend = []; stories = {i['id'] for i in agenda if i.get('tipo') == 'STORY'}; erro = None
     for iid, reg in estado.items():
         if not isinstance(reg, dict) or reg.get('status') != 'publicado' or not reg.get('media_id'): continue
         if datetime.fromisoformat(reg.get('em', agora.isoformat())) < agora - timedelta(days=7): continue
-        if iid.startswith(('story', 'comeceaqui', 'oracao', 'mc-oracao')): continue     # Story não tem comentário: não gasta consulta
+        if iid in stories or iid.startswith(('story', 'comeceaqui', 'oracao', 'mc-oracao')): continue     # Story não tem comentário: não gasta consulta
+        if fora_do_ar(reg, agora): continue
         try:
             cs = ig._req('GET', f"{reg['media_id']}/comments", fields='id,text,username,timestamp,replies{username}', limit=50).get('data', [])
         except Exception as e:
-            if not iid.startswith(('story', 'comeceaqui', 'oracao', 'mc-oracao')): estado['_comentarios_erro'] = str(e)[:300]
-            continue                                                  # Story não tem comentário; outros erros: tenta na próxima
+            if any(x in str(e) for x in FORA): reg['fora_do_ar_em'] = agora.isoformat()
+            else: erro = str(e)[:300]
+            continue                                                  # outros erros: tenta na próxima
         for c in cs:
             if c.get('username') == eu: continue
             if any(r.get('username') == eu for r in (c.get('replies') or {}).get('data', [])): continue
             pend.append({'id': c['id'], 'item': iid, 'usuario': c.get('username'), 'texto': c.get('text', '')[:300],
                          'quando': c.get('timestamp'), 'link': reg.get('link')})
-    if pend or '_comentarios_erro' not in estado: pass
+    if erro: estado['_comentarios_erro'] = erro
+    else: estado.pop('_comentarios_erro', None)
     salvar(COMENTARIOS, sorted(pend, key=lambda c: c.get('quando') or '')); log(f'Comentários sem resposta: {len(pend)}.')
 
 
@@ -438,7 +464,7 @@ def coletar_tudo(ig, agenda, estado, conta):
     except Exception as e: log('AVISO: não consegui reler os Stories:', str(e)[:300])
     try: coletar_curvas(ig, agenda, estado)
     except Exception as e: log('AVISO: não consegui ler as curvas:', str(e)[:300])
-    try: coletar_comentarios(ig, estado, conta)
+    try: coletar_comentarios(ig, estado, conta, agenda)
     except Exception as e: log('AVISO: não consegui ler os comentários:', str(e)[:300])
     salvar(ESTADO, estado)
 
