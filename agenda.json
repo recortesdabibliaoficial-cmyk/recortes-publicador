@@ -2386,7 +2386,7 @@
   "tipo": "REEL",
   "quando": "2026-10-28T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-30_1000_jaco-e-a-escada_f9bef8c2.mp4"
+   "midia/lote27/2026-10-30_1000_jaco-e-a-escada_k00f186bf.mp4"
   ],
   "legenda": "Longe de casa e sem ninguém? Deus estava ali.\n\nJacó fugia do irmão, dormiu ao relento e sonhou com uma escada que ia da terra ao céu.\n\n📖 Gênesis 28:16 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jacoeaescada",
   "na_grade": false,
@@ -2395,7 +2395,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-30-1000.jpg",
   "titulo": "Jacó e a escada",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "post20",
@@ -2429,16 +2430,17 @@
   "tipo": "REEL",
   "quando": "2026-10-28T12:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-28_1200_mulher-do-manto_8abb836b.mp4"
+   "midia/lote27/2026-10-28_1200_mulher-do-manto_k5cd23279.mp4"
   ],
-  "legenda": "Ninguém passa despercebido por Jesus.\n\nA mulher que tocou no manto de Jesus sofreu doze anos, e ele a chamou de filha.\n\n📖 Marcos 5:25-34 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesus",
+  "legenda": "Sofre há anos e ninguém vê? Jesus vê.\n\nA mulher que tocou no manto de Jesus sofreu doze anos, e ele a chamou de filha.\n\n📖 Marcos 5:25-34 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesus",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-28-1200b.jpg",
   "titulo": "A mulher que tocou no manto de Jesus",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "lh-2026-10-28-1700",
@@ -2454,7 +2456,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-28-1700.jpg",
   "titulo": "Josué e Jericó",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "pensar2026-10-28",
@@ -2493,7 +2496,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-28-1900.jpg",
   "titulo": "Naamã curado",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "ora-story-noite-2026-10-28",
@@ -2577,7 +2581,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-29-1200.jpg",
   "titulo": "Jesus acalma a tempestade",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "vsabia2026-10-29",
@@ -2595,16 +2600,17 @@
   "tipo": "REEL",
   "quando": "2026-10-29T17:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-29_1700_pesca-maravilhosa_c96e0dce.mp4"
+   "midia/lote27/2026-10-29_1700_pesca-maravilhosa_k2ad6f39e.mp4"
   ],
-  "legenda": "Voltou de mãos vazias? Tente de novo com Jesus.\n\nPedro e os companheiros jogaram a rede de novo, por ordem de Jesus, depois de uma noite sem pegar nada.\n\n📖 Lucas 5:5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #pescamaravilhosa",
+  "legenda": "Acha que é pecador demais? Jesus não se afastou.\n\nPedro e os companheiros jogaram a rede de novo, por ordem de Jesus, depois de uma noite sem pegar nada.\n\n📖 Lucas 5:5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #pescamaravilhosa",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-29-1700.jpg",
   "titulo": "Pesca maravilhosa",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "ls-2026-10-29-1700",
@@ -2623,16 +2629,17 @@
   "tipo": "REEL",
   "quando": "2026-10-29T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-31_1000_caim-e-abel_5ba84d1b.mp4"
+   "midia/lote27/2026-10-31_1000_caim-e-abel_kdc02a8b6.mp4"
   ],
-  "legenda": "Erro grande demais? Deus não te abandona.\n\nAbel e Caim levaram ofertas a Deus; Caim ficou com raiva e matou o irmão, mas Deus pôs nele um sinal de proteção.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Gênesis 4:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #caimeabel",
+  "legenda": "Fez algo que não tem volta? Deus ainda ouve.\n\nAbel e Caim levaram ofertas a Deus; Caim ficou com raiva e matou o irmão, mas Deus pôs nele um sinal de proteção.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Gênesis 4:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #caimeabel",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
   "titulo": "Caim e Abel",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "ora-story-noite-2026-10-29",
@@ -2661,16 +2668,17 @@
   "tipo": "REEL",
   "quando": "2026-10-30T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-28_1000_jesus-e-as-criancas_55efa546.mp4"
+   "midia/lote27/2026-10-28_1000_jesus-e-as-criancas_k18bbd51a.mp4"
   ],
-  "legenda": "Te deixaram de lado? Jesus abriu os braços.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
+  "legenda": "Ninguém te quis por perto? Jesus quis.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
   "titulo": "Jesus e as crianças",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "lc-2026-10-30",
@@ -2716,7 +2724,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
   "titulo": "Os três jovens na fornalha",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "lh-2026-10-30-1700",
@@ -2732,7 +2741,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-30-1700.jpg",
   "titulo": "Elias no monte Carmelo",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "pensar2026-10-30",
@@ -2809,7 +2819,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-02-1000.jpg",
   "titulo": "O semeador",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "lc-2026-10-31",
@@ -2855,7 +2866,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-31-1200.jpg",
   "titulo": "Abraão e Isaque",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "vsabia2026-10-31",
@@ -2901,16 +2913,17 @@
   "tipo": "REEL",
   "quando": "2026-10-31T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-31_1900_ana-e-samuel_f8fab08e.mp4"
+   "midia/lote27/2026-10-31_1900_ana-e-samuel_kda6aee94.mp4"
   ],
-  "legenda": "Já chorou tanto que nem conseguia comer? Ana também.\n\nAna orou chorando no templo, pedindo um filho, e depois teve Samuel.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 1 Samuel 1:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #anaesamuel",
+  "legenda": "Orou chorando, sem voz? Deus ouviu cada lágrima.\n\nAna orou chorando no templo, pedindo um filho, e depois teve Samuel.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 1 Samuel 1:6-20 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #anaesamuel",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-31-1900.jpg",
   "titulo": "Ana e Samuel",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "ora-story-noite-2026-10-31",
@@ -2985,16 +2998,17 @@
   "tipo": "REEL",
   "quando": "2026-11-01T12:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-01_1200_adao-e-eva-no-jardim_78270ca3.mp4"
+   "midia/lote27/2026-11-01_1200_adao-e-eva-no-jardim_k93dfcfe1.mp4"
   ],
-  "legenda": "Errou e quis se esconder? Deus ainda cuida de você.\n\nAdão e Eva se esconderam depois de comer o fruto proibido, e Deus foi chamá-los.\n\n📖 A história completa está no perfil\n\n📖 Gênesis 3:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #adaoeevanojardim",
+  "legenda": "Com vergonha do que fez? Deus veio atrás.\n\nAdão e Eva se esconderam depois de comer o fruto proibido, e Deus foi chamá-los.\n\n📖 A história completa está no perfil\n\n📖 Gênesis 3:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #adaoeevanojardim",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-01-1200.jpg",
   "titulo": "Adão e Eva no jardim",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "vsabia2026-11-01",
@@ -3021,7 +3035,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-01-1700.jpg",
   "titulo": "Torre de Babel",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "ls-2026-11-01-1700",
@@ -3049,7 +3064,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
   "titulo": "Neemias reconstrói o muro",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "ora-story-noite-2026-11-01",
@@ -3131,7 +3147,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
   "titulo": "A viúva e o azeite",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-B"
  },
  {
   "id": "lc-2026-11-02",
@@ -3168,7 +3185,7 @@
   "tipo": "REEL",
   "quando": "2026-11-02T12:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-02_1200_lazaro_7fd9762c.mp4"
+   "midia/lote27/2026-11-02_1200_lazaro_kc4b3555b.mp4"
   ],
   "legenda": "Perdeu alguém que amava? Jesus também chorou.\n\nLázaro morreu e Jesus, depois de chorar com o povo, o chamou para fora do túmulo.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 João 11:25 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #lazaro",
   "na_grade": false,
@@ -3177,23 +3194,25 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
   "titulo": "Lázaro",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "lh-2026-11-02-1700",
   "tipo": "REEL",
   "quando": "2026-11-02T17:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-02_1700_davi-e-jonatas_2d2fead4.mp4"
+   "midia/lote27/2026-11-02_1700_davi-e-jonatas_k4a8c8dd4.mp4"
   ],
-  "legenda": "Com medo na hora difícil? Deus está com você.\n\nJônatas avisou Davi do perigo e, no deserto, o fortaleceu em Deus.\n\n📖 1 Samuel 23:17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #daviejonatas",
+  "legenda": "Sozinho no seu deserto? Um amigo foi até lá.\n\nJônatas avisou Davi do perigo e, no deserto, o fortaleceu em Deus.\n\n📖 1 Samuel 23:17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #daviejonatas",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-02-1700.jpg",
   "titulo": "Davi e Jônatas",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "pensar2026-11-02",
@@ -3223,16 +3242,17 @@
   "tipo": "REEL",
   "quando": "2026-11-02T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-01_1900_mefibosete_977ae1cc.mp4"
+   "midia/lote27/2026-11-01_1900_mefibosete_k3f7095b3.mp4"
   ],
-  "legenda": "Se sente sem valor? O rei o chamou à mesa.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
+  "legenda": "Se sente um nada? O rei viu um filho.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
   "titulo": "Mefibosete",
-  "dur": 12.0
+  "dur": 12.0,
+  "teste": "K-A"
  },
  {
   "id": "ora-story-noite-2026-11-02",
