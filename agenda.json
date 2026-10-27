@@ -1929,7 +1929,8 @@
   "fixo": true,
   "cta": "nenhum",
   "titulo": "Expressões da Bíblia: lavar as mãos, beijo de Judas, pérolas aos porcos",
-  "miniatura": "midia/miniaturas/expressoes-2026-10-25.jpg"
+  "miniatura": "midia/miniaturas/expressoes-2026-10-25.jpg",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-25",
@@ -2136,7 +2137,8 @@
   "fixo": true,
   "cta": "nenhum",
   "titulo": "Promessas da Bíblia: cansado, com medo, sem forças",
-  "miniatura": "midia/miniaturas/promessas-2026-10-26.jpg"
+  "miniatura": "midia/miniaturas/promessas-2026-10-26.jpg",
+  "dur": 12.0
  },
  {
   "id": "ora-story-noite-2026-10-26",
