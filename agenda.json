@@ -2396,7 +2396,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1000.jpg",
   "titulo": "Jacó e a escada",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "post20",
@@ -2440,7 +2440,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1200b.jpg",
   "titulo": "A mulher que tocou no manto de Jesus",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "lh-2026-10-28-1700",
@@ -2457,7 +2457,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1700.jpg",
   "titulo": "Josué e Jericó",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "pensar2026-10-28",
@@ -2497,7 +2497,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1900.jpg",
   "titulo": "Naamã curado",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "ora-story-noite-2026-10-28",
@@ -2536,10 +2536,10 @@
   "miniatura": "midia/miniaturas/m-lava-pes-2026-10-29.jpg",
   "titulo": "Jesus lava os pés dos discípulos",
   "dur": 12.0,
-  "teste": "M",
   "repost_de": "htexto20-2026-10-25",
   "gancho_antigo": "Jesus lavou os pés de todos, até de quem ia traí-lo.",
-  "fixo": true
+  "fixo": true,
+  "experimento": "M"
  },
  {
   "id": "lc-2026-10-29",
@@ -2586,7 +2586,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-29-1200.jpg",
   "titulo": "Jesus acalma a tempestade",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "vsabia2026-10-29",
@@ -2614,7 +2614,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-29-1700.jpg",
   "titulo": "Pesca maravilhosa",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "ls-2026-10-29-1700",
@@ -2643,7 +2643,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
   "titulo": "Caim e Abel",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "ora-story-noite-2026-10-29",
@@ -2682,7 +2682,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
   "titulo": "Jesus e as crianças",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "lc-2026-10-30",
@@ -2729,7 +2729,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
   "titulo": "Os três jovens na fornalha",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "lh-2026-10-30-1700",
@@ -2746,7 +2746,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1700.jpg",
   "titulo": "Elias no monte Carmelo",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "pensar2026-10-30",
@@ -2786,9 +2786,9 @@
   "miniatura": "midia/miniaturas/m-paes-peixes-2026-10-30.jpg",
   "titulo": "Pães e peixes",
   "dur": 12.0,
-  "teste": "M",
   "repost_de": "lh-2026-10-28-1200",
-  "gancho_antigo": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas."
+  "gancho_antigo": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas.",
+  "experimento": "M"
  },
  {
   "id": "ora-story-noite-2026-10-30",
@@ -2827,7 +2827,7 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1000.jpg",
   "titulo": "O semeador",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "lc-2026-10-31",
@@ -2874,7 +2874,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1200.jpg",
   "titulo": "Abraão e Isaque",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "vsabia2026-10-31",
@@ -2930,7 +2930,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1900.jpg",
   "titulo": "Ana e Samuel",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "ora-story-noite-2026-10-31",
@@ -3015,7 +3015,7 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1200.jpg",
   "titulo": "Adão e Eva no jardim",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "vsabia2026-11-01",
@@ -3043,7 +3043,7 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1700.jpg",
   "titulo": "Torre de Babel",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "ls-2026-11-01-1700",
@@ -3072,7 +3072,7 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
   "titulo": "Neemias reconstrói o muro",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "ora-story-noite-2026-11-01",
@@ -3155,7 +3155,7 @@
   "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
   "titulo": "A viúva e o azeite",
   "dur": 12.0,
-  "teste": "K-B"
+  "experimento": "K-B"
  },
  {
   "id": "lc-2026-11-02",
@@ -3202,7 +3202,7 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
   "titulo": "Lázaro",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "lh-2026-11-02-1700",
@@ -3219,7 +3219,7 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1700.jpg",
   "titulo": "Davi e Jônatas",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "pensar2026-11-02",
@@ -3259,7 +3259,7 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
   "titulo": "Mefibosete",
   "dur": 12.0,
-  "teste": "K-A"
+  "experimento": "K-A"
  },
  {
   "id": "ora-story-noite-2026-11-02",
