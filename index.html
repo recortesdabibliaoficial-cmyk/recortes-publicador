@@ -28,6 +28,18 @@
   .dia { margin-top:22px; }
   .dia h2 { font-size:15px; margin:0 0 8px; color:var(--terra); text-transform:capitalize; }
   .dia.hoje h2::after { content:" · hoje"; color:var(--tinta); }
+  .dia > summary { list-style:none; display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; color:var(--tinta); font-size:15px; margin-bottom:8px; }
+  .dia > summary::-webkit-details-marker { display:none; }
+  .dia > summary h2 { margin:0; }
+  .dia > summary h2::before { content:"▸ "; color:var(--suave); }
+  .dia[open] > summary h2::before { content:"▾ "; }
+  .dia:not([open]) { margin-top:10px; }
+  .rd { font-size:12.5px; color:var(--suave); }
+  .filtros .n2 { font-weight:400; opacity:.75; margin-left:2px; }
+  .filtros.tipos { margin-top:6px; } .filtros.tipos button { font-size:12px; padding:3px 10px; }
+  .proximo { margin-top:18px; display:flex; flex-direction:column; gap:2px; background:var(--agbg); color:var(--agenda); border-radius:12px; padding:10px 14px; }
+  .proximo b { color:var(--tinta); font-size:15px; }
+  .mais { display:block; margin:16px auto 0; border:1px solid var(--linha); background:var(--card); color:var(--tinta); border-radius:99px; padding:7px 16px; font-size:13px; cursor:pointer; }
   .item { display:flex; gap:12px; background:var(--card); border:1px solid var(--linha); border-radius:12px; padding:10px; margin-bottom:8px; }
   .item img { width:64px; height:80px; object-fit:cover; border-radius:6px; flex:none; background:var(--linha); }
   .item.story img, .item.reel img { height:96px; width:54px; }
@@ -133,12 +145,16 @@
   <h1 class="so-agenda">Agenda de publicações</h1>
   <div class="sub so-agenda"><span id="handle"></span> · atualiza sozinha depois de cada publicação · <span id="atual"></span></div>
   <div class="resumo so-agenda" id="resumo"></div>
-  <div class="filtros so-agenda" id="filtros">
-    <button data-f="todos" class="ativo">Tudo</button>
-    <button data-f="futuro">Próximos</button>
-    <button data-f="CARROSSEL">Carrosséis</button>
-    <button data-f="REEL">Reels</button>
-    <button data-f="STORY">Stories</button>
+  <div class="filtros so-agenda" id="fquando">
+    <button data-q="prox" class="ativo">Próximos <span class="n2"></span></button>
+    <button data-q="hoje">Hoje <span class="n2"></span></button>
+    <button data-q="hist">Já saíram <span class="n2"></span></button>
+  </div>
+  <div class="filtros tipos so-agenda" id="ftipo">
+    <button data-tp="todos" class="ativo">Todos os tipos</button>
+    <button data-tp="REEL">Reels</button>
+    <button data-tp="CARROSSEL">Carrosséis</button>
+    <button data-tp="STORY">Stories</button>
   </div>
 </header>
 <section id="painel" class="so-agenda"></section>
@@ -153,7 +169,7 @@ const CANAIS = [
   { id:'biblia', nome:'Recortes da Bíblia', handle:'@recortesdabiblia.oficial', base:'/recortes-publicador/' },
   { id:'contos', nome:'Contos Recortados', handle:'@contosrecortados', base:'/contos-publicador/' },
 ];
-let itens = [], filtro = 'todos', manuais = [], verFeitas = false, met = {}, coms = [];
+let itens = [], quandoF = 'prox', tipoF = 'todos', diasHist = 7, manuais = [], verFeitas = false, met = {}, coms = [];
 const fmtN = n => n == null ? '–' : n >= 10000 ? (n/1000).toFixed(1).replace('.', ',') + ' mil' : n.toLocaleString('pt-BR');
 function linhaMet(m, tipo){
   if (!m) return '';
@@ -209,27 +225,45 @@ function status(i, est, agora){
   return ['Agendado','ag'];
 }
 function esc(s){ return (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+// Agenda: período (Próximos / Hoje / Já saíram) × tipo. Abre em Próximos; histórico do mais novo para o mais antigo.
+const NOMES = { REEL:['Reel','Reels'], CARROSSEL:['carrossel','carrosséis'], STORY:['Story','Stories'] };
+function resumoDia(l){ return ['REEL','CARROSSEL','STORY'].map(t => { const n = l.filter(i => i.tipo === t).length; return n ? n + ' ' + NOMES[t][n > 1 ? 1 : 0] : ''; }).filter(Boolean).join(' · '); }
+function emQuanto(ms){
+  const m = Math.round(ms / 6e4); if (m < 1) return 'agora';
+  if (m < 60) return `em ${m} min`;
+  const h = Math.floor(m / 60), r = m % 60; if (h < 24) return `em ${h} h${r ? ' ' + r + ' min' : ''}`;
+  const d = Math.round(h / 24); return `em ${d} dia${d > 1 ? 's' : ''}`;
+}
+function cartao(i){
+  const [rot, cls] = i._st, q = new Date(i.quando);
+  return `<div class="item ${i.tipo.toLowerCase()}">
+    <img loading="lazy" src="${canal.base}${i.miniatura}" alt="" data-ver="${i.id}" title="Toque para ver grande">
+    <div class="meio">
+      <div class="linha1"><span class="hora">${fmtHora(q)}</span><span class="tipo">${TIPOS[i.tipo]||i.tipo}</span><span class="pill ${cls}">${rot}</span>${i._link ? `<a class="link" href="${i._link}" target="_blank" rel="noopener">ver no Instagram ↗</a>` : ''}</div>
+      <div class="titulo">${esc(i.titulo||'')}</div>
+      ${linhaMet(met[i.id], i.tipo)}
+      ${i._erro ? `<div class="erro">${esc(i._erro)}</div>` : ''}
+      ${i.legenda ? `<details><summary>Ver legenda</summary><pre>${esc(i.legenda)}</pre></details>` : ''}
+    </div></div>`;
+}
 function desenhar(){
   const agora = new Date(), hoje = chaveDia(agora);
-  const lista = itens.filter(i => filtro==='todos' || (filtro==='futuro' ? (i._st[1] !== 'ok' && new Date(i.quando) >= agora - 3600e3) : i.tipo===filtro));
-  const dias = {};
-  lista.forEach(i => { (dias[chaveDia(new Date(i.quando))] ||= []).push(i); });
-  const el = document.getElementById('lista');
-  el.innerHTML = Object.keys(dias).sort().map(k => {
-    const d = new Date(dias[k][0].quando);
-    return `<section class="dia ${k===hoje?'hoje':''}"><h2>${fmtDia(d)}</h2>` + dias[k].map(i => {
-      const [rot, cls] = i._st, q = new Date(i.quando);
-      return `<div class="item ${i.tipo.toLowerCase()}">
-        <img loading="lazy" src="${canal.base}${i.miniatura}" alt="" data-ver="${i.id}" title="Toque para ver grande">
-        <div class="meio">
-          <div class="linha1"><span class="hora">${fmtHora(q)}</span><span class="tipo">${TIPOS[i.tipo]||i.tipo}</span><span class="pill ${cls}">${rot}</span>${i._link ? `<a class="link" href="${i._link}" target="_blank" rel="noopener">ver no Instagram ↗</a>` : ''}</div>
-          <div class="titulo">${esc(i.titulo||'')}</div>
-          ${linhaMet(met[i.id], i.tipo)}
-          ${i._erro ? `<div class="erro">${esc(i._erro)}</div>` : ''}
-          ${i.legenda ? `<details><summary>Ver legenda</summary><pre>${esc(i.legenda)}</pre></details>` : ''}
-        </div></div>`;
-    }).join('') + '</section>';
-  }).join('') || '<p>Nada para mostrar neste filtro.</p>';
+  const doTipo = itens.filter(i => tipoF === 'todos' || i.tipo === tipoF);
+  const vem = i => i._st[1] !== 'ok' && new Date(i.quando) >= agora - 12*3600e3;   // ainda não saiu (ou falhou há pouco)
+  const grupos = { prox: doTipo.filter(vem), hoje: doTipo.filter(i => chaveDia(new Date(i.quando)) === hoje), hist: doTipo.filter(i => !vem(i)).reverse() };
+  document.querySelectorAll('#fquando button').forEach(b => { b.classList.toggle('ativo', b.dataset.q === quandoF); b.querySelector('.n2').textContent = grupos[b.dataset.q].length; });
+  document.querySelectorAll('#ftipo button').forEach(b => b.classList.toggle('ativo', b.dataset.tp === tipoF));
+  const lista = grupos[quandoF], dias = {};
+  lista.forEach(i => (dias[chaveDia(new Date(i.quando))] ||= []).push(i));
+  let ks = Object.keys(dias), mais = '';
+  if (quandoF === 'hist' && ks.length > diasHist) { mais = `<button type="button" class="mais" id="maisDias">Mostrar mais dias (${ks.length - diasHist} anteriores)</button>`; ks = ks.slice(0, diasHist); }
+  const prox = quandoF === 'prox' && lista.find(i => i._st[1] === 'ag' || i._st[1] === 'mc');
+  const topo = prox ? `<div class="proximo"><span class="suave">Próximo a sair</span><b>${fmtHora(new Date(prox.quando))} · ${TIPOS[prox.tipo]} · ${esc(prox.titulo || '')}</b><span>${new Date(prox.quando) < agora ? 'saindo agora' : emQuanto(new Date(prox.quando) - agora)}</span></div>` : '';
+  const corpo = ks.map((k, n) => {
+    const l = dias[k];
+    return `<details class="dia ${k === hoje ? 'hoje' : ''}" ${n < 2 || quandoF === 'hoje' ? 'open' : ''}><summary><h2>${fmtDia(new Date(l[0].quando))}</h2><span class="rd">${resumoDia(l)}</span></summary>${l.map(cartao).join('')}</details>`;
+  }).join('');
+  document.getElementById('lista').innerHTML = corpo ? topo + corpo + mais : `<p class="nada">${quandoF === 'prox' ? 'Nada agendado. A agenda acabou: avise o Claude.' : 'Nada para mostrar aqui.'}</p>`;
 }
 // Visualizador: toque na miniatura abre o post grande (todos os slides do carrossel; Reel toca o vídeo)
 function abrirVer(id){
@@ -299,12 +333,13 @@ function desenharTarefas(){
   const mostrar = verFeitas ? ts : pend;
   const caixaPin = pedirPin ? `<form id="formPin" class="pin"><span>Para salvar as marcações em todos os aparelhos, digite o seu PIN (uma vez neste aparelho):</span>
       <input id="campoPin" type="password" inputmode="numeric" autocomplete="off" aria-label="PIN"><button type="submit">Salvar PIN</button>${msgPin ? `<small>${esc(msgPin)}</small>` : ''}</form>` : '';
+  const b0 = document.querySelector('.abas button.ativo'); if (b0) b0.innerHTML = canal.nome + (pend.length ? `<span class="n">${pend.length}</span>` : '');
+  if (!pend.length && !verFeitas && !pedirPin) { document.getElementById('tarefas').innerHTML = ''; return; }   // sem pendência: a caixa some e a agenda sobe
   document.getElementById('tarefas').innerHTML = `<div class="caixa"><h2><span>✅ Para você fazer (${pend.length})</span>` +
     (ts.length > pend.length ? `<button id="verFeitas">${verFeitas ? 'esconder feitas' : 'ver feitas'}</button>` : '') + '</h2>' +
     (mostrar.length ? mostrar.map(t => `<label class="tarefa ${feito(t.id)?'feita':''}"><input type="checkbox" data-t="${t.id}" ${feito(t.id)?'checked':''}><span>${esc(t.txt)}<small>${esc(t.det)}${t.copiar ? `<span class="pronto">${esc(t.copiar)}</span><button type="button" class="copiar" data-c="${encodeURIComponent(t.copiar)}">Copiar comentário</button>` : ''}${t.link ? ` <a class="link" href="${t.link}" target="_blank" rel="noopener">${t.rotulo || 'abrir post ↗'}</a>` : ''}</small></span></label>`).join('')
       : '<div class="nada">Nada pendente agora. Novas tarefas aparecem aqui quando os Stories forem publicados.</div>') + caixaPin +
     (remoto === null ? '<div class="met">As marcações estão salvas só neste aparelho (não consegui falar com o Google Drive agora).</div>' : '') + '</div>';
-  const b = document.querySelector('.abas button.ativo'); if (b) b.innerHTML = canal.nome + (pend.length ? `<span class="n">${pend.length}</span>` : '');
 }
 document.addEventListener('change', async e => {
   if (!(e.target.dataset && e.target.dataset.t)) return;
@@ -356,14 +391,13 @@ async function carregar(){
     `<span class="pill ok">${c('ok')} publicados</span><span class="pill ag">${c('ag')} agendados</span>` + (c('mc') ? `<span class="pill mc">${c('mc')} no Metricool</span>` : '') +
     (c('err') ? `<span class="pill err">${c('err')} com erro</span>` : '');
   const fim = itens.length ? new Date(itens[itens.length-1].quando) : null;
-  document.getElementById('atual').textContent = fim ? 'agenda até ' + fim.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo'}) : 'ainda sem posts agendados';
+  document.getElementById('atual').textContent = fim ? 'agenda até ' + fim.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo'}) + ` (faltam ${Math.max(0, Math.ceil((fim - agora) / 864e5))} dias)` : 'ainda sem posts agendados';
   desenhar(); desenharPainel(); desenharTarefas();
   dadosDash = null; mostrarModo();
 }
-document.getElementById('filtros').addEventListener('click', e => {
-  const b = e.target.closest('button'); if (!b) return;
-  filtro = b.dataset.f; document.querySelectorAll('#filtros button').forEach(x => x.classList.toggle('ativo', x===b)); desenhar();
-});
+document.getElementById('fquando').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { quandoF = b.dataset.q; diasHist = 7; desenhar(); } });
+document.getElementById('ftipo').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { tipoF = b.dataset.tp; desenhar(); } });
+document.addEventListener('click', e => { if (e.target.id === 'maisDias') { diasHist += 7; desenhar(); } });
 document.getElementById('abas').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   canal = CANAIS.find(c => c.id === b.dataset.c); history.replaceState(null, '', '#' + canal.id); carregar();
