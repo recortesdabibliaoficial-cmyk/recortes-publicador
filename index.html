@@ -246,7 +246,7 @@ function emQuanto(ms){
 function cartao(i){
   const [rot, cls] = i._st, q = new Date(i.quando);
   return `<div class="item ${i.tipo.toLowerCase()}">
-    <img loading="lazy" src="${canal.base}${i.miniatura}" alt="" data-ver="${i.id}" title="Toque para ver grande">
+    <img loading="lazy" src="${canal.base}${i.miniatura}?v=${encodeURIComponent(((i.midia || [])[0] || '').slice(-14))}" alt="" data-ver="${i.id}" title="Toque para ver grande">
     <div class="meio">
       <div class="linha1"><span class="hora">${fmtHora(q)}</span><span class="tipo">${TIPOS[i.tipo]||i.tipo}</span><span class="pill ${cls}">${rot}</span>${i._link ? `<a class="link" href="${i._link}" target="_blank" rel="noopener">ver no Instagram ↗</a>` : ''}</div>
       <div class="titulo">${esc(i.titulo||'')}</div>
