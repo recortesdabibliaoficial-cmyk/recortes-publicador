@@ -2457,7 +2457,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1700.jpg",
   "titulo": "Josué e Jericó",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-atual"
  },
  {
   "id": "pensar2026-10-28",
@@ -2487,7 +2488,7 @@
   "tipo": "REEL",
   "quando": "2026-10-28T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-28_1900_naama-curado_g46ecd892.mp4"
+   "midia/testeO/lh-2026-10-28-1900_ob769ad44.mp4"
   ],
   "legenda": "Sua ferida não fecha? Deus te renova por inteiro.\n\nNaamã, chefe do exército da Síria, foi curado depois de se lavar sete vezes no rio Jordão.\n\n📖 2 Reis 5:13 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #naamacurado",
   "na_grade": false,
@@ -2497,7 +2498,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1900.jpg",
   "titulo": "Naamã curado",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-nova"
  },
  {
   "id": "ora-story-noite-2026-10-28",
@@ -2576,7 +2578,7 @@
   "tipo": "REEL",
   "quando": "2026-10-29T12:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-29_1200_jesus-acalma-a-tempestade_g3066c4c0.mp4"
+   "midia/testeO/lh-2026-10-29-1200_o6213952b.mp4"
   ],
   "legenda": "Sua vida virou tempestade? Jesus acalma o mar.\n\nUma ventania encheu o barco de água enquanto Jesus dormia, e Jesus acalmou o mar.\n\n📖 A história completa está no perfil\n\n📖 Marcos 4:39 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesusacalmaatempestade",
   "na_grade": false,
@@ -2586,7 +2588,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-29-1200.jpg",
   "titulo": "Jesus acalma a tempestade",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-nova"
  },
  {
   "id": "vsabia2026-10-29",
@@ -2604,7 +2607,7 @@
   "tipo": "REEL",
   "quando": "2026-10-29T17:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-29_1700_pesca-maravilhosa_gd7c6c0cf.mp4"
+   "midia/testeO/lh-2026-10-29-1700_o6bee65a2.mp4"
   ],
   "legenda": "Se sente um pecador? Jesus não se afasta.\n\nPedro e os companheiros jogaram a rede de novo, por ordem de Jesus, depois de uma noite sem pegar nada.\n\n📖 Lucas 5:5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #pescamaravilhosa",
   "na_grade": false,
@@ -2614,7 +2617,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-29-1700.jpg",
   "titulo": "Pesca maravilhosa",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-nova"
  },
  {
   "id": "ls-2026-10-29-1700",
@@ -2643,7 +2647,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
   "titulo": "Caim e Abel",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-atual"
  },
  {
   "id": "ora-story-noite-2026-10-29",
@@ -2672,7 +2677,7 @@
   "tipo": "REEL",
   "quando": "2026-10-30T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-28_1000_jesus-e-as-criancas_gab639002.mp4"
+   "midia/testeO/lh-2026-10-28-1000_o282d9a7b.mp4"
   ],
   "legenda": "Quiseram se livrar de você? Jesus te acolhe.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
   "na_grade": false,
@@ -2682,7 +2687,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
   "titulo": "Jesus e as crianças",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-nova"
  },
  {
   "id": "lc-2026-10-30",
@@ -2729,7 +2735,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
   "titulo": "Os três jovens na fornalha",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-atual"
  },
  {
   "id": "lh-2026-10-30-1700",
@@ -2746,7 +2753,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-30-1700.jpg",
   "titulo": "Elias no monte Carmelo",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-atual"
  },
  {
   "id": "pensar2026-10-30",
@@ -2817,7 +2825,7 @@
   "tipo": "REEL",
   "quando": "2026-10-31T10:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-02_1000_o-semeador_g2416b57e.mp4"
+   "midia/testeO/lh-2026-11-02-1000_oca18a6cf.mp4"
   ],
   "legenda": "Trabalha e não vê resultado? Deus faz a semente dar fruto.\n\nJesus contou a história de um homem que plantou sementes em quatro tipos de chão.\n\n📖 Mateus 13:23 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #osemeador",
   "na_grade": false,
@@ -2827,7 +2835,8 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1000.jpg",
   "titulo": "O semeador",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-nova"
  },
  {
   "id": "lc-2026-10-31",
@@ -2874,7 +2883,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1200.jpg",
   "titulo": "Abraão e Isaque",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-atual"
  },
  {
   "id": "vsabia2026-10-31",
@@ -2892,7 +2902,7 @@
   "tipo": "REEL",
   "quando": "2026-10-31T17:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-10-31_1700_sansao_g4e823c87.mp4"
+   "midia/testeO/lh-2026-10-31-1700_o4a216a02.mp4"
   ],
   "legenda": "Preso e sem forças? Deus ainda ouve sua oração.\n\nSansão perdeu a força quando lhe cortaram o cabelo, e orou a Deus na prisão.\n\n📖 Juízes 16:28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #sansao",
   "na_grade": false,
@@ -2901,7 +2911,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-10-31-1700.jpg",
   "titulo": "Sansão",
-  "dur": 12.0
+  "dur": 12.0,
+  "arte": "O-nova"
  },
  {
   "id": "ls-2026-10-31-1700",
@@ -2930,7 +2941,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1900.jpg",
   "titulo": "Ana e Samuel",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-atual"
  },
  {
   "id": "ora-story-noite-2026-10-31",
@@ -2968,7 +2980,8 @@
   "cta": "nenhum",
   "miniatura": "midia/miniaturas/lh-2026-11-01-1000.jpg",
   "titulo": "José e o manto colorido",
-  "dur": 12.0
+  "dur": 12.0,
+  "arte": "O-atual"
  },
  {
   "id": "lc-2026-11-01",
@@ -3015,7 +3028,8 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1200.jpg",
   "titulo": "Adão e Eva no jardim",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-atual"
  },
  {
   "id": "vsabia2026-11-01",
@@ -3033,7 +3047,7 @@
   "tipo": "REEL",
   "quando": "2026-11-01T17:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-01_1700_torre-de-babel_g02f4e65c.mp4"
+   "midia/testeO/lh-2026-11-01-1700_of26b3f4f.mp4"
   ],
   "legenda": "Cansado de provar seu valor? Deus te eleva.\n\nEm Babel, o povo quis fazer uma torre até o céu; Deus misturou as línguas e eles se espalharam.\n\n📖 Gênesis 12:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #torredebabel",
   "na_grade": false,
@@ -3043,7 +3057,8 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1700.jpg",
   "titulo": "Torre de Babel",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-nova"
  },
  {
   "id": "ls-2026-11-01-1700",
@@ -3062,7 +3077,7 @@
   "tipo": "REEL",
   "quando": "2026-11-01T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-02_1900_neemias-reconstroi-o-muro_gded14d40.mp4"
+   "midia/testeO/lh-2026-11-02-1900_o7cd39f5e.mp4"
   ],
   "legenda": "Riram do seu recomeço? Deus te dá força para terminar.\n\nNeemias reergueu o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
   "na_grade": false,
@@ -3072,7 +3087,8 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
   "titulo": "Neemias reconstrói o muro",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-nova"
  },
  {
   "id": "ora-story-noite-2026-11-01",
@@ -3155,7 +3171,8 @@
   "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
   "titulo": "A viúva e o azeite",
   "dur": 12.0,
-  "experimento": "K-B"
+  "experimento": "K-B",
+  "arte": "O-atual"
  },
  {
   "id": "lc-2026-11-02",
@@ -3192,7 +3209,7 @@
   "tipo": "REEL",
   "quando": "2026-11-02T12:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-02_1200_lazaro_gb5971443.mp4"
+   "midia/testeO/lh-2026-11-02-1200_oa869e014.mp4"
   ],
   "legenda": "Chorando por quem partiu? Jesus chora com você.\n\nLázaro morreu e Jesus, depois de chorar com o povo, o chamou para fora do túmulo.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 João 11:25 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #lazaro",
   "na_grade": false,
@@ -3202,7 +3219,8 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
   "titulo": "Lázaro",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-nova"
  },
  {
   "id": "lh-2026-11-02-1700",
@@ -3219,7 +3237,8 @@
   "miniatura": "midia/miniaturas/lh-2026-11-02-1700.jpg",
   "titulo": "Davi e Jônatas",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-atual"
  },
  {
   "id": "pensar2026-11-02",
@@ -3249,7 +3268,7 @@
   "tipo": "REEL",
   "quando": "2026-11-02T19:00:00-03:00",
   "midia": [
-   "midia/lote27/2026-11-01_1900_mefibosete_ge18f1bee.mp4"
+   "midia/testeO/lh-2026-11-01-1900_oea21cfd4.mp4"
   ],
   "legenda": "Já se sentiu rejeitado? Deus te põe à mesa do Rei.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
   "na_grade": false,
@@ -3259,7 +3278,8 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
   "titulo": "Mefibosete",
   "dur": 12.0,
-  "experimento": "K-A"
+  "experimento": "K-A",
+  "arte": "O-nova"
  },
  {
   "id": "ora-story-noite-2026-11-02",
