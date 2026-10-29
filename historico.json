@@ -13954,7 +13954,7 @@
     }
    },
    "htexto12-2026-10-26": {
-    "reach": 1483,
+    "reach": 1485,
     "views": 3045,
     "likes": 119,
     "comments": 8,
@@ -13963,7 +13963,7 @@
     "total_interactions": 164,
     "ig_reels_avg_watch_time": 18691,
     "reels_skip_rate": 48.3,
-    "ig_reels_video_view_total_time": 28971886
+    "ig_reels_video_view_total_time": 28991269
    },
    "lista-2026-10-26": {
     "reach": 210,
@@ -14142,14 +14142,14 @@
    },
    "lh-2026-10-27-1700": {
     "reach": 128,
-    "views": 225,
+    "views": 226,
     "likes": 12,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 12,
     "ig_reels_avg_watch_time": 11510,
-    "reels_skip_rate": 53.8,
+    "reels_skip_rate": 53.4,
     "ig_reels_video_view_total_time": 1530920
    },
    "lh-2026-10-27-1900": {
@@ -14188,16 +14188,16 @@
     }
    },
    "lh-2026-10-30-1000": {
-    "reach": 262,
-    "views": 539,
+    "reach": 280,
+    "views": 563,
     "likes": 16,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 16,
-    "ig_reels_avg_watch_time": 15655,
-    "reels_skip_rate": 52.7,
-    "ig_reels_video_view_total_time": 4289689
+    "ig_reels_avg_watch_time": 16342,
+    "reels_skip_rate": 53.4,
+    "ig_reels_video_view_total_time": 4722886
    },
    "post20": {
     "reach": 3,
@@ -14212,14 +14212,14 @@
    },
    "lh-2026-10-28-1200b": {
     "reach": 145,
-    "views": 282,
+    "views": 285,
     "likes": 5,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 5,
     "ig_reels_avg_watch_time": 15370,
-    "reels_skip_rate": 44.7,
+    "reels_skip_rate": 44.1,
     "ig_reels_video_view_total_time": 2397802
    },
    "pensar2026-10-28": {
@@ -14281,6 +14281,179 @@
     "profile_visits": 0
    }
   },
-  "em": "2026-10-28T22:53-03:00"
+  "em": "2026-10-28T23:31-03:00",
+  "conta": {
+   "reach": 706,
+   "views": 1187,
+   "accounts_engaged": 43,
+   "total_interactions": 46,
+   "profile_views": 3,
+   "likes": 43,
+   "comments": 0,
+   "saves": 1,
+   "shares": 1,
+   "replies": 0,
+   "reposts": 0,
+   "profile_links_taps": 0
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "NON_FOLLOWER": 689,
+    "FOLLOWER": 21
+   },
+   "views:follow_type": {
+    "NON_FOLLOWER": 1097,
+    "FOLLOWER": 90
+   },
+   "views:media_product_type": {
+    "STORY": 32,
+    "CAROUSEL_CONTAINER": 4,
+    "REEL": 1151
+   },
+   "total_interactions:media_product_type": {
+    "REEL": 46
+   },
+   "likes:media_product_type": {
+    "REEL": 43
+   },
+   "saves:media_product_type": {
+    "REEL": 1
+   },
+   "shares:media_product_type": {
+    "REEL": 1
+   },
+   "comments:media_product_type": {},
+   "reach:media_product_type": {
+    "STORY": 6,
+    "CAROUSEL_CONTAINER": 3,
+    "REEL": 697
+   },
+   "follows_and_unfollows:follow_type": {}
+  },
+  "demografia": {
+   "follower_demographics:age": {
+    "13-17": 2,
+    "18-24": 4,
+    "25-34": 21,
+    "35-44": 21,
+    "45-54": 11,
+    "55-64": 10,
+    "65+": 30
+   },
+   "follower_demographics:gender": {
+    "F": 49,
+    "M": 25,
+    "U": 25
+   },
+   "follower_demographics:city": {
+    "Nazaré, Bahia": 1,
+    "São Paulo, São Paulo (state)": 7,
+    "Anápolis, Goiás": 1,
+    "São Luís, Maranhão": 3,
+    "Rio de Janeiro, Rio de Janeiro (state)": 9,
+    "São José dos Campos, São Paulo (state)": 1,
+    "Peruíbe, São Paulo (state)": 1,
+    "Ivoti, Rio Grande do Sul": 1,
+    "Córrego do Bom Jesus, Minas Gerais": 1,
+    "Araxá, Minas Gerais": 1,
+    "Maceió, Alagoas": 2,
+    "Parnaíba, Piauí": 1,
+    "Maricá, Rio de Janeiro (state)": 1,
+    "Porto Alegre, Rio Grande do Sul": 1,
+    "Gravataí, Rio Grande do Sul": 1,
+    "Itajaí, Santa Catarina": 1,
+    "Fervedouro, Minas Gerais": 1,
+    "Maués, Amazonas": 1,
+    "Recife, Pernambuco": 1,
+    "Serranópolis, Goiás": 1,
+    "Lauro de Freitas, Bahia": 1,
+    "Natal, Rio Grande do Norte": 1,
+    "Piracicaba, São Paulo (state)": 1,
+    "Parauapebas, Pará": 1,
+    "Betim, Minas Gerais": 2,
+    "Paracatu, Minas Gerais": 1,
+    "Salvador, Bahia": 3,
+    "São José, Santa Catarina": 1,
+    "Bauru, São Paulo (state)": 1,
+    "São Sebastião da Grama, São Paulo (state)": 1,
+    "Itaparica, Bahia": 1,
+    "Divino, Minas Gerais": 1,
+    "Fortaleza, Ceará": 2,
+    "Nova Iguaçu, Rio de Janeiro (state)": 1,
+    "Lagoa Seca, Paraíba": 1,
+    "Colares, Pará": 1,
+    "Espírito Santo, Rio Grande do Norte": 1,
+    "Ibirité, Minas Gerais": 1,
+    "Tucuruí, Pará": 1,
+    "Belo Horizonte, Minas Gerais": 2,
+    "São José do Rio Prêto, São Paulo (state)": 1,
+    "Demerval Lobão, Piauí": 1,
+    "Belém, Pará": 1,
+    "Barreiras, Bahia": 1,
+    "São Gonçalo, Rio de Janeiro (state)": 2
+   },
+   "engaged_audience_demographics:age": {
+    "13-17": 4,
+    "18-24": 65,
+    "25-34": 134,
+    "35-44": 96,
+    "45-54": 83,
+    "55-64": 67,
+    "65+": 78
+   },
+   "engaged_audience_demographics:gender": {
+    "F": 238,
+    "M": 182,
+    "U": 107
+   },
+   "engaged_audience_demographics:city": {
+    "Ribeirão Prêto, São Paulo (state)": 3,
+    "São Paulo, São Paulo (state)": 29,
+    "Blumenau, Santa Catarina": 3,
+    "Anápolis, Goiás": 3,
+    "São Luís, Maranhão": 6,
+    "Nossa Senhora do Socorro, Sergipe": 2,
+    "Rio de Janeiro, Rio de Janeiro (state)": 14,
+    "Juazeiro do Norte, Ceará": 3,
+    "Contagem, Minas Gerais": 3,
+    "Osasco, São Paulo (state)": 4,
+    "Camaçari, Bahia": 2,
+    "Maceió, Alagoas": 4,
+    "Uberlândia, Minas Gerais": 3,
+    "Porto Alegre, Rio Grande do Sul": 4,
+    "Duque de Caxias, Rio de Janeiro (state)": 2,
+    "Hidrolândia, Goiás": 2,
+    "João Pessoa, Paraíba": 2,
+    "Feira de Santana, Bahia": 2,
+    "Aparecida de Goiânia, Goiás": 4,
+    "Recife, Pernambuco": 4,
+    "Tabatinga, Amazonas": 2,
+    "Guarulhos, São Paulo (state)": 3,
+    "Paulista, Pernambuco": 2,
+    "Natal, Rio Grande do Norte": 6,
+    "Petrolândia, Pernambuco": 2,
+    "Pôrto Velho, Rondônia": 2,
+    "Salvador, Bahia": 4,
+    "São José, Santa Catarina": 2,
+    "Mauá, São Paulo (state)": 2,
+    "Jaboatão dos Guararapes, Pernambuco": 7,
+    "Goiânia, Goiás": 5,
+    "Fortaleza, Ceará": 15,
+    "Manaus, Amazonas": 7,
+    "Patos, Paraíba": 4,
+    "São Desidério, Bahia": 2,
+    "Campina Grande, Paraíba": 7,
+    "Criciúma, Santa Catarina": 2,
+    "Canoas, Rio Grande do Sul": 2,
+    "Juiz de Fora, Minas Gerais": 3,
+    "Belo Horizonte, Minas Gerais": 6,
+    "Vitória, Espírito Santo": 2,
+    "Curitiba, Paraná": 3,
+    "Belém, Pará": 5,
+    "Campinas, São Paulo (state)": 3,
+    "São Gonçalo, Rio de Janeiro (state)": 2
+   }
+  },
+  "online": {}
  }
 }
