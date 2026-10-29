@@ -28,6 +28,8 @@ HISTORICO = os.path.join(AQUI, 'historico.json')    # um retrato dos números po
 BRT = timezone(timedelta(hours=-3))                 # horário de Brasília (sem horário de verão)
 JANELA = timedelta(hours=12)        # item atrasado mais que isso não é publicado (evita publicar coisa velha de surpresa)
 MAX_TENTATIVAS = 3
+LIMIAR_VOANDO = 300                 # teste Q (Felipe, 29/10): Reel anterior ganhando 300+ views por hora = "voando"
+ADIA_ATE = (21, 30)                 # teste Q: Reel adiado não sai depois das 21h30 (Rio) do mesmo dia; fica para o Claude reagendar
 
 
 def log(*a): print(*a, flush=True)
@@ -342,6 +344,32 @@ CURVAS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'curvas.json')
 CAMPOS_CURVA = ['reach', 'views', 'likes', 'shares', 'saved', 'reels_skip_rate', 'ig_reels_avg_watch_time']
 
 
+def voando(ig, item, agenda, estado, agora):
+    """Teste Q (Felipe, 29/10): post novo rouba o empurrão do anterior (pistas H9 e H22). Item com `adiavel` na agenda espera
+    enquanto um Reel publicado nas 12 h anteriores ganha LIMIAR_VOANDO+ views por hora. Ritmo = views agora (1 consulta)
+    menos a última leitura da curva com 20 min ou mais. Devolve (id do Reel voando, views/hora) ou None. Erro = não adia."""
+    if not item.get('adiavel') or item.get('tipo') != 'REEL': return None
+    q = datetime.fromisoformat(item['quando']); cur = carregar(CURVAS, {})
+    for o in agenda:
+        r = estado.get(o['id']) or {}
+        if o['id'] == item['id'] or o.get('tipo') != 'REEL' or r.get('status') != 'publicado' or not r.get('media_id'): continue
+        oq = datetime.fromisoformat(o['quando'])
+        if not (q - timedelta(hours=12) <= oq < q): continue
+        pts = [p for p in (cur.get(o['id']) or {}).get('pontos', []) if isinstance(p.get('views'), (int, float))
+               and datetime.fromisoformat(p['t']) <= agora - timedelta(minutes=20)]
+        if not pts: continue
+        try:
+            v = _insights(ig, r['media_id'], ['views']).get('views')
+        except Exception as e:
+            log('AVISO teste Q (não adia):', str(e)[:120]); continue
+        if not isinstance(v, (int, float)): continue
+        horas = (agora - datetime.fromisoformat(pts[-1]['t'])).total_seconds() / 3600
+        ritmo = (v - pts[-1]['views']) / horas
+        log(f'Teste Q: {o["id"]} ganha {ritmo:.0f} views/hora (limiar {LIMIAR_VOANDO})')
+        if ritmo >= LIMIAR_VOANDO: return o['id'], round(ritmo)
+    return None
+
+
 def coletar_curvas(ig, agenda, estado):
     """Felipe, 20/10/2026: curva de cada Reel nas primeiras 24 h, lida de HORA EM HORA (para achar o horário de pico).
     Só Reels, só nas primeiras 24 h, no máximo 1 leitura por Reel por hora (~25 consultas por Reel). Grava em curvas.json."""
@@ -510,11 +538,19 @@ def main():
         reg = estado.setdefault(item['id'], {'tentativas': 0})
         if reg.get('tentativas', 0) >= MAX_TENTATIVAS:
             log('PULADO (tentativas esgotadas):', item['id']); continue
+        if reg.get('status') == 'adiado': continue                  # teste Q: passou do limite do dia; o Claude reagenda
         desde = datetime.fromisoformat(item['quando']) - timedelta(minutes=30)
         ja = ja_publicado(ig, item, desde, estado)                 # já saiu numa execução anterior? então só registra
         if ja:
             reg.update(status='publicado', media_id=ja, em=datetime.now(timezone.utc).isoformat(), link=ig.link(ja)); reg.pop('ultimo_erro', None)
             log('JÁ ESTAVA NO AR:', item['id'], ja); salvar(ESTADO, estado); continue
+        v = voando(ig, item, agenda, estado, agora)
+        if v:
+            rio = agora.astimezone(BRT); limite = rio.replace(hour=ADIA_ATE[0], minute=ADIA_ATE[1], second=0, microsecond=0)
+            reg.setdefault('adiado_por', []).append({'em': agora.isoformat(timespec='minutes'), 'reel': v[0], 'views_hora': v[1]})
+            if rio >= limite: reg['status'] = 'adiado'; log('ADIADO PARA OUTRO DIA (teste Q):', item['id'], v)
+            else: log('ESPERANDO (teste Q):', item['id'], 'porque', v[0], 'está voando', v[1], 'views/hora')
+            salvar(ESTADO, estado); continue
         try:
             mid = publicar_item(ig, item, base_midia())
             reg.update(status='publicado', media_id=mid, em=datetime.now(timezone.utc).isoformat(), link=ig.link(mid))
