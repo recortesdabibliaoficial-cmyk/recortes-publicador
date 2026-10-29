@@ -2545,7 +2545,9 @@
   "arte": "nova",
   "gancho_antigo_2": "Ninguém nunca cuidou de você? Jesus lava os seus pés.",
   "quando_antes": "2026-10-29T10:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "lc-2026-10-29",
@@ -2626,7 +2628,9 @@
   "experimento": "K-A",
   "arte": "nova",
   "quando_antes": "2026-10-29T17:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "ls-2026-10-29-1700",
@@ -2700,7 +2704,9 @@
   "experimento": "K-A",
   "arte": "nova",
   "quando_antes": "2026-10-30T10:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "lc-2026-10-30",
@@ -2770,7 +2776,9 @@
   "experimento": "K-B",
   "arte": "nova",
   "quando_antes": "2026-10-30T17:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "pensar2026-10-30",
@@ -2857,7 +2865,9 @@
   "experimento": "K-B",
   "arte": "nova",
   "quando_antes": "2026-10-31T10:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "lc-2026-10-31",
@@ -2937,7 +2947,9 @@
   "dur": 12.0,
   "arte": "nova",
   "quando_antes": "2026-10-31T17:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "ls-2026-10-31-1700",
@@ -3010,7 +3022,9 @@
   "dur": 12.0,
   "arte": "nova",
   "quando_antes": "2026-11-01T10:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "lc-2026-11-01",
@@ -3091,7 +3105,9 @@
   "experimento": "K-B",
   "arte": "nova",
   "quando_antes": "2026-11-01T17:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "ls-2026-11-01-1700",
@@ -3209,7 +3225,9 @@
   "experimento": "K-B",
   "arte": "nova",
   "quando_antes": "2026-11-02T10:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "lc-2026-11-02",
@@ -3279,7 +3297,9 @@
   "experimento": "K-A",
   "arte": "nova",
   "quando_antes": "2026-11-02T17:00:00-03:00",
-  "experimento_grade": "P-2hist"
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
  },
  {
   "id": "pensar2026-11-02",

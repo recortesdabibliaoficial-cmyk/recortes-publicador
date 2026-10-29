@@ -154,9 +154,10 @@ def publicar_item(ig, item, base):
         if item.get('teste'):   # Reel de teste: vai só para quem não segue; o Instagram libera para todos se for bem (estratégia de 15/10/2026)
             try:
                 cid = ig.container(**base_p, trial_params=json.dumps({'graduation_strategy': 'SS_PERFORMANCE'}))
-                log('Reel de teste (só para quem não segue):', item['id'])
+                log('Reel de teste (só para quem não segue):', item['id']); item['_como_teste'] = True
             except RuntimeError as e:
                 if '2207081' not in str(e): raise
+                item['_teste_recusado'] = str(e)[:200]
                 log('Conta ainda sem seguidores para Reel de teste (Instagram pede cerca de 1.000): publico como Reel normal.')
         if cid is None: cid = ig.container(**base_p)
     elif tipo == 'STORY':
@@ -518,6 +519,9 @@ def main():
             mid = publicar_item(ig, item, base_midia())
             reg.update(status='publicado', media_id=mid, em=datetime.now(timezone.utc).isoformat(), link=ig.link(mid))
             reg.pop('ultimo_erro', None)
+            if item.get('teste'):   # anota se saiu mesmo como Reel de teste ou se a API recusou (Felipe, 28/10)
+                reg['como_teste'] = bool(item.get('_como_teste'))
+                if item.get('_teste_recusado'): reg['teste_recusado'] = item['_teste_recusado']
             log('PUBLICADO:', item['id'], mid)
         except Exception as e:
             time.sleep(30)
