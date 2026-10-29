@@ -3360,5 +3360,69 @@
   "fixo": true,
   "titulo": "Oração da noite · 02/11 (Story)",
   "miniatura": "midia/miniaturas/ora-story-noite-2026-11-02.jpg"
+ },
+ {
+  "id": "lc2-2026-10-30-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-30T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-10-30-09_01_20e3b8ad.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_02_78e56091.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_03_d44f762f.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_04_add43d85.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_05_9ba4b858.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_06_363011f7.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_07_a3e6f1b1.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_08_97d932df.jpg"
+  ],
+  "legenda": "Uma cidade fechada por muros. Deus mandou só andar em volta.\n\n🧱 Um problema que parece uma muralha na sua frente.\n⏳ Uma espera que já dura meses ou anos.\n🤐 Uma fase em que o jeito é fazer a sua parte em silêncio.\n\nJericó era cercada por muralhas. Deus mandou o povo dar uma volta na cidade por dia, durante seis dias, sem dizer nada. No sétimo dia, deram sete voltas, os sacerdotes tocaram as trombetas, o povo gritou, e a muralha caiu.\n\nO muro não caiu no primeiro dia. Caiu no sétimo. Deus sabe a hora certa.\n\n📜 O versículo (Josué 6:2)\nDeus falou com Josué antes de qualquer volta em torno da cidade. Em palavras de hoje: \"Olhe, eu já entreguei Jericó nas suas mãos.\" A intenção do texto é mostrar que a vitória já estava prometida antes do primeiro passo do povo.\n\n📖 Josué 6 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #josue #jerico",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 2 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 3 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 4 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 5 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 6 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 7 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 8 de 8: Josué e Jericó. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-30-09.jpg",
+  "titulo": "Josué e Jericó",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc2-2026-10-30-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-30T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-10-30-20_01_6b06a67d.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_02_33ca8bb7.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_03_f02d54d5.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_04_8aeff5f7.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_05_a6b0252f.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_06_3bf56bb9.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_07_59217328.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_08_b5cc98e6.jpg"
+  ],
+  "legenda": "Ele fugia do próprio irmão. Naquela noite, o céu se abriu.\n\n🏠 Longe de casa, numa cidade ou num emprego novo.\n🌙 Uma noite em que você se sente sozinho.\n💔 Uma briga em família que ainda dói.\n\nJacó enganou o pai e ficou com a bênção do irmão, Esaú. Com medo da raiva do irmão, fugiu sozinho. No caminho, dormiu no chão, com uma pedra de travesseiro, e sonhou com uma escada que ia da terra até o céu. Deus prometeu estar com ele por onde fosse.\n\nNem todo lugar solitário está vazio. Deus pode estar aí, mesmo sem você perceber.\n\n📜 O versículo (Gênesis 28:16)\nJacó disse essas palavras quando acordou do sonho. Em palavras de hoje: \"Deus estava aqui, e eu nem sabia.\" A intenção do texto é mostrar que Deus estava com Jacó mesmo na fuga, e mesmo depois do erro.\n\n📖 Gênesis 28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jaco #deusestaaqui",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 2 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 3 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 4 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 5 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 6 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 7 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 8 de 8: Jacó e a escada. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-30-20.jpg",
+  "titulo": "Jacó e a escada",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
