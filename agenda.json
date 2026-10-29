@@ -2526,7 +2526,7 @@
  {
   "id": "m-lava-pes-2026-10-29",
   "tipo": "REEL",
-  "quando": "2026-10-29T10:00:00-03:00",
+  "quando": "2026-10-29T12:00:00-03:00",
   "midia": [
    "midia/testeO/m-lava-pes-2026-10-29_oe9435eaf.mp4"
   ],
@@ -2543,7 +2543,9 @@
   "fixo": true,
   "experimento": "M",
   "arte": "nova",
-  "gancho_antigo_2": "Ninguém nunca cuidou de você? Jesus lava os seus pés."
+  "gancho_antigo_2": "Ninguém nunca cuidou de você? Jesus lava os seus pés.",
+  "quando_antes": "2026-10-29T10:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "lc-2026-10-29",
@@ -2578,7 +2580,7 @@
  {
   "id": "lh-2026-10-29-1200",
   "tipo": "REEL",
-  "quando": "2026-10-29T12:00:00-03:00",
+  "quando": "2026-10-29T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-29-1200_o551b4354.mp4"
   ],
@@ -2591,7 +2593,9 @@
   "titulo": "Jesus acalma a tempestade",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-29T12:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "vsabia2026-10-29",
@@ -2607,7 +2611,7 @@
  {
   "id": "lh-2026-10-29-1700",
   "tipo": "REEL",
-  "quando": "2026-10-29T17:00:00-03:00",
+  "quando": "2026-10-30T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-29-1700_o5d88af28.mp4"
   ],
@@ -2620,7 +2624,9 @@
   "titulo": "Pesca maravilhosa",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-29T17:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ls-2026-10-29-1700",
@@ -2637,7 +2643,7 @@
  {
   "id": "lh-2026-10-31-1000",
   "tipo": "REEL",
-  "quando": "2026-10-29T19:00:00-03:00",
+  "quando": "2026-10-30T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-31-1000_o83885d67.mp4"
   ],
@@ -2650,7 +2656,9 @@
   "titulo": "Caim e Abel",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-29T19:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ora-story-noite-2026-10-29",
@@ -2677,7 +2685,7 @@
  {
   "id": "lh-2026-10-28-1000",
   "tipo": "REEL",
-  "quando": "2026-10-30T10:00:00-03:00",
+  "quando": "2026-10-31T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-28-1000_o108b6706.mp4"
   ],
@@ -2690,7 +2698,9 @@
   "titulo": "Jesus e as crianças",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-30T10:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "lc-2026-10-30",
@@ -2725,7 +2735,7 @@
  {
   "id": "lh-2026-10-30-1200",
   "tipo": "REEL",
-  "quando": "2026-10-30T12:00:00-03:00",
+  "quando": "2026-10-31T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-30-1200_od27afd5e.mp4"
   ],
@@ -2738,12 +2748,14 @@
   "titulo": "Os três jovens na fornalha",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-30T12:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "lh-2026-10-30-1700",
   "tipo": "REEL",
-  "quando": "2026-10-30T17:00:00-03:00",
+  "quando": "2026-11-01T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-30-1700_o7940b8c2.mp4"
   ],
@@ -2756,7 +2768,9 @@
   "titulo": "Elias no monte Carmelo",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-30T17:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "pensar2026-10-30",
@@ -2784,7 +2798,7 @@
  {
   "id": "m-paes-peixes-2026-10-30",
   "tipo": "REEL",
-  "quando": "2026-10-30T19:00:00-03:00",
+  "quando": "2026-11-01T17:00:00-03:00",
   "midia": [
    "midia/testeO/m-paes-peixes-2026-10-30_o491186af.mp4"
   ],
@@ -2799,7 +2813,9 @@
   "repost_de": "lh-2026-10-28-1200",
   "gancho_antigo": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas.",
   "experimento": "M",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-30T19:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ora-story-noite-2026-10-30",
@@ -2826,7 +2842,7 @@
  {
   "id": "lh-2026-11-02-1000",
   "tipo": "REEL",
-  "quando": "2026-10-31T10:00:00-03:00",
+  "quando": "2026-11-02T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-02-1000_od637abac.mp4"
   ],
@@ -2839,7 +2855,9 @@
   "titulo": "O semeador",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-31T10:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "lc-2026-10-31",
@@ -2874,7 +2892,7 @@
  {
   "id": "lh-2026-10-31-1200",
   "tipo": "REEL",
-  "quando": "2026-10-31T12:00:00-03:00",
+  "quando": "2026-11-06T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-31-1200_o3f45c2d0.mp4"
   ],
@@ -2887,7 +2905,9 @@
   "titulo": "Abraão e Isaque",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-31T12:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "vsabia2026-10-31",
@@ -2903,7 +2923,7 @@
  {
   "id": "lh-2026-10-31-1700",
   "tipo": "REEL",
-  "quando": "2026-10-31T17:00:00-03:00",
+  "quando": "2026-11-03T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-31-1700_o1d0c6029.mp4"
   ],
@@ -2915,7 +2935,9 @@
   "miniatura": "midia/miniaturas/lh-2026-10-31-1700.jpg",
   "titulo": "Sansão",
   "dur": 12.0,
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-31T17:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ls-2026-10-31-1700",
@@ -2932,7 +2954,7 @@
  {
   "id": "lh-2026-10-31-1900",
   "tipo": "REEL",
-  "quando": "2026-10-31T19:00:00-03:00",
+  "quando": "2026-11-03T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-31-1900_o29413d36.mp4"
   ],
@@ -2945,7 +2967,9 @@
   "titulo": "Ana e Samuel",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-10-31T19:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ora-story-noite-2026-10-31",
@@ -2972,7 +2996,7 @@
  {
   "id": "lh-2026-11-01-1000",
   "tipo": "REEL",
-  "quando": "2026-11-01T10:00:00-03:00",
+  "quando": "2026-11-04T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-01-1000_o7747eda2.mp4"
   ],
@@ -2984,7 +3008,9 @@
   "miniatura": "midia/miniaturas/lh-2026-11-01-1000.jpg",
   "titulo": "José e o manto colorido",
   "dur": 12.0,
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-01T10:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "lc-2026-11-01",
@@ -3019,7 +3045,7 @@
  {
   "id": "lh-2026-11-01-1200",
   "tipo": "REEL",
-  "quando": "2026-11-01T12:00:00-03:00",
+  "quando": "2026-11-04T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-01-1200_ob0ab41a0.mp4"
   ],
@@ -3032,7 +3058,9 @@
   "titulo": "Adão e Eva no jardim",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-01T12:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "vsabia2026-11-01",
@@ -3048,7 +3076,7 @@
  {
   "id": "lh-2026-11-01-1700",
   "tipo": "REEL",
-  "quando": "2026-11-01T17:00:00-03:00",
+  "quando": "2026-11-05T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-01-1700_o585519af.mp4"
   ],
@@ -3061,7 +3089,9 @@
   "titulo": "Torre de Babel",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-01T17:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ls-2026-11-01-1700",
@@ -3078,7 +3108,7 @@
  {
   "id": "lh-2026-11-02-1900",
   "tipo": "REEL",
-  "quando": "2026-11-01T19:00:00-03:00",
+  "quando": "2026-11-05T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-02-1900_o23437bb0.mp4"
   ],
@@ -3091,7 +3121,9 @@
   "titulo": "Neemias reconstrói o muro",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-01T19:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ora-story-noite-2026-11-01",
@@ -3162,7 +3194,7 @@
  {
   "id": "lh-2026-10-29-1900",
   "tipo": "REEL",
-  "quando": "2026-11-02T10:00:00-03:00",
+  "quando": "2026-11-06T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-10-29-1900_o92c939ff.mp4"
   ],
@@ -3175,7 +3207,9 @@
   "titulo": "A viúva e o azeite",
   "dur": 12.0,
   "experimento": "K-B",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-02T10:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "lc-2026-11-02",
@@ -3210,7 +3244,7 @@
  {
   "id": "lh-2026-11-02-1200",
   "tipo": "REEL",
-  "quando": "2026-11-02T12:00:00-03:00",
+  "quando": "2026-11-02T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-02-1200_oa869e014.mp4"
   ],
@@ -3223,12 +3257,14 @@
   "titulo": "Lázaro",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-02T12:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "lh-2026-11-02-1700",
   "tipo": "REEL",
-  "quando": "2026-11-02T17:00:00-03:00",
+  "quando": "2026-11-07T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-02-1700_o5a4dff0c.mp4"
   ],
@@ -3241,7 +3277,9 @@
   "titulo": "Davi e Jônatas",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-02T17:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "pensar2026-11-02",
@@ -3269,7 +3307,7 @@
  {
   "id": "lh-2026-11-01-1900",
   "tipo": "REEL",
-  "quando": "2026-11-02T19:00:00-03:00",
+  "quando": "2026-11-07T17:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-01-1900_o28e40b75.mp4"
   ],
@@ -3282,7 +3320,9 @@
   "titulo": "Mefibosete",
   "dur": 12.0,
   "experimento": "K-A",
-  "arte": "nova"
+  "arte": "nova",
+  "quando_antes": "2026-11-02T19:00:00-03:00",
+  "experimento_grade": "P-2hist"
  },
  {
   "id": "ora-story-noite-2026-11-02",
