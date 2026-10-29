@@ -2552,32 +2552,35 @@
  {
   "id": "lc-2026-10-29",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-29T12:00:00-03:00",
+  "quando": "2026-10-29T09:00:00-03:00",
   "midia": [
-   "midia/lote27/lc-2026-10-29_01.jpg",
-   "midia/lote27/lc-2026-10-29_02.jpg",
-   "midia/lote27/lc-2026-10-29_03.jpg",
-   "midia/lote27/lc-2026-10-29_04.jpg",
-   "midia/lote27/lc-2026-10-29_05.jpg",
-   "midia/lote27/lc-2026-10-29_06.jpg",
-   "midia/lote27/lc-2026-10-29_07.jpg",
-   "midia/lote27/lc-2026-10-29_08.jpg"
+   "midia/carrossel_novo/lc-2026-10-29_01_0556cfc7.jpg",
+   "midia/carrossel_novo/lc-2026-10-29_02_e4712a2b.jpg",
+   "midia/carrossel_novo/lc-2026-10-29_03_d5b4d846.jpg",
+   "midia/carrossel_novo/lc-2026-10-29_04_9a47abcc.jpg",
+   "midia/carrossel_novo/lc-2026-10-29_05_f90c4d5e.jpg",
+   "midia/carrossel_novo/lc-2026-10-29_06_4268bc19.jpg",
+   "midia/carrossel_novo/lc-2026-10-29_07_20df05da.jpg",
+   "midia/carrossel_novo/lc-2026-10-29_08_53532399.jpg"
   ],
-  "legenda": "Sua vida virou uma tempestade?\n\n🌊 Uma notícia que ninguém esperava.\n💸 As contas que não fecham.\n🩺 Um problema de saúde na família.\n🌀 A cabeça que não para de pensar.\n💼 Uma fase difícil no trabalho.\n\nNo fim de um dia, Jesus e os discípulos atravessavam o mar de barco quando veio uma ventania muito forte, e as ondas começaram a encher o barco. Jesus dormia, e os discípulos, assustados, o acordaram. Ele se levantou, deu uma ordem ao vento e ao mar, e tudo ficou em calma.\n\nJesus não prometeu que a travessia seria sem ventania. Mas Ele estava no barco com os seus amigos, e continua perto de quem pede ajuda.\n\n📜 O versículo (Marcos 4:39)\nMarcos conta o que Jesus fez ao acordar no meio da tempestade: falou com o vento e com o mar, e eles obedeceram. Em palavras de hoje: \"Calem-se, fiquem em paz!\" A intenção do texto é mostrar que Jesus tem autoridade até sobre aquilo que nos dá mais medo, e por isso os discípulos ficaram tão impressionados.\n\nSe a ansiedade ou o medo estiverem pesados demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Marcos 4:35-41 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #tempestade",
+  "legenda": "O barco afundava. E Jesus dormia.\n\n🌊 Uma notícia que ninguém esperava.\n💸 As contas que não fecham.\n🩺 Um problema de saúde na família.\n🌀 A cabeça que não para de pensar.\n💼 Uma fase difícil no trabalho.\n\nNo fim de um dia, Jesus e os discípulos atravessavam o mar de barco quando veio uma ventania muito forte, e as ondas começaram a encher o barco. Jesus dormia, e os discípulos, assustados, o acordaram. Ele se levantou, deu uma ordem ao vento e ao mar, e tudo ficou em calma.\n\nJesus não prometeu que a travessia seria sem ventania. Mas Ele estava no barco com os seus amigos, e continua perto de quem pede ajuda.\n\n📜 O versículo (Marcos 4:39)\nMarcos conta o que Jesus fez ao acordar no meio da tempestade: falou com o vento e com o mar, e eles obedeceram. Em palavras de hoje: \"Calem-se, fiquem em paz!\" A intenção do texto é mostrar que Jesus tem autoridade até sobre aquilo que nos dá mais medo, e por isso os discípulos ficaram tão impressionados.\n\nSe a ansiedade ou o medo estiverem pesados demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Marcos 4:35-41 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #tempestade",
   "cta": null,
   "alt": [
-   "Slide 1 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
-   "Slide 2 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
-   "Slide 3 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
-   "Slide 4 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
-   "Slide 5 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
-   "Slide 6 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
-   "Slide 7 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado.",
-   "Slide 8 de 8 da história: Jesus acalma a tempestade. Ilustração em papel recortado."
+   "Slide 1 de 8: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 2 de 8: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 3 de 8: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 4 de 8: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 5 de 8: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 6 de 8: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 7 de 8: Jesus acalma a tempestade. Ilustração em papel recortado.",
+   "Slide 8 de 8: Jesus acalma a tempestade. Ilustração em papel recortado."
   ],
   "miniatura": "midia/miniaturas/lc-2026-10-29.jpg",
   "titulo": "Jesus acalma a tempestade",
-  "fixo": true
+  "fixo": true,
+  "quando_antes": "2026-10-29T12:00:00-03:00",
+  "formato": "carrossel_novo",
+  "legenda_antiga_1": "Sua vida virou uma tempestade?"
  },
  {
   "id": "lh-2026-10-29-1200",
@@ -2711,32 +2714,35 @@
  {
   "id": "lc-2026-10-30",
   "tipo": "CARROSSEL",
-  "quando": "2026-10-30T12:00:00-03:00",
+  "quando": "2026-10-29T20:00:00-03:00",
   "midia": [
-   "midia/lote27/lc-2026-10-30_01.jpg",
-   "midia/lote27/lc-2026-10-30_02.jpg",
-   "midia/lote27/lc-2026-10-30_03.jpg",
-   "midia/lote27/lc-2026-10-30_04.jpg",
-   "midia/lote27/lc-2026-10-30_05.jpg",
-   "midia/lote27/lc-2026-10-30_06.jpg",
-   "midia/lote27/lc-2026-10-30_07.jpg",
-   "midia/lote27/lc-2026-10-30_08.jpg"
+   "midia/carrossel_novo/lc-2026-10-30_01_c3243376.jpg",
+   "midia/carrossel_novo/lc-2026-10-30_02_885ee776.jpg",
+   "midia/carrossel_novo/lc-2026-10-30_03_c7d5ddc3.jpg",
+   "midia/carrossel_novo/lc-2026-10-30_04_a9d45edc.jpg",
+   "midia/carrossel_novo/lc-2026-10-30_05_af311681.jpg",
+   "midia/carrossel_novo/lc-2026-10-30_06_c47ba6b9.jpg",
+   "midia/carrossel_novo/lc-2026-10-30_07_3f1d6c8b.jpg",
+   "midia/carrossel_novo/lc-2026-10-30_08_3ad27b5d.jpg"
   ],
-  "legenda": "Está passando pelo fogo?\n\n🔥 Uma pressão grande para fazer o que você sabe que é errado.\n🏢 Um trabalho em que é difícil manter os seus valores.\n😔 Uma fase em que parece que tudo está contra você.\n🕯️ Uma decisão difícil que ninguém entende.\n\nO rei da Babilônia mandou todos se ajoelharem diante de uma estátua de ouro. Três jovens, Sadraque, Mesaque e Abednego, não se ajoelharam. Foram jogados numa fornalha muito quente, mas o rei viu quatro homens soltos andando no meio do fogo. Os três saíram sem queimadura.\n\nDeus não prometeu que o fogo nunca viria. Mas, no meio dele, os três não estavam sozinhos.\n\n📜 O versículo (Daniel 3:18)\nOs três jovens disseram essas palavras ao rei, antes de serem jogados na fornalha. Em palavras de hoje: \"Mesmo que Deus não nos livre, saiba, rei, que não vamos adorar a sua estátua.\" A intenção do texto é mostrar uma fé que não depende do resultado: eles confiaram em Deus com ou sem livramento.\n\nSe a pressão estiver pesada demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Daniel 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #daniel #coragem",
+  "legenda": "Jogaram três no fogo. O rei viu quatro.\n\n🔥 Uma pressão grande para fazer o que você sabe que é errado.\n🏢 Um trabalho em que é difícil manter os seus valores.\n😔 Uma fase em que parece que tudo está contra você.\n🕯️ Uma decisão difícil que ninguém entende.\n\nO rei da Babilônia mandou todos se ajoelharem diante de uma estátua de ouro. Três jovens, Sadraque, Mesaque e Abednego, não se ajoelharam. Foram jogados numa fornalha muito quente, mas o rei viu quatro homens soltos andando no meio do fogo. Os três saíram sem queimadura.\n\nDeus não prometeu que o fogo nunca viria. Mas, no meio dele, os três não estavam sozinhos.\n\n📜 O versículo (Daniel 3:18)\nOs três jovens disseram essas palavras ao rei, antes de serem jogados na fornalha. Em palavras de hoje: \"Mesmo que Deus não nos livre, saiba, rei, que não vamos adorar a sua estátua.\" A intenção do texto é mostrar uma fé que não depende do resultado: eles confiaram em Deus com ou sem livramento.\n\nSe a pressão estiver pesada demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Daniel 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #daniel #coragem",
   "cta": null,
   "alt": [
-   "Slide 1 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
-   "Slide 2 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
-   "Slide 3 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
-   "Slide 4 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
-   "Slide 5 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
-   "Slide 6 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
-   "Slide 7 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado.",
-   "Slide 8 de 8 da história: Três jovens na fornalha. Ilustração em papel recortado."
+   "Slide 1 de 8: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 2 de 8: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 3 de 8: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 4 de 8: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 5 de 8: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 6 de 8: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 7 de 8: Três jovens na fornalha. Ilustração em papel recortado.",
+   "Slide 8 de 8: Três jovens na fornalha. Ilustração em papel recortado."
   ],
   "miniatura": "midia/miniaturas/lc-2026-10-30.jpg",
   "titulo": "Três jovens na fornalha",
-  "fixo": true
+  "fixo": true,
+  "quando_antes": "2026-10-30T12:00:00-03:00",
+  "formato": "carrossel_novo",
+  "legenda_antiga_1": "Está passando pelo fogo?"
  },
  {
   "id": "lh-2026-10-30-1200",
