@@ -15621,7 +15621,7 @@
    },
    "repost04": {
     "reach": 5,
-    "views": 7,
+    "views": 8,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -15654,7 +15654,7 @@
     "profile_visits": 0
    },
    "htexto14-2026-10-24": {
-    "reach": 3370,
+    "reach": 3376,
     "views": 8076,
     "likes": 232,
     "comments": 47,
@@ -16001,7 +16001,7 @@
    },
    "htexto12-2026-10-26": {
     "reach": 1485,
-    "views": 3045,
+    "views": 3046,
     "likes": 119,
     "comments": 8,
     "saved": 13,
@@ -16199,16 +16199,16 @@
     "ig_reels_video_view_total_time": 1543902
    },
    "lh-2026-10-27-1900": {
-    "reach": 133,
-    "views": 253,
+    "reach": 134,
+    "views": 255,
     "likes": 4,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 4,
-    "ig_reels_avg_watch_time": 15708,
-    "reels_skip_rate": 48.9,
-    "ig_reels_video_view_total_time": 2199166
+    "ig_reels_avg_watch_time": 15747,
+    "reels_skip_rate": 48.6,
+    "ig_reels_video_view_total_time": 2220446
    },
    "ora-story-noite-2026-10-27": {
     "reach": 0,
@@ -16234,16 +16234,16 @@
     }
    },
    "lh-2026-10-30-1000": {
-    "reach": 430,
-    "views": 928,
+    "reach": 434,
+    "views": 935,
     "likes": 22,
     "comments": 0,
     "saved": 2,
     "shares": 2,
     "total_interactions": 26,
-    "ig_reels_avg_watch_time": 17436,
-    "reels_skip_rate": 49.7,
-    "ig_reels_video_view_total_time": 7968660
+    "ig_reels_avg_watch_time": 17474,
+    "reels_skip_rate": 49.5,
+    "ig_reels_video_view_total_time": 8038193
    },
    "post20": {
     "reach": 4,
@@ -16297,16 +16297,16 @@
     }
    },
    "lh-2026-10-28-1700": {
-    "reach": 128,
+    "reach": 129,
     "views": 205,
     "likes": 9,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 9,
-    "ig_reels_avg_watch_time": 9739,
-    "reels_skip_rate": 58.5,
-    "ig_reels_video_view_total_time": 1324634
+    "ig_reels_avg_watch_time": 9680,
+    "reels_skip_rate": 59.2,
+    "ig_reels_video_view_total_time": 1326171
    },
    "lh-2026-10-28-1900": {
     "reach": 121,
@@ -16333,13 +16333,16 @@
     }
    },
    "ora-story-manha-2026-10-29": {
-    "reach": 0,
-    "views": 4,
+    "reach": 5,
+    "views": 5,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
-    "profile_visits": 0
+    "profile_visits": 0,
+    "nav": {
+     "tap_forward": 5
+    }
    },
    "lc-2026-10-29": {
     "reach": 1,
@@ -16353,29 +16356,33 @@
     "profile_visits": 0
    },
    "vsabia2026-10-29": {
-    "reach": 0,
-    "views": 4,
+    "reach": 5,
+    "views": 5,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
-    "profile_visits": 0
+    "profile_visits": 0,
+    "nav": {
+     "tap_exit": 1,
+     "tap_forward": 4
+    }
    },
    "m-lava-pes-2026-10-29": {
-    "reach": 1229,
-    "views": 2462,
-    "likes": 85,
+    "reach": 1307,
+    "views": 2673,
+    "likes": 92,
     "comments": 6,
-    "saved": 2,
+    "saved": 3,
     "shares": 2,
-    "total_interactions": 96,
-    "ig_reels_avg_watch_time": 15274,
-    "reels_skip_rate": 44.6,
-    "ig_reels_video_view_total_time": 19474666
+    "total_interactions": 104,
+    "ig_reels_avg_watch_time": 15207,
+    "reels_skip_rate": 42.9,
+    "ig_reels_video_view_total_time": 20849874
    },
    "ls-2026-10-29-1700": {
     "reach": 0,
-    "views": 4,
+    "views": 5,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
@@ -16383,18 +16390,18 @@
     "profile_visits": 0
    },
    "lh-2026-10-29-1200": {
-    "reach": 116,
-    "views": 151,
+    "reach": 118,
+    "views": 153,
     "likes": 5,
     "comments": 0,
     "saved": 1,
     "shares": 0,
     "total_interactions": 6,
-    "ig_reels_avg_watch_time": 6246,
-    "reels_skip_rate": 64.4,
-    "ig_reels_video_view_total_time": 749555
+    "ig_reels_avg_watch_time": 6205,
+    "reels_skip_rate": 64.2,
+    "ig_reels_video_view_total_time": 763327
    }
   },
-  "em": "2026-10-29T18:58-03:00"
+  "em": "2026-10-29T19:53-03:00"
  }
 }
