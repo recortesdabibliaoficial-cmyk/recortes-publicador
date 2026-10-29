@@ -34,7 +34,7 @@
   "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
   "fora_motivo": "17991327594019598/insights: {'message': \"Unsupported get request. Object with ID '17991327594019598' does not exist, cannot be loaded due to missing p"
  },
- "_comentarios_em": "2026-10-29T10:21:44.768153+00:00",
+ "_comentarios_em": "2026-10-29T12:27:54.519621+00:00",
  "mc-carrossel04": {
   "status": "publicado",
   "media_id": "18117935720074552",
@@ -722,14 +722,16 @@
   "status": "publicado",
   "media_id": "18140800165624773",
   "em": "2026-10-22T17:01:59.185996+00:00",
-  "link": "https://www.instagram.com/reel/DezeKcrgdKv/"
+  "link": "https://www.instagram.com/reel/DezeKcrgdKv/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "vmsg2026-10-22": {
   "tentativas": 0,
   "status": "publicado",
   "media_id": "18114767198581764",
   "em": "2026-10-22T18:02:04.390320+00:00",
-  "link": "https://www.instagram.com/reel/DezlCuZkSby/"
+  "link": "https://www.instagram.com/reel/DezlCuZkSby/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "htexto18-2026-10-22": {
   "tentativas": 0,
@@ -779,7 +781,8 @@
   "status": "publicado",
   "media_id": "18113163113172398",
   "em": "2026-10-23T11:04:06.327573+00:00",
-  "link": "https://www.instagram.com/reel/De1Z7mUDSlT/"
+  "link": "https://www.instagram.com/reel/De1Z7mUDSlT/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "post15": {
   "tentativas": 0,
@@ -814,7 +817,8 @@
   "status": "publicado",
   "media_id": "18151604764544018",
   "em": "2026-10-23T18:01:24.504974+00:00",
-  "link": "https://www.instagram.com/reel/De2Jwv2kdq0/"
+  "link": "https://www.instagram.com/reel/De2Jwv2kdq0/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "htexto03-2026-10-23": {
   "tentativas": 0,
@@ -842,7 +846,8 @@
   "status": "publicado",
   "media_id": "18098751731423550",
   "em": "2026-10-24T00:01:50.994722+00:00",
-  "link": "https://www.instagram.com/reel/De2zAvBAimW/"
+  "link": "https://www.instagram.com/reel/De2zAvBAimW/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "repost04": {
   "tentativas": 0,
@@ -863,7 +868,8 @@
   "status": "publicado",
   "media_id": "18048149462821682",
   "em": "2026-10-24T11:02:30.620402+00:00",
-  "link": "https://www.instagram.com/reel/De3-nkcCngg/"
+  "link": "https://www.instagram.com/reel/De3-nkcCngg/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "post16": {
   "tentativas": 0,
@@ -898,7 +904,8 @@
   "status": "publicado",
   "media_id": "18113312702148886",
   "em": "2026-10-24T18:02:19.590554+00:00",
-  "link": "https://www.instagram.com/reel/De4uqPADK2a/"
+  "link": "https://www.instagram.com/reel/De4uqPADK2a/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "htexto17-2026-10-24": {
   "tentativas": 0,
@@ -926,7 +933,8 @@
   "status": "publicado",
   "media_id": "18133140622802659",
   "em": "2026-10-25T00:01:40.621865+00:00",
-  "link": "https://www.instagram.com/reel/De5XycijByu/"
+  "link": "https://www.instagram.com/reel/De5XycijByu/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "repost05": {
   "tentativas": 0,
@@ -947,7 +955,8 @@
   "status": "publicado",
   "media_id": "18424727902155613",
   "em": "2026-10-25T11:03:07.349580+00:00",
-  "link": "https://www.instagram.com/reel/De6jfJLE8jt/"
+  "link": "https://www.instagram.com/reel/De6jfJLE8jt/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "post17": {
   "tentativas": 0,
@@ -982,7 +991,8 @@
   "status": "publicado",
   "media_id": "18127895414511354",
   "em": "2026-10-25T18:02:11.381356+00:00",
-  "link": "https://www.instagram.com/reel/De7TciqD2QH/"
+  "link": "https://www.instagram.com/reel/De7TciqD2QH/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "htexto19-2026-10-25": {
   "tentativas": 0,
@@ -1017,7 +1027,8 @@
   "status": "publicado",
   "media_id": "17908618224331290",
   "em": "2026-10-26T00:02:37.249876+00:00",
-  "link": "https://www.instagram.com/reel/De78l9XEaqB/"
+  "link": "https://www.instagram.com/reel/De78l9XEaqB/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "repost06": {
   "tentativas": 0,
@@ -1038,7 +1049,8 @@
   "status": "publicado",
   "media_id": "18091098494250021",
   "em": "2026-10-26T11:03:13.653592+00:00",
-  "link": "https://www.instagram.com/reel/De9ISx3DC1e/"
+  "link": "https://www.instagram.com/reel/De9ISx3DC1e/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "post18": {
   "tentativas": 0,
@@ -1073,7 +1085,8 @@
   "status": "publicado",
   "media_id": "18340857568258189",
   "em": "2026-10-26T18:01:40.180149+00:00",
-  "link": "https://www.instagram.com/reel/De94NNWjiN2/"
+  "link": "https://www.instagram.com/reel/De94NNWjiN2/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "htexto12-2026-10-26": {
   "tentativas": 0,
@@ -1094,7 +1107,8 @@
   "status": "publicado",
   "media_id": "17950166643300057",
   "em": "2026-10-26T22:02:09.673353+00:00",
-  "link": "https://www.instagram.com/reel/De-Ts3TFZyx/"
+  "link": "https://www.instagram.com/reel/De-Ts3TFZyx/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "ora-story-noite-2026-10-26": {
   "tentativas": 0,
@@ -1185,7 +1199,8 @@
   "status": "publicado",
   "media_id": "17988782682111368",
   "em": "2026-10-27T18:04:15.021678+00:00",
-  "link": "https://www.instagram.com/reel/DfAdRRqCpiH/"
+  "link": "https://www.instagram.com/reel/DfAdRRqCpiH/",
+  "fora_do_ar_em": "2026-10-29T12:27:54.519621+00:00"
  },
  "lh-2026-10-27-1700": {
   "tentativas": 0,
