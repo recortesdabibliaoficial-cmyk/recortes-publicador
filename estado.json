@@ -1328,7 +1328,9 @@
   "status": "publicado",
   "media_id": "18105512360568771",
   "em": "2026-10-29T20:03:10.079313+00:00",
-  "link": "https://www.instagram.com/reel/DfF0dXhk0Ku/"
+  "link": "https://www.instagram.com/reel/DfF0dXhk0Ku/",
+  "fora_do_ar_em": "2026-10-29T23:51:05.104599+00:00",
+  "fora_motivo": "18105512360568771/insights: {'message': \"Unsupported get request. Object with ID '18105512360568771' does not exist, cannot be loaded due to missing p"
  },
  "ls-2026-10-29-1700": {
   "tentativas": 0,
