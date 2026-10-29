@@ -15198,6 +15198,17 @@
     "ig_reels_avg_watch_time": 11777,
     "t": "2026-10-29T12:02+00:00",
     "h": 68.0
+   },
+   {
+    "reach": 130,
+    "views": 214,
+    "likes": 5,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 64.9,
+    "ig_reels_avg_watch_time": 11777,
+    "t": "2026-10-29T15:02+00:00",
+    "h": 71.0
    }
   ]
  },
@@ -19801,6 +19812,22 @@
     "ig_reels_avg_watch_time": 8568,
     "t": "2026-10-29T14:21+00:00",
     "h": 16.32
+   }
+  ]
+ },
+ "m-lava-pes-2026-10-29": {
+  "publicado": "2026-10-29T15:02:23.194295+00:00",
+  "pontos": [
+   {
+    "reach": 0,
+    "views": 0,
+    "likes": 0,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 0,
+    "ig_reels_avg_watch_time": 0,
+    "t": "2026-10-29T15:02+00:00",
+    "h": 0.01
    }
   ]
  }
