@@ -2876,36 +2876,6 @@
   "experimento_teste": "T-12h"
  },
  {
-  "id": "lc-2026-10-31",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-31T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lc-2026-10-31_01.jpg",
-   "midia/lote27/lc-2026-10-31_02.jpg",
-   "midia/lote27/lc-2026-10-31_03.jpg",
-   "midia/lote27/lc-2026-10-31_04.jpg",
-   "midia/lote27/lc-2026-10-31_05.jpg",
-   "midia/lote27/lc-2026-10-31_06.jpg",
-   "midia/lote27/lc-2026-10-31_07.jpg",
-   "midia/lote27/lc-2026-10-31_08.jpg"
-  ],
-  "legenda": "Pai, onde está o cordeiro?\n\n🚪 Dar um passo sem saber como vai terminar.\n💼 Mudar de emprego ou de cidade.\n🩺 Esperar um resultado que demora.\n🧭 Tomar uma decisão sem ver a saída.\n\nDeus pôs Abraão à prova e pediu que ele fosse a um monte com Isaque, o filho que tanto amava. No caminho, Isaque perguntou onde estava o cordeiro, e Abraão respondeu que Deus providenciaria. No alto do monte, um anjo de Deus o impediu de fazer qualquer mal ao menino. Abraão viu um carneiro preso num arbusto e o ofereceu no lugar de Isaque.\n\nNem sempre a gente vê a saída antes de andar. Abraão confiou, e Deus providenciou.\n\n📜 O versículo (Gênesis 22:14)\nDepois do carneiro, Abraão deu um nome ao lugar: \"O Senhor proverá\". Em palavras de hoje: Deus enxerga a necessidade e cuida dela. A intenção do texto é lembrar que Deus foi fiel nesse monte, e que essa fidelidade ficou marcada no nome do lugar.\n\n📖 Gênesis 22:1-14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #abraao #confianca",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
-   "Slide 2 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
-   "Slide 3 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
-   "Slide 4 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
-   "Slide 5 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
-   "Slide 6 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
-   "Slide 7 de 8 da história: Abraão e Isaque. Ilustração em papel recortado.",
-   "Slide 8 de 8 da história: Abraão e Isaque. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc-2026-10-31.jpg",
-  "titulo": "Abraão e Isaque",
-  "fixo": true
- },
- {
   "id": "lh-2026-10-31-1200",
   "tipo": "REEL",
   "quando": "2026-11-06T17:00:00-03:00",
@@ -3031,36 +3001,6 @@
   "experimento_grade": "P-2hist",
   "teste": true,
   "experimento_teste": "T-12h"
- },
- {
-  "id": "lc-2026-11-01",
-  "tipo": "CARROSSEL",
-  "quando": "2026-11-01T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lc-2026-11-01_01.jpg",
-   "midia/lote27/lc-2026-11-01_02.jpg",
-   "midia/lote27/lc-2026-11-01_03.jpg",
-   "midia/lote27/lc-2026-11-01_04.jpg",
-   "midia/lote27/lc-2026-11-01_05.jpg",
-   "midia/lote27/lc-2026-11-01_06.jpg",
-   "midia/lote27/lc-2026-11-01_07.jpg",
-   "midia/lote27/lc-2026-11-01_08.jpg"
-  ],
-  "legenda": "O que Deus fez quando eles se esconderam?\n\n🙈 Esconder um erro de quem a gente ama.\n😞 Sentir vergonha de algo que fez.\n📵 Evitar uma conversa difícil.\n🌑 Se afastar de Deus depois de errar.\n\nDeus plantou um jardim lindo e pôs ali Adão e Eva. Eles comeram do fruto que Deus tinha proibido, tiveram medo e se esconderam entre as árvores. Então ouviram a voz de Deus andando no jardim: \"Onde você está?\" Antes de eles saírem de lá, Deus mesmo fez roupas de pele e os vestiu.\n\nDeus não fingiu que o erro não existiu. Mas foi atrás deles e cuidou deles. Quando a gente se esconde, Deus continua chamando.\n\n📜 O versículo (Gênesis 3:9)\nDeus fez essa pergunta logo depois de Adão e Eva se esconderem. Em palavras de hoje: \"Onde você está?\" Deus sabia onde eles estavam; a intenção da pergunta era ir ao encontro deles e abrir uma conversa, em vez de deixá-los escondidos com o medo e a vergonha.\n\n📖 Gênesis 3 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #adaoeeva #graca",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
-   "Slide 2 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
-   "Slide 3 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
-   "Slide 4 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
-   "Slide 5 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
-   "Slide 6 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
-   "Slide 7 de 8 da história: Adão e Eva. Ilustração em papel recortado.",
-   "Slide 8 de 8 da história: Adão e Eva. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc-2026-11-01.jpg",
-  "titulo": "Adão e Eva",
-  "fixo": true
  },
  {
   "id": "lh-2026-11-01-1200",
@@ -3236,36 +3176,6 @@
   "experimento_teste": "T-12h"
  },
  {
-  "id": "lc-2026-11-02",
-  "tipo": "CARROSSEL",
-  "quando": "2026-11-02T12:00:00-03:00",
-  "midia": [
-   "midia/lote27/lc-2026-11-02_01.jpg",
-   "midia/lote27/lc-2026-11-02_02.jpg",
-   "midia/lote27/lc-2026-11-02_03.jpg",
-   "midia/lote27/lc-2026-11-02_04.jpg",
-   "midia/lote27/lc-2026-11-02_05.jpg",
-   "midia/lote27/lc-2026-11-02_06.jpg",
-   "midia/lote27/lc-2026-11-02_07.jpg",
-   "midia/lote27/lc-2026-11-02_08.jpg"
-  ],
-  "legenda": "Você já perdeu alguém que amava?\n\n🕯️ A saudade que aperta de repente.\n🏠 A casa que ficou silenciosa.\n📱 A vontade de ligar para quem não está mais aqui.\n🌧️ O dia em que tudo parece sem cor.\n\nLázaro, amigo de Jesus, ficou doente e morreu. Quando Jesus chegou, ele já estava havia quatro dias no túmulo. Marta disse que, se Jesus estivesse lá, o irmão não teria morrido. Jesus respondeu que Ele é a ressurreição e a vida. Ao ver Maria e o povo chorando, Jesus chorou também. Depois mandou tirar a pedra e chamou: \"Lázaro, saia!\" E Lázaro saiu vivo.\n\nJesus não despreza a sua dor. Ele chorou junto, e continua perto de quem sofre.\n\n📜 O versículo (João 11:25)\nJesus disse essas palavras a Marta, enquanto ela chorava a morte do irmão. Em palavras de hoje: \"Eu sou a ressurreição e a vida; quem acredita em mim vai viver, mesmo que morra.\" A intenção do texto é oferecer esperança a quem sofre uma perda: a morte não é a última palavra para quem confia em Jesus.\n\nSe o luto estiver pesado demais, não carregue esse peso por conta própria: procura também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 João 11:1-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #lazaro",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8 da história: Lázaro. Ilustração em papel recortado.",
-   "Slide 2 de 8 da história: Lázaro. Ilustração em papel recortado.",
-   "Slide 3 de 8 da história: Lázaro. Ilustração em papel recortado.",
-   "Slide 4 de 8 da história: Lázaro. Ilustração em papel recortado.",
-   "Slide 5 de 8 da história: Lázaro. Ilustração em papel recortado.",
-   "Slide 6 de 8 da história: Lázaro. Ilustração em papel recortado.",
-   "Slide 7 de 8 da história: Lázaro. Ilustração em papel recortado.",
-   "Slide 8 de 8 da história: Lázaro. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc-2026-11-02.jpg",
-  "titulo": "Lázaro",
-  "fixo": true
- },
- {
   "id": "lh-2026-11-02-1200",
   "tipo": "REEL",
   "quando": "2026-11-02T17:00:00-03:00",
@@ -3421,6 +3331,198 @@
   ],
   "miniatura": "midia/miniaturas/lc2-2026-10-30-20.jpg",
   "titulo": "Jacó e a escada",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc2-2026-10-31-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-31T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-10-31-09_01_46b40a46.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_02_5568dda5.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_03_34d2e2f2.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_04_cf74adb0.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_05_1e41fb9c.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_06_c1dd4842.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_07_781f468a.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_08_fa4f776a.jpg"
+  ],
+  "legenda": "Ele esperava um milagre grande. O profeta mandou só um recado.\n\n🙏 Uma oração que você esperava ver respondida de um jeito grandioso.\n🪞 Um conselho simples que o orgulho não deixa seguir.\n🩹 Uma ferida que já dura tempo demais.\n\nNaamã era chefe do exército da Síria e tinha lepra. O profeta Eliseu nem saiu de casa: mandou dizer que ele se lavasse sete vezes no rio Jordão. Naamã ficou furioso, mas os servos o convenceram. Ele mergulhou sete vezes, e a pele ficou limpa como a de um menino.\n\nÀs vezes, o que Deus pede é simples. O difícil é aceitar.\n\n📜 O versículo (2 Reis 5:13)\nSão as palavras dos servos de Naamã. Em palavras de hoje: \"Se o profeta tivesse pedido algo difícil, o senhor faria. Por que não fazer algo tão simples?\" A intenção do texto é mostrar que a cura veio quando Naamã deixou o orgulho de lado e obedeceu.\n\n📖 2 Reis 5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #naama #eliseu",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 2 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 3 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 4 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 5 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 6 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 7 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 8 de 8: Naamã curado. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-31-09.jpg",
+  "titulo": "Naamã curado",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc2-2026-10-31-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-31T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-10-31-20_01_f5241df8.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_02_ed317485.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_03_4ca3b9ac.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_04_8e0d9c5a.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_05_f4b80959.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_06_d2f90e8b.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_07_536c748b.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_08_fa7da48f.jpg"
+  ],
+  "legenda": "O credor vinha levar os filhos dela. Ela só tinha um pote de azeite.\n\n💸 Contas que não fecham no fim do mês.\n🏠 A sensação de que não tem nada em casa para começar.\n👨‍👩‍👦 O medo de não conseguir cuidar de quem você ama.\n\nO marido de uma viúva morreu devendo, e o credor ia levar os dois filhos dela como escravos. O profeta Eliseu perguntou o que ela tinha em casa: só um pote de azeite. Ela pediu vasilhas vazias aos vizinhos, e o azeite só parou quando as vasilhas acabaram. Vendeu tudo, pagou a dívida e ainda sobrou para viver.\n\nDeus começou pelo pouco que havia na casa dela. Ele pode começar pelo seu.\n\n📜 O versículo (2 Reis 4:7)\nEliseu disse essas palavras depois que as vasilhas se encheram. Em palavras de hoje: \"Vá vender o azeite e pagar a dívida. Você e seus filhos vão viver do que sobrar.\" A intenção do texto é mostrar que Deus cuidou da família inteira: pagou o que devia e ainda deixou sustento.\n\n📖 2 Reis 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #eliseu #provisao",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 2 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 3 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 4 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 5 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 6 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 7 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 8 de 8: A viúva e o azeite. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-31-20.jpg",
+  "titulo": "A viúva e o azeite",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc2-2026-11-01-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-01T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-01-09_01_302fd6a9.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_02_834b2326.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_03_8b1f938c.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_04_3779ac47.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_05_3c805675.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_06_b8613334.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_07_98182652.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_08_2a2d30cc.jpg"
+  ],
+  "legenda": "Na frente, o mar. Atrás, o exército do faraó.\n\n🌊 Um problema na frente e outro atrás.\n😰 Uma situação em que todas as portas parecem fechadas.\n🕊️ Uma noite em que só resta esperar.\n\nO povo de Israel tinha acabado de sair do Egito quando o faraó mandou o exército atrás deles. Encurralado na beira do mar, o povo teve medo. Moisés estendeu a mão, Deus mandou um vento forte a noite inteira, e o mar se abriu. O povo atravessou pelo chão seco.\n\nQuando parece não ter saída, Deus abre caminho.\n\n📜 O versículo (Êxodo 14:14)\nMoisés disse essas palavras ao povo, na beira do mar. Em palavras de hoje: \"O Senhor vai lutar por vocês. Fiquem calmos.\" A intenção do texto é mostrar que a batalha era de Deus, e não do povo.\n\n📖 Êxodo 14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #moises #marvermelho",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 2 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 3 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 4 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 5 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 6 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 7 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 8 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-01-09.jpg",
+  "titulo": "Moisés e o mar Vermelho",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc2-2026-11-01-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-01T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-01-20_01_a02aba17.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_02_a4bb4e2f.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_03_e7fc6f92.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_04_4f8e4dbb.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_05_aa9aa5e0.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_06_5f714aa1.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_07_85a7724a.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_08_6109de4a.jpg"
+  ],
+  "legenda": "Mandaram o cego ficar quieto. Ele gritou ainda mais.\n\n🔇 A sensação de que ninguém te escuta.\n🙌 Um pedido que você já fez muitas vezes.\n🚶 Gente dizendo que não adianta insistir.\n\nBartimeu era cego e pedia esmola na saída de Jericó. Quando soube que Jesus estava passando, começou a gritar. Muitos mandaram ele ficar quieto, e ele gritou mais alto. Jesus parou e mandou chamá-lo. Bartimeu jogou a capa, foi até Jesus e pediu para ver. Na mesma hora, passou a ver.\n\nContinue chamando. Jesus escuta.\n\n📜 O versículo (Marcos 10:49)\nForam as palavras das pessoas para Bartimeu, quando Jesus mandou chamá-lo. Em palavras de hoje: \"Coragem! Levante-se, ele está te chamando.\" A intenção do texto é mostrar que Jesus parou por alguém que todos queriam calar.\n\n📖 Marcos 10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #bartimeu",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 2 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 3 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 4 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 5 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 6 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 7 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 8 de 8: Bartimeu. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-01-20.jpg",
+  "titulo": "Bartimeu",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc2-2026-11-02-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-02T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-02-09_01_4e8b4a54.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_02_98a9627b.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_03_4f65b93c.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_04_2c371d10.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_05_7fc130fd.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_06_e4e8999c.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_07_36f95ca3.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_08_cb1d179d.jpg"
+  ],
+  "legenda": "Eram 450 profetas contra um. O desafio: fogo do céu.\n\n🧍 Ser o único a pensar diferente num lugar.\n🔥 Uma fé que parece pequena perto de tanta gente contra.\n⛰️ Um desafio que parece grande demais.\n\nNo monte Carmelo, Elias ficou sozinho contra 450 profetas do falso deus Baal. O Deus que mandasse fogo sobre o altar seria o verdadeiro. Os profetas de Baal gritaram o dia inteiro, e nada aconteceu. Elias mandou molhar o altar com doze jarros de água, orou, e caiu fogo de Deus.\n\nMesmo quando parece que só você ficou de pé, o Senhor continua sendo Deus.\n\n📜 O versículo (1 Reis 18:39)\nÉ a reação do povo que assistia, depois do fogo. Em palavras de hoje: \"Todos se ajoelharam e disseram: o Senhor é Deus!\" A intenção do texto é mostrar que Deus respondeu na frente de todos.\n\n📖 1 Reis 18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #carmelo",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 2 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 3 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 4 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 5 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 6 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 7 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 8 de 8: Elias no monte Carmelo. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-02-09.jpg",
+  "titulo": "Elias no monte Carmelo",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc2-2026-11-02-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-02T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-02-20_01_6a3dca0a.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_02_da23db53.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_03_c07a4b74.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_04_367d43a7.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_05_10c587fe.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_06_a61456f4.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_07_16d2c141.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_08_a74d95da.jpg"
+  ],
+  "legenda": "Num só dia, Jó perdeu quase tudo. O que ele fez depois?\n\n🖤 Uma perda que mudou a sua vida.\n🤒 Uma doença ou dor que não passa.\n❓ Perguntas para Deus que ainda não têm resposta.\n\nJó era um homem bom, rico e pai de dez filhos. Num só dia, perdeu os animais, os empregados e os filhos. Depois, ficou com feridas da cabeça aos pés. Chorou, reclamou e fez perguntas, mas nunca deixou de falar com Deus. No fim, Deus falou com ele e devolveu o dobro do que tinha.\n\nNa dor, Deus não vai embora. Ele fica perto de você.\n\n📜 O versículo (Jó 42:5)\nJó disse essas palavras a Deus, no fim da história. Em palavras de hoje: \"Antes eu só tinha ouvido falar de ti. Agora eu te vejo.\" A intenção do texto é mostrar que, depois da dor, Jó conheceu Deus de perto.\n\nSe a dor estiver pesada demais, procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Jó 1, 2 e 42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jo #esperanca",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 2 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 3 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 4 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 5 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 6 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 7 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 8 de 8: Jó. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-02-20.jpg",
+  "titulo": "Jó",
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
