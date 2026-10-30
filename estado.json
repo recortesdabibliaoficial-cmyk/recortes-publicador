@@ -34,7 +34,7 @@
   "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
   "fora_motivo": "17991327594019598/insights: {'message': \"Unsupported get request. Object with ID '17991327594019598' does not exist, cannot be loaded due to missing p"
  },
- "_comentarios_em": "2026-10-30T08:56:46.479559+00:00",
+ "_comentarios_em": "2026-10-30T11:01:38.110086+00:00",
  "mc-carrossel04": {
   "status": "publicado",
   "media_id": "18117935720074552",
@@ -1352,5 +1352,12 @@
   "media_id": "17903616684671562",
   "em": "2026-10-30T00:01:32.146283+00:00",
   "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4018969084745855597"
+ },
+ "ora-story-manha-2026-10-30": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18076840151749748",
+  "em": "2026-10-30T11:01:34.902065+00:00",
+  "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4019301301515049756"
  }
 }
