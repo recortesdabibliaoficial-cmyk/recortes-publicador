@@ -1380,14 +1380,18 @@
   "tentativas": 0,
   "status": "publicado",
   "media_id": "18640203748032210",
-  "em": "2026-10-30T20:01:18.362623+00:00",
+  "em": "2026-10-30T20:02:40.285006+00:00",
   "link": "https://www.instagram.com/reel/DfIZDPjjro0/"
  },
  "pensar2026-10-30": {
   "tentativas": 0,
   "status": "publicado",
   "media_id": "17914936521551285",
-  "em": "2026-10-30T20:01:40.626886+00:00",
+  "em": "2026-10-30T20:02:40.683228+00:00",
   "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4019573138198721119"
+ },
+ "ls-2026-10-30-1700": {
+  "tentativas": 1,
+  "ultimo_erro": "17841437496307089/media_publish: {'message': 'The requested resource does not exist', 'type': 'OAuthException', 'code': 24, 'error_subcode': 2207006, 'is_transient': False, 'error_user_title': 'Media Not Found', 'error_user_msg': 'The media with 18,108,789,272,249,877 cannot be found.', 'fbtrace_id': 'AqpiMbDFpJfpoGzfQb_e0p6'}"
  }
 }
