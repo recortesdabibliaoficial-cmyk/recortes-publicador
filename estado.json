@@ -1424,5 +1424,21 @@
   "media_id": "18099982160413343",
   "em": "2026-10-31T12:01:44.877604+00:00",
   "link": "https://www.instagram.com/p/DfKHBEFFndJ/"
+ },
+ "lh-2026-10-28-1000": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "17963261982212846",
+  "em": "2026-10-31T15:01:50.484795+00:00",
+  "link": "https://www.instagram.com/reel/DfKbkrGAdhr/",
+  "como_teste": false,
+  "teste_recusado": "17841437496307089/media: {'message': 'Application does not have permission for this action', 'type': 'OAuthException', 'code': 10, 'error_subcode': 2207081, 'is_transient': False, 'error_user_title': "
+ },
+ "vsabia2026-10-31": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18014126684761158",
+  "em": "2026-10-31T15:02:10.802478+00:00",
+  "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4020147184998219809"
  }
 }
