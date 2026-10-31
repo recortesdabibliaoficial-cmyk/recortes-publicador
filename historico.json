@@ -20839,28 +20839,28 @@
     }
    },
    "lh-2026-10-29-1700": {
-    "reach": 340,
-    "views": 747,
+    "reach": 341,
+    "views": 752,
     "likes": 29,
     "comments": 0,
     "saved": 1,
     "shares": 0,
     "total_interactions": 30,
-    "ig_reels_avg_watch_time": 16990,
-    "reels_skip_rate": 45.1,
-    "ig_reels_video_view_total_time": 6575456
+    "ig_reels_avg_watch_time": 17032,
+    "reels_skip_rate": 44.7,
+    "ig_reels_video_view_total_time": 6608597
    },
    "lh-2026-10-31-1000": {
-    "reach": 227,
-    "views": 387,
+    "reach": 229,
+    "views": 391,
     "likes": 2,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 11044,
-    "reels_skip_rate": 64.6,
-    "ig_reels_video_view_total_time": 2694961
+    "ig_reels_avg_watch_time": 11036,
+    "reels_skip_rate": 64.7,
+    "ig_reels_video_view_total_time": 2714896
    },
    "ls-2026-10-30-1700": {
     "reach": 6,
@@ -20916,6 +20916,6 @@
     "profile_visits": 0
    }
   },
-  "em": "2026-10-31T11:35-03:00"
+  "em": "2026-10-31T11:52-03:00"
  }
 }
