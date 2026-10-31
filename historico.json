@@ -18602,28 +18602,28 @@
     "profile_visits": 0
    },
    "lh-2026-10-29-1700": {
-    "reach": 267,
-    "views": 545,
+    "reach": 271,
+    "views": 550,
     "likes": 25,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 25,
-    "ig_reels_avg_watch_time": 15243,
-    "reels_skip_rate": 50.2,
-    "ig_reels_video_view_total_time": 4527267
+    "ig_reels_avg_watch_time": 15215,
+    "reels_skip_rate": 50.3,
+    "ig_reels_video_view_total_time": 4595127
    },
    "lh-2026-10-31-1000": {
-    "reach": 188,
-    "views": 306,
+    "reach": 192,
+    "views": 309,
     "likes": 2,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 10030,
+    "ig_reels_avg_watch_time": 10107,
     "reels_skip_rate": 66.7,
-    "ig_reels_video_view_total_time": 1955923
+    "ig_reels_video_view_total_time": 2021455
    },
    "ls-2026-10-30-1700": {
     "reach": 0,
@@ -18655,6 +18655,181 @@
     "profile_visits": 0
    }
   },
-  "em": "2026-10-30T23:12-03:00"
+  "em": "2026-10-30T23:31-03:00",
+  "conta": {
+   "reach": 757,
+   "views": 1361,
+   "accounts_engaged": 50,
+   "total_interactions": 62,
+   "profile_views": 2,
+   "likes": 53,
+   "comments": 0,
+   "saves": 1,
+   "shares": 3,
+   "replies": 0,
+   "reposts": 2,
+   "profile_links_taps": 0
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "FOLLOWER": 19,
+    "NON_FOLLOWER": 740
+   },
+   "views:follow_type": {
+    "FOLLOWER": 83,
+    "NON_FOLLOWER": 1278
+   },
+   "views:media_product_type": {
+    "STORY": 27,
+    "REEL": 1306,
+    "CAROUSEL_CONTAINER": 28
+   },
+   "total_interactions:media_product_type": {
+    "REEL": 60,
+    "POST": 2
+   },
+   "likes:media_product_type": {
+    "REEL": 51,
+    "POST": 2
+   },
+   "saves:media_product_type": {
+    "REEL": 1
+   },
+   "shares:media_product_type": {
+    "REEL": 3
+   },
+   "comments:media_product_type": {},
+   "reach:media_product_type": {
+    "CAROUSEL_CONTAINER": 6,
+    "REEL": 750,
+    "STORY": 7
+   },
+   "follows_and_unfollows:follow_type": {}
+  },
+  "demografia": {
+   "follower_demographics:age": {
+    "13-17": 2,
+    "18-24": 4,
+    "25-34": 22,
+    "35-44": 22,
+    "45-54": 14,
+    "55-64": 13,
+    "65+": 32
+   },
+   "follower_demographics:gender": {
+    "F": 54,
+    "M": 28,
+    "U": 27
+   },
+   "follower_demographics:city": {
+    "São Paulo, São Paulo (state)": 7,
+    "Araranguá, Santa Catarina": 1,
+    "São Luís, Maranhão": 3,
+    "Rio de Janeiro, Rio de Janeiro (state)": 9,
+    "Fátima, Santarém District": 1,
+    "Caieiras, São Paulo (state)": 1,
+    "Araxá, Minas Gerais": 1,
+    "Osasco, São Paulo (state)": 1,
+    "Itabirito, Minas Gerais": 1,
+    "Santo Antônio do Monte, Minas Gerais": 1,
+    "Maceió, Alagoas": 2,
+    "Maricá, Rio de Janeiro (state)": 1,
+    "Itajaí, Santa Catarina": 1,
+    "João Pessoa, Paraíba": 1,
+    "Maués, Amazonas": 1,
+    "Aparecida de Goiânia, Goiás": 1,
+    "Serranópolis, Goiás": 1,
+    "Guarulhos, São Paulo (state)": 1,
+    "Sorocaba, São Paulo (state)": 1,
+    "Piracicaba, São Paulo (state)": 1,
+    "Parauapebas, Pará": 1,
+    "Betim, Minas Gerais": 2,
+    "Salvador, Bahia": 3,
+    "São João de Meriti, Rio de Janeiro (state)": 1,
+    "São Sebastião da Grama, São Paulo (state)": 1,
+    "Osvaldo Cruz, São Paulo (state)": 1,
+    "Maribondo, Alagoas": 1,
+    "Divino, Minas Gerais": 1,
+    "Fortaleza, Ceará": 3,
+    "Nova Iguaçu, Rio de Janeiro (state)": 1,
+    "Cambé, Paraná": 1,
+    "Guapimirim, Rio de Janeiro (state)": 1,
+    "Lagoa Seca, Paraíba": 1,
+    "Colares, Pará": 1,
+    "Espírito Santo, Rio Grande do Norte": 1,
+    "Ibirité, Minas Gerais": 1,
+    "Marco de Canaveses, Porto District": 1,
+    "Sobral, Ceará": 1,
+    "Belo Horizonte, Minas Gerais": 3,
+    "Campos dos Goytacazes, Rio de Janeiro (state)": 1,
+    "Barreiras, Bahia": 1,
+    "Belém, Pará": 1,
+    "Pinabacdao, Eastern Visayas": 1,
+    "Sumaré, São Paulo (state)": 1,
+    "São Gonçalo, Rio de Janeiro (state)": 2
+   },
+   "engaged_audience_demographics:age": {
+    "13-17": 5,
+    "18-24": 101,
+    "25-34": 236,
+    "35-44": 174,
+    "45-54": 162,
+    "55-64": 130,
+    "65+": 187
+   },
+   "engaged_audience_demographics:gender": {
+    "F": 468,
+    "M": 293,
+    "U": 234
+   },
+   "engaged_audience_demographics:city": {
+    "Ribeirão Prêto, São Paulo (state)": 4,
+    "São Paulo, São Paulo (state)": 53,
+    "Blumenau, Santa Catarina": 4,
+    "Anápolis, Goiás": 3,
+    "São Luís, Maranhão": 11,
+    "Rio de Janeiro, Rio de Janeiro (state)": 30,
+    "São José dos Campos, São Paulo (state)": 4,
+    "Juazeiro do Norte, Ceará": 3,
+    "Osasco, São Paulo (state)": 7,
+    "Maceió, Alagoas": 7,
+    "Parnaíba, Piauí": 3,
+    "Uberlândia, Minas Gerais": 4,
+    "Porto Alegre, Rio Grande do Sul": 4,
+    "Duque de Caxias, Rio de Janeiro (state)": 3,
+    "Timóteo, Minas Gerais": 3,
+    "João Pessoa, Paraíba": 6,
+    "Teresina, Piauí": 6,
+    "Recife, Pernambuco": 5,
+    "Aparecida de Goiânia, Goiás": 6,
+    "Guarulhos, São Paulo (state)": 6,
+    "Natal, Rio Grande do Norte": 15,
+    "Betim, Minas Gerais": 4,
+    "São João da Barra, Rio de Janeiro (state)": 3,
+    "Salvador, Bahia": 8,
+    "São José, Santa Catarina": 4,
+    "Mauá, São Paulo (state)": 3,
+    "Patos de Minas, Minas Gerais": 3,
+    "Jaboatão dos Guararapes, Pernambuco": 7,
+    "Goiânia, Goiás": 8,
+    "Fortaleza, Ceará": 33,
+    "Manaus, Amazonas": 14,
+    "Patos, Paraíba": 4,
+    "Aracaju, Sergipe": 5,
+    "Alvorada, Rio Grande do Sul": 3,
+    "Maringá, Paraná": 3,
+    "Campina Grande, Paraíba": 7,
+    "Carpina, Pernambuco": 3,
+    "Joinville, Santa Catarina": 3,
+    "Cuiabá, Mato Grosso": 5,
+    "Juiz de Fora, Minas Gerais": 4,
+    "Belo Horizonte, Minas Gerais": 13,
+    "Curitiba, Paraná": 5,
+    "Belém, Pará": 6,
+    "Campinas, São Paulo (state)": 4,
+    "São Gonçalo, Rio de Janeiro (state)": 3
+   }
+  },
+  "online": {}
  }
 }
