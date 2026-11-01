@@ -2524,32 +2524,6 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-29.jpg"
  },
  {
-  "id": "m-lava-pes-2026-10-29",
-  "tipo": "REEL",
-  "quando": "2026-10-29T12:00:00-03:00",
-  "midia": [
-   "midia/testeO/m-lava-pes-2026-10-29_oe9435eaf.mp4"
-  ],
-  "legenda": "O Rei dos reis se ajoelhou para lavar pés.\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
-  "na_grade": false,
-  "capa_ms": 500,
-  "post": "20",
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/m-lava-pes-2026-10-29.jpg",
-  "titulo": "Jesus lava os pés dos discípulos",
-  "dur": 12.0,
-  "repost_de": "htexto20-2026-10-25",
-  "gancho_antigo": "Jesus lavou os pés de todos, até de quem ia traí-lo.",
-  "fixo": true,
-  "experimento": "M",
-  "arte": "nova",
-  "gancho_antigo_2": "Ninguém nunca cuidou de você? Jesus lava os seus pés.",
-  "quando_antes": "2026-10-29T10:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "teste": true,
-  "experimento_teste": "T-12h"
- },
- {
   "id": "lc-2026-10-29",
   "tipo": "CARROSSEL",
   "quando": "2026-10-29T09:00:00-03:00",
@@ -2583,6 +2557,43 @@
   "legenda_antiga_1": "Sua vida virou uma tempestade?"
  },
  {
+  "id": "m-lava-pes-2026-10-29",
+  "tipo": "REEL",
+  "quando": "2026-10-29T12:00:00-03:00",
+  "midia": [
+   "midia/testeO/m-lava-pes-2026-10-29_oe9435eaf.mp4"
+  ],
+  "legenda": "O Rei dos reis se ajoelhou para lavar pés.\n\n📜 O versículo (João 13:15)\nJesus disse essas palavras aos discípulos logo depois de lavar os pés deles, na última ceia antes da crucificação. Em palavras de hoje: \"Eu dei o exemplo, para que vocês façam o que eu fiz.\" A intenção era mostrar que, no Reino de Deus, quem ama serve, e que ninguém é importante demais para ajudar.\n\n📖 João 13:1-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #servir",
+  "na_grade": false,
+  "capa_ms": 500,
+  "post": "20",
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/m-lava-pes-2026-10-29.jpg",
+  "titulo": "Jesus lava os pés dos discípulos",
+  "dur": 12.0,
+  "repost_de": "htexto20-2026-10-25",
+  "gancho_antigo": "Jesus lavou os pés de todos, até de quem ia traí-lo.",
+  "fixo": true,
+  "experimento": "M",
+  "arte": "nova",
+  "gancho_antigo_2": "Ninguém nunca cuidou de você? Jesus lava os seus pés.",
+  "quando_antes": "2026-10-29T10:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
+ },
+ {
+  "id": "vsabia2026-10-29",
+  "tipo": "STORY",
+  "quando": "2026-10-29T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-29_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Jó",
+  "miniatura": "midia/miniaturas/vsabia2026-10-29.jpg"
+ },
+ {
   "id": "lh-2026-10-29-1200",
   "tipo": "REEL",
   "quando": "2026-10-29T17:00:00-03:00",
@@ -2603,39 +2614,6 @@
   "experimento_grade": "P-2hist"
  },
  {
-  "id": "vsabia2026-10-29",
-  "tipo": "STORY",
-  "quando": "2026-10-29T12:01:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-10-29_voce_sabia.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Você sabia? Jó",
-  "miniatura": "midia/miniaturas/vsabia2026-10-29.jpg"
- },
- {
-  "id": "lh-2026-10-29-1700",
-  "tipo": "REEL",
-  "quando": "2026-10-30T12:00:00-03:00",
-  "midia": [
-   "midia/testeO/lh-2026-10-29-1700_o5d88af28.mp4"
-  ],
-  "legenda": "Se sente um pecador? Jesus não se afasta.\n\nPedro e os companheiros jogaram a rede de novo, por ordem de Jesus, depois de uma noite sem pegar nada.\n\n📖 Lucas 5:5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #pescamaravilhosa",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-29-1700.jpg",
-  "titulo": "Pesca maravilhosa",
-  "dur": 12.0,
-  "experimento": "K-A",
-  "arte": "nova",
-  "quando_antes": "2026-10-29T17:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "teste": true,
-  "experimento_teste": "T-12h"
- },
- {
   "id": "ls-2026-10-29-1700",
   "tipo": "STORY",
   "quando": "2026-10-29T17:02:00-03:00",
@@ -2646,71 +2624,6 @@
   "titulo": "Pesca maravilhosa",
   "destaque": "Coragem",
   "miniatura": "midia/miniaturas/ls-2026-10-29-1700.jpg"
- },
- {
-  "id": "lh-2026-10-31-1000",
-  "tipo": "REEL",
-  "quando": "2026-10-30T17:00:00-03:00",
-  "midia": [
-   "midia/testeO/lh-2026-10-31-1000_o3cdb5dd1.mp4"
-  ],
-  "legenda": "Praticou o maior dos pecados? Deus ainda te protege.\n\nAbel e Caim levaram ofertas a Deus; Caim ficou com raiva e matou o irmão, mas Deus pôs nele um sinal de proteção.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Gênesis 4:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #caimeabel",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
-  "titulo": "Caim e Abel",
-  "dur": 12.0,
-  "experimento": "K-A",
-  "arte": "nova",
-  "quando_antes": "2026-10-29T19:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "adiavel": true
- },
- {
-  "id": "ora-story-noite-2026-10-29",
-  "tipo": "STORY",
-  "quando": "2026-10-29T21:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-29-noite/story_novo.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Oração da noite · 29/10 (Story)",
-  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-29.jpg"
- },
- {
-  "id": "ora-story-manha-2026-10-30",
-  "tipo": "STORY",
-  "quando": "2026-10-30T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-10-30-manha/story_novo.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 30/10 (Story)",
-  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-30.jpg"
- },
- {
-  "id": "lh-2026-10-28-1000",
-  "tipo": "REEL",
-  "quando": "2026-10-31T12:00:00-03:00",
-  "midia": [
-   "midia/testeO/lh-2026-10-28-1000_o108b6706.mp4"
-  ],
-  "legenda": "Quiseram se livrar de você? Jesus te acolhe.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
-  "titulo": "Jesus e as crianças",
-  "dur": 12.0,
-  "experimento": "K-A",
-  "arte": "nova",
-  "quando_antes": "2026-10-30T10:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "teste": true,
-  "experimento_teste": "T-12h"
  },
  {
   "id": "lc-2026-10-30",
@@ -2746,47 +2659,101 @@
   "legenda_antiga_1": "Está passando pelo fogo?"
  },
  {
-  "id": "lh-2026-10-30-1200",
-  "tipo": "REEL",
-  "quando": "2026-10-31T17:00:00-03:00",
+  "id": "ora-story-noite-2026-10-29",
+  "tipo": "STORY",
+  "quando": "2026-10-29T21:00:00-03:00",
   "midia": [
-   "midia/testeO/lh-2026-10-30-1200_o58bc360e.mp4"
+   "midia/oracoes/2026-10-29-noite/story_novo.jpg"
   ],
-  "legenda": "Jogado no fogo? Deus está ao seu lado.\n\nTrês jovens recusaram adorar uma estátua e foram jogados na fornalha, onde apareceu um quarto homem.\n\n📖 A história completa está no perfil\n\n📖 Daniel 3:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #ostresjovensnafornalha",
-  "na_grade": false,
-  "capa_ms": 500,
   "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
-  "titulo": "Os três jovens na fornalha",
-  "dur": 12.0,
-  "experimento": "K-B",
-  "arte": "nova",
-  "quando_antes": "2026-10-30T12:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "adiavel": true
+  "titulo": "Oração da noite · 29/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-29.jpg"
  },
  {
-  "id": "lh-2026-10-30-1700",
-  "tipo": "REEL",
-  "quando": "2026-11-01T12:00:00-03:00",
+  "id": "ora-story-manha-2026-10-30",
+  "tipo": "STORY",
+  "quando": "2026-10-30T08:00:00-03:00",
   "midia": [
-   "midia/testeO/lh-2026-10-30-1700_oc51abf81.mp4"
+   "midia/oracoes/2026-10-30-manha/story_novo.jpg"
   ],
-  "legenda": "Sozinho contra todos? Deus manda fogo do céu.\n\nElias enfrentou sozinho 450 profetas de Baal no monte Carmelo, e caiu fogo de Deus.\n\n📖 1 Reis 18:39 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #eliasnomontecarmelo",
+  "fixo": true,
+  "titulo": "Oração da manhã · 30/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-10-30.jpg"
+ },
+ {
+  "id": "lc2-2026-10-30-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-30T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-10-30-09_01_20e3b8ad.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_02_78e56091.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_03_d44f762f.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_04_add43d85.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_05_9ba4b858.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_06_363011f7.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_07_a3e6f1b1.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-09_08_97d932df.jpg"
+  ],
+  "legenda": "Uma cidade fechada por muros. Deus mandou só andar em volta.\n\n🧱 Um problema que parece uma muralha na sua frente.\n⏳ Uma espera que já dura meses ou anos.\n🤐 Uma fase em que o jeito é fazer a sua parte em silêncio.\n\nJericó era cercada por muralhas. Deus mandou o povo dar uma volta na cidade por dia, durante seis dias, sem dizer nada. No sétimo dia, deram sete voltas, os sacerdotes tocaram as trombetas, o povo gritou, e a muralha caiu.\n\nO muro não caiu no primeiro dia. Caiu no sétimo. Deus sabe a hora certa.\n\n📜 O versículo (Josué 6:2)\nDeus falou com Josué antes de qualquer volta em torno da cidade. Em palavras de hoje: \"Olhe, eu já entreguei Jericó nas suas mãos.\" A intenção do texto é mostrar que a vitória já estava prometida antes do primeiro passo do povo.\n\n📖 Josué 6 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #josue #jerico",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 2 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 3 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 4 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 5 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 6 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 7 de 8: Josué e Jericó. Ilustração em papel recortado.",
+   "Slide 8 de 8: Josué e Jericó. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-30-09.jpg",
+  "titulo": "Josué e Jericó",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lh-2026-10-29-1700",
+  "tipo": "REEL",
+  "quando": "2026-10-30T12:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-29-1700_o5d88af28.mp4"
+  ],
+  "legenda": "Se sente um pecador? Jesus não se afasta.\n\nPedro e os companheiros jogaram a rede de novo, por ordem de Jesus, depois de uma noite sem pegar nada.\n\n📖 Lucas 5:5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #pescamaravilhosa",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-30-1700.jpg",
-  "titulo": "Elias no monte Carmelo",
+  "miniatura": "midia/miniaturas/lh-2026-10-29-1700.jpg",
+  "titulo": "Pesca maravilhosa",
   "dur": 12.0,
-  "experimento": "K-B",
+  "experimento": "K-A",
   "arte": "nova",
-  "quando_antes": "2026-10-30T17:00:00-03:00",
+  "quando_antes": "2026-10-29T17:00:00-03:00",
   "experimento_grade": "P-2hist",
   "teste": true,
   "experimento_teste": "T-12h"
+ },
+ {
+  "id": "lh-2026-10-31-1000",
+  "tipo": "REEL",
+  "quando": "2026-10-30T17:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-31-1000_o3cdb5dd1.mp4"
+  ],
+  "legenda": "Praticou o maior dos pecados? Deus ainda te protege.\n\nAbel e Caim levaram ofertas a Deus; Caim ficou com raiva e matou o irmão, mas Deus pôs nele um sinal de proteção.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 Gênesis 4:15 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #caimeabel",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1000.jpg",
+  "titulo": "Caim e Abel",
+  "dur": 12.0,
+  "experimento": "K-A",
+  "arte": "nova",
+  "quando_antes": "2026-10-29T19:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "adiavel": true
  },
  {
   "id": "pensar2026-10-30",
@@ -2812,27 +2779,36 @@
   "miniatura": "midia/miniaturas/ls-2026-10-30-1700.jpg"
  },
  {
-  "id": "m-paes-peixes-2026-10-30",
-  "tipo": "REEL",
-  "quando": "2026-11-01T17:00:00-03:00",
+  "id": "lc2-2026-10-30-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-30T20:00:00-03:00",
   "midia": [
-   "midia/testeO/m-paes-peixes-2026-10-30_o491186af.mp4"
+   "midia/carrossel_novo/lc2-2026-10-30-20_01_6b06a67d.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_02_33ca8bb7.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_03_f02d54d5.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_04_8aeff5f7.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_05_a6b0252f.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_06_3bf56bb9.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_07_59217328.jpg",
+   "midia/carrossel_novo/lc2-2026-10-30-20_08_b5cc98e6.jpg"
   ],
-  "legenda": "Pouco demais para tanta gente? Jesus multiplica.\n\nUm menino tinha cinco pães e dois peixes, e Jesus alimentou a multidão.\n\n📖 Mateus 14:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #paesepeixes",
-  "na_grade": false,
-  "capa_ms": 500,
+  "legenda": "Ele fugia do próprio irmão. Naquela noite, o céu se abriu.\n\n🏠 Longe de casa, numa cidade ou num emprego novo.\n🌙 Uma noite em que você se sente sozinho.\n💔 Uma briga em família que ainda dói.\n\nJacó enganou o pai e ficou com a bênção do irmão, Esaú. Com medo da raiva do irmão, fugiu sozinho. No caminho, dormiu no chão, com uma pedra de travesseiro, e sonhou com uma escada que ia da terra até o céu. Deus prometeu estar com ele por onde fosse.\n\nNem todo lugar solitário está vazio. Deus pode estar aí, mesmo sem você perceber.\n\n📜 O versículo (Gênesis 28:16)\nJacó disse essas palavras quando acordou do sonho. Em palavras de hoje: \"Deus estava aqui, e eu nem sabia.\" A intenção do texto é mostrar que Deus estava com Jacó mesmo na fuga, e mesmo depois do erro.\n\n📖 Gênesis 28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jaco #deusestaaqui",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 2 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 3 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 4 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 5 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 6 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 7 de 8: Jacó e a escada. Ilustração em papel recortado.",
+   "Slide 8 de 8: Jacó e a escada. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-30-20.jpg",
+  "titulo": "Jacó e a escada",
   "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/m-paes-peixes-2026-10-30.jpg",
-  "titulo": "Pães e peixes",
-  "dur": 12.0,
-  "repost_de": "lh-2026-10-28-1200",
-  "gancho_antigo": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas.",
-  "experimento": "M",
-  "arte": "nova",
-  "quando_antes": "2026-10-30T19:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "adiavel": true
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  },
  {
   "id": "ora-story-noite-2026-10-30",
@@ -2857,6 +2833,372 @@
   "miniatura": "midia/miniaturas/ora-story-manha-2026-10-31.jpg"
  },
  {
+  "id": "lc2-2026-10-31-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-31T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-10-31-09_01_46b40a46.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_02_5568dda5.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_03_34d2e2f2.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_04_cf74adb0.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_05_1e41fb9c.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_06_c1dd4842.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_07_781f468a.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-09_08_fa4f776a.jpg"
+  ],
+  "legenda": "Ele esperava um milagre grande. O profeta mandou só um recado.\n\n🙏 Uma oração que você esperava ver respondida de um jeito grandioso.\n🪞 Um conselho simples que o orgulho não deixa seguir.\n🩹 Uma ferida que já dura tempo demais.\n\nNaamã era chefe do exército da Síria e tinha lepra. O profeta Eliseu nem saiu de casa: mandou dizer que ele se lavasse sete vezes no rio Jordão. Naamã ficou furioso, mas os servos o convenceram. Ele mergulhou sete vezes, e a pele ficou limpa como a de um menino.\n\nÀs vezes, o que Deus pede é simples. O difícil é aceitar.\n\n📜 O versículo (2 Reis 5:13)\nSão as palavras dos servos de Naamã. Em palavras de hoje: \"Se o profeta tivesse pedido algo difícil, o senhor faria. Por que não fazer algo tão simples?\" A intenção do texto é mostrar que a cura veio quando Naamã deixou o orgulho de lado e obedeceu.\n\n📖 2 Reis 5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #naama #eliseu",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 2 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 3 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 4 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 5 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 6 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 7 de 8: Naamã curado. Ilustração em papel recortado.",
+   "Slide 8 de 8: Naamã curado. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-31-09.jpg",
+  "titulo": "Naamã curado",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lh-2026-10-28-1000",
+  "tipo": "REEL",
+  "quando": "2026-10-31T12:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-28-1000_o108b6706.mp4"
+  ],
+  "legenda": "Quiseram se livrar de você? Jesus te acolhe.\n\nLevaram crianças a Jesus, os discípulos reclamaram e Jesus as abençoou.\n\n📖 Marcos 10:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesuseascriancas",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-28-1000.jpg",
+  "titulo": "Jesus e as crianças",
+  "dur": 12.0,
+  "experimento": "K-A",
+  "arte": "nova",
+  "quando_antes": "2026-10-30T10:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
+ },
+ {
+  "id": "vsabia2026-10-31",
+  "tipo": "STORY",
+  "quando": "2026-10-31T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-10-31_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Ana, mãe de Samuel",
+  "miniatura": "midia/miniaturas/vsabia2026-10-31.jpg"
+ },
+ {
+  "id": "qf-zaqueu",
+  "tipo": "REEL",
+  "quando": "2026-10-31T15:00:00-03:00",
+  "midia": [
+   "midia/quemfoi/qf-zaqueu_344e2eeb.mp4"
+  ],
+  "legenda": "Quem foi esse homem da Bíblia?\n\n.\n\nFoi Zaqueu! E aí, você acertou? Em qual pista você descobriu?\n\nEle era rico e baixinho, e subiu numa árvore para ver Jesus passar. Jesus disse que ficaria na casa dele, e o povo reclamou. Jesus entrou na casa de quem todos chamavam de pecador.\n\n📜 Lucas 19:1-10, Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #zaqueu",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/qf-zaqueu.jpg",
+  "titulo": "Quem foi? (Zaqueu)",
+  "dur": 19.0,
+  "arte": "quem-foi",
+  "experimento": "QF"
+ },
+ {
+  "id": "lh-2026-10-30-1200",
+  "tipo": "REEL",
+  "quando": "2026-10-31T17:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-30-1200_o58bc360e.mp4"
+  ],
+  "legenda": "Jogado no fogo? Deus está ao seu lado.\n\nTrês jovens recusaram adorar uma estátua e foram jogados na fornalha, onde apareceu um quarto homem.\n\n📖 A história completa está no perfil\n\n📖 Daniel 3:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #ostresjovensnafornalha",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-30-1200.jpg",
+  "titulo": "Os três jovens na fornalha",
+  "dur": 12.0,
+  "experimento": "K-B",
+  "arte": "nova",
+  "quando_antes": "2026-10-30T12:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "adiavel": true
+ },
+ {
+  "id": "ls-2026-10-31-1700",
+  "tipo": "STORY",
+  "quando": "2026-10-31T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-10-31_1700_sansao_ffab4592.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Sansão",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-10-31-1700.jpg"
+ },
+ {
+  "id": "lc2-2026-10-31-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-10-31T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-10-31-20_01_f5241df8.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_02_ed317485.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_03_4ca3b9ac.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_04_8e0d9c5a.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_05_f4b80959.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_06_d2f90e8b.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_07_536c748b.jpg",
+   "midia/carrossel_novo/lc2-2026-10-31-20_08_fa7da48f.jpg"
+  ],
+  "legenda": "O credor vinha levar os filhos dela. Ela só tinha um pote de azeite.\n\n💸 Contas que não fecham no fim do mês.\n🏠 A sensação de que não tem nada em casa para começar.\n👨‍👩‍👦 O medo de não conseguir cuidar de quem você ama.\n\nO marido de uma viúva morreu devendo, e o credor ia levar os dois filhos dela como escravos. O profeta Eliseu perguntou o que ela tinha em casa: só um pote de azeite. Ela pediu vasilhas vazias aos vizinhos, e o azeite só parou quando as vasilhas acabaram. Vendeu tudo, pagou a dívida e ainda sobrou para viver.\n\nDeus começou pelo pouco que havia na casa dela. Ele pode começar pelo seu.\n\n📜 O versículo (2 Reis 4:7)\nEliseu disse essas palavras depois que as vasilhas se encheram. Em palavras de hoje: \"Vá vender o azeite e pagar a dívida. Você e seus filhos vão viver do que sobrar.\" A intenção do texto é mostrar que Deus cuidou da família inteira: pagou o que devia e ainda deixou sustento.\n\n📖 2 Reis 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #eliseu #provisao",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 2 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 3 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 4 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 5 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 6 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 7 de 8: A viúva e o azeite. Ilustração em papel recortado.",
+   "Slide 8 de 8: A viúva e o azeite. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-10-31-20.jpg",
+  "titulo": "A viúva e o azeite",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "ora-story-noite-2026-10-31",
+  "tipo": "STORY",
+  "quando": "2026-10-31T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-10-31-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 31/10 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-31.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-01-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 01/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-01.jpg"
+ },
+ {
+  "id": "lc2-2026-11-01-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-01T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-01-09_01_302fd6a9.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_02_834b2326.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_03_8b1f938c.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_04_3779ac47.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_05_3c805675.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_06_b8613334.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_07_98182652.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-09_08_2a2d30cc.jpg"
+  ],
+  "legenda": "Na frente, o mar. Atrás, o exército do faraó.\n\n🌊 Um problema na frente e outro atrás.\n😰 Uma situação em que todas as portas parecem fechadas.\n🕊️ Uma noite em que só resta esperar.\n\nO povo de Israel tinha acabado de sair do Egito quando o faraó mandou o exército atrás deles. Encurralado na beira do mar, o povo teve medo. Moisés estendeu a mão, Deus mandou um vento forte a noite inteira, e o mar se abriu. O povo atravessou pelo chão seco.\n\nQuando parece não ter saída, Deus abre caminho.\n\n📜 O versículo (Êxodo 14:14)\nMoisés disse essas palavras ao povo, na beira do mar. Em palavras de hoje: \"O Senhor vai lutar por vocês. Fiquem calmos.\" A intenção do texto é mostrar que a batalha era de Deus, e não do povo.\n\n📖 Êxodo 14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #moises #marvermelho",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 2 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 3 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 4 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 5 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 6 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 7 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
+   "Slide 8 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-01-09.jpg",
+  "titulo": "Moisés e o mar Vermelho",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lh-2026-10-30-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-01T12:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-30-1700_oc51abf81.mp4"
+  ],
+  "legenda": "Sozinho contra todos? Deus manda fogo do céu.\n\nElias enfrentou sozinho 450 profetas de Baal no monte Carmelo, e caiu fogo de Deus.\n\n📖 1 Reis 18:39 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #eliasnomontecarmelo",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-30-1700.jpg",
+  "titulo": "Elias no monte Carmelo",
+  "dur": 12.0,
+  "experimento": "K-B",
+  "arte": "nova",
+  "quando_antes": "2026-10-30T17:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
+ },
+ {
+  "id": "vsabia2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T12:01:00-03:00",
+  "midia": [
+   "midia/stories/story_2026-11-01_voce_sabia.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Você sabia? Adão",
+  "miniatura": "midia/miniaturas/vsabia2026-11-01.jpg"
+ },
+ {
+  "id": "m-paes-peixes-2026-10-30",
+  "tipo": "REEL",
+  "quando": "2026-11-01T17:00:00-03:00",
+  "midia": [
+   "midia/testeO/m-paes-peixes-2026-10-30_o491186af.mp4"
+  ],
+  "legenda": "Pouco demais para tanta gente? Jesus multiplica.\n\nUm menino tinha cinco pães e dois peixes, e Jesus alimentou a multidão.\n\n📖 Mateus 14:18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #paesepeixes",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/m-paes-peixes-2026-10-30.jpg",
+  "titulo": "Pães e peixes",
+  "dur": 12.0,
+  "repost_de": "lh-2026-10-28-1200",
+  "gancho_antigo": "O que você tem parece pouco? Nas mãos de Jesus, 5 pães alimentaram mais de 5 mil pessoas.",
+  "experimento": "M",
+  "arte": "nova",
+  "quando_antes": "2026-10-30T19:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "adiavel": true
+ },
+ {
+  "id": "lc2-2026-11-01-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-01T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-01-20_01_a02aba17.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_02_a4bb4e2f.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_03_e7fc6f92.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_04_4f8e4dbb.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_05_aa9aa5e0.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_06_5f714aa1.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_07_85a7724a.jpg",
+   "midia/carrossel_novo/lc2-2026-11-01-20_08_6109de4a.jpg"
+  ],
+  "legenda": "Mandaram o cego ficar quieto. Ele gritou ainda mais.\n\n🔇 A sensação de que ninguém te escuta.\n🙌 Um pedido que você já fez muitas vezes.\n🚶 Gente dizendo que não adianta insistir.\n\nBartimeu era cego e pedia esmola na saída de Jericó. Quando soube que Jesus estava passando, começou a gritar. Muitos mandaram ele ficar quieto, e ele gritou mais alto. Jesus parou e mandou chamá-lo. Bartimeu jogou a capa, foi até Jesus e pediu para ver. Na mesma hora, passou a ver.\n\nContinue chamando. Jesus escuta.\n\n📜 O versículo (Marcos 10:49)\nForam as palavras das pessoas para Bartimeu, quando Jesus mandou chamá-lo. Em palavras de hoje: \"Coragem! Levante-se, ele está te chamando.\" A intenção do texto é mostrar que Jesus parou por alguém que todos queriam calar.\n\n📖 Marcos 10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #bartimeu",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 2 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 3 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 4 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 5 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 6 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 7 de 8: Bartimeu. Ilustração em papel recortado.",
+   "Slide 8 de 8: Bartimeu. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-01-20.jpg",
+  "titulo": "Bartimeu",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "ora-story-noite-2026-11-01",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-01-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 01/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-01.jpg"
+ },
+ {
+  "id": "semana2026-11-01-1",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:05:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-01_semana_1_de2_jesus-acalma-a-tempestade.jpg"
+  ],
+  "titulo": "A semana 1/2: Jesus acalma a tempestade",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/semana2026-11-01-1-de2.jpg"
+ },
+ {
+  "id": "semana2026-11-01-2",
+  "tipo": "STORY",
+  "quando": "2026-11-01T21:06:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-01_semana_2_de2_os-tres-jovens-na-fornalha.jpg"
+  ],
+  "titulo": "A semana 2/2: Os três jovens na fornalha",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/semana2026-11-01-2-de2.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-02",
+  "tipo": "STORY",
+  "quando": "2026-11-02T08:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-02-manha/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da manhã · 02/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-02.jpg"
+ },
+ {
+  "id": "lc2-2026-11-02-09",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-02T09:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-02-09_01_4e8b4a54.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_02_98a9627b.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_03_4f65b93c.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_04_2c371d10.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_05_7fc130fd.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_06_e4e8999c.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_07_36f95ca3.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-09_08_cb1d179d.jpg"
+  ],
+  "legenda": "Eram 450 profetas contra um. O desafio: fogo do céu.\n\n🧍 Ser o único a pensar diferente num lugar.\n🔥 Uma fé que parece pequena perto de tanta gente contra.\n⛰️ Um desafio que parece grande demais.\n\nNo monte Carmelo, Elias ficou sozinho contra 450 profetas do falso deus Baal. O Deus que mandasse fogo sobre o altar seria o verdadeiro. Os profetas de Baal gritaram o dia inteiro, e nada aconteceu. Elias mandou molhar o altar com doze jarros de água, orou, e caiu fogo de Deus.\n\nMesmo quando parece que só você ficou de pé, o Senhor continua sendo Deus.\n\n📜 O versículo (1 Reis 18:39)\nÉ a reação do povo que assistia, depois do fogo. Em palavras de hoje: \"Todos se ajoelharam e disseram: o Senhor é Deus!\" A intenção do texto é mostrar que Deus respondeu na frente de todos.\n\n📖 1 Reis 18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #carmelo",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 2 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 3 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 4 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 5 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 6 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 7 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
+   "Slide 8 de 8: Elias no monte Carmelo. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-02-09.jpg",
+  "titulo": "Elias no monte Carmelo",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
   "id": "lh-2026-11-02-1000",
   "tipo": "REEL",
   "quando": "2026-11-02T12:00:00-03:00",
@@ -2879,36 +3221,102 @@
   "experimento_teste": "T-12h"
  },
  {
-  "id": "lh-2026-10-31-1200",
+  "id": "lh-2026-11-02-1200",
   "tipo": "REEL",
-  "quando": "2026-11-06T17:00:00-03:00",
+  "quando": "2026-11-02T17:00:00-03:00",
   "midia": [
-   "midia/testeO/lh-2026-10-31-1200_o635f8b5c.mp4"
+   "midia/testeO/lh-2026-11-02-1200_oa869e014.mp4"
   ],
-  "legenda": "O pedido mais difícil que Deus já fez a um pai.\n\nDeus pôs Abraão à prova, e um anjo mandou parar; um carneiro foi oferecido no lugar de Isaque.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 Gênesis 22:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #abraaoeisaque",
+  "legenda": "Chorando por quem partiu? Jesus chora com você.\n\nLázaro morreu e Jesus, depois de chorar com o povo, o chamou para fora do túmulo.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 João 11:25 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #lazaro",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-31-1200.jpg",
-  "titulo": "Abraão e Isaque",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
+  "titulo": "Lázaro",
   "dur": 12.0,
-  "experimento": "K-B",
+  "experimento": "K-A",
   "arte": "nova",
-  "quando_antes": "2026-10-31T12:00:00-03:00",
+  "quando_antes": "2026-11-02T12:00:00-03:00",
   "experimento_grade": "P-2hist",
   "adiavel": true
  },
  {
-  "id": "vsabia2026-10-31",
+  "id": "pensar2026-11-02",
   "tipo": "STORY",
-  "quando": "2026-10-31T12:01:00-03:00",
+  "quando": "2026-11-02T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-10-31_voce_sabia.jpg"
+   "midia/stories/story_2026-11-02_para_pensar.jpg"
   ],
   "fixo": true,
-  "titulo": "Você sabia? Ana, mãe de Samuel",
-  "miniatura": "midia/miniaturas/vsabia2026-10-31.jpg"
+  "titulo": "Para pensar: Lázaro",
+  "miniatura": "midia/miniaturas/pensar2026-11-02.jpg"
+ },
+ {
+  "id": "ls3-2026-11-02-o-semeador",
+  "tipo": "STORY",
+  "quando": "2026-11-02T17:02:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-02_resumo_o-semeador.jpg"
+  ],
+  "titulo": "O semeador",
+  "fixo": true,
+  "destaque": "Parábolas",
+  "miniatura": "midia/miniaturas/ls3-2026-11-02-o-semeador.jpg"
+ },
+ {
+  "id": "lc2-2026-11-02-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-02T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc2-2026-11-02-20_01_6a3dca0a.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_02_da23db53.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_03_c07a4b74.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_04_367d43a7.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_05_10c587fe.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_06_a61456f4.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_07_16d2c141.jpg",
+   "midia/carrossel_novo/lc2-2026-11-02-20_08_a74d95da.jpg"
+  ],
+  "legenda": "Num só dia, Jó perdeu quase tudo. O que ele fez depois?\n\n🖤 Uma perda que mudou a sua vida.\n🤒 Uma doença ou dor que não passa.\n❓ Perguntas para Deus que ainda não têm resposta.\n\nJó era um homem bom, rico e pai de dez filhos. Num só dia, perdeu os animais, os empregados e os filhos. Depois, ficou com feridas da cabeça aos pés. Chorou, reclamou e fez perguntas, mas nunca deixou de falar com Deus. No fim, Deus falou com ele e devolveu o dobro do que tinha.\n\nNa dor, Deus não vai embora. Ele fica perto de você.\n\n📜 O versículo (Jó 42:5)\nJó disse essas palavras a Deus, no fim da história. Em palavras de hoje: \"Antes eu só tinha ouvido falar de ti. Agora eu te vejo.\" A intenção do texto é mostrar que, depois da dor, Jó conheceu Deus de perto.\n\nSe a dor estiver pesada demais, procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Jó 1, 2 e 42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jo #esperanca",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 2 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 3 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 4 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 5 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 6 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 7 de 8: Jó. Ilustração em papel recortado.",
+   "Slide 8 de 8: Jó. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc2-2026-11-02-20.jpg",
+  "titulo": "Jó",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "ora-story-noite-2026-11-02",
+  "tipo": "STORY",
+  "quando": "2026-11-02T21:00:00-03:00",
+  "midia": [
+   "midia/oracoes/2026-11-02-noite/story_novo.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Oração da noite · 02/11 (Story)",
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-02.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-03",
+  "tipo": "STORY",
+  "quando": "2026-11-03T08:00:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_oracao_2026-11-03_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 03/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-03.jpg"
  },
  {
   "id": "lh-2026-10-31-1700",
@@ -2932,59 +3340,70 @@
   "experimento_teste": "T-12h"
  },
  {
-  "id": "ls-2026-10-31-1700",
+  "id": "vsabia2026-11-03",
   "tipo": "STORY",
-  "quando": "2026-10-31T17:02:00-03:00",
+  "quando": "2026-11-03T12:01:00-03:00",
   "midia": [
-   "midia/lote27/stories/story_2026-10-31_1700_sansao_ffab4592.jpg"
+   "midia/lote0311/stories/story_2026-11-03_voce_sabia.jpg"
   ],
+  "titulo": "Você sabia? Sansão",
   "fixo": true,
-  "titulo": "Sansão",
-  "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-10-31-1700.jpg"
+  "miniatura": "midia/miniaturas/vsabia2026-11-03.jpg"
  },
  {
-  "id": "lh-2026-10-31-1900",
+  "id": "lh-2026-11-01-1900",
   "tipo": "REEL",
-  "quando": "2026-11-07T17:00:00-03:00",
+  "quando": "2026-11-03T17:00:00-03:00",
   "midia": [
-   "midia/testeO/lh-2026-10-31-1900_o8b7bbe64.mp4"
+   "midia/testeO/lh-2026-11-01-1900_o6bb82953.mp4"
   ],
-  "legenda": "Chorando sem conseguir falar? Deus ouve cada lágrima.\n\nAna orou chorando no templo, pedindo um filho, e depois teve Samuel.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 1 Samuel 1:6-20 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #anaesamuel",
+  "legenda": "Já se sentiu rejeitado? Deus te põe à mesa do Rei.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-31-1900.jpg",
-  "titulo": "Ana e Samuel",
+  "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
+  "titulo": "Mefibosete",
   "dur": 12.0,
   "experimento": "K-A",
   "arte": "nova",
-  "quando_antes": "2026-10-31T19:00:00-03:00",
+  "quando_antes": "2026-11-02T19:00:00-03:00",
   "experimento_grade": "P-2hist",
   "adiavel": true
  },
  {
-  "id": "ora-story-noite-2026-10-31",
+  "id": "ls3-2026-11-03-sansao",
   "tipo": "STORY",
-  "quando": "2026-10-31T21:00:00-03:00",
+  "quando": "2026-11-03T17:02:00-03:00",
   "midia": [
-   "midia/oracoes/2026-10-31-noite/story_novo.jpg"
+   "midia/lote0311/stories/story_2026-11-03_resumo_sansao.jpg"
   ],
+  "titulo": "Sansão",
   "fixo": true,
-  "titulo": "Oração da noite · 31/10 (Story)",
-  "miniatura": "midia/miniaturas/ora-story-noite-2026-10-31.jpg"
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls3-2026-11-03-sansao.jpg"
  },
  {
-  "id": "ora-story-manha-2026-11-01",
+  "id": "ora-story-noite-2026-11-03",
   "tipo": "STORY",
-  "quando": "2026-11-01T08:00:00-03:00",
+  "quando": "2026-11-03T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-11-01-manha/story_novo.jpg"
+   "midia/lote0311/stories/story_oracao_2026-11-03_noite.jpg"
   ],
+  "titulo": "Oração da noite · 03/11 (Story)",
   "fixo": true,
-  "titulo": "Oração da manhã · 01/11 (Story)",
-  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-01.jpg"
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-03.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-04",
+  "tipo": "STORY",
+  "quando": "2026-11-04T08:00:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_oracao_2026-11-04_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 04/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-04.jpg"
  },
  {
   "id": "lh-2026-11-01-1000",
@@ -3029,157 +3448,49 @@
   "adiavel": true
  },
  {
-  "id": "vsabia2026-11-01",
+  "id": "pensar2026-11-04",
   "tipo": "STORY",
-  "quando": "2026-11-01T12:01:00-03:00",
+  "quando": "2026-11-04T17:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-11-01_voce_sabia.jpg"
+   "midia/lote0311/stories/story_2026-11-04_para_pensar.jpg"
   ],
+  "titulo": "Para pensar: Sansão",
   "fixo": true,
-  "titulo": "Você sabia? Adão",
-  "miniatura": "midia/miniaturas/vsabia2026-11-01.jpg"
+  "miniatura": "midia/miniaturas/pensar2026-11-04.jpg"
  },
  {
-  "id": "lh-2026-11-01-1700",
-  "tipo": "REEL",
-  "quando": "2026-11-07T12:00:00-03:00",
-  "midia": [
-   "midia/testeO/lh-2026-11-01-1700_odb0b47a7.mp4"
-  ],
-  "legenda": "Cansado de provar seu valor? Deus te eleva.\n\nEm Babel, o povo quis fazer uma torre até o céu; Deus misturou as línguas e eles se espalharam.\n\n📖 Gênesis 12:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #torredebabel",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-11-01-1700.jpg",
-  "titulo": "Torre de Babel",
-  "dur": 12.0,
-  "experimento": "K-B",
-  "arte": "nova",
-  "quando_antes": "2026-11-01T17:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "teste": true,
-  "experimento_teste": "T-12h"
- },
- {
-  "id": "ls-2026-11-01-1700",
+  "id": "ls3-2026-11-04-jose-e-o-manto-colorido",
   "tipo": "STORY",
-  "quando": "2026-11-07T17:02:00-03:00",
+  "quando": "2026-11-04T17:02:00-03:00",
   "midia": [
-   "midia/lote27/stories/story_2026-11-01_1700_torre-de-babel_07482d77.jpg"
+   "midia/lote0311/stories/story_2026-11-04_resumo_jose-e-o-manto-colorido.jpg"
   ],
+  "titulo": "José e o manto colorido",
   "fixo": true,
-  "titulo": "Torre de Babel",
   "destaque": "Coragem",
-  "miniatura": "midia/miniaturas/ls-2026-11-01-1700.jpg"
+  "miniatura": "midia/miniaturas/ls3-2026-11-04-jose-e-o-manto-colorido.jpg"
  },
  {
-  "id": "lh-2026-11-02-1900",
-  "tipo": "REEL",
-  "quando": "2026-11-05T17:00:00-03:00",
-  "midia": [
-   "midia/testeO/lh-2026-11-02-1900_oaa2f3123.mp4"
-  ],
-  "legenda": "Riram do seu recomeço? Deus te dá força para terminar.\n\nNeemias reergueu o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
-  "titulo": "Neemias reconstrói o muro",
-  "dur": 12.0,
-  "experimento": "K-B",
-  "arte": "nova",
-  "quando_antes": "2026-11-01T19:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "adiavel": true
- },
- {
-  "id": "ora-story-noite-2026-11-01",
+  "id": "ora-story-noite-2026-11-04",
   "tipo": "STORY",
-  "quando": "2026-11-01T21:00:00-03:00",
+  "quando": "2026-11-04T21:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-11-01-noite/story_novo.jpg"
+   "midia/lote0311/stories/story_oracao_2026-11-04_noite.jpg"
   ],
+  "titulo": "Oração da noite · 04/11 (Story)",
   "fixo": true,
-  "titulo": "Oração da noite · 01/11 (Story)",
-  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-01.jpg"
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-04.jpg"
  },
  {
-  "id": "semana2026-11-01-1",
+  "id": "ora-story-manha-2026-11-05",
   "tipo": "STORY",
-  "quando": "2026-11-01T21:05:00-03:00",
+  "quando": "2026-11-05T08:00:00-03:00",
   "midia": [
-   "midia/stories/story_2026-11-01_semana_1_jesus acalma a tempestade.jpg"
+   "midia/lote0311/stories/story_oracao_2026-11-05_manha.jpg"
   ],
+  "titulo": "Oração da manhã · 05/11 (Story)",
   "fixo": true,
-  "titulo": "A semana 1/4: Jesus acalma a tempestade",
-  "miniatura": "midia/miniaturas/semana2026-11-01-1.jpg"
- },
- {
-  "id": "semana2026-11-01-2",
-  "tipo": "STORY",
-  "quando": "2026-11-01T21:06:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-11-01_semana_2_os tres jovens na fornalha.jpg"
-  ],
-  "fixo": true,
-  "titulo": "A semana 2/4: Os três jovens na fornalha",
-  "miniatura": "midia/miniaturas/semana2026-11-01-2.jpg"
- },
- {
-  "id": "ora-story-manha-2026-11-02",
-  "tipo": "STORY",
-  "quando": "2026-11-02T08:00:00-03:00",
-  "midia": [
-   "midia/oracoes/2026-11-02-manha/story_novo.jpg"
-  ],
-  "fixo": true,
-  "titulo": "Oração da manhã · 02/11 (Story)",
-  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-02.jpg"
- },
- {
-  "id": "lh-2026-10-29-1900",
-  "tipo": "REEL",
-  "quando": "2026-11-06T12:00:00-03:00",
-  "midia": [
-   "midia/testeO/lh-2026-10-29-1900_oeadffb1c.mp4"
-  ],
-  "legenda": "Contas apertando? Deus enche o pouco que você tem.\n\nUma viúva endividada tinha só um pote de azeite, e Eliseu a orientou a pedir vasilhas aos vizinhos.\n\n📖 2 Reis 4:7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #aviuvaeoazeite",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
-  "titulo": "A viúva e o azeite",
-  "dur": 12.0,
-  "experimento": "K-B",
-  "arte": "nova",
-  "quando_antes": "2026-11-02T10:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "teste": true,
-  "experimento_teste": "T-12h"
- },
- {
-  "id": "lh-2026-11-02-1200",
-  "tipo": "REEL",
-  "quando": "2026-11-02T17:00:00-03:00",
-  "midia": [
-   "midia/testeO/lh-2026-11-02-1200_oa869e014.mp4"
-  ],
-  "legenda": "Chorando por quem partiu? Jesus chora com você.\n\nLázaro morreu e Jesus, depois de chorar com o povo, o chamou para fora do túmulo.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 João 11:25 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #lazaro",
-  "na_grade": false,
-  "capa_ms": 500,
-  "fixo": true,
-  "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-11-02-1200.jpg",
-  "titulo": "Lázaro",
-  "dur": 12.0,
-  "experimento": "K-A",
-  "arte": "nova",
-  "quando_antes": "2026-11-02T12:00:00-03:00",
-  "experimento_grade": "P-2hist",
-  "adiavel": true
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-05.jpg"
  },
  {
   "id": "lh-2026-11-02-1700",
@@ -3204,15 +3515,36 @@
   "experimento_teste": "T-12h"
  },
  {
-  "id": "pensar2026-11-02",
+  "id": "vsabia2026-11-05",
   "tipo": "STORY",
-  "quando": "2026-11-02T17:00:00-03:00",
+  "quando": "2026-11-05T12:01:00-03:00",
   "midia": [
-   "midia/stories/story_2026-11-02_para_pensar.jpg"
+   "midia/lote0311/stories/story_2026-11-05_voce_sabia.jpg"
   ],
+  "titulo": "Você sabia? Davi e Jônatas",
   "fixo": true,
-  "titulo": "Para pensar: Lázaro",
-  "miniatura": "midia/miniaturas/pensar2026-11-02.jpg"
+  "miniatura": "midia/miniaturas/vsabia2026-11-05.jpg"
+ },
+ {
+  "id": "lh-2026-11-02-1900",
+  "tipo": "REEL",
+  "quando": "2026-11-05T17:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-11-02-1900_oaa2f3123.mp4"
+  ],
+  "legenda": "Riram do seu recomeço? Deus te dá força para terminar.\n\nNeemias reergueu o muro de Jerusalém em 52 dias, mesmo com os inimigos rindo.\n\n📖 Neemias 6:9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #neemiasreconstroiomuro",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-02-1900.jpg",
+  "titulo": "Neemias reconstrói o muro",
+  "dur": 12.0,
+  "experimento": "K-B",
+  "arte": "nova",
+  "quando_antes": "2026-11-01T19:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "adiavel": true
  },
  {
   "id": "ls-2026-11-02-1700",
@@ -3227,309 +3559,279 @@
   "miniatura": "midia/miniaturas/ls-2026-11-02-1700.jpg"
  },
  {
-  "id": "lh-2026-11-01-1900",
-  "tipo": "REEL",
-  "quando": "2026-11-03T17:00:00-03:00",
+  "id": "ora-story-noite-2026-11-05",
+  "tipo": "STORY",
+  "quando": "2026-11-05T21:00:00-03:00",
   "midia": [
-   "midia/testeO/lh-2026-11-01-1900_o6bb82953.mp4"
+   "midia/lote0311/stories/story_oracao_2026-11-05_noite.jpg"
   ],
-  "legenda": "Já se sentiu rejeitado? Deus te põe à mesa do Rei.\n\nDavi mandou buscar Mefibosete, filho de Jônatas, e o fez comer sempre à sua mesa.\n\n📖 2 Samuel 9:11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mefibosete",
+  "titulo": "Oração da noite · 05/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-05.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-06",
+  "tipo": "STORY",
+  "quando": "2026-11-06T08:00:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_oracao_2026-11-06_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 06/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-06.jpg"
+ },
+ {
+  "id": "lh-2026-10-29-1900",
+  "tipo": "REEL",
+  "quando": "2026-11-06T12:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-29-1900_oeadffb1c.mp4"
+  ],
+  "legenda": "Contas apertando? Deus enche o pouco que você tem.\n\nUma viúva endividada tinha só um pote de azeite, e Eliseu a orientou a pedir vasilhas aos vizinhos.\n\n📖 2 Reis 4:7 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #aviuvaeoazeite",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/lh-2026-11-01-1900.jpg",
-  "titulo": "Mefibosete",
+  "miniatura": "midia/miniaturas/lh-2026-10-29-1900.jpg",
+  "titulo": "A viúva e o azeite",
   "dur": 12.0,
-  "experimento": "K-A",
+  "experimento": "K-B",
   "arte": "nova",
-  "quando_antes": "2026-11-02T19:00:00-03:00",
+  "quando_antes": "2026-11-02T10:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
+ },
+ {
+  "id": "lh-2026-10-31-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-06T17:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-31-1200_o635f8b5c.mp4"
+  ],
+  "legenda": "O pedido mais difícil que Deus já fez a um pai.\n\nDeus pôs Abraão à prova, e um anjo mandou parar; um carneiro foi oferecido no lugar de Isaque.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 A história completa está no perfil\n\n📖 Gênesis 22:14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #abraaoeisaque",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1200.jpg",
+  "titulo": "Abraão e Isaque",
+  "dur": 12.0,
+  "experimento": "K-B",
+  "arte": "nova",
+  "quando_antes": "2026-10-31T12:00:00-03:00",
   "experimento_grade": "P-2hist",
   "adiavel": true
  },
  {
-  "id": "ora-story-noite-2026-11-02",
+  "id": "pensar2026-11-06",
   "tipo": "STORY",
-  "quando": "2026-11-02T21:00:00-03:00",
+  "quando": "2026-11-06T17:00:00-03:00",
   "midia": [
-   "midia/oracoes/2026-11-02-noite/story_novo.jpg"
+   "midia/lote0311/stories/story_2026-11-06_para_pensar.jpg"
   ],
+  "titulo": "Para pensar: Neemias",
   "fixo": true,
-  "titulo": "Oração da noite · 02/11 (Story)",
-  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-02.jpg"
+  "miniatura": "midia/miniaturas/pensar2026-11-06.jpg"
  },
  {
-  "id": "lc2-2026-10-30-09",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-30T09:00:00-03:00",
+  "id": "ls3-2026-11-06-a-viuva-e-o-azeite",
+  "tipo": "STORY",
+  "quando": "2026-11-06T17:02:00-03:00",
   "midia": [
-   "midia/carrossel_novo/lc2-2026-10-30-09_01_20e3b8ad.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-09_02_78e56091.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-09_03_d44f762f.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-09_04_add43d85.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-09_05_9ba4b858.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-09_06_363011f7.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-09_07_a3e6f1b1.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-09_08_97d932df.jpg"
+   "midia/lote0311/stories/story_2026-11-06_resumo_a-viuva-e-o-azeite.jpg"
   ],
-  "legenda": "Uma cidade fechada por muros. Deus mandou só andar em volta.\n\n🧱 Um problema que parece uma muralha na sua frente.\n⏳ Uma espera que já dura meses ou anos.\n🤐 Uma fase em que o jeito é fazer a sua parte em silêncio.\n\nJericó era cercada por muralhas. Deus mandou o povo dar uma volta na cidade por dia, durante seis dias, sem dizer nada. No sétimo dia, deram sete voltas, os sacerdotes tocaram as trombetas, o povo gritou, e a muralha caiu.\n\nO muro não caiu no primeiro dia. Caiu no sétimo. Deus sabe a hora certa.\n\n📜 O versículo (Josué 6:2)\nDeus falou com Josué antes de qualquer volta em torno da cidade. Em palavras de hoje: \"Olhe, eu já entreguei Jericó nas suas mãos.\" A intenção do texto é mostrar que a vitória já estava prometida antes do primeiro passo do povo.\n\n📖 Josué 6 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #josue #jerico",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: Josué e Jericó. Ilustração em papel recortado.",
-   "Slide 2 de 8: Josué e Jericó. Ilustração em papel recortado.",
-   "Slide 3 de 8: Josué e Jericó. Ilustração em papel recortado.",
-   "Slide 4 de 8: Josué e Jericó. Ilustração em papel recortado.",
-   "Slide 5 de 8: Josué e Jericó. Ilustração em papel recortado.",
-   "Slide 6 de 8: Josué e Jericó. Ilustração em papel recortado.",
-   "Slide 7 de 8: Josué e Jericó. Ilustração em papel recortado.",
-   "Slide 8 de 8: Josué e Jericó. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-10-30-09.jpg",
-  "titulo": "Josué e Jericó",
-  "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
- },
- {
-  "id": "lc2-2026-10-30-20",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-30T20:00:00-03:00",
-  "midia": [
-   "midia/carrossel_novo/lc2-2026-10-30-20_01_6b06a67d.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-20_02_33ca8bb7.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-20_03_f02d54d5.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-20_04_8aeff5f7.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-20_05_a6b0252f.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-20_06_3bf56bb9.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-20_07_59217328.jpg",
-   "midia/carrossel_novo/lc2-2026-10-30-20_08_b5cc98e6.jpg"
-  ],
-  "legenda": "Ele fugia do próprio irmão. Naquela noite, o céu se abriu.\n\n🏠 Longe de casa, numa cidade ou num emprego novo.\n🌙 Uma noite em que você se sente sozinho.\n💔 Uma briga em família que ainda dói.\n\nJacó enganou o pai e ficou com a bênção do irmão, Esaú. Com medo da raiva do irmão, fugiu sozinho. No caminho, dormiu no chão, com uma pedra de travesseiro, e sonhou com uma escada que ia da terra até o céu. Deus prometeu estar com ele por onde fosse.\n\nNem todo lugar solitário está vazio. Deus pode estar aí, mesmo sem você perceber.\n\n📜 O versículo (Gênesis 28:16)\nJacó disse essas palavras quando acordou do sonho. Em palavras de hoje: \"Deus estava aqui, e eu nem sabia.\" A intenção do texto é mostrar que Deus estava com Jacó mesmo na fuga, e mesmo depois do erro.\n\n📖 Gênesis 28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jaco #deusestaaqui",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: Jacó e a escada. Ilustração em papel recortado.",
-   "Slide 2 de 8: Jacó e a escada. Ilustração em papel recortado.",
-   "Slide 3 de 8: Jacó e a escada. Ilustração em papel recortado.",
-   "Slide 4 de 8: Jacó e a escada. Ilustração em papel recortado.",
-   "Slide 5 de 8: Jacó e a escada. Ilustração em papel recortado.",
-   "Slide 6 de 8: Jacó e a escada. Ilustração em papel recortado.",
-   "Slide 7 de 8: Jacó e a escada. Ilustração em papel recortado.",
-   "Slide 8 de 8: Jacó e a escada. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-10-30-20.jpg",
-  "titulo": "Jacó e a escada",
-  "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
- },
- {
-  "id": "lc2-2026-10-31-09",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-31T09:00:00-03:00",
-  "midia": [
-   "midia/carrossel_novo/lc2-2026-10-31-09_01_46b40a46.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-09_02_5568dda5.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-09_03_34d2e2f2.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-09_04_cf74adb0.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-09_05_1e41fb9c.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-09_06_c1dd4842.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-09_07_781f468a.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-09_08_fa4f776a.jpg"
-  ],
-  "legenda": "Ele esperava um milagre grande. O profeta mandou só um recado.\n\n🙏 Uma oração que você esperava ver respondida de um jeito grandioso.\n🪞 Um conselho simples que o orgulho não deixa seguir.\n🩹 Uma ferida que já dura tempo demais.\n\nNaamã era chefe do exército da Síria e tinha lepra. O profeta Eliseu nem saiu de casa: mandou dizer que ele se lavasse sete vezes no rio Jordão. Naamã ficou furioso, mas os servos o convenceram. Ele mergulhou sete vezes, e a pele ficou limpa como a de um menino.\n\nÀs vezes, o que Deus pede é simples. O difícil é aceitar.\n\n📜 O versículo (2 Reis 5:13)\nSão as palavras dos servos de Naamã. Em palavras de hoje: \"Se o profeta tivesse pedido algo difícil, o senhor faria. Por que não fazer algo tão simples?\" A intenção do texto é mostrar que a cura veio quando Naamã deixou o orgulho de lado e obedeceu.\n\n📖 2 Reis 5 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #naama #eliseu",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: Naamã curado. Ilustração em papel recortado.",
-   "Slide 2 de 8: Naamã curado. Ilustração em papel recortado.",
-   "Slide 3 de 8: Naamã curado. Ilustração em papel recortado.",
-   "Slide 4 de 8: Naamã curado. Ilustração em papel recortado.",
-   "Slide 5 de 8: Naamã curado. Ilustração em papel recortado.",
-   "Slide 6 de 8: Naamã curado. Ilustração em papel recortado.",
-   "Slide 7 de 8: Naamã curado. Ilustração em papel recortado.",
-   "Slide 8 de 8: Naamã curado. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-10-31-09.jpg",
-  "titulo": "Naamã curado",
-  "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
- },
- {
-  "id": "lc2-2026-10-31-20",
-  "tipo": "CARROSSEL",
-  "quando": "2026-10-31T20:00:00-03:00",
-  "midia": [
-   "midia/carrossel_novo/lc2-2026-10-31-20_01_f5241df8.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-20_02_ed317485.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-20_03_4ca3b9ac.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-20_04_8e0d9c5a.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-20_05_f4b80959.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-20_06_d2f90e8b.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-20_07_536c748b.jpg",
-   "midia/carrossel_novo/lc2-2026-10-31-20_08_fa7da48f.jpg"
-  ],
-  "legenda": "O credor vinha levar os filhos dela. Ela só tinha um pote de azeite.\n\n💸 Contas que não fecham no fim do mês.\n🏠 A sensação de que não tem nada em casa para começar.\n👨‍👩‍👦 O medo de não conseguir cuidar de quem você ama.\n\nO marido de uma viúva morreu devendo, e o credor ia levar os dois filhos dela como escravos. O profeta Eliseu perguntou o que ela tinha em casa: só um pote de azeite. Ela pediu vasilhas vazias aos vizinhos, e o azeite só parou quando as vasilhas acabaram. Vendeu tudo, pagou a dívida e ainda sobrou para viver.\n\nDeus começou pelo pouco que havia na casa dela. Ele pode começar pelo seu.\n\n📜 O versículo (2 Reis 4:7)\nEliseu disse essas palavras depois que as vasilhas se encheram. Em palavras de hoje: \"Vá vender o azeite e pagar a dívida. Você e seus filhos vão viver do que sobrar.\" A intenção do texto é mostrar que Deus cuidou da família inteira: pagou o que devia e ainda deixou sustento.\n\n📖 2 Reis 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #eliseu #provisao",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: A viúva e o azeite. Ilustração em papel recortado.",
-   "Slide 2 de 8: A viúva e o azeite. Ilustração em papel recortado.",
-   "Slide 3 de 8: A viúva e o azeite. Ilustração em papel recortado.",
-   "Slide 4 de 8: A viúva e o azeite. Ilustração em papel recortado.",
-   "Slide 5 de 8: A viúva e o azeite. Ilustração em papel recortado.",
-   "Slide 6 de 8: A viúva e o azeite. Ilustração em papel recortado.",
-   "Slide 7 de 8: A viúva e o azeite. Ilustração em papel recortado.",
-   "Slide 8 de 8: A viúva e o azeite. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-10-31-20.jpg",
   "titulo": "A viúva e o azeite",
   "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls3-2026-11-06-a-viuva-e-o-azeite.jpg"
  },
  {
-  "id": "lc2-2026-11-01-09",
-  "tipo": "CARROSSEL",
-  "quando": "2026-11-01T09:00:00-03:00",
+  "id": "ora-story-noite-2026-11-06",
+  "tipo": "STORY",
+  "quando": "2026-11-06T21:00:00-03:00",
   "midia": [
-   "midia/carrossel_novo/lc2-2026-11-01-09_01_302fd6a9.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-09_02_834b2326.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-09_03_8b1f938c.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-09_04_3779ac47.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-09_05_3c805675.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-09_06_b8613334.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-09_07_98182652.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-09_08_2a2d30cc.jpg"
+   "midia/lote0311/stories/story_oracao_2026-11-06_noite.jpg"
   ],
-  "legenda": "Na frente, o mar. Atrás, o exército do faraó.\n\n🌊 Um problema na frente e outro atrás.\n😰 Uma situação em que todas as portas parecem fechadas.\n🕊️ Uma noite em que só resta esperar.\n\nO povo de Israel tinha acabado de sair do Egito quando o faraó mandou o exército atrás deles. Encurralado na beira do mar, o povo teve medo. Moisés estendeu a mão, Deus mandou um vento forte a noite inteira, e o mar se abriu. O povo atravessou pelo chão seco.\n\nQuando parece não ter saída, Deus abre caminho.\n\n📜 O versículo (Êxodo 14:14)\nMoisés disse essas palavras ao povo, na beira do mar. Em palavras de hoje: \"O Senhor vai lutar por vocês. Fiquem calmos.\" A intenção do texto é mostrar que a batalha era de Deus, e não do povo.\n\n📖 Êxodo 14 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #moises #marvermelho",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
-   "Slide 2 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
-   "Slide 3 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
-   "Slide 4 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
-   "Slide 5 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
-   "Slide 6 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
-   "Slide 7 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado.",
-   "Slide 8 de 8: Moisés e o mar Vermelho. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-11-01-09.jpg",
-  "titulo": "Moisés e o mar Vermelho",
+  "titulo": "Oração da noite · 06/11 (Story)",
   "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-06.jpg"
  },
  {
-  "id": "lc2-2026-11-01-20",
-  "tipo": "CARROSSEL",
-  "quando": "2026-11-01T20:00:00-03:00",
+  "id": "ora-story-manha-2026-11-07",
+  "tipo": "STORY",
+  "quando": "2026-11-07T08:00:00-03:00",
   "midia": [
-   "midia/carrossel_novo/lc2-2026-11-01-20_01_a02aba17.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-20_02_a4bb4e2f.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-20_03_e7fc6f92.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-20_04_4f8e4dbb.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-20_05_aa9aa5e0.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-20_06_5f714aa1.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-20_07_85a7724a.jpg",
-   "midia/carrossel_novo/lc2-2026-11-01-20_08_6109de4a.jpg"
+   "midia/lote0311/stories/story_oracao_2026-11-07_manha.jpg"
   ],
-  "legenda": "Mandaram o cego ficar quieto. Ele gritou ainda mais.\n\n🔇 A sensação de que ninguém te escuta.\n🙌 Um pedido que você já fez muitas vezes.\n🚶 Gente dizendo que não adianta insistir.\n\nBartimeu era cego e pedia esmola na saída de Jericó. Quando soube que Jesus estava passando, começou a gritar. Muitos mandaram ele ficar quieto, e ele gritou mais alto. Jesus parou e mandou chamá-lo. Bartimeu jogou a capa, foi até Jesus e pediu para ver. Na mesma hora, passou a ver.\n\nContinue chamando. Jesus escuta.\n\n📜 O versículo (Marcos 10:49)\nForam as palavras das pessoas para Bartimeu, quando Jesus mandou chamá-lo. Em palavras de hoje: \"Coragem! Levante-se, ele está te chamando.\" A intenção do texto é mostrar que Jesus parou por alguém que todos queriam calar.\n\n📖 Marcos 10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #bartimeu",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: Bartimeu. Ilustração em papel recortado.",
-   "Slide 2 de 8: Bartimeu. Ilustração em papel recortado.",
-   "Slide 3 de 8: Bartimeu. Ilustração em papel recortado.",
-   "Slide 4 de 8: Bartimeu. Ilustração em papel recortado.",
-   "Slide 5 de 8: Bartimeu. Ilustração em papel recortado.",
-   "Slide 6 de 8: Bartimeu. Ilustração em papel recortado.",
-   "Slide 7 de 8: Bartimeu. Ilustração em papel recortado.",
-   "Slide 8 de 8: Bartimeu. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-11-01-20.jpg",
-  "titulo": "Bartimeu",
+  "titulo": "Oração da manhã · 07/11 (Story)",
   "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-07.jpg"
  },
  {
-  "id": "lc2-2026-11-02-09",
-  "tipo": "CARROSSEL",
-  "quando": "2026-11-02T09:00:00-03:00",
-  "midia": [
-   "midia/carrossel_novo/lc2-2026-11-02-09_01_4e8b4a54.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-09_02_98a9627b.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-09_03_4f65b93c.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-09_04_2c371d10.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-09_05_7fc130fd.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-09_06_e4e8999c.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-09_07_36f95ca3.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-09_08_cb1d179d.jpg"
-  ],
-  "legenda": "Eram 450 profetas contra um. O desafio: fogo do céu.\n\n🧍 Ser o único a pensar diferente num lugar.\n🔥 Uma fé que parece pequena perto de tanta gente contra.\n⛰️ Um desafio que parece grande demais.\n\nNo monte Carmelo, Elias ficou sozinho contra 450 profetas do falso deus Baal. O Deus que mandasse fogo sobre o altar seria o verdadeiro. Os profetas de Baal gritaram o dia inteiro, e nada aconteceu. Elias mandou molhar o altar com doze jarros de água, orou, e caiu fogo de Deus.\n\nMesmo quando parece que só você ficou de pé, o Senhor continua sendo Deus.\n\n📜 O versículo (1 Reis 18:39)\nÉ a reação do povo que assistia, depois do fogo. Em palavras de hoje: \"Todos se ajoelharam e disseram: o Senhor é Deus!\" A intenção do texto é mostrar que Deus respondeu na frente de todos.\n\n📖 1 Reis 18 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #elias #carmelo",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
-   "Slide 2 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
-   "Slide 3 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
-   "Slide 4 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
-   "Slide 5 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
-   "Slide 6 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
-   "Slide 7 de 8: Elias no monte Carmelo. Ilustração em papel recortado.",
-   "Slide 8 de 8: Elias no monte Carmelo. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-11-02-09.jpg",
-  "titulo": "Elias no monte Carmelo",
-  "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
- },
- {
-  "id": "lc2-2026-11-02-20",
-  "tipo": "CARROSSEL",
-  "quando": "2026-11-02T20:00:00-03:00",
-  "midia": [
-   "midia/carrossel_novo/lc2-2026-11-02-20_01_6a3dca0a.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-20_02_da23db53.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-20_03_c07a4b74.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-20_04_367d43a7.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-20_05_10c587fe.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-20_06_a61456f4.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-20_07_16d2c141.jpg",
-   "midia/carrossel_novo/lc2-2026-11-02-20_08_a74d95da.jpg"
-  ],
-  "legenda": "Num só dia, Jó perdeu quase tudo. O que ele fez depois?\n\n🖤 Uma perda que mudou a sua vida.\n🤒 Uma doença ou dor que não passa.\n❓ Perguntas para Deus que ainda não têm resposta.\n\nJó era um homem bom, rico e pai de dez filhos. Num só dia, perdeu os animais, os empregados e os filhos. Depois, ficou com feridas da cabeça aos pés. Chorou, reclamou e fez perguntas, mas nunca deixou de falar com Deus. No fim, Deus falou com ele e devolveu o dobro do que tinha.\n\nNa dor, Deus não vai embora. Ele fica perto de você.\n\n📜 O versículo (Jó 42:5)\nJó disse essas palavras a Deus, no fim da história. Em palavras de hoje: \"Antes eu só tinha ouvido falar de ti. Agora eu te vejo.\" A intenção do texto é mostrar que, depois da dor, Jó conheceu Deus de perto.\n\nSe a dor estiver pesada demais, procure também a ajuda de um psicólogo ou de um profissional de saúde.\n\n📖 Jó 1, 2 e 42 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jo #esperanca",
-  "cta": null,
-  "alt": [
-   "Slide 1 de 8: Jó. Ilustração em papel recortado.",
-   "Slide 2 de 8: Jó. Ilustração em papel recortado.",
-   "Slide 3 de 8: Jó. Ilustração em papel recortado.",
-   "Slide 4 de 8: Jó. Ilustração em papel recortado.",
-   "Slide 5 de 8: Jó. Ilustração em papel recortado.",
-   "Slide 6 de 8: Jó. Ilustração em papel recortado.",
-   "Slide 7 de 8: Jó. Ilustração em papel recortado.",
-   "Slide 8 de 8: Jó. Ilustração em papel recortado."
-  ],
-  "miniatura": "midia/miniaturas/lc2-2026-11-02-20.jpg",
-  "titulo": "Jó",
-  "fixo": true,
-  "formato": "carrossel_novo",
-  "origem": "historia_do_reel"
- },
- {
-  "id": "qf-zaqueu",
+  "id": "lh-2026-11-01-1700",
   "tipo": "REEL",
-  "quando": "2026-10-31T15:00:00-03:00",
+  "quando": "2026-11-07T12:00:00-03:00",
   "midia": [
-   "midia/quemfoi/qf-zaqueu_344e2eeb.mp4"
+   "midia/testeO/lh-2026-11-01-1700_odb0b47a7.mp4"
   ],
-  "legenda": "Quem foi esse homem da Bíblia?\n\n.\n\nFoi Zaqueu! E aí, você acertou? Em qual pista você descobriu?\n\nEle era rico e baixinho, e subiu numa árvore para ver Jesus passar. Jesus disse que ficaria na casa dele, e o povo reclamou. Jesus entrou na casa de quem todos chamavam de pecador.\n\n📜 Lucas 19:1-10, Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #zaqueu",
+  "legenda": "Cansado de provar seu valor? Deus te eleva.\n\nEm Babel, o povo quis fazer uma torre até o céu; Deus misturou as línguas e eles se espalharam.\n\n📖 Gênesis 12:2 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #torredebabel",
   "na_grade": false,
   "capa_ms": 500,
   "fixo": true,
   "cta": "nenhum",
-  "miniatura": "midia/miniaturas/qf-zaqueu.jpg",
-  "titulo": "Quem foi? (Zaqueu)",
-  "dur": 19.0,
-  "arte": "quem-foi",
-  "experimento": "QF"
+  "miniatura": "midia/miniaturas/lh-2026-11-01-1700.jpg",
+  "titulo": "Torre de Babel",
+  "dur": 12.0,
+  "experimento": "K-B",
+  "arte": "nova",
+  "quando_antes": "2026-11-01T17:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "teste": true,
+  "experimento_teste": "T-12h"
+ },
+ {
+  "id": "vsabia2026-11-07",
+  "tipo": "STORY",
+  "quando": "2026-11-07T12:01:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-07_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? Torre de Babel",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-07.jpg"
+ },
+ {
+  "id": "lh-2026-10-31-1900",
+  "tipo": "REEL",
+  "quando": "2026-11-07T17:00:00-03:00",
+  "midia": [
+   "midia/testeO/lh-2026-10-31-1900_o8b7bbe64.mp4"
+  ],
+  "legenda": "Chorando sem conseguir falar? Deus ouve cada lágrima.\n\nAna orou chorando no templo, pedindo um filho, e depois teve Samuel.\nSe a dor estiver pesada demais, procure ajuda profissional.\n\n📖 1 Samuel 1:6-20 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #anaesamuel",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-10-31-1900.jpg",
+  "titulo": "Ana e Samuel",
+  "dur": 12.0,
+  "experimento": "K-A",
+  "arte": "nova",
+  "quando_antes": "2026-10-31T19:00:00-03:00",
+  "experimento_grade": "P-2hist",
+  "adiavel": true
+ },
+ {
+  "id": "ls-2026-11-01-1700",
+  "tipo": "STORY",
+  "quando": "2026-11-07T17:02:00-03:00",
+  "midia": [
+   "midia/lote27/stories/story_2026-11-01_1700_torre-de-babel_07482d77.jpg"
+  ],
+  "fixo": true,
+  "titulo": "Torre de Babel",
+  "destaque": "Coragem",
+  "miniatura": "midia/miniaturas/ls-2026-11-01-1700.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-07",
+  "tipo": "STORY",
+  "quando": "2026-11-07T21:00:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_oracao_2026-11-07_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 07/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-07.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-08",
+  "tipo": "STORY",
+  "quando": "2026-11-08T08:00:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_oracao_2026-11-08_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 08/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-08.jpg"
+ },
+ {
+  "id": "pensar2026-11-08",
+  "tipo": "STORY",
+  "quando": "2026-11-08T17:00:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-08_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: O semeador",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-08.jpg"
+ },
+ {
+  "id": "ls3-2026-11-08-noemi",
+  "tipo": "STORY",
+  "quando": "2026-11-08T17:02:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-08_resumo_noemi.jpg"
+  ],
+  "titulo": "Noemi",
+  "fixo": true,
+  "destaque": "Esperança",
+  "miniatura": "midia/miniaturas/ls3-2026-11-08-noemi.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-08",
+  "tipo": "STORY",
+  "quando": "2026-11-08T21:00:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_oracao_2026-11-08_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 08/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-08.jpg"
+ },
+ {
+  "id": "semana2026-11-08-1",
+  "tipo": "STORY",
+  "quando": "2026-11-08T21:05:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-08_semana_1_sansao.jpg"
+  ],
+  "titulo": "A semana 1/4: Sansão",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/semana2026-11-08-1.jpg"
+ },
+ {
+  "id": "semana2026-11-08-2",
+  "tipo": "STORY",
+  "quando": "2026-11-08T21:06:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-08_semana_2_neemias.jpg"
+  ],
+  "titulo": "A semana 2/4: Neemias",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/semana2026-11-08-2.jpg"
+ },
+ {
+  "id": "semana2026-11-08-3",
+  "tipo": "STORY",
+  "quando": "2026-11-08T21:07:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-08_semana_3_mefibosete.jpg"
+  ],
+  "titulo": "A semana 3/4: Mefibosete",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/semana2026-11-08-3.jpg"
+ },
+ {
+  "id": "semana2026-11-08-4",
+  "tipo": "STORY",
+  "quando": "2026-11-08T21:08:00-03:00",
+  "midia": [
+   "midia/lote0311/stories/story_2026-11-08_semana_4_noemi.jpg"
+  ],
+  "titulo": "A semana 4/4: Noemi",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/semana2026-11-08-4.jpg"
  }
 ]
