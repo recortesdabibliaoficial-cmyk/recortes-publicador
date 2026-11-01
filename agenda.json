@@ -3042,7 +3042,7 @@
  {
   "id": "lh-2026-11-01-1700",
   "tipo": "REEL",
-  "quando": "2026-11-05T12:00:00-03:00",
+  "quando": "2026-11-07T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-01-1700_odb0b47a7.mp4"
   ],
@@ -3064,7 +3064,7 @@
  {
   "id": "ls-2026-11-01-1700",
   "tipo": "STORY",
-  "quando": "2026-11-01T17:02:00-03:00",
+  "quando": "2026-11-07T17:02:00-03:00",
   "midia": [
    "midia/lote27/stories/story_2026-11-01_1700_torre-de-babel_07482d77.jpg"
   ],
@@ -3128,28 +3128,6 @@
   "miniatura": "midia/miniaturas/semana2026-11-01-2.jpg"
  },
  {
-  "id": "semana2026-11-01-3",
-  "tipo": "STORY",
-  "quando": "2026-11-01T21:07:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-11-01_semana_3_abraao e isaque.jpg"
-  ],
-  "fixo": true,
-  "titulo": "A semana 3/4: Abraão e Isaque",
-  "miniatura": "midia/miniaturas/semana2026-11-01-3.jpg"
- },
- {
-  "id": "semana2026-11-01-4",
-  "tipo": "STORY",
-  "quando": "2026-11-01T21:08:00-03:00",
-  "midia": [
-   "midia/stories/story_2026-11-01_semana_4_adao e eva.jpg"
-  ],
-  "fixo": true,
-  "titulo": "A semana 4/4: Adão e Eva",
-  "miniatura": "midia/miniaturas/semana2026-11-01-4.jpg"
- },
- {
   "id": "ora-story-manha-2026-11-02",
   "tipo": "STORY",
   "quando": "2026-11-02T08:00:00-03:00",
@@ -3206,7 +3184,7 @@
  {
   "id": "lh-2026-11-02-1700",
   "tipo": "REEL",
-  "quando": "2026-11-07T12:00:00-03:00",
+  "quando": "2026-11-05T12:00:00-03:00",
   "midia": [
    "midia/testeO/lh-2026-11-02-1700_o7c42e799.mp4"
   ],
@@ -3239,7 +3217,7 @@
  {
   "id": "ls-2026-11-02-1700",
   "tipo": "STORY",
-  "quando": "2026-11-02T17:02:00-03:00",
+  "quando": "2026-11-05T17:02:00-03:00",
   "midia": [
    "midia/lote27/stories/story_2026-11-02_1700_davi-e-jonatas_9e5dbd24.jpg"
   ],
