@@ -3474,18 +3474,19 @@
   "lido_em": "2026-11-02T02:31:13.478446+00:00"
  },
  "vsabia2026-11-01": {
-  "reach": 6,
-  "views": 9,
+  "reach": 7,
+  "views": 13,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 1,
   "nav": {
-   "tap_exit": 2,
-   "tap_forward": 5
+   "tap_back": 1,
+   "tap_exit": 3,
+   "tap_forward": 7
   },
-  "lido_em": "2026-11-02T10:41:17.812349+00:00"
+  "lido_em": "2026-11-02T12:45:48.712689+00:00"
  },
  "lh-2026-10-30-1700": {
   "reach": 184,
@@ -3501,45 +3502,46 @@
   "lido_em": "2026-11-02T02:31:13.478446+00:00"
  },
  "ora-story-noite-2026-11-01": {
-  "reach": 5,
-  "views": 5,
+  "reach": 7,
+  "views": 8,
   "replies": 0,
   "shares": 0,
-  "total_interactions": 0,
+  "total_interactions": 1,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
    "swipe_forward": 1,
-   "tap_forward": 3
+   "tap_forward": 4,
+   "tap_back": 2
   },
-  "lido_em": "2026-11-02T10:41:17.812349+00:00"
+  "lido_em": "2026-11-02T12:45:48.712689+00:00"
  },
  "semana2026-11-01-1": {
-  "reach": 5,
-  "views": 5,
+  "reach": 6,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "swipe_forward": 1,
-   "tap_forward": 4
+   "tap_forward": 5,
+   "swipe_forward": 1
   },
-  "lido_em": "2026-11-02T10:41:17.812349+00:00"
+  "lido_em": "2026-11-02T12:45:48.712689+00:00"
  },
  "semana2026-11-01-2": {
-  "reach": 5,
-  "views": 5,
+  "reach": 6,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 4
+   "tap_forward": 5
   },
-  "lido_em": "2026-11-02T10:41:17.812349+00:00"
+  "lido_em": "2026-11-02T12:45:48.712689+00:00"
  },
  "m-paes-peixes-2026-10-30": {
   "reach": 186,
