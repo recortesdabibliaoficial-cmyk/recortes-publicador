@@ -3554,34 +3554,34 @@
    "tap_forward": 4,
    "tap_back": 2
   },
-  "lido_em": "2026-11-02T20:41:30.960779+00:00"
+  "lido_em": "2026-11-02T22:46:23.468566+00:00"
  },
  "semana2026-11-01-1": {
-  "reach": 6,
-  "views": 6,
+  "reach": 7,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 5,
-   "swipe_forward": 1
+   "swipe_forward": 1,
+   "tap_forward": 6
   },
-  "lido_em": "2026-11-02T20:41:30.960779+00:00"
+  "lido_em": "2026-11-02T22:46:23.468566+00:00"
  },
  "semana2026-11-01-2": {
-  "reach": 6,
-  "views": 6,
+  "reach": 7,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 5
+   "tap_forward": 6
   },
-  "lido_em": "2026-11-02T20:41:30.960779+00:00"
+  "lido_em": "2026-11-02T22:46:23.468566+00:00"
  },
  "m-paes-peixes-2026-10-30": {
   "reach": 196,
@@ -3609,14 +3609,18 @@
   "lido_em": "2026-11-02T14:31:17.084754+00:00"
  },
  "ora-story-manha-2026-11-02": {
-  "reach": 0,
-  "views": 8,
+  "reach": 5,
+  "views": 9,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-02T20:41:30.960779+00:00"
+  "nav": {
+   "swipe_forward": 1,
+   "tap_forward": 4
+  },
+  "lido_em": "2026-11-02T22:46:23.468566+00:00"
  },
  "lc2-2026-11-02-09": {
   "reach": 1,
