@@ -2207,6 +2207,10 @@
   {
    "t": "2026-11-01T21:31-03:00",
    "n": 117
+  },
+  {
+   "t": "2026-11-01T22:26-03:00",
+   "n": 117
   }
  ],
  "pensar2026-10-23": {
@@ -3391,18 +3395,18 @@
   "lido_em": "2026-11-01T23:25:00.342762+00:00"
  },
  "ora-story-manha-2026-11-01": {
-  "reach": 5,
-  "views": 7,
+  "reach": 6,
+  "views": 8,
   "replies": 0,
   "shares": 0,
   "total_interactions": 1,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_exit": 1,
-   "tap_forward": 2
+   "tap_forward": 3,
+   "tap_exit": 1
   },
-  "lido_em": "2026-11-01T23:25:00.342762+00:00"
+  "lido_em": "2026-11-02T01:26:10.935929+00:00"
  },
  "lc2-2026-11-01-09": {
   "reach": 2,
@@ -3417,14 +3421,18 @@
   "lido_em": "2026-11-01T15:17:37.501935+00:00"
  },
  "vsabia2026-11-01": {
-  "reach": 0,
-  "views": 6,
+  "reach": 5,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-01T23:25:00.342762+00:00"
+  "nav": {
+   "tap_forward": 5,
+   "tap_exit": 1
+  },
+  "lido_em": "2026-11-02T01:26:10.935929+00:00"
  },
  "lh-2026-10-30-1700": {
   "reach": 0,
