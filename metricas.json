@@ -2251,6 +2251,10 @@
   {
    "t": "2026-11-02T06:41-03:00",
    "n": 117
+  },
+  {
+   "t": "2026-11-02T07:41-03:00",
+   "n": 117
   }
  ],
  "pensar2026-10-23": {
@@ -3447,7 +3451,7 @@
    "tap_exit": 1,
    "swipe_forward": 1
   },
-  "lido_em": "2026-11-02T08:36:17.883894+00:00"
+  "lido_em": "2026-11-02T10:41:17.812349+00:00"
  },
  "lc2-2026-11-01-09": {
   "reach": 4,
@@ -3473,7 +3477,7 @@
    "tap_exit": 2,
    "tap_forward": 5
   },
-  "lido_em": "2026-11-02T08:36:17.883894+00:00"
+  "lido_em": "2026-11-02T10:41:17.812349+00:00"
  },
  "lh-2026-10-30-1700": {
   "reach": 184,
@@ -3489,34 +3493,45 @@
   "lido_em": "2026-11-02T02:31:13.478446+00:00"
  },
  "ora-story-noite-2026-11-01": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-02T08:36:17.883894+00:00"
+  "nav": {
+   "swipe_forward": 1,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-02T10:41:17.812349+00:00"
  },
  "semana2026-11-01-1": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-02T08:36:17.883894+00:00"
+  "nav": {
+   "swipe_forward": 1,
+   "tap_forward": 4
+  },
+  "lido_em": "2026-11-02T10:41:17.812349+00:00"
  },
  "semana2026-11-01-2": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-02T08:36:17.883894+00:00"
+  "nav": {
+   "tap_forward": 4
+  },
+  "lido_em": "2026-11-02T10:41:17.812349+00:00"
  },
  "m-paes-peixes-2026-10-30": {
   "reach": 186,
