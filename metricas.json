@@ -3706,7 +3706,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-03T10:40:49.265420+00:00"
+  "lido_em": "2026-11-03T12:41:14.523488+00:00"
  },
  "ls3-2026-11-02-o-semeador": {
   "reach": 5,
@@ -3720,17 +3720,20 @@
    "tap_forward": 3,
    "tap_exit": 1
   },
-  "lido_em": "2026-11-03T10:40:49.265420+00:00"
+  "lido_em": "2026-11-03T12:41:14.523488+00:00"
  },
  "ora-story-noite-2026-11-02": {
-  "reach": 0,
-  "views": 6,
+  "reach": 5,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-03T10:40:49.265420+00:00"
+  "nav": {
+   "tap_forward": 5
+  },
+  "lido_em": "2026-11-03T12:41:14.523488+00:00"
  },
  "lh-2026-11-02-1000": {
   "reach": 177,
