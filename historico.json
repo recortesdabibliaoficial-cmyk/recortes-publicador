@@ -24807,7 +24807,7 @@
     "ig_reels_video_view_total_time": 1808272
    },
    "post16": {
-    "reach": 4,
+    "reach": 5,
     "views": 8,
     "likes": 0,
     "comments": 0,
@@ -24819,14 +24819,14 @@
    },
    "htexto14-2026-10-24": {
     "reach": 3469,
-    "views": 8251,
+    "views": 8252,
     "likes": 235,
     "comments": 48,
     "saved": 14,
     "shares": 3,
     "total_interactions": 305,
     "ig_reels_avg_watch_time": 23435,
-    "reels_skip_rate": 38.3,
+    "reels_skip_rate": 38.2,
     "ig_reels_video_view_total_time": 84274233
    },
    "vmsg2026-10-24": {
@@ -25992,9 +25992,9 @@
     "profile_visits": 0
    }
   },
-  "em": "2026-11-02T23:30-03:00",
+  "em": "2026-11-02T23:31-03:00",
   "conta": {
-   "reach": 627,
+   "reach": 628,
    "views": 971,
    "accounts_engaged": 35,
    "total_interactions": 43,
@@ -26009,7 +26009,7 @@
   },
   "quebras": {
    "reach:follow_type": {
-    "FOLLOWER": 16,
+    "FOLLOWER": 17,
     "NON_FOLLOWER": 611
    },
    "views:follow_type": {
@@ -26038,10 +26038,10 @@
    },
    "comments:media_product_type": {},
    "reach:media_product_type": {
-    "DEFAULT_DO_NOT_USE": 1,
-    "REEL": 619,
+    "CAROUSEL_CONTAINER": 7,
     "STORY": 6,
-    "CAROUSEL_CONTAINER": 6
+    "REEL": 619,
+    "DEFAULT_DO_NOT_USE": 1
    },
    "follows_and_unfollows:follow_type": {}
   },
