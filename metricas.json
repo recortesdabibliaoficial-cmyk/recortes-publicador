@@ -3772,17 +3772,18 @@
   "lido_em": "2026-11-03T18:49:34.979910+00:00"
  },
  "ora-story-noite-2026-11-02": {
-  "reach": 6,
-  "views": 10,
+  "reach": 7,
+  "views": 11,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
+   "swipe_forward": 1,
    "tap_forward": 7
   },
-  "lido_em": "2026-11-03T21:07:08.686855+00:00"
+  "lido_em": "2026-11-03T23:10:53.521606+00:00"
  },
  "lh-2026-11-02-1000": {
   "reach": 179,
@@ -3835,7 +3836,7 @@
    "tap_back": 1,
    "tap_forward": 4
   },
-  "lido_em": "2026-11-03T21:07:08.686855+00:00"
+  "lido_em": "2026-11-03T23:10:53.521606+00:00"
  },
  "lc2-2026-11-03-09": {
   "reach": 1,
