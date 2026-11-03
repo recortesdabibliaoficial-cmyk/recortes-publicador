@@ -600,7 +600,8 @@
   "media_id": "17880994467543797",
   "em": "2026-10-21T00:02:38.485616+00:00",
   "link": "https://www.instagram.com/reel/DevEtsAjckd/",
-  "fora_do_ar_em": "2026-10-27T13:06:39.847809+00:00"
+  "fora_do_ar_em": "2026-11-03T14:36:14.605665+00:00",
+  "fora_motivo": "17880994467543797/insights: {'message': \"Unsupported get request. Object with ID '17880994467543797' does not exist, cannot be loaded due to missing p"
  },
  "repost01": {
   "tentativas": 0,
@@ -622,7 +623,8 @@
   "media_id": "18119247925959703",
   "em": "2026-10-21T11:03:12.803195+00:00",
   "link": "https://www.instagram.com/reel/DewQTvmFOuU/",
-  "fora_do_ar_em": "2026-10-27T13:06:39.847809+00:00"
+  "fora_do_ar_em": "2026-11-03T14:36:14.605665+00:00",
+  "fora_motivo": "18119247925959703/insights: {'message': \"Unsupported get request. Object with ID '18119247925959703' does not exist, cannot be loaded due to missing p"
  },
  "post13": {
   "tentativas": 0,
@@ -665,7 +667,8 @@
   "media_id": "18255016093308811",
   "em": "2026-10-22T00:02:34.904277+00:00",
   "link": "https://www.instagram.com/reel/DexpgCDj5eY/",
-  "fora_do_ar_em": "2026-10-27T13:06:39.847809+00:00"
+  "fora_do_ar_em": "2026-11-03T14:36:14.605665+00:00",
+  "fora_motivo": "18255016093308811/insights: {'message': \"Unsupported get request. Object with ID '18255016093308811' does not exist, cannot be loaded due to missing p"
  },
  "repost02": {
   "tentativas": 0,
@@ -687,7 +690,8 @@
   "media_id": "18090001838265794",
   "em": "2026-10-22T11:02:56.909807+00:00",
   "link": "https://www.instagram.com/reel/Dey1FROEbCt/",
-  "fora_do_ar_em": "2026-10-27T13:06:39.847809+00:00"
+  "fora_do_ar_em": "2026-11-03T14:36:14.605665+00:00",
+  "fora_motivo": "18090001838265794/insights: {'message': \"Unsupported get request. Object with ID '18090001838265794' does not exist, cannot be loaded due to missing p"
  },
  "post14": {
   "tentativas": 0,
@@ -760,7 +764,8 @@
   "media_id": "18027423857704559",
   "em": "2026-10-23T00:02:26.332721+00:00",
   "link": "https://www.instagram.com/reel/De0OSBCjDZi/",
-  "fora_do_ar_em": "2026-10-27T13:06:39.847809+00:00"
+  "fora_do_ar_em": "2026-11-03T14:36:14.605665+00:00",
+  "fora_motivo": "18027423857704559/insights: {'message': \"Unsupported get request. Object with ID '18027423857704559' does not exist, cannot be loaded due to missing p"
  },
  "repost03": {
   "tentativas": 0,
