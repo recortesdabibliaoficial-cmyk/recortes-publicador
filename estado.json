@@ -1691,6 +1691,11 @@
     "em": "2026-11-04T20:01+00:00",
     "reel": "lh-2026-11-01-1000",
     "views_hora": 396
+   },
+   {
+    "em": "2026-11-04T20:06+00:00",
+    "reel": "lh-2026-11-01-1000",
+    "views_hora": 415
    }
   ]
  },
@@ -1700,5 +1705,12 @@
   "media_id": "17917282680494403",
   "em": "2026-11-04T20:01:24.026875+00:00",
   "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4023197013525315565"
+ },
+ "ls3-2026-11-04-jose-e-o-manto-colorido": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18071296439607955",
+  "em": "2026-11-04T20:06:29.884571+00:00",
+  "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4023199450600616149"
  }
 }
