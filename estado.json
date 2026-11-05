@@ -6,7 +6,7 @@
   "em": "2026-10-12T13:05:04+00:00",
   "link": "https://www.instagram.com/p/DeZTG_vjVrb/",
   "via": "metricool",
-  "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "18022784750924058/insights: {'message': \"Unsupported get request. Object with ID '18022784750924058' does not exist, cannot be loaded due to missing p"
  },
  "mc-carrossel02": {
@@ -15,7 +15,7 @@
   "em": "2026-10-12T15:05:24+00:00",
   "link": "https://www.instagram.com/p/DeZg4CiCLg_/",
   "via": "metricool",
-  "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "18125097997848249/insights: {'message': \"Unsupported get request. Object with ID '18125097997848249' does not exist, cannot be loaded due to missing p"
  },
  "comeceaqui": {
@@ -31,17 +31,17 @@
   "em": "2026-10-12T18:04:20+00:00",
   "link": "https://www.instagram.com/p/DeZ1W6vFXHL/",
   "via": "metricool",
-  "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "17991327594019598/insights: {'message': \"Unsupported get request. Object with ID '17991327594019598' does not exist, cannot be loaded due to missing p"
  },
- "_comentarios_em": "2026-11-05T00:31:24.680671+00:00",
+ "_comentarios_em": "2026-11-05T02:31:55.176446+00:00",
  "mc-carrossel04": {
   "status": "publicado",
   "media_id": "18117935720074552",
   "em": "2026-10-12T21:03:02+00:00",
   "link": "https://www.instagram.com/p/DeaJz2kFZIi/",
   "via": "metricool",
-  "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "18117935720074552/insights: {'message': \"Unsupported get request. Object with ID '18117935720074552' does not exist, cannot be loaded due to missing p"
  },
  "story2026-10-12": {
@@ -78,7 +78,7 @@
   "em": "2026-10-13T13:04:38+00:00",
   "link": "https://www.instagram.com/p/Deb32xiDdne/",
   "via": "metricool",
-  "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "18094582685176962/insights: {'message': \"Unsupported get request. Object with ID '18094582685176962' does not exist, cannot be loaded due to missing p"
  },
  "reel02": {
@@ -87,7 +87,7 @@
   "media_id": "18469641880137566",
   "em": "2026-10-13T16:01:28.285513+00:00",
   "link": "https://www.instagram.com/reel/DecMD9-DTd0/",
-  "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "18469641880137566/insights: {'message': \"Unsupported get request. Object with ID '18469641880137566' does not exist, cannot be loaded due to missing p"
  },
  "reel01": {
@@ -96,7 +96,7 @@
   "media_id": "17941427352364508",
   "em": "2026-10-13T22:01:14.275838+00:00",
   "link": "https://www.instagram.com/reel/Dec1QLxgD3f/",
-  "fora_do_ar_em": "2026-10-28T02:31:41.740136+00:00",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "17941427352364508/insights: {'message': \"Unsupported get request. Object with ID '17941427352364508' does not exist, cannot be loaded due to missing p"
  },
  "story2026-10-13": {
@@ -564,7 +564,9 @@
   "status": "publicado",
   "media_id": "17973017349158321",
   "em": "2026-10-20T15:02:16.220442+00:00",
-  "link": "https://www.instagram.com/p/DeuG5v8kd_B/"
+  "link": "https://www.instagram.com/p/DeuG5v8kd_B/",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
+  "fora_motivo": "17973017349158321/insights: {'message': \"Unsupported get request. Object with ID '17973017349158321' does not exist, cannot be loaded due to missing p"
  },
  "htexto08-2026-10-20": {
   "tentativas": 0,
@@ -859,7 +861,9 @@
   "status": "publicado",
   "media_id": "17971350174190299",
   "em": "2026-10-24T11:01:31.258365+00:00",
-  "link": "https://www.instagram.com/p/De3-h8WIKWf/"
+  "link": "https://www.instagram.com/p/De3-h8WIKWf/",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
+  "fora_motivo": "17971350174190299/insights: {'message': \"Unsupported get request. Object with ID '17971350174190299' does not exist, cannot be loaded due to missing p"
  },
  "ora-story-manha-2026-10-24": {
   "tentativas": 0,
@@ -968,7 +972,9 @@
   "status": "publicado",
   "media_id": "18118258696957323",
   "em": "2026-10-25T15:02:04.573689+00:00",
-  "link": "https://www.instagram.com/p/De6-2v4m_j4/"
+  "link": "https://www.instagram.com/p/De6-2v4m_j4/",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
+  "fora_motivo": "18118258696957323/insights: {'message': \"Unsupported get request. Object with ID '18118258696957323' does not exist, cannot be loaded due to missing p"
  },
  "story2026-10-25": {
   "tentativas": 0,
@@ -1040,7 +1046,9 @@
   "status": "publicado",
   "media_id": "18284319286295839",
   "em": "2026-10-26T11:02:14.465585+00:00",
-  "link": "https://www.instagram.com/p/De9INFDG847/"
+  "link": "https://www.instagram.com/p/De9INFDG847/",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
+  "fora_motivo": "18284319286295839/insights: {'message': \"Unsupported get request. Object with ID '18284319286295839' does not exist, cannot be loaded due to missing p"
  },
  "ora-story-manha-2026-10-26": {
   "tentativas": 0,
@@ -1062,7 +1070,9 @@
   "status": "publicado",
   "media_id": "18023112380979260",
   "em": "2026-10-26T15:01:53.369880+00:00",
-  "link": "https://www.instagram.com/p/De9joRxlJTj/"
+  "link": "https://www.instagram.com/p/De9joRxlJTj/",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
+  "fora_motivo": "18023112380979260/insights: {'message': \"Unsupported get request. Object with ID '18023112380979260' does not exist, cannot be loaded due to missing p"
  },
  "story2026-10-26": {
   "tentativas": 0,
@@ -1183,7 +1193,9 @@
   "status": "publicado",
   "media_id": "18126232186677932",
   "em": "2026-10-27T15:02:14.450215+00:00",
-  "link": "https://www.instagram.com/p/DfAIfczEbC7/"
+  "link": "https://www.instagram.com/p/DfAIfczEbC7/",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
+  "fora_motivo": "18126232186677932/insights: {'message': \"Unsupported get request. Object with ID '18126232186677932' does not exist, cannot be loaded due to missing p"
  },
  "lh-2026-10-27-1200": {
   "tentativas": 0,
@@ -1254,7 +1266,9 @@
   "status": "publicado",
   "media_id": "18096065846443099",
   "em": "2026-10-28T15:02:37.862653+00:00",
-  "link": "https://www.instagram.com/p/DfCtTd-ljQ2/"
+  "link": "https://www.instagram.com/p/DfCtTd-ljQ2/",
+  "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
+  "fora_motivo": "18096065846443099/insights: {'message': \"Unsupported get request. Object with ID '18096065846443099' does not exist, cannot be loaded due to missing p"
  },
  "lh-2026-10-28-1200b": {
   "tentativas": 0,
