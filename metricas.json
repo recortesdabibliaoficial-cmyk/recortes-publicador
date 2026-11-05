@@ -2611,6 +2611,10 @@
   {
    "t": "2026-11-05T17:11-03:00",
    "n": 141
+  },
+  {
+   "t": "2026-11-05T18:10-03:00",
+   "n": 142
   }
  ],
  "pensar2026-10-23": {
@@ -4187,7 +4191,7 @@
   "lido_em": "2026-11-05T19:06:07.476803+00:00"
  },
  "ora-story-noite-2026-11-04": {
-  "reach": 10,
+  "reach": 11,
   "views": 11,
   "replies": 0,
   "shares": 0,
@@ -4195,9 +4199,9 @@
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 9
+   "tap_forward": 10
   },
-  "lido_em": "2026-11-05T19:06:07.476803+00:00"
+  "lido_em": "2026-11-05T21:10:38.629302+00:00"
  },
  "lh-2026-11-01-1000": {
   "reach": 2908,
@@ -4240,18 +4244,19 @@
   "lido_em": "2026-11-05T19:21:09.861681+00:00"
  },
  "vsabia2026-11-05": {
-  "reach": 5,
-  "views": 8,
+  "reach": 7,
+  "views": 9,
   "replies": 0,
   "shares": 0,
   "total_interactions": 1,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "swipe_forward": 1,
-   "tap_forward": 4
+   "tap_exit": 1,
+   "tap_forward": 5,
+   "swipe_forward": 1
   },
-  "lido_em": "2026-11-05T19:06:07.476803+00:00"
+  "lido_em": "2026-11-05T21:10:38.629302+00:00"
  },
  "ls-2026-11-02-1700": {
   "reach": 0,
