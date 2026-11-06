@@ -2117,5 +2117,14 @@
   "media_id": "17922121983244961",
   "em": "2026-11-06T11:05:54.818069+00:00",
   "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4024376919181408047"
+ },
+ "lh-2026-10-29-1900": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18106822055197738",
+  "em": "2026-11-06T15:01:27.277070+00:00",
+  "link": "https://www.instagram.com/reel/DfZ4S9hDz_6/",
+  "como_teste": false,
+  "teste_recusado": "17841437496307089/media: {'message': 'Application does not have permission for this action', 'type': 'OAuthException', 'code': 10, 'error_subcode': 2207081, 'is_transient': False, 'error_user_title': "
  }
 }
