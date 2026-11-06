@@ -2623,6 +2623,10 @@
   {
    "t": "2026-11-05T20:01-03:00",
    "n": 142
+  },
+  {
+   "t": "2026-11-05T21:01-03:00",
+   "n": 142
   }
  ],
  "pensar2026-10-23": {
@@ -4314,5 +4318,15 @@
   "reels_skip_rate": 39.6,
   "ig_reels_video_view_total_time": 340849,
   "lido_em": "2026-11-05T21:47:48.532594+00:00"
+ },
+ "ora-story-noite-2026-11-05": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-11-06T00:01:08.927121+00:00"
  }
 }
