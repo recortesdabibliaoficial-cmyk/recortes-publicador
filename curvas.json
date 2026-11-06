@@ -27872,6 +27872,17 @@
     "ig_reels_avg_watch_time": 0,
     "t": "2026-11-06T16:00+00:00",
     "h": 0.99
+   },
+   {
+    "reach": 12,
+    "views": 25,
+    "likes": 0,
+    "shares": 0,
+    "saved": 0,
+    "reels_skip_rate": 53.3,
+    "ig_reels_avg_watch_time": 8480,
+    "t": "2026-11-06T16:55+00:00",
+    "h": 1.9
    }
   ]
  }
