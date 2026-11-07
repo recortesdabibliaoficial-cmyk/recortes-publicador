@@ -4463,14 +4463,18 @@
   "lido_em": "2026-11-07T02:10:43.534074+00:00"
  },
  "ls3-2026-11-06-a-viuva-e-o-azeite": {
-  "reach": 0,
-  "views": 3,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-07T00:15:41.587542+00:00"
+  "nav": {
+   "tap_forward": 3,
+   "swipe_forward": 1
+  },
+  "lido_em": "2026-11-07T02:18:45.723243+00:00"
  },
  "ora-story-noite-2026-11-06": {
   "reach": 0,
