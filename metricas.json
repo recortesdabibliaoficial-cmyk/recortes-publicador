@@ -4450,14 +4450,17 @@
   "lido_em": "2026-11-07T00:50:38.931421+00:00"
  },
  "pensar2026-11-06": {
-  "reach": 0,
-  "views": 3,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-07T00:10:38.906173+00:00"
+  "nav": {
+   "tap_forward": 4
+  },
+  "lido_em": "2026-11-07T02:10:43.534074+00:00"
  },
  "ls3-2026-11-06-a-viuva-e-o-azeite": {
   "reach": 0,
