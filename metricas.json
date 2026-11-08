@@ -4539,14 +4539,19 @@
   "lido_em": "2026-11-08T02:30:58.371570+00:00"
  },
  "ora-story-manha-2026-11-07": {
-  "reach": 0,
-  "views": 9,
+  "reach": 5,
+  "views": 10,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-08T02:30:58.371570+00:00"
+  "nav": {
+   "swipe_forward": 3,
+   "tap_forward": 1,
+   "tap_exit": 2
+  },
+  "lido_em": "2026-11-08T04:32:34.381297+00:00"
  },
  "vsabia2026-11-07": {
   "reach": 0,
@@ -4556,7 +4561,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-08T02:30:58.371570+00:00"
+  "lido_em": "2026-11-08T04:32:34.381297+00:00"
  },
  "ls-2026-11-01-1700": {
   "reach": 0,
@@ -4566,7 +4571,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-08T02:30:58.371570+00:00"
+  "lido_em": "2026-11-08T04:32:34.381297+00:00"
  },
  "ora-story-noite-2026-11-07": {
   "reach": 0,
@@ -4576,7 +4581,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-08T02:30:58.371570+00:00"
+  "lido_em": "2026-11-08T04:32:34.381297+00:00"
  },
  "lh-2026-11-01-1700": {
   "reach": 169,
