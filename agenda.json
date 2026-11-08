@@ -4419,5 +4419,201 @@
   "arte": "nova",
   "experimento": "R-B",
   "adiavel": true
+ },
+ {
+  "id": "lc3-2026-11-09-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-09T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc3-2026-11-09-20_01_d93bff08.jpg",
+   "midia/carrossel_novo/lc3-2026-11-09-20_02_bcbf6aa1.jpg",
+   "midia/carrossel_novo/lc3-2026-11-09-20_03_d3e3f9d5.jpg",
+   "midia/carrossel_novo/lc3-2026-11-09-20_04_0734bb8c.jpg",
+   "midia/carrossel_novo/lc3-2026-11-09-20_05_90980f91.jpg",
+   "midia/carrossel_novo/lc3-2026-11-09-20_06_26b377c8.jpg"
+  ],
+  "legenda": "Chorou anos por um filho? Deus via cada lágrima.\n\nJacó passou anos achando que o filho estava morto. No reencontro, os dois só conseguiram chorar abraçados.\n\n📜 O versículo (Gênesis 46:29)\n\"lançou-se sobre seu pescoço, e chorou sobre seu pescoço bastante.\"\n\n📖 Gênesis 37 e 45 a 46 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #josedoegito",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6: José reencontra o pai. Texto sobre ilustração em papel recortado.",
+   "Slide 2 de 6: José reencontra o pai. Texto sobre ilustração em papel recortado.",
+   "Slide 3 de 6: José reencontra o pai. Texto sobre ilustração em papel recortado.",
+   "Slide 4 de 6: José reencontra o pai. Texto sobre ilustração em papel recortado.",
+   "Slide 5 de 6: José reencontra o pai. Texto sobre ilustração em papel recortado.",
+   "Slide 6 de 6: José reencontra o pai. Texto sobre ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc3-2026-11-09-20.jpg",
+  "titulo": "José reencontra o pai",
+  "fixo": true,
+  "formato": "carrossel_simples",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc3-2026-11-10-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-10T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc3-2026-11-10-20_01_f450bac0.jpg",
+   "midia/carrossel_novo/lc3-2026-11-10-20_02_d1522ec6.jpg",
+   "midia/carrossel_novo/lc3-2026-11-10-20_03_bf609dde.jpg",
+   "midia/carrossel_novo/lc3-2026-11-10-20_04_07b41401.jpg",
+   "midia/carrossel_novo/lc3-2026-11-10-20_05_fe43a006.jpg",
+   "midia/carrossel_novo/lc3-2026-11-10-20_06_b57f24d2.jpg"
+  ],
+  "legenda": "Perdeu o único filho? Jesus parou por ela.\n\nNinguém pediu nada a Jesus. Ele viu a dor da mãe e se aproximou primeiro.\n\n📜 O versículo (Lucas 7:13)\n\"Quando o Senhor a viu, comoveu-se de intima compaixão por ela, e disse-lhe: Não chores.\"\n\n📖 Lucas 7:11-17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesus",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6: A viúva de Naim. Texto sobre ilustração em papel recortado.",
+   "Slide 2 de 6: A viúva de Naim. Texto sobre ilustração em papel recortado.",
+   "Slide 3 de 6: A viúva de Naim. Texto sobre ilustração em papel recortado.",
+   "Slide 4 de 6: A viúva de Naim. Texto sobre ilustração em papel recortado.",
+   "Slide 5 de 6: A viúva de Naim. Texto sobre ilustração em papel recortado.",
+   "Slide 6 de 6: A viúva de Naim. Texto sobre ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc3-2026-11-10-20.jpg",
+  "titulo": "A viúva de Naim",
+  "fixo": true,
+  "formato": "carrossel_simples",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc3-2026-11-11-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-11T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc3-2026-11-11-20_01_64ebe073.jpg",
+   "midia/carrossel_novo/lc3-2026-11-11-20_02_d1a6d345.jpg",
+   "midia/carrossel_novo/lc3-2026-11-11-20_03_0bf52dea.jpg",
+   "midia/carrossel_novo/lc3-2026-11-11-20_04_4e63f928.jpg",
+   "midia/carrossel_novo/lc3-2026-11-11-20_05_ce6daff7.jpg",
+   "midia/carrossel_novo/lc3-2026-11-11-20_06_b084a707.jpg"
+  ],
+  "legenda": "Na maior dor, Jesus pensou na mãe.\n\nNa hora da maior dor, Jesus deixou a mãe aos cuidados do discípulo que ele amava.\n\n📜 O versículo (João 19:26-27)\n\"disse a sua mãe: Mulher, eis aí teu filho. Depois disse ao discípulo: Eis aí tua mãe.\"\n\n📖 João 19:25-27 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #maria",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6: Jesus e a mãe na cruz. Texto sobre ilustração em papel recortado.",
+   "Slide 2 de 6: Jesus e a mãe na cruz. Texto sobre ilustração em papel recortado.",
+   "Slide 3 de 6: Jesus e a mãe na cruz. Texto sobre ilustração em papel recortado.",
+   "Slide 4 de 6: Jesus e a mãe na cruz. Texto sobre ilustração em papel recortado.",
+   "Slide 5 de 6: Jesus e a mãe na cruz. Texto sobre ilustração em papel recortado.",
+   "Slide 6 de 6: Jesus e a mãe na cruz. Texto sobre ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc3-2026-11-11-20.jpg",
+  "titulo": "Jesus e a mãe na cruz",
+  "fixo": true,
+  "formato": "carrossel_simples",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc3-2026-11-12-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-12T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc3-2026-11-12-20_01_6be96d64.jpg",
+   "midia/carrossel_novo/lc3-2026-11-12-20_02_681158e5.jpg",
+   "midia/carrossel_novo/lc3-2026-11-12-20_03_af13b981.jpg",
+   "midia/carrossel_novo/lc3-2026-11-12-20_04_59ad8701.jpg",
+   "midia/carrossel_novo/lc3-2026-11-12-20_05_89d3d6eb.jpg",
+   "midia/carrossel_novo/lc3-2026-11-12-20_06_6ce0737c.jpg"
+  ],
+  "legenda": "Medo pela sua família? Deus guardou a de Raabe.\n\nRaabe pediu proteção para o pai, a mãe e os irmãos. Quando Jericó caiu, toda a família dela foi salva.\n\n📜 O versículo (Josué 6:25)\n\"Mas Josué salvou a vida a Raabe a prostituta, e à casa de seu pai, e a tudo o que ela tinha\"\n\n📖 Josué 2 e 6 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #familia",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6: Raabe salva a família. Texto sobre ilustração em papel recortado.",
+   "Slide 2 de 6: Raabe salva a família. Texto sobre ilustração em papel recortado.",
+   "Slide 3 de 6: Raabe salva a família. Texto sobre ilustração em papel recortado.",
+   "Slide 4 de 6: Raabe salva a família. Texto sobre ilustração em papel recortado.",
+   "Slide 5 de 6: Raabe salva a família. Texto sobre ilustração em papel recortado.",
+   "Slide 6 de 6: Raabe salva a família. Texto sobre ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc3-2026-11-12-20.jpg",
+  "titulo": "Raabe salva a família",
+  "fixo": true,
+  "formato": "carrossel_simples",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc3-2026-11-13-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-13T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc3-2026-11-13-20_01_10c8511d.jpg",
+   "midia/carrossel_novo/lc3-2026-11-13-20_02_cad5685c.jpg",
+   "midia/carrossel_novo/lc3-2026-11-13-20_03_8b3d29a1.jpg",
+   "midia/carrossel_novo/lc3-2026-11-13-20_04_ff3d19a8.jpg",
+   "midia/carrossel_novo/lc3-2026-11-13-20_05_cf1d8d34.jpg",
+   "midia/carrossel_novo/lc3-2026-11-13-20_06_8cc56f81.jpg"
+  ],
+  "legenda": "Duas mulheres, um bebê. Só uma era a mãe.\n\nA mãe verdadeira preferiu perder o filho a vê-lo morrer. Por esse amor, o rei soube quem era a mãe.\n\n📜 O versículo (1 Reis 3:27)\n\"Dai a aquela o filho vivo, e não o mateis: ela é sua mãe.\"\n\n📖 1 Reis 3:16-28 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #mae",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6: Salomão e as duas mães. Texto sobre ilustração em papel recortado.",
+   "Slide 2 de 6: Salomão e as duas mães. Texto sobre ilustração em papel recortado.",
+   "Slide 3 de 6: Salomão e as duas mães. Texto sobre ilustração em papel recortado.",
+   "Slide 4 de 6: Salomão e as duas mães. Texto sobre ilustração em papel recortado.",
+   "Slide 5 de 6: Salomão e as duas mães. Texto sobre ilustração em papel recortado.",
+   "Slide 6 de 6: Salomão e as duas mães. Texto sobre ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc3-2026-11-13-20.jpg",
+  "titulo": "Salomão e as duas mães",
+  "fixo": true,
+  "formato": "carrossel_simples",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc3-2026-11-14-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-14T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc3-2026-11-14-20_01_a7c26546.jpg",
+   "midia/carrossel_novo/lc3-2026-11-14-20_02_946c73d7.jpg",
+   "midia/carrossel_novo/lc3-2026-11-14-20_03_315276a0.jpg",
+   "midia/carrossel_novo/lc3-2026-11-14-20_04_5f0155d2.jpg",
+   "midia/carrossel_novo/lc3-2026-11-14-20_05_55555451.jpg",
+   "midia/carrossel_novo/lc3-2026-11-14-20_06_0bc75be7.jpg"
+  ],
+  "legenda": "Fé pequena e um filho sofrendo? Jesus ajuda.\n\nO pai não tinha uma fé perfeita, e disse isso a Jesus. Jesus ouviu o pai e curou o menino.\n\n📜 O versículo (Marcos 9:24)\n\"Creio, Senhor! Ajuda-me na minha incredulidade.\"\n\n📖 Marcos 9:14-27 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #fe",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6: O pai do menino. Texto sobre ilustração em papel recortado.",
+   "Slide 2 de 6: O pai do menino. Texto sobre ilustração em papel recortado.",
+   "Slide 3 de 6: O pai do menino. Texto sobre ilustração em papel recortado.",
+   "Slide 4 de 6: O pai do menino. Texto sobre ilustração em papel recortado.",
+   "Slide 5 de 6: O pai do menino. Texto sobre ilustração em papel recortado.",
+   "Slide 6 de 6: O pai do menino. Texto sobre ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc3-2026-11-14-20.jpg",
+  "titulo": "O pai do menino",
+  "fixo": true,
+  "formato": "carrossel_simples",
+  "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc3-2026-11-15-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-15T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc3-2026-11-15-20_01_9838a8c1.jpg",
+   "midia/carrossel_novo/lc3-2026-11-15-20_02_80038f1f.jpg",
+   "midia/carrossel_novo/lc3-2026-11-15-20_03_8ff0d332.jpg",
+   "midia/carrossel_novo/lc3-2026-11-15-20_04_a3ccd427.jpg",
+   "midia/carrossel_novo/lc3-2026-11-15-20_05_2aefd075.jpg",
+   "midia/carrossel_novo/lc3-2026-11-15-20_06_91f946dd.jpg"
+  ],
+  "legenda": "Aflita sem notícia do filho? Deus sabe onde está.\n\nMaria e José procuraram o filho por três dias. Ele estava na casa de Deus.\n\n📜 O versículo (Lucas 2:49)\n\"Não sabeis que devo estar nos negócios de meu Pai?\"\n\n📖 Lucas 2:41-52 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #maria",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 6: Jesus perdido no templo. Texto sobre ilustração em papel recortado.",
+   "Slide 2 de 6: Jesus perdido no templo. Texto sobre ilustração em papel recortado.",
+   "Slide 3 de 6: Jesus perdido no templo. Texto sobre ilustração em papel recortado.",
+   "Slide 4 de 6: Jesus perdido no templo. Texto sobre ilustração em papel recortado.",
+   "Slide 5 de 6: Jesus perdido no templo. Texto sobre ilustração em papel recortado.",
+   "Slide 6 de 6: Jesus perdido no templo. Texto sobre ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc3-2026-11-15-20.jpg",
+  "titulo": "Jesus perdido no templo",
+  "fixo": true,
+  "formato": "carrossel_simples",
+  "origem": "historia_do_reel"
  }
 ]
