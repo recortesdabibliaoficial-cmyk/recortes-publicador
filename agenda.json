@@ -4615,5 +4615,320 @@
   "fixo": true,
   "formato": "carrossel_simples",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "ora-story-manha-2026-11-09",
+  "tipo": "STORY",
+  "quando": "2026-11-09T08:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-09_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 09/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-09.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-09",
+  "tipo": "STORY",
+  "quando": "2026-11-09T21:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-09_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 09/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-09.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-10",
+  "tipo": "STORY",
+  "quando": "2026-11-10T08:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-10_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 10/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-10.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-10",
+  "tipo": "STORY",
+  "quando": "2026-11-10T21:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-10_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 10/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-10.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-11",
+  "tipo": "STORY",
+  "quando": "2026-11-11T08:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-11_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 11/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-11.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-11",
+  "tipo": "STORY",
+  "quando": "2026-11-11T21:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-11_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 11/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-11.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-12",
+  "tipo": "STORY",
+  "quando": "2026-11-12T08:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-12_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 12/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-12.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-12",
+  "tipo": "STORY",
+  "quando": "2026-11-12T21:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-12_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 12/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-12.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-13",
+  "tipo": "STORY",
+  "quando": "2026-11-13T08:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-13_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 13/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-13.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-13",
+  "tipo": "STORY",
+  "quando": "2026-11-13T21:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-13_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 13/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-13.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-14",
+  "tipo": "STORY",
+  "quando": "2026-11-14T08:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-14_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 14/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-14.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-14",
+  "tipo": "STORY",
+  "quando": "2026-11-14T21:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-14_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 14/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-14.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-15",
+  "tipo": "STORY",
+  "quando": "2026-11-15T08:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-15_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 15/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-15.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-15",
+  "tipo": "STORY",
+  "quando": "2026-11-15T21:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_oracao_2026-11-15_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 15/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-15.jpg"
+ },
+ {
+  "id": "vsabia2026-11-09",
+  "tipo": "STORY",
+  "quando": "2026-11-09T12:01:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-09_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? José e o pai",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-09.jpg"
+ },
+ {
+  "id": "vsabia2026-11-11",
+  "tipo": "STORY",
+  "quando": "2026-11-11T12:01:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-11_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? Agar",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-11.jpg"
+ },
+ {
+  "id": "vsabia2026-11-13",
+  "tipo": "STORY",
+  "quando": "2026-11-13T12:01:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-13_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? Ana, a profetisa",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-13.jpg"
+ },
+ {
+  "id": "vsabia2026-11-15",
+  "tipo": "STORY",
+  "quando": "2026-11-15T12:01:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-15_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? Jó",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-15.jpg"
+ },
+ {
+  "id": "pensar2026-11-10",
+  "tipo": "STORY",
+  "quando": "2026-11-10T17:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-10_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Família",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-10.jpg"
+ },
+ {
+  "id": "pensar2026-11-12",
+  "tipo": "STORY",
+  "quando": "2026-11-12T17:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-12_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Entregar",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-12.jpg"
+ },
+ {
+  "id": "pensar2026-11-14",
+  "tipo": "STORY",
+  "quando": "2026-11-14T17:00:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-14_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Abraço",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-14.jpg"
+ },
+ {
+  "id": "ls4-2026-11-09-jose-reencontra-o-pai",
+  "tipo": "STORY",
+  "quando": "2026-11-09T17:02:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-09_resumo_jose-reencontra-o-pai.jpg"
+  ],
+  "titulo": "José reencontra o pai",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-09-jose-reencontra-o-pai.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-10-a-viuva-de-naim",
+  "tipo": "STORY",
+  "quando": "2026-11-10T17:02:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-10_resumo_a-viuva-de-naim.jpg"
+  ],
+  "titulo": "A viúva de Naim",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-10-a-viuva-de-naim.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-11-jesus-e-a-mae-na-cruz",
+  "tipo": "STORY",
+  "quando": "2026-11-11T17:02:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-11_resumo_jesus-e-a-mae-na-cruz.jpg"
+  ],
+  "titulo": "Jesus e a mãe na cruz",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-11-jesus-e-a-mae-na-cruz.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-12-raabe-salva-a-familia",
+  "tipo": "STORY",
+  "quando": "2026-11-12T17:02:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-12_resumo_raabe-salva-a-familia.jpg"
+  ],
+  "titulo": "Raabe salva a família",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-12-raabe-salva-a-familia.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-13-salomao-e-as-duas-maes",
+  "tipo": "STORY",
+  "quando": "2026-11-13T17:02:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-13_resumo_salomao-e-as-duas-maes.jpg"
+  ],
+  "titulo": "Salomão e as duas mães",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-13-salomao-e-as-duas-maes.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-14-o-pai-do-menino",
+  "tipo": "STORY",
+  "quando": "2026-11-14T17:02:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-14_resumo_o-pai-do-menino.jpg"
+  ],
+  "titulo": "O pai do menino",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-14-o-pai-do-menino.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-15-jesus-perdido-no-templo",
+  "tipo": "STORY",
+  "quando": "2026-11-15T17:02:00-03:00",
+  "midia": [
+   "midia/lote0911/stories/story_2026-11-15_resumo_jesus-perdido-no-templo.jpg"
+  ],
+  "titulo": "Jesus perdido no templo",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-15-jesus-perdido-no-templo.jpg",
+  "destaque": "Esperança"
  }
 ]
