@@ -4662,14 +4662,18 @@
   "lido_em": "2026-11-08T19:18:15.677195+00:00"
  },
  "pensar2026-11-08": {
-  "reach": 0,
-  "views": 2,
+  "reach": 7,
+  "views": 12,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T00:06:53.390230+00:00"
+  "nav": {
+   "tap_forward": 3,
+   "tap_exit": 3
+  },
+  "lido_em": "2026-11-09T02:10:58.144952+00:00"
  },
  "ls3-2026-11-08-noemi": {
   "reach": 0,
@@ -4693,23 +4697,23 @@
  },
  "semana2026-11-08-1": {
   "reach": 0,
-  "views": 0,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T00:06:53.390230+00:00"
+  "lido_em": "2026-11-09T02:10:58.144952+00:00"
  },
  "semana2026-11-08-2": {
   "reach": 0,
-  "views": 0,
+  "views": 1,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T00:06:53.390230+00:00"
+  "lido_em": "2026-11-09T02:10:58.144952+00:00"
  },
  "semana2026-11-08-3": {
   "reach": 0,
