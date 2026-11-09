@@ -4650,7 +4650,7 @@
    "tap_forward": 4,
    "tap_exit": 3
   },
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
  },
  "lh-2026-11-08-1200": {
   "reach": 237,
@@ -4677,7 +4677,7 @@
    "tap_exit": 3,
    "tap_forward": 4
   },
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
  },
  "ls3-2026-11-08-noemi": {
   "reach": 0,
@@ -4687,7 +4687,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
  },
  "ora-story-noite-2026-11-08": {
   "reach": 0,
@@ -4697,9 +4697,19 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
  },
  "semana2026-11-08-1": {
+  "reach": 0,
+  "views": 4,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
+ },
+ "semana2026-11-08-2": {
   "reach": 0,
   "views": 2,
   "replies": 0,
@@ -4707,27 +4717,17 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
- },
- "semana2026-11-08-2": {
-  "reach": 0,
-  "views": 1,
-  "replies": 0,
-  "shares": 0,
-  "total_interactions": 0,
-  "follows": 0,
-  "profile_visits": 0,
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
  },
  "semana2026-11-08-3": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
  },
  "semana2026-11-08-4": {
   "reach": 0,
@@ -4737,7 +4737,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-09T02:31:00.053741+00:00"
+  "lido_em": "2026-11-09T04:31:03.417248+00:00"
  },
  "lh-2026-11-08-1700": {
   "reach": 159,
