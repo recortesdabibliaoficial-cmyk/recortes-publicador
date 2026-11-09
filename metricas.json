@@ -1293,10 +1293,6 @@
  },
  "_seg_hora": [
   {
-   "t": "2026-10-25T20:41-03:00",
-   "n": 82
-  },
-  {
    "t": "2026-10-25T21:36-03:00",
    "n": 82
   },
@@ -2722,6 +2718,10 @@
   },
   {
    "t": "2026-11-08T20:15-03:00",
+   "n": 149
+  },
+  {
+   "t": "2026-11-08T21:11-03:00",
    "n": 149
   }
  ],
@@ -4679,7 +4679,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-08T22:11:04.089049+00:00"
+  "lido_em": "2026-11-09T00:11:46.929532+00:00"
  },
  "ora-story-noite-2026-11-08": {
   "reach": 0,
@@ -4710,5 +4710,25 @@
   "follows": 0,
   "profile_visits": 0,
   "lido_em": "2026-11-09T00:06:53.390230+00:00"
+ },
+ "semana2026-11-08-3": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-11-09T00:11:46.929532+00:00"
+ },
+ "semana2026-11-08-4": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-11-09T00:11:46.929532+00:00"
  }
 }
