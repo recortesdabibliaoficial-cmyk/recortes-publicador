@@ -53169,10 +53169,7 @@
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 0,
-    "ig_reels_avg_watch_time": 0,
-    "reels_skip_rate": 0,
-    "ig_reels_video_view_total_time": 0
+    "total_interactions": 0
    },
    "vsabia2026-11-11": {
     "reach": 0,
@@ -53211,11 +53208,9 @@
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 0,
-    "follows": 0,
-    "profile_visits": 0
+    "total_interactions": 0
    }
   },
-  "em": "2026-11-11T20:14-03:00"
+  "em": "2026-11-11T20:16-03:00"
  }
 }
