@@ -34,7 +34,7 @@
   "fora_do_ar_em": "2026-11-05T02:30:54.398829+00:00",
   "fora_motivo": "17991327594019598/insights: {'message': \"Unsupported get request. Object with ID '17991327594019598' does not exist, cannot be loaded due to missing p"
  },
- "_comentarios_em": "2026-11-11T09:36:20.543384+00:00",
+ "_comentarios_em": "2026-11-11T23:15:03.338287+00:00",
  "mc-carrossel04": {
   "status": "publicado",
   "media_id": "18117935720074552",
@@ -2388,5 +2388,40 @@
   "media_id": "18110875379191911",
   "em": "2026-11-11T00:02:07.360225+00:00",
   "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4027666694152747368"
+ },
+ "lh-2026-11-11-1200": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18157118125521811",
+  "em": "2026-11-11T23:12:37.385255+00:00",
+  "link": "https://www.instagram.com/reel/DfnoevQDvEE/"
+ },
+ "vsabia2026-11-11": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "17911457103576003",
+  "em": "2026-11-11T23:12:56.396281+00:00",
+  "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4028366737338795797"
+ },
+ "lh-2026-11-11-1700": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18031235882861194",
+  "em": "2026-11-11T23:13:31.942517+00:00",
+  "link": "https://www.instagram.com/reel/Dfnolz7Etv5/"
+ },
+ "ls4-2026-11-11-jesus-e-a-mae-na-cruz": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "18116543960032793",
+  "em": "2026-11-11T23:13:51.514465+00:00",
+  "link": "https://www.instagram.com/stories/recortesdabiblia.oficial/4028367194434094521"
+ },
+ "lc3-2026-11-11-20": {
+  "tentativas": 0,
+  "status": "publicado",
+  "media_id": "17994290598063591",
+  "em": "2026-11-11T23:14:41.443138+00:00",
+  "link": "https://www.instagram.com/p/Dfnov0hFIQ3/"
  }
 }
