@@ -4943,13 +4943,13 @@
  },
  "vsabia2026-11-11": {
   "reach": 0,
-  "views": 0,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-11T23:16:01.700372+00:00"
+  "lido_em": "2026-11-12T01:20:58.004047+00:00"
  },
  "lh-2026-11-11-1700": {
   "reach": 0,
@@ -4965,14 +4965,19 @@
   "lido_em": "2026-11-11T23:16:01.700372+00:00"
  },
  "ls4-2026-11-11-jesus-e-a-mae-na-cruz": {
-  "reach": 0,
-  "views": 0,
+  "reach": 5,
+  "views": 11,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-11T23:16:01.700372+00:00"
+  "nav": {
+   "tap_back": 2,
+   "tap_exit": 4,
+   "tap_forward": 2
+  },
+  "lido_em": "2026-11-12T01:20:58.004047+00:00"
  },
  "lc3-2026-11-11-20": {
   "reach": 0,
