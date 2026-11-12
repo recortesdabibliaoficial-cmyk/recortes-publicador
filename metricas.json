@@ -4946,19 +4946,19 @@
   "lido_em": "2026-11-12T02:31:06.345917+00:00"
  },
  "vsabia2026-11-11": {
-  "reach": 6,
-  "views": 8,
+  "reach": 8,
+  "views": 10,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_back": 1,
-   "tap_forward": 5,
-   "tap_exit": 1
+   "tap_exit": 1,
+   "tap_forward": 6,
+   "tap_back": 1
   },
-  "lido_em": "2026-11-12T10:41:16.693786+00:00"
+  "lido_em": "2026-11-12T12:46:02.139779+00:00"
  },
  "lh-2026-11-11-1700": {
   "reach": 117,
@@ -4974,19 +4974,19 @@
   "lido_em": "2026-11-12T02:31:06.345917+00:00"
  },
  "ls4-2026-11-11-jesus-e-a-mae-na-cruz": {
-  "reach": 7,
-  "views": 13,
+  "reach": 9,
+  "views": 15,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 3,
+   "tap_back": 2,
    "tap_exit": 4,
-   "tap_back": 2
+   "tap_forward": 4
   },
-  "lido_em": "2026-11-12T10:41:16.693786+00:00"
+  "lido_em": "2026-11-12T12:46:02.139779+00:00"
  },
  "lc3-2026-11-11-20": {
   "reach": 123,
@@ -4999,14 +4999,17 @@
   "lido_em": "2026-11-12T02:31:06.345917+00:00"
  },
  "ora-story-noite-2026-11-11": {
-  "reach": 0,
-  "views": 4,
+  "reach": 7,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-12T10:41:16.693786+00:00"
+  "nav": {
+   "tap_forward": 5
+  },
+  "lido_em": "2026-11-12T12:46:02.139779+00:00"
  },
  "ora-story-manha-2026-11-12": {
   "reach": 0,
