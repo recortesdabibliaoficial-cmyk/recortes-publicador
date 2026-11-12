@@ -4946,19 +4946,19 @@
   "lido_em": "2026-11-12T14:31:14.960371+00:00"
  },
  "vsabia2026-11-11": {
-  "reach": 9,
-  "views": 11,
+  "reach": 10,
+  "views": 12,
   "replies": 0,
   "shares": 0,
-  "total_interactions": 0,
+  "total_interactions": 1,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_exit": 1,
-   "tap_forward": 6,
-   "tap_back": 1
+   "tap_back": 1,
+   "tap_forward": 7,
+   "tap_exit": 1
   },
-  "lido_em": "2026-11-12T16:35:54.204896+00:00"
+  "lido_em": "2026-11-12T18:36:08.943654+00:00"
  },
  "lh-2026-11-11-1700": {
   "reach": 118,
@@ -4974,19 +4974,19 @@
   "lido_em": "2026-11-12T14:31:14.960371+00:00"
  },
  "ls4-2026-11-11-jesus-e-a-mae-na-cruz": {
-  "reach": 10,
-  "views": 16,
+  "reach": 11,
+  "views": 17,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_back": 2,
+   "tap_forward": 5,
    "tap_exit": 4,
-   "tap_forward": 4
+   "tap_back": 2
   },
-  "lido_em": "2026-11-12T16:35:54.204896+00:00"
+  "lido_em": "2026-11-12T18:36:08.943654+00:00"
  },
  "lc3-2026-11-11-20": {
   "reach": 128,
@@ -4999,30 +4999,31 @@
   "lido_em": "2026-11-12T14:31:14.960371+00:00"
  },
  "ora-story-noite-2026-11-11": {
-  "reach": 8,
-  "views": 8,
+  "reach": 9,
+  "views": 10,
   "replies": 0,
-  "shares": 0,
-  "total_interactions": 0,
+  "shares": 2,
+  "total_interactions": 3,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 5
+   "tap_forward": 6
   },
-  "lido_em": "2026-11-12T16:35:54.204896+00:00"
+  "lido_em": "2026-11-12T18:36:08.943654+00:00"
  },
  "ora-story-manha-2026-11-12": {
-  "reach": 5,
-  "views": 8,
+  "reach": 7,
+  "views": 9,
   "replies": 0,
   "shares": 0,
-  "total_interactions": 0,
+  "total_interactions": 1,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 3,
-   "swipe_forward": 1
+   "tap_exit": 1,
+   "swipe_forward": 1,
+   "tap_forward": 3
   },
-  "lido_em": "2026-11-12T16:35:54.204896+00:00"
+  "lido_em": "2026-11-12T18:36:08.943654+00:00"
  }
 }
