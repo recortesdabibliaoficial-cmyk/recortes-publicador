@@ -5123,14 +5123,18 @@
   "lido_em": "2026-11-13T20:46:19.642147+00:00"
  },
  "vsabia2026-11-13": {
-  "reach": 0,
-  "views": 3,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-13T19:11:02.458468+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 2
+  },
+  "lido_em": "2026-11-13T21:16:16.934754+00:00"
  },
  "ls4-2026-11-13-salomao-e-as-duas-maes": {
   "reach": 0,
