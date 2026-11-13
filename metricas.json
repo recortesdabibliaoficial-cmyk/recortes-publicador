@@ -5014,7 +5014,7 @@
  },
  "ora-story-manha-2026-11-12": {
   "reach": 9,
-  "views": 11,
+  "views": 12,
   "replies": 0,
   "shares": 0,
   "total_interactions": 1,
@@ -5025,11 +5025,11 @@
    "swipe_forward": 1,
    "tap_forward": 3
   },
-  "lido_em": "2026-11-13T06:35:54.859140+00:00"
+  "lido_em": "2026-11-13T08:35:56.560947+00:00"
  },
  "pensar2026-11-12": {
-  "reach": 5,
-  "views": 5,
+  "reach": 6,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5039,9 +5039,22 @@
    "tap_forward": 2,
    "swipe_forward": 1
   },
-  "lido_em": "2026-11-13T06:35:54.859140+00:00"
+  "lido_em": "2026-11-13T08:35:56.560947+00:00"
  },
  "ls4-2026-11-12-raabe-salva-a-familia": {
+  "reach": 5,
+  "views": 6,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "nav": {
+   "tap_forward": 1
+  },
+  "lido_em": "2026-11-13T08:35:56.560947+00:00"
+ },
+ "ora-story-noite-2026-11-12": {
   "reach": 0,
   "views": 4,
   "replies": 0,
@@ -5049,17 +5062,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-13T06:35:54.859140+00:00"
- },
- "ora-story-noite-2026-11-12": {
-  "reach": 0,
-  "views": 2,
-  "replies": 0,
-  "shares": 0,
-  "total_interactions": 0,
-  "follows": 0,
-  "profile_visits": 0,
-  "lido_em": "2026-11-13T06:35:54.859140+00:00"
+  "lido_em": "2026-11-13T08:35:56.560947+00:00"
  },
  "lh-2026-11-12-1200": {
   "reach": 109,
