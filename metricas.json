@@ -2689,7 +2689,7 @@
    "n": 150
   },
   {
-   "t": "2026-11-14T01:30-03:00",
+   "t": "2026-11-14T01:31-03:00",
    "n": 150
   }
  ],
@@ -5125,21 +5125,22 @@
    "tap_forward": 4,
    "swipe_forward": 2
   },
-  "lido_em": "2026-11-14T02:31:06.396354+00:00"
+  "lido_em": "2026-11-14T04:31:38.132142+00:00"
  },
  "vsabia2026-11-13": {
-  "reach": 5,
-  "views": 5,
+  "reach": 6,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_exit": 1,
-   "tap_forward": 2
+   "swipe_forward": 1,
+   "tap_forward": 2,
+   "tap_exit": 1
   },
-  "lido_em": "2026-11-14T02:31:06.396354+00:00"
+  "lido_em": "2026-11-14T04:31:38.132142+00:00"
  },
  "ls4-2026-11-13-salomao-e-as-duas-maes": {
   "reach": 0,
@@ -5149,7 +5150,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-14T02:31:06.396354+00:00"
+  "lido_em": "2026-11-14T04:31:38.132142+00:00"
  },
  "ora-story-noite-2026-11-13": {
   "reach": 0,
@@ -5159,7 +5160,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-14T02:31:06.396354+00:00"
+  "lido_em": "2026-11-14T04:31:38.132142+00:00"
  },
  "lh-2026-11-13-1200": {
   "reach": 118,
