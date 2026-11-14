@@ -5113,22 +5113,37 @@
   "lido_em": "2026-11-14T02:31:06.396354+00:00"
  },
  "ora-story-manha-2026-11-13": {
-  "reach": 9,
-  "views": 11,
+  "reach": 11,
+  "views": 13,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_exit": 2,
-   "tap_forward": 4,
+   "tap_exit": 3,
+   "tap_forward": 5,
    "swipe_forward": 2
   },
-  "lido_em": "2026-11-14T08:41:38.046333+00:00"
+  "lido_em": "2026-11-14T10:45:59.743778+00:00"
  },
  "vsabia2026-11-13": {
-  "reach": 6,
+  "reach": 7,
+  "views": 7,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 3,
+   "swipe_forward": 1
+  },
+  "lido_em": "2026-11-14T10:45:59.743778+00:00"
+ },
+ "ls4-2026-11-13-salomao-e-as-duas-maes": {
+  "reach": 5,
   "views": 6,
   "replies": 0,
   "shares": 0,
@@ -5137,12 +5152,11 @@
   "profile_visits": 0,
   "nav": {
    "swipe_forward": 1,
-   "tap_forward": 2,
-   "tap_exit": 1
+   "tap_forward": 2
   },
-  "lido_em": "2026-11-14T08:41:38.046333+00:00"
+  "lido_em": "2026-11-14T10:45:59.743778+00:00"
  },
- "ls4-2026-11-13-salomao-e-as-duas-maes": {
+ "ora-story-noite-2026-11-13": {
   "reach": 0,
   "views": 5,
   "replies": 0,
@@ -5150,17 +5164,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-14T08:41:38.046333+00:00"
- },
- "ora-story-noite-2026-11-13": {
-  "reach": 0,
-  "views": 4,
-  "replies": 0,
-  "shares": 0,
-  "total_interactions": 0,
-  "follows": 0,
-  "profile_visits": 0,
-  "lido_em": "2026-11-14T08:41:38.046333+00:00"
+  "lido_em": "2026-11-14T10:45:59.743778+00:00"
  },
  "lh-2026-11-13-1200": {
   "reach": 118,
