@@ -5109,18 +5109,19 @@
   "lido_em": "2026-11-13T14:36:20.219533+00:00"
  },
  "ora-story-manha-2026-11-13": {
-  "reach": 7,
-  "views": 8,
+  "reach": 8,
+  "views": 10,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_exit": 1,
-   "tap_forward": 4
+   "swipe_forward": 2,
+   "tap_forward": 4,
+   "tap_exit": 1
   },
-  "lido_em": "2026-11-13T22:51:03.696528+00:00"
+  "lido_em": "2026-11-14T00:51:11.604736+00:00"
  },
  "vsabia2026-11-13": {
   "reach": 5,
