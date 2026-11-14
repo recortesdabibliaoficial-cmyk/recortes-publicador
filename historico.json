@@ -56883,8 +56883,8 @@
   "online": {}
  },
  "2026-11-13": {
-  "seguidores": 151,
-  "publicacoes": 23,
+  "seguidores": 150,
+  "publicacoes": 24,
   "itens": {
    "mc-carrossel01": {
     "reach": 28,
@@ -57987,15 +57987,15 @@
    },
    "htexto03-2026-10-23": {
     "reach": 2363,
-    "views": 4680,
+    "views": 4681,
     "likes": 138,
     "comments": 6,
     "saved": 12,
     "shares": 31,
     "total_interactions": 197,
-    "ig_reels_avg_watch_time": 16306,
+    "ig_reels_avg_watch_time": 16300,
     "reels_skip_rate": 49,
-    "ig_reels_video_view_total_time": 40520919
+    "ig_reels_video_view_total_time": 40524034
    },
    "ora-reel-noite-2026-10-23": {
     "reach": 142,
@@ -58080,16 +58080,16 @@
     "profile_visits": 0
    },
    "htexto14-2026-10-24": {
-    "reach": 3715,
-    "views": 8916,
-    "likes": 247,
+    "reach": 3720,
+    "views": 8975,
+    "likes": 249,
     "comments": 49,
     "saved": 15,
     "shares": 3,
-    "total_interactions": 319,
-    "ig_reels_avg_watch_time": 23387,
-    "reels_skip_rate": 38,
-    "ig_reels_video_view_total_time": 90720977
+    "total_interactions": 321,
+    "ig_reels_avg_watch_time": 23391,
+    "reels_skip_rate": 37.9,
+    "ig_reels_video_view_total_time": 91275285
    },
    "vmsg2026-10-24": {
     "reach": 137,
@@ -59178,7 +59178,7 @@
    },
    "lc2-2026-11-02-09": {
     "reach": 7,
-    "views": 13,
+    "views": 14,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -59427,16 +59427,16 @@
     }
    },
    "lh-2026-11-01-1000": {
-    "reach": 5509,
-    "views": 14107,
-    "likes": 130,
+    "reach": 5516,
+    "views": 14121,
+    "likes": 131,
     "comments": 4,
-    "saved": 16,
+    "saved": 15,
     "shares": 6,
     "total_interactions": 174,
-    "ig_reels_avg_watch_time": 21778,
+    "ig_reels_avg_watch_time": 21776,
     "reels_skip_rate": 28.4,
-    "ig_reels_video_view_total_time": 136333501
+    "ig_reels_video_view_total_time": 136474531
    },
    "lc2-2026-11-04-20": {
     "reach": 4,
@@ -60086,8 +60086,8 @@
     }
    },
    "lc3-2026-11-11-20": {
-    "reach": 131,
-    "views": 246,
+    "reach": 132,
+    "views": 247,
     "likes": 11,
     "comments": 0,
     "saved": 1,
@@ -60122,71 +60122,72 @@
     }
    },
    "pensar2026-11-12": {
-    "reach": 10,
-    "views": 11,
+    "reach": 11,
+    "views": 12,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
     "profile_visits": 0,
     "nav": {
-     "tap_back": 1,
-     "tap_forward": 5,
-     "swipe_forward": 2
+     "swipe_forward": 2,
+     "tap_forward": 6,
+     "tap_back": 1
     }
    },
    "ls4-2026-11-12-raabe-salva-a-familia": {
-    "reach": 9,
-    "views": 9,
+    "reach": 10,
+    "views": 10,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
     "profile_visits": 0,
     "nav": {
-     "tap_forward": 5
+     "tap_forward": 6
     }
    },
    "ora-story-noite-2026-11-12": {
-    "reach": 8,
-    "views": 8,
+    "reach": 10,
+    "views": 10,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
     "profile_visits": 0,
     "nav": {
-     "tap_forward": 4,
-     "tap_exit": 2
+     "swipe_forward": 1,
+     "tap_exit": 2,
+     "tap_forward": 4
     }
    },
    "lh-2026-11-12-1200": {
-    "reach": 109,
-    "views": 189,
+    "reach": 111,
+    "views": 194,
     "likes": 1,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 1,
-    "ig_reels_avg_watch_time": 10622,
-    "reels_skip_rate": 52.2,
-    "ig_reels_video_view_total_time": 1221561
+    "ig_reels_avg_watch_time": 10919,
+    "reels_skip_rate": 51.3,
+    "ig_reels_video_view_total_time": 1277533
    },
    "lh-2026-11-12-1700": {
-    "reach": 116,
-    "views": 182,
+    "reach": 118,
+    "views": 184,
     "likes": 2,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 8986,
-    "reels_skip_rate": 52.5,
-    "ig_reels_video_view_total_time": 1105331
+    "ig_reels_avg_watch_time": 8848,
+    "reels_skip_rate": 53.2,
+    "ig_reels_video_view_total_time": 1106023
    },
    "lc3-2026-11-12-20": {
     "reach": 3,
-    "views": 11,
+    "views": 12,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -60196,6 +60197,20 @@
     "profile_visits": 0
    },
    "ora-story-manha-2026-11-13": {
+    "reach": 9,
+    "views": 11,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "nav": {
+     "tap_exit": 2,
+     "tap_forward": 4,
+     "swipe_forward": 2
+    }
+   },
+   "vsabia2026-11-13": {
     "reach": 5,
     "views": 5,
     "replies": 0,
@@ -60204,10 +60219,235 @@
     "follows": 0,
     "profile_visits": 0,
     "nav": {
-     "tap_forward": 4
+     "tap_exit": 1,
+     "tap_forward": 2
     }
+   },
+   "ls4-2026-11-13-salomao-e-as-duas-maes": {
+    "reach": 0,
+    "views": 5,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "ora-story-noite-2026-11-13": {
+    "reach": 0,
+    "views": 4,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "lh-2026-11-13-1200": {
+    "reach": 118,
+    "views": 176,
+    "likes": 6,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 6,
+    "ig_reels_avg_watch_time": 8806,
+    "reels_skip_rate": 42.9,
+    "ig_reels_video_view_total_time": 1047955
+   },
+   "lh-2026-11-13-1700": {
+    "reach": 124,
+    "views": 245,
+    "likes": 5,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 5,
+    "ig_reels_avg_watch_time": 16643,
+    "reels_skip_rate": 30.8,
+    "ig_reels_video_view_total_time": 2180236
+   },
+   "lc3-2026-11-13-20": {
+    "reach": 3,
+    "views": 5,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0
    }
   },
-  "em": "2026-11-13T11:36-03:00"
+  "em": "2026-11-13T23:31-03:00",
+  "conta": {
+   "reach": 280,
+   "views": 489,
+   "accounts_engaged": 14,
+   "total_interactions": 14,
+   "profile_views": 3,
+   "likes": 15,
+   "comments": 0,
+   "saves": -1,
+   "shares": 0,
+   "replies": 0,
+   "reposts": 0,
+   "profile_links_taps": 0
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "FOLLOWER": 20,
+    "NON_FOLLOWER": 264
+   },
+   "views:follow_type": {
+    "FOLLOWER": 77,
+    "NON_FOLLOWER": 412
+   },
+   "views:media_product_type": {
+    "REEL": 429,
+    "CAROUSEL_CONTAINER": 15,
+    "STORY": 45
+   },
+   "total_interactions:media_product_type": {
+    "REEL": 14
+   },
+   "likes:media_product_type": {
+    "REEL": 15
+   },
+   "saves:media_product_type": {
+    "REEL": -1
+   },
+   "shares:media_product_type": {},
+   "comments:media_product_type": {},
+   "reach:media_product_type": {
+    "REEL": 269,
+    "STORY": 12,
+    "CAROUSEL_CONTAINER": 4
+   },
+   "follows_and_unfollows:follow_type": {}
+  },
+  "demografia": {
+   "follower_demographics:age": {
+    "13-17": 2,
+    "18-24": 6,
+    "25-34": 22,
+    "35-44": 29,
+    "45-54": 22,
+    "55-64": 18,
+    "65+": 52
+   },
+   "follower_demographics:gender": {
+    "F": 72,
+    "M": 37,
+    "U": 42
+   },
+   "follower_demographics:city": {
+    "Nazaré, Bahia": 1,
+    "São Paulo, São Paulo (state)": 9,
+    "Anápolis, Goiás": 1,
+    "São Luís, Maranhão": 3,
+    "Rio de Janeiro, Rio de Janeiro (state)": 11,
+    "Fátima, Santarém District": 1,
+    "Osasco, São Paulo (state)": 2,
+    "Maceió, Alagoas": 2,
+    "Maracanaú, Ceará": 1,
+    "Duque de Caxias, Rio de Janeiro (state)": 2,
+    "Guaraci, São Paulo (state)": 1,
+    "João Pessoa, Paraíba": 1,
+    "Serranópolis, Goiás": 1,
+    "Guarulhos, São Paulo (state)": 1,
+    "Natal, Rio Grande do Norte": 1,
+    "Parauapebas, Pará": 1,
+    "Betim, Minas Gerais": 2,
+    "Salvador, Bahia": 5,
+    "São João de Meriti, Rio de Janeiro (state)": 1,
+    "Siderópolis, Santa Catarina": 1,
+    "São Sebastião da Grama, São Paulo (state)": 1,
+    "Maribondo, Alagoas": 1,
+    "Coelho Neto, Maranhão": 1,
+    "Divino, Minas Gerais": 2,
+    "Fortaleza, Ceará": 3,
+    "Arapoti, Paraná": 1,
+    "Lavras, Minas Gerais": 1,
+    "Alvorada, Rio Grande do Sul": 1,
+    "Cambé, Paraná": 1,
+    "Itararé, São Paulo (state)": 1,
+    "Itamarandiba, Minas Gerais": 1,
+    "Inocência, Mato Grosso do Sul": 2,
+    "Marco de Canaveses, Porto District": 1,
+    "Santa Isabel, São Paulo (state)": 1,
+    "Belo Horizonte, Minas Gerais": 5,
+    "São José do Rio Prêto, São Paulo (state)": 1,
+    "Tucano, Bahia": 1,
+    "Curitiba, Paraná": 1,
+    "Salgado, Sergipe": 1,
+    "Campos dos Goytacazes, Rio de Janeiro (state)": 2,
+    "Belém, Pará": 1,
+    "Campinas, São Paulo (state)": 2,
+    "Santa Rita, Paraíba": 1,
+    "Sumaré, São Paulo (state)": 1,
+    "São Gonçalo, Rio de Janeiro (state)": 2
+   },
+   "engaged_audience_demographics:age": {
+    "13-17": 5,
+    "18-24": 101,
+    "25-34": 236,
+    "35-44": 174,
+    "45-54": 162,
+    "55-64": 130,
+    "65+": 187
+   },
+   "engaged_audience_demographics:gender": {
+    "F": 468,
+    "M": 293,
+    "U": 234
+   },
+   "engaged_audience_demographics:city": {
+    "Ribeirão Prêto, São Paulo (state)": 4,
+    "São Paulo, São Paulo (state)": 53,
+    "Blumenau, Santa Catarina": 4,
+    "Anápolis, Goiás": 3,
+    "São Luís, Maranhão": 11,
+    "Rio de Janeiro, Rio de Janeiro (state)": 30,
+    "São José dos Campos, São Paulo (state)": 4,
+    "Juazeiro do Norte, Ceará": 3,
+    "Osasco, São Paulo (state)": 7,
+    "Maceió, Alagoas": 7,
+    "Parnaíba, Piauí": 3,
+    "Uberlândia, Minas Gerais": 4,
+    "Porto Alegre, Rio Grande do Sul": 4,
+    "Duque de Caxias, Rio de Janeiro (state)": 3,
+    "Timóteo, Minas Gerais": 3,
+    "João Pessoa, Paraíba": 6,
+    "Teresina, Piauí": 6,
+    "Recife, Pernambuco": 5,
+    "Aparecida de Goiânia, Goiás": 6,
+    "Guarulhos, São Paulo (state)": 6,
+    "Natal, Rio Grande do Norte": 15,
+    "Betim, Minas Gerais": 4,
+    "São João da Barra, Rio de Janeiro (state)": 3,
+    "Salvador, Bahia": 8,
+    "São José, Santa Catarina": 4,
+    "Mauá, São Paulo (state)": 3,
+    "Patos de Minas, Minas Gerais": 3,
+    "Jaboatão dos Guararapes, Pernambuco": 7,
+    "Goiânia, Goiás": 8,
+    "Fortaleza, Ceará": 33,
+    "Manaus, Amazonas": 14,
+    "Patos, Paraíba": 4,
+    "Aracaju, Sergipe": 5,
+    "Alvorada, Rio Grande do Sul": 3,
+    "Maringá, Paraná": 3,
+    "Campina Grande, Paraíba": 7,
+    "Carpina, Pernambuco": 3,
+    "Joinville, Santa Catarina": 3,
+    "Cuiabá, Mato Grosso": 5,
+    "Juiz de Fora, Minas Gerais": 4,
+    "Belo Horizonte, Minas Gerais": 13,
+    "Curitiba, Paraná": 5,
+    "Belém, Pará": 6,
+    "Campinas, São Paulo (state)": 4,
+    "São Gonçalo, Rio de Janeiro (state)": 3
+   }
+  },
+  "online": {}
  }
 }
