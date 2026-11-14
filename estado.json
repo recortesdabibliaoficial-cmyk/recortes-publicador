@@ -2538,6 +2538,9 @@
  },
  "lh-2026-11-14-1200": {
   "tentativas": 1,
-  "ultimo_erro": "container 18110724791249877: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '18110724791249877'}"
+  "status": "publicado",
+  "media_id": "18121391543069225",
+  "em": "2026-11-14T15:07:00.198791+00:00",
+  "link": "https://www.instagram.com/reel/DfufSmlmTIp/"
  }
 }
