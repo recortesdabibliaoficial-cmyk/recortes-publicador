@@ -5229,8 +5229,8 @@
   "lido_em": "2026-11-15T10:45:57.798950+00:00"
  },
  "pensar2026-11-14": {
-  "reach": 9,
-  "views": 10,
+  "reach": 10,
+  "views": 11,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5241,24 +5241,25 @@
    "tap_forward": 4,
    "swipe_forward": 1
   },
-  "lido_em": "2026-11-15T14:36:11.186361+00:00"
+  "lido_em": "2026-11-15T16:41:01.545782+00:00"
  },
  "ls4-2026-11-14-o-pai-do-menino": {
-  "reach": 7,
-  "views": 7,
+  "reach": 8,
+  "views": 8,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
+   "tap_exit": 1,
    "tap_forward": 5
   },
-  "lido_em": "2026-11-15T14:36:11.186361+00:00"
+  "lido_em": "2026-11-15T16:41:01.545782+00:00"
  },
  "ora-story-noite-2026-11-14": {
   "reach": 6,
-  "views": 7,
+  "views": 8,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5268,7 +5269,7 @@
    "tap_forward": 3,
    "tap_exit": 1
   },
-  "lido_em": "2026-11-15T14:36:11.186361+00:00"
+  "lido_em": "2026-11-15T16:41:01.545782+00:00"
  },
  "lh-2026-11-14-1200": {
   "reach": 133,
@@ -5310,13 +5311,13 @@
  },
  "ora-story-manha-2026-11-15": {
   "reach": 0,
-  "views": 3,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-15T14:36:11.186361+00:00"
+  "lido_em": "2026-11-15T16:41:01.545782+00:00"
  },
  "vsabia2026-11-15": {
   "reach": 0,
