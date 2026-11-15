@@ -5226,11 +5226,11 @@
    "tap_forward": 4,
    "swipe_forward": 1
   },
-  "lido_em": "2026-11-15T08:41:00.298743+00:00"
+  "lido_em": "2026-11-15T10:45:57.798950+00:00"
  },
  "pensar2026-11-14": {
   "reach": 5,
-  "views": 6,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5240,9 +5240,19 @@
    "tap_exit": 2,
    "tap_forward": 3
   },
-  "lido_em": "2026-11-15T08:41:00.298743+00:00"
+  "lido_em": "2026-11-15T10:45:57.798950+00:00"
  },
  "ls4-2026-11-14-o-pai-do-menino": {
+  "reach": 0,
+  "views": 5,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-11-15T10:45:57.798950+00:00"
+ },
+ "ora-story-noite-2026-11-14": {
   "reach": 0,
   "views": 4,
   "replies": 0,
@@ -5250,17 +5260,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-15T08:41:00.298743+00:00"
- },
- "ora-story-noite-2026-11-14": {
-  "reach": 0,
-  "views": 3,
-  "replies": 0,
-  "shares": 0,
-  "total_interactions": 0,
-  "follows": 0,
-  "profile_visits": 0,
-  "lido_em": "2026-11-15T08:41:00.298743+00:00"
+  "lido_em": "2026-11-15T10:45:57.798950+00:00"
  },
  "lh-2026-11-14-1200": {
   "reach": 133,
