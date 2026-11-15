@@ -5326,7 +5326,7 @@
   "lido_em": "2026-11-15T22:46:00.605474+00:00"
  },
  "vsabia2026-11-15": {
-  "reach": 6,
+  "reach": 7,
   "views": 8,
   "replies": 0,
   "shares": 0,
@@ -5334,10 +5334,11 @@
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 4,
-   "swipe_forward": 1
+   "tap_exit": 2,
+   "swipe_forward": 1,
+   "tap_forward": 4
   },
-  "lido_em": "2026-11-15T21:11:16.649677+00:00"
+  "lido_em": "2026-11-15T23:15:54.524350+00:00"
  },
  "ls4-2026-11-15-jesus-perdido-no-templo": {
   "reach": 0,
