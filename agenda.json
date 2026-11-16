@@ -5554,5 +5554,37 @@
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc4-2026-11-18-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-18T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc4-2026-11-18-20_01_eb2e4811.jpg",
+   "midia/carrossel_novo/lc4-2026-11-18-20_02_55c2679b.jpg",
+   "midia/carrossel_novo/lc4-2026-11-18-20_03_014d9a24.jpg",
+   "midia/carrossel_novo/lc4-2026-11-18-20_04_ea235238.jpg",
+   "midia/carrossel_novo/lc4-2026-11-18-20_05_59586e44.jpg",
+   "midia/carrossel_novo/lc4-2026-11-18-20_06_448322be.jpg",
+   "midia/carrossel_novo/lc4-2026-11-18-20_07_3572d863.jpg",
+   "midia/carrossel_novo/lc4-2026-11-18-20_08_85e1cd14.jpg"
+  ],
+  "legenda": "Passaram reto pela sua dor? Um estranho parou.\n\n🚶 Gente que viu você caído e seguiu em frente.\n😔 A ajuda que não veio de quem você esperava.\n🤍 Um estranho que teve mais compaixão que os de perto.\n\nJesus contou a história de um homem assaltado e deixado meio morto na estrada. Um sacerdote viu e passou longe. Um levita viu e passou longe também. Um samaritano, estrangeiro mal visto, viu e teve compaixão: cuidou das feridas, levou o homem a uma hospedaria e pagou pelo cuidado. No fim, Jesus disse: Vai, e faze da mesma maneira.\n\nDois viram e passaram. Um viu e parou.\n\n📜 O versículo (Lucas 10:33)\n\"Porém um certo samaritano, que ia pelo caminho, veio junto a ele, e vendo-o, teve compaixão dele.\"\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #compaixao",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 2 de 8: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 3 de 8: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 4 de 8: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 5 de 8: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 6 de 8: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 7 de 8: O bom samaritano. Ilustração em papel recortado.",
+   "Slide 8 de 8: O bom samaritano. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc4-2026-11-18-20.jpg",
+  "titulo": "O bom samaritano",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
