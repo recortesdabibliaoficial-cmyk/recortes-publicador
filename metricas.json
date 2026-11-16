@@ -5341,8 +5341,8 @@
   "lido_em": "2026-11-16T14:31:41.929289+00:00"
  },
  "ls4-2026-11-15-jesus-perdido-no-templo": {
-  "reach": 9,
-  "views": 10,
+  "reach": 11,
+  "views": 12,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5352,22 +5352,22 @@
    "tap_forward": 6,
    "tap_exit": 2
   },
-  "lido_em": "2026-11-16T16:31:54.829606+00:00"
+  "lido_em": "2026-11-16T18:36:19.875898+00:00"
  },
  "ora-story-noite-2026-11-15": {
-  "reach": 8,
-  "views": 8,
+  "reach": 10,
+  "views": 11,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "swipe_forward": 1,
+   "tap_exit": 2,
    "tap_forward": 5,
-   "tap_exit": 1
+   "swipe_forward": 2
   },
-  "lido_em": "2026-11-16T16:31:54.829606+00:00"
+  "lido_em": "2026-11-16T18:36:19.875898+00:00"
  },
  "lh-2026-11-15-1200": {
   "reach": 106,
@@ -5408,14 +5408,19 @@
   "lido_em": "2026-11-16T14:31:41.929289+00:00"
  },
  "ora-story-manha-2026-11-16": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-16T16:31:54.829606+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "swipe_forward": 2,
+   "tap_forward": 2
+  },
+  "lido_em": "2026-11-16T18:36:19.875898+00:00"
  },
  "vsabia2026-11-16": {
   "reach": 0,
