@@ -4930,5 +4930,565 @@
   "fixo": true,
   "miniatura": "midia/miniaturas/ls4-2026-11-15-jesus-perdido-no-templo.jpg",
   "destaque": "Esperança"
+ },
+ {
+  "id": "lh-2026-11-16-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-16T12:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-16-1200_1b444830.mp4"
+  ],
+  "legenda": "Todo mundo te julgou? Jesus não.\n\nQueriam uma pedra. Jesus escreveu no chão, e um a um os acusadores foram embora. Ele não a condenou: deu a ela um caminho novo.\n\n📜 O versículo (João 8:11)\n\"E disse-lhe Jesus: Nem eu também te condeno; vai, e não peques mais.\"\n\n📖 João 8:1-11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #perdao",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-16-1200.jpg",
+  "titulo": "A mulher adúltera",
+  "dur": 12.0,
+  "arte": "nova"
+ },
+ {
+  "id": "lh-2026-11-16-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-16T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-16-1700_6aeaf08a.mp4"
+  ],
+  "legenda": "Já orou com o coração apertado? Jesus também.\n\nJesus conheceu a angústia por dentro. E naquela noite, Deus mandou um anjo para fortalecê-lo.\n\n📜 O versículo (Lucas 22:43)\n\"E apareceu-lhe um anjo do céu, que o fortalecia.\"\n\n📖 Lucas 22:39-46 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-16-1700.jpg",
+  "titulo": "Jesus no Getsêmani",
+  "dur": 12.0,
+  "arte": "nova",
+  "adiavel": true
+ },
+ {
+  "id": "lh-2026-11-17-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-17T12:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-17-1200_5429bb30.mp4"
+  ],
+  "legenda": "Não consegue chegar até Jesus? Alguém te leva.\n\nO homem não podia andar até Jesus. Quatro amigos fizeram isso por ele, nem que fosse pelo telhado.\n\n📜 O versículo (Marcos 2:5)\n\"Quando Jesus viu a fé deles, disse ao paralítico: Filho, os teus pecados te são perdoados.\"\n\n📖 Marcos 2:1-12 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #amizade",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-17-1200.jpg",
+  "titulo": "O paralítico e os quatro amigos",
+  "dur": 12.0,
+  "arte": "nova"
+ },
+ {
+  "id": "lh-2026-11-17-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-17T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-17-1700_af185a1d.mp4"
+  ],
+  "legenda": "Duvidou de Deus? Jesus não brigou com Tomé.\n\nTomé precisava ver para crer. Jesus não o mandou embora: mostrou as mãos feridas.\n\n📜 O versículo (João 20:27)\n\"Põe teu dedo aqui, e vê minhas mãos; e chega tua mão, e toca-a em meu lado; e não sejas incrédulo, mas sim crente.\"\n\n📖 João 20:24-29 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #fe",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-17-1700.jpg",
+  "titulo": "Tomé e as mãos de Jesus",
+  "dur": 12.0,
+  "arte": "nova",
+  "adiavel": true
+ },
+ {
+  "id": "lh-2026-11-18-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-18T12:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-18-1200_257604af.mp4"
+  ],
+  "legenda": "Passaram reto pela sua dor? Um estranho parou.\n\nJesus contou esta história para mostrar o que é amar o próximo: ver a dor e parar.\n\n📜 O versículo (Lucas 10:33)\n\"Porém um certo samaritano, que ia pelo caminho, veio junto a ele, e vendo-o, teve compaixão dele\"\n\n📖 Lucas 10:25-37 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #compaixao",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-18-1200.jpg",
+  "titulo": "O bom samaritano",
+  "dur": 12.0,
+  "arte": "nova"
+ },
+ {
+  "id": "lh-2026-11-18-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-18T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-18-1700_68306d00.mp4"
+  ],
+  "legenda": "Falhou com Jesus? Ele só pergunta: tu me amas?\n\nPedro tinha negado Jesus três vezes. Na praia, Jesus lhe deu três vezes a chance de dizer que o amava.\n\n📜 O versículo (João 21:17)\n\"Senhor, tu sabes todas as coisas, tu sabes que eu te amo.\"\n\n📖 João 18 e 21:15-19 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #pedro",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-18-1700.jpg",
+  "titulo": "Pedro: tu me amas?",
+  "dur": 12.0,
+  "arte": "nova",
+  "adiavel": true
+ },
+ {
+  "id": "lh-2026-11-19-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-19T12:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-19-1200_08f004fb.mp4"
+  ],
+  "legenda": "Sente que Deus te esqueceu? Ele se lembrou de Noé.\n\nForam meses dentro da arca, sem ver terra. A Bíblia diz que Deus se lembrou de Noé, e as águas começaram a baixar.\n\n📜 O versículo (Gênesis 8:1)\n\"E lembrou-se Deus de Noé, e de todos os animais, selvagens e domésticos que estavam com ele na arca\"\n\n📖 Gênesis 7 e 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #noe",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-19-1200.jpg",
+  "titulo": "Deus se lembrou de Noé",
+  "dur": 12.0,
+  "arte": "nova"
+ },
+ {
+  "id": "lh-2026-11-19-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-19T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-19-1700_13c616f3.mp4"
+  ],
+  "legenda": "Caminhando triste? Jesus vai do seu lado.\n\nDois discípulos andavam tristes, achando que tudo tinha acabado. Jesus caminhava com eles o tempo todo.\n\n📜 O versículo (Lucas 24:15)\n\"Jesus se aproximou, e foi junto deles.\"\n\n📖 Lucas 24:13-35 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #esperanca",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-19-1700.jpg",
+  "titulo": "O caminho de Emaús",
+  "dur": 12.0,
+  "arte": "nova",
+  "adiavel": true
+ },
+ {
+  "id": "lh-2026-11-20-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-20T12:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-20-1200_38146cd7.mp4"
+  ],
+  "legenda": "Com medo do que vem aí? Lembre do que Deus já fez.\n\nAntes de Golias, Davi lembrou do que Deus já tinha feito por ele no pasto. Foi com essa lembrança que ele seguiu em frente.\n\n📜 O versículo (1 Samuel 17:37)\n\"o SENHOR que me livrou das garras do leão e das garras do urso, ele também me livrará da mão deste filisteu.\"\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #davi",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-20-1200.jpg",
+  "titulo": "Davi, o leão e o urso",
+  "dur": 12.0,
+  "arte": "nova"
+ },
+ {
+  "id": "lh-2026-11-20-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-20T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-20-1700_3859020c.mp4"
+  ],
+  "legenda": "Deus parece calado? Ele chamou um menino pelo nome.\n\nSamuel ainda não conhecia a voz de Deus. Deus chamou de novo, até ele ouvir.\n\n📜 O versículo (1 Samuel 3:10)\n\"Samuel, Samuel! Então Samuel disse: Fala, que o teu servo está ouvindo.\"\n\n📖 1 Samuel 3:1-10 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #oracao",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-20-1700.jpg",
+  "titulo": "Samuel chamado à noite",
+  "dur": 12.0,
+  "arte": "nova",
+  "adiavel": true
+ },
+ {
+  "id": "lh-2026-11-21-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-21T12:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-21-1200_8ad38585.mp4"
+  ],
+  "legenda": "Com medo de fazer o que é certo? Ester também tinha.\n\nEster arriscou a vida para salvar o seu povo. O lugar onde ela estava não era por acaso.\n\n📜 O versículo (Ester 4:14)\n\"E quem sabe se foi para tempo como este que chegaste a ser rainha?\"\n\n📖 Ester 4 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #ester",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-21-1200.jpg",
+  "titulo": "Ester: para um tempo como este",
+  "dur": 12.0,
+  "arte": "nova"
+ },
+ {
+  "id": "lh-2026-11-21-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-21T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-21-1700_5b97993b.mp4"
+  ],
+  "legenda": "Sente que o seu pouco não vale nada? Jesus viu.\n\nDuas moedas parecem quase nada. Jesus disse que ela deu mais que todos, porque deu tudo o que tinha.\n\n📜 O versículo (Marcos 12:43)\n\"esta pobre viúva lançou mais que todos os que lançaram na arca do tesouro\"\n\n📖 Marcos 12:41-44 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #jesus",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-21-1700.jpg",
+  "titulo": "A oferta da viúva",
+  "dur": 12.0,
+  "arte": "nova",
+  "adiavel": true
+ },
+ {
+  "id": "lh-2026-11-22-1200",
+  "tipo": "REEL",
+  "quando": "2026-11-22T12:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-22-1200_f5e3ce23.mp4"
+  ],
+  "legenda": "Alguém te fez mal de propósito? Veja o que Deus fez.\n\nOs irmãos venderam José. Anos depois, ele os perdoou e cuidou deles e dos seus filhos.\n\n📜 O versículo (Gênesis 50:20)\n\"Vós pensastes mal sobre mim, mas Deus o encaminhou para o bem\"\n\n📖 Gênesis 37 e 50 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #josedoegito",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-22-1200.jpg",
+  "titulo": "José perdoa os irmãos",
+  "dur": 12.0,
+  "arte": "nova"
+ },
+ {
+  "id": "lh-2026-11-22-1700",
+  "tipo": "REEL",
+  "quando": "2026-11-22T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/reels/lh-2026-11-22-1700_6e1b188b.mp4"
+  ],
+  "legenda": "Cansado de tudo? Deus não deu bronca em Elias.\n\nElias estava esgotado e sem vontade de viver. Deus mandou um anjo com pão e água, e deixou que ele descansasse.\n\n📜 O versículo (1 Reis 19:7)\n\"Levanta-te, come: porque grande caminho te resta.\"\n\n📖 1 Reis 19:1-8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#biblia #historiasbiblicas #fe #deus #elias",
+  "na_grade": false,
+  "capa_ms": 500,
+  "fixo": true,
+  "cta": "nenhum",
+  "miniatura": "midia/miniaturas/lh-2026-11-22-1700.jpg",
+  "titulo": "Elias debaixo da árvore",
+  "dur": 12.0,
+  "arte": "nova",
+  "adiavel": true
+ },
+ {
+  "id": "ora-story-manha-2026-11-16",
+  "tipo": "STORY",
+  "quando": "2026-11-16T08:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-16_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 16/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-16.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-16",
+  "tipo": "STORY",
+  "quando": "2026-11-16T21:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-16_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 16/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-16.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-17",
+  "tipo": "STORY",
+  "quando": "2026-11-17T08:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-17_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 17/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-17.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-17",
+  "tipo": "STORY",
+  "quando": "2026-11-17T21:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-17_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 17/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-17.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-18",
+  "tipo": "STORY",
+  "quando": "2026-11-18T08:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-18_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 18/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-18.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-18",
+  "tipo": "STORY",
+  "quando": "2026-11-18T21:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-18_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 18/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-18.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-19",
+  "tipo": "STORY",
+  "quando": "2026-11-19T08:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-19_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 19/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-19.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-19",
+  "tipo": "STORY",
+  "quando": "2026-11-19T21:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-19_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 19/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-19.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-20",
+  "tipo": "STORY",
+  "quando": "2026-11-20T08:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-20_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 20/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-20.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-20",
+  "tipo": "STORY",
+  "quando": "2026-11-20T21:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-20_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 20/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-20.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-21",
+  "tipo": "STORY",
+  "quando": "2026-11-21T08:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-21_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 21/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-21.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-21",
+  "tipo": "STORY",
+  "quando": "2026-11-21T21:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-21_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 21/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-21.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-22",
+  "tipo": "STORY",
+  "quando": "2026-11-22T08:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-22_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 22/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-22.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-22",
+  "tipo": "STORY",
+  "quando": "2026-11-22T21:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_oracao_2026-11-22_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 22/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-22.jpg"
+ },
+ {
+  "id": "vsabia2026-11-16",
+  "tipo": "STORY",
+  "quando": "2026-11-16T12:01:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-16_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? A mulher adúltera",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-16.jpg"
+ },
+ {
+  "id": "vsabia2026-11-18",
+  "tipo": "STORY",
+  "quando": "2026-11-18T12:01:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-18_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? O bom samaritano",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-18.jpg"
+ },
+ {
+  "id": "vsabia2026-11-20",
+  "tipo": "STORY",
+  "quando": "2026-11-20T12:01:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-20_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? Davi e Golias",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-20.jpg"
+ },
+ {
+  "id": "vsabia2026-11-22",
+  "tipo": "STORY",
+  "quando": "2026-11-22T12:01:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-22_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? José do Egito",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-22.jpg"
+ },
+ {
+  "id": "pensar2026-11-17",
+  "tipo": "STORY",
+  "quando": "2026-11-17T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-17_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Amizade",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-17.jpg"
+ },
+ {
+  "id": "pensar2026-11-19",
+  "tipo": "STORY",
+  "quando": "2026-11-19T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-19_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Espera",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-19.jpg"
+ },
+ {
+  "id": "pensar2026-11-21",
+  "tipo": "STORY",
+  "quando": "2026-11-21T17:00:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-21_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: O pouco",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-21.jpg"
+ },
+ {
+  "id": "ls4-2026-11-16-a-mulher-adultera",
+  "tipo": "STORY",
+  "quando": "2026-11-16T17:02:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-16_resumo_a-mulher-adultera.jpg"
+  ],
+  "titulo": "A mulher adúltera",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-16-a-mulher-adultera.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-17-o-paralitico-e-os-quatro-amigos",
+  "tipo": "STORY",
+  "quando": "2026-11-17T17:02:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-17_resumo_o-paralitico-e-os-quatro-amigos.jpg"
+  ],
+  "titulo": "O paralítico e os quatro amigos",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-17-o-paralitico-e-os-quatro-amigos.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-18-o-bom-samaritano",
+  "tipo": "STORY",
+  "quando": "2026-11-18T17:02:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-18_resumo_o-bom-samaritano.jpg"
+  ],
+  "titulo": "O bom samaritano",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-18-o-bom-samaritano.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-19-deus-se-lembrou-de-noe",
+  "tipo": "STORY",
+  "quando": "2026-11-19T17:02:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-19_resumo_deus-se-lembrou-de-noe.jpg"
+  ],
+  "titulo": "Deus se lembrou de Noé",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-19-deus-se-lembrou-de-noe.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-20-davi-o-leao-e-o-urso",
+  "tipo": "STORY",
+  "quando": "2026-11-20T17:02:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-20_resumo_davi-o-leao-e-o-urso.jpg"
+  ],
+  "titulo": "Davi, o leão e o urso",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-20-davi-o-leao-e-o-urso.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-21-ester-para-um-tempo-como-este",
+  "tipo": "STORY",
+  "quando": "2026-11-21T17:02:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-21_resumo_ester-para-um-tempo-como-este.jpg"
+  ],
+  "titulo": "Ester: para um tempo como este",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-21-ester-para-um-tempo-como-este.jpg",
+  "destaque": "Esperança"
+ },
+ {
+  "id": "ls4-2026-11-22-jose-perdoa-os-irmaos",
+  "tipo": "STORY",
+  "quando": "2026-11-22T17:02:00-03:00",
+  "midia": [
+   "midia/lote1611/stories/story_2026-11-22_resumo_jose-perdoa-os-irmaos.jpg"
+  ],
+  "titulo": "José perdoa os irmãos",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ls4-2026-11-22-jose-perdoa-os-irmaos.jpg",
+  "destaque": "Esperança"
  }
 ]
