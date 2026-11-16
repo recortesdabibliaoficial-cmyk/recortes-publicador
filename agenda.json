@@ -5682,5 +5682,37 @@
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc4-2026-11-22-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-22T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc4-2026-11-22-20_01_ad88327e.jpg",
+   "midia/carrossel_novo/lc4-2026-11-22-20_02_d1d658df.jpg",
+   "midia/carrossel_novo/lc4-2026-11-22-20_03_23fac420.jpg",
+   "midia/carrossel_novo/lc4-2026-11-22-20_04_0da2794b.jpg",
+   "midia/carrossel_novo/lc4-2026-11-22-20_05_b1acf55e.jpg",
+   "midia/carrossel_novo/lc4-2026-11-22-20_06_bfff4035.jpg",
+   "midia/carrossel_novo/lc4-2026-11-22-20_07_acfcd57c.jpg",
+   "midia/carrossel_novo/lc4-2026-11-22-20_08_df1e74be.jpg"
+  ],
+  "legenda": "Alguém te fez mal de propósito? Veja o que Deus fez.\n\n💔 Uma ferida que alguém abriu de propósito.\n⛓️ Anos pagando por uma culpa que não era sua.\n🤍 O perdão que parece impossível.\n\nOs irmãos de José, com inveja, o jogaram num poço e o venderam como escravo. No Egito, ele foi preso sem culpa, mas Deus estava com ele, e anos depois José governava o Egito. Quando a fome veio, ele perdoou os irmãos e cuidou de toda a família. Depois que o pai morreu, eles tiveram medo da vingança. José chorou e os consolou.\n\nEles planejaram o mal. Deus escreveu o bem.\n\n📜 O versículo (Gênesis 50:20)\n\"Vós pensastes mal sobre mim, mas Deus o encaminhou para o bem.\"\n\n📖 Gênesis 37 a 50 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #josedoegito #perdao",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 2 de 8: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 3 de 8: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 4 de 8: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 5 de 8: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 6 de 8: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 7 de 8: José perdoa os irmãos. Ilustração em papel recortado.",
+   "Slide 8 de 8: José perdoa os irmãos. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc4-2026-11-22-20.jpg",
+  "titulo": "José perdoa os irmãos",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
