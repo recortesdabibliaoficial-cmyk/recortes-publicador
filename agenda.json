@@ -5586,5 +5586,37 @@
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc4-2026-11-19-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-19T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc4-2026-11-19-20_01_689d7358.jpg",
+   "midia/carrossel_novo/lc4-2026-11-19-20_02_bc66f6d0.jpg",
+   "midia/carrossel_novo/lc4-2026-11-19-20_03_5dc0c54b.jpg",
+   "midia/carrossel_novo/lc4-2026-11-19-20_04_160e15c2.jpg",
+   "midia/carrossel_novo/lc4-2026-11-19-20_05_b9faea2a.jpg",
+   "midia/carrossel_novo/lc4-2026-11-19-20_06_df4d486c.jpg",
+   "midia/carrossel_novo/lc4-2026-11-19-20_07_3f5fbf3d.jpg",
+   "midia/carrossel_novo/lc4-2026-11-19-20_08_68745152.jpg"
+  ],
+  "legenda": "Sente que Deus te esqueceu? Ele se lembrou de Noé.\n\n⏳ Uma espera que já dura tempo demais.\n🌧️ Dias em que só se vê água para todo lado.\n🤍 A impressão de que ninguém lembra de você.\n\nNoé construiu a arca e entrou com a família e os animais. Choveu quarenta dias, e a água ficou sobre a terra por muitos meses. Então diz a Bíblia: Deus se lembrou de Noé. Mandou um vento, as águas baixaram, a pomba voltou com uma folha de oliveira e Deus pôs o arco-íris nas nuvens.\n\nMuita água, muito tempo. Deus não esqueceu Noé.\n\n📜 O versículo (Gênesis 8:1)\n\"E lembrou-se Deus de Noé, e de todos os animais, selvagens e domésticos que estavam com ele na arca.\"\n\n📖 Gênesis 6 a 9 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #noe #esperanca",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Deus se lembrou de Noé. Ilustração em papel recortado.",
+   "Slide 2 de 8: Deus se lembrou de Noé. Ilustração em papel recortado.",
+   "Slide 3 de 8: Deus se lembrou de Noé. Ilustração em papel recortado.",
+   "Slide 4 de 8: Deus se lembrou de Noé. Ilustração em papel recortado.",
+   "Slide 5 de 8: Deus se lembrou de Noé. Ilustração em papel recortado.",
+   "Slide 6 de 8: Deus se lembrou de Noé. Ilustração em papel recortado.",
+   "Slide 7 de 8: Deus se lembrou de Noé. Ilustração em papel recortado.",
+   "Slide 8 de 8: Deus se lembrou de Noé. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc4-2026-11-19-20.jpg",
+  "titulo": "Deus se lembrou de Noé",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
