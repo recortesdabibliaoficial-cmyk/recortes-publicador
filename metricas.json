@@ -5341,14 +5341,18 @@
   "lido_em": "2026-11-16T01:16:47.634090+00:00"
  },
  "ls4-2026-11-15-jesus-perdido-no-templo": {
-  "reach": 0,
-  "views": 2,
+  "reach": 5,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-16T00:06:20.826112+00:00"
+  "nav": {
+   "tap_exit": 2,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-16T02:11:21.135009+00:00"
  },
  "ora-story-noite-2026-11-15": {
   "reach": 0,
