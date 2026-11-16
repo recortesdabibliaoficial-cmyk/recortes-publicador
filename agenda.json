@@ -5490,5 +5490,37 @@
   "fixo": true,
   "miniatura": "midia/miniaturas/ls4-2026-11-22-jose-perdoa-os-irmaos.jpg",
   "destaque": "Esperança"
+ },
+ {
+  "id": "lc4-2026-11-16-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-16T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc4-2026-11-16-20_01_7653c6be.jpg",
+   "midia/carrossel_novo/lc4-2026-11-16-20_02_37759a2a.jpg",
+   "midia/carrossel_novo/lc4-2026-11-16-20_03_8b9f073e.jpg",
+   "midia/carrossel_novo/lc4-2026-11-16-20_04_9ab97130.jpg",
+   "midia/carrossel_novo/lc4-2026-11-16-20_05_0a1ccbcc.jpg",
+   "midia/carrossel_novo/lc4-2026-11-16-20_06_5441e05a.jpg",
+   "midia/carrossel_novo/lc4-2026-11-16-20_07_7e542d0f.jpg",
+   "midia/carrossel_novo/lc4-2026-11-16-20_08_f213dad8.jpg"
+  ],
+  "legenda": "Todo mundo te julgou? Jesus não.\n\n👉 Um erro que todo mundo ficou sabendo.\n😔 Gente apontando o dedo para você.\n🤍 A vergonha de não ter onde se esconder.\n\nLevaram até Jesus uma mulher pega em adultério e queriam apedrejá-la. Jesus se inclinou e escreveu na terra. Depois disse que quem não tivesse pecado atirasse a primeira pedra. Um a um, todos foram embora. Jesus não a condenou: deu a ela um caminho novo.\n\nTodos tinham pedras. Jesus tinha perdão.\n\n📜 O versículo (João 8:11)\n\"E disse-lhe Jesus: Nem eu também te condeno; vai, e não peques mais.\"\n\n📖 João 8:1-11 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #perdao",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: A mulher adúltera. Ilustração em papel recortado.",
+   "Slide 2 de 8: A mulher adúltera. Ilustração em papel recortado.",
+   "Slide 3 de 8: A mulher adúltera. Ilustração em papel recortado.",
+   "Slide 4 de 8: A mulher adúltera. Ilustração em papel recortado.",
+   "Slide 5 de 8: A mulher adúltera. Ilustração em papel recortado.",
+   "Slide 6 de 8: A mulher adúltera. Ilustração em papel recortado.",
+   "Slide 7 de 8: A mulher adúltera. Ilustração em papel recortado.",
+   "Slide 8 de 8: A mulher adúltera. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc4-2026-11-16-20.jpg",
+  "titulo": "A mulher adúltera",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
