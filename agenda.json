@@ -5650,5 +5650,37 @@
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc4-2026-11-21-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-21T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc4-2026-11-21-20_01_e3a00c3d.jpg",
+   "midia/carrossel_novo/lc4-2026-11-21-20_02_9ea1d66a.jpg",
+   "midia/carrossel_novo/lc4-2026-11-21-20_03_94b19926.jpg",
+   "midia/carrossel_novo/lc4-2026-11-21-20_04_8a1f655e.jpg",
+   "midia/carrossel_novo/lc4-2026-11-21-20_05_d8169a8a.jpg",
+   "midia/carrossel_novo/lc4-2026-11-21-20_06_5fc1cf4f.jpg",
+   "midia/carrossel_novo/lc4-2026-11-21-20_07_d2558bcd.jpg",
+   "midia/carrossel_novo/lc4-2026-11-21-20_08_92d64220.jpg"
+  ],
+  "legenda": "Com medo de fazer o que é certo? Ester também tinha.\n\n😰 Uma decisão difícil que você vem adiando.\n🤐 A vontade de ficar calada para não se arriscar.\n🙏 A pergunta: por que estou aqui?\n\nEster era uma órfã que se tornou rainha. Quando um decreto mandou matar todo o seu povo, o primo Mardoqueu pediu que ela falasse com o rei. Ir sem ser chamada podia custar a vida. Ester pediu que o povo jejuasse por ela, foi falar com o rei, e o povo foi salvo.\n\nVocê não está onde está por acaso.\n\n📜 O versículo (Ester 4:14)\n\"E quem sabe se foi para tempo como este que chegaste a ser rainha?\"\n\n📖 Ester 2 a 8 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #ester #coragem",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Ester: para um tempo como este. Ilustração em papel recortado.",
+   "Slide 2 de 8: Ester: para um tempo como este. Ilustração em papel recortado.",
+   "Slide 3 de 8: Ester: para um tempo como este. Ilustração em papel recortado.",
+   "Slide 4 de 8: Ester: para um tempo como este. Ilustração em papel recortado.",
+   "Slide 5 de 8: Ester: para um tempo como este. Ilustração em papel recortado.",
+   "Slide 6 de 8: Ester: para um tempo como este. Ilustração em papel recortado.",
+   "Slide 7 de 8: Ester: para um tempo como este. Ilustração em papel recortado.",
+   "Slide 8 de 8: Ester: para um tempo como este. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc4-2026-11-21-20.jpg",
+  "titulo": "Ester: para um tempo como este",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
