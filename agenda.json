@@ -5522,5 +5522,37 @@
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc4-2026-11-17-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-17T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc4-2026-11-17-20_01_565eb77f.jpg",
+   "midia/carrossel_novo/lc4-2026-11-17-20_02_dddf7bee.jpg",
+   "midia/carrossel_novo/lc4-2026-11-17-20_03_2be01020.jpg",
+   "midia/carrossel_novo/lc4-2026-11-17-20_04_e88b1180.jpg",
+   "midia/carrossel_novo/lc4-2026-11-17-20_05_f119acf2.jpg",
+   "midia/carrossel_novo/lc4-2026-11-17-20_06_af8de664.jpg",
+   "midia/carrossel_novo/lc4-2026-11-17-20_07_8a32476a.jpg",
+   "midia/carrossel_novo/lc4-2026-11-17-20_08_18363993.jpg"
+  ],
+  "legenda": "Não consegue chegar até Jesus? Alguém te leva.\n\n😮‍💨 Um tempo em que faltam forças até para orar.\n🤝 Amigos que não desistem de você.\n🙏 Alguém que leva o seu nome até Deus.\n\nA casa estava tão cheia que ninguém passava pela porta. Quatro amigos carregavam um paralítico na cama. Subiram no telhado, abriram um buraco e desceram o amigo até Jesus. Jesus viu a fé deles, chamou o homem de filho e perdoou os seus pecados. Depois, o homem se levantou, pegou a cama e foi para casa.\n\nEle não podia ir. O amor dos amigos o levou.\n\n📜 O versículo (Marcos 2:5)\n\"Quando Jesus viu a fé deles, disse ao paralítico: Filho, os teus pecados te são perdoados.\"\n\n📖 Marcos 2:1-12 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #jesus #amizade",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado.",
+   "Slide 2 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado.",
+   "Slide 3 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado.",
+   "Slide 4 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado.",
+   "Slide 5 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado.",
+   "Slide 6 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado.",
+   "Slide 7 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado.",
+   "Slide 8 de 8: O paralítico e os quatro amigos. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc4-2026-11-17-20.jpg",
+  "titulo": "O paralítico e os quatro amigos",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
