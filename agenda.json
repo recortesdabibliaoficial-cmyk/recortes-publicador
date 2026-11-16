@@ -5618,5 +5618,37 @@
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "lc4-2026-11-20-20",
+  "tipo": "CARROSSEL",
+  "quando": "2026-11-20T20:00:00-03:00",
+  "midia": [
+   "midia/carrossel_novo/lc4-2026-11-20-20_01_036dfd32.jpg",
+   "midia/carrossel_novo/lc4-2026-11-20-20_02_cfbcbf9f.jpg",
+   "midia/carrossel_novo/lc4-2026-11-20-20_03_170b174e.jpg",
+   "midia/carrossel_novo/lc4-2026-11-20-20_04_cefaaebc.jpg",
+   "midia/carrossel_novo/lc4-2026-11-20-20_05_459355be.jpg",
+   "midia/carrossel_novo/lc4-2026-11-20-20_06_a9d81893.jpg",
+   "midia/carrossel_novo/lc4-2026-11-20-20_07_bb7f581b.jpg",
+   "midia/carrossel_novo/lc4-2026-11-20-20_08_5d883b42.jpg"
+  ],
+  "legenda": "Com medo do que vem aí? Lembre do que Deus já fez.\n\n😟 Um problema que parece um gigante.\n🫣 Gente dizendo que você não vai dar conta.\n🙏 A lembrança de tudo o que Deus já fez por você.\n\nTodo o exército tremia diante de Golias. Davi era só um jovem pastor, e o rei Saul achou que ele era novo demais. Mas Davi lembrou que Deus o tinha livrado do leão e do urso quando cuidava das ovelhas. Foi com essa lembrança que ele enfrentou o gigante, e Deus o livrou de novo.\n\nQuem te guardou ontem não vai te largar hoje.\n\n📜 O versículo (1 Samuel 17:37)\n\"o SENHOR que me livrou das garras do leão e das garras do urso, ele também me livrará da mão deste filisteu.\"\n\n📖 1 Samuel 17 · Bíblia Livre (BLIVRE), CC BY 4.0\n\n#historiasbiblicas #biblia #fe #davi #coragem",
+  "cta": null,
+  "alt": [
+   "Slide 1 de 8: Davi, o leão e o urso. Ilustração em papel recortado.",
+   "Slide 2 de 8: Davi, o leão e o urso. Ilustração em papel recortado.",
+   "Slide 3 de 8: Davi, o leão e o urso. Ilustração em papel recortado.",
+   "Slide 4 de 8: Davi, o leão e o urso. Ilustração em papel recortado.",
+   "Slide 5 de 8: Davi, o leão e o urso. Ilustração em papel recortado.",
+   "Slide 6 de 8: Davi, o leão e o urso. Ilustração em papel recortado.",
+   "Slide 7 de 8: Davi, o leão e o urso. Ilustração em papel recortado.",
+   "Slide 8 de 8: Davi, o leão e o urso. Ilustração em papel recortado."
+  ],
+  "miniatura": "midia/miniaturas/lc4-2026-11-20-20.jpg",
+  "titulo": "Davi, o leão e o urso",
+  "fixo": true,
+  "formato": "carrossel_novo",
+  "origem": "historia_do_reel"
  }
 ]
