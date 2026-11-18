@@ -5522,8 +5522,8 @@
   "lido_em": "2026-11-18T02:31:39.609129+00:00"
  },
  "ora-story-manha-2026-11-17": {
-  "reach": 8,
-  "views": 9,
+  "reach": 9,
+  "views": 11,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5533,37 +5533,45 @@
    "tap_back": 1,
    "tap_forward": 6
   },
-  "lido_em": "2026-11-18T08:46:41.159844+00:00"
+  "lido_em": "2026-11-18T10:51:22.849323+00:00"
  },
  "pensar2026-11-17": {
-  "reach": 0,
-  "views": 4,
+  "reach": 7,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-18T08:46:41.159844+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-18T10:51:22.849323+00:00"
  },
  "ls4-2026-11-17-o-paralitico-e-os-quatro-amigos": {
-  "reach": 0,
-  "views": 4,
+  "reach": 6,
+  "views": 8,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-18T08:46:41.159844+00:00"
+  "nav": {
+   "tap_exit": 2,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-18T10:51:22.849323+00:00"
  },
  "ora-story-noite-2026-11-17": {
   "reach": 0,
-  "views": 2,
+  "views": 4,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-18T08:46:41.159844+00:00"
+  "lido_em": "2026-11-18T10:51:22.849323+00:00"
  },
  "lh-2026-11-17-1200": {
   "reach": 122,
