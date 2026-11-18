@@ -5631,14 +5631,17 @@
   "lido_em": "2026-11-18T22:52:12.963175+00:00"
  },
  "vsabia2026-11-18": {
-  "reach": 0,
-  "views": 4,
+  "reach": 5,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 1,
-  "lido_em": "2026-11-18T21:11:25.133318+00:00"
+  "nav": {
+   "tap_forward": 4
+  },
+  "lido_em": "2026-11-18T23:11:26.633489+00:00"
  },
  "ls4-2026-11-18-o-bom-samaritano": {
   "reach": 0,
