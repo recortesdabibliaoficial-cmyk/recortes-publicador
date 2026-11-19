@@ -5621,8 +5621,8 @@
   "lido_em": "2026-11-19T02:31:18.229703+00:00"
  },
  "ora-story-manha-2026-11-18": {
-  "reach": 8,
-  "views": 11,
+  "reach": 9,
+  "views": 12,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5633,11 +5633,11 @@
    "tap_forward": 6,
    "tap_back": 2
   },
-  "lido_em": "2026-11-19T02:31:18.229703+00:00"
+  "lido_em": "2026-11-19T04:36:14.967529+00:00"
  },
  "vsabia2026-11-18": {
-  "reach": 7,
-  "views": 8,
+  "reach": 8,
+  "views": 9,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5646,27 +5646,32 @@
   "nav": {
    "tap_forward": 6
   },
-  "lido_em": "2026-11-19T02:31:18.229703+00:00"
+  "lido_em": "2026-11-19T04:36:14.967529+00:00"
  },
  "ls4-2026-11-18-o-bom-samaritano": {
-  "reach": 0,
-  "views": 6,
+  "reach": 5,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 1,
   "profile_visits": 1,
-  "lido_em": "2026-11-19T02:31:18.229703+00:00"
+  "nav": {
+   "tap_exit": 2,
+   "tap_forward": 2,
+   "swipe_forward": 1
+  },
+  "lido_em": "2026-11-19T04:36:14.967529+00:00"
  },
  "ora-story-noite-2026-11-18": {
   "reach": 0,
-  "views": 1,
+  "views": 3,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-19T02:31:18.229703+00:00"
+  "lido_em": "2026-11-19T04:36:14.967529+00:00"
  },
  "lh-2026-11-18-1200": {
   "reach": 118,
