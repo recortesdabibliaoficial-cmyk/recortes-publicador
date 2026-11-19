@@ -5668,17 +5668,17 @@
   "lido_em": "2026-11-19T18:41:29.363726+00:00"
  },
  "ora-story-noite-2026-11-18": {
-  "reach": 5,
-  "views": 6,
+  "reach": 7,
+  "views": 9,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 4
+   "tap_forward": 5
   },
-  "lido_em": "2026-11-19T18:41:29.363726+00:00"
+  "lido_em": "2026-11-19T20:41:55.881362+00:00"
  },
  "lh-2026-11-18-1200": {
   "reach": 120,
@@ -5719,14 +5719,18 @@
   "lido_em": "2026-11-19T14:36:46.785927+00:00"
  },
  "ora-story-manha-2026-11-19": {
-  "reach": 0,
-  "views": 3,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-19T18:41:29.363726+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-19T20:41:55.881362+00:00"
  },
  "pensar2026-11-19": {
   "reach": 0,
