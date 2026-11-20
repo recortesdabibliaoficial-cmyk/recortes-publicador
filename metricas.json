@@ -5724,23 +5724,23 @@
   "lido_em": "2026-11-20T02:31:18.214351+00:00"
  },
  "ora-story-manha-2026-11-19": {
-  "reach": 11,
-  "views": 11,
+  "reach": 12,
+  "views": 14,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_exit": 1,
+   "swipe_forward": 2,
    "tap_forward": 6,
-   "swipe_forward": 1
+   "tap_exit": 1
   },
-  "lido_em": "2026-11-20T08:36:15.209793+00:00"
+  "lido_em": "2026-11-20T10:41:12.885251+00:00"
  },
  "pensar2026-11-19": {
   "reach": 8,
-  "views": 10,
+  "views": 11,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5750,9 +5750,23 @@
    "tap_forward": 5,
    "swipe_forward": 1
   },
-  "lido_em": "2026-11-20T08:36:15.209793+00:00"
+  "lido_em": "2026-11-20T10:41:12.885251+00:00"
  },
  "ls4-2026-11-19-deus-se-lembrou-de-noe": {
+  "reach": 8,
+  "views": 8,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 6
+  },
+  "lido_em": "2026-11-20T10:41:12.885251+00:00"
+ },
+ "ora-story-noite-2026-11-19": {
   "reach": 7,
   "views": 7,
   "replies": 0,
@@ -5761,24 +5775,10 @@
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_forward": 5,
+   "tap_forward": 6,
    "tap_exit": 1
   },
-  "lido_em": "2026-11-20T08:36:15.209793+00:00"
- },
- "ora-story-noite-2026-11-19": {
-  "reach": 5,
-  "views": 5,
-  "replies": 0,
-  "shares": 0,
-  "total_interactions": 0,
-  "follows": 0,
-  "profile_visits": 0,
-  "nav": {
-   "tap_forward": 4,
-   "tap_exit": 1
-  },
-  "lido_em": "2026-11-20T08:36:15.209793+00:00"
+  "lido_em": "2026-11-20T10:41:12.885251+00:00"
  },
  "lh-2026-11-19-1200": {
   "reach": 120,
