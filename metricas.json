@@ -5720,18 +5720,19 @@
   "lido_em": "2026-11-19T14:36:46.785927+00:00"
  },
  "ora-story-manha-2026-11-19": {
-  "reach": 5,
-  "views": 5,
+  "reach": 6,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
   "nav": {
-   "tap_exit": 1,
-   "tap_forward": 3
+   "swipe_forward": 1,
+   "tap_forward": 3,
+   "tap_exit": 1
   },
-  "lido_em": "2026-11-19T22:46:21.507642+00:00"
+  "lido_em": "2026-11-20T00:51:16.753978+00:00"
  },
  "pensar2026-11-19": {
   "reach": 0,
