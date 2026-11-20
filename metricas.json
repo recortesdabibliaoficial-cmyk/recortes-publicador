@@ -5735,24 +5735,32 @@
   "lido_em": "2026-11-20T00:51:16.753978+00:00"
  },
  "pensar2026-11-19": {
-  "reach": 0,
-  "views": 6,
+  "reach": 6,
+  "views": 8,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-20T00:11:23.084660+00:00"
+  "nav": {
+   "swipe_forward": 1,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-20T02:16:17.784790+00:00"
  },
  "ls4-2026-11-19-deus-se-lembrou-de-noe": {
-  "reach": 0,
-  "views": 3,
+  "reach": 5,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-20T00:11:23.084660+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-20T02:16:17.784790+00:00"
  },
  "ora-story-noite-2026-11-19": {
   "reach": 0,
