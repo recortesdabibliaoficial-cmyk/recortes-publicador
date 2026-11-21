@@ -42045,6 +42045,17 @@
     "ig_reels_avg_watch_time": 0,
     "t": "2026-11-21T20:02+00:00",
     "h": 0.01
+   },
+   {
+    "reach": 22,
+    "views": 107,
+    "likes": 2,
+    "shares": 0,
+    "saved": 1,
+    "reels_skip_rate": 21.6,
+    "ig_reels_avg_watch_time": 3712,
+    "t": "2026-11-21T21:01+00:00",
+    "h": 0.99
    }
   ]
  }
