@@ -83748,8 +83748,8 @@
   "online": {}
  },
  "2026-11-20": {
-  "seguidores": 154,
-  "publicacoes": 23,
+  "seguidores": 155,
+  "publicacoes": 24,
   "itens": {
    "mc-carrossel01": {
     "reach": 28,
@@ -84546,15 +84546,15 @@
    },
    "htexto01-2026-10-21": {
     "reach": 1119,
-    "views": 2310,
+    "views": 2312,
     "likes": 67,
     "comments": 2,
     "saved": 5,
     "shares": 2,
     "total_interactions": 80,
-    "ig_reels_avg_watch_time": 17199,
+    "ig_reels_avg_watch_time": 17174,
     "reels_skip_rate": 51.8,
-    "ig_reels_video_view_total_time": 20673367
+    "ig_reels_video_view_total_time": 20678685
    },
    "ora-story-noite-2026-10-21": {
     "reach": 11,
@@ -84852,15 +84852,15 @@
    },
    "htexto03-2026-10-23": {
     "reach": 2363,
-    "views": 4683,
+    "views": 4686,
     "likes": 138,
     "comments": 6,
     "saved": 12,
     "shares": 31,
     "total_interactions": 197,
-    "ig_reels_avg_watch_time": 16289,
+    "ig_reels_avg_watch_time": 16285,
     "reels_skip_rate": 49,
-    "ig_reels_video_view_total_time": 40527599
+    "ig_reels_video_view_total_time": 40534866
    },
    "ora-reel-noite-2026-10-23": {
     "reach": 142,
@@ -84945,16 +84945,16 @@
     "profile_visits": 0
    },
    "htexto14-2026-10-24": {
-    "reach": 3847,
-    "views": 9401,
+    "reach": 3854,
+    "views": 9432,
     "likes": 256,
     "comments": 50,
     "saved": 15,
     "shares": 3,
     "total_interactions": 329,
-    "ig_reels_avg_watch_time": 23405,
+    "ig_reels_avg_watch_time": 23407,
     "reels_skip_rate": 37.9,
-    "ig_reels_video_view_total_time": 95539969
+    "ig_reels_video_view_total_time": 95808102
    },
    "vmsg2026-10-24": {
     "reach": 137,
@@ -86293,15 +86293,15 @@
    },
    "lh-2026-11-01-1000": {
     "reach": 5578,
-    "views": 14371,
-    "likes": 133,
+    "views": 14395,
+    "likes": 134,
     "comments": 5,
     "saved": 15,
     "shares": 6,
-    "total_interactions": 177,
-    "ig_reels_avg_watch_time": 21868,
-    "reels_skip_rate": 28.3,
-    "ig_reels_video_view_total_time": 139063240
+    "total_interactions": 179,
+    "ig_reels_avg_watch_time": 21881,
+    "reels_skip_rate": 28.2,
+    "ig_reels_video_view_total_time": 139317578
    },
    "lc2-2026-11-04-20": {
     "reach": 4,
@@ -87388,16 +87388,16 @@
     }
    },
    "lh-2026-11-16-1200": {
-    "reach": 111,
-    "views": 204,
+    "reach": 112,
+    "views": 206,
     "likes": 5,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 6,
-    "ig_reels_avg_watch_time": 11072,
-    "reels_skip_rate": 46.8,
-    "ig_reels_video_view_total_time": 1384022
+    "ig_reels_avg_watch_time": 11079,
+    "reels_skip_rate": 46.4,
+    "ig_reels_video_view_total_time": 1396035
    },
    "lh-2026-11-16-1700": {
     "reach": 130,
@@ -87413,7 +87413,7 @@
    },
    "lc4-2026-11-16-20": {
     "reach": 5,
-    "views": 16,
+    "views": 18,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -87500,8 +87500,8 @@
     "ig_reels_video_view_total_time": 2401307
    },
    "lc4-2026-11-17-20": {
-    "reach": 2,
-    "views": 7,
+    "reach": 3,
+    "views": 10,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -87576,20 +87576,20 @@
     "ig_reels_video_view_total_time": 1467046
    },
    "lh-2026-11-18-1700": {
-    "reach": 113,
-    "views": 209,
+    "reach": 114,
+    "views": 210,
     "likes": 8,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 8,
-    "ig_reels_avg_watch_time": 12483,
-    "reels_skip_rate": 46.7,
-    "ig_reels_video_view_total_time": 1535443
+    "ig_reels_avg_watch_time": 12391,
+    "reels_skip_rate": 47.2,
+    "ig_reels_video_view_total_time": 1536566
    },
    "lc4-2026-11-18-20": {
-    "reach": 3,
-    "views": 4,
+    "reach": 4,
+    "views": 6,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -87613,21 +87613,21 @@
     }
    },
    "pensar2026-11-19": {
-    "reach": 11,
-    "views": 13,
+    "reach": 12,
+    "views": 14,
     "replies": 0,
     "shares": 0,
     "total_interactions": 1,
     "follows": 0,
     "profile_visits": 0,
     "nav": {
-     "swipe_forward": 3,
-     "tap_forward": 6
+     "tap_forward": 7,
+     "swipe_forward": 3
     }
    },
    "ls4-2026-11-19-deus-se-lembrou-de-noe": {
-    "reach": 8,
-    "views": 8,
+    "reach": 9,
+    "views": 9,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
@@ -87639,16 +87639,16 @@
     }
    },
    "ora-story-noite-2026-11-19": {
-    "reach": 7,
-    "views": 7,
+    "reach": 9,
+    "views": 9,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
     "follows": 0,
     "profile_visits": 0,
     "nav": {
-     "tap_forward": 6,
-     "tap_exit": 1
+     "tap_exit": 1,
+     "tap_forward": 7
     }
    },
    "lh-2026-11-19-1200": {
@@ -87664,20 +87664,20 @@
     "ig_reels_video_view_total_time": 1838413
    },
    "lh-2026-11-19-1700": {
-    "reach": 123,
-    "views": 222,
+    "reach": 125,
+    "views": 223,
     "likes": 8,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 8,
-    "ig_reels_avg_watch_time": 12705,
-    "reels_skip_rate": 40.9,
-    "ig_reels_video_view_total_time": 1600865
+    "ig_reels_avg_watch_time": 12590,
+    "reels_skip_rate": 41.4,
+    "ig_reels_video_view_total_time": 1611574
    },
    "lc4-2026-11-19-20": {
     "reach": 2,
-    "views": 3,
+    "views": 4,
     "likes": 0,
     "comments": 0,
     "saved": 0,
@@ -87687,6 +87687,32 @@
     "profile_visits": 0
    },
    "ora-story-manha-2026-11-20": {
+    "reach": 5,
+    "views": 7,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "nav": {
+     "tap_forward": 5
+    }
+   },
+   "vsabia2026-11-20": {
+    "reach": 5,
+    "views": 6,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "nav": {
+     "tap_forward": 3,
+     "swipe_forward": 1,
+     "tap_back": 1
+    }
+   },
+   "ls4-2026-11-20-davi-o-leao-e-o-urso": {
     "reach": 0,
     "views": 2,
     "replies": 0,
@@ -87694,8 +87720,227 @@
     "total_interactions": 0,
     "follows": 0,
     "profile_visits": 0
+   },
+   "ora-story-noite-2026-11-20": {
+    "reach": 0,
+    "views": 1,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "lh-2026-11-20-1200": {
+    "reach": 111,
+    "views": 167,
+    "likes": 3,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 3,
+    "ig_reels_avg_watch_time": 8533,
+    "reels_skip_rate": 55.6,
+    "ig_reels_video_view_total_time": 998443
+   },
+   "lh-2026-11-20-1700": {
+    "reach": 107,
+    "views": 195,
+    "likes": 8,
+    "comments": 0,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 10,
+    "ig_reels_avg_watch_time": 11662,
+    "reels_skip_rate": 51.3,
+    "ig_reels_video_view_total_time": 1352832
+   },
+   "lc4-2026-11-20-20": {
+    "reach": 3,
+    "views": 6,
+    "likes": 1,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "follows": 0,
+    "profile_visits": 0
    }
   },
-  "em": "2026-11-20T11:36-03:00"
+  "em": "2026-11-20T23:31-03:00",
+  "conta": {
+   "reach": 233,
+   "views": 413,
+   "accounts_engaged": 13,
+   "total_interactions": 18,
+   "profile_views": 0,
+   "likes": 14,
+   "comments": 0,
+   "saves": 1,
+   "shares": 0,
+   "replies": 0,
+   "reposts": 3,
+   "profile_links_taps": 0
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "FOLLOWER": 19,
+    "NON_FOLLOWER": 214
+   },
+   "views:follow_type": {
+    "NON_FOLLOWER": 345,
+    "FOLLOWER": 68
+   },
+   "views:media_product_type": {
+    "REEL": 370,
+    "STORY": 29,
+    "CAROUSEL_CONTAINER": 14
+   },
+   "total_interactions:media_product_type": {
+    "STORY": 1,
+    "REEL": 15,
+    "POST": 2
+   },
+   "likes:media_product_type": {
+    "STORY": 1,
+    "REEL": 12,
+    "POST": 1
+   },
+   "saves:media_product_type": {
+    "REEL": 1
+   },
+   "shares:media_product_type": {},
+   "comments:media_product_type": {},
+   "reach:media_product_type": {
+    "CAROUSEL_CONTAINER": 3,
+    "REEL": 226,
+    "STORY": 8
+   },
+   "follows_and_unfollows:follow_type": {}
+  },
+  "demografia": {
+   "follower_demographics:age": {
+    "13-17": 2,
+    "18-24": 6,
+    "25-34": 22,
+    "35-44": 31,
+    "45-54": 21,
+    "55-64": 17,
+    "65+": 55
+   },
+   "follower_demographics:gender": {
+    "F": 75,
+    "M": 36,
+    "U": 43
+   },
+   "follower_demographics:city": {
+    "São Paulo, São Paulo (state)": 10,
+    "São Luís, Maranhão": 3,
+    "São Bento, Paraíba": 1,
+    "Rio de Janeiro, Rio de Janeiro (state)": 11,
+    "Peruíbe, São Paulo (state)": 1,
+    "São José dos Campos, São Paulo (state)": 1,
+    "Maranguape, Ceará": 1,
+    "São João do Paraíso, Maranhão": 1,
+    "Osasco, São Paulo (state)": 2,
+    "Cerâmica, Piauí": 1,
+    "Maceió, Alagoas": 2,
+    "Maricá, Rio de Janeiro (state)": 1,
+    "Maracanaú, Ceará": 2,
+    "Porto Alegre, Rio Grande do Sul": 1,
+    "Vila Velha, Espírito Santo": 2,
+    "Duque de Caxias, Rio de Janeiro (state)": 2,
+    "Uberaba, Minas Gerais": 1,
+    "Teresina, Piauí": 1,
+    "Redenção, Pará": 1,
+    "São Luís de Montes Belos, Goiás": 1,
+    "Sorocaba, São Paulo (state)": 2,
+    "Piracicaba, São Paulo (state)": 1,
+    "Betim, Minas Gerais": 2,
+    "Paracatu, Minas Gerais": 1,
+    "Salvador, Bahia": 5,
+    "São João de Meriti, Rio de Janeiro (state)": 1,
+    "Coelho Neto, Maranhão": 1,
+    "Divino, Minas Gerais": 2,
+    "Fortaleza, Ceará": 4,
+    "Guararema, São Paulo (state)": 1,
+    "Nova Iguaçu, Rio de Janeiro (state)": 1,
+    "Guapimirim, Rio de Janeiro (state)": 1,
+    "Ananindeua, Pará": 2,
+    "Rodrigues Alves, Acre (state)": 1,
+    "Lagoa Seca, Paraíba": 1,
+    "Belo Horizonte, Minas Gerais": 5,
+    "Várzea Alegra, Ceará": 1,
+    "São José do Rio Prêto, São Paulo (state)": 2,
+    "Tucano, Bahia": 1,
+    "Campos dos Goytacazes, Rio de Janeiro (state)": 2,
+    "Barreiras, Bahia": 1,
+    "Campinas, São Paulo (state)": 2,
+    "Santa Rita, Paraíba": 1,
+    "Sumaré, São Paulo (state)": 1,
+    "São Gonçalo, Rio de Janeiro (state)": 2
+   },
+   "engaged_audience_demographics:age": {
+    "13-17": 3,
+    "18-24": 112,
+    "25-34": 289,
+    "35-44": 215,
+    "45-54": 237,
+    "55-64": 201,
+    "65+": 311
+   },
+   "engaged_audience_demographics:gender": {
+    "F": 673,
+    "M": 357,
+    "U": 338
+   },
+   "engaged_audience_demographics:city": {
+    "Ribeirão Prêto, São Paulo (state)": 6,
+    "São Paulo, São Paulo (state)": 71,
+    "São Luís, Maranhão": 15,
+    "Rio de Janeiro, Rio de Janeiro (state)": 39,
+    "São José dos Campos, São Paulo (state)": 6,
+    "Contagem, Minas Gerais": 5,
+    "Osasco, São Paulo (state)": 9,
+    "Maceió, Alagoas": 11,
+    "Maracanaú, Ceará": 4,
+    "Uberlândia, Minas Gerais": 5,
+    "Parnaíba, Piauí": 5,
+    "Vila Velha, Espírito Santo": 4,
+    "Porto Alegre, Rio Grande do Sul": 7,
+    "Duque de Caxias, Rio de Janeiro (state)": 4,
+    "Votorantim, São Paulo (state)": 4,
+    "João Pessoa, Paraíba": 13,
+    "Teresina, Piauí": 8,
+    "Aparecida de Goiânia, Goiás": 5,
+    "Feira de Santana, Bahia": 5,
+    "Recife, Pernambuco": 11,
+    "Caruaru, Pernambuco": 4,
+    "Guarulhos, São Paulo (state)": 6,
+    "Sorocaba, São Paulo (state)": 4,
+    "Santos, São Paulo (state)": 4,
+    "São Bernardo do Campo, São Paulo (state)": 5,
+    "Natal, Rio Grande do Norte": 17,
+    "Salvador, Bahia": 17,
+    "Mauá, São Paulo (state)": 4,
+    "Jaboatão dos Guararapes, Pernambuco": 6,
+    "Goiânia, Goiás": 9,
+    "Fortaleza, Ceará": 42,
+    "Manaus, Amazonas": 15,
+    "Nova Iguaçu, Rio de Janeiro (state)": 5,
+    "Aracaju, Sergipe": 6,
+    "Maringá, Paraná": 5,
+    "Florianópolis, Santa Catarina": 5,
+    "Campina Grande, Paraíba": 8,
+    "Cuiabá, Mato Grosso": 7,
+    "Juiz de Fora, Minas Gerais": 8,
+    "Sobral, Ceará": 5,
+    "Belo Horizonte, Minas Gerais": 17,
+    "Campos dos Goytacazes, Rio de Janeiro (state)": 4,
+    "Curitiba, Paraná": 8,
+    "Belém, Pará": 5,
+    "Campinas, São Paulo (state)": 5
+   }
+  },
+  "online": {}
  }
 }
