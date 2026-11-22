@@ -5923,14 +5923,19 @@
   "lido_em": "2026-11-22T10:45:41.793136+00:00"
  },
  "pensar2026-11-21": {
-  "reach": 0,
-  "views": 6,
+  "reach": 5,
+  "views": 7,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 3,
+   "swipe_forward": 1
+  },
+  "lido_em": "2026-11-22T16:35:35.949307+00:00"
  },
  "ls4-2026-11-21-ester-para-um-tempo-como-este": {
   "reach": 0,
@@ -5940,17 +5945,17 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-22T16:35:35.949307+00:00"
  },
  "ora-story-noite-2026-11-21": {
   "reach": 0,
-  "views": 2,
+  "views": 3,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-22T16:35:35.949307+00:00"
  },
  "lh-2026-11-21-1200": {
   "reach": 113,
@@ -5992,13 +5997,13 @@
  },
  "ora-story-manha-2026-11-22": {
   "reach": 0,
-  "views": 1,
+  "views": 2,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-22T16:35:35.949307+00:00"
  },
  "vsabia2026-11-22": {
   "reach": 0,
