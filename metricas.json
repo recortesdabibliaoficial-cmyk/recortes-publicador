@@ -167,6 +167,10 @@
   {
    "dia": "2026-11-22",
    "n": 155
+  },
+  {
+   "dia": "2026-11-23",
+   "n": 154
   }
  ],
  "mc-carrossel01": {
@@ -201,7 +205,7 @@
   "total_interactions": 0,
   "lido_em": "2026-10-13T16:35:25.132190+00:00"
  },
- "_em": "2026-11-22T14:35:34.652171+00:00",
+ "_em": "2026-11-23T16:47:41.379869+00:00",
  "mc-carrossel03": {
   "reach": 14,
   "views": 25,
@@ -1348,110 +1352,6 @@
   "lido_em": "2026-10-29T02:31:10.486415+00:00"
  },
  "_seg_hora": [
-  {
-   "t": "2026-11-08T13:40-03:00",
-   "n": 148
-  },
-  {
-   "t": "2026-11-08T14:35-03:00",
-   "n": 148
-  },
-  {
-   "t": "2026-11-08T15:30-03:00",
-   "n": 148
-  },
-  {
-   "t": "2026-11-08T16:25-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-08T17:21-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-08T18:20-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-08T19:16-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-08T20:15-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-08T21:11-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-08T22:06-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-08T23:01-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T00:01-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T01:01-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T01:56-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T02:51-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T03:46-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T04:41-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T05:36-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T06:31-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T07:27-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T08:22-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T09:22-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T10:20-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T11:16-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T12:11-03:00",
-   "n": 149
-  },
-  {
-   "t": "2026-11-09T13:11-03:00",
-   "n": 149
-  },
   {
    "t": "2026-11-09T14:06-03:00",
    "n": 150
@@ -2731,6 +2631,10 @@
   {
    "t": "2026-11-22T13:00-03:00",
    "n": 155
+  },
+  {
+   "t": "2026-11-23T13:47-03:00",
+   "n": 154
   }
  ],
  "pensar2026-10-23": {
@@ -4873,7 +4777,7 @@
   "ig_reels_avg_watch_time": 11676,
   "reels_skip_rate": 45.8,
   "ig_reels_video_view_total_time": 1973314,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc3-2026-11-09-20": {
   "reach": 5,
@@ -4952,7 +4856,7 @@
   "ig_reels_avg_watch_time": 8587,
   "reels_skip_rate": 50.8,
   "ig_reels_video_view_total_time": 1580125,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-10-1700": {
   "reach": 161,
@@ -4965,7 +4869,7 @@
   "ig_reels_avg_watch_time": 9957,
   "reels_skip_rate": 53.7,
   "ig_reels_video_view_total_time": 1633006,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc3-2026-11-10-20": {
   "reach": 5,
@@ -5015,7 +4919,7 @@
   "ig_reels_avg_watch_time": 8089,
   "reels_skip_rate": 53,
   "ig_reels_video_view_total_time": 1092077,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ls4-2026-11-11-jesus-e-a-mae-na-cruz": {
   "reach": 13,
@@ -5040,7 +4944,7 @@
   "saved": 1,
   "shares": 0,
   "total_interactions": 12,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-noite-2026-11-11": {
   "reach": 11,
@@ -5125,7 +5029,7 @@
   "ig_reels_avg_watch_time": 10875,
   "reels_skip_rate": 50.4,
   "ig_reels_video_view_total_time": 1294168,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-12-1700": {
   "reach": 121,
@@ -5138,7 +5042,7 @@
   "ig_reels_avg_watch_time": 8743,
   "reels_skip_rate": 53.5,
   "ig_reels_video_view_total_time": 1119226,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc3-2026-11-12-20": {
   "reach": 3,
@@ -5222,7 +5126,7 @@
   "ig_reels_avg_watch_time": 8751,
   "reels_skip_rate": 41.5,
   "ig_reels_video_view_total_time": 1085190,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-13-1700": {
   "reach": 129,
@@ -5235,7 +5139,7 @@
   "ig_reels_avg_watch_time": 16520,
   "reels_skip_rate": 31.6,
   "ig_reels_video_view_total_time": 2279810,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc3-2026-11-13-20": {
   "reach": 5,
@@ -5319,7 +5223,7 @@
   "ig_reels_avg_watch_time": 11133,
   "reels_skip_rate": 52.9,
   "ig_reels_video_view_total_time": 1558729,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-14-1700": {
   "reach": 114,
@@ -5332,7 +5236,7 @@
   "ig_reels_avg_watch_time": 9068,
   "reels_skip_rate": 49.2,
   "ig_reels_video_view_total_time": 1106365,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc3-2026-11-14-20": {
   "reach": 5,
@@ -5416,7 +5320,7 @@
   "ig_reels_avg_watch_time": 8006,
   "reels_skip_rate": 59.1,
   "ig_reels_video_view_total_time": 888685,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-15-1700": {
   "reach": 104,
@@ -5429,7 +5333,7 @@
   "ig_reels_avg_watch_time": 9981,
   "reels_skip_rate": 42.1,
   "ig_reels_video_view_total_time": 1068041,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc3-2026-11-15-20": {
   "reach": 6,
@@ -5514,7 +5418,7 @@
   "ig_reels_avg_watch_time": 11079,
   "reels_skip_rate": 46.4,
   "ig_reels_video_view_total_time": 1396035,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-16-1700": {
   "reach": 130,
@@ -5527,7 +5431,7 @@
   "ig_reels_avg_watch_time": 14910,
   "reels_skip_rate": 45.2,
   "ig_reels_video_view_total_time": 2042679,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc4-2026-11-16-20": {
   "reach": 5,
@@ -5539,7 +5443,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-manha-2026-11-17": {
   "reach": 9,
@@ -5609,7 +5513,7 @@
   "ig_reels_avg_watch_time": 11622,
   "reels_skip_rate": 45.8,
   "ig_reels_video_view_total_time": 1534234,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-17-1700": {
   "reach": 112,
@@ -5622,11 +5526,11 @@
   "ig_reels_avg_watch_time": 19620,
   "reels_skip_rate": 41.8,
   "ig_reels_video_view_total_time": 2413314,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc4-2026-11-17-20": {
-  "reach": 4,
-  "views": 14,
+  "reach": 5,
+  "views": 15,
   "likes": 0,
   "comments": 0,
   "saved": 0,
@@ -5634,7 +5538,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-manha-2026-11-18": {
   "reach": 9,
@@ -5704,24 +5608,24 @@
   "ig_reels_avg_watch_time": 10884,
   "reels_skip_rate": 43.7,
   "ig_reels_video_view_total_time": 1480300,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-18-1700": {
-  "reach": 114,
-  "views": 210,
+  "reach": 115,
+  "views": 212,
   "likes": 8,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 8,
-  "ig_reels_avg_watch_time": 12391,
-  "reels_skip_rate": 47.2,
-  "ig_reels_video_view_total_time": 1536566,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "ig_reels_avg_watch_time": 12388,
+  "reels_skip_rate": 46.8,
+  "ig_reels_video_view_total_time": 1548591,
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc4-2026-11-18-20": {
-  "reach": 6,
-  "views": 11,
+  "reach": 7,
+  "views": 12,
   "likes": 0,
   "comments": 0,
   "saved": 0,
@@ -5729,7 +5633,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-manha-2026-11-19": {
   "reach": 12,
@@ -5799,10 +5703,10 @@
   "ig_reels_avg_watch_time": 13278,
   "reels_skip_rate": 43.1,
   "ig_reels_video_view_total_time": 1845686,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-19-1700": {
-  "reach": 126,
+  "reach": 127,
   "views": 224,
   "likes": 8,
   "comments": 0,
@@ -5812,11 +5716,11 @@
   "ig_reels_avg_watch_time": 12502,
   "reels_skip_rate": 41.9,
   "ig_reels_video_view_total_time": 1612774,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc4-2026-11-19-20": {
-  "reach": 4,
-  "views": 6,
+  "reach": 5,
+  "views": 7,
   "likes": 0,
   "comments": 0,
   "saved": 0,
@@ -5824,7 +5728,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-manha-2026-11-20": {
   "reach": 5,
@@ -5885,7 +5789,7 @@
   "ig_reels_avg_watch_time": 9084,
   "reels_skip_rate": 53.3,
   "ig_reels_video_view_total_time": 1117369,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-20-1700": {
   "reach": 109,
@@ -5898,11 +5802,11 @@
   "ig_reels_avg_watch_time": 11531,
   "reels_skip_rate": 50.8,
   "ig_reels_video_view_total_time": 1372301,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc4-2026-11-20-20": {
-  "reach": 8,
-  "views": 13,
+  "reach": 10,
+  "views": 15,
   "likes": 1,
   "comments": 0,
   "saved": 0,
@@ -5910,7 +5814,7 @@
   "total_interactions": 2,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-manha-2026-11-21": {
   "reach": 0,
@@ -5958,34 +5862,34 @@
   "lido_em": "2026-11-22T16:35:35.949307+00:00"
  },
  "lh-2026-11-21-1200": {
-  "reach": 113,
-  "views": 199,
+  "reach": 114,
+  "views": 200,
   "likes": 2,
   "comments": 0,
   "saved": 0,
   "shares": 0,
   "total_interactions": 2,
-  "ig_reels_avg_watch_time": 11656,
-  "reels_skip_rate": 41,
-  "ig_reels_video_view_total_time": 1375522,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "ig_reels_avg_watch_time": 11566,
+  "reels_skip_rate": 41.5,
+  "ig_reels_video_view_total_time": 1376377,
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lh-2026-11-21-1700": {
-  "reach": 121,
-  "views": 176,
+  "reach": 124,
+  "views": 179,
   "likes": 3,
   "comments": 0,
   "saved": 1,
   "shares": 0,
   "total_interactions": 4,
-  "ig_reels_avg_watch_time": 7125,
-  "reels_skip_rate": 57.5,
-  "ig_reels_video_view_total_time": 912004,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "ig_reels_avg_watch_time": 6990,
+  "reels_skip_rate": 58.5,
+  "ig_reels_video_view_total_time": 915774,
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "lc4-2026-11-21-20": {
-  "reach": 5,
-  "views": 10,
+  "reach": 6,
+  "views": 12,
   "likes": 0,
   "comments": 0,
   "saved": 0,
@@ -5993,7 +5897,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-22T14:35:34.652171+00:00"
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-manha-2026-11-22": {
   "reach": 0,
@@ -6014,5 +5918,38 @@
   "follows": 0,
   "profile_visits": 0,
   "lido_em": "2026-11-22T15:05:56.192453+00:00"
+ },
+ "lh-2026-11-22-1200": {
+  "reach": 129,
+  "views": 225,
+  "likes": 5,
+  "comments": 0,
+  "saved": 1,
+  "shares": 0,
+  "total_interactions": 6,
+  "ig_reels_avg_watch_time": 12137,
+  "reels_skip_rate": 48.1,
+  "ig_reels_video_view_total_time": 1638510,
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
+ },
+ "ora-story-manha-2026-11-23": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
+ },
+ "vsabia2026-11-23": {
+  "reach": 0,
+  "views": 0,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "lido_em": "2026-11-23T16:47:41.379869+00:00"
  }
 }
