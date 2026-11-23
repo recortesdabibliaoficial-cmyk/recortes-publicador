@@ -5714,5 +5714,236 @@
   "fixo": true,
   "formato": "carrossel_novo",
   "origem": "historia_do_reel"
+ },
+ {
+  "id": "ora-story-manha-2026-11-23",
+  "tipo": "STORY",
+  "quando": "2026-11-23T08:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-23_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 23/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-23.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-23",
+  "tipo": "STORY",
+  "quando": "2026-11-23T21:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-23_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 23/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-23.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-24",
+  "tipo": "STORY",
+  "quando": "2026-11-24T08:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-24_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 24/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-24.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-24",
+  "tipo": "STORY",
+  "quando": "2026-11-24T21:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-24_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 24/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-24.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-25",
+  "tipo": "STORY",
+  "quando": "2026-11-25T08:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-25_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 25/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-25.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-25",
+  "tipo": "STORY",
+  "quando": "2026-11-25T21:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-25_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 25/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-25.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-26",
+  "tipo": "STORY",
+  "quando": "2026-11-26T08:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-26_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 26/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-26.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-26",
+  "tipo": "STORY",
+  "quando": "2026-11-26T21:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-26_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 26/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-26.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-27",
+  "tipo": "STORY",
+  "quando": "2026-11-27T08:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-27_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 27/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-27.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-27",
+  "tipo": "STORY",
+  "quando": "2026-11-27T21:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-27_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 27/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-27.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-28",
+  "tipo": "STORY",
+  "quando": "2026-11-28T08:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-28_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 28/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-28.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-28",
+  "tipo": "STORY",
+  "quando": "2026-11-28T21:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-28_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 28/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-28.jpg"
+ },
+ {
+  "id": "ora-story-manha-2026-11-29",
+  "tipo": "STORY",
+  "quando": "2026-11-29T08:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-29_manha.jpg"
+  ],
+  "titulo": "Oração da manhã · 29/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-manha-2026-11-29.jpg"
+ },
+ {
+  "id": "ora-story-noite-2026-11-29",
+  "tipo": "STORY",
+  "quando": "2026-11-29T21:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_oracao_2026-11-29_noite.jpg"
+  ],
+  "titulo": "Oração da noite · 29/11 (Story)",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/ora-story-noite-2026-11-29.jpg"
+ },
+ {
+  "id": "vsabia2026-11-23",
+  "tipo": "STORY",
+  "quando": "2026-11-23T12:01:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_2026-11-23_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? O filho pródigo",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-23.jpg"
+ },
+ {
+  "id": "vsabia2026-11-25",
+  "tipo": "STORY",
+  "quando": "2026-11-25T12:01:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_2026-11-25_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? Zaqueu",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-25.jpg"
+ },
+ {
+  "id": "vsabia2026-11-27",
+  "tipo": "STORY",
+  "quando": "2026-11-27T12:01:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_2026-11-27_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? A mulher samaritana",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-27.jpg"
+ },
+ {
+  "id": "vsabia2026-11-29",
+  "tipo": "STORY",
+  "quando": "2026-11-29T12:01:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_2026-11-29_voce_sabia.jpg"
+  ],
+  "titulo": "Você sabia? Nazaré",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/vsabia2026-11-29.jpg"
+ },
+ {
+  "id": "pensar2026-11-24",
+  "tipo": "STORY",
+  "quando": "2026-11-24T17:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_2026-11-24_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Descanso",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-24.jpg"
+ },
+ {
+  "id": "pensar2026-11-26",
+  "tipo": "STORY",
+  "quando": "2026-11-26T17:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_2026-11-26_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Na família",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-26.jpg"
+ },
+ {
+  "id": "pensar2026-11-28",
+  "tipo": "STORY",
+  "quando": "2026-11-28T17:00:00-03:00",
+  "midia": [
+   "midia/lote2311/stories/story_2026-11-28_para_pensar.jpg"
+  ],
+  "titulo": "Para pensar: Mágoa",
+  "fixo": true,
+  "miniatura": "midia/miniaturas/pensar2026-11-28.jpg"
  }
 ]
