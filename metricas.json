@@ -1357,10 +1357,6 @@
  },
  "_seg_hora": [
   {
-   "t": "2026-11-10T09:01-03:00",
-   "n": 150
-  },
-  {
    "t": "2026-11-10T10:01-03:00",
    "n": 150
   },
@@ -2638,6 +2634,10 @@
   },
   {
    "t": "2026-11-24T08:45-03:00",
+   "n": 154
+  },
+  {
+   "t": "2026-11-24T09:40-03:00",
    "n": 154
   }
  ],
@@ -5937,8 +5937,22 @@
   "lido_em": "2026-11-24T02:30:47.770529+00:00"
  },
  "ora-story-manha-2026-11-23": {
+  "reach": 6,
+  "views": 7,
+  "replies": 0,
+  "shares": 0,
+  "total_interactions": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "nav": {
+   "tap_forward": 4,
+   "tap_exit": 1
+  },
+  "lido_em": "2026-11-24T12:40:47.643398+00:00"
+ },
+ "vsabia2026-11-23": {
   "reach": 5,
-  "views": 6,
+  "views": 5,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
@@ -5946,19 +5960,10 @@
   "profile_visits": 0,
   "nav": {
    "tap_exit": 1,
-   "tap_forward": 3
+   "tap_forward": 2,
+   "swipe_forward": 1
   },
-  "lido_em": "2026-11-24T10:37:22.392459+00:00"
- },
- "vsabia2026-11-23": {
-  "reach": 0,
-  "views": 4,
-  "replies": 0,
-  "shares": 0,
-  "total_interactions": 0,
-  "follows": 0,
-  "profile_visits": 0,
-  "lido_em": "2026-11-24T10:37:22.392459+00:00"
+  "lido_em": "2026-11-24T12:40:47.643398+00:00"
  },
  "ora-story-noite-2026-11-23": {
   "reach": 0,
@@ -5968,7 +5973,7 @@
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-24T10:37:22.392459+00:00"
+  "lido_em": "2026-11-24T12:40:47.643398+00:00"
  },
  "ora-story-manha-2026-11-24": {
   "reach": 0,
