@@ -5933,24 +5933,28 @@
   "lido_em": "2026-11-23T16:47:41.379869+00:00"
  },
  "ora-story-manha-2026-11-23": {
-  "reach": 0,
-  "views": 3,
+  "reach": 5,
+  "views": 6,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-23T22:51:02.782887+00:00"
+  "nav": {
+   "tap_exit": 1,
+   "tap_forward": 3
+  },
+  "lido_em": "2026-11-24T00:55:40.874232+00:00"
  },
  "vsabia2026-11-23": {
   "reach": 0,
-  "views": 3,
+  "views": 4,
   "replies": 0,
   "shares": 0,
   "total_interactions": 0,
   "follows": 0,
   "profile_visits": 0,
-  "lido_em": "2026-11-23T22:51:02.782887+00:00"
+  "lido_em": "2026-11-24T00:55:40.874232+00:00"
  },
  "ora-story-noite-2026-11-23": {
   "reach": 0,
