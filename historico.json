@@ -110579,16 +110579,16 @@
     "profile_visits": 0
    },
    "htexto14-2026-10-24": {
-    "reach": 3941,
-    "views": 9645,
-    "likes": 258,
+    "reach": 3954,
+    "views": 9662,
+    "likes": 259,
     "comments": 50,
     "saved": 15,
     "shares": 3,
-    "total_interactions": 331,
-    "ig_reels_avg_watch_time": 23413,
+    "total_interactions": 332,
+    "ig_reels_avg_watch_time": 23425,
     "reels_skip_rate": 37.9,
-    "ig_reels_video_view_total_time": 97846679
+    "ig_reels_video_view_total_time": 98011258
    },
    "vmsg2026-10-24": {
     "reach": 137,
@@ -111927,15 +111927,15 @@
    },
    "lh-2026-11-01-1000": {
     "reach": 5605,
-    "views": 14464,
+    "views": 14465,
     "likes": 135,
     "comments": 5,
     "saved": 15,
     "shares": 6,
     "total_interactions": 180,
-    "ig_reels_avg_watch_time": 21897,
+    "ig_reels_avg_watch_time": 21894,
     "reels_skip_rate": 28.2,
-    "ig_reels_video_view_total_time": 139989786
+    "ig_reels_video_view_total_time": 139993386
    },
    "lc2-2026-11-04-20": {
     "reach": 4,
@@ -113591,7 +113591,7 @@
    },
    "ora-story-noite-2026-11-25": {
     "reach": 0,
-    "views": 2,
+    "views": 3,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
@@ -113600,7 +113600,25 @@
    },
    "ora-story-manha-2026-11-26": {
     "reach": 0,
-    "views": 1,
+    "views": 3,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "pensar2026-11-26": {
+    "reach": 0,
+    "views": 3,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "ora-story-noite-2026-11-26": {
+    "reach": 0,
+    "views": 0,
     "replies": 0,
     "shares": 0,
     "total_interactions": 0,
@@ -113608,6 +113626,173 @@
     "profile_visits": 0
    }
   },
-  "em": "2026-11-26T11:31-03:00"
+  "em": "2026-11-26T23:30-03:00",
+  "conta": {
+   "reach": 9,
+   "views": 21,
+   "accounts_engaged": 1,
+   "total_interactions": 1,
+   "profile_views": 0,
+   "likes": 1,
+   "comments": 0,
+   "saves": 0,
+   "shares": 0,
+   "replies": 0,
+   "reposts": 0,
+   "profile_links_taps": 0
+  },
+  "quebras": {
+   "reach:follow_type": {
+    "FOLLOWER": 3,
+    "NON_FOLLOWER": 6
+   },
+   "views:follow_type": {
+    "NON_FOLLOWER": 13,
+    "FOLLOWER": 8
+   },
+   "views:media_product_type": {
+    "REEL": 13,
+    "STORY": 8
+   },
+   "total_interactions:media_product_type": {
+    "REEL": 1
+   },
+   "likes:media_product_type": {
+    "REEL": 1
+   },
+   "saves:media_product_type": {},
+   "shares:media_product_type": {},
+   "comments:media_product_type": {},
+   "reach:media_product_type": {
+    "STORY": 3,
+    "REEL": 6
+   },
+   "follows_and_unfollows:follow_type": {}
+  },
+  "demografia": {
+   "follower_demographics:age": {
+    "13-17": 2,
+    "18-24": 6,
+    "25-34": 22,
+    "35-44": 30,
+    "45-54": 22,
+    "55-64": 17,
+    "65+": 54
+   },
+   "follower_demographics:gender": {
+    "F": 74,
+    "M": 37,
+    "U": 42
+   },
+   "follower_demographics:city": {
+    "São Paulo, São Paulo (state)": 7,
+    "Araranguá, Santa Catarina": 1,
+    "Alagoinhas, Bahia": 1,
+    "Barra Velha, Santa Catarina": 1,
+    "São Luís, Maranhão": 3,
+    "Rio de Janeiro, Rio de Janeiro (state)": 12,
+    "São José dos Campos, São Paulo (state)": 1,
+    "Juazeiro do Norte, Ceará": 1,
+    "Brumadinho, Minas Gerais": 1,
+    "Jundiaí, São Paulo (state)": 2,
+    "Osasco, São Paulo (state)": 2,
+    "Santo Antônio do Monte, Minas Gerais": 1,
+    "Maceió, Alagoas": 2,
+    "Maracanaú, Ceará": 2,
+    "Vila Velha, Espírito Santo": 2,
+    "Duque de Caxias, Rio de Janeiro (state)": 2,
+    "Uberaba, Minas Gerais": 1,
+    "Fervedouro, Minas Gerais": 1,
+    "João Pessoa, Paraíba": 1,
+    "Teresina, Piauí": 1,
+    "Taguaí, São Paulo (state)": 1,
+    "Sorocaba, São Paulo (state)": 2,
+    "Piracicaba, São Paulo (state)": 1,
+    "Betim, Minas Gerais": 2,
+    "Paracatu, Minas Gerais": 1,
+    "Salvador, Bahia": 6,
+    "São João de Meriti, Rio de Janeiro (state)": 1,
+    "Caraguatatuba, São Paulo (state)": 1,
+    "Coelho Neto, Maranhão": 1,
+    "Fortaleza, Ceará": 4,
+    "Lavras, Minas Gerais": 1,
+    "Arapoti, Paraná": 1,
+    "Alagoinha, Paraíba": 1,
+    "Maioba, Maranhão": 1,
+    "Ananindeua, Pará": 1,
+    "Lagoa Seca, Paraíba": 1,
+    "Ibirité, Minas Gerais": 1,
+    "Diadema, São Paulo (state)": 1,
+    "Rio Verde, Goiás": 1,
+    "Belo Horizonte, Minas Gerais": 5,
+    "São José do Rio Prêto, São Paulo (state)": 1,
+    "Taguatinga, Federal District": 1,
+    "Campinas, São Paulo (state)": 2,
+    "Sumaré, São Paulo (state)": 1,
+    "São Gonçalo, Rio de Janeiro (state)": 2
+   },
+   "engaged_audience_demographics:age": {
+    "13-17": 3,
+    "18-24": 112,
+    "25-34": 289,
+    "35-44": 215,
+    "45-54": 237,
+    "55-64": 201,
+    "65+": 311
+   },
+   "engaged_audience_demographics:gender": {
+    "F": 673,
+    "M": 357,
+    "U": 338
+   },
+   "engaged_audience_demographics:city": {
+    "Ribeirão Prêto, São Paulo (state)": 6,
+    "São Paulo, São Paulo (state)": 71,
+    "São Luís, Maranhão": 15,
+    "Rio de Janeiro, Rio de Janeiro (state)": 39,
+    "São José dos Campos, São Paulo (state)": 6,
+    "Contagem, Minas Gerais": 5,
+    "Osasco, São Paulo (state)": 9,
+    "Maceió, Alagoas": 11,
+    "Maracanaú, Ceará": 4,
+    "Uberlândia, Minas Gerais": 5,
+    "Parnaíba, Piauí": 5,
+    "Vila Velha, Espírito Santo": 4,
+    "Porto Alegre, Rio Grande do Sul": 7,
+    "Duque de Caxias, Rio de Janeiro (state)": 4,
+    "Votorantim, São Paulo (state)": 4,
+    "João Pessoa, Paraíba": 13,
+    "Teresina, Piauí": 8,
+    "Aparecida de Goiânia, Goiás": 5,
+    "Feira de Santana, Bahia": 5,
+    "Recife, Pernambuco": 11,
+    "Caruaru, Pernambuco": 4,
+    "Guarulhos, São Paulo (state)": 6,
+    "Sorocaba, São Paulo (state)": 4,
+    "Santos, São Paulo (state)": 4,
+    "São Bernardo do Campo, São Paulo (state)": 5,
+    "Natal, Rio Grande do Norte": 17,
+    "Salvador, Bahia": 17,
+    "Mauá, São Paulo (state)": 4,
+    "Jaboatão dos Guararapes, Pernambuco": 6,
+    "Goiânia, Goiás": 9,
+    "Fortaleza, Ceará": 42,
+    "Manaus, Amazonas": 15,
+    "Nova Iguaçu, Rio de Janeiro (state)": 5,
+    "Aracaju, Sergipe": 6,
+    "Maringá, Paraná": 5,
+    "Florianópolis, Santa Catarina": 5,
+    "Campina Grande, Paraíba": 8,
+    "Cuiabá, Mato Grosso": 7,
+    "Juiz de Fora, Minas Gerais": 8,
+    "Sobral, Ceará": 5,
+    "Belo Horizonte, Minas Gerais": 17,
+    "Campos dos Goytacazes, Rio de Janeiro (state)": 4,
+    "Curitiba, Paraná": 8,
+    "Belém, Pará": 5,
+    "Campinas, São Paulo (state)": 5
+   }
+  },
+  "online": {}
  }
 }
